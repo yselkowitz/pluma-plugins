@@ -1,0 +1,3041 @@
+# Pluma Bahasa Melayu (ms)
+# Jika takut risiko, Jangan bicara tentang Perjuangan
+# Hasbullah Bin Pit (sebol) <sebol@ikhlas.com>, 2002
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: besar\n"
+"POT-Creation-Date: 2002-12-19 21:17+0800\n"
+"PO-Revision-Date: 2002-12-19 21:17+0800\n"
+"Last-Translator: Hasbullah Bin Pit <sebol@ikhlas.com>\n"
+"Language-Team: Projek Gabai <gabai-penyumbang@lists.sourceforge.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/GNOME_Pluma.server.in.h:1
+msgid "pluma application"
+msgstr "aplikasi pluma"
+
+#: data/GNOME_Pluma.server.in.h:2
+msgid "pluma automation factory"
+msgstr "kilang automasi pluma"
+
+#
+#: data/pluma.desktop.in.h:1
+msgid "Edit text files"
+msgstr "Edit fail teks"
+
+#: data/pluma.desktop.in.h:2 src/pluma2.c:336
+msgid "Text Editor"
+msgstr "Editor Teks"
+
+#: data/pluma.schemas.in.h:1
+msgid ""
+"A custom font that will be used for the editing area. This will only take "
+"effect if the \"Use Default Font\" option is turned off."
+msgstr ""
+"Font tersendiri akan digunakan untuk kawasan menpluma. Ini hanya berkesan "
+"jika opsyen \"Guna Font Default\" dimatikan."
+
+#: data/pluma.schemas.in.h:2
+msgid "Auto Save"
+msgstr "Auto Simpan"
+
+#: data/pluma.schemas.in.h:3
+msgid "Auto Save Interval"
+msgstr "Selang masa Auto Simpan"
+
+#: data/pluma.schemas.in.h:4
+msgid "Auto indent"
+msgstr "Auto inden"
+
+#: data/pluma.schemas.in.h:5
+msgid "Background Color"
+msgstr "Warna Latar Belakang"
+
+#: data/pluma.schemas.in.h:6
+msgid ""
+"Background color for selected text in the editing area. This will only take "
+"effect if the \"Use Default Colors\" option is turned off."
+msgstr ""
+"Warna latar belakang bagi teks dipilih pada kawasan menpluma. Ia akan "
+"berkesan jika opsyen \"Guna Warna Defauilt\" dimatikan."
+
+#: data/pluma.schemas.in.h:7
+msgid ""
+"Background color for unselected text in the editing area. This will only "
+"take effect if the \"Use Default Colors\" option is turned off."
+msgstr ""
+"Warna latar belakang bagi teks tidak dipilih pada kawasan menpluma. Ia akan "
+"berkesan jika opsyen \"Guna Warna Default\" dimatikan."
+
+#: data/pluma.schemas.in.h:8
+msgid "Backup Copy Extension"
+msgstr "Penghujungan Salinan Backup"
+
+#: data/pluma.schemas.in.h:9
+msgid "Body Font for Printing"
+msgstr "Font Badan untuk Cetakan"
+
+#: data/pluma.schemas.in.h:10
+msgid "Create Backup Copies"
+msgstr "Cipta Salinan Backup"
+
+#: data/pluma.schemas.in.h:11
+msgid "Display Line Numbers"
+msgstr "Papar Nombor Baris"
+
+#: data/pluma.schemas.in.h:12
+msgid "Editor Font"
+msgstr "Font Editor"
+
+#: data/pluma.schemas.in.h:13
+msgid "Encoding for Saving"
+msgstr "Pengenkodan bagi Simpanan"
+
+#: data/pluma.schemas.in.h:14 src/dialogs/pluma-encodings-dialog.c:257
+#: src/dialogs/pluma-encodings-dialog.glade2.h:2
+#: src/dialogs/pluma-preferences-dialog.c:2290
+msgid "Encodings"
+msgstr "Pengenkodan"
+
+#: data/pluma.schemas.in.h:15
+msgid ""
+"Extension or suffix to use for backup file names. This will only take effect "
+"if the \"Create Backup Copies\" option is turned on."
+msgstr ""
+"Penghujungan atau suffiks digunakan bagi nama fail backup. Ia hanya berkesan "
+"jika opsyen \"Cipta Salinan Backup\" dihidupkan."
+
+#: data/pluma.schemas.in.h:16
+msgid ""
+"Foreground color for selected text in the editing area. This will only take "
+"effect if the \"Use Default Colors\" option is turned off."
+msgstr ""
+"Warna latar belakang bagi teks dipilih pada kawasan menpluma. Ia akan "
+"berkesan jika opsyen \"Guna Warna Defauilt\" dimatikan."
+
+#: data/pluma.schemas.in.h:17
+msgid ""
+"Foreground color for the unselected text in the editing area. This will only "
+"take effect if the \"Use Default Colors\" option is turned off."
+msgstr ""
+"Warna latar depan bagi teks tidak dipilih pada kawasan menpluma. Ia akan "
+"berkesan jika opsyen \"Guna Warna Default\" dimatikan."
+
+#: data/pluma.schemas.in.h:18
+msgid "Header Font for Printing"
+msgstr "Font Pengepala untuk Cetakan"
+
+#: data/pluma.schemas.in.h:19
+msgid ""
+"If this value is 0, then no line numbers will be inserted when printing a "
+"document. Otherwise, pluma will print line numbers every such number of "
+"lines."
+msgstr ""
+
+#: data/pluma.schemas.in.h:20
+msgid "Insert spaces"
+msgstr "Selit ruang"
+
+#: data/pluma.schemas.in.h:21
+msgid "Line Number Font for Printing"
+msgstr "Font Bilangan Baris bagi Cetakan"
+
+#: data/pluma.schemas.in.h:22
+msgid "Line Wrapping Mode"
+msgstr "Mod Balutan Baris"
+
+#: data/pluma.schemas.in.h:23
+msgid ""
+"List of encodings used by pluma for reading files not encoded in UTF-8 or in "
+"the current locale encoding."
+msgstr ""
+
+#: data/pluma.schemas.in.h:24
+msgid "Maximum Recent Files"
+msgstr "Fail baru-baru ini Maksima"
+
+#: data/pluma.schemas.in.h:25
+msgid "Maximum number of actions that pluma will be able to undo or redo."
+msgstr ""
+
+#: data/pluma.schemas.in.h:26
+msgid ""
+"Number of minutes after which pluma will automatically save modified files. "
+"This will only take effect if the \"Auto Save\" option is turned on."
+msgstr ""
+
+#: data/pluma.schemas.in.h:27
+msgid "Print Header"
+msgstr "Cetak Pengepala"
+
+#: data/pluma.schemas.in.h:28
+msgid "Print Line Numbers"
+msgstr "Cetak Nombor Baris"
+
+#: data/pluma.schemas.in.h:29
+msgid "Printing Line Wrapping Mode"
+msgstr "Mod Balutan Baris Cetakan"
+
+#: data/pluma.schemas.in.h:30
+msgid "Selected Text Color"
+msgstr "Warna Teks Dipilih"
+
+#: data/pluma.schemas.in.h:31
+msgid "Selection Color"
+msgstr "Warna Pilihan"
+
+#: data/pluma.schemas.in.h:32
+msgid "Show Cursor Position"
+msgstr "Papar Posisi Kursor"
+
+#: data/pluma.schemas.in.h:33
+msgid "Show Overwrite Mode"
+msgstr "Papar Mod Tindihan"
+
+#: data/pluma.schemas.in.h:34
+msgid ""
+"Specifies how to wrap long lines for printing. Use \"GTK_WRAP_NONE\" for no "
+"wrapping, \"GTK_WRAP_WORD\" for wrapping at word boundaries, and "
+"\"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. Note that "
+"the values are case-sensitive, so make sure they appear exactly as mentioned "
+"here."
+msgstr ""
+
+#: data/pluma.schemas.in.h:35
+msgid ""
+"Specifies how to wrap long lines in the editing area. Use \"GTK_WRAP_NONE\" "
+"for no wrapping, \"GTK_WRAP_WORD\" for wrapping at word boundaries, and "
+"\"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. Note that "
+"the values are case-sensitive, so make sure they appear exactly as mentioned "
+"here."
+msgstr ""
+
+#: data/pluma.schemas.in.h:36
+msgid ""
+"Specifies the font to use for a document's body when printing documents."
+msgstr "Nyatakan font digunakan pada badan dokumen bila mencetak dokumen."
+
+#: data/pluma.schemas.in.h:37
+msgid ""
+"Specifies the font to use for line numbers when printing. This will only "
+"take effect if the \"Print Line Numbers\" option is non-zero."
+msgstr ""
+
+#: data/pluma.schemas.in.h:38
+msgid ""
+"Specifies the font to use for page headers when printing a document. This "
+"will only take effect if the \"Print Header\" option is turned on."
+msgstr ""
+
+#: data/pluma.schemas.in.h:39
+msgid ""
+"Specifies the maximum number of recently opened files that will be displayed "
+"in the \"Recent Files\" submenu."
+msgstr ""
+
+#: data/pluma.schemas.in.h:40
+msgid ""
+"Specifies the number of spaces that should be displayed instead of Tab "
+"characters."
+msgstr ""
+
+#: data/pluma.schemas.in.h:41
+msgid "Status Bar is Visible"
+msgstr "Bar Status adalah Tampak"
+
+#: data/pluma.schemas.in.h:42
+msgid ""
+"Style for the toolbar buttons. Possible values are \"PLUMA_TOOLBAR_SYSTEM\" "
+"to use the system's default style, \"PLUMA_TOOLBAR_ICONS\" to display icons "
+"only, \"PLUMA_TOOLBAR_ICONS_AND_TEXT\" to display both icons and text, and "
+"\"PLUMA_TOOLBAR_ICONS_BOTH_HORIZ\" to display prioritized text beside icons. "
+"Note that the values are case-sensitive, so make sure they appear exactly as "
+"mentioned here."
+msgstr ""
+
+#: data/pluma.schemas.in.h:43
+msgid "Tab Size"
+msgstr "Saiz Tab"
+
+#: data/pluma.schemas.in.h:44
+msgid "Text Color"
+msgstr "Warna Teks"
+
+#: data/pluma.schemas.in.h:45
+msgid ""
+"The encoding method to use for saving files. Possible values are "
+"\"PLUMA_SAVE_ALWAYS_UTF8\" for mandatory UTF-8 saving, "
+"\"PLUMA_SAVE_CURRENT_LOCALE_IF_POSSIBLE\" if you want pluma to try to "
+"convert the document it is saving to your current locale's encoding, "
+"\"PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE\" if you want pluma to try "
+"to use the original file encoding (new files in UTF8) and "
+"\"PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE_NCL\" if you want pluma to "
+"try to use the original file encoding (new files in current locale's "
+"encoding). If the conversion is successful, it will be used. Otherwise, UTF-"
+"8 will be used. Note that the values are case-sensitive, so make sure they "
+"appear exactly as mentioned here."
+msgstr ""
+
+#: data/pluma.schemas.in.h:46
+msgid "Toolbar Buttons Style"
+msgstr "Gaya Butang Toolbar"
+
+#: data/pluma.schemas.in.h:47
+msgid "Toolbar is Visible"
+msgstr "Toolbar adalah Tampak"
+
+#: data/pluma.schemas.in.h:48
+msgid "Undo Actions Limit"
+msgstr "Had Aksi Nyahcara"
+
+#: data/pluma.schemas.in.h:49
+msgid "Use Default Colors"
+msgstr "Guna Warna Default"
+
+#: data/pluma.schemas.in.h:50
+msgid "Use Default Font"
+msgstr "Guna Font Default"
+
+#: data/pluma.schemas.in.h:51
+msgid ""
+"Whether pluma should automatically save modified files after a time "
+"interval. You can set the time interval with the \"Auto Save Interval\" "
+"option."
+msgstr ""
+"Samada pluma patut automatik simpan fail diubahsuai selepas selang masa "
+"tertentu.Anda boleh menetapkan selang masa dengan opsyen \"Selang Masa Auto "
+"Simpan\"."
+
+#: data/pluma.schemas.in.h:52
+msgid ""
+"Whether pluma should create backup copies for the files it saves. You can "
+"set the backup file extension with the \"Backup Copy Extension\" option."
+msgstr ""
+"Samada pluma patut mencipta salinan fail backup bagi fail yang disimpan. "
+"Anda boleh menetapkan penghujungan fail backup dengan opsyen \"Penghujungan "
+"Salinan Backup\"."
+
+#: data/pluma.schemas.in.h:53
+msgid "Whether pluma should display line numbers in the editing area."
+msgstr "Samada pluma patut memapar bilangan baris pada kawasan menpluma."
+
+#: data/pluma.schemas.in.h:54
+msgid "Whether pluma should enable auto indentation."
+msgstr "Samada pluma patut menghidupkan auto pengindenan."
+
+#: data/pluma.schemas.in.h:55
+msgid "Whether pluma should include a document header when printing documents."
+msgstr "Samada pluma patut sertakan pengepala dokumen bila mencetak dokumen."
+
+#: data/pluma.schemas.in.h:56
+msgid "Whether pluma should insert spaces instead of tabs."
+msgstr "Samada pluma patut menyelit ruang selain drpd tab."
+
+#: data/pluma.schemas.in.h:57
+msgid ""
+"Whether the status bar at the bottom of editing windows should be visible."
+msgstr "Samada bar status pada bawah tetingkap menpluma patut tampak."
+
+#: data/pluma.schemas.in.h:58
+msgid ""
+"Whether the status bar should show the cursor position in editing windows. "
+"Make sure you turn on the \"Status Bar is Visible\" option for this to take "
+"effect."
+msgstr ""
+
+#: data/pluma.schemas.in.h:59
+msgid ""
+"Whether the status bar should show the insert/overwrite mode in editing "
+"windows. Make sure you turn on the \"Status Bar is Visible\" option for this "
+"to take effect."
+msgstr ""
+
+#: data/pluma.schemas.in.h:60
+msgid "Whether the toolbar should be visible in editing windows."
+msgstr ""
+
+#: data/pluma.schemas.in.h:61
+msgid ""
+"Whether to use the system's default colors for the editing area. If this "
+"option is turned off, then the colors of the editing area will be those "
+"specified in the \"Background Color\", \"Text Color\", \"Selected Text Color"
+"\", and \"Selection Color\" options."
+msgstr ""
+
+#: data/pluma.schemas.in.h:62
+msgid ""
+"Whether to use the system's default font for editing text instead of a font "
+"specific to pluma. If this option is turned off, then the font named in the "
+"\"Editor Font\" option will be used instead of the system font."
+msgstr ""
+
+#: plugins/ASCII/ascii.c:43
+msgid "_ASCII Table"
+msgstr "Jadual _ASCII"
+
+#: plugins/ASCII/ascii.c:46
+msgid "Pop-up a dialog containing an ASCII Table"
+msgstr "Pop-up dialog mengandungi Jadual ASCII"
+
+#: plugins/ASCII/ascii.c:303
+msgid "Char"
+msgstr "Aksara"
+
+#: plugins/ASCII/ascii.c:310
+msgid "Dec#"
+msgstr "Des#"
+
+#: plugins/ASCII/ascii.c:317
+msgid "Hex#"
+msgstr "Heks#"
+
+#: plugins/ASCII/ascii.c:324
+msgid "Name"
+msgstr "Nama"
+
+#: plugins/ASCII/ascii.c:369
+msgid "ASCII Table"
+msgstr "Jadual ASCII"
+
+#: plugins/ASCII/ascii.c:382 plugins/ASCII/asciitable.glade2.h:2
+msgid "_Insert char"
+msgstr "Sel_it aksara"
+
+#: plugins/ASCII/asciitable.glade2.h:1
+msgid "ASCII table"
+msgstr "Jadual ASCII"
+
+#. AFAIK, all cvs commit messages start with this
+#: plugins/cvschangelog/cvschangelog.c:49
+msgid "Open CVS Chan_geLogs"
+msgstr "Buka Chan_geLog CVS"
+
+#: plugins/cvschangelog/cvschangelog.c:52
+msgid "Searches for ChangeLogs in the current document and opens them"
+msgstr "Cari ChangeLog pada dokumen semasa dan buka."
+
+#: plugins/diff/diff.c:65
+msgid "Co_mpare Files..."
+msgstr "_Banding Fail..."
+
+#: plugins/diff/diff.c:68
+msgid "Makes a diff file from two documents or files"
+msgstr "Buat fail diff daripada dua dokumen atau fail"
+
+#. Create the dialog
+#: plugins/diff/diff.c:271
+msgid "Compare Files"
+msgstr "Banding Fail"
+
+#: plugins/diff/diff.c:285
+msgid "C_ompare"
+msgstr "_Banding"
+
+#: plugins/diff/diff.c:513
+msgid "Executed command"
+msgstr "Arahan dilaksana"
+
+#: plugins/diff/diff.c:652
+msgid "The two documents you selected are the same."
+msgstr "Dua dokumen yang anda pilih adalah sama."
+
+#: plugins/diff/diff.c:660
+msgid ""
+"The \"first\" file you selected does not exist.\n"
+"\n"
+"Please provide a valid file."
+msgstr ""
+"Fail \"Pertama\" yang anda pilih tidka wujud\n"
+"\n"
+" Sila bekalkan fail yang sah."
+
+#: plugins/diff/diff.c:669
+msgid ""
+"The \"second\" file you selected does not exist.\n"
+"\n"
+"Please provide a valid file."
+msgstr ""
+"Fail \"Kedua\" yang anda pilih tidka wujud\n"
+"\n"
+" Sila bekalkan fail yang sah."
+
+#: plugins/diff/diff.c:677
+msgid "The two files you selected are the same."
+msgstr "Dua fail yang anda pilih adalah sama."
+
+#: plugins/diff/diff.c:695
+msgid "The \"first\" document contains no text."
+msgstr "Dokumen \"Pertama\" tidak mengandungi teks."
+
+#: plugins/diff/diff.c:730
+msgid "The \"second\" document contains no text."
+msgstr "Dokumen \"kedua\" tidak mengandungi teks."
+
+#. FIXME: do better error reporting ... . Chema
+#: plugins/diff/diff.c:756
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"pluma could not create a temporary file."
+msgstr ""
+"Mustahil untuk membanding dokumen dipilih.\n"
+"\n"
+"pluma tak dapat mencipta fail sementara."
+
+#: plugins/diff/diff.c:776 plugins/diff/diff.c:789
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"Error executing the diff command."
+msgstr ""
+"Mustahil untuk membanding dokumen dipilih.\n"
+"\n"
+"Ralat melaksanakan arahan diff."
+
+#: plugins/diff/diff.c:811
+msgid "No differences were found between the selected documents."
+msgstr "Tiada perbezaan dijumpai diantara dokumen dipilih."
+
+#: plugins/diff/diff.c:852
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"The result contains invalid UTF-8 data."
+msgstr ""
+"Mustahil untuk membanding dokumen dipilih.\n"
+"\n"
+"Hasil mengandungi data UTF-8 yang tidak sah."
+
+#: plugins/diff/diff.glade2.h:1 plugins/shell_output/shell_output.glade2.h:1
+#: plugins/spell/spell-checker.glade2.h:1 plugins/time/time.glade2.h:2
+#: src/dialogs/replace.glade2.h:1 src/dialogs/uri.glade2.h:1
+msgid "*"
+msgstr "*"
+
+#: plugins/diff/diff.glade2.h:2
+msgid "Choose the files to compare."
+msgstr "Pilih beberapa fail untuk dibanding"
+
+#: plugins/diff/diff.glade2.h:3
+msgid "Compare files..."
+msgstr "Banding fail ..."
+
+#: plugins/diff/diff.glade2.h:4
+msgid "F_rom document"
+msgstr "Da_ripada Dokumen"
+
+#: plugins/diff/diff.glade2.h:5
+msgid "First"
+msgstr "Pertama"
+
+#: plugins/diff/diff.glade2.h:6
+msgid "First file from disk"
+msgstr "Fail pertama daripada cakera"
+
+#: plugins/diff/diff.glade2.h:7
+msgid "First file from open document"
+msgstr "Fail pertama daripada dokumen dibuka"
+
+#: plugins/diff/diff.glade2.h:8
+msgid "From _document"
+msgstr "Daripada _dokumen"
+
+#: plugins/diff/diff.glade2.h:9
+msgid "From a _file on disk"
+msgstr "Daripada _fail pada cakera"
+
+#: plugins/diff/diff.glade2.h:10
+msgid "From a file o_n disk"
+msgstr "Daripada fail pada cakera"
+
+#: plugins/diff/diff.glade2.h:11
+msgid "Ignore _blanks (-b option)"
+msgstr "Abaikan _kosong (opsyen -b)"
+
+#: plugins/diff/diff.glade2.h:12
+msgid "Note that this option is only supported by GNU diff"
+msgstr "Dimaklumkan bahawa opsyen ini hanya disokong oleh GNU diff"
+
+# kadang2 'Saat'
+#: plugins/diff/diff.glade2.h:13
+msgid "Second"
+msgstr "Kedua"
+
+#: plugins/diff/diff.glade2.h:14
+msgid "Second file from disk"
+msgstr "Fail kedua daripada cakera"
+
+#: plugins/diff/diff.glade2.h:15
+msgid "Second file from open document"
+msgstr "Fail kedua daripada dokumen dibuka"
+
+#: plugins/diff/diff.glade2.h:16
+msgid "Select the \"first\" file..."
+msgstr "Pilih fail \"pertama\"..."
+
+#: plugins/diff/diff.glade2.h:17
+msgid "Select the \"second\" file..."
+msgstr "Pilih fail \"kedua\"..."
+
+#: plugins/diff/diff.glade2.h:18
+msgid "Select the first file to compare"
+msgstr "Pilih fail pertama untuk dibanding"
+
+#: plugins/diff/diff.glade2.h:19
+msgid "Select the first open document to compare"
+msgstr "Pilih dokumen pertama dibuka untuk dibanding"
+
+#: plugins/diff/diff.glade2.h:20
+msgid "Select the second file to compare"
+msgstr "Pilih  fail kedua untuk dibanding"
+
+#: plugins/diff/diff.glade2.h:21
+msgid "Select the second open document to compare"
+msgstr "Pilih dokumen kedua dibuka untuk dibanding"
+
+#: plugins/diff/diff.glade2.h:22
+msgid "Use the _unified output format (-u option)"
+msgstr "Guna format output _unified (opsyen -u)"
+
+#: plugins/docinfo/docinfo.c:46
+msgid "_Document Statistics"
+msgstr "Statistik _Dokumen"
+
+#: plugins/docinfo/docinfo.c:49
+msgid "Get statistic info on current document"
+msgstr "Dapatkan statistik dokumen semasa"
+
+#: plugins/docinfo/docinfo.c:142
+msgid "Document Statistics"
+msgstr "Statistik Dokumen"
+
+#: plugins/docinfo/docinfo.c:153
+msgid "_Update"
+msgstr "_Kemaskini"
+
+#: plugins/docinfo/docinfo.glade2.h:1
+msgid "0"
+msgstr "0"
+
+#: plugins/docinfo/docinfo.glade2.h:2
+msgid "Bytes"
+msgstr "Byte"
+
+#: plugins/docinfo/docinfo.glade2.h:3
+msgid "Characters (no spaces)"
+msgstr "Aksara (tiada ruang)"
+
+#: plugins/docinfo/docinfo.glade2.h:4
+msgid "Characters (with spaces)"
+msgstr "Aksara (dengan ruang)"
+
+#: plugins/docinfo/docinfo.glade2.h:5
+msgid "File Name"
+msgstr "Nama Fail"
+
+#: plugins/docinfo/docinfo.glade2.h:6 src/pluma-print.c:315
+msgid "Lines"
+msgstr "Baris"
+
+#: plugins/docinfo/docinfo.glade2.h:7
+msgid "Update"
+msgstr "Kemaskini"
+
+#: plugins/docinfo/docinfo.glade2.h:8
+msgid "Words"
+msgstr "Perkataan"
+
+#: plugins/docinfo/docinfo.glade2.h:9
+msgid "pluma: Document Info plugin"
+msgstr "pluma: Plugin Maklumat Dokumen"
+
+#: plugins/sample/sample.c:43
+msgid "Insert User Na_me"
+msgstr "Selit _Nama Pengguna"
+
+#: plugins/sample/sample.c:46
+msgid "Insert the user name at the cursor position"
+msgstr "Selitkan nama pengguna pada posisi kursor"
+
+#: plugins/sample/sample.c:172
+msgid "User name"
+msgstr "Nama pengguna"
+
+#: plugins/sample/sample.c:173
+msgid "Inserts the user name at the cursor position."
+msgstr "Selitkan nama pengguna pada posisi kursor."
+
+#: plugins/sample/sample.c:175
+msgid "Copyright (C) 2002 - Paolo Maggi"
+msgstr "Hakcipta (C) 2002 - Paolo Maggi"
+
+#: plugins/shell_output/shell_output.c:56
+msgid "_Run Command..."
+msgstr "_Laksana Arahan..."
+
+#: plugins/shell_output/shell_output.c:59
+msgid "Run a command"
+msgstr "Laksana satu arahan"
+
+#: plugins/shell_output/shell_output.c:161
+#: plugins/shell_output/shell_output.c:516
+msgid "Stopped"
+msgstr "Terhenti"
+
+#: plugins/shell_output/shell_output.c:246
+msgid "An error occurs while running the selected command."
+msgstr "Ralat berlaku bila melaksanakan arahang dipilih."
+
+#: plugins/shell_output/shell_output.c:302
+msgid "Run Command"
+msgstr "Laksanakan Arahan"
+
+#: plugins/shell_output/shell_output.c:318
+msgid "_Run"
+msgstr "_Laksana"
+
+#: plugins/shell_output/shell_output.c:522
+msgid "Done"
+msgstr "Selesai"
+
+#: plugins/shell_output/shell_output.c:524
+msgid "Failed"
+msgstr "Gagal"
+
+#: plugins/shell_output/shell_output.c:696
+msgid ""
+"The shell command entry is empty.\n"
+"\n"
+"Please, insert a valid shell command."
+msgstr ""
+"Kemasukan arahan shell adalah kosong.\n"
+"\n"
+" Sila selitkan arahan shell yang sah."
+
+#: plugins/shell_output/shell_output.c:729
+msgid ""
+"Error parsing the shell command.\n"
+"\n"
+"Please, insert a valid shell command."
+msgstr ""
+"Ralat menghantar arahan shell/\n"
+"\n"
+" Sila selitkan arahan shell yang sah."
+
+#: plugins/shell_output/shell_output.c:815
+msgid "Executing command"
+msgstr "Melaksanakan arahan"
+
+#: plugins/shell_output/shell_output.glade2.h:2
+msgid "Co_mmand:"
+msgstr "_Arahan:"
+
+#: plugins/shell_output/shell_output.glade2.h:3
+msgid "Select the working directory..."
+msgstr "Pilih direktori kerja..."
+
+#: plugins/shell_output/shell_output.glade2.h:4
+msgid "_Show results in Output Window"
+msgstr "Papar hasil di Tetingkap Output"
+
+#: plugins/shell_output/shell_output.glade2.h:5
+msgid "_Working directory:"
+msgstr "Direktori _kerja:"
+
+#: plugins/shell_output/shell_output.glade2.h:6
+msgid "pluma: Shell Output plugin"
+msgstr "pluma: Plugin Output Shell"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:136
+msgid "Tag list plugin"
+msgstr "Plugin Senarai Tag"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:154
+msgid "Select the group of tags you want to use"
+msgstr "Pilih kumpulan tag yang anda ingin gunakan"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:176
+msgid "Tag Groups Combo"
+msgstr "Kombo Kumpulan Tag"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:178
+msgid "Tags Name List"
+msgstr "Senarai Nama Tag"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:188
+msgid "Double-click on a tag to insert it in the current document"
+msgstr "Dwi-klik pada tag untuk menyelitkannya pada dokumen semasa"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:199
+msgid "Tags"
+msgstr "Tag"
+
+#: plugins/taglist/pluma-taglist-plugin.c:46
+msgid "Tag _List"
+msgstr "_Senarai Tag"
+
+#.
+#. #define MENU_ITEM_NAME		"TagList"
+#.
+#: plugins/taglist/pluma-taglist-plugin.c:51
+msgid "Show the tag list window"
+msgstr "Papar tetingkap senarai tag"
+
+#: plugins/time/time.c:48
+msgid "In_sert Date and Time..."
+msgstr "_Selit Tarikh/Masa..."
+
+#: plugins/time/time.c:51
+msgid "Insert current date and time at the cursor position"
+msgstr "Selitkan tarikh dan masa semasa pada posisi kursor"
+
+#: plugins/time/time.c:448
+msgid "Available formats"
+msgstr "Format yang ada"
+
+#: plugins/time/time.c:552
+msgid "Configure insert date/time plugin..."
+msgstr "Konfigurasi plugin penyelitan tarikh/masa..."
+
+#: plugins/time/time.glade2.h:1 src/dialogs/pluma-preferences.glade2.h:1
+msgid "    "
+msgstr "    "
+
+#: plugins/time/time.glade2.h:3
+msgid "<span size=\"small\">01/11/2002 17:52:00</span>"
+msgstr "<span size=\"small\">01/11/2002 17:52:00</span>"
+
+#: plugins/time/time.glade2.h:4
+msgid "<span weight=\"bold\"> When inserting date/time...</span>"
+msgstr "<span weight=\"bold\"> Bila menyelit tarikh/masa...</span>"
+
+#: plugins/time/time.glade2.h:5
+msgid "Configure date/time plugin"
+msgstr "Konfigurasi plugin tarikh/masa"
+
+#: plugins/time/time.glade2.h:6
+msgid "Insert Date and Time"
+msgstr "Selit Tarikh dan Masa"
+
+#: plugins/time/time.glade2.h:7
+msgid "Use the _selected format"
+msgstr "Guna format yang _dipilih"
+
+#: plugins/time/time.glade2.h:8
+msgid "_Insert"
+msgstr "Sel_it"
+
+#: plugins/time/time.glade2.h:9
+msgid "_Prompt for a format"
+msgstr "_Pinta satu format"
+
+#: plugins/time/time.glade2.h:10
+msgid "_Use custom format"
+msgstr "_Guna format tersendiri"
+
+#: plugins/indent/indent.c:45
+msgid "_Indent"
+msgstr "_Inden"
+
+#: plugins/indent/indent.c:47
+msgid "Indent selected lines"
+msgstr "Inden baris dipilih"
+
+#: plugins/indent/indent.c:49
+msgid "U_nindent"
+msgstr "_Nyahinden"
+
+#: plugins/indent/indent.c:51
+msgid "Unindent selected lines"
+msgstr "Nyah inden baris dipilih"
+
+#: plugins/sort/sort.glade2.h:1
+#, fuzzy
+msgid "R_emove duplicates"
+msgstr "Tambah/Buang plugin"
+
+#: plugins/sort/sort.glade2.h:2
+msgid "S_tart at column:"
+msgstr "Ber_mula pada kolum:"
+
+#: plugins/sort/sort.glade2.h:3
+msgid "Sort"
+msgstr "Isih"
+
+#: plugins/sort/sort.glade2.h:4
+msgid "You cannot undo a sort operation"
+msgstr "Anda tak boleh nyahcara operasi isihan"
+
+#: plugins/sort/sort.glade2.h:5
+msgid "_Ignore case"
+msgstr "_Abaikan huruf kecil/besar"
+
+#: plugins/sort/sort.glade2.h:6
+msgid "_Reverse order"
+msgstr "Turutan _Songsang"
+
+#: plugins/sort/sort.glade2.h:7
+msgid "_Sort"
+msgstr "_Isih"
+
+#: plugins/spell/pluma-automatic-spell-checker.c:318
+#: plugins/spell/pluma-spell-checker-dialog.c:504
+msgid "(no suggested words)"
+msgstr "(tiada perkataan dicadangkan)"
+
+#: plugins/spell/pluma-automatic-spell-checker.c:342
+msgid "_More..."
+msgstr "_Lebih..."
+
+#. Ignore all
+#: plugins/spell/pluma-automatic-spell-checker.c:395
+msgid "_Ignore All"
+msgstr "_Abai Semua"
+
+#. + Add to Dictionary
+#: plugins/spell/pluma-automatic-spell-checker.c:408
+msgid "_Add"
+msgstr "_Tambah"
+
+#: plugins/spell/pluma-automatic-spell-checker.c:445
+msgid "_Spelling Suggestions..."
+msgstr "Cadangan _Ejaan..."
+
+#: plugins/spell/pluma-spell-checker-dialog.c:285
+msgid "Check Spelling"
+msgstr "Semak Ejaan"
+
+#: plugins/spell/pluma-spell-checker-dialog.c:296
+msgid "Suggestions"
+msgstr "Cadangan"
+
+#: plugins/spell/pluma-spell-checker-dialog.c:608
+msgid "(correct spelling)"
+msgstr "(Ejaan betul)"
+
+#: plugins/spell/pluma-spell-checker-dialog.c:785
+msgid "Completed spell checking"
+msgstr "Selesai menyemak ejaan"
+
+#: plugins/spell/pluma-spell-checker.c:73
+msgid "Breton"
+msgstr "Breton"
+
+#: plugins/spell/pluma-spell-checker.c:74
+msgid "Catalan"
+msgstr "Catalan"
+
+#: plugins/spell/pluma-spell-checker.c:75
+msgid "Czech"
+msgstr "Czech"
+
+#: plugins/spell/pluma-spell-checker.c:76
+msgid "Danish"
+msgstr "Danish"
+
+#: plugins/spell/pluma-spell-checker.c:77
+msgid "German (Germany)"
+msgstr "Jerman (Jermany)"
+
+#: plugins/spell/pluma-spell-checker.c:78
+msgid "German (Swiss)"
+msgstr "Jerman (Swiss)"
+
+#: plugins/spell/pluma-spell-checker.c:79
+msgid "English (American)"
+msgstr "Inggeris (Amerika)"
+
+#: plugins/spell/pluma-spell-checker.c:80
+msgid "English (British)"
+msgstr "Inggeris(British)"
+
+#: plugins/spell/pluma-spell-checker.c:81
+msgid "English (Canadian)"
+msgstr "Inggeris(Kanada)"
+
+#: plugins/spell/pluma-spell-checker.c:82
+msgid "Esperanto"
+msgstr "Esperanto"
+
+#: plugins/spell/pluma-spell-checker.c:83
+msgid "Spanish"
+msgstr "Sepanyol"
+
+#: plugins/spell/pluma-spell-checker.c:84
+msgid "Faroese"
+msgstr "Faroese"
+
+#: plugins/spell/pluma-spell-checker.c:85
+msgid "French (France)"
+msgstr "Peranchis (Peranchis)"
+
+#: plugins/spell/pluma-spell-checker.c:86
+msgid "French (Swiss)"
+msgstr "Peranchis (Swiss)"
+
+#: plugins/spell/pluma-spell-checker.c:87
+msgid "Italian"
+msgstr "Itali"
+
+#: plugins/spell/pluma-spell-checker.c:88
+msgid "Dutch"
+msgstr "Belanda"
+
+#: plugins/spell/pluma-spell-checker.c:89
+msgid "Norwegian"
+msgstr "Norwegian"
+
+#: plugins/spell/pluma-spell-checker.c:90
+msgid "Polish"
+msgstr "Polish"
+
+#: plugins/spell/pluma-spell-checker.c:91
+msgid "Portuguese (Portugal)"
+msgstr "Portugis (Portugal)"
+
+#: plugins/spell/pluma-spell-checker.c:92
+msgid "Portuguese (Brazilian)"
+msgstr "Portugis (Brazil)"
+
+#: plugins/spell/pluma-spell-checker.c:93
+msgid "Russian"
+msgstr "Rusia"
+
+#: plugins/spell/pluma-spell-checker.c:94
+msgid "Swedish"
+msgstr "Swedish"
+
+#: plugins/spell/pluma-spell-checker.c:653
+msgid "Default"
+msgstr "Default"
+
+#: plugins/spell/pluma-spell-language-dialog.c:229
+#: src/dialogs/pluma-dialog-goto-line.c:165
+#: src/dialogs/pluma-encodings-dialog.c:238
+#: src/dialogs/pluma-plugin-program-location-dialog.c:96
+#, c-format
+msgid "Could not find the required widgets inside %s."
+msgstr "Tak dapat menjumpai wiget yang diperlukan pada %s."
+
+#: plugins/spell/pluma-spell-language-dialog.c:249
+msgid "Languages"
+msgstr "Bahasa"
+
+#: plugins/spell/languages-dialog.glade2.h:1
+msgid "Select the _language of the current document."
+msgstr "Pilih _bahasa bagi dokumen semasa."
+
+#: plugins/spell/languages-dialog.glade2.h:2
+msgid "Set language"
+msgstr "Tetapkan Bahasa"
+
+#: plugins/spell/spell-checker.glade2.h:2
+msgid "<b>Language</b>"
+msgstr "<b>Bahasa</b>"
+
+#: plugins/spell/spell-checker.glade2.h:3
+msgid "<b>word</b>"
+msgstr "<b>Perkataan</b>"
+
+#: plugins/spell/spell-checker.glade2.h:4
+msgid "Add w_ord"
+msgstr "Tambah per_kataan"
+
+#: plugins/spell/spell-checker.glade2.h:5
+msgid "Cha_nge"
+msgstr "_Tukar"
+
+#: plugins/spell/spell-checker.glade2.h:6
+msgid "Change A_ll"
+msgstr "Tukar _Semua"
+
+#: plugins/spell/spell-checker.glade2.h:7
+msgid "Change _to:"
+msgstr "Tukar _ke:"
+
+#: plugins/spell/spell-checker.glade2.h:8
+msgid "Check _Word"
+msgstr "Semak _Perkataan"
+
+#: plugins/spell/spell-checker.glade2.h:9
+msgid "Check spelling"
+msgstr "Semak ejaan"
+
+#: plugins/spell/spell-checker.glade2.h:10
+msgid "Ignore _All"
+msgstr "Abai _Semua"
+
+#: plugins/spell/spell-checker.glade2.h:11
+msgid "Language:"
+msgstr "Bahasa:"
+
+#: plugins/spell/spell-checker.glade2.h:12
+msgid "Mispelled word:"
+msgstr "Perkataan salah ejaan:"
+
+#: plugins/spell/spell-checker.glade2.h:13
+msgid "User dictionary:"
+msgstr "Kamus pengguna:"
+
+#: plugins/spell/spell-checker.glade2.h:14
+msgid "_Ignore"
+msgstr "_Abai"
+
+#: plugins/spell/spell-checker.glade2.h:15
+msgid "_Suggestions:"
+msgstr "_Cadangan:"
+
+#. Key in case the plugin ever needs any settings
+#: plugins/sort/sort.c:26
+msgid "S_ort..."
+msgstr "_Isih...."
+
+#: plugins/sort/sort.c:29
+msgid "Sort the current document or selection."
+msgstr "Pilih dokumen semasa atai pilihan."
+
+#: plugins/spell/spell.c:51
+msgid "_Check Spelling"
+msgstr "_Semak Ejaan"
+
+#: plugins/spell/spell.c:54
+msgid "Check the current document for incorrect spelling"
+msgstr "Semak kesalahan ejaan dokumen semasa"
+
+#: plugins/spell/spell.c:56
+msgid "_Autocheck Spelling"
+msgstr "_Autosemak Ejaan"
+
+#: plugins/spell/spell.c:59
+msgid "Automatically spell-check the current document"
+msgstr "Automatik semak-ejaan  dokumen semasa"
+
+#: plugins/spell/spell.c:61
+msgid "Set _Language"
+msgstr "Tetapkan _Bahasa"
+
+#: plugins/spell/spell.c:64
+msgid "Set the language of the current document"
+msgstr "Tetapkan bahasa bagi dokumen semasa."
+
+#: plugins/spell/spell.c:549
+msgid "The document is empty."
+msgstr "Dokumen adalah kosong."
+
+#: plugins/spell/spell.c:567
+msgid "The selected text does not contain mispelled words."
+msgstr "Teks dipilih tidak mengandungi kesalahan ejaan."
+
+#: plugins/spell/spell.c:568
+msgid "The document does not contain mispelled words."
+msgstr "Dokumen tidak mengandungi kesalahan ejaan."
+
+#: src/bonobo-mdi.c:549 src/bonobo-mdi.c:1962
+#, c-format
+msgid "Activate %s"
+msgstr "aktifkan %s"
+
+#: src/dialogs/pluma-dialog-goto-line.c:139
+msgid "Go to Line"
+msgstr "Pergi ke Baris"
+
+#. Add Goto Line button
+#: src/dialogs/pluma-dialog-goto-line.c:149
+msgid "_Go to Line"
+msgstr "_Pergi ke Baris"
+
+#: src/dialogs/pluma-dialog-replace.c:132
+#: src/dialogs/pluma-dialog-replace.c:1025 src/pluma-commands.c:362
+#, c-format
+msgid "The text \"%s\" was not found."
+msgstr "Teks \"%s\" tidak dijumpai"
+
+#: src/dialogs/pluma-dialog-replace.c:240 src/dialogs/replace.glade2.h:4
+#: src/pluma-ui.xml.h:51
+msgid "Replace"
+msgstr "Ganti"
+
+#: src/dialogs/pluma-dialog-replace.c:251
+msgid "Replace _All"
+msgstr "Gantikan Semu_a"
+
+#. Add Replace button
+#: src/dialogs/pluma-dialog-replace.c:254 src/pluma-file-selector-util.c:129
+msgid "_Replace"
+msgstr "_Ganti"
+
+#: src/dialogs/pluma-dialog-replace.c:376 src/pluma-ui.xml.h:22
+msgid "Find"
+msgstr "Cari"
+
+#: src/dialogs/pluma-dialog-replace.c:1034
+#, c-format
+msgid "Found and replaced %d occurences."
+msgstr "Jumpa dan gantikan %d kali"
+
+#: src/dialogs/pluma-dialog-uri.c:83
+msgid "Open Location"
+msgstr "Buka Lokasi"
+
+#: src/dialogs/pluma-plugin-manager.c:53
+msgid "Plugin"
+msgstr "Plugin"
+
+#: src/dialogs/pluma-plugin-manager.c:54
+msgid "Load"
+msgstr "Muatkan"
+
+#: src/dialogs/pluma-plugin-manager.c:320
+msgid "Module file name"
+msgstr "Nama fail modul"
+
+#: src/dialogs/pluma-plugin-manager.c:321
+msgid "Author(s)"
+msgstr "Penulis"
+
+#: src/dialogs/pluma-plugin-manager.c:488
+msgid "Could not find plugin-manager.glade2, reinstall pluma.\n"
+msgstr "Tak dapat menjumpai find plugin-manager.glade2, ulangpasang pluma.\n"
+
+#: src/dialogs/pluma-plugin-manager.c:511
+msgid "Invalid glade file for plugin manager -- not all widgets found.\n"
+msgstr ""
+"Fail glade tak sah bagi Pengurus Plugin -- tidak semua widget dijumpai.\n"
+
+#: src/dialogs/pluma-plugin-program-location-dialog.c:74
+#: src/dialogs/program-location-dialog.glade2.h:1
+msgid "Set program location..."
+msgstr "Tetapkan lokasi program..."
+
+#: src/dialogs/pluma-plugin-program-location-dialog.c:102
+#, c-format
+msgid ""
+"The %s plugin uses an external program, called <tt>%s</tt>, to perform its "
+"task.\n"
+"\n"
+"Please, specify the location of the <tt>%s</tt> program."
+msgstr ""
+"Plugin %s menggunakan program luaran, <tt>%s</tt> dipanggil untuk melakukan "
+"tugasnya\n"
+"\n"
+"Sila nyatakan lokasi bagi program <tt>%s</tt>. "
+
+#: src/dialogs/pluma-plugin-program-location-dialog.c:148
+msgid "The selected file is not executable."
+msgstr "Fail dipilih adalah tidak boleh dilaksanakan"
+
+#: src/dialogs/pluma-preferences-dialog.c:232
+msgid "Font & Colors"
+msgstr "Font & Warna"
+
+#: src/dialogs/pluma-preferences-dialog.c:234
+#: src/dialogs/pluma-preferences.glade2.h:47
+msgid "Tabs"
+msgstr "Tab"
+
+#: src/dialogs/pluma-preferences-dialog.c:235
+msgid "Wrap Mode"
+msgstr "Mod Balut"
+
+#: src/dialogs/pluma-preferences-dialog.c:236
+msgid "Auto Indent"
+msgstr "Auto inden"
+
+#: src/dialogs/pluma-preferences-dialog.c:237
+msgid "Line Numbers"
+msgstr "Nombor Baris"
+
+#: src/dialogs/pluma-preferences-dialog.c:239 src/pluma-ui.xml.h:32
+msgid "Open"
+msgstr "Buka"
+
+#: src/dialogs/pluma-preferences-dialog.c:240
+#: src/dialogs/pluma-preferences.glade2.h:42 src/pluma-ui.xml.h:55
+msgid "Save"
+msgstr "Simpan"
+
+#: src/dialogs/pluma-preferences-dialog.c:241
+#: src/dialogs/pluma-preferences.glade2.h:50 src/pluma-ui.xml.h:72
+msgid "Undo"
+msgstr "Nyahcara"
+
+#: src/dialogs/pluma-preferences-dialog.c:249
+msgid "Page"
+msgstr "Halaman"
+
+#: src/dialogs/pluma-preferences-dialog.c:251
+msgid "Fonts"
+msgstr "Font"
+
+#: src/dialogs/pluma-preferences-dialog.c:258
+msgid "Manager"
+msgstr "Pengurus"
+
+#: src/dialogs/pluma-preferences-dialog.c:266
+msgid "Editor"
+msgstr "Editor"
+
+#: src/dialogs/pluma-preferences-dialog.c:267
+#: src/dialogs/pluma-preferences.glade2.h:38 src/pluma-print.c:306
+#: src/pluma-ui.xml.h:41
+msgid "Print"
+msgstr "Cetak"
+
+#: src/dialogs/pluma-preferences-dialog.c:268
+msgid "Plugins"
+msgstr "Plugin"
+
+#: src/dialogs/pluma-preferences-dialog.c:341
+msgid "Cat_egories:"
+msgstr "Kat_egori:"
+
+#: src/dialogs/pluma-preferences-dialog.c:363
+msgid "Preferences"
+msgstr "Keutamaan"
+
+#: src/dialogs/pluma-preferences-dialog.c:602
+msgid "Categories"
+msgstr "Kategori"
+
+#: src/dialogs/pluma-preferences-dialog.c:835
+msgid "Push this button to select the font to be used by the editor"
+msgstr "Tekan butang ini untuk memilih font digunakan oleh editor"
+
+#: src/dialogs/pluma-preferences-dialog.c:838
+msgid "Push this button to configure text color"
+msgstr "Tekan butang ini untuk mengkonfigurasi warna teks"
+
+#: src/dialogs/pluma-preferences-dialog.c:840
+msgid "Push this button to configure background color"
+msgstr "Tekan butang ini untuk mengkonfigurasi warna latar belakang"
+
+#: src/dialogs/pluma-preferences-dialog.c:842
+msgid ""
+"Push this button to configure the color in which the selected text should "
+"appear"
+msgstr ""
+"Tekan butang ini untuk mengkonfigurasi warna sebagaimana teks dipilih patut "
+"dilihat"
+
+#: src/dialogs/pluma-preferences-dialog.c:845
+msgid ""
+"Push this button to configure the color in which the selected text should be "
+"marked"
+msgstr ""
+"Tekan butang ini untuk mengkonfigurasikan warna sebagaimana teks dipilih "
+"supaya ditanda"
+
+#: src/dialogs/pluma-preferences-dialog.c:1850
+msgid "Push this button to select the font to be used to print the body"
+msgstr "Tekan butang ini untuk memilih font digunakan untuk mencetak badan"
+
+#: src/dialogs/pluma-preferences-dialog.c:1852
+msgid "Push this button to select the font to be used to print the headers"
+msgstr "Tekan butang ini untuk memilih font digunakan untuk mencetak pengepala"
+
+#: src/dialogs/pluma-preferences-dialog.c:1854
+msgid "Push this button to select the font to be used to print line numbers"
+msgstr ""
+"Tekan butang ini untuk memilih font digunakan untuk mencetak nombor baris"
+
+#: src/dialogs/pluma-preferences.glade2.h:2
+msgid "<b>Font</b>"
+msgstr "<b>Font</b>"
+
+#: src/dialogs/pluma-preferences.glade2.h:3
+msgid "<span weight=\"bold\" size=\"x-large\">Auto Indent</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">Auto Inden</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:4
+msgid "<span weight=\"bold\" size=\"x-large\">Font &amp; Colors</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">Font &amp; Warna</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:5
+msgid "<span weight=\"bold\" size=\"x-large\">Fonts</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">Font</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:6
+msgid "<span weight=\"bold\" size=\"x-large\">Line Numbers</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">Nombor Baris</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:7
+msgid "<span weight=\"bold\" size=\"x-large\">Manager</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">Pengurus</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:8
+msgid "<span weight=\"bold\" size=\"x-large\">Open</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">Buka</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:9
+msgid "<span weight=\"bold\" size=\"x-large\">Page</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">Halaman</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:10
+msgid "<span weight=\"bold\" size=\"x-large\">Save</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">Simpan</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:11
+msgid "<span weight=\"bold\" size=\"x-large\">Tabs</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">Tab</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:12
+msgid "<span weight=\"bold\" size=\"x-large\">Undo</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">Nyahcara</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:13
+msgid "<span weight=\"bold\" size=\"x-large\">Wrap Mode</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">Mod Balut</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:14
+msgid "<span weight=\"bold\">Colors</span>"
+msgstr "<span weight=\"bold\">Warna</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:15
+msgid "<span weight=\"bold\">When saving a new file...</span>"
+msgstr "<span weight=\"bold\">Bila menyimpan fail baru...</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:16
+msgid "<span weight=\"bold\">When saving an existing file...</span>"
+msgstr "<span weight=\"bold\">Bila menyimpan fail sedia ada...</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:17
+msgid "Add new encodings"
+msgstr "Tambah pengenkodan baru"
+
+#: src/dialogs/pluma-preferences.glade2.h:18
+msgid "Always use U_TF-8 encoding (faster)"
+msgstr "Sentiasa guna penenkodan _UTF-8 (lebih pantas)"
+
+#: src/dialogs/pluma-preferences.glade2.h:19
+msgid "Always use _UTF-8 encoding (faster)"
+msgstr "Sentiasa guna penenkodan _UTF-8 (lebih pantas)"
+
+#: src/dialogs/pluma-preferences.glade2.h:20
+msgid "Create a _backup copy of files before saving"
+msgstr "Cipta salinan backup bagi fail sebelum disimpan"
+
+#: src/dialogs/pluma-preferences.glade2.h:21
+msgid "Do not _split words over two lines"
+msgstr "Jangan pisahkan perkataan kepada 2 baris"
+
+#: src/dialogs/pluma-preferences.glade2.h:22
+msgid "Editor _font: "
+msgstr "_Font editor:"
+
+#: src/dialogs/pluma-preferences.glade2.h:23
+msgid "Enable _auto indentation"
+msgstr "Hidupkan auto-inden"
+
+#: src/dialogs/pluma-preferences.glade2.h:24
+msgid "Enable text _wrapping"
+msgstr "Hidupkan pembalutan teks"
+
+#: src/dialogs/pluma-preferences.glade2.h:25
+msgid "Fonts & Colors"
+msgstr "Font & Warna"
+
+#: src/dialogs/pluma-preferences.glade2.h:26
+msgid "Insert _spaces instead of tabs"
+msgstr "Selitkan _ruang selain tab"
+
+#: src/dialogs/pluma-preferences.glade2.h:27
+msgid "LOGO"
+msgstr "LOGO"
+
+#: src/dialogs/pluma-preferences.glade2.h:28
+msgid "Line _numbers:"
+msgstr "Baris ke"
+
+#: src/dialogs/pluma-preferences.glade2.h:29
+msgid "Line numbers"
+msgstr "Baris ke"
+
+#: src/dialogs/pluma-preferences.glade2.h:30
+msgid "Move down"
+msgstr "Turun bawah"
+
+#: src/dialogs/pluma-preferences.glade2.h:31
+msgid "Move up"
+msgstr "Naik atas"
+
+#: src/dialogs/pluma-preferences.glade2.h:32
+msgid "Page he_aders:"
+msgstr "_Pengepala halaman:"
+
+#: src/dialogs/pluma-preferences.glade2.h:33
+msgid "Pick the background color"
+msgstr "Pilih warna latar"
+
+#: src/dialogs/pluma-preferences.glade2.h:34
+msgid "Pick the selected text color"
+msgstr "Pilih warna teks pilihan"
+
+#: src/dialogs/pluma-preferences.glade2.h:35
+msgid "Pick the selection color"
+msgstr "Pilih warna pilihan"
+
+#: src/dialogs/pluma-preferences.glade2.h:36
+msgid "Pick the text color"
+msgstr "Pilih warna teks"
+
+#: src/dialogs/pluma-preferences.glade2.h:37
+msgid "Plugin manager"
+msgstr "Pengurus plugin"
+
+#: src/dialogs/pluma-preferences.glade2.h:39
+msgid "Print _line numbers every"
+msgstr "Cetak nombor baris setiap"
+
+#: src/dialogs/pluma-preferences.glade2.h:40
+msgid "Print fonts"
+msgstr "Cetak font"
+
+#: src/dialogs/pluma-preferences.glade2.h:41
+msgid "Remove an encoding"
+msgstr "Buang satu Pengenkodan"
+
+#: src/dialogs/pluma-preferences.glade2.h:43
+msgid "Se_lection color:"
+msgstr "Warna dipilih:"
+
+#: src/dialogs/pluma-preferences.glade2.h:44
+msgid "Selecte_d text color:"
+msgstr "Warna teks _dipilih:"
+
+#: src/dialogs/pluma-preferences.glade2.h:45
+msgid "Set _tabs width equivalent to"
+msgstr "Tetapkan _tab setara dengan"
+
+#: src/dialogs/pluma-preferences.glade2.h:46
+msgid "Set limit on _undo actions to"
+msgstr "Tetapkan had pada _nyahcara ke"
+
+#: src/dialogs/pluma-preferences.glade2.h:48
+msgid "U_se default theme colors"
+msgstr "_Guna warna tema default"
+
+#: src/dialogs/pluma-preferences.glade2.h:49
+msgid "U_se original file encoding if possible"
+msgstr "_Guna pengenkodan fail asal jka boleh"
+
+#: src/dialogs/pluma-preferences.glade2.h:51
+msgid "Use cu_rrent locale's encoding if possible"
+msgstr "Guna pengenkodan lokaliti semasa bila boleh"
+
+#: src/dialogs/pluma-preferences.glade2.h:52
+msgid "Use current _locale's encoding if possible"
+msgstr "Guna pengenkodan _lokaliti semasa bila boleh"
+
+#: src/dialogs/pluma-preferences.glade2.h:53
+msgid "Wrap mode"
+msgstr "Mod Balut"
+
+#: src/dialogs/pluma-preferences.glade2.h:54
+msgid "_Autosave current file every"
+msgstr "_Autosimpan fail semasa setiap"
+
+#: src/dialogs/pluma-preferences.glade2.h:55
+msgid "_Background color:"
+msgstr "_Warna latarbelakang:"
+
+#: src/dialogs/pluma-preferences.glade2.h:56
+msgid "_Body:"
+msgstr "_Badan:"
+
+#: src/dialogs/pluma-preferences.glade2.h:57
+msgid "_Display line numbers"
+msgstr "_Papar nombor Baris"
+
+#: src/dialogs/pluma-preferences.glade2.h:58
+msgid "_Print page headers"
+msgstr "Cetak _pengepala halaman"
+
+#: src/dialogs/pluma-preferences.glade2.h:59
+msgid "_Restore Default Fonts"
+msgstr "_Pulihkan Font Default"
+
+#: src/dialogs/pluma-preferences.glade2.h:60
+msgid "_Supported encodings:"
+msgstr "Pengengkodan di_sokong:"
+
+#: src/dialogs/pluma-preferences.glade2.h:61
+msgid "_Text color:"
+msgstr "Warna _Teks:"
+
+#: src/dialogs/pluma-preferences.glade2.h:62
+msgid "_Use default theme font"
+msgstr "_Guna font tema default"
+
+#: src/dialogs/pluma-preferences.glade2.h:63
+msgid "_action(s)"
+msgstr "_aksi"
+
+#: src/dialogs/pluma-preferences.glade2.h:64
+msgid "_minutes"
+msgstr "_minit"
+
+#: src/dialogs/pluma-preferences.glade2.h:65
+msgid "character(s)"
+msgstr " aksara"
+
+#: src/dialogs/pluma-preferences.glade2.h:66
+msgid "li_ne(s)"
+msgstr "baris"
+
+#: src/dialogs/gnome-print-font-dialog.c:107
+msgid "_Insert a new preview phrase."
+msgstr "_Selit frasa prebiu baru."
+
+#: src/dialogs/gnome-print-font-dialog.c:113
+msgid "Modify preview phrase..."
+msgstr "Ubahsuai frasa prebiu..."
+
+#: src/dialogs/gnome-print-font-dialog.c:167
+msgid "Preview"
+msgstr "Prebiu"
+
+#: src/dialogs/gnome-print-font-dialog.c:180
+msgid "_Modify preview phrase..."
+msgstr "_Ubahsuai frasa prebiu..."
+
+#: src/dialogs/gnome-print-font-dialog.c:243
+msgid "Font Selection"
+msgstr "Pilihan font"
+
+#: src/dialogs/gnome-print-font-picker.c:89
+msgid "sans 12"
+msgstr "sans 12"
+
+#: src/dialogs/gnome-print-font-picker.c:90
+msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
+msgstr "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
+
+#: src/dialogs/gnome-print-font-picker.c:91
+msgid "Pick a Font"
+msgstr "Pilih satu Font"
+
+#: src/dialogs/gnome-print-font-picker.c:176
+msgid "Title"
+msgstr "Tajuk"
+
+#: src/dialogs/gnome-print-font-picker.c:177
+msgid "The title of the selection dialog box"
+msgstr "Tajuk bagi kekotak dialog pilihan"
+
+#: src/dialogs/gnome-print-font-picker.c:197
+msgid "Font name"
+msgstr "Nama font"
+
+#: src/dialogs/gnome-print-font-picker.c:198
+msgid "Name of the selected font"
+msgstr "Nama bagi font yang dipilih"
+
+#: src/dialogs/gnome-print-font-picker.c:206
+msgid "Preview text"
+msgstr "Prebiu teks"
+
+#: src/dialogs/gnome-print-font-picker.c:207
+msgid "Preview text shown in the dialog"
+msgstr "Prebiu teks dipapar pada dialog"
+
+#: src/dialogs/gnome-print-font-picker.c:215
+msgid "Use font in label"
+msgstr "Guna font pada label"
+
+#: src/dialogs/gnome-print-font-picker.c:216
+msgid "Use font in the label in font info mode"
+msgstr "Guna font pada label dalam mod maklumat font"
+
+#: src/dialogs/gnome-print-font-picker.c:224
+msgid "Font size for label"
+msgstr "Saiz font bagi label"
+
+#: src/dialogs/gnome-print-font-picker.c:225
+msgid "Font size for label in font info mode"
+msgstr "Saiz font bagi label dalam mod maklumat font"
+
+# Saiz bra
+#: src/dialogs/gnome-print-font-picker.c:235
+msgid "Show size"
+msgstr "Papar saiz"
+
+#: src/dialogs/gnome-print-font-picker.c:236
+msgid "Show size in font info mode"
+msgstr "Papar saiz dalam mod maklumat font"
+
+#: src/dialogs/gnome-print-font-picker.c:1014
+msgid "Font"
+msgstr "Font"
+
+#. gnome_print_font_picker_update_font_info
+#: src/dialogs/goto-line.glade2.h:1
+msgid "Goto Line"
+msgstr "Pergi ke Baris"
+
+#: src/dialogs/goto-line.glade2.h:2
+msgid "_Line number:"
+msgstr "_Baris ke:"
+
+#: src/dialogs/plugin-manager.glade2.h:1
+msgid "C_onfigure plugin"
+msgstr "K_onfigurasikan plugin"
+
+#: src/dialogs/plugin-manager.glade2.h:2
+msgid "Configure the selected plugin"
+msgstr "Konfigurasi plugin dipilih"
+
+#: src/dialogs/plugin-manager.glade2.h:3
+msgid "De_tails"
+msgstr "P_erincian"
+
+#: src/dialogs/plugin-manager.glade2.h:4
+msgid "_Description"
+msgstr "_Huraian:"
+
+#: src/dialogs/plugin-manager.glade2.h:5
+msgid "dialog1"
+msgstr "dialog1"
+
+#: src/dialogs/program-location-dialog.glade2.h:2
+msgid "_Location to search for:"
+msgstr "_Lokasi utnuk dicari:"
+
+#: src/dialogs/program-location-dialog.glade2.h:3
+msgid "label"
+msgstr "label"
+
+#: src/dialogs/replace.glade2.h:2
+msgid "Find Next"
+msgstr "Cari Lagi"
+
+#: src/dialogs/replace.glade2.h:3
+msgid "Match _entire word only"
+msgstr "Padan ke_seluruhan perkataan sahaja"
+
+#: src/dialogs/replace.glade2.h:5
+msgid "Replace All"
+msgstr "Gantikan Semua"
+
+#: src/dialogs/replace.glade2.h:6
+msgid "Replace _with: "
+msgstr "Ganti _dengan:"
+
+#: src/dialogs/replace.glade2.h:7
+msgid "_Match case"
+msgstr "_Padan huruf kecil/besar"
+
+#: src/dialogs/replace.glade2.h:8
+msgid "_Search for: "
+msgstr "_Cari: "
+
+#: src/dialogs/replace.glade2.h:9
+msgid "_Wrap around"
+msgstr "_Balut sekeliling"
+
+#: src/dialogs/uri.glade2.h:2
+msgid "Enter the _location (URI) of the file you would like to open:"
+msgstr "Masukkan _lokasi (URI) bagi fail yang anda ingin buka:"
+
+#: src/dialogs/uri.glade2.h:3
+msgid "Open from URI"
+msgstr "Buka daripada URI"
+
+#: src/pluma-commands.c:471
+msgid "translator_credits"
+msgstr "Hasbullah Bin Pit <sebol@ikhlas.com>, Merlimau."
+
+#: src/pluma-commands.c:496
+msgid "pluma"
+msgstr "pluma"
+
+#: src/pluma-commands.c:497
+msgid ""
+"(C) 1998-2000 Evan Lawrence and Alex Robert\n"
+"(C) 2000-2002 Chema Celorio and Paolo Maggi"
+msgstr ""
+"(C) 1998-2000 Evan Lawrence and Alex Robert\n"
+"(C) 2000-2002 Chema Celorio and Paolo Maggi"
+
+#: src/pluma-commands.c:499
+msgid "pluma is a small and lightweight text editor for Gnome"
+msgstr "pluma adalah editor teks untuk Gnome yang kecil dan ringan"
+
+#: src/pluma-document.c:545 src/pluma-document.c:563
+#, c-format
+msgid "%s %d"
+msgstr "%s %d"
+
+#: src/pluma-document.c:545 src/pluma-document.c:563
+msgid "Untitled"
+msgstr "Tiadatajuk"
+
+#: src/pluma-document.c:551 src/pluma-document.c:598
+msgid "Invalid file name"
+msgstr "Nama fail tidak sah"
+
+#: src/pluma-document.c:710 src/pluma-document.c:794
+msgid "Invalid UTF-8 data"
+msgstr "Data UTF-8 tidak sah"
+
+#: src/pluma-document.c:1024
+#, c-format
+msgid "Could not read symbolic link information for %s"
+msgstr "Tak dapat baca maklumat pautan simbolik bagi %s"
+
+#: src/pluma-document.c:1070
+msgid "The file has too many symbolic links."
+msgstr "Fail terlalu banyak pautan simbolik."
+
+#: src/pluma-document.c:1126
+#, c-format
+msgid "pluma cannot handle %s: locations in write mode."
+msgstr "pluma tak dapat mengendali lokasi %s: dalam mod tulis."
+
+#: src/pluma-document.c:1133
+msgid "pluma cannot handle this kind of location in write mode."
+msgstr "pluma tak dapat mengendali jenis lokasi ini pada mod tulis."
+
+#: src/pluma-document.c:1146
+msgid "Invalid filename."
+msgstr "Nama fail tidak sah."
+
+#: src/pluma-document.c:1286
+msgid ""
+"There is not enough disk space to save the file.\n"
+"Please free some disk space and try again."
+msgstr ""
+"Tak cukup ruang cakera untuk menyimpan fail.\n"
+"Sila, bebaskan sedikit ruang pada cakera dan cuba lagi."
+
+#: src/pluma-document.c:1291
+msgid ""
+"The disk where you are trying to save the file has a limitation on file "
+"sizes.  Please try saving a smaller file or saving it to a disk that does "
+"not have this limitation."
+msgstr ""
+"Cakera dimana anda cuba simpankan fail mempunyai had saiz fail. Sila cuba "
+"simpan fail lebih kecil atau simpan ke cakera yang tidak mempunyai had ini."
+
+#: src/pluma-document.c:1330
+msgid "Could not create a backup file."
+msgstr "Tak dapat mencipta fail backup."
+
+#: src/pluma-document.c:1448
+msgid "It is not possible to revert an Untitled document"
+msgstr "Mustahil untuk berbalik ke dokuken tiadatajuk"
+
+#: src/pluma-file-selector-util.c:147
+#, c-format
+msgid ""
+"A file named \"%s\" already exists.\n"
+"Do you want to replace it with the one you are saving?"
+msgstr ""
+"Nama fail \"%s\" sudah wujud.\n"
+"Adakah anda ingin menggantikannya dengan apa yang anda hendak simpan?"
+
+#: src/pluma-file-selector-util.c:158
+#, c-format
+msgid ""
+"The file \"%s\" is read-only.\n"
+"Do you want to try to replace it with the one you are saving?"
+msgstr ""
+"Nama fail \"%s\" adalah baca-sahaja.\n"
+"Adakah anda ingin menggantikannya dengan apa yang anda hendak simpan?"
+
+#: src/pluma-file-selector-util.c:544
+msgid "Select a filename to save"
+msgstr "Pilih satu nama fail untuk disimpan"
+
+#: src/pluma-file.c:151
+msgid "Open File..."
+msgstr "Buka Fail..."
+
+#: src/pluma-file.c:177 src/pluma-file.c:887
+#, c-format
+msgid "Loaded file '%s'"
+msgstr "Fail '%s' dimuatkan"
+
+#: src/pluma-file.c:309 src/pluma-file.c:455
+#, c-format
+msgid "Saving file '%s'..."
+msgstr "Menyimpan fail '%s' ..."
+
+#: src/pluma-file.c:337 src/pluma-file.c:470
+msgid "The document has not been saved."
+msgstr "Dokumen tidak akan disimpan."
+
+#: src/pluma-file.c:351 src/pluma-file.c:467
+#, c-format
+msgid "File '%s' saved."
+msgstr "Fail '%s' disimpan."
+
+#: src/pluma-file.c:434
+msgid "Save as..."
+msgstr "Simpan sebagai..."
+
+#: src/pluma-file.c:628
+#, c-format
+msgid ""
+"Do you want to revert to saved the document '%s'?\n"
+"\n"
+"You will not be able to undo this operation."
+msgstr ""
+"Adakah anda ingin berbalik ke dokumen disimpan '%s'? \n"
+"\n"
+"Anda tidak akan boleh nyahcara operasi ini."
+
+#: src/pluma-file.c:638 src/pluma-ui.xml.h:99
+msgid "_Revert"
+msgstr "Be_rbalik"
+
+#: src/pluma-file.c:672
+#, c-format
+msgid "Reverting file '%s'..."
+msgstr "Berbalik ke fail '%s'..."
+
+#: src/pluma-file.c:685
+msgid "The document has not been reverted."
+msgstr "Dokumen tidak boleh diberbalikkan."
+
+#: src/pluma-file.c:695
+#, c-format
+msgid "File '%s' reverted."
+msgstr "Fail '%s' diberbalikkan."
+
+#: src/pluma-file.c:721
+#, c-format
+msgid "Loading %d files..."
+msgstr "Memuatkan %d fail..."
+
+#: src/pluma-file.c:757
+#, c-format
+msgid "The file \"%s\" does not exist. Would you like to create it?"
+msgstr "Fail \"%s\" tidak wujud. Adakah anda ingin menciptanya?"
+
+#: src/pluma-file.c:812
+#, c-format
+msgid "Loaded %i files"
+msgstr "%i fail dimuatkan"
+
+#: src/pluma-file.c:945
+msgid "Could not read data from stdin."
+msgstr "Tak dapat membaca data dari stdin."
+
+#. Read only
+#: src/pluma-mdi-child.c:215
+msgid "RO"
+msgstr "RO"
+
+#. Add the detach tab button
+#: src/pluma-mdi-child.c:539 src/pluma-ui.xml.h:89
+msgid "_Move to New Window"
+msgstr "_Pindah ke Tetingkap Baru"
+
+#: src/pluma-mdi.c:446
+msgid "Open a file."
+msgstr "Buka fail."
+
+#: src/pluma-mdi.c:1032
+#, c-format
+msgid ""
+"Do you want to save the changes you made to the document \"%s\"? \n"
+"\n"
+"Your changes will be lost if you don't save them."
+msgstr ""
+"Adakah anda ingin menyimpan perubahan pada dokumen \"%s\"? \n"
+"\n"
+"Perubahan itu akan hilang jika anda tidak menyimpannya."
+
+#: src/pluma-mdi.c:1037
+msgid "Do_n't save"
+msgstr "Ja_ngan simpan"
+
+#: src/pluma-mdi.c:1056
+msgid "_Don't quit"
+msgstr "_Jangan keluar"
+
+#: src/pluma-mdi.c:1060
+msgid "_Don't close"
+msgstr "_Jangan tutup"
+
+#: src/pluma-mdi.c:1150
+msgid "(modified)"
+msgstr "(diubah)"
+
+#: src/pluma-mdi.c:1156
+msgid "(readonly)"
+msgstr "(bacasahaja)"
+
+#: src/pluma-plugins-engine.c:352
+#, c-format
+msgid "Error, unable to open module file '%s'\n"
+msgstr "Ralat, Gagal membuka fail modul '%s'\n"
+
+#: src/pluma-plugins-engine.c:362
+#, c-format
+msgid "Error, plugin '%s' does not contain init function."
+msgstr "Ralat, plugin '%s' tidak mengandungi fungsi init."
+
+#: src/pluma-plugins-engine.c:372
+#, c-format
+msgid "Error, plugin '%s' does not contain activate function."
+msgstr "Ralat, plugin '%s' tidak mengandungi fungsi pengaktifan."
+
+#: src/pluma-plugins-engine.c:382
+#, c-format
+msgid "Error, plugin '%s' does not contain deactivate function."
+msgstr "Ralat, plugin '%s' tidak mengandungi fungsi pengenyahaktifan."
+
+#: src/pluma-plugins-engine.c:407
+#, c-format
+msgid "Error, impossible to initialize plugin '%s'"
+msgstr "Ralat, mustahil untuk meinitialisasikan plugin '%s'"
+
+#: src/pluma-plugins-engine.c:458
+#, c-format
+msgid "Error, impossible to destroy plugin '%s'"
+msgstr "Ralat, mustahil untuk memusnahkan plugin '%s'"
+
+#: src/pluma-plugins-engine.c:541 src/pluma-plugins-engine.c:629
+#, c-format
+msgid "Error, impossible to activate plugin '%s'"
+msgstr "Ralat, mustahil untuk mengaktifkan plugin '%s'"
+
+#: src/pluma-plugins-engine.c:580
+#, c-format
+msgid "Error, impossible to deactivate plugin '%s'"
+msgstr "Ralat, mustahil untuk mengenyahaktifkan plugin '%s'"
+
+#: src/pluma-plugins-engine.c:673
+#, c-format
+msgid "Error, impossible to update ui of the plugin '%s'"
+msgstr "Ralat, mustahil untuk mengemaskini UI bagi plugin '%s'"
+
+#: src/pluma-prefs-manager.c:335
+msgid "Cannot initialize preferences manager."
+msgstr "Tak dapat menginitialisasi pengurus keutamaan."
+
+#: src/pluma-prefs-manager.c:1756
+#, c-format
+msgid "Expected `%s' got `%s' for key %s"
+msgstr "Menjangka `%s' dapat `%s' bagi kekunci %s"
+
+#: src/pluma-print.c:188
+msgid ""
+"pluma is unable to print since it cannot find\n"
+"one of the required fonts."
+msgstr ""
+"pluma tak dapat mencetak kerana ia tidak menjumpai\n"
+"salah satu daripada font yang diperlukan."
+
+#: src/pluma-print.c:374
+#, c-format
+msgid "File: %s"
+msgstr "Fail: %s"
+
+#. Print right text
+#: src/pluma-print.c:381
+#, c-format
+msgid "Page: %d"
+msgstr "Halaman: %d"
+
+#: src/pluma-print.c:522
+msgid "pluma - Print Preview"
+msgstr "pluma - Prebiu Cetakan"
+
+#: src/pluma-print.c:600
+#, c-format
+msgid ""
+"An error occurred while printing.\n"
+"\n"
+"%s,"
+msgstr ""
+"Ralat berlaku ketika mencetak.\n"
+"\n"
+"%s,"
+
+#: src/pluma-ui.xml.h:1
+msgid "About this application"
+msgstr "Perihal aplikasi ini"
+
+#: src/pluma-ui.xml.h:2
+msgid "C_ustomize Statusbar"
+msgstr "Pers_onalisasi Bar Status"
+
+#: src/pluma-ui.xml.h:3
+msgid "Change the visibility of the output window in the current window"
+msgstr "Tukar ketampakan bagi tetingkap output pada tetingkap semasa"
+
+#: src/pluma-ui.xml.h:4
+msgid "Change the visibility of the statusbar in the current window"
+msgstr "Tukar ketampakan bar status pada tetingkap semasa"
+
+#: src/pluma-ui.xml.h:5
+msgid "Change the visibility of the toolbar in the current window"
+msgstr "Tukar ketampakan bagi toolbar pada tetingkap semasa"
+
+#: src/pluma-ui.xml.h:6
+msgid "Close"
+msgstr "Tutup"
+
+#: src/pluma-ui.xml.h:7
+msgid "Close all open files"
+msgstr "Tutup semua fail yang dibuka"
+
+#: src/pluma-ui.xml.h:8
+msgid "Close the current file"
+msgstr "Tutup fail semasa"
+
+#: src/pluma-ui.xml.h:9
+msgid "Configure the application"
+msgstr "Konfigurasikan aplikasi"
+
+#: src/pluma-ui.xml.h:10
+msgid "Copy"
+msgstr "Salin"
+
+#: src/pluma-ui.xml.h:11
+msgid "Copy the selection"
+msgstr "Salin pilihan"
+
+#: src/pluma-ui.xml.h:12
+msgid "Create a new document"
+msgstr "Cipta dokumen baru"
+
+#: src/pluma-ui.xml.h:13
+msgid "Cu_t"
+msgstr "_Potong"
+
+#: src/pluma-ui.xml.h:14
+msgid "Customize"
+msgstr "Personalisasi"
+
+#: src/pluma-ui.xml.h:15
+msgid "Customize toolbars"
+msgstr "Susun toolbar"
+
+#: src/pluma-ui.xml.h:16
+msgid "Cut"
+msgstr "Potong"
+
+#: src/pluma-ui.xml.h:17
+msgid "Cut the selection"
+msgstr "Potong pilihan"
+
+#: src/pluma-ui.xml.h:18
+msgid "Delete"
+msgstr "Padam"
+
+#: src/pluma-ui.xml.h:19
+msgid "Delete the selected text"
+msgstr "Padam teks yang dipilih"
+
+#: src/pluma-ui.xml.h:20
+msgid "Dump XML"
+msgstr "Dump XML"
+
+#: src/pluma-ui.xml.h:21
+msgid "Dump the UI Xml description"
+msgstr "Dump huraian UI XML"
+
+#: src/pluma-ui.xml.h:23
+msgid "Find Again"
+msgstr "Cari Lagi"
+
+#: src/pluma-ui.xml.h:24
+msgid "Find Ne_xt"
+msgstr "Cari _Lagi"
+
+#: src/pluma-ui.xml.h:25
+msgid "Go to _Line..."
+msgstr "Pergi ke _Baris..."
+
+#: src/pluma-ui.xml.h:26
+msgid "Go to a specific line number"
+msgstr "Pergi ke baris tertentu"
+
+#: src/pluma-ui.xml.h:27
+msgid "Icon and _Text"
+msgstr "Ikon dan _Teks"
+
+#: src/pluma-ui.xml.h:28
+msgid "Main toolbar"
+msgstr "Toolbar utama"
+
+#: src/pluma-ui.xml.h:29
+msgid "Move the current document to a new window"
+msgstr "Pindah dokumen ini ke tetingkap baru"
+
+#: src/pluma-ui.xml.h:30
+msgid "New"
+msgstr "Baru"
+
+#: src/pluma-ui.xml.h:31
+msgid "Only show icons in the toolbar"
+msgstr "Hanya papar ikon pada toolbar"
+
+#: src/pluma-ui.xml.h:33
+msgid "Open Location..."
+msgstr "Buka Lokasi ..."
+
+#: src/pluma-ui.xml.h:34
+msgid "Open _Location..."
+msgstr "Buka _Lokasi ..."
+
+#: src/pluma-ui.xml.h:35
+msgid "Open a file"
+msgstr "Buka fail"
+
+#: src/pluma-ui.xml.h:36
+msgid "Open a file from a specified location"
+msgstr "Buka fail daripada lokasi yang dinyatakan"
+
+#: src/pluma-ui.xml.h:37
+msgid "Open the pluma manual"
+msgstr "Buka Manual Pluma"
+
+#: src/pluma-ui.xml.h:38
+msgid "Paste"
+msgstr "Tepek"
+
+#: src/pluma-ui.xml.h:39
+msgid "Paste the clipboard"
+msgstr "Tepek Papanklip"
+
+#: src/pluma-ui.xml.h:40
+msgid "Pr_eferences"
+msgstr "Ke_utamaan"
+
+#: src/pluma-ui.xml.h:42
+msgid "Print Previe_w..."
+msgstr "_Prebiu Cetakan..."
+
+#: src/pluma-ui.xml.h:43
+msgid "Print Preview"
+msgstr "Prebiu Cetakan"
+
+#: src/pluma-ui.xml.h:44
+msgid "Print Setup"
+msgstr "Tetapan Cetakan"
+
+#: src/pluma-ui.xml.h:45
+msgid "Print preview"
+msgstr "Prebiu Cetakan"
+
+#: src/pluma-ui.xml.h:46
+msgid "Print the current file"
+msgstr "Cetak fail semasa"
+
+#: src/pluma-ui.xml.h:47
+msgid "Quit"
+msgstr "Keluar"
+
+#: src/pluma-ui.xml.h:48
+msgid "Quit the program"
+msgstr "Keluar program"
+
+#: src/pluma-ui.xml.h:49
+msgid "Redo"
+msgstr "Ulangcara"
+
+#: src/pluma-ui.xml.h:50
+msgid "Redo the undone action"
+msgstr "Ulangcara aksi nyahcara"
+
+#: src/pluma-ui.xml.h:52
+msgid "Replace a string"
+msgstr "Ganti rentetan"
+
+#: src/pluma-ui.xml.h:53
+msgid "Revert"
+msgstr "Berbalik"
+
+#: src/pluma-ui.xml.h:54
+msgid "Revert to a saved version of the file"
+msgstr "Berbalik ke versi fail yang tersimpan"
+
+#: src/pluma-ui.xml.h:56
+msgid "Save As"
+msgstr "Simpan Sebagai"
+
+#: src/pluma-ui.xml.h:57
+msgid "Save _As..."
+msgstr "Simpan Seb_agai..."
+
+#: src/pluma-ui.xml.h:58
+msgid "Save all open files"
+msgstr "Simpan semua fail yang dibuka"
+
+#: src/pluma-ui.xml.h:59
+msgid "Save the current file"
+msgstr "Simpan fail semasa"
+
+#: src/pluma-ui.xml.h:60
+msgid "Save the current file with a different name"
+msgstr "Simpan fail semasa dengan nama lain"
+
+#: src/pluma-ui.xml.h:61
+msgid "Search again for the same string"
+msgstr "Cari rentetan yang sama lagi"
+
+#: src/pluma-ui.xml.h:62
+msgid "Search for a string"
+msgstr "Cari rentetan"
+
+#: src/pluma-ui.xml.h:63
+msgid "Select All"
+msgstr "Pilih Semua"
+
+#: src/pluma-ui.xml.h:64
+msgid "Select _All"
+msgstr "Pilih Semu_a"
+
+#: src/pluma-ui.xml.h:65
+msgid "Select the entire document"
+msgstr "Pilih seluruh dokumen"
+
+#: src/pluma-ui.xml.h:66
+msgid "Set toolbar button style according to desktop default"
+msgstr "Tetapkan gaya butang toolbar berdasarkan default desktop"
+
+#: src/pluma-ui.xml.h:67
+msgid "Setup the page settings for your current printer"
+msgstr "Tetapan halaman bagi pencetak semasa"
+
+#: src/pluma-ui.xml.h:68
+msgid "Show _Cursor Position"
+msgstr "Papar Posisi _Kursor"
+
+#: src/pluma-ui.xml.h:69
+msgid "Show _Overwrite Mode"
+msgstr "Papar Mod _Tindihan"
+
+#: src/pluma-ui.xml.h:70
+msgid "Show cursor position in the statusbar"
+msgstr "Papar posisi kursor pada bar status"
+
+#: src/pluma-ui.xml.h:71
+msgid "Show overwrite mode in the statusbar"
+msgstr "Papar mod tindihan pada bar status"
+
+#: src/pluma-ui.xml.h:73
+msgid "Undo the last action"
+msgstr "Nyahcara aksi terkhir"
+
+#: src/pluma-ui.xml.h:74
+msgid "_About"
+msgstr "_Perihal"
+
+#: src/pluma-ui.xml.h:75
+msgid "_Close"
+msgstr "_Tutup"
+
+#: src/pluma-ui.xml.h:76
+msgid "_Close All"
+msgstr "_Tutup Semua"
+
+#: src/pluma-ui.xml.h:77
+msgid "_Contents"
+msgstr "_Kandungan"
+
+#: src/pluma-ui.xml.h:78
+msgid "_Copy"
+msgstr "_Salin"
+
+#: src/pluma-ui.xml.h:79
+msgid "_Customize Toolbar"
+msgstr "Per_sonalisasi Toolbar"
+
+#: src/pluma-ui.xml.h:80
+msgid "_Debug"
+msgstr "_Nyahpepijat"
+
+#: src/pluma-ui.xml.h:81
+msgid "_Delete"
+msgstr "Pa_dam"
+
+#: src/pluma-ui.xml.h:82
+msgid "_Desktop Default"
+msgstr "_Default Desktop"
+
+#: src/pluma-ui.xml.h:83
+msgid "_Documents"
+msgstr "_Dokumen"
+
+#: src/pluma-ui.xml.h:84
+msgid "_Edit"
+msgstr "_Edit"
+
+#: src/pluma-ui.xml.h:85
+msgid "_File"
+msgstr "_Fail"
+
+#: src/pluma-ui.xml.h:86
+msgid "_Find..."
+msgstr "_Cari..."
+
+#: src/pluma-ui.xml.h:87
+msgid "_Help"
+msgstr "_Bantuan"
+
+#: src/pluma-ui.xml.h:88
+msgid "_Icon"
+msgstr "_Ikon"
+
+#: src/pluma-ui.xml.h:90
+msgid "_New"
+msgstr "_Baru"
+
+#: src/pluma-ui.xml.h:91
+msgid "_Open..."
+msgstr "_Buka..."
+
+#: src/pluma-ui.xml.h:92
+msgid "_Output Window"
+msgstr "Tetingkap _Output"
+
+#: src/pluma-ui.xml.h:93
+msgid "_Paste"
+msgstr "_Tepek"
+
+#: src/pluma-ui.xml.h:94
+msgid "_Print..."
+msgstr "_Cetak..."
+
+#: src/pluma-ui.xml.h:95
+msgid "_Priority Text beside Icons"
+msgstr "Teks _Prioriti di Sebelah Ikon"
+
+#: src/pluma-ui.xml.h:96
+msgid "_Quit"
+msgstr "_Keluar"
+
+#: src/pluma-ui.xml.h:97
+msgid "_Redo"
+msgstr "_Ulangcara"
+
+#: src/pluma-ui.xml.h:98
+msgid "_Replace..."
+msgstr "Ganti..."
+
+#: src/pluma-ui.xml.h:100
+msgid "_Save"
+msgstr "_Simpan"
+
+#: src/pluma-ui.xml.h:101
+msgid "_Save All"
+msgstr "_Simpan Semua"
+
+#: src/pluma-ui.xml.h:102
+msgid "_Search"
+msgstr "_Cari"
+
+#: src/pluma-ui.xml.h:103
+msgid "_Statusbar"
+msgstr "Bar _status"
+
+#: src/pluma-ui.xml.h:104
+msgid "_Toolbar"
+msgstr "_Toolbar"
+
+#: src/pluma-ui.xml.h:105
+msgid "_Tools"
+msgstr "_Radas"
+
+#: src/pluma-ui.xml.h:106
+msgid "_Undo"
+msgstr "_Nyahcara"
+
+#: src/pluma-ui.xml.h:107
+msgid "_View"
+msgstr "_Lihat"
+
+#: src/pluma-utils.c:795
+#, c-format
+msgid ""
+"Could not find the file \"%s\".\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+"Tak dapat menjumpai fail  \"%s\".\n"
+"\n"
+"Sila pastikan anda menaip lokasi dengan betul dan cuba lagi."
+
+#: src/pluma-utils.c:802
+#, c-format
+msgid "Could not open the file \"%s\" because it contains corrupted data."
+msgstr "Tak dapat membuka fail \"%s\" kerana ia mengandungi data yang rosak."
+
+#: src/pluma-utils.c:813
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because pluma cannot handle %s: locations."
+msgstr ""
+"Tak dapat membuka fail \"%s\" kerana pluma tak boleh kendali lokasi %s: ."
+
+#: src/pluma-utils.c:819
+#, c-format
+msgid "Could not open the file \"%s\""
+msgstr "Tak dapat membuka fail \"%s\""
+
+#: src/pluma-utils.c:829
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because it contains data in an invalid format."
+msgstr ""
+"Tak dapat membuka fail  \"%s\" kerana ia mengandungi data dalam format yang "
+"tidak sah."
+
+#: src/pluma-utils.c:836
+#, c-format
+msgid "Could not open the file \"%s\" because it is too big."
+msgstr "Tak dapat membukafail \"%s\" kerana ianya terlalu besar."
+
+#: src/pluma-utils.c:843
+#, c-format
+msgid ""
+"\"%s\" is not a valid location.\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+"\"%s\" adalah lokasi tidak sah.\n"
+"\n"
+"Sila pastikan anda menaip lokasi dengan betul dan cuba lagi."
+
+#: src/pluma-utils.c:850
+#, c-format
+msgid "Could not open the file \"%s\" because access was denied."
+msgstr "Tak dapat membukafail \"%s\" keran akses dinafikan."
+
+#: src/pluma-utils.c:857
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because there are too many open files.\n"
+"\n"
+"Please, close some open file and try again."
+msgstr ""
+"Tak dapat membuka fail \"%s\" kerana terdapat terlalu banyak fail dibuka.\n"
+"\n"
+"Sila tutup sedikit fail dan cuba lagi."
+
+#: src/pluma-utils.c:865
+#, c-format
+msgid ""
+"\"%s\" is a directory.\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+"\"%s\" adalah direktori.\n"
+"\n"
+"Sila semak lokasi yang anda taip itu betul dan cuba lagi."
+
+#: src/pluma-utils.c:872
+#, c-format
+msgid ""
+"Not enough available memory to open the file \"%s\". Please, close some "
+"running application and try again."
+msgstr ""
+"Tidak cukup memori untuk membuka fail \"%s\". Sila tutup sedikit aplikasi "
+"terlaksana dan cuba lagi."
+
+#: src/pluma-utils.c:898
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because no host \"%s\" could be found.\n"
+"\n"
+"Please, check that you typed the location correctly and that your proxy "
+"settings are correct and then try again."
+msgstr ""
+"Tak dapat membuka fail  \"%s\" kerana tiada hos \"%s\" dijumpai.\n"
+"\n"
+"Sila semak samada lokasi yang ditaip adalah betul dan tetapan proksi adalah "
+"betul dan cuba lagi."
+
+#: src/pluma-utils.c:913
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because the host name was invalid.\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+"Tak dapat membuka fail  \"%s\" kerana nama hos tidak sah.\n"
+"\n"
+"Sila semak lokasi yang anda taip adalah betul dan cuba lagi."
+
+#: src/pluma-utils.c:920
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because the host name was empty.\n"
+"\n"
+"Please, check that your proxy settings are correct and try again."
+msgstr ""
+"Tak dapat membuka fail  \"%s\" kerana nama hos adalah kosong.\n"
+"\n"
+"Sila semak samada tetapan proksi adlaah betul dan cuba lagi."
+
+#: src/pluma-utils.c:927
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because the attempt to log in failed.\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+"Tak dapat membuka fail  \"%s\" kerana cubaan logmasuk gagal.\n"
+"\n"
+"Sila semak samada lokasi yang anda taip adalah betul dan cuba lagi."
+
+#: src/pluma-utils.c:935
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because it contains invalid UTF-8 data.\n"
+"\n"
+"Probably, you are trying to open a binary file."
+msgstr ""
+"Tak dapat membuka fail \"%s\" kerana ia mengandungi data UTF-8 yang tak "
+"sah.\n"
+"\n"
+"Mungkin anda cuma membuka fail binari."
+
+#: src/pluma-utils.c:973
+#, c-format
+msgid "Could not open the file \"%s\"."
+msgstr "Tak dapat membukafail \"%s\"."
+
+#: src/pluma-utils.c:1024
+#, c-format
+msgid "Could not save the file \"%s\"."
+msgstr "Tak dapat menyimpan fail \"%s\"."
+
+#: src/pluma-utils.c:1028
+#, c-format
+msgid ""
+"Could not save the file \"%s\".\n"
+"\n"
+"%s"
+msgstr ""
+"Tak dapat menyimpan fail \"%s\":\n"
+"\n"
+"%s"
+
+#: src/pluma-utils.c:1081
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because pluma cannot find it.\n"
+"\n"
+"Perhaps, it has recently been deleted."
+msgstr ""
+"Tak dapat memberbalik fail \"%s\" kerana pluma tak menjumpainyai.\n"
+"\n"
+"Mungkin dianya baru sahaja dipadam."
+
+#: src/pluma-utils.c:1088
+#, c-format
+msgid "Could not revert the file \"%s\" because it contains corrupted data."
+msgstr "Tak dapat memberbalikkan fail \"%s\" kerana ia mengandungi fail rosak"
+
+#: src/pluma-utils.c:1099
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because pluma cannot handle %s: locations."
+msgstr ""
+"Tak dapat memberbalik fail \"%s\" kerana pluma tak boleh kendali lokasi %s: ."
+
+#: src/pluma-utils.c:1105 src/pluma-utils.c:1245
+#, c-format
+msgid "Could not revert the file \"%s\"."
+msgstr "Tak dapat memberbalikkan fail \"%s\"."
+
+#: src/pluma-utils.c:1115
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because it contains data in an invalid "
+"format."
+msgstr ""
+"Tak dapat memberbalik fail \"%s\" kerana ia mengandungi data dalam format "
+"yang tidak sah."
+
+#: src/pluma-utils.c:1122
+#, c-format
+msgid "Could not revert the file \"%s\" because it is too big."
+msgstr "Tak dapat memberbalikkan fail \"%s\"i kerana ianya terlalu besar"
+
+#: src/pluma-utils.c:1129
+#, c-format
+msgid "Could not revert the file \"%s\" because access was denied."
+msgstr "Tak dapat memberbalikkan fail \"%s\" kerana akses dinafikan."
+
+#: src/pluma-utils.c:1136
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because there are too many open files.\n"
+"\n"
+"Please, close some open file and try again."
+msgstr ""
+"Tak dapat memberbalikkan fail \"%s\" kerana terlalu banyak fail dibuka.\n"
+"\n"
+"Sila tutup sedikit fail dan cuba lagi."
+
+#: src/pluma-utils.c:1144
+#, c-format
+msgid ""
+"Not enough available memory to revert the file \"%s\". Please, close some "
+"running application and try again."
+msgstr ""
+"Tak cukup memori untuk memberbalikkan fail \"%s\". SIla tutup sedikit "
+"aplikasi terlaksana dan cuba lago."
+
+#: src/pluma-utils.c:1170
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because no host \"%s\" could be found.\n"
+"\n"
+"Please, check that your proxy settings are correct and try again."
+msgstr ""
+"Tak dapat memberbalikkan fail \"%s\" kerana tiada hos \"%s\" dijumpai\n"
+"\n"
+"Sila pastikan tetapan proksi adalah betul dan cuba lagi."
+
+#: src/pluma-utils.c:1184
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because the host name was empty.\n"
+"\n"
+"Please, check that your proxy settings are correct and try again."
+msgstr ""
+"Tak dapat memberbalik fail \"%s\" kerana nama hos kosong\n"
+"\n"
+"Sila semak samada tetapan proksi adalah betul dan cuba lagi."
+
+#: src/pluma-utils.c:1191
+#, c-format
+msgid "Could not revert the file \"%s\" because the attempt to log in failed."
+msgstr "Tak dapat memberbalikkan fail \"%s\" kerana cubaan logmasuk gagal."
+
+#: src/pluma-utils.c:1198
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because it contains invalid UTF-8 data.\n"
+"\n"
+"Probably, you are trying to revert a binary file."
+msgstr ""
+"Tak dapat memberbalikkan fail \"%s\" kerana ia mengandungi data UTF-8 yang "
+"tak sah\n"
+"\n"
+"Mungkin anda cuba memberbalik fail binari."
+
+#: src/pluma-utils.c:1207
+msgid "It is not possible to revert an Untitled document."
+msgstr "Mustahil untuk berbalik ke dokumen Tiadatajuk."
+
+#: src/pluma-utils.c:1296
+#, c-format
+msgid "The file \"%s\" already exists."
+msgstr "Fail \"%s\" tersedia wujud."
+
+#: src/pluma-utils.c:1302
+#, c-format
+msgid ""
+"\"%s\" is a directory.\n"
+"\n"
+"Please, check that you typed the location correctly."
+msgstr ""
+"\"%s\" adalah direktori.\n"
+"\n"
+"Sila semak lokasi anda anda menaip lokasi dengan betul."
+
+#: src/pluma-utils.c:1311
+#, c-format
+msgid ""
+"Cannot create the file \"%s\".\n"
+"\n"
+"Make sure you have the appropriate write permissions."
+msgstr ""
+"Tak dapat mencipta fail \"%s\".\n"
+"\n"
+"Pastikan anda mempunyai keizinan menulis yang sepatutnya."
+
+#: src/pluma-utils.c:1318
+#, c-format
+msgid ""
+"Cannot create the file \"%s\".\n"
+"\n"
+"The file name is too long."
+msgstr ""
+"Tak dapat mencipta fail \"%s\".\n"
+"\n"
+" nama fail terlalu panjang"
+
+#: src/pluma-utils.c:1325
+#, c-format
+msgid ""
+"Cannot create the file \"%s\".\n"
+"\n"
+"A directory component in the file name does not exist or is a dangling "
+"symbolic link."
+msgstr ""
+
+#: src/pluma-utils.c:1334
+#, c-format
+msgid ""
+"There is not enough disk space to create the file \"%s\".\n"
+"\n"
+"Please free some disk space and try again."
+msgstr ""
+"Tak cukup ruang cakera untuk mencipta fail \"%s\".\n"
+"\n"
+"Sila, bebaskan sedikit ruang pada cakera dan cuba lagi."
+
+#: src/pluma-utils.c:1340
+#, c-format
+msgid "Could not create the file \"%s\"."
+msgstr "Tak dapat mencipta fail \"%s\"."
+
+#.
+#. if (col == chars)
+#. msg = g_strdup_printf (_("  Ln %d, Col. %d"), row + 1, col + 1);
+#. else
+#. msg = g_strdup_printf (_("  Ln %d, Col. %d-%d"), row + 1, chars + 1, col + 1);
+#.
+#: src/pluma-view.c:1045
+#, c-format
+msgid "  Ln %d, Col. %d"
+msgstr " brs %d, Kol. %d"
+
+#: src/pluma-view.c:1083
+msgid "  OVR"
+msgstr " OVR"
+
+#: src/pluma-view.c:1085
+msgid "  INS"
+msgstr " INS"
+
+#: src/pluma2.c:77
+msgid "Show utility debugging messages."
+msgstr "Papar utiliti mesej nyahpepijat fail."
+
+#: src/pluma2.c:80
+msgid "Show mdi debugging messages."
+msgstr "Papar mesej peyahpepijatan mdi"
+
+#: src/pluma2.c:83
+msgid "Show commands debugging messages."
+msgstr "Papar mesej nyahpepijat arahan."
+
+#: src/pluma2.c:86
+msgid "Show document debugging messages."
+msgstr "Papar mesej nyahpepijat dokumen."
+
+#: src/pluma2.c:89
+msgid "Show file debugging messages."
+msgstr "Papar mesej nyahpepijat fail"
+
+#: src/pluma2.c:92
+msgid "Show plugin debugging messages."
+msgstr "Papar mesej nyahpepijat plugin."
+
+#: src/pluma2.c:95
+msgid "Show prefs debugging messages."
+msgstr "Papar mesej nyahpepijat pref."
+
+#: src/pluma2.c:98
+msgid "Show printing debugging messages."
+msgstr "Papar mesej nyahpepijat cetakan."
+
+#: src/pluma2.c:101
+msgid "Show search debugging messages."
+msgstr "Papar mesej nyahpepijat carian."
+
+#: src/pluma2.c:104
+msgid "Show undo debugging messages."
+msgstr "Papar mesej nyahpepijat nyahcara."
+
+#: src/pluma2.c:107
+msgid "Show view debugging messages."
+msgstr "Papar mesej nyahpepijat lihat."
+
+#: src/pluma2.c:110
+msgid "Show recent debugging messages."
+msgstr "Papar mesej nyahpepijat terkini"
+
+#: src/pluma2.c:113
+msgid "Show session management debugging messages."
+msgstr "Papar mesej nyahpepijat pengurusan sessi."
+
+#: src/pluma2.c:116
+msgid "Turn on all debugging messages."
+msgstr "Hidupkan semua mesej nyahpepijat"
+
+#: src/pluma2.c:119
+msgid "Quit an existing instance of pluma"
+msgstr "Keluar instans pluma yang ada"
+
+#: src/pluma2.c:122
+msgid "Create a new toplevel window in an existing instance of pluma"
+msgstr "Cipta tetingkap aras-atas baru pada instans pluma yang ada"
+
+#: src/pluma2.c:125
+msgid "Create a new document in an existing instance of pluma"
+msgstr ""
+
+#: src/pluma-output-window.c:278
+msgid "Close the output window"
+msgstr "Tutup tetingkap output"
+
+#: src/pluma-output-window.c:316
+msgid "Copy selected lines"
+msgstr "Salin baris dipilih"
+
+#: src/pluma-output-window.c:336
+msgid "Clear the output window"
+msgstr "Kosongkan tetingkap output"
+
+#: src/pluma-output-window.c:374
+msgid "Output Lines"
+msgstr "Baris Output"
+
+#: src/dialogs/pluma-encodings-dialog.glade2.h:1
+msgid "Choose one or more e_ncodings:"
+msgstr "Pilih satu atau lebih peng_enkodan:"
+
+#: src/pluma-encodings.c:142 src/pluma-encodings.c:166
+#: src/pluma-encodings.c:207 src/pluma-encodings.c:257
+#: src/pluma-encodings.c:282
+msgid "Western"
+msgstr "Barat"
+
+#: src/pluma-encodings.c:144
+msgid "South European"
+msgstr "Eropah Selatan"
+
+#: src/pluma-encodings.c:146 src/pluma-encodings.c:162
+#: src/pluma-encodings.c:292
+msgid "Baltic"
+msgstr "Baltik"
+
+#: src/pluma-encodings.c:148 src/pluma-encodings.c:211
+#: src/pluma-encodings.c:224 src/pluma-encodings.c:228
+#: src/pluma-encodings.c:241 src/pluma-encodings.c:280
+msgid "Cyrillic"
+msgstr "Cyrillic"
+
+#: src/pluma-encodings.c:150 src/pluma-encodings.c:217
+#: src/pluma-encodings.c:235 src/pluma-encodings.c:290
+msgid "Arabic"
+msgstr "Arab"
+
+#: src/pluma-encodings.c:152 src/pluma-encodings.c:247
+#: src/pluma-encodings.c:284
+msgid "Greek"
+msgstr "Yunani"
+
+#: src/pluma-encodings.c:154
+msgid "Hebrew Visual"
+msgstr "Hebrew Tampak"
+
+#: src/pluma-encodings.c:156 src/pluma-encodings.c:215
+#: src/pluma-encodings.c:253 src/pluma-encodings.c:288
+msgid "Hebrew"
+msgstr "Hebrew"
+
+#: src/pluma-encodings.c:158 src/pluma-encodings.c:213
+#: src/pluma-encodings.c:261 src/pluma-encodings.c:286
+msgid "Turkish"
+msgstr "Turki"
+
+#: src/pluma-encodings.c:160
+msgid "Nordic"
+msgstr "Nordic"
+
+#: src/pluma-encodings.c:164
+msgid "Celtic"
+msgstr "Celtic"
+
+#: src/pluma-encodings.c:168 src/pluma-encodings.c:259
+msgid "Romanian"
+msgstr "Romania"
+
+#: src/pluma-encodings.c:171 src/pluma-encodings.c:173
+#: src/pluma-encodings.c:175 src/pluma-encodings.c:177
+msgid "Unicode"
+msgstr "Unicode"
+
+#: src/pluma-encodings.c:180
+msgid "Armenian"
+msgstr "Armenia"
+
+#: src/pluma-encodings.c:182 src/pluma-encodings.c:184
+#: src/pluma-encodings.c:193
+msgid "Chinese Traditional"
+msgstr "Cina Tradisional"
+
+#: src/pluma-encodings.c:186
+msgid "Cyrillic/Russian"
+msgstr "Cyrillic/Rusia"
+
+#: src/pluma-encodings.c:189 src/pluma-encodings.c:220
+#: src/pluma-encodings.c:267
+msgid "Japanese"
+msgstr "Jepun"
+
+#: src/pluma-encodings.c:191 src/pluma-encodings.c:222
+#: src/pluma-encodings.c:226 src/pluma-encodings.c:273
+msgid "Korean"
+msgstr "Korea"
+
+#: src/pluma-encodings.c:196 src/pluma-encodings.c:198
+#: src/pluma-encodings.c:200 src/pluma-encodings.c:204
+msgid "Chinese Simplified"
+msgstr "Cina Dipermudah"
+
+#: src/pluma-encodings.c:202
+msgid "Georgian"
+msgstr "Georgia"
+
+#: src/pluma-encodings.c:209 src/pluma-encodings.c:237
+#: src/pluma-encodings.c:278
+msgid "Central European"
+msgstr "Eropah Tengah"
+
+#: src/pluma-encodings.c:230 src/pluma-encodings.c:263
+msgid "Cyrillic/Ukrainian"
+msgstr "Cyrillic/Ukrainian"
+
+#: src/pluma-encodings.c:239
+msgid "Croatian"
+msgstr "Croatia"
+
+#: src/pluma-encodings.c:243
+msgid "Hindi"
+msgstr "Hindi"
+
+#: src/pluma-encodings.c:245
+msgid "Farsi"
+msgstr "Parsi"
+
+#: src/pluma-encodings.c:249
+msgid "Gujarati"
+msgstr "Gujarati"
+
+#: src/pluma-encodings.c:251
+msgid "Gurmukhi"
+msgstr "Gurmukhi"
+
+#: src/pluma-encodings.c:255
+msgid "Icelandic"
+msgstr "Icelandic"
+
+#: src/pluma-encodings.c:269 src/pluma-encodings.c:275
+#: src/pluma-encodings.c:294
+msgid "Vietnamese"
+msgstr "Vietnam"
+
+#: src/pluma-encodings.c:271
+msgid "Thai"
+msgstr "Siam"
+
+#: src/recent-files/egg-recent-vfs-utils.c:90
+msgid " (invalid Unicode)"
+msgstr "(Unicode tidak sah)"

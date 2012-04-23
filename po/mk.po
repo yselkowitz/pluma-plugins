@@ -1,0 +1,3051 @@
+# translation of pluma.HEAD.mk.po to Macedonian
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# Igor Petreski <dierektor@pcinfo.com.mk>, 2002
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma.HEAD.mk\n"
+"POT-Creation-Date: 2002-12-13 05:47+0100\n"
+"PO-Revision-Date: 2002-12-14 16:40+0100\n"
+"Last-Translator: Igor Petreski <dierektor@pcinfo.com.mk>\n"
+"Language-Team: Macedonian <mk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0beta2\n"
+
+#: data/GNOME_Pluma.server.in.h:1
+msgid "pluma application"
+msgstr ""
+
+#: data/GNOME_Pluma.server.in.h:2
+msgid "pluma automation factory"
+msgstr ""
+
+#: data/pluma.desktop.in.h:1
+msgid "Edit text files"
+msgstr "Ажурирај текстуални фајлови"
+
+#: data/pluma.desktop.in.h:2 src/pluma2.c:336
+msgid "Text Editor"
+msgstr "Текст едитор"
+
+#: data/pluma.schemas.in.h:1
+msgid ""
+"A custom font that will be used for the editing area. This will only take "
+"effect if the \"Use Default Font\" option is turned off."
+msgstr ""
+
+#: data/pluma.schemas.in.h:2
+msgid "Auto Save"
+msgstr ""
+
+#: data/pluma.schemas.in.h:3
+msgid "Auto Save Interval"
+msgstr ""
+
+#: data/pluma.schemas.in.h:4
+msgid "Auto indent"
+msgstr ""
+
+#: data/pluma.schemas.in.h:5
+msgid "Background Color"
+msgstr ""
+
+#: data/pluma.schemas.in.h:6
+msgid ""
+"Background color for selected text in the editing area. This will only take "
+"effect if the \"Use Default Colors\" option is turned off."
+msgstr ""
+
+#: data/pluma.schemas.in.h:7
+msgid ""
+"Background color for unselected text in the editing area. This will only "
+"take effect if the \"Use Default Colors\" option is turned off."
+msgstr ""
+
+#: data/pluma.schemas.in.h:8
+msgid "Backup Copy Extension"
+msgstr ""
+
+#: data/pluma.schemas.in.h:9
+msgid "Body Font for Printing"
+msgstr ""
+
+#: data/pluma.schemas.in.h:10
+msgid "Create Backup Copies"
+msgstr ""
+
+#: data/pluma.schemas.in.h:11
+msgid "Display Line Numbers"
+msgstr ""
+
+#: data/pluma.schemas.in.h:12
+msgid "Editor Font"
+msgstr ""
+
+#: data/pluma.schemas.in.h:13
+msgid "Encoding for Saving"
+msgstr ""
+
+#: data/pluma.schemas.in.h:14 src/dialogs/pluma-preferences-dialog.c:2290
+#: src/dialogs/pluma-encodings-dialog.c:257
+#: src/dialogs/pluma-encodings-dialog.glade2.h:2
+msgid "Encodings"
+msgstr ""
+
+#: data/pluma.schemas.in.h:15
+msgid ""
+"Extension or suffix to use for backup file names. This will only take effect "
+"if the \"Create Backup Copies\" option is turned on."
+msgstr ""
+
+#: data/pluma.schemas.in.h:16
+msgid ""
+"Foreground color for selected text in the editing area. This will only take "
+"effect if the \"Use Default Colors\" option is turned off."
+msgstr ""
+
+#: data/pluma.schemas.in.h:17
+msgid ""
+"Foreground color for the unselected text in the editing area. This will only "
+"take effect if the \"Use Default Colors\" option is turned off."
+msgstr ""
+
+#: data/pluma.schemas.in.h:18
+msgid "Header Font for Printing"
+msgstr ""
+
+#: data/pluma.schemas.in.h:19
+msgid ""
+"If this value is 0, then no line numbers will be inserted when printing a "
+"document. Otherwise, pluma will print line numbers every such number of "
+"lines."
+msgstr ""
+
+#: data/pluma.schemas.in.h:20
+#, fuzzy
+msgid "Insert spaces"
+msgstr "Внеси кориснички _име"
+
+#: data/pluma.schemas.in.h:21
+msgid "Line Number Font for Printing"
+msgstr ""
+
+#: data/pluma.schemas.in.h:22
+msgid "Line Wrapping Mode"
+msgstr ""
+
+#: data/pluma.schemas.in.h:23
+msgid ""
+"List of encodings used by pluma for reading files not encoded in UTF-8 or in "
+"the current locale encoding."
+msgstr ""
+
+#: data/pluma.schemas.in.h:24
+msgid "Maximum Recent Files"
+msgstr ""
+
+#: data/pluma.schemas.in.h:25
+msgid "Maximum number of actions that pluma will be able to undo or redo."
+msgstr ""
+
+#: data/pluma.schemas.in.h:26
+msgid ""
+"Number of minutes after which pluma will automatically save modified files. "
+"This will only take effect if the \"Auto Save\" option is turned on."
+msgstr ""
+
+#: data/pluma.schemas.in.h:27
+msgid "Print Header"
+msgstr ""
+
+#: data/pluma.schemas.in.h:28
+msgid "Print Line Numbers"
+msgstr ""
+
+#: data/pluma.schemas.in.h:29
+msgid "Printing Line Wrapping Mode"
+msgstr ""
+
+#: data/pluma.schemas.in.h:30
+msgid "Selected Text Color"
+msgstr ""
+
+#: data/pluma.schemas.in.h:31
+msgid "Selection Color"
+msgstr ""
+
+#: data/pluma.schemas.in.h:32
+msgid "Show Cursor Position"
+msgstr ""
+
+#: data/pluma.schemas.in.h:33
+msgid "Show Overwrite Mode"
+msgstr ""
+
+#: data/pluma.schemas.in.h:34
+msgid ""
+"Specifies how to wrap long lines for printing. Use \"GTK_WRAP_NONE\" for no "
+"wrapping, \"GTK_WRAP_WORD\" for wrapping at word boundaries, and "
+"\"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. Note that "
+"the values are case-sensitive, so make sure they appear exactly as mentioned "
+"here."
+msgstr ""
+
+#: data/pluma.schemas.in.h:35
+msgid ""
+"Specifies how to wrap long lines in the editing area. Use \"GTK_WRAP_NONE\" "
+"for no wrapping, \"GTK_WRAP_WORD\" for wrapping at word boundaries, and "
+"\"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. Note that "
+"the values are case-sensitive, so make sure they appear exactly as mentioned "
+"here."
+msgstr ""
+
+#: data/pluma.schemas.in.h:36
+msgid "Specifies the font to use for a document's body when printing documents."
+msgstr ""
+
+#: data/pluma.schemas.in.h:37
+msgid ""
+"Specifies the font to use for line numbers when printing. This will only "
+"take effect if the \"Print Line Numbers\" option is non-zero."
+msgstr ""
+
+#: data/pluma.schemas.in.h:38
+msgid ""
+"Specifies the font to use for page headers when printing a document. This "
+"will only take effect if the \"Print Header\" option is turned on."
+msgstr ""
+
+#: data/pluma.schemas.in.h:39
+msgid ""
+"Specifies the maximum number of recently opened files that will be displayed "
+"in the \"Recent Files\" submenu."
+msgstr ""
+
+#: data/pluma.schemas.in.h:40
+msgid ""
+"Specifies the number of spaces that should be displayed instead of Tab "
+"characters."
+msgstr ""
+
+#: data/pluma.schemas.in.h:41
+msgid "Status Bar is Visible"
+msgstr ""
+
+#: data/pluma.schemas.in.h:42
+msgid ""
+"Style for the toolbar buttons. Possible values are \"PLUMA_TOOLBAR_SYSTEM\" "
+"to use the system's default style, \"PLUMA_TOOLBAR_ICONS\" to display icons "
+"only, \"PLUMA_TOOLBAR_ICONS_AND_TEXT\" to display both icons and text, and "
+"\"PLUMA_TOOLBAR_ICONS_BOTH_HORIZ\" to display prioritized text beside icons. "
+"Note that the values are case-sensitive, so make sure they appear exactly as "
+"mentioned here."
+msgstr ""
+
+#: data/pluma.schemas.in.h:43
+msgid "Tab Size"
+msgstr ""
+
+#: data/pluma.schemas.in.h:44
+#, fuzzy
+msgid "Text Color"
+msgstr "Текст едитор"
+
+#: data/pluma.schemas.in.h:45
+msgid ""
+"The encoding method to use for saving files. Possible values are "
+"\"PLUMA_SAVE_ALWAYS_UTF8\" for mandatory UTF-8 saving, "
+"\"PLUMA_SAVE_CURRENT_LOCALE_IF_POSSIBLE\" if you want pluma to try to "
+"convert the document it is saving to your current locale's encoding, "
+"\"PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE\" if you want pluma to try "
+"to use the original file encoding (new files in UTF8) and "
+"\"PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE_NCL\" if you want pluma to "
+"try to use the original file encoding (new files in current locale's "
+"encoding). If the conversion is successful, it will be used. Otherwise, UTF-"
+"8 will be used. Note that the values are case-sensitive, so make sure they "
+"appear exactly as mentioned here."
+msgstr ""
+
+#: data/pluma.schemas.in.h:46
+msgid "Toolbar Buttons Style"
+msgstr ""
+
+#: data/pluma.schemas.in.h:47
+msgid "Toolbar is Visible"
+msgstr ""
+
+#: data/pluma.schemas.in.h:48
+msgid "Undo Actions Limit"
+msgstr ""
+
+#: data/pluma.schemas.in.h:49
+msgid "Use Default Colors"
+msgstr ""
+
+#: data/pluma.schemas.in.h:50
+msgid "Use Default Font"
+msgstr ""
+
+#: data/pluma.schemas.in.h:51
+msgid ""
+"Whether pluma should automatically save modified files after a time "
+"interval. You can set the time interval with the \"Auto Save Interval\" "
+"option."
+msgstr ""
+
+#: data/pluma.schemas.in.h:52
+msgid ""
+"Whether pluma should create backup copies for the files it saves. You can "
+"set the backup file extension with the \"Backup Copy Extension\" option."
+msgstr ""
+
+#: data/pluma.schemas.in.h:53
+msgid "Whether pluma should display line numbers in the editing area."
+msgstr ""
+
+#: data/pluma.schemas.in.h:54
+msgid "Whether pluma should enable auto indentation."
+msgstr ""
+
+#: data/pluma.schemas.in.h:55
+msgid "Whether pluma should include a document header when printing documents."
+msgstr ""
+
+#: data/pluma.schemas.in.h:56
+msgid "Whether pluma should insert spaces instead of tabs."
+msgstr ""
+
+#: data/pluma.schemas.in.h:57
+msgid "Whether the status bar at the bottom of editing windows should be visible."
+msgstr ""
+
+#: data/pluma.schemas.in.h:58
+msgid ""
+"Whether the status bar should show the cursor position in editing windows. "
+"Make sure you turn on the \"Status Bar is Visible\" option for this to take "
+"effect."
+msgstr ""
+
+#: data/pluma.schemas.in.h:59
+msgid ""
+"Whether the status bar should show the insert/overwrite mode in editing "
+"windows. Make sure you turn on the \"Status Bar is Visible\" option for this "
+"to take effect."
+msgstr ""
+
+#: data/pluma.schemas.in.h:60
+msgid "Whether the toolbar should be visible in editing windows."
+msgstr ""
+
+#: data/pluma.schemas.in.h:61
+msgid ""
+"Whether to use the system's default colors for the editing area. If this "
+"option is turned off, then the colors of the editing area will be those "
+"specified in the \"Background Color\", \"Text Color\", \"Selected Text Color"
+"\", and \"Selection Color\" options."
+msgstr ""
+
+#: data/pluma.schemas.in.h:62
+msgid ""
+"Whether to use the system's default font for editing text instead of a font "
+"specific to pluma. If this option is turned off, then the font named in the "
+"\"Editor Font\" option will be used instead of the system font."
+msgstr ""
+
+#: plugins/ASCII/ascii.c:43
+msgid "_ASCII Table"
+msgstr "_ASCII табела"
+
+#: plugins/ASCII/ascii.c:46
+msgid "Pop-up a dialog containing an ASCII Table"
+msgstr "Дијалог прозорче кое содржи ASCII tабела"
+
+#: plugins/ASCII/ascii.c:303
+msgid "Char"
+msgstr "Карактер"
+
+#: plugins/ASCII/ascii.c:310
+msgid "Dec#"
+msgstr "Децимално#"
+
+#: plugins/ASCII/ascii.c:317
+msgid "Hex#"
+msgstr "Хексадецимално#"
+
+#: plugins/ASCII/ascii.c:324
+msgid "Name"
+msgstr "Име"
+
+#: plugins/ASCII/ascii.c:369
+#, fuzzy
+msgid "ASCII Table"
+msgstr "_ASCII табела"
+
+#: plugins/ASCII/ascii.c:382 plugins/ASCII/asciitable.glade2.h:2
+msgid "_Insert char"
+msgstr "_Внеси карактер"
+
+#: plugins/ASCII/asciitable.glade2.h:1
+msgid "ASCII table"
+msgstr "ASCII табела"
+
+#. AFAIK, all cvs commit messages start with this
+#: plugins/cvschangelog/cvschangelog.c:49
+msgid "Open CVS Chan_geLogs"
+msgstr "Отвори ги CVS Change-логовите"
+
+#: plugins/cvschangelog/cvschangelog.c:52
+msgid "Searches for ChangeLogs in the current document and opens them"
+msgstr "Пребарува за Change-логови во активниот документ и ги отвара"
+
+#: plugins/diff/diff.c:65
+msgid "Co_mpare Files..."
+msgstr "Спо_реди датотеки..."
+
+#: plugins/diff/diff.c:68
+msgid "Makes a diff file from two documents or files"
+msgstr "Прави diff датотека од два документи или дадотеки"
+
+#. Create the dialog
+#: plugins/diff/diff.c:271
+#, fuzzy
+msgid "Compare Files"
+msgstr "Споредува датотеки"
+
+#: plugins/diff/diff.c:285
+msgid "C_ompare"
+msgstr "С_поредува"
+
+#: plugins/diff/diff.c:513
+msgid "Executed command"
+msgstr ""
+
+#: plugins/diff/diff.c:652
+msgid "The two documents you selected are the same."
+msgstr "Двата документи кои ги селектиравте се исти"
+
+#: plugins/diff/diff.c:660
+msgid ""
+"The \"first\" file you selected does not exist.\n"
+"\n"
+"Please provide a valid file."
+msgstr ""
+"\"првaта\" датотека која ја селектиравте не постои. \n"
+"Изберете валидна датотека"
+
+#: plugins/diff/diff.c:669
+msgid ""
+"The \"second\" file you selected does not exist.\n"
+"\n"
+"Please provide a valid file."
+msgstr ""
+"\"Втората\" датотека која ја селектиравте не постои \n"
+"\n"
+"Изберете валидна датотека "
+
+#: plugins/diff/diff.c:677
+msgid "The two files you selected are the same."
+msgstr "Двете датотеки кои ги селектиравте се исти"
+
+#: plugins/diff/diff.c:695
+msgid "The \"first\" document contains no text."
+msgstr "\"Првиот\" документ не содржи текст"
+
+#: plugins/diff/diff.c:730
+msgid "The \"second\" document contains no text."
+msgstr "\"Вториот\" документ не содржи текст"
+
+#. FIXME: do better error reporting ... . Chema
+#: plugins/diff/diff.c:756
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"pluma could not create a temporary file."
+msgstr ""
+"Невозмжно е да се споредат двата селектирани документи.\n"
+"\n"
+"pluma неможе да креира привремена датотека"
+
+#: plugins/diff/diff.c:776 plugins/diff/diff.c:789
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"Error executing the diff command."
+msgstr ""
+"Невозможно е да се споредат двата селектирани документи.\n"
+"\n"
+"Се јави грешка при извршување на diff командата."
+
+#: plugins/diff/diff.c:811
+msgid "No differences were found between the selected documents."
+msgstr "Нема разлика помеѓу двата селектирани документи."
+
+#: plugins/diff/diff.c:852
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"The result contains invalid UTF-8 data."
+msgstr ""
+"Невозможно е да се споредат селектирантите документи.\n"
+"\n"
+"Резултатот содржи невалидни UTF-8 податоци."
+
+#: plugins/diff/diff.glade2.h:1 plugins/shell_output/shell_output.glade2.h:1
+#: plugins/time/time.glade2.h:2 plugins/spell/spell-checker.glade2.h:1
+#: src/dialogs/replace.glade2.h:1 src/dialogs/uri.glade2.h:1
+msgid "*"
+msgstr ""
+
+#: plugins/diff/diff.glade2.h:2
+msgid "Choose the files to compare."
+msgstr "Избери ги датотеките за споредување"
+
+#: plugins/diff/diff.glade2.h:3
+msgid "Compare files..."
+msgstr "Спореди датотеки..."
+
+#: plugins/diff/diff.glade2.h:4
+msgid "F_rom document"
+msgstr "О_д документ"
+
+#: plugins/diff/diff.glade2.h:5
+msgid "First"
+msgstr "Прв"
+
+#: plugins/diff/diff.glade2.h:6
+#, fuzzy
+msgid "First file from disk"
+msgstr "Од датотека н_а дискот"
+
+#: plugins/diff/diff.glade2.h:7
+#, fuzzy
+msgid "First file from open document"
+msgstr "Прикажи ги информациите за моменталниот документ"
+
+#: plugins/diff/diff.glade2.h:8
+msgid "From _document"
+msgstr "Од _документ"
+
+#: plugins/diff/diff.glade2.h:9
+msgid "From a _file on disk"
+msgstr "Од _датотека на дискот"
+
+#: plugins/diff/diff.glade2.h:10
+msgid "From a file o_n disk"
+msgstr "Од датотека н_а дискот"
+
+#: plugins/diff/diff.glade2.h:11
+msgid "Ignore _blanks (-b option)"
+msgstr "Игнорирај ги празните _полиња (-b опција)"
+
+#: plugins/diff/diff.glade2.h:12
+msgid "Note that this option is only supported by GNU diff"
+msgstr "Оваа опција е подржана само од GNU diff"
+
+#: plugins/diff/diff.glade2.h:13
+msgid "Second"
+msgstr "Секунда"
+
+#: plugins/diff/diff.glade2.h:14
+#, fuzzy
+msgid "Second file from disk"
+msgstr "Од _датотека на дискот"
+
+#: plugins/diff/diff.glade2.h:15
+#, fuzzy
+msgid "Second file from open document"
+msgstr "Прикажи ги информациите за моменталниот документ"
+
+#: plugins/diff/diff.glade2.h:16
+msgid "Select the \"first\" file..."
+msgstr ""
+
+#: plugins/diff/diff.glade2.h:17
+msgid "Select the \"second\" file..."
+msgstr ""
+
+#: plugins/diff/diff.glade2.h:18
+#, fuzzy
+msgid "Select the first file to compare"
+msgstr "Избери ги датотеките за споредување"
+
+#: plugins/diff/diff.glade2.h:19
+#, fuzzy
+msgid "Select the first open document to compare"
+msgstr "Изберија групата табови кои сакаш да ги користиш"
+
+#: plugins/diff/diff.glade2.h:20
+#, fuzzy
+msgid "Select the second file to compare"
+msgstr "Избери ги датотеките за споредување"
+
+#: plugins/diff/diff.glade2.h:21
+msgid "Select the second open document to compare"
+msgstr ""
+
+#: plugins/diff/diff.glade2.h:22
+msgid "Use the _unified output format (-u option)"
+msgstr "Употреби го првиот _унифициран излезен формат (-u опција)"
+
+#: plugins/docinfo/docinfo.c:46
+msgid "_Document Statistics"
+msgstr ""
+
+#: plugins/docinfo/docinfo.c:49
+#, fuzzy
+msgid "Get statistic info on current document"
+msgstr "Прикажи ги информациите за моменталниот документ"
+
+#: plugins/docinfo/docinfo.c:142
+msgid "Document Statistics"
+msgstr ""
+
+#: plugins/docinfo/docinfo.c:153
+msgid "_Update"
+msgstr "_Надградба"
+
+#: plugins/docinfo/docinfo.glade2.h:1
+msgid "0"
+msgstr "0"
+
+#: plugins/docinfo/docinfo.glade2.h:2
+msgid "Bytes"
+msgstr "бајти"
+
+#: plugins/docinfo/docinfo.glade2.h:3
+msgid "Characters (no spaces)"
+msgstr "Карактери (без празни места)"
+
+#: plugins/docinfo/docinfo.glade2.h:4
+msgid "Characters (with spaces)"
+msgstr "Карактери (со празни места)"
+
+#: plugins/docinfo/docinfo.glade2.h:5
+msgid "File Name"
+msgstr "Име на датотеката"
+
+#: plugins/docinfo/docinfo.glade2.h:6 src/pluma-print.c:318
+msgid "Lines"
+msgstr "Линии"
+
+#: plugins/docinfo/docinfo.glade2.h:7
+msgid "Update"
+msgstr "Надградба"
+
+#: plugins/docinfo/docinfo.glade2.h:8
+msgid "Words"
+msgstr "Зборови"
+
+#: plugins/docinfo/docinfo.glade2.h:9
+msgid "pluma: Document Info plugin"
+msgstr "pluma: Информации за додатокот "
+
+#: plugins/sample/sample.c:43
+#, fuzzy
+msgid "Insert User Na_me"
+msgstr "Внеси кориснички _име"
+
+#: plugins/sample/sample.c:46
+msgid "Insert the user name at the cursor position"
+msgstr "Внеси го корисничкото име кадешто се наоѓа курсорот"
+
+#: plugins/sample/sample.c:172
+msgid "User name"
+msgstr "Корисничко име"
+
+#: plugins/sample/sample.c:173
+msgid "Inserts the user name at the cursor position."
+msgstr "Внеси го корисничкото име кадешто се наоѓа курсорот"
+
+#: plugins/sample/sample.c:175
+msgid "Copyright (C) 2002 - Paolo Maggi"
+msgstr "Сите права се (С) 2002 Paolo Maggi"
+
+#: plugins/shell_output/shell_output.c:56
+msgid "_Run Command..."
+msgstr ""
+
+#: plugins/shell_output/shell_output.c:59
+msgid "Run a command"
+msgstr ""
+
+#: plugins/shell_output/shell_output.c:161
+#: plugins/shell_output/shell_output.c:516
+msgid "Stopped"
+msgstr ""
+
+#: plugins/shell_output/shell_output.c:246
+msgid "An error occurs while running the selected command."
+msgstr ""
+
+#: plugins/shell_output/shell_output.c:302
+msgid "Run Command"
+msgstr ""
+
+#: plugins/shell_output/shell_output.c:318
+msgid "_Run"
+msgstr "_Во тек"
+
+#: plugins/shell_output/shell_output.c:522
+msgid "Done"
+msgstr ""
+
+#: plugins/shell_output/shell_output.c:524
+msgid "Failed"
+msgstr ""
+
+#: plugins/shell_output/shell_output.c:696
+msgid ""
+"The shell command entry is empty.\n"
+"\n"
+"Please, insert a valid shell command."
+msgstr ""
+"Shell командата не е внесена. \n"
+"Внеси валидна команда "
+
+#: plugins/shell_output/shell_output.c:729
+msgid ""
+"Error parsing the shell command.\n"
+"\n"
+"Please, insert a valid shell command."
+msgstr ""
+"Се јави грешка при интерпретирањето на shell командата \n"
+"Внеси валидна команда"
+
+#: plugins/shell_output/shell_output.c:815
+msgid "Executing command"
+msgstr ""
+
+#: plugins/shell_output/shell_output.glade2.h:2
+msgid "Co_mmand:"
+msgstr ""
+
+#: plugins/shell_output/shell_output.glade2.h:3
+#, fuzzy
+msgid "Select the working directory..."
+msgstr "_Работен директориум"
+
+#: plugins/shell_output/shell_output.glade2.h:4
+msgid "_Show results in Output Window"
+msgstr ""
+
+#: plugins/shell_output/shell_output.glade2.h:5
+msgid "_Working directory:"
+msgstr "_Работен директориум"
+
+#: plugins/shell_output/shell_output.glade2.h:6
+msgid "pluma: Shell Output plugin"
+msgstr "pluma: Shell Output додаток"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:136
+msgid "Tag list plugin"
+msgstr "Таг листа додаток"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:154
+#, fuzzy
+msgid "Select the group of tags you want to use"
+msgstr "Изберија групата табови кои сакаш да ги користиш"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:176
+msgid "Tag Groups Combo"
+msgstr "Tag Groups Combo"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:178
+msgid "Tags Name List"
+msgstr "Tags Name List"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:188
+msgid "Double-click on a tag to insert it in the current document"
+msgstr "Двоен клик на таг за да го внесеш во моменталниот документ "
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:199
+msgid "Tags"
+msgstr ""
+
+#: plugins/taglist/pluma-taglist-plugin.c:46
+msgid "Tag _List"
+msgstr "Таг _листа"
+
+#.
+#. #define MENU_ITEM_NAME		"TagList"
+#.
+#: plugins/taglist/pluma-taglist-plugin.c:51
+msgid "Show the tag list window"
+msgstr "Покажи го прозорецот со листата на тагови"
+
+#: plugins/time/time.c:48
+#, fuzzy
+msgid "In_sert Date and Time..."
+msgstr "Внеси Дата/Време"
+
+#: plugins/time/time.c:51
+msgid "Insert current date and time at the cursor position"
+msgstr "Внеси ја моменталната дата и време на местото кадешто се наоѓа курсорот"
+
+#: plugins/time/time.c:448
+msgid "Available formats"
+msgstr "Достапни формати"
+
+#: plugins/time/time.c:552
+#, fuzzy
+msgid "Configure insert date/time plugin..."
+msgstr "Конфигурирај го додатокот за внесување на време и дата"
+
+#: plugins/time/time.glade2.h:1 src/dialogs/pluma-preferences.glade2.h:1
+msgid "    "
+msgstr ""
+
+#: plugins/time/time.glade2.h:3
+msgid "<span size=\"small\">01/11/2002 17:52:00</span>"
+msgstr ""
+
+#: plugins/time/time.glade2.h:4
+msgid "<span weight=\"bold\"> When inserting date/time...</span>"
+msgstr ""
+
+#: plugins/time/time.glade2.h:5
+#, fuzzy
+msgid "Configure date/time plugin"
+msgstr "Конфигурирај го додатокот за внесување на време и дата"
+
+#: plugins/time/time.glade2.h:6
+#, fuzzy
+msgid "Insert Date and Time"
+msgstr "Внеси Дата/Време"
+
+#: plugins/time/time.glade2.h:7
+msgid "Use the _selected format"
+msgstr ""
+
+#: plugins/time/time.glade2.h:8
+#, fuzzy
+msgid "_Insert"
+msgstr "_Внеси карактер"
+
+#: plugins/time/time.glade2.h:9
+msgid "_Prompt for a format"
+msgstr ""
+
+#: plugins/time/time.glade2.h:10
+msgid "_Use custom format"
+msgstr ""
+
+#: plugins/indent/indent.c:45
+msgid "_Indent"
+msgstr ""
+
+#: plugins/indent/indent.c:47
+msgid "Indent selected lines"
+msgstr ""
+
+#: plugins/indent/indent.c:49
+msgid "U_nindent"
+msgstr ""
+
+#: plugins/indent/indent.c:51
+msgid "Unindent selected lines"
+msgstr ""
+
+#: plugins/sort/sort.glade2.h:1
+msgid "R_emove duplicates"
+msgstr ""
+
+#: plugins/sort/sort.glade2.h:2
+msgid "S_tart at column:"
+msgstr ""
+
+#: plugins/sort/sort.glade2.h:3
+msgid "Sort"
+msgstr ""
+
+#: plugins/sort/sort.glade2.h:4
+msgid "You cannot undo a sort operation"
+msgstr ""
+
+#: plugins/sort/sort.glade2.h:5
+msgid "_Ignore case"
+msgstr ""
+
+#: plugins/sort/sort.glade2.h:6
+msgid "_Reverse order"
+msgstr ""
+
+#: plugins/sort/sort.glade2.h:7
+msgid "_Sort"
+msgstr ""
+
+#: plugins/spell/pluma-automatic-spell-checker.c:318
+#: plugins/spell/pluma-spell-checker-dialog.c:504
+msgid "(no suggested words)"
+msgstr ""
+
+#: plugins/spell/pluma-automatic-spell-checker.c:342
+msgid "_More..."
+msgstr ""
+
+#. Ignore all
+#: plugins/spell/pluma-automatic-spell-checker.c:395
+msgid "_Ignore All"
+msgstr ""
+
+#. + Add to Dictionary
+#: plugins/spell/pluma-automatic-spell-checker.c:408
+msgid "_Add"
+msgstr ""
+
+#: plugins/spell/pluma-automatic-spell-checker.c:445
+msgid "_Spelling Suggestions..."
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker-dialog.c:285
+msgid "Check Spelling"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker-dialog.c:296
+msgid "Suggestions"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker-dialog.c:608
+msgid "(correct spelling)"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker-dialog.c:785
+msgid "Completed spell checking"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker.c:73
+msgid "Breton"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker.c:74
+msgid "Catalan"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker.c:75
+msgid "Czech"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker.c:76
+msgid "Danish"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker.c:77
+msgid "German (Germany)"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker.c:78
+msgid "German (Swiss)"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker.c:79
+msgid "English (American)"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker.c:80
+msgid "English (British)"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker.c:81
+msgid "English (Canadian)"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker.c:82
+msgid "Esperanto"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker.c:83
+msgid "Spanish"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker.c:84
+msgid "Faroese"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker.c:85
+msgid "French (France)"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker.c:86
+msgid "French (Swiss)"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker.c:87
+msgid "Italian"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker.c:88
+msgid "Dutch"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker.c:89
+msgid "Norwegian"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker.c:90
+msgid "Polish"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker.c:91
+msgid "Portuguese (Portugal)"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker.c:92
+msgid "Portuguese (Brazilian)"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker.c:93
+msgid "Russian"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker.c:94
+msgid "Swedish"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker.c:653
+msgid "Default"
+msgstr ""
+
+#: plugins/spell/pluma-spell-language-dialog.c:229
+#: src/dialogs/pluma-dialog-goto-line.c:165
+#: src/dialogs/pluma-plugin-program-location-dialog.c:96
+#: src/dialogs/pluma-encodings-dialog.c:238
+#, c-format
+msgid "Could not find the required widgets inside %s."
+msgstr ""
+
+#: plugins/spell/pluma-spell-language-dialog.c:249
+msgid "Languages"
+msgstr ""
+
+#: plugins/spell/languages-dialog.glade2.h:1
+#, fuzzy
+msgid "Select the _language of the current document."
+msgstr "Внеси shell output во документот"
+
+#: plugins/spell/languages-dialog.glade2.h:2
+msgid "Set language"
+msgstr ""
+
+#: plugins/spell/spell-checker.glade2.h:2
+msgid "<b>Language</b>"
+msgstr ""
+
+#: plugins/spell/spell-checker.glade2.h:3
+msgid "<b>word</b>"
+msgstr ""
+
+#: plugins/spell/spell-checker.glade2.h:4
+msgid "Add w_ord"
+msgstr ""
+
+#: plugins/spell/spell-checker.glade2.h:5
+#, fuzzy
+msgid "Cha_nge"
+msgstr "CVS Change-лог"
+
+#: plugins/spell/spell-checker.glade2.h:6
+msgid "Change A_ll"
+msgstr ""
+
+#: plugins/spell/spell-checker.glade2.h:7
+msgid "Change _to:"
+msgstr ""
+
+#: plugins/spell/spell-checker.glade2.h:8
+msgid "Check _Word"
+msgstr ""
+
+#: plugins/spell/spell-checker.glade2.h:9
+msgid "Check spelling"
+msgstr ""
+
+#: plugins/spell/spell-checker.glade2.h:10
+msgid "Ignore _All"
+msgstr ""
+
+#: plugins/spell/spell-checker.glade2.h:11
+msgid "Language:"
+msgstr ""
+
+#: plugins/spell/spell-checker.glade2.h:12
+msgid "Mispelled word:"
+msgstr ""
+
+#: plugins/spell/spell-checker.glade2.h:13
+msgid "User dictionary:"
+msgstr ""
+
+#: plugins/spell/spell-checker.glade2.h:14
+msgid "_Ignore"
+msgstr ""
+
+#: plugins/spell/spell-checker.glade2.h:15
+msgid "_Suggestions:"
+msgstr ""
+
+#. Key in case the plugin ever needs any settings
+#: plugins/sort/sort.c:26
+msgid "S_ort..."
+msgstr ""
+
+#: plugins/sort/sort.c:29
+msgid "Sort the current document or selection."
+msgstr ""
+
+#: plugins/spell/spell.c:51
+msgid "_Check Spelling"
+msgstr ""
+
+#: plugins/spell/spell.c:54
+msgid "Check the current document for incorrect spelling"
+msgstr ""
+
+#: plugins/spell/spell.c:56
+msgid "_Autocheck Spelling"
+msgstr ""
+
+#: plugins/spell/spell.c:59
+#, fuzzy
+msgid "Automatically spell-check the current document"
+msgstr "Внеси shell output во документот"
+
+#: plugins/spell/spell.c:61
+msgid "Set _Language"
+msgstr ""
+
+#: plugins/spell/spell.c:64
+#, fuzzy
+msgid "Set the language of the current document"
+msgstr "Внеси shell output во документот"
+
+#: plugins/spell/spell.c:549
+#, fuzzy
+msgid "The document is empty."
+msgstr "\"Првиот\" документ не содржи текст"
+
+#: plugins/spell/spell.c:567
+msgid "The selected text does not contain mispelled words."
+msgstr ""
+
+#: plugins/spell/spell.c:568
+msgid "The document does not contain mispelled words."
+msgstr ""
+
+#: src/bonobo-mdi.c:549 src/bonobo-mdi.c:1962
+#, c-format
+msgid "Activate %s"
+msgstr "Активирај %s"
+
+#: src/dialogs/pluma-dialog-goto-line.c:139
+#, fuzzy
+msgid "Go to Line"
+msgstr "_Оди на линија"
+
+#. Add Goto Line button
+#: src/dialogs/pluma-dialog-goto-line.c:149
+#, fuzzy
+msgid "_Go to Line"
+msgstr "_Оди на линија"
+
+#: src/dialogs/pluma-dialog-replace.c:130
+#: src/dialogs/pluma-dialog-replace.c:900 src/pluma-commands.c:362
+#, c-format
+msgid "The text \"%s\" was not found."
+msgstr ""
+
+#: src/dialogs/pluma-dialog-replace.c:238 src/dialogs/replace.glade2.h:4
+#: src/pluma-ui.xml.h:51
+msgid "Replace"
+msgstr ""
+
+#: src/dialogs/pluma-dialog-replace.c:249
+msgid "Replace _All"
+msgstr ""
+
+#. Add Replace button
+#: src/dialogs/pluma-dialog-replace.c:252 src/pluma-file-selector-util.c:129
+msgid "_Replace"
+msgstr ""
+
+#: src/dialogs/pluma-dialog-replace.c:368 src/pluma-ui.xml.h:22
+msgid "Find"
+msgstr ""
+
+#: src/dialogs/pluma-dialog-replace.c:909
+#, c-format
+msgid "Found and replaced %d occurences."
+msgstr ""
+
+#: src/dialogs/pluma-dialog-uri.c:83
+msgid "Open Location"
+msgstr ""
+
+#: src/dialogs/pluma-plugin-manager.c:53
+msgid "Plugin"
+msgstr ""
+
+#: src/dialogs/pluma-plugin-manager.c:54
+msgid "Load"
+msgstr ""
+
+#: src/dialogs/pluma-plugin-manager.c:320
+msgid "Module file name"
+msgstr ""
+
+#: src/dialogs/pluma-plugin-manager.c:321
+msgid "Author(s)"
+msgstr ""
+
+#: src/dialogs/pluma-plugin-manager.c:488
+msgid "Could not find plugin-manager.glade2, reinstall pluma.\n"
+msgstr ""
+
+#: src/dialogs/pluma-plugin-manager.c:511
+msgid "Invalid glade file for plugin manager -- not all widgets found.\n"
+msgstr ""
+
+#: src/dialogs/pluma-plugin-program-location-dialog.c:74
+#: src/dialogs/program-location-dialog.glade2.h:1
+msgid "Set program location..."
+msgstr ""
+
+#: src/dialogs/pluma-plugin-program-location-dialog.c:102
+#, c-format
+msgid ""
+"The %s plugin uses an external program, called <tt>%s</tt>, to perform its "
+"task.\n"
+"\n"
+"Please, specify the location of the <tt>%s</tt> program."
+msgstr ""
+
+#: src/dialogs/pluma-plugin-program-location-dialog.c:148
+msgid "The selected file is not executable."
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:232
+msgid "Font & Colors"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:234
+#: src/dialogs/pluma-preferences.glade2.h:47
+msgid "Tabs"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:235
+msgid "Wrap Mode"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:236
+msgid "Auto Indent"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:237
+msgid "Line Numbers"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:239 src/pluma-ui.xml.h:32
+msgid "Open"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:240
+#: src/dialogs/pluma-preferences.glade2.h:42 src/pluma-ui.xml.h:55
+msgid "Save"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:241
+#: src/dialogs/pluma-preferences.glade2.h:50 src/pluma-ui.xml.h:72
+msgid "Undo"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:249
+msgid "Page"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:251
+msgid "Fonts"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:258
+msgid "Manager"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:266
+msgid "Editor"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:267
+#: src/dialogs/pluma-preferences.glade2.h:38 src/pluma-print.c:309
+#: src/pluma-ui.xml.h:41
+msgid "Print"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:268
+msgid "Plugins"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:341
+msgid "Cat_egories:"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:363
+msgid "Preferences"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:602
+msgid "Categories"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:835
+msgid "Push this button to select the font to be used by the editor"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:838
+msgid "Push this button to configure text color"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:840
+msgid "Push this button to configure background color"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:842
+msgid ""
+"Push this button to configure the color in which the selected text should "
+"appear"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:845
+msgid ""
+"Push this button to configure the color in which the selected text should be "
+"marked"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:1850
+msgid "Push this button to select the font to be used to print the body"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:1852
+msgid "Push this button to select the font to be used to print the headers"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:1854
+msgid "Push this button to select the font to be used to print line numbers"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:2
+msgid "<b>Font</b>"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:3
+msgid "<span weight=\"bold\" size=\"x-large\">Auto Indent</span>"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:4
+msgid "<span weight=\"bold\" size=\"x-large\">Font &amp; Colors</span>"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:5
+msgid "<span weight=\"bold\" size=\"x-large\">Fonts</span>"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:6
+msgid "<span weight=\"bold\" size=\"x-large\">Line Numbers</span>"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:7
+msgid "<span weight=\"bold\" size=\"x-large\">Manager</span>"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:8
+msgid "<span weight=\"bold\" size=\"x-large\">Open</span>"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:9
+msgid "<span weight=\"bold\" size=\"x-large\">Page</span>"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:10
+msgid "<span weight=\"bold\" size=\"x-large\">Save</span>"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:11
+msgid "<span weight=\"bold\" size=\"x-large\">Tabs</span>"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:12
+msgid "<span weight=\"bold\" size=\"x-large\">Undo</span>"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:13
+msgid "<span weight=\"bold\" size=\"x-large\">Wrap Mode</span>"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:14
+msgid "<span weight=\"bold\">Colors</span>"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:15
+msgid "<span weight=\"bold\">When saving a new file...</span>"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:16
+msgid "<span weight=\"bold\">When saving an existing file...</span>"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:17
+msgid "Add new encodings"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:18
+msgid "Always use U_TF-8 encoding (faster)"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:19
+msgid "Always use _UTF-8 encoding (faster)"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:20
+msgid "Create a _backup copy of files before saving"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:21
+msgid "Do not _split words over two lines"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:22
+msgid "Editor _font: "
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:23
+msgid "Enable _auto indentation"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:24
+msgid "Enable text _wrapping"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:25
+msgid "Fonts & Colors"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:26
+msgid "Insert _spaces instead of tabs"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:27
+msgid "LOGO"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:28
+msgid "Line _numbers:"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:29
+msgid "Line numbers"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:30
+msgid "Move down"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:31
+msgid "Move up"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:32
+msgid "Page he_aders:"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:33
+msgid "Pick the background color"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:34
+msgid "Pick the selected text color"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:35
+msgid "Pick the selection color"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:36
+msgid "Pick the text color"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:37
+msgid "Plugin manager"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:39
+msgid "Print _line numbers every"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:40
+msgid "Print fonts"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:41
+msgid "Remove an encoding"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:43
+msgid "Se_lection color:"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:44
+msgid "Selecte_d text color:"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:45
+msgid "Set _tabs width equivalent to"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:46
+msgid "Set limit on _undo actions to"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:48
+msgid "U_se default theme colors"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:49
+msgid "U_se original file encoding if possible"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:51
+msgid "Use cu_rrent locale's encoding if possible"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:52
+msgid "Use current _locale's encoding if possible"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:53
+msgid "Wrap mode"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:54
+msgid "_Autosave current file every"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:55
+msgid "_Background color:"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:56
+msgid "_Body:"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:57
+msgid "_Display line numbers"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:58
+msgid "_Print headers"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:59
+msgid "_Restore Default Fonts"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:60
+msgid "_Supported encodings:"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:61
+msgid "_Text color:"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:62
+msgid "_Use default theme font"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:63
+msgid "_Wrap lines (at character boundaries)"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:64
+msgid "_action(s)"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:65
+#, fuzzy
+msgid "_line(s)"
+msgstr "Линии"
+
+#: src/dialogs/pluma-preferences.glade2.h:66
+#, fuzzy
+msgid "_minutes"
+msgstr "Линии"
+
+#: src/dialogs/pluma-preferences.glade2.h:67
+#, fuzzy
+msgid "character(s)"
+msgstr "Карактери (без празни места)"
+
+#: src/dialogs/gnome-print-font-dialog.c:107
+msgid "_Insert a new preview phrase."
+msgstr ""
+
+#: src/dialogs/gnome-print-font-dialog.c:113
+msgid "Modify preview phrase..."
+msgstr ""
+
+#: src/dialogs/gnome-print-font-dialog.c:167
+msgid "Preview"
+msgstr ""
+
+#: src/dialogs/gnome-print-font-dialog.c:180
+msgid "_Modify preview phrase..."
+msgstr ""
+
+#: src/dialogs/gnome-print-font-dialog.c:243
+msgid "Font Selection"
+msgstr ""
+
+#: src/dialogs/gnome-print-font-picker.c:89
+msgid "sans 12"
+msgstr ""
+
+#: src/dialogs/gnome-print-font-picker.c:90
+msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
+msgstr ""
+
+#: src/dialogs/gnome-print-font-picker.c:91
+msgid "Pick a Font"
+msgstr ""
+
+#: src/dialogs/gnome-print-font-picker.c:176
+msgid "Title"
+msgstr ""
+
+#: src/dialogs/gnome-print-font-picker.c:177
+msgid "The title of the selection dialog box"
+msgstr ""
+
+#: src/dialogs/gnome-print-font-picker.c:197
+msgid "Font name"
+msgstr ""
+
+#: src/dialogs/gnome-print-font-picker.c:198
+msgid "Name of the selected font"
+msgstr ""
+
+#: src/dialogs/gnome-print-font-picker.c:206
+msgid "Preview text"
+msgstr ""
+
+#: src/dialogs/gnome-print-font-picker.c:207
+msgid "Preview text shown in the dialog"
+msgstr ""
+
+#: src/dialogs/gnome-print-font-picker.c:215
+msgid "Use font in label"
+msgstr ""
+
+#: src/dialogs/gnome-print-font-picker.c:216
+msgid "Use font in the label in font info mode"
+msgstr ""
+
+#: src/dialogs/gnome-print-font-picker.c:224
+msgid "Font size for label"
+msgstr ""
+
+#: src/dialogs/gnome-print-font-picker.c:225
+msgid "Font size for label in font info mode"
+msgstr ""
+
+#: src/dialogs/gnome-print-font-picker.c:235
+msgid "Show size"
+msgstr ""
+
+#: src/dialogs/gnome-print-font-picker.c:236
+msgid "Show size in font info mode"
+msgstr ""
+
+#: src/dialogs/gnome-print-font-picker.c:1014
+msgid "Font"
+msgstr ""
+
+#. gnome_print_font_picker_update_font_info
+#: src/dialogs/goto-line.glade2.h:1
+msgid "Goto Line"
+msgstr ""
+
+#: src/dialogs/goto-line.glade2.h:2
+msgid "_Line number:"
+msgstr ""
+
+#: src/dialogs/plugin-manager.glade2.h:1
+msgid "C_onfigure plugin"
+msgstr ""
+
+#: src/dialogs/plugin-manager.glade2.h:2
+msgid "Configure the selected plugin"
+msgstr ""
+
+#: src/dialogs/plugin-manager.glade2.h:3
+msgid "De_tails"
+msgstr ""
+
+#: src/dialogs/plugin-manager.glade2.h:4
+msgid "_Description"
+msgstr ""
+
+#: src/dialogs/plugin-manager.glade2.h:5
+msgid "dialog1"
+msgstr ""
+
+#: src/dialogs/program-location-dialog.glade2.h:2
+msgid "_Location to search for:"
+msgstr ""
+
+#: src/dialogs/program-location-dialog.glade2.h:3
+msgid "label"
+msgstr ""
+
+#: src/dialogs/replace.glade2.h:2
+msgid "Find Next"
+msgstr ""
+
+#: src/dialogs/replace.glade2.h:3
+msgid "Match _entire word only"
+msgstr ""
+
+#: src/dialogs/replace.glade2.h:5
+msgid "Replace All"
+msgstr ""
+
+#: src/dialogs/replace.glade2.h:6
+msgid "Replace _with: "
+msgstr ""
+
+#: src/dialogs/replace.glade2.h:7
+msgid "_Match case"
+msgstr ""
+
+#: src/dialogs/replace.glade2.h:8
+msgid "_Search for: "
+msgstr ""
+
+#: src/dialogs/replace.glade2.h:9
+#, fuzzy
+msgid "_Wrap around"
+msgstr "_Броење на зборовите"
+
+#: src/dialogs/uri.glade2.h:2
+msgid "Enter the _location (URI) of the file you would like to open:"
+msgstr ""
+
+#: src/dialogs/uri.glade2.h:3
+msgid "Open from URI"
+msgstr ""
+
+#: src/pluma-commands.c:471
+msgid "translator_credits"
+msgstr ""
+
+#: src/pluma-commands.c:496
+msgid "pluma"
+msgstr ""
+
+#: src/pluma-commands.c:497
+msgid ""
+"(C) 1998-2000 Evan Lawrence and Alex Robert\n"
+"(C) 2000-2002 Chema Celorio and Paolo Maggi"
+msgstr ""
+
+#: src/pluma-commands.c:499
+msgid "pluma is a small and lightweight text editor for Gnome"
+msgstr ""
+
+#: src/pluma-document.c:545 src/pluma-document.c:563
+#, c-format
+msgid "%s %d"
+msgstr ""
+
+#: src/pluma-document.c:545 src/pluma-document.c:563
+msgid "Untitled"
+msgstr ""
+
+#: src/pluma-document.c:551 src/pluma-document.c:598
+msgid "Invalid file name"
+msgstr ""
+
+#: src/pluma-document.c:710 src/pluma-document.c:794
+msgid "Invalid UTF-8 data"
+msgstr ""
+
+#: src/pluma-document.c:1024
+#, c-format
+msgid "Could not read symbolic link information for %s"
+msgstr ""
+
+#: src/pluma-document.c:1070
+msgid "The file has too many symbolic links."
+msgstr ""
+
+#: src/pluma-document.c:1126
+#, c-format
+msgid "pluma cannot handle %s: locations in write mode."
+msgstr ""
+
+#: src/pluma-document.c:1133
+msgid "pluma cannot handle this kind of location in write mode."
+msgstr ""
+
+#: src/pluma-document.c:1146
+msgid "Invalid filename."
+msgstr ""
+
+#: src/pluma-document.c:1286
+msgid ""
+"There is not enough disk space to save the file.\n"
+"Please free some disk space and try again."
+msgstr ""
+
+#: src/pluma-document.c:1291
+msgid ""
+"The disk where you are trying to save the file has a limitation on file "
+"sizes.  Please try saving a smaller file or saving it to a disk that does "
+"not have this limitation."
+msgstr ""
+
+#: src/pluma-document.c:1330
+msgid "Could not create a backup file."
+msgstr ""
+
+#: src/pluma-document.c:1448
+msgid "It is not possible to revert an Untitled document"
+msgstr ""
+
+#: src/pluma-file-selector-util.c:147
+#, c-format
+msgid ""
+"A file named \"%s\" already exists.\n"
+"Do you want to replace it with the one you are saving?"
+msgstr ""
+
+#: src/pluma-file-selector-util.c:158
+#, c-format
+msgid ""
+"The file \"%s\" is read-only.\n"
+"Do you want to try to replace it with the one you are saving?"
+msgstr ""
+
+#: src/pluma-file-selector-util.c:544
+msgid "Select a filename to save"
+msgstr ""
+
+#: src/pluma-file.c:151
+#, fuzzy
+msgid "Open File..."
+msgstr "Спо_реди датотеки..."
+
+#: src/pluma-file.c:177 src/pluma-file.c:887
+#, c-format
+msgid "Loaded file '%s'"
+msgstr ""
+
+#: src/pluma-file.c:309 src/pluma-file.c:455
+#, c-format
+msgid "Saving file '%s'..."
+msgstr ""
+
+#: src/pluma-file.c:337 src/pluma-file.c:470
+msgid "The document has not been saved."
+msgstr ""
+
+#: src/pluma-file.c:351 src/pluma-file.c:467
+#, c-format
+msgid "File '%s' saved."
+msgstr ""
+
+#: src/pluma-file.c:434
+msgid "Save as..."
+msgstr ""
+
+#: src/pluma-file.c:628
+#, c-format
+msgid ""
+"Do you want to revert to saved the document '%s'?\n"
+"\n"
+"You will not be able to undo this operation."
+msgstr ""
+
+#: src/pluma-file.c:638 src/pluma-ui.xml.h:99
+msgid "_Revert"
+msgstr ""
+
+#: src/pluma-file.c:672
+#, c-format
+msgid "Reverting file '%s'..."
+msgstr ""
+
+#: src/pluma-file.c:685
+msgid "The document has not been reverted."
+msgstr ""
+
+#: src/pluma-file.c:695
+#, c-format
+msgid "File '%s' reverted."
+msgstr ""
+
+#: src/pluma-file.c:721
+#, fuzzy, c-format
+msgid "Loading %d files..."
+msgstr "Спореди датотеки..."
+
+#: src/pluma-file.c:757
+#, c-format
+msgid "The file \"%s\" does not exist. Would you like to create it?"
+msgstr ""
+
+#: src/pluma-file.c:812
+#, c-format
+msgid "Loaded %i files"
+msgstr ""
+
+#: src/pluma-file.c:945
+msgid "Could not read data from stdin."
+msgstr ""
+
+#. Read only
+#: src/pluma-mdi-child.c:215
+msgid "RO"
+msgstr ""
+
+#. Add the detach tab button
+#: src/pluma-mdi-child.c:539 src/pluma-ui.xml.h:89
+msgid "_Move to New Window"
+msgstr ""
+
+#: src/pluma-mdi.c:446
+msgid "Open a file."
+msgstr ""
+
+#: src/pluma-mdi.c:1032
+#, c-format
+msgid ""
+"Do you want to save the changes you made to the document \"%s\"? \n"
+"\n"
+"Your changes will be lost if you don't save them."
+msgstr ""
+
+#: src/pluma-mdi.c:1037
+msgid "Do_n't save"
+msgstr ""
+
+#: src/pluma-mdi.c:1056
+msgid "_Don't quit"
+msgstr ""
+
+#: src/pluma-mdi.c:1060
+msgid "_Don't close"
+msgstr ""
+
+#: src/pluma-mdi.c:1150
+msgid "(modified)"
+msgstr ""
+
+#: src/pluma-mdi.c:1156
+msgid "(readonly)"
+msgstr ""
+
+#: src/pluma-plugins-engine.c:352
+#, c-format
+msgid "Error, unable to open module file '%s'\n"
+msgstr ""
+
+#: src/pluma-plugins-engine.c:362
+#, c-format
+msgid "Error, plugin '%s' does not contain init function."
+msgstr ""
+
+#: src/pluma-plugins-engine.c:372
+#, c-format
+msgid "Error, plugin '%s' does not contain activate function."
+msgstr ""
+
+#: src/pluma-plugins-engine.c:382
+#, c-format
+msgid "Error, plugin '%s' does not contain deactivate function."
+msgstr ""
+
+#: src/pluma-plugins-engine.c:407
+#, c-format
+msgid "Error, impossible to initialize plugin '%s'"
+msgstr ""
+
+#: src/pluma-plugins-engine.c:458
+#, c-format
+msgid "Error, impossible to destroy plugin '%s'"
+msgstr ""
+
+#: src/pluma-plugins-engine.c:541 src/pluma-plugins-engine.c:629
+#, c-format
+msgid "Error, impossible to activate plugin '%s'"
+msgstr ""
+
+#: src/pluma-plugins-engine.c:580
+#, c-format
+msgid "Error, impossible to deactivate plugin '%s'"
+msgstr ""
+
+#: src/pluma-plugins-engine.c:673
+#, c-format
+msgid "Error, impossible to update ui of the plugin '%s'"
+msgstr ""
+
+#: src/pluma-prefs-manager.c:335
+msgid "Cannot initialize preferences manager."
+msgstr ""
+
+#: src/pluma-prefs-manager.c:1756
+#, c-format
+msgid "Expected `%s' got `%s' for key %s"
+msgstr ""
+
+#: src/pluma-print.c:191
+msgid ""
+"pluma is unable to print since it cannot find\n"
+"one of the required fonts."
+msgstr ""
+
+#: src/pluma-print.c:377
+#, c-format
+msgid "File: %s"
+msgstr ""
+
+#. Print right text
+#: src/pluma-print.c:384
+#, c-format
+msgid "Page: %d"
+msgstr ""
+
+#: src/pluma-print.c:525
+msgid "pluma - Print Preview"
+msgstr ""
+
+#: src/pluma-print.c:603
+#, c-format
+msgid ""
+"An error occurred while printing.\n"
+"\n"
+"%s,"
+msgstr ""
+
+#: src/pluma-ui.xml.h:1
+msgid "About this application"
+msgstr ""
+
+#: src/pluma-ui.xml.h:2
+msgid "C_ustomize Statusbar"
+msgstr ""
+
+#: src/pluma-ui.xml.h:3
+#, fuzzy
+msgid "Change the visibility of the output window in the current window"
+msgstr "Внеси shell output во документот"
+
+#: src/pluma-ui.xml.h:4
+msgid "Change the visibility of the statusbar in the current window"
+msgstr ""
+
+#: src/pluma-ui.xml.h:5
+msgid "Change the visibility of the toolbar in the current window"
+msgstr ""
+
+#: src/pluma-ui.xml.h:6
+msgid "Close"
+msgstr ""
+
+#: src/pluma-ui.xml.h:7
+msgid "Close all open files"
+msgstr ""
+
+#: src/pluma-ui.xml.h:8
+msgid "Close the current file"
+msgstr ""
+
+#: src/pluma-ui.xml.h:9
+msgid "Configure the application"
+msgstr ""
+
+#: src/pluma-ui.xml.h:10
+msgid "Copy"
+msgstr ""
+
+#: src/pluma-ui.xml.h:11
+msgid "Copy the selection"
+msgstr ""
+
+#: src/pluma-ui.xml.h:12
+msgid "Create a new document"
+msgstr ""
+
+#: src/pluma-ui.xml.h:13
+msgid "Cu_t"
+msgstr ""
+
+#: src/pluma-ui.xml.h:14
+msgid "Customize"
+msgstr ""
+
+#: src/pluma-ui.xml.h:15
+msgid "Customize toolbars"
+msgstr ""
+
+#: src/pluma-ui.xml.h:16
+msgid "Cut"
+msgstr ""
+
+#: src/pluma-ui.xml.h:17
+msgid "Cut the selection"
+msgstr ""
+
+#: src/pluma-ui.xml.h:18
+msgid "Delete"
+msgstr ""
+
+#: src/pluma-ui.xml.h:19
+msgid "Delete the selected text"
+msgstr ""
+
+#: src/pluma-ui.xml.h:20
+msgid "Dump XML"
+msgstr ""
+
+#: src/pluma-ui.xml.h:21
+msgid "Dump the UI Xml description"
+msgstr ""
+
+#: src/pluma-ui.xml.h:23
+msgid "Find Again"
+msgstr ""
+
+#: src/pluma-ui.xml.h:24
+msgid "Find Ne_xt"
+msgstr ""
+
+#: src/pluma-ui.xml.h:25
+#, fuzzy
+msgid "Go to _Line..."
+msgstr "Оди на линија..."
+
+#: src/pluma-ui.xml.h:26
+msgid "Go to a specific line number"
+msgstr ""
+
+#: src/pluma-ui.xml.h:27
+msgid "Icon and _Text"
+msgstr ""
+
+#: src/pluma-ui.xml.h:28
+msgid "Main toolbar"
+msgstr ""
+
+#: src/pluma-ui.xml.h:29
+msgid "Move the current document to a new window"
+msgstr ""
+
+#: src/pluma-ui.xml.h:30
+msgid "New"
+msgstr ""
+
+#: src/pluma-ui.xml.h:31
+msgid "Only show icons in the toolbar"
+msgstr ""
+
+#: src/pluma-ui.xml.h:33
+msgid "Open Location..."
+msgstr ""
+
+#: src/pluma-ui.xml.h:34
+msgid "Open _Location..."
+msgstr ""
+
+#: src/pluma-ui.xml.h:35
+msgid "Open a file"
+msgstr ""
+
+#: src/pluma-ui.xml.h:36
+msgid "Open a file from a specified location"
+msgstr ""
+
+#: src/pluma-ui.xml.h:37
+msgid "Open the pluma manual"
+msgstr ""
+
+#: src/pluma-ui.xml.h:38
+msgid "Paste"
+msgstr ""
+
+#: src/pluma-ui.xml.h:39
+msgid "Paste the clipboard"
+msgstr ""
+
+#: src/pluma-ui.xml.h:40
+msgid "Pr_eferences"
+msgstr ""
+
+#: src/pluma-ui.xml.h:42
+msgid "Print Previe_w..."
+msgstr ""
+
+#: src/pluma-ui.xml.h:43
+msgid "Print Preview"
+msgstr ""
+
+#: src/pluma-ui.xml.h:44
+msgid "Print Setup"
+msgstr ""
+
+#: src/pluma-ui.xml.h:45
+msgid "Print preview"
+msgstr ""
+
+#: src/pluma-ui.xml.h:46
+msgid "Print the current file"
+msgstr ""
+
+#: src/pluma-ui.xml.h:47
+msgid "Quit"
+msgstr ""
+
+#: src/pluma-ui.xml.h:48
+msgid "Quit the program"
+msgstr ""
+
+#: src/pluma-ui.xml.h:49
+msgid "Redo"
+msgstr ""
+
+#: src/pluma-ui.xml.h:50
+msgid "Redo the undone action"
+msgstr ""
+
+#: src/pluma-ui.xml.h:52
+msgid "Replace a string"
+msgstr ""
+
+#: src/pluma-ui.xml.h:53
+msgid "Revert"
+msgstr ""
+
+#: src/pluma-ui.xml.h:54
+msgid "Revert to a saved version of the file"
+msgstr ""
+
+#: src/pluma-ui.xml.h:56
+msgid "Save As"
+msgstr ""
+
+#: src/pluma-ui.xml.h:57
+msgid "Save _As..."
+msgstr ""
+
+#: src/pluma-ui.xml.h:58
+msgid "Save all open files"
+msgstr ""
+
+#: src/pluma-ui.xml.h:59
+msgid "Save the current file"
+msgstr ""
+
+#: src/pluma-ui.xml.h:60
+msgid "Save the current file with a different name"
+msgstr ""
+
+#: src/pluma-ui.xml.h:61
+msgid "Search again for the same string"
+msgstr ""
+
+#: src/pluma-ui.xml.h:62
+msgid "Search for a string"
+msgstr ""
+
+#: src/pluma-ui.xml.h:63
+msgid "Select All"
+msgstr ""
+
+#: src/pluma-ui.xml.h:64
+msgid "Select _All"
+msgstr ""
+
+#: src/pluma-ui.xml.h:65
+msgid "Select the entire document"
+msgstr ""
+
+#: src/pluma-ui.xml.h:66
+msgid "Set toolbar button style according to desktop default"
+msgstr ""
+
+#: src/pluma-ui.xml.h:67
+msgid "Setup the page settings for your current printer"
+msgstr ""
+
+#: src/pluma-ui.xml.h:68
+msgid "Show _Cursor Position"
+msgstr ""
+
+#: src/pluma-ui.xml.h:69
+msgid "Show _Overwrite Mode"
+msgstr ""
+
+#: src/pluma-ui.xml.h:70
+msgid "Show cursor position in the statusbar"
+msgstr ""
+
+#: src/pluma-ui.xml.h:71
+msgid "Show overwrite mode in the statusbar"
+msgstr ""
+
+#: src/pluma-ui.xml.h:73
+msgid "Undo the last action"
+msgstr ""
+
+#: src/pluma-ui.xml.h:74
+msgid "_About"
+msgstr ""
+
+#: src/pluma-ui.xml.h:75
+msgid "_Close"
+msgstr ""
+
+#: src/pluma-ui.xml.h:76
+msgid "_Close All"
+msgstr ""
+
+#: src/pluma-ui.xml.h:77
+msgid "_Contents"
+msgstr ""
+
+#: src/pluma-ui.xml.h:78
+msgid "_Copy"
+msgstr ""
+
+#: src/pluma-ui.xml.h:79
+msgid "_Customize Toolbar"
+msgstr ""
+
+#: src/pluma-ui.xml.h:80
+msgid "_Debug"
+msgstr ""
+
+#: src/pluma-ui.xml.h:81
+msgid "_Delete"
+msgstr ""
+
+#: src/pluma-ui.xml.h:82
+msgid "_Desktop Default"
+msgstr ""
+
+#: src/pluma-ui.xml.h:83
+msgid "_Documents"
+msgstr ""
+
+#: src/pluma-ui.xml.h:84
+msgid "_Edit"
+msgstr ""
+
+#: src/pluma-ui.xml.h:85
+msgid "_File"
+msgstr ""
+
+#: src/pluma-ui.xml.h:86
+msgid "_Find..."
+msgstr ""
+
+#: src/pluma-ui.xml.h:87
+msgid "_Help"
+msgstr ""
+
+#: src/pluma-ui.xml.h:88
+msgid "_Icon"
+msgstr ""
+
+#: src/pluma-ui.xml.h:90
+msgid "_New"
+msgstr ""
+
+#: src/pluma-ui.xml.h:91
+msgid "_Open..."
+msgstr ""
+
+#: src/pluma-ui.xml.h:92
+msgid "_Output Window"
+msgstr ""
+
+#: src/pluma-ui.xml.h:93
+msgid "_Paste"
+msgstr ""
+
+#: src/pluma-ui.xml.h:94
+msgid "_Print..."
+msgstr ""
+
+#: src/pluma-ui.xml.h:95
+msgid "_Priority Text beside Icons"
+msgstr ""
+
+#: src/pluma-ui.xml.h:96
+msgid "_Quit"
+msgstr ""
+
+#: src/pluma-ui.xml.h:97
+msgid "_Redo"
+msgstr ""
+
+#: src/pluma-ui.xml.h:98
+msgid "_Replace..."
+msgstr ""
+
+#: src/pluma-ui.xml.h:100
+msgid "_Save"
+msgstr ""
+
+#: src/pluma-ui.xml.h:101
+msgid "_Save All"
+msgstr ""
+
+#: src/pluma-ui.xml.h:102
+msgid "_Search"
+msgstr ""
+
+#: src/pluma-ui.xml.h:103
+msgid "_Statusbar"
+msgstr ""
+
+#: src/pluma-ui.xml.h:104
+msgid "_Toolbar"
+msgstr ""
+
+#: src/pluma-ui.xml.h:105
+msgid "_Tools"
+msgstr ""
+
+#: src/pluma-ui.xml.h:106
+msgid "_Undo"
+msgstr ""
+
+#: src/pluma-ui.xml.h:107
+msgid "_View"
+msgstr ""
+
+#: src/pluma-utils.c:796
+#, c-format
+msgid ""
+"Could not find the file \"%s\".\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+
+#: src/pluma-utils.c:803
+#, c-format
+msgid "Could not open the file \"%s\" because it contains corrupted data."
+msgstr ""
+
+#: src/pluma-utils.c:814
+#, c-format
+msgid "Could not open the file \"%s\" because pluma cannot handle %s: locations."
+msgstr ""
+
+#: src/pluma-utils.c:820
+#, c-format
+msgid "Could not open the file \"%s\""
+msgstr ""
+
+#: src/pluma-utils.c:830
+#, c-format
+msgid "Could not open the file \"%s\" because it contains data in an invalid format."
+msgstr ""
+
+#: src/pluma-utils.c:837
+#, c-format
+msgid "Could not open the file \"%s\" because it is too big."
+msgstr ""
+
+#: src/pluma-utils.c:844
+#, c-format
+msgid ""
+"\"%s\" is not a valid location.\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+
+#: src/pluma-utils.c:851
+#, c-format
+msgid "Could not open the file \"%s\" because access was denied."
+msgstr ""
+
+#: src/pluma-utils.c:858
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because there are too many open files.\n"
+"\n"
+"Please, close some open file and try again."
+msgstr ""
+
+#: src/pluma-utils.c:866
+#, c-format
+msgid ""
+"\"%s\" is a directory.\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+
+#: src/pluma-utils.c:873
+#, c-format
+msgid ""
+"Not enough available memory to open the file \"%s\". Please, close some "
+"running application and try again."
+msgstr ""
+
+#: src/pluma-utils.c:899
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because no host \"%s\" could be found.\n"
+"\n"
+"Please, check that you typed the location correctly and that your proxy "
+"settings are correct and then try again."
+msgstr ""
+
+#: src/pluma-utils.c:914
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because the host name was invalid.\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+
+#: src/pluma-utils.c:921
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because the host name was empty.\n"
+"\n"
+"Please, check that your proxy settings are correct and try again."
+msgstr ""
+
+#: src/pluma-utils.c:928
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because the attempt to log in failed.\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+
+#: src/pluma-utils.c:936
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because it contains invalid UTF-8 data.\n"
+"\n"
+"Probably, you are trying to open a binary file."
+msgstr ""
+
+#: src/pluma-utils.c:974
+#, c-format
+msgid "Could not open the file \"%s\"."
+msgstr ""
+
+#: src/pluma-utils.c:1025
+#, c-format
+msgid "Could not save the file \"%s\"."
+msgstr ""
+
+#: src/pluma-utils.c:1029
+#, c-format
+msgid ""
+"Could not save the file \"%s\".\n"
+"\n"
+"%s"
+msgstr ""
+
+#: src/pluma-utils.c:1082
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because pluma cannot find it.\n"
+"\n"
+"Perhaps, it has recently been deleted."
+msgstr ""
+
+#: src/pluma-utils.c:1089
+#, c-format
+msgid "Could not revert the file \"%s\" because it contains corrupted data."
+msgstr ""
+
+#: src/pluma-utils.c:1100
+#, c-format
+msgid "Could not revert the file \"%s\" because pluma cannot handle %s: locations."
+msgstr ""
+
+#: src/pluma-utils.c:1106 src/pluma-utils.c:1246
+#, c-format
+msgid "Could not revert the file \"%s\"."
+msgstr ""
+
+#: src/pluma-utils.c:1116
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because it contains data in an invalid "
+"format."
+msgstr ""
+
+#: src/pluma-utils.c:1123
+#, c-format
+msgid "Could not revert the file \"%s\" because it is too big."
+msgstr ""
+
+#: src/pluma-utils.c:1130
+#, c-format
+msgid "Could not revert the file \"%s\" because access was denied."
+msgstr ""
+
+#: src/pluma-utils.c:1137
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because there are too many open files.\n"
+"\n"
+"Please, close some open file and try again."
+msgstr ""
+
+#: src/pluma-utils.c:1145
+#, c-format
+msgid ""
+"Not enough available memory to revert the file \"%s\". Please, close some "
+"running application and try again."
+msgstr ""
+
+#: src/pluma-utils.c:1171
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because no host \"%s\" could be found.\n"
+"\n"
+"Please, check that your proxy settings are correct and try again."
+msgstr ""
+
+#: src/pluma-utils.c:1185
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because the host name was empty.\n"
+"\n"
+"Please, check that your proxy settings are correct and try again."
+msgstr ""
+
+#: src/pluma-utils.c:1192
+#, c-format
+msgid "Could not revert the file \"%s\" because the attempt to log in failed."
+msgstr ""
+
+#: src/pluma-utils.c:1199
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because it contains invalid UTF-8 data.\n"
+"\n"
+"Probably, you are trying to revert a binary file."
+msgstr ""
+
+#: src/pluma-utils.c:1208
+msgid "It is not possible to revert an Untitled document."
+msgstr ""
+
+#: src/pluma-utils.c:1297
+#, c-format
+msgid "The file \"%s\" already exists."
+msgstr ""
+
+#: src/pluma-utils.c:1303
+#, c-format
+msgid ""
+"\"%s\" is a directory.\n"
+"\n"
+"Please, check that you typed the location correctly."
+msgstr ""
+
+#: src/pluma-utils.c:1312
+#, c-format
+msgid ""
+"Cannot create the file \"%s\".\n"
+"\n"
+"Make sure you have the appropriate write permissions."
+msgstr ""
+
+#: src/pluma-utils.c:1319
+#, c-format
+msgid ""
+"Cannot create the file \"%s\".\n"
+"\n"
+"The file name is too long."
+msgstr ""
+
+#: src/pluma-utils.c:1326
+#, c-format
+msgid ""
+"Cannot create the file \"%s\".\n"
+"\n"
+"A directory component in the file name does not exist or is a dangling "
+"symbolic link."
+msgstr ""
+
+#: src/pluma-utils.c:1335
+#, c-format
+msgid ""
+"There is not enough disk space to create the file \"%s\".\n"
+"\n"
+"Please free some disk space and try again."
+msgstr ""
+
+#: src/pluma-utils.c:1341
+#, c-format
+msgid "Could not create the file \"%s\"."
+msgstr ""
+
+#.
+#. if (col == chars)
+#. msg = g_strdup_printf (_("  Ln %d, Col. %d"), row + 1, col + 1);
+#. else
+#. msg = g_strdup_printf (_("  Ln %d, Col. %d-%d"), row + 1, chars + 1, col + 1);
+#.
+#: src/pluma-view.c:1046
+#, c-format
+msgid "  Ln %d, Col. %d"
+msgstr ""
+
+#: src/pluma-view.c:1084
+msgid "  OVR"
+msgstr ""
+
+#: src/pluma-view.c:1086
+msgid "  INS"
+msgstr ""
+
+#: src/pluma2.c:77
+msgid "Show utility debugging messages."
+msgstr ""
+
+#: src/pluma2.c:80
+msgid "Show mdi debugging messages."
+msgstr ""
+
+#: src/pluma2.c:83
+msgid "Show commands debugging messages."
+msgstr ""
+
+#: src/pluma2.c:86
+msgid "Show document debugging messages."
+msgstr ""
+
+#: src/pluma2.c:89
+msgid "Show file debugging messages."
+msgstr ""
+
+#: src/pluma2.c:92
+msgid "Show plugin debugging messages."
+msgstr ""
+
+#: src/pluma2.c:95
+msgid "Show prefs debugging messages."
+msgstr ""
+
+#: src/pluma2.c:98
+msgid "Show printing debugging messages."
+msgstr ""
+
+#: src/pluma2.c:101
+msgid "Show search debugging messages."
+msgstr ""
+
+#: src/pluma2.c:104
+msgid "Show undo debugging messages."
+msgstr ""
+
+#: src/pluma2.c:107
+msgid "Show view debugging messages."
+msgstr ""
+
+#: src/pluma2.c:110
+msgid "Show recent debugging messages."
+msgstr ""
+
+#: src/pluma2.c:113
+msgid "Show session management debugging messages."
+msgstr ""
+
+#: src/pluma2.c:116
+msgid "Turn on all debugging messages."
+msgstr ""
+
+#: src/pluma2.c:119
+msgid "Quit an existing instance of pluma"
+msgstr ""
+
+#: src/pluma2.c:122
+msgid "Create a new toplevel window in an existing instance of pluma"
+msgstr ""
+
+#: src/pluma2.c:125
+msgid "Create a new document in an existing instance of pluma"
+msgstr ""
+
+#: src/pluma-output-window.c:278
+#, fuzzy
+msgid "Close the output window"
+msgstr "Покажи го прозорецот со листата на тагови"
+
+#: src/pluma-output-window.c:316
+msgid "Copy selected lines"
+msgstr ""
+
+#: src/pluma-output-window.c:336
+msgid "Clear the output window"
+msgstr ""
+
+#: src/pluma-output-window.c:374
+msgid "Output Lines"
+msgstr ""
+
+#: src/dialogs/pluma-encodings-dialog.glade2.h:1
+msgid "Choose one or more e_ncodings:"
+msgstr ""
+
+#: src/pluma-encodings.c:142 src/pluma-encodings.c:166
+#: src/pluma-encodings.c:207 src/pluma-encodings.c:257
+#: src/pluma-encodings.c:282
+msgid "Western"
+msgstr ""
+
+#: src/pluma-encodings.c:144
+msgid "South European"
+msgstr ""
+
+#: src/pluma-encodings.c:146 src/pluma-encodings.c:162
+#: src/pluma-encodings.c:292
+msgid "Baltic"
+msgstr ""
+
+#: src/pluma-encodings.c:148 src/pluma-encodings.c:211
+#: src/pluma-encodings.c:224 src/pluma-encodings.c:228
+#: src/pluma-encodings.c:241 src/pluma-encodings.c:280
+msgid "Cyrillic"
+msgstr ""
+
+#: src/pluma-encodings.c:150 src/pluma-encodings.c:217
+#: src/pluma-encodings.c:235 src/pluma-encodings.c:290
+msgid "Arabic"
+msgstr ""
+
+#: src/pluma-encodings.c:152 src/pluma-encodings.c:247
+#: src/pluma-encodings.c:284
+msgid "Greek"
+msgstr ""
+
+#: src/pluma-encodings.c:154
+msgid "Hebrew Visual"
+msgstr ""
+
+#: src/pluma-encodings.c:156 src/pluma-encodings.c:215
+#: src/pluma-encodings.c:253 src/pluma-encodings.c:288
+msgid "Hebrew"
+msgstr ""
+
+#: src/pluma-encodings.c:158 src/pluma-encodings.c:213
+#: src/pluma-encodings.c:261 src/pluma-encodings.c:286
+msgid "Turkish"
+msgstr ""
+
+#: src/pluma-encodings.c:160
+msgid "Nordic"
+msgstr ""
+
+#: src/pluma-encodings.c:164
+msgid "Celtic"
+msgstr ""
+
+#: src/pluma-encodings.c:168 src/pluma-encodings.c:259
+msgid "Romanian"
+msgstr ""
+
+#: src/pluma-encodings.c:171 src/pluma-encodings.c:173
+#: src/pluma-encodings.c:175 src/pluma-encodings.c:177
+msgid "Unicode"
+msgstr ""
+
+#: src/pluma-encodings.c:180
+msgid "Armenian"
+msgstr ""
+
+#: src/pluma-encodings.c:182 src/pluma-encodings.c:184
+#: src/pluma-encodings.c:193
+msgid "Chinese Traditional"
+msgstr ""
+
+#: src/pluma-encodings.c:186
+msgid "Cyrillic/Russian"
+msgstr ""
+
+#: src/pluma-encodings.c:189 src/pluma-encodings.c:220
+#: src/pluma-encodings.c:267
+msgid "Japanese"
+msgstr ""
+
+#: src/pluma-encodings.c:191 src/pluma-encodings.c:222
+#: src/pluma-encodings.c:226 src/pluma-encodings.c:273
+msgid "Korean"
+msgstr ""
+
+#: src/pluma-encodings.c:196 src/pluma-encodings.c:198
+#: src/pluma-encodings.c:200 src/pluma-encodings.c:204
+msgid "Chinese Simplified"
+msgstr ""
+
+#: src/pluma-encodings.c:202
+msgid "Georgian"
+msgstr ""
+
+#: src/pluma-encodings.c:209 src/pluma-encodings.c:237
+#: src/pluma-encodings.c:278
+msgid "Central European"
+msgstr ""
+
+#: src/pluma-encodings.c:230 src/pluma-encodings.c:263
+msgid "Cyrillic/Ukrainian"
+msgstr ""
+
+#: src/pluma-encodings.c:239
+msgid "Croatian"
+msgstr ""
+
+#: src/pluma-encodings.c:243
+msgid "Hindi"
+msgstr ""
+
+#: src/pluma-encodings.c:245
+#, fuzzy
+msgid "Farsi"
+msgstr "Прв"
+
+#: src/pluma-encodings.c:249
+msgid "Gujarati"
+msgstr ""
+
+#: src/pluma-encodings.c:251
+msgid "Gurmukhi"
+msgstr ""
+
+#: src/pluma-encodings.c:255
+msgid "Icelandic"
+msgstr ""
+
+#: src/pluma-encodings.c:269 src/pluma-encodings.c:275
+#: src/pluma-encodings.c:294
+msgid "Vietnamese"
+msgstr ""
+
+#: src/pluma-encodings.c:271
+msgid "Thai"
+msgstr ""
+
+#: src/recent-files/egg-recent-vfs-utils.c:90
+msgid " (invalid Unicode)"
+msgstr ""
+
+#~ msgid "This plugin displays a pop-up dialog which contains an ASCII Table."
+#~ msgstr "Овој додаток прикажува дијалог прозорец кој содржи ASCII табела"
+
+#~ msgid "Copyright (C) 2001-2002 Paolo Maggi"
+#~ msgstr "Сите права се  (С) 2002-2002 Paolo Maggi"
+
+#~ msgid ""
+#~ "If you wish to insert any of the characters in to the active \n"
+#~ "document, select the character and click the \"Insert Char\" \n"
+#~ "button or double click the character in the table."
+#~ msgstr ""
+#~ "Доколку сакаш да внесеш било каков карактер во активниот документ, "
+#~ "селектирај го истиот и кликни на \"Внеси карактер\" или пак двапати "
+#~ "кликни на карактерот"
+
+#~ msgid "Insert char"
+#~ msgstr "Внеси карактер"
+
+#~ msgid "pluma: ASCII table"
+#~ msgstr "pluma: ASCII табела"
+
+#~ msgid "A plugin that opens ChangeLogs found in CVS commit messages."
+#~ msgstr "Додаток кој отвара Change-логови пронајдени во CVS пораки"
+
+#~ msgid "Copyright (C) 2002 - James Willcox"
+#~ msgstr "Сите права се (С) 2002 - James Willcox"
+
+#~ msgid "Compare two files..."
+#~ msgstr "Споредува два "
+
+#~ msgid ""
+#~ "Makes a diff file from two documents or files on disk.\n"
+#~ "\n"
+#~ "For more info on \"diff\" program, type \"man diff\" in a shell prompt.\n"
+#~ msgstr ""
+#~ "Прави diff фајл од два документи или датотеки на дискот.\n"
+#~ "\n"
+#~ "За повеќе информации околу \"diff\", напишете \"man diff\" во конзола.\n"
+
+#~ msgid ""
+#~ "Copyright (C) 2000 - 2001 Chema Celorio \n"
+#~ "Copyright (C) 2002 Paolo Maggi"
+#~ msgstr ""
+#~ "Сите права се (С) 2000 - 2001 Chema Celorio \n"
+#~ "Сите права се (С) 2002 Paolo Maggi"
+
+#~ msgid "Word count"
+#~ msgstr "Броење на зборови"
+
+#~ msgid ""
+#~ "The word count plugin analyzes the current document and determines the "
+#~ "number of words, lines, characters and non-space characters in it and "
+#~ "display the result."
+#~ msgstr ""
+#~ "Додатокот за броење на зборови го анализира моменталниот документ и го "
+#~ "одредува бројот на зборови, линии и карактери и го прикажува резултатот"
+
+#~ msgid "Insert Shell _Output"
+#~ msgstr "Внеси Shell _Output"
+
+#~ msgid "Shell output"
+#~ msgstr "Shell output"
+
+#~ msgid ""
+#~ "Execute a program and insert its output in the current document at the "
+#~ "current cursor position"
+#~ msgstr ""
+#~ "Извршува програма и нејзиниот output го сместува во моменталниот "
+#~ "документ, на моменталната позиција на курсорот"
+
+#~ msgid "Specify the working directory and the command you want to run."
+#~ msgstr ""
+#~ "Специфицирај го работниот директориум и командата која сакате да ја "
+#~ "извршите"
+
+#~ msgid "_Shell command:"
+#~ msgstr "_Shell команда "
+
+#~ msgid "Tag list"
+#~ msgstr "Таг листа"
+
+#~ msgid ""
+#~ "The tag list plugin provides a method to easily insert into a document "
+#~ "commonly used tabs/strings without having to type them."
+#~ msgstr ""
+#~ "Додатокот за таг листа обезбедува метод за лесно вметнување на често "
+#~ "користени зборови/низи од зборови во документот."
+
+#~ msgid "_Insert Date/Time"
+#~ msgstr "Внеси Дата/Време"
+
+#~ msgid "Inserts current date and time at the cursor position."
+#~ msgstr ""
+#~ "Ја внесува моменталната дата и време на местото кадешто се наоѓа курсорот"
+
+#~ msgid "Select the format to use when inserting date/time."
+#~ msgstr ""
+#~ "Избери го форматот кој сакаш да се користи при внесување на дата и време"
+

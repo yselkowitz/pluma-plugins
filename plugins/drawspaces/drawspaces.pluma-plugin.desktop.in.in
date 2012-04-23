@@ -1,0 +1,9 @@
+[Pluma Plugin]
+Module=drawspaces
+IAge=2
+_Name=Draw Spaces
+_Description=Draw Spaces and Tabs
+Authors=Paolo Borelli <pborelli@katamail.com>\nSteve Frécinaux <code@istique.net>\nIgnacio Casal Quinteiro <nacho.resa@gmail.com>
+Copyright=Copyright © 2006 Paolo Borelli\nCopyright © 2007 Steve Frécinaux\nCopyright © 2008 Ignacio Casal Quinteiro
+Website=http://www.mate-desktop.org
+Version=@VERSION@

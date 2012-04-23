@@ -1,0 +1,15 @@
+<mateconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/pluma/plugins/showtabbar/tabbar_visible</key>
+      <applyto>/apps/pluma/plugins/showtabbar/tabbar_visible</applyto>
+      <owner>pluma</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <locale name="C">
+	<short>Tabbar is Visible</short>
+	<long>Whether the tabbar should be visible in editing windows.</long>
+      </locale>
+    </schema>
+  </schemalist>
+</mateconfschemafile>

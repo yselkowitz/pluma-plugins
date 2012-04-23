@@ -1,0 +1,394 @@
+# Simplified Chinese translation of pluma-plugins
+# Copyright (C) 2010 Free Software Foundation, Inc.
+#
+# Original by Dillion Chen <dillon.chen@turbolinux.com.cn>
+# Totally rewritten by Tom Mak <mhh@126.com>, 2001
+# Minor update by Wang Jian <lark@linux.net.cn>, 2001
+# Sun Gl0n <gnome_int_l10n@ireland.sun.com>, 2002
+# Miles Hoo <MilesHoo@sohu.com>, 2002
+# Funda Wang <fundawang@en2china.com>, 2003
+# YunQiang Su <wzssyqa@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=pluma&component=Plugins\n"
+"POT-Creation-Date: 2010-02-16 21:55+0000\n"
+"PO-Revision-Date: 2010-02-19 14:33+0800\n"
+"Last-Translator: YunQiang Su <wzssyqa@gmail.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:1
+msgid "Bookmarks"
+msgstr "书签"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "使用书签的简单文件导航"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:137
+msgid "Toggle Bookmark"
+msgstr "切换书签"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:138
+msgid "Toggle bookmark status of the current line"
+msgstr "切换当前行的书签状态"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:140
+msgid "Goto Next Bookmark"
+msgstr "转到下一个书签"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:141
+msgid "Goto the next bookmark"
+msgstr "转到下一个书签"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:143
+msgid "Goto Previous Bookmark"
+msgstr "转到前一个书签"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:144
+msgid "Goto the previous bookmark"
+msgstr "转到前一个书签"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "自动添加右括号。"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Bracket Completion"
+msgstr "括号补全"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:258
+msgid "Character Map"
+msgstr "字符表"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "只需单击即可插入特殊字符。"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:1
+msgid "Code comment"
+msgstr "代码注释"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "添加或取消选中代码段的注释。"
+
+#: ../plugins/codecomment/codecomment.py:230
+msgid "Co_mment Code"
+msgstr "代码注释(_M)"
+
+#: ../plugins/codecomment/codecomment.py:232
+msgid "Comment the selected code"
+msgstr "为选中代码添加注释"
+
+#: ../plugins/codecomment/codecomment.py:236
+msgid "U_ncomment Code"
+msgstr "取消注释(_N)"
+
+#: ../plugins/codecomment/codecomment.py:238
+msgid "Uncomment the selected code"
+msgstr "取消选中代码的注释"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "颜色拾取器"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "从对话框中拾取一种颜色，然后插入其十六进制代码。"
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "Pick _Color..."
+msgstr "拾取颜色(_C)..."
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "从对话框中拾取一种颜色"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Pick Color"
+msgstr "拾取颜色"
+
+#: ../plugins/colorpicker/colorpicker.py:226
+msgid "_Insert"
+msgstr "插入(_I)"
+
+#. ex:ts=4:et:
+#: ../plugins/commander/commander.pluma-plugin.desktop.in.in.h:1
+msgid "Command line interface for advanced editing"
+msgstr "高级编辑的命令行接口"
+
+#: ../plugins/commander/commander.pluma-plugin.desktop.in.in.h:2
+msgid "Commander"
+msgstr "命令行使用者"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:4
+msgid "Draw Spaces"
+msgstr "绘制空白"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "绘制空格和跳格"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:1
+msgid "Draw leading spaces"
+msgstr "绘制开头空格"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:2
+msgid "Draw new lines"
+msgstr "绘制新行"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:3
+msgid "Draw non-breaking spaces"
+msgstr "绘制非中断空格"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:4
+msgid "Draw spaces"
+msgstr "绘制空格"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:5
+msgid "Draw spaces in text"
+msgstr "在文本中绘制空格"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:6
+msgid "Draw tabs"
+msgstr "绘制跳格"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:7
+msgid "Draw trailing spaces"
+msgstr "绘制结尾空格"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:1
+msgid "Draw Leading Spaces"
+msgstr "绘制开头空格"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:2
+msgid "Draw New lines"
+msgstr "绘制新行"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:3
+msgid "Draw Non-Breaking Spaces"
+msgstr "绘制非中断空格"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:5
+msgid "Draw Spaces in Text"
+msgstr "在文本中绘制空格"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:6
+msgid "Draw Tabs"
+msgstr "绘制跳格"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:7
+msgid "Draw Trailing Spaces"
+msgstr "绘制结尾空格"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:8
+msgid "Show White Spaces"
+msgstr "显示空白"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:167
+msgid "Show _White Space"
+msgstr "显示空白(_W)"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:168
+msgid "Show spaces and tabs"
+msgstr "显示空格和跳格"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:612
+msgid "Error dialog"
+msgstr "出错对话框"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "合并多行或拆分长行"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:2
+msgid "Join/Split Lines"
+msgstr "合并/拆分行"
+
+#: ../plugins/joinlines/joinlines.py:56
+msgid "_Join Lines"
+msgstr "合并行(_G)"
+
+#: ../plugins/joinlines/joinlines.py:57
+msgid "Join the selected lines"
+msgstr "合并选中行"
+
+#: ../plugins/joinlines/joinlines.py:59
+msgid "_Split Lines"
+msgstr "拆分行(_S)"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "Split the selected lines"
+msgstr "拆分选中行"
+
+#. ex:ts=4:et:
+#: ../plugins/multiedit/multiedit.pluma-plugin.desktop.in.in.h:1
+msgid "Edit document in multiple places at once"
+msgstr "一次编辑多个地方的文档"
+
+#: ../plugins/multiedit/multiedit.pluma-plugin.desktop.in.in.h:2
+msgid "Multi Edit"
+msgstr "多编辑"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:279
+msgid "Added edit point..."
+msgstr "增加的编辑点..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:417
+msgid "Column Mode..."
+msgstr "列模式..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:535
+msgid "Removed edit point..."
+msgstr "移除的编辑点..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:685
+msgid "Cancelled column mode..."
+msgstr "取消的列模式..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:804
+msgid "Enter column edit mode using selection"
+msgstr "使用选择进入列编辑模式"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:805
+msgid "Toggle edit point"
+msgstr "切换编辑点"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:806
+msgid "Add edit point at beginning of line/selection"
+msgstr "在行或选中区的开头增加编辑点"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:807
+msgid "Add edit point at end of line/selection"
+msgstr "在行或选中区的末尾增加编辑点"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:843
+#: ../plugins/multiedit/multiedit/windowhelper.py:69
+msgid "Multi Edit Mode"
+msgstr "多编辑模式"
+
+#: ../plugins/multiedit/multiedit/windowhelper.py:69
+msgid "Start multi edit mode"
+msgstr "启动多编辑模式"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "标签栏(_B)"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "显示或隐藏当前窗口中的标签栏"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "标签栏可见"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr "是否在编辑窗口中显示标签栏。"
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr "添加一个可显示/隐藏标签栏的菜单项。"
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "显示/隐藏标签栏"
+
+#: ../plugins/sessionsaver/__init__.py:64
+msgid "Sa_ved sessions"
+msgstr "已保存会话(_V)"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "_Save current session"
+msgstr "保存当前会话(_S)"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "Save the current document list as a new session"
+msgstr "将当前文档列表另存为新会话"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "_Manage saved sessions..."
+msgstr "管理已保存的会话(_M)..."
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "Open the saved session manager"
+msgstr "打开已保存的会话管理器"
+
+#: ../plugins/sessionsaver/__init__.py:106
+#, python-format
+msgid "Recover '%s' session"
+msgstr "复原“%s”会话"
+
+#: ../plugins/sessionsaver/dialogs.py:167
+msgid "Session Name"
+msgstr "会话名称"
+
+#. ex:ts=4:et:
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:1
+msgid "Save and restore your working sessions"
+msgstr "保存并恢复您的工作会话"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:2
+msgid "Session Saver"
+msgstr "会话保存"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:1
+msgid "Save session"
+msgstr "保存会话"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:2
+msgid "Saved Sessions"
+msgstr "已存会话"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:3
+msgid "Session name:"
+msgstr "会话名称："
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "忘记使用跳格的年代。"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Smart Spaces"
+msgstr "智能空格"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "在底部面板中的嵌入终端。"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:2
+msgid "Embedded Terminal"
+msgstr "嵌入式终端"
+
+#: ../plugins/terminal/terminal.py:262
+msgid "Terminal"
+msgstr "终端"
+
+#: ../plugins/terminal/terminal.py:285
+msgid "C_hange Directory"
+msgstr "更改目录(_H)"
+
+#: ../plugins/wordcompletion/pluma-word-completion-plugin.c:144
+msgid "Document Words"
+msgstr "文档单词"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Word Completion"
+msgstr "单词补全"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Word completion using the completion framework"
+msgstr "使用补全框架的单词补全"
+
+#~ msgid "Drawing color:"
+#~ msgstr "绘制颜色："

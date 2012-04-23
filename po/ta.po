@@ -1,0 +1,308 @@
+# translation of pluma-plugins.master.ta.po to Tamil
+# Tamil Translation of pluma
+# Copyright (C) 2001 Dinesh Nadarajah
+#
+# Dinesh Nadarajah, 2001 <n_dinesh@yahoo.com>.
+# I. Felix <ifelix@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins.master.ta\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pluma&component=Plugins\n"
+"POT-Creation-Date: 2009-10-18 20:14+0000\n"
+"PO-Revision-Date: 2009-10-28 15:53+0530\n"
+"Last-Translator: I. Felix <ifelix@redhat.com>\n"
+"Language-Team: Tamil <fedora-trans-ta@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\\n\n"
+"\n"
+"\n"
+"\n"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:1
+msgid "Bookmarks"
+msgstr "புத்தகக்குறிகள்"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "புத்தகக்குறிகளுடன்  எளிய ஆவண நகர்த்தல்"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:130
+msgid "Toggle Bookmark"
+msgstr "டோகுல் புத்தக்குறி"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:131
+msgid "Toggle bookmark status of the current line"
+msgstr "நடப்பு கோட்டில் டோகும் புத்தக்குறியின் நிலை"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:133
+msgid "Goto Next Bookmark"
+msgstr "அடுத்த புத்தக் குறிக்கு செல்"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:134
+msgid "Goto the next bookmark"
+msgstr "அடுத்த புத்தக்குறிப்பிற்கு செல்லவும்"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:136
+msgid "Goto Previous Bookmark"
+msgstr "முந்தைய புத்தக குறிப்புகளுக்கு செல்"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:137
+msgid "Goto the previous bookmark"
+msgstr "முந்தைய புத்தக குறிப்புகளுக்கு செல்லவும்"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "தானாகவே அடைப்புக்குறிகளை சேர்ப்பதற்கு மூடுகிறது."
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Bracket Completion"
+msgstr "அடைப்புக்குறி முடிவுற்றது"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:258
+msgid "Character Map"
+msgstr "வரைப்பட எழுத்துக்கள்் அல்லா)"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "குறிப்பிட்ட எழுத்துக்களை அவற்றை கிளிக் செய்து உள்நுழைக்கவும்."
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:1
+msgid "Code comment"
+msgstr "குறியீடு குறிப்புஎண்ணி"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "குறிப்பு வெளியே அல்லது குறிப்பில்லாத ஒரு தேர்ந்தெடுக்கப்பட்ட தொகுதி குறியீடு."
+
+#: ../plugins/codecomment/codecomment.py:230
+msgid "Co_mment Code"
+msgstr "விளக்க குறியீடு (_m)"
+
+#: ../plugins/codecomment/codecomment.py:232
+msgid "Comment the selected code"
+msgstr "தேர்ந்தெடுக்கப்பட்ட குறியீட்டுக்கு குறிப்புஉரையை நீக்கு"
+
+#: ../plugins/codecomment/codecomment.py:236
+msgid "U_ncomment Code"
+msgstr "குறிப்பில்லாத குறியீடு (_n)"
+
+#: ../plugins/codecomment/codecomment.py:238
+msgid "Uncomment the selected code"
+msgstr "தெரிவு செய்த உரையை நீக்கு"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "நிறத்தை எடுப்பவர்"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "உரையாடலிலிருந்து ஒரு நிறத்தை எடுத்து அதன் எண்ம தசமத்தில் நுழைக்கவும்"
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "Pick _Color..."
+msgstr "வண்ணத்தை எடுக்கவும் (_C)..."
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "உரையாடலிருந்து ஒரு வண்ணத்தை எடுக்கவும்"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Pick Color"
+msgstr "வண்ணத்தை எடு"
+
+#: ../plugins/colorpicker/colorpicker.py:226
+msgid "_Insert"
+msgstr "உள்நுழை (_I)"
+
+#. ex:ts=4:et:
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Draw Spaces"
+msgstr "இடைவெளிகளை இழுக்கவும்"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "இடைவெளி மற்றும் ஓட்டுகளை இழுக்கவும்"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:1
+#| msgid "Draw non-breaking spaces"
+msgid "Draw leading spaces"
+msgstr "முன்னு இடைவெளிகளை இழுக்கவும்"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:2
+msgid "Draw new lines"
+msgstr "புதிய கோடுகளை இழுக்கவும்"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:3
+msgid "Draw non-breaking spaces"
+msgstr "உடையப்படாத இடைவெளிகளை இழுக்கவும்"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:4
+msgid "Draw spaces"
+msgstr "இடைவெளியை இழு"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:5
+#| msgid "Draw spaces"
+msgid "Draw spaces in text"
+msgstr "உரையினுள் இடைவெளியை இழு"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:6
+msgid "Draw tabs"
+msgstr "ஒட்டுகளை இழு"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:7
+#| msgid "Draw non-breaking spaces"
+msgid "Draw trailing spaces"
+msgstr "பின்னாலுள்ள இடைவெளிகளை இழுக்கவும்"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:163
+msgid "Show _White Space"
+msgstr "வெள்ளை இடைவெளியை காட்டு (_W)"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:164
+msgid "Show spaces and tabs"
+msgstr "இடைவெளிகள் மற்றும் ஒட்டுகளை காட்டு"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:626
+msgid "Error dialog"
+msgstr "பிழை உரையாடல்"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "சில கோடுகளை சேர்க்கவும் அல்லது நீளமான ஒன்றை பிளக்கவும்"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:2
+msgid "Join/Split Lines"
+msgstr "கோடுகளை சேர்க்கவும்/பிளக்கவும்"
+
+#: ../plugins/joinlines/joinlines.py:56
+msgid "_Join Lines"
+msgstr "கோடுகளுடன் சேர் (_J)"
+
+#: ../plugins/joinlines/joinlines.py:57
+msgid "Join the selected lines"
+msgstr "தேர்ந்தெடுக்கப்பட்ட கோடுகளுடன் சேரவும்ியை அமை வடிவப்படுத்து"
+
+#: ../plugins/joinlines/joinlines.py:59
+msgid "_Split Lines"
+msgstr "பிளவுப்பட்ட கோடுகள் (_S)"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "Split the selected lines"
+msgstr "தேர்ந்தெடுக்கப்பட்ட கோடுகளை பிரிக்கவும்"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "ஒட்டு பட்டி (_b)"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "ஒட்டு பட்டி நடப்பு சாளரத்தில் காட்டு அல்லது மறை"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "ஒட்டுபட்டி தெரிகிறது"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr "திருத்தப்பட்ட சாளரங்களில் ஒட்டுபட்டி தெரியுமா."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr "தத்தலை பட்டையை காட்ட/மறைக்க ஒரு மெனு உள்ளீட்டை சேர்."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "ஒட்டுபட்டியை காட்டு/மறை"
+
+#: ../plugins/sessionsaver/__init__.py:64
+msgid "Sa_ved sessions"
+msgstr "சேமிக்கப்பட்ட அமர்வுகள் (_v)"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "_Save current session"
+msgstr "நடப்பு அமர்வை சேமிக்கவும் (_S)"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "Save the current document list as a new session"
+msgstr "தற்போதைய ஆவணப் பட்டியலை ஒரு புதிய அமர்வாக சேமிக்கவும்"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "_Manage saved sessions..."
+msgstr "சேமிக்கப்பட்ட அமர்வுகளை மேலாண்மை செய் (_M)..."
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "Open the saved session manager"
+msgstr "சேமிக்கப்பட்ட அமர்வு மேலாளரை திறக்கவும் திறக்கவும்"
+
+#: ../plugins/sessionsaver/__init__.py:106
+#, python-format
+msgid "Recover '%s' session"
+msgstr "'%s' அமர்வை திரும்ப பெறுதல்"
+
+#: ../plugins/sessionsaver/dialogs.py:167
+msgid "Session Name"
+msgstr "அமர்வின் பெயர்"
+
+#. ex:ts=4:et:
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:1
+msgid "Save and restore your working sessions"
+msgstr "உங்களுடைய பணிபுரியும் அமர்வுகளை மறுசேகரித்து மற்றும் சேமிக்கவும்"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:2
+msgid "Session Saver"
+msgstr "அமர்வு சேமிப்பவர்"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:1
+msgid "Save session"
+msgstr "அமர்வை சேமிக்கவும்் சேமி"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:2
+msgid "Saved Sessions"
+msgstr "அமர்வுகள் சேமிக்கப்பட்டது"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:3
+msgid "Session name:"
+msgstr "அமர்வின்வகையின:் பெயர்"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "நீங்கள் தத்தலை பயன்படுத்த மறந்துவிட்டீர்கள்."
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Smart Spaces"
+msgstr "சுருக்க இடைவெளிகள்"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "ஒரு முனையத்தை கீழ் பலகத்தில் உட்பொதியவும்."
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:2
+msgid "Embedded Terminal"
+msgstr "உட்பொதியப்பட்ட முனையம்"
+
+#: ../plugins/terminal/terminal.py:262
+msgid "Terminal"
+msgstr "முடிவு"
+
+#: ../plugins/terminal/terminal.py:285
+msgid "C_hange Directory"
+msgstr "அடைவை மாற்று (_h)"
+
+#: ../plugins/wordcompletion/pluma-word-completion-plugin.c:144
+msgid "Document Words"
+msgstr "ஆவண வார்த்தைகள்"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:1
+#| msgid "Bracket Completion"
+msgid "Word Completion"
+msgstr "வார்த்தை முடிவுற்றது"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Word completion using the completion framework"
+msgstr "முடிவடைந்த frameworkஐ பயன்படுத்தி வார்த்தை முடிவடைகிறது"
+

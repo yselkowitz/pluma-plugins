@@ -1,0 +1,26 @@
+# Traditional Chinese Messages for pluma-plugins.
+# Copyright (C) 2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the pluma-plugins package.
+# Wei-Lun Chao <chaoweilun@pcmail.com.tw>, 2006
+
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins 2.3.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-09 19:37+0100\n"
+"PO-Revision-Date: 2006-02-17 14:37+800\n"
+"Last-Translator: Wei-Lun Chao <chaoweilun@pcmail.com.tw>\n"
+"Language-Team: Chinese (traditional) <community@linuxhall.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../quickies/quickies.glade.h:1
+msgid "Execute"
+msgstr "執行"
+
+#: ../quickies/quickies.glade.h:2
+msgid "Quick Script:"
+msgstr "快捷命令稿："
+

@@ -1,0 +1,237 @@
+# Biełaruski pierakład pluma-plugins.
+# Copyright (C) 2008 Ihar Hrachyshka
+# This file is distributed under the same license as the pluma-plugins package.
+# Ihar Hrachyshka <booxter@lacinka.org>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-10 00:10+0200\n"
+"PO-Revision-Date: 2008-03-10 00:22+0200\n"
+"Last-Translator: Ihar Hrachyshka <booxter@lacinka.org>\n"
+"Language-Team: Belarusian Latin <i18n@mova.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "Aŭtamatyčna dadaje kancavyja dužki."
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.h:2
+msgid "Bracket Completion"
+msgstr "Zakryćcio dužak"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:254
+msgid "Character Map"
+msgstr "Mapa znakaŭ"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "Ustaŭlaj specyjalnyja znaki, klikajučy ich."
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.h:1
+msgid "Code comment"
+msgstr "Kamentavańnie kodu"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "Zakamentuj ci adkamentuj zaznačany blok kodu."
+
+#: ../plugins/codecomment/codecomment.py:230
+msgid "Co_mment Code"
+msgstr "Za_kamentuj kod"
+
+#: ../plugins/codecomment/codecomment.py:232
+msgid "Comment the selected code"
+msgstr "Zakamentuj zaznačany kod"
+
+#: ../plugins/codecomment/codecomment.py:236
+msgid "U_ncomment Code"
+msgstr "_Adkamentuj kod"
+
+#: ../plugins/codecomment/codecomment.py:238
+msgid "Uncomment the selected code"
+msgstr "Adkamentuj zaznačany kod"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.h:1
+msgid "Color Picker"
+msgstr "Vybar koleru"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "Abiraj koler u dyjalohavym aknie dy ŭstaŭlaj jahonaje šasnaccatkovaje vyjaŭleńnie."
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "Pick _Color..."
+msgstr "Abiary _koler..."
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "Abiary koler u dyjalohavym aknie"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Pick Color"
+msgstr "Abiary koler"
+
+#: ../plugins/colorpicker/colorpicker.py:226
+msgid "_Insert"
+msgstr "_Ustaŭ"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.h:1
+msgid "Draw Spaces"
+msgstr "Pakazvaj prabieły"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "Pakazvaj prabieły j taby"
+
+#: ../plugins/drawspaces/drawspaces.glade.h:1
+msgid "Draw non-breaking spaces"
+msgstr "Pakazvaj nierazryŭnyja prabieły"
+
+#: ../plugins/drawspaces/drawspaces.glade.h:2
+msgid "Draw spaces"
+msgstr "Pakazvaj prabieły"
+
+#: ../plugins/drawspaces/drawspaces.glade.h:3
+msgid "Draw tabs"
+msgstr "Pakazvaj taby"
+
+#: ../plugins/drawspaces/drawspaces.glade.h:4
+msgid "Drawing color:"
+msgstr "Koler demanstravańnia:"
+
+#: ../plugins/drawspaces/drawspaces.py:177
+msgid "Show White Space"
+msgstr "Pakazvaj prabieły"
+
+#: ../plugins/drawspaces/drawspaces.py:178
+msgid "Show spaces and tabs"
+msgstr "Pakazvaj prabieły j taby"
+
+#. ex:ts=4:et:
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "Jadnaj ci raźjadnoŭvaj radki"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.h:2
+msgid "Join/Split Lines"
+msgstr "Jadnaj/Raźjadnoŭvaj radki"
+
+#: ../plugins/joinlines/joinlines.py:56
+msgid "_Join Lines"
+msgstr "Ź_jadnaj radki"
+
+#: ../plugins/joinlines/joinlines.py:57
+msgid "Join the selected lines"
+msgstr "Źjadnaj zaznačanyja radki"
+
+#: ../plugins/joinlines/joinlines.py:59
+msgid "_Split Lines"
+msgstr "_Raźjadnaj radki"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "Split the selected lines"
+msgstr "Raźjadnaj zaznačanyja radki"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "_Panel kartak"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "Pakazvaj/schavaj panel kartak u dziejnym aknie"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "Panel kartak bačnaja"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr "Ci pakazvać panel kartak u voknach redaktara."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr "Dadaj punkt menu, kab pakazvać/chavać panel kartak."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "Pakažy/schavaj panel kartak"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "Sa_ved sessions"
+msgstr "_Zachavanyja sesii"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "_Save current session"
+msgstr "_Zachavaj dziejnuju sesiju"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "Save the current document list as a new session"
+msgstr "Zachavaj dziejny śpis dakumentaŭ jak novuju sesiju"
+
+#: ../plugins/sessionsaver/__init__.py:67
+msgid "_Manage saved sessions..."
+msgstr "_Kiruj zachavanymi sesijami..."
+
+#: ../plugins/sessionsaver/__init__.py:67
+msgid "Open the saved session manager"
+msgstr "Uklučy kiraŭnika zachavanymi sesijami"
+
+#: ../plugins/sessionsaver/__init__.py:107
+#, python-format
+msgid "Recover '%s' session"
+msgstr "Adnavi sesiju \"%s\""
+
+#: ../plugins/sessionsaver/dialogs.py:165
+msgid "Session Name"
+msgstr "Nazva sesii"
+
+#. ex:ts=4:et:
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.h:1
+msgid "Save and restore your working sessions"
+msgstr "Zachoŭvaj dy adnaŭlaj rabočyja sesii"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.h:2
+msgid "Session Saver"
+msgstr "Zachavańnie sesijaŭ"
+
+#: ../plugins/sessionsaver/sessionsaver.glade.h:1
+msgid "Save session"
+msgstr "Zachavaj sesiju"
+
+#: ../plugins/sessionsaver/sessionsaver.glade.h:2
+msgid "Saved Sessions"
+msgstr "Zachavanyja sesii"
+
+#: ../plugins/sessionsaver/sessionsaver.glade.h:3
+msgid "Session name:"
+msgstr "Nazva sesii:"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "Zabudźsia, što ja nie vykarystoŭvaju tabulacyju."
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.h:2
+msgid "Smart Spaces"
+msgstr "Razumnyja prabieły"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "Dadaj terminał u nižniaj paneli."
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.h:2
+msgid "Embedded Terminal"
+msgstr "Ubudavany terminał"
+
+#: ../plugins/terminal/terminal.py:210
+msgid "Terminal"
+msgstr "Terminał"
+
+#: ../plugins/terminal/terminal.py:231
+msgid "C_hange Directory"
+msgstr "_Źmiani kataloh"

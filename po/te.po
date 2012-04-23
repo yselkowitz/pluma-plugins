@@ -1,0 +1,307 @@
+# translation of pluma-plugins.master.te.po to Telugu
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins.master.te\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pluma&component=Plugins\n"
+"POT-Creation-Date: 2009-10-18 20:14+0000\n"
+"PO-Revision-Date: 2009-10-26 19:44+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"\n"
+"\n"
+"\n"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:1
+msgid "Bookmarks"
+msgstr "బుక్‌మార్కులు"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "బుక్‌మార్కులతో సులభతర పత్ర విహారము"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:130
+msgid "Toggle Bookmark"
+msgstr "బుక్‌మార్కును మార్చుము"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:131
+msgid "Toggle bookmark status of the current line"
+msgstr "ప్రస్తుత పంక్తియొక్క బుక్‌మార్కు స్థితిని మార్చుము"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:133
+msgid "Goto Next Bookmark"
+msgstr "తరువాతి బుక్‌మార్కునకు వెళ్ళుము"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:134
+msgid "Goto the next bookmark"
+msgstr "తరువాతి బుక్‌మార్కునకు వెళ్ళుము"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:136
+msgid "Goto Previous Bookmark"
+msgstr "మునుపటి బుక్‌మార్కునకు వెళ్ళుము"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:137
+msgid "Goto the previous bookmark"
+msgstr "మునుపటి బుక్‌మార్కునకు వెళ్ళుము"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "మూసివేత బ్రాకెట్లను స్వయంచాలకంగా జతచేయుము."
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Bracket Completion"
+msgstr "బ్రాకెట్ ముగింపు"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:258
+msgid "Character Map"
+msgstr "ఆక్షరం పఠము"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "ప్రత్యేక అక్షరములను వాటిపై నొక్కుట ద్వారా చేర్చుము."
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:1
+msgid "Code comment"
+msgstr "కోడ్ వ్యాఖ్యానము"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "ఎంపికచేసిన కోడ్ బ్లాకును వ్యాఖ్యానమువలె వుంచుము లేదా వ్యాఖ్యానము తీసివేయుము."
+
+#: ../plugins/codecomment/codecomment.py:230
+msgid "Co_mment Code"
+msgstr "వ్యాఖ్యానము కోడ్ (_m)"
+
+#: ../plugins/codecomment/codecomment.py:232
+msgid "Comment the selected code"
+msgstr "ఎంపికచేసిన కోడ్‌ను వ్యాఖ్యానమువలె వుంచుము"
+
+#: ../plugins/codecomment/codecomment.py:236
+msgid "U_ncomment Code"
+msgstr "కోడ్ వ్యాఖ్యానము తీసివేయుము (_n)"
+
+#: ../plugins/codecomment/codecomment.py:238
+msgid "Uncomment the selected code"
+msgstr "ఎంపికచేసిన కోడ్ వ్యాఖ్యానము తీసివేయుము"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "వర్ణమును యెంచునది"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "డైలాగునుండి వర్ణమును యెంచుకొని దాని హెక్సాడెసిమల్ రూపాన్ని చేర్చుము."
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "Pick _Color..."
+msgstr "వర్ణమును యెంచుకొనుము... (_C)"
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "డైలాగునుండి వర్ణమును యెంచుకొనుము"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Pick Color"
+msgstr "వర్ణమును యెంచుకొనుము"
+
+#: ../plugins/colorpicker/colorpicker.py:226
+msgid "_Insert"
+msgstr "చేర్చుము (_I)"
+
+#. ex:ts=4:et:
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Draw Spaces"
+msgstr "ఖాళీలను గీయుము"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "ఖాళీలను మరియు టాబులను గీయుము"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:1
+#| msgid "Draw non-breaking spaces"
+msgid "Draw leading spaces"
+msgstr "లీడింగ్ి ఖాళీలను గీయుము"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:2
+msgid "Draw new lines"
+msgstr "కొత్త పంక్తి గీయుము"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:3
+msgid "Draw non-breaking spaces"
+msgstr "విరిగి-పోని ఖాళీలను గీయుము"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:4
+msgid "Draw spaces"
+msgstr "ఖాళీలను గీయుము"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:5
+#| msgid "Draw spaces"
+msgid "Draw spaces in text"
+msgstr "పాఠ్యమునందు ఖాళీలను గీయుము"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:6
+msgid "Draw tabs"
+msgstr "టాబ్‌లను గీయుము"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:7
+#| msgid "Draw non-breaking spaces"
+msgid "Draw trailing spaces"
+msgstr "ట్రెయిలింగ్ ఖాళీలను గీయుము"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:163
+msgid "Show _White Space"
+msgstr "తెల్లని ఖాళీలను చూపుము (_W)"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:164
+msgid "Show spaces and tabs"
+msgstr "ఖాళీలను మరియు టాబులను చూపుము"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:626
+msgid "Error dialog"
+msgstr "దోషపు డైలాగ్"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "చాలా పంక్తులను కలుపుము లేదా పొడవైన వాటిని విరుచుము"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:2
+msgid "Join/Split Lines"
+msgstr "పంక్తులను కలుపుము/విరుచుము"
+
+#: ../plugins/joinlines/joinlines.py:56
+msgid "_Join Lines"
+msgstr "పంక్తులను కలుపుము (_J)"
+
+#: ../plugins/joinlines/joinlines.py:57
+msgid "Join the selected lines"
+msgstr "ఎంపికచేసిన పంక్తులను కలుపుము"
+
+#: ../plugins/joinlines/joinlines.py:59
+msgid "_Split Lines"
+msgstr "పంక్తులను విరుచుము (_S)"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "Split the selected lines"
+msgstr "ఎంపికచేసిన పంక్తులను విరుచుము"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "టాబ్ పట్టీ (_b)"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "ప్రస్తుత విండోనందు టాబ్‌పట్టీను చూపుము లేదా మరుగునవుంచుము"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "టాబ్‌పట్టీ కనిపించునది"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr "సరికూర్చుచున్న విండోలనందు టాబ్‌పట్టీ కనిపించునట్లు వుండవలెనా."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr "టాబ్‌పట్టీను చూపుటకు/మరుగున వుంచుటకు మెనూ ప్రవేశమును జతచేయుము."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "టాబ్‌పట్టీను చూపుము/మరుగునవుంచుము"
+
+#: ../plugins/sessionsaver/__init__.py:64
+msgid "Sa_ved sessions"
+msgstr "దాచిన విభాగము(సెషన్)లు (_v)"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "_Save current session"
+msgstr "ప్రస్తుత విభాగము(సెషన్) దాయుము (_S)"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "Save the current document list as a new session"
+msgstr "ప్రస్తుత పత్రము జాబితాను కొత్త విభాగమువలె దాయుము"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "_Manage saved sessions..."
+msgstr "దాచిన విభాగములను నిర్వహించుము... (_M)"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "Open the saved session manager"
+msgstr "దాచిన విభాగపు నిర్వాహకిని తెరువుము"
+
+#: ../plugins/sessionsaver/__init__.py:106
+#, python-format
+msgid "Recover '%s' session"
+msgstr "'%s' విభాగమును తిరిగిపొందుము"
+
+#: ../plugins/sessionsaver/dialogs.py:167
+msgid "Session Name"
+msgstr "విభాగము నామము"
+
+#. ex:ts=4:et:
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:1
+msgid "Save and restore your working sessions"
+msgstr "మీరు పనిచేస్తున్న విభాగము(సెషన్)లను దాయుము మరియు తిరిగివుంచుము"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:2
+msgid "Session Saver"
+msgstr "విభాగము(సెషన్) దాయునది"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:1
+msgid "Save session"
+msgstr "విభాగము(సెషన్) దాయుము"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:2
+msgid "Saved Sessions"
+msgstr "దాచిన విభాగము(సెషన్)లు"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:3
+msgid "Session name:"
+msgstr "విభాగము నామము:"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "మీరు టాబ్యులేషన్లను వినియోగించుట లేదనునది మరువండి."
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Smart Spaces"
+msgstr "స్మార్టు ఖాళీలు"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "టెర్మినల్‌ను క్రింది తలమునందు యిరికించుము."
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:2
+msgid "Embedded Terminal"
+msgstr "ఇరికించివుంచిన టెర్మినల్"
+
+#: ../plugins/terminal/terminal.py:262
+msgid "Terminal"
+msgstr "టెర్మినల్"
+
+#: ../plugins/terminal/terminal.py:285
+msgid "C_hange Directory"
+msgstr "డైరెక్టరీను మార్చుము (_h)"
+
+#: ../plugins/wordcompletion/pluma-word-completion-plugin.c:144
+msgid "Document Words"
+msgstr "పత్రము పదాలు"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:1
+#| msgid "Bracket Completion"
+msgid "Word Completion"
+msgstr "పద ముగింపు"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Word completion using the completion framework"
+msgstr "పూర్తిచేయు ఫ్రేమ్‌వర్కు వుపయోగించి పద సంపూరణము"
+

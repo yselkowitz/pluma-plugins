@@ -1,0 +1,2607 @@
+# Finnish messages for pluma-plugins
+# Copyright (C) 1999-2004 Free Software Foundation, Inc.
+#
+# Ilkka Tuohela <hile@iki.fi>, 2005.
+# Jarkko Ranta <jjranta@cc.joensuu.fi>, 2000-2004.
+# Suomennos: http://gnome.fi/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-09 08:45+0300\n"
+"PO-Revision-Date: 2007-03-19 09:19+0300\n"
+"Last-Translator: Ilkka Tuohela <hile@iki.fi>\n"
+"Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "Lisää automaattisesti päättävät kaarisulut."
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.h:2
+msgid "Bracket Completion"
+msgstr "Kaarisulkujen täydennys"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:254
+msgid "Character Map"
+msgstr "Merkkikartta"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "Lisää erikoismerkkejä napsauttamalla niitä."
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.h:1
+msgid "Code comment"
+msgstr "Lähdekoodin kommentointi"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "Kommentoi tai poista kommentit valitusta lähdekoodin alueesta."
+
+#: ../plugins/codecomment/codecomment.py:230
+msgid "Co_mment Code"
+msgstr "Lähdek_oodin kommentointi"
+
+#: ../plugins/codecomment/codecomment.py:232
+msgid "Comment the selected code"
+msgstr "Kommentoi valittu lähdekoodi."
+
+#: ../plugins/codecomment/codecomment.py:236
+msgid "U_ncomment Code"
+msgstr "_Poista kommentti koodista"
+
+#: ../plugins/codecomment/codecomment.py:238
+msgid "Uncomment the selected code"
+msgstr "Poista kommentit valitusta lähdekoodista"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.h:1
+msgid "Color Picker"
+msgstr "Värinvalitsin"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "Valitse väri ikkunasta ja syötä tekstiin sen heksadesimaaliesitys."
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "Pick _Color..."
+msgstr "Valitse _väri..."
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "Valitse väri ikkunasta"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Pick Color"
+msgstr "Valitse väri"
+
+#: ../plugins/colorpicker/colorpicker.py:226
+msgid "_Insert"
+msgstr "L_isää"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.h:1
+msgid "Draw Spaces"
+msgstr "Näytä tyhjeet"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "Näytä välilyönnit ja sarkaimet"
+
+#: ../plugins/drawspaces/drawspaces.glade.h:1
+msgid "Draw non-breaking spaces"
+msgstr "Näytä katkaisemattomat välilyönnit"
+
+#: ../plugins/drawspaces/drawspaces.glade.h:2
+msgid "Draw spaces"
+msgstr "Näytä välilyönnit"
+
+#: ../plugins/drawspaces/drawspaces.glade.h:3
+msgid "Draw tabs"
+msgstr "Näytä sarkaimet"
+
+#: ../plugins/drawspaces/drawspaces.glade.h:4
+msgid "Drawing color:"
+msgstr "Tyhjeiden väri:"
+
+#: ../plugins/drawspaces/drawspaces.py:177
+msgid "Show White Space"
+msgstr "Näytä tyhjeet"
+
+#: ../plugins/drawspaces/drawspaces.py:178
+msgid "Show spaces and tabs"
+msgstr "Näytä välilyönnit ja sarkaimet"
+
+#. ex:ts=4:et:
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "Liitä useita rivejä tai jaa pitkiä rivejä"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.h:2
+msgid "Join/Split Lines"
+msgstr "_Yhdistä tai jaa rivejä"
+
+#: ../plugins/joinlines/joinlines.py:56
+msgid "_Join Lines"
+msgstr "_Yhdistä rivit"
+
+#: ../plugins/joinlines/joinlines.py:57
+msgid "Join the selected lines"
+msgstr "Yhdistä valitut rivit"
+
+#: ../plugins/joinlines/joinlines.py:59
+msgid "_Split Lines"
+msgstr "_Jaa rivit"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "Split the selected lines"
+msgstr "Jaa valitut rivit"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "Välilehti_palkki"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "Näytä tai piilota välilehtipalkki valitussa ikkunassa"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "Välilehtipalkki näytetään"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr "Näytetäänkö välilehtipalkki muokkaimessa."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr "Lisää valikon kohta välilehtipalkin piilottamiseksi ja näyttämiseksi"
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "Näytä tai piilota välilehtipalkki"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "Sa_ved sessions"
+msgstr "Ta_llennetut istunnot"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "_Save current session"
+msgstr "_Tallenna nykyinen istunto"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "Save the current document list as a new session"
+msgstr "Tallenna nykyinen asiakirjaluettelo uuteena istuntona"
+
+#: ../plugins/sessionsaver/__init__.py:67
+msgid "_Manage saved sessions..."
+msgstr "_Hallitse tallennettuja istuntoja..."
+
+#: ../plugins/sessionsaver/__init__.py:67
+msgid "Open the saved session manager"
+msgstr "Avaa tallennettujen istuntojen hallinta"
+
+#: ../plugins/sessionsaver/__init__.py:107
+#, python-format
+msgid "Recover '%s' session"
+msgstr "Palauta istunto \"%s\""
+
+#: ../plugins/sessionsaver/dialogs.py:165
+msgid "Session Name"
+msgstr "Istunnon nimi"
+
+#. ex:ts=4:et:
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.h:1
+msgid "Save and restore your working sessions"
+msgstr "Tallenna istunto ja palaa tallennettuun istuntoon"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.h:2
+msgid "Session Saver"
+msgstr "Istunnon tallannus"
+
+#: ../plugins/sessionsaver/sessionsaver.glade.h:1
+msgid "Save session"
+msgstr "Tallenna istunto"
+
+#: ../plugins/sessionsaver/sessionsaver.glade.h:2
+msgid "Saved Sessions"
+msgstr "Tallennetut istunnot"
+
+#: ../plugins/sessionsaver/sessionsaver.glade.h:3
+msgid "Session name:"
+msgstr "Istunnon nimi:"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "Unohda, että et käytä sarkaimia."
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.h:2
+msgid "Smart Spaces"
+msgstr "Älykkääy tyhjeet"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "Upota pääteikkuna alapaneeliin."
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.h:2
+msgid "Embedded Terminal"
+msgstr "Upotettu pääteikkuna"
+
+#: ../plugins/terminal/terminal.py:210
+msgid "Terminal"
+msgstr "Pääteikkuna"
+
+#: ../plugins/terminal/terminal.py:231
+msgid "C_hange Directory"
+msgstr "Vai_hda kansiota"
+
+#~ msgid "_Color picker"
+#~ msgstr "_Värinvalitsin"
+
+#~ msgid "Color picker"
+#~ msgstr "Värinvalitsin"
+
+#~ msgid "Execute"
+#~ msgstr "Suorita"
+
+#~ msgid "Quick Script:"
+#~ msgstr "Pikaskripti:"
+
+#~ msgid "_ASCII Table"
+#~ msgstr "_ASCII-taulu"
+
+#~ msgid "Pop-up a dialog containing an ASCII Table"
+#~ msgstr "Näytä ASCII-taulun sisältävä valintaikkuna"
+
+#~ msgid "Char"
+#~ msgstr "Merkki"
+
+#~ msgid "Dec#"
+#~ msgstr "Desim#"
+
+#~ msgid "Hex#"
+#~ msgstr "Heks#"
+
+#~ msgid "Name"
+#~ msgstr "Nimi"
+
+#~ msgid "ASCII Table"
+#~ msgstr "ASCII-taulu"
+
+#~ msgid "_Insert char"
+#~ msgstr "L_isää merkki"
+
+#~ msgid "ASCII table"
+#~ msgstr "ASCII-taulu"
+
+#~ msgid "This plugin displays a pop-up dialog which contains an ASCII Table."
+#~ msgstr "Tämä liitännäinen näyttää ASCII-taulun valintaikkunana"
+
+#~ msgid "Open CVS Chan_geLogs"
+#~ msgstr "Avaa CVS-_muutoslokit"
+
+#~ msgid "Searches for ChangeLogs in the current document and opens them"
+#~ msgstr "Etsii kyseisen asiakirjan ChangeLogeja ja avaa ne"
+
+#~ msgid "A plugin that opens ChangeLogs found in CVS commit messages."
+#~ msgstr "Liitännäinen joka avaa CVS-lähetyksissä esiintyviä muutoslokeja."
+
+#~ msgid "CVS ChangeLog"
+#~ msgstr "CVS-muutosloki"
+
+#~ msgid "Co_mpare Files..."
+#~ msgstr "Ve_rtaile tiedostoja..."
+
+#~ msgid "Makes a diff file from two documents or files"
+#~ msgstr "Luo diff-tiedoston kahdesta asiakirjasta tai tiedostosta"
+
+#~ msgid "Compare Files"
+#~ msgstr "Vertaile tiedostoja"
+
+#~ msgid "C_ompare"
+#~ msgstr "_Vertaile"
+
+#~ msgid "The two documents you selected are the same."
+#~ msgstr "Valitut asiakirjat ovat samoja"
+
+#~ msgid ""
+#~ "The \"first\" file you selected does not exist.\n"
+#~ "\n"
+#~ "Please provide a valid file."
+#~ msgstr ""
+#~ "Valitsemistasi tiedostoista ensimmäistä ei ole olemassa.\n"
+#~ "\n"
+#~ "Anna kelvollinen tiedosto."
+
+#~ msgid ""
+#~ "The \"second\" file you selected does not exist.\n"
+#~ "\n"
+#~ "Please provide a valid file."
+#~ msgstr ""
+#~ "Valitsemistasi tiedostoista jälkimmäistä ei ole olemassa.\n"
+#~ "\n"
+#~ "Anna kelvollinen tiedosto."
+
+#~ msgid "The two files you selected are the same."
+#~ msgstr "Valitsemasi kaksi tiedostoa ovat samoja."
+
+#~ msgid "The \"first\" document contains no text."
+#~ msgstr "Asiakirjoista ensimmäinen ei sisällä tekstiä."
+
+#~ msgid "The \"second\" document contains no text."
+#~ msgstr "Asiakirjoista jälkimmäinen ei sisällä tekstiä"
+
+#~ msgid ""
+#~ "Impossible to compare the selected documents.\n"
+#~ "\n"
+#~ "pluma could not create a temporary file."
+#~ msgstr ""
+#~ "Valittujen asiakirjojen vertaileminen ei onnistunut.\n"
+#~ "\n"
+#~ "pluma ei onnistunut luomaan väliaikaistiedostoa."
+
+#~ msgid ""
+#~ "Impossible to compare the selected documents.\n"
+#~ "\n"
+#~ "Error executing the diff command."
+#~ msgstr ""
+#~ "Valittujen asiakirjojen vertaileminen ei onnistunut.\n"
+#~ "\n"
+#~ "Virhe suoritettaessa diff-komentoa."
+
+#~ msgid "No differences were found between the selected documents."
+#~ msgstr "Valittujen asiakirjojen välillä ei huomattu eroja."
+
+#~ msgid ""
+#~ "Impossible to compare the selected documents.\n"
+#~ "\n"
+#~ "The result contains invalid UTF-8 data."
+#~ msgstr ""
+#~ "Valittujen asiakirjojen vertaileminen ei onnistunut.\n"
+#~ "\n"
+#~ "Tulos sisältää viallista UTF-8 dataa."
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "Choose the files to compare."
+#~ msgstr "Valitse verrattavat tiedostot."
+
+#~ msgid "Compare files..."
+#~ msgstr "Vertaile tiedostoja..."
+
+#~ msgid "F_rom document"
+#~ msgstr "Asiaki_rjasta"
+
+#~ msgid "First"
+#~ msgstr "Ensimmäinen"
+
+#~ msgid "First file from disk"
+#~ msgstr "Ensimmäinen tiedosto levyltä"
+
+#~ msgid "First file from open document"
+#~ msgstr "Ensimmäinen tiedosto avoimesta asiakirjasta"
+
+#~ msgid "From _document"
+#~ msgstr "_Asiakirjasta"
+
+#~ msgid "From a _file on disk"
+#~ msgstr "_Levyllä olevasta tiedostosta"
+
+#~ msgid "From a file o_n disk"
+#~ msgstr "Lev_yllä olevasta tiedostosta"
+
+#~ msgid "Ignore _blanks (-b option)"
+#~ msgstr "Älä huomioi _tyhjeitä (-b valinta)"
+
+#~ msgid "Note that this option is only supported by GNU diff"
+#~ msgstr "Huomaa että tämä toiminto toimii vain GNU diffillä"
+
+#~ msgid "Second"
+#~ msgstr "Toinen"
+
+#~ msgid "Second file from disk"
+#~ msgstr "Toinen tiedosto levyllä olevasta tiedostosta"
+
+#~ msgid "Second file from open document"
+#~ msgstr "Toinen tiedosto avoimesta asiakirjasta"
+
+#~ msgid "Select the \"first\" file..."
+#~ msgstr "Valitse \"ensimmäinen\" tiedosto..."
+
+#~ msgid "Select the \"second\" file..."
+#~ msgstr "Valitse \"toinen\" tiedosto..."
+
+#~ msgid "Select the first file to compare"
+#~ msgstr "Valitse ensimmäinen verrattava tiedosto"
+
+#~ msgid "Select the first open document to compare"
+#~ msgstr "Valitse ensimmäinen avoin asiakirja verrattavaksi"
+
+#~ msgid "Select the second file to compare"
+#~ msgstr "Valitse toinen verrattava tiedosto"
+
+#~ msgid "Select the second open document to compare"
+#~ msgstr "Valitse toinen avoin asiakirja verrattavaksi"
+
+#~ msgid "Use the _unified output format (-u option)"
+#~ msgstr "Käytä _unified-tulostemuotoilua (-u valinta)"
+
+#
+#~ msgid ""
+#~ "The Compare Files plugin uses the \"diff\" program to compare two "
+#~ "documents or files on disk."
+#~ msgstr ""
+#~ "Vertaa tiedostoja -liitännäinen käyttää \"diff\"-ohjelmaa vertaamaan "
+#~ "kahta asiakirjaa tai levylle tallennettua tiedostoa keskenään."
+
+#~ msgid "pluma application"
+#~ msgstr "pluma-sovellus"
+
+#~ msgid "pluma automation factory"
+#~ msgstr "pluma-automaatiotehdas"
+
+#~ msgid "Edit text files"
+#~ msgstr "Muokkaa tekstitiedostoja"
+
+#~ msgid "Text Editor"
+#~ msgstr "Tekstieditori"
+
+#~ msgid ""
+#~ "A custom font that will be used for the editing area. This will only take "
+#~ "effect if the \"Use Default Font\" option is turned off."
+#~ msgstr ""
+#~ "Kirjasin jota käytetään muokkausalueella. Tämä tulee voimaan ainoastaan "
+#~ "mikäli asetus \"Käytä oletuskirjasinta\" on pois päältä."
+
+#~ msgid "Auto Save"
+#~ msgstr "Automaattitallennus"
+
+#~ msgid "Auto Save Interval"
+#~ msgstr "Automaattisen tallennuksen aikaväli"
+
+#~ msgid "Auto indent"
+#~ msgstr "Automaattinen sisennys"
+
+#~ msgid "Background Color"
+#~ msgstr "Taustaväri"
+
+#~ msgid ""
+#~ "Background color for selected text in the editing area. This will only "
+#~ "take effect if the \"Use Default Colors\" option is turned off."
+#~ msgstr ""
+#~ "Taustaväri muokkausalueen valitulle tekstille. Tämä tulee voimaan "
+#~ "ainoastaan mikäli asetus \"Käytä oletusvärejä\" ei ole päällä."
+
+#~ msgid ""
+#~ "Background color for unselected text in the editing area. This will only "
+#~ "take effect if the \"Use Default Colors\" option is turned off."
+#~ msgstr ""
+#~ "Taustaväri muokkausalueen valitsemattomalle tekstille. Tämä tulee voimaan "
+#~ "ainoastaan mikäli asetus \"Käytä oletusvärejä\" ei ole päällä."
+
+#~ msgid "Body Font for Printing"
+#~ msgstr "Tekstin kirjasin tulostettaessa"
+
+#~ msgid "Create Backup Copies"
+#~ msgstr "Luo varmuuskopiot"
+
+#~ msgid "Display Line Numbers"
+#~ msgstr "Näytä rivinumerot"
+
+#~ msgid "Editor Font"
+#~ msgstr "Muokkaimen kirjasin"
+
+#~ msgid "Encoding for Saving"
+#~ msgstr "Tallennettaessa käytettävä koodaus"
+
+#~ msgid "Encodings"
+#~ msgstr "Koodaukset"
+
+#~ msgid ""
+#~ "Extension or suffix to use for backup file names. This will only take "
+#~ "effect if the \"Create Backup Copies\" option is turned on."
+#~ msgstr ""
+#~ "Lisäys tai jälkiliite jota käytetään varmuuskopioiden tiedostonimissä. "
+#~ "Tämä tulee voimaan ainoastaan mikäli asetus \"Luo varmuuskopiot\" on "
+#~ "päällä."
+
+#~ msgid ""
+#~ "Foreground color for selected text in the editing area. This will only "
+#~ "take effect if the \"Use Default Colors\" option is turned off."
+#~ msgstr ""
+#~ "Tekstiväri muokkausalueen valitulle tekstille. Tämä tulee voimaan "
+#~ "ainoastaan mikäli asetus \"Käytä oletusvärejä\" on pois päältä."
+
+#~ msgid ""
+#~ "Foreground color for the unselected text in the editing area. This will "
+#~ "only take effect if the \"Use Default Colors\" option is turned off."
+#~ msgstr ""
+#~ "Tekstiväri muokkausalueen valitulle tekstille. Tämä tulee voimaan "
+#~ "ainoastaan mikäli asetus \"Käytä oletusvärejä\" on pois päältä."
+
+#~ msgid "Header Font for Printing"
+#~ msgstr "Otsikkokirjasin tulostettaessa"
+
+#~ msgid ""
+#~ "If this value is 0, then no line numbers will be inserted when printing a "
+#~ "document. Otherwise, pluma will print line numbers every such number of "
+#~ "lines."
+#~ msgstr ""
+#~ "Jos tämä arvo on 0, rivinumeroita ei lisätä asiakirjaa tulostettaessa "
+#~ "ollenkaan. Muutoin pluma tulostaa rivinumeron annetun arvon välein."
+
+#~ msgid "Line Number Font for Printing"
+#~ msgstr "Rivinumeron kirjasin tulostettaessa"
+
+#~ msgid "Line Wrapping Mode"
+#~ msgstr "Tekstin rivitystapa"
+
+#~ msgid ""
+#~ "List of encodings used by pluma for reading files not encoded in UTF-8 or "
+#~ "in the current locale encoding."
+#~ msgstr ""
+#~ "Luettelo koodaustavoista jotka plumaillä on käytössään luettaessa "
+#~ "tiedostoja joita ei ole koodattu UTF-8:lla tai käytetössä olevan maa-"
+#~ "asetuksetn koodauksella."
+
+#~ msgid "Maximum Recent Files"
+#~ msgstr "Pikavalintojen enimmäismäärä"
+
+#~ msgid "Maximum number of actions that pluma will be able to undo or redo."
+#~ msgstr ""
+#~ "Enimmäismäärä toimintoja jonka pluma voi kumota tai tehdä uudelleen."
+
+#~ msgid ""
+#~ "Number of minutes after which pluma will automatically save modified "
+#~ "files. This will only take effect if the \"Auto Save\" option is turned "
+#~ "on."
+#~ msgstr ""
+#~ "Aikaväli minuuteissa jonka jälkeen pluma tallentaa muutetut tiedostot "
+#~ "automaattisesti. Tämä tulee voimaan ainoastaan mikäli asetus "
+#~ "\"Automaattitallennus\" on päällä."
+
+#~ msgid "Print Header"
+#~ msgstr "Tulosta otsikkotiedot"
+
+#~ msgid "Print Line Numbers"
+#~ msgstr "Tulosta rivinumerot"
+
+#~ msgid "Printing Line Wrapping Mode"
+#~ msgstr "Tulostuksen rivitystapa"
+
+#~ msgid "Selected Text Color"
+#~ msgstr "Valitun tekstin väri"
+
+#~ msgid "Selection Color"
+#~ msgstr "Valintaväri"
+
+#~ msgid "Show Cursor Position"
+#~ msgstr "Näytä kohdistimen sijainti"
+
+#~ msgid "Show Overwrite Mode"
+#~ msgstr "Näytä ylikirjoitustila"
+
+#~ msgid ""
+#~ "Specifies how to wrap long lines for printing. Use \"GTK_WRAP_NONE\" for "
+#~ "no wrapping, \"GTK_WRAP_WORD\" for wrapping at word boundaries, and "
+#~ "\"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. Note "
+#~ "that the values are case-sensitive, so make sure they appear exactly as "
+#~ "mentioned here."
+#~ msgstr ""
+#~ "Määrittää kuinka pitkät rivit rivitetään tulostusta varten. Käytä "
+#~ "asetusta \"GTK_WRAP_NONE\" jollet halua rivitystä. \"GTK_WRAP_WORD\" "
+#~ "rivittää sanojen rajojen mukaisesti ja \"GTK_WRAP_CHAR\" rivittää "
+#~ "yksittäisen merkin kohdalta. Huomaa että kirjainkoko huomioidaan, joten "
+#~ "asetus täytyy kirjoittaa täsmälleen siten kuin se tässä esitetään."
+
+#~ msgid ""
+#~ "Specifies how to wrap long lines in the editing area. Use \"GTK_WRAP_NONE"
+#~ "\" for no wrapping, \"GTK_WRAP_WORD\" for wrapping at word boundaries, "
+#~ "and \"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. "
+#~ "Note that the values are case-sensitive, so make sure they appear exactly "
+#~ "as mentioned here."
+#~ msgstr ""
+#~ "Määrittää kuinka pitkät rivit rivitetään muokkausalueela. Käytä asetusta "
+#~ "\"GTK_WRAP_NONE\" jollet halua rivitystä. \"GTK_WRAP_WORD\" rivittää "
+#~ "sanojen rajojen mukaisesti ja \"GTK_WRAP_CHAR\" rivittää yksittäisen "
+#~ "merkin kohdalta. Huomaa että kirjainkoko huomioidaan, joten asetus täytyy "
+#~ "kirjoittaa täsmälleen siten kuin se tässä esitetään."
+
+#~ msgid ""
+#~ "Specifies the font to use for a document's body when printing documents."
+#~ msgstr ""
+#~ "Määrittää asiakirjan tekstiosassa tulostettaessa käytettävän kirjasimen."
+
+#~ msgid ""
+#~ "Specifies the font to use for line numbers when printing. This will only "
+#~ "take effect if the \"Print Line Numbers\" option is non-zero."
+#~ msgstr ""
+#~ "Määrittää kirjasimen jolla rivinumerot tulostetaan. Tämä on voimassa "
+#~ "ainoastaan mikäli asetuksen \"Tulosta rivinumerot\" arvo on muu kuin "
+#~ "nolla."
+
+#~ msgid ""
+#~ "Specifies the font to use for page headers when printing a document. This "
+#~ "will only take effect if the \"Print Header\" option is turned on."
+#~ msgstr ""
+#~ "Määrittää kirjasimen jolla sivun otsikkotiedot tulostetaan. Tämä on "
+#~ "voimassa ainoastaan mikäli asetus \"Tulosta otsikkotiedot\" on päällä."
+
+#~ msgid ""
+#~ "Specifies the maximum number of recently opened files that will be "
+#~ "displayed in the \"Recent Files\" submenu."
+#~ msgstr ""
+#~ "Määrittää valikossa \"Pikavalinnat\" näkyvien tiedostojen enimmäismäärän."
+
+#~ msgid ""
+#~ "Specifies the number of spaces that should be displayed instead of Tab "
+#~ "characters."
+#~ msgstr "Määrittää sarkaimen korvaavien välilyöntien määrän."
+
+#~ msgid "Status Bar is Visible"
+#~ msgstr "Tilarivi näytetään"
+
+#~ msgid ""
+#~ "Style for the toolbar buttons. Possible values are \"PLUMA_TOOLBAR_SYSTEM"
+#~ "\" to use the system's default style, \"PLUMA_TOOLBAR_ICONS\" to display "
+#~ "icons only, \"PLUMA_TOOLBAR_ICONS_AND_TEXT\" to display both icons and "
+#~ "text, and \"PLUMA_TOOLBAR_ICONS_BOTH_HORIZ\" to display prioritized text "
+#~ "beside icons. Note that the values are case-sensitive, so make sure they "
+#~ "appear exactly as mentioned here."
+#~ msgstr ""
+#~ "Työkalupalkin painikkeiden tyyli. Mahdollisia arvoja ovat "
+#~ "\"PLUMA_TOOLBAR_SYSTEM\" jolloin käytetään järjestelmän oletustyyliä, "
+#~ "\"PLUMA_TOOLBAR_ICONS\" jolloin näytetään vain kuvakkeet, "
+#~ "\"PLUMA_TOOLBAR_ICONS_AND_TEXT\" jolloin näytetään sekä kuvakkeet että "
+#~ "teksti, sekä \"PLUMA_TOOLBAR_ICONS_BOTH_HORIZ\" jolloin näytetään teksti "
+#~ "kuvakkeen vieressä. Huomaa, että asetusten kirjainkoolla on väliä, joten "
+#~ "ne tulee kirjoittaa täsmälleen siten kuin ne tässä esitetään."
+
+#~ msgid "Tab Size"
+#~ msgstr "Välilehtipainikkeen koko"
+
+#~ msgid "Text Color"
+#~ msgstr "Tekstiväri"
+
+#~ msgid ""
+#~ "The encoding method to use for saving files. Possible values are "
+#~ "\"PLUMA_SAVE_ALWAYS_UTF8\" for mandatory UTF-8 saving, "
+#~ "\"PLUMA_SAVE_CURRENT_LOCALE_IF_POSSIBLE\" if you want pluma to try to "
+#~ "convert the document it is saving to your current locale's encoding, "
+#~ "\"PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE\" if you want pluma to "
+#~ "try to use the original file encoding (new files in UTF8) and "
+#~ "\"PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE_NCL\" if you want pluma "
+#~ "to try to use the original file encoding (new files in current locale's "
+#~ "encoding). If the conversion is successful, it will be used. Otherwise, "
+#~ "UTF-8 will be used. Note that the values are case-sensitive, so make sure "
+#~ "they appear exactly as mentioned here."
+#~ msgstr ""
+#~ "Koodaustapa jota käytetään tallennettaessa tiedostoa. Mahdollisia arvoja "
+#~ "ovat \"PLUMA_SAVE_ALWAYS_UTF\" tallentaaksesi aina UTF-8:na, "
+#~ "\"PLUMA_SAVE_CURRENT_LOCALE_IF_POSSIBLE\" mikäli haluat plumain yrittävän "
+#~ "muuntaa tallennettavaa asiakirjaa nykyisen maa-asetuksen mukaiseen "
+#~ "koodaukseen, \"PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE\" mikäli "
+#~ "haluat plumain yrittävän käytää tiedoston alkuperäistä koodaustapaa "
+#~ "(uudet tiedostot UTF8:na) ja "
+#~ "\"PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE_NCL\" mikäli haluat "
+#~ "plumain yrittävän käyttää alkupeläistä koodaustapaa (uudet tiedostot maa-"
+#~ "asetuksen mukaisesti). Mikäli muunto onnistuu, sitä käytetään. Muutoin "
+#~ "käytetään UTF-8:aa, Huomaa että asetuksien kirjainkoolla on väliä, joten "
+#~ "ne pitää kirjoittaa täsmälleen tässä esitetyllä tavalla."
+
+#~ msgid "Toolbar Buttons Style"
+#~ msgstr "Työkalupalkin painiketyyli"
+
+#~ msgid "Undo Actions Limit"
+#~ msgstr "Kumoamiskertojen määrä"
+
+#~ msgid "Use Default Colors"
+#~ msgstr "Käytä oletusvärejä"
+
+#~ msgid "Use Default Font"
+#~ msgstr "Käytä oletuskirjasinta"
+
+#~ msgid ""
+#~ "Whether pluma should automatically save modified files after a time "
+#~ "interval. You can set the time interval with the \"Auto Save Interval\" "
+#~ "option."
+#~ msgstr ""
+#~ "Määrittää tallentaako pluma tiedostot automaattisesti tietyin aikavälein. "
+#~ "Voit asettaa aikavälin asetuksella \"Automaattitallennuksen aikaväli\"."
+
+#~ msgid ""
+#~ "Whether pluma should create backup copies for the files it saves. You can "
+#~ "set the backup file extension with the \"Backup Copy Extension\" option."
+#~ msgstr ""
+#~ "Määrittää luoko pluma tallentamistaan tiedostoista varmuuskopiot. Voit "
+#~ "asettaa varmuuskopion tiedostonimen lisämääreen asetuksella "
+#~ "\"Varmuuskopion lisämääre\"."
+
+#~ msgid "Whether pluma should display line numbers in the editing area."
+#~ msgstr "Määrittää näyttääkö pluma rivinumerot muokkausalueella."
+
+#~ msgid "Whether pluma should enable auto indentation."
+#~ msgstr "Määrittää käyttääkö pluma automaattisisennystä."
+
+#~ msgid ""
+#~ "Whether pluma should include a document header when printing documents."
+#~ msgstr ""
+#~ "Määrittää tulostaako pluma asiakirjan otsikkotiedot tulostettaessa "
+#~ "asiakirjoja."
+
+#~ msgid "Whether pluma should insert spaces instead of tabs."
+#~ msgstr "Määrittää lisääkö pluma välilyöntejä sarkainten sijaan."
+
+#~ msgid ""
+#~ "Whether the status bar at the bottom of editing windows should be visible."
+#~ msgstr "Määrittää näytetäänkö muokkausikkunan alalaidassa tilariviä."
+
+#~ msgid ""
+#~ "Whether the status bar should show the cursor position in editing "
+#~ "windows. Make sure you turn on the \"Status Bar is Visible\" option for "
+#~ "this to take effect."
+#~ msgstr ""
+#~ "Määrittää näytetäänkö tilarivillä kohdistimen sijainti. Varmista että "
+#~ "asetus \"Tilarivi näytetään\" on päällä jotta tämä asetus tulisi voimaan."
+
+#~ msgid ""
+#~ "Whether the status bar should show the insert/overwrite mode in editing "
+#~ "windows. Make sure you turn on the \"Status Bar is Visible\" option for "
+#~ "this to take effect."
+#~ msgstr ""
+#~ "Määrittää näytetäänkö tilarivillä lisäys-/ylikirjoitustila. Varmista että "
+#~ "asetus \"Tilarivi näytetään\" on päällä jotta tämä asetus tulisi voiman."
+
+#~ msgid ""
+#~ "Whether to use the system's default colors for the editing area. If this "
+#~ "option is turned off, then the colors of the editing area will be those "
+#~ "specified in the \"Background Color\", \"Text Color\", \"Selected Text "
+#~ "Color\", and \"Selection Color\" options."
+#~ msgstr ""
+#~ "Määrittää käytetäänkö muokkausalueella järjestelmän oletusvärejä. Jos "
+#~ "tämä asetetaan pois päältä, muokkausalueen värit määritetään asetuksilla "
+#~ "\"Taustaväri\", \"Tekstinväri\", \"Valitun tekstin väri\" ja \"Valintaväri"
+#~ "\"."
+
+#~ msgid ""
+#~ "Whether to use the system's default font for editing text instead of a "
+#~ "font specific to pluma. If this option is turned off, then the font named "
+#~ "in the \"Editor Font\" option will be used instead of the system font."
+#~ msgstr ""
+#~ "Määrittää käytetäänkö muokkausalueella järjestelmän oletuskirjasinta "
+#~ "vaiko käyttäjän määrittelemää kirjasinta. Jos tämä asetetaan pois päältä, "
+#~ "käytetään plumaissä asetuksen \"Muokkaimen kirjasin\" määrittämää "
+#~ "kirjasinta."
+
+#~ msgid "_Document Statistics"
+#~ msgstr "A_siakirjan tilastot"
+
+#~ msgid "Get statistic info on current document"
+#~ msgstr "Katso aktiivisen asiakirjan tilastotietoja"
+
+#~ msgid "Document Statistics"
+#~ msgstr "Asiakirjan tilastot"
+
+#~ msgid "_Update"
+#~ msgstr "_Päivitä"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "Bytes"
+#~ msgstr "tavua"
+
+#~ msgid "Characters (no spaces)"
+#~ msgstr "merkkiä (ei välilyöntejä)"
+
+#~ msgid "Characters (with spaces)"
+#~ msgstr "merkkiä (välilyöntien kanssa)"
+
+#~ msgid "File Name"
+#~ msgstr "Tiedostonimi"
+
+#~ msgid "Lines"
+#~ msgstr "Rivejä"
+
+#~ msgid "Update"
+#~ msgstr "Päivitä"
+
+#~ msgid "Words"
+#~ msgstr "Sanoja"
+
+#~ msgid "pluma: Document Info plugin"
+#~ msgstr "pluma: Tiedoston tietoliitännäinen"
+
+#~ msgid ""
+#~ "The Document Statistics plugin analyzes the current document and "
+#~ "determines the number of words, lines, characters and non-space "
+#~ "characters in it and displays the result."
+#~ msgstr ""
+#~ "Tiedoston tietoliitännäinen käy läpi aktiivisen asiakirjan ja kertoo "
+#~ "siinä olevien sanojen, rivien, merkkien ja ei-tyhjien merkkien määrät."
+
+#~ msgid "Insert User Na_me"
+#~ msgstr "Lisää käyttäjäni_mi"
+
+#~ msgid "Insert the user name at the cursor position"
+#~ msgstr "Lisää käyttäjänimen kohdistimen kohdalle"
+
+#~ msgid "Inserts the user name at the cursor position."
+#~ msgstr "Lisää käyttäjänimen kohdistimen kohdalle."
+
+#~ msgid "User name"
+#~ msgstr "Käyttäjänimi"
+
+#~ msgid "_Run Command..."
+#~ msgstr "_Suorita komento..."
+
+#~ msgid "Run a command"
+#~ msgstr "Suorita komento"
+
+#~ msgid "Stopped"
+#~ msgstr "Pysäytetty"
+
+#~ msgid "An error occurs while running the selected command."
+#~ msgstr "Antamaasi komentoa suoritettaessa tapahtui virhe."
+
+#~ msgid "Run Command"
+#~ msgstr "Suorita komento"
+
+#~ msgid "_Run"
+#~ msgstr "_Suorita"
+
+#~ msgid "Done"
+#~ msgstr "Valmis"
+
+#~ msgid "Failed"
+#~ msgstr "Epäonnistui"
+
+#~ msgid ""
+#~ "The shell command entry is empty.\n"
+#~ "\n"
+#~ "Please, insert a valid shell command."
+#~ msgstr ""
+#~ "Annoit tyhjän komennon komentotulkille.\n"
+#~ "\n"
+#~ "Anna kelvollinen komento."
+
+#~ msgid ""
+#~ "Error parsing the shell command.\n"
+#~ "\n"
+#~ "Please, insert a valid shell command."
+#~ msgstr ""
+#~ "Virhe tulkittaessa komentoa.\n"
+#~ "\n"
+#~ "Anna kelvollinen komento."
+
+#~ msgid "Executing command"
+#~ msgstr "Suoritetaan komentoa"
+
+#~ msgid "Select the working directory..."
+#~ msgstr "Valitse työhakemisto..."
+
+#~ msgid "_Show results in Output Window"
+#~ msgstr "_Näytä tulokset tulosteikkunassa"
+
+#~ msgid "pluma: Shell Output plugin"
+#~ msgstr "pluma: Komentotulkkituloste liitännäinen"
+
+#~ msgid ""
+#~ "Execute an external program and eventually grabs its output in the output "
+#~ "window."
+#~ msgstr ""
+#~ "Suorittaa ulkoisen komennon ja lisää lopuksi sen tulosteen "
+#~ "tulosteikkunaan."
+
+#~ msgid "Shell command"
+#~ msgstr "Komentotulkin komento"
+
+#~ msgid "Tag list plugin"
+#~ msgstr "Tagilistaliitännäinen"
+
+#~ msgid "Select the group of tags you want to use"
+#~ msgstr "Valitse tagiryhmä jota haluat käyttää"
+
+#~ msgid "Tag Groups Combo"
+#~ msgstr "Tagiryhmät"
+
+#~ msgid "Tags Name List"
+#~ msgstr "Tagien nimilista"
+
+#~ msgid "Double-click on a tag to insert it in the current document"
+#~ msgstr "Kaksoisnapsauta tagia lisätäksesi sen nykyiseen asiakirjaan"
+
+#~ msgid "Tags"
+#~ msgstr "Tagit"
+
+#~ msgid "Tag _List"
+#~ msgstr "Tagi_lista"
+
+#~ msgid "Show the tag list window"
+#~ msgstr "Näytä tagilistan ikkuna"
+
+#~ msgid "Tag list"
+#~ msgstr "Tagilista"
+
+#~ msgid ""
+#~ "The tag list plugin provides a method to easily insert into a document "
+#~ "commonly used tags/strings without having to type them."
+#~ msgstr ""
+#~ "Tagilistaliitännäinen mahdollistaa helpon tavan lisätä asiakirjaan usein "
+#~ "käytettyjä merkkijonoja tarvitsematta kirjoittaa niitä joka kerta."
+
+#~ msgid "In_sert Date and Time..."
+#~ msgstr "Li_sää päiväys/aika..."
+
+#~ msgid "Insert current date and time at the cursor position"
+#~ msgstr "Lisää päiväys ja aika kohdistimen kohdalle"
+
+#~ msgid "Available formats"
+#~ msgstr "Käytettävissä olevat muodot"
+
+#~ msgid "Configure insert date/time plugin..."
+#~ msgstr "Muokkaa päiväys/aika -liitännäisen asetuksia..."
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "<span size=\"small\">01/11/2002 17:52:00</span>"
+#~ msgstr "<span size=\"small\">01/11/2002 17:52:00</span>"
+
+#~ msgid "<span weight=\"bold\"> When inserting date/time...</span>"
+#~ msgstr "<span weight=\"bold\"> Lisättäessä päiväystä/aikaa...</span>"
+
+#~ msgid "Configure date/time plugin"
+#~ msgstr "Muokkaa päiväys/aika -liitännäisen asetuksia"
+
+#~ msgid "Insert Date and Time"
+#~ msgstr "Lisää päiväys ja aika"
+
+#~ msgid "Use the _selected format"
+#~ msgstr "Käytä _valittua muotoilua"
+
+#~ msgid "_Prompt for a format"
+#~ msgstr "_Kysy muotoilua"
+
+#~ msgid "_Use custom format"
+#~ msgstr "_Käytä mukautettua muotoilua"
+
+#~ msgid "Insert Date/Time"
+#~ msgstr "Lisää päiväys/aika"
+
+#~ msgid "Inserts current date and time at the cursor position."
+#~ msgstr "Lisää päiväys ja aika kohdistimen kohdalle."
+
+#~ msgid "_Indent"
+#~ msgstr "_Sisennä"
+
+#~ msgid "Indent selected lines"
+#~ msgstr "Sisennä valitut rivit"
+
+#~ msgid "U_nindent"
+#~ msgstr "Poista sise_nnys"
+
+#~ msgid "Indent lines"
+#~ msgstr "Sisennä rivit"
+
+#~ msgid "Indent or un-indent selected lines."
+#~ msgstr "Sisennä valitut rivit tai poista niiden sisennys."
+
+#~ msgid "R_emove duplicates"
+#~ msgstr "_Poista kaksoiskappaleet"
+
+#~ msgid "S_tart at column:"
+#~ msgstr "Aloi_ta sarakkeesta:"
+
+#~ msgid "Sort"
+#~ msgstr "Lajittele"
+
+#~ msgid "You cannot undo a sort operation"
+#~ msgstr "Lajittelua ei voi kumota"
+
+#~ msgid "_Ignore case"
+#~ msgstr "_Jätä kirjainkoko huomiotta"
+
+#~ msgid "_Reverse order"
+#~ msgstr "Käänteinen jä_rjestys"
+
+#~ msgid "_Sort"
+#~ msgstr "_Lajittele"
+
+#~ msgid "Sorts a document or selected text."
+#~ msgstr "Lajittelee asiakirjan tai valitun tekstin."
+
+#~ msgid "(no suggested words)"
+#~ msgstr "(ei suositeltavia sanoja)"
+
+#~ msgid "_More..."
+#~ msgstr "_Lisää..."
+
+#~ msgid "_Ignore All"
+#~ msgstr "_Ohita kaikki"
+
+#~ msgid "_Add"
+#~ msgstr "_Lisää"
+
+#~ msgid "_Spelling Suggestions..."
+#~ msgstr "_Kirjoitusehdotuksia..."
+
+#~ msgid "Check Spelling"
+#~ msgstr "Tarkista oikeinkirjoitus"
+
+#~ msgid "Suggestions"
+#~ msgstr "Ehdotukset"
+
+#~ msgid "(correct spelling)"
+#~ msgstr "(oikea kirjoitusasu)"
+
+#~ msgid "Completed spell checking"
+#~ msgstr "Oikoluku on valmis"
+
+#~ msgid "Breton"
+#~ msgstr "Bretoni"
+
+#~ msgid "Catalan"
+#~ msgstr "Catalan"
+
+#~ msgid "Czech"
+#~ msgstr "Tsekki"
+
+#~ msgid "Danish"
+#~ msgstr "Tanska"
+
+#~ msgid "German (Germany)"
+#~ msgstr "Saksa (Saksa)"
+
+#~ msgid "German (Swiss)"
+#~ msgstr "Saksa (Sveitsi)"
+
+#~ msgid "English (American)"
+#~ msgstr "Englanti (Amerikan)"
+
+#~ msgid "English (British)"
+#~ msgstr "Englanti (Englannin)"
+
+#~ msgid "English (Canadian)"
+#~ msgstr "Englanti (Kanadan)"
+
+#~ msgid "Esperanto"
+#~ msgstr "Esperanto"
+
+#~ msgid "Spanish"
+#~ msgstr "Espanja"
+
+#~ msgid "Faroese"
+#~ msgstr "Fär-saaret"
+
+#~ msgid "French (France)"
+#~ msgstr "Ranska (Ranska)"
+
+#~ msgid "French (Swiss)"
+#~ msgstr "Ranska (Sveitsi)"
+
+#~ msgid "Italian"
+#~ msgstr "Italia"
+
+#~ msgid "Dutch"
+#~ msgstr "Hollanti"
+
+#~ msgid "Norwegian"
+#~ msgstr "Norja"
+
+#~ msgid "Polish"
+#~ msgstr "Puola"
+
+#~ msgid "Portuguese (Portugal)"
+#~ msgstr "Potugali (Portugalin)"
+
+#~ msgid "Portuguese (Brazilian)"
+#~ msgstr "Portugali (Brasilian)"
+
+#~ msgid "Russian"
+#~ msgstr "Venäjä"
+
+#~ msgid "Swedish"
+#~ msgstr "Ruotsi"
+
+#~ msgid "Default"
+#~ msgstr "Oletus"
+
+#~ msgid "Could not find the required widgets inside %s."
+#~ msgstr "Tarvittavia laajennuksia ei löytynyt kohteesta \"%s\"."
+
+#~ msgid "Languages"
+#~ msgstr "Kielet"
+
+#~ msgid "Checks the spelling of the current document."
+#~ msgstr "Tarkista aktiivisen asiakirjan oikeinkirjoitus."
+
+#~ msgid "Spell checker"
+#~ msgstr "Oikoluku"
+
+#~ msgid "Select the _language of the current document."
+#~ msgstr "Valitse _aktiivisen asiakirjan kieli."
+
+#~ msgid "Set language"
+#~ msgstr "Aseta kieli"
+
+#~ msgid "<b>Language</b>"
+#~ msgstr "<b>Kieli</b>"
+
+#~ msgid "<b>word</b>"
+#~ msgstr "<b>sana</b>"
+
+#~ msgid "Add w_ord"
+#~ msgstr "Lisää _sana"
+
+#~ msgid "Cha_nge"
+#~ msgstr "M_uuta"
+
+#~ msgid "Change A_ll"
+#~ msgstr "Ta_llenna kaikki"
+
+#~ msgid "Change _to:"
+#~ msgstr "Mihin _muutetaan:"
+
+#~ msgid "Check _Word"
+#~ msgstr "Tarkista _sana"
+
+#~ msgid "Check spelling"
+#~ msgstr "Oikolue"
+
+#~ msgid "Ignore _All"
+#~ msgstr "Ohita k_aikki"
+
+#~ msgid "Language:"
+#~ msgstr "Kieli:"
+
+#~ msgid "Mispelled word:"
+#~ msgstr "Väärinkirjoitettu sana:"
+
+#~ msgid "User dictionary:"
+#~ msgstr "Käyttäjän sanakirja:"
+
+#~ msgid "_Ignore"
+#~ msgstr "_Ohita"
+
+#~ msgid "_Suggestions:"
+#~ msgstr "_Ehdotukset:"
+
+#~ msgid "S_ort..."
+#~ msgstr "_Järjestä..."
+
+#~ msgid "Sort the current document or selection."
+#~ msgstr "Järjestä aktiivinen asiakirja tai valinta."
+
+#~ msgid "_Check Spelling"
+#~ msgstr "_Oikolue"
+
+#~ msgid "Check the current document for incorrect spelling"
+#~ msgstr "Tarkista aktiivinen asiakirja kirjoitusvirheiltä"
+
+#~ msgid "_Autocheck Spelling"
+#~ msgstr "_Automaattinen oikoluku"
+
+#~ msgid "Automatically spell-check the current document"
+#~ msgstr "Tarkista asiakirjan oikeinkirjoitus automaattisesti"
+
+#~ msgid "Set _Language"
+#~ msgstr "Aseta _kieli"
+
+#~ msgid "Set the language of the current document"
+#~ msgstr "Aseta aktiivisen asiakirjan kieli"
+
+#~ msgid "The document is empty."
+#~ msgstr "Asiakirja on tyhjä."
+
+#~ msgid "The selected text does not contain mispelled words."
+#~ msgstr "Valittu teksti ei sisällä väärinkirjoitettuja sanoja."
+
+#~ msgid "The document does not contain mispelled words."
+#~ msgstr "Asiakirja ei sisällä väärinkirjoitettuja sanoja."
+
+#~ msgid "Activate %s"
+#~ msgstr "Käynnistä %s"
+
+#~ msgid "Go to Line"
+#~ msgstr "Siirry riville"
+
+#~ msgid "The text \"%s\" was not found."
+#~ msgstr "Tekstiä \"%s\" ei löytynyt."
+
+#~ msgid "Replace"
+#~ msgstr "Korvaa"
+
+#~ msgid "Replace _All"
+#~ msgstr "Korvaa k_aikki"
+
+#~ msgid "_Replace"
+#~ msgstr "Ko_rvaa"
+
+#~ msgid "Find"
+#~ msgstr "Etsi"
+
+#~ msgid "Found and replaced %d occurences."
+#~ msgstr "Löydetty ja korvattu %d tapausta."
+
+#~ msgid "Open Location"
+#~ msgstr "Avaa sijainti"
+
+#~ msgid "Plugin"
+#~ msgstr "Liitännäinen"
+
+#~ msgid "Load"
+#~ msgstr "Lataa"
+
+#~ msgid "Module file name"
+#~ msgstr "Moduulin tiedostonimi"
+
+#~ msgid "Author(s)"
+#~ msgstr "Tekijä(t)"
+
+#~ msgid "Could not find plugin-manager.glade2, reinstall pluma.\n"
+#~ msgstr "plugin-manager.glade2:a ei löytynyt. Asenna pluma uudelleen.\n"
+
+#~ msgid "Invalid glade file for plugin manager -- not all widgets found.\n"
+#~ msgstr ""
+#~ "Epäkelpo glade-tiedosto liitännäistenhallinnalle -- kaikkia tarpeellisia "
+#~ "laajennuksia ei löytynyt.\n"
+
+#~ msgid "Set program location..."
+#~ msgstr "Aseta ohjelman sijainti..."
+
+#~ msgid ""
+#~ "The %s plugin uses an external program, called <tt>%s</tt>, to perform "
+#~ "its task.\n"
+#~ "\n"
+#~ "Please, specify the location of the <tt>%s</tt> program."
+#~ msgstr ""
+#~ "%s -liitännäinen käyttää ulkoista ohjelmaa <tt>%s</tt> tehtävän "
+#~ "suorittamiseen.\n"
+#~ "\n"
+#~ "Määritä ohjelman <tt>%s</tt> sijainti."
+
+#~ msgid "The selected file is not executable."
+#~ msgstr "Valittu tiedosto ei ole suorituskelpoinen."
+
+#~ msgid "Font & Colors"
+#~ msgstr "Kirjasimet & Värit"
+
+#~ msgid "Tabs"
+#~ msgstr "Välilehdet"
+
+#~ msgid "Wrap Mode"
+#~ msgstr "Rivitystapa"
+
+#~ msgid "Auto Indent"
+#~ msgstr "Automaattinen sisennys"
+
+#~ msgid "Line Numbers"
+#~ msgstr "Rivinumerot"
+
+#~ msgid "Open"
+#~ msgstr "Avaa"
+
+#~ msgid "Save"
+#~ msgstr "Tallennus"
+
+#~ msgid "Undo"
+#~ msgstr "Kumoaminen"
+
+#~ msgid "Page"
+#~ msgstr "Sivut"
+
+#~ msgid "Fonts"
+#~ msgstr "Kirjasimet"
+
+#~ msgid "Manager"
+#~ msgstr "Hallinta"
+
+#~ msgid "Editor"
+#~ msgstr "Muokkain"
+
+#~ msgid "Print"
+#~ msgstr "Tulostus"
+
+#~ msgid "Plugins"
+#~ msgstr "Liitännäiset"
+
+#~ msgid "Cat_egories:"
+#~ msgstr "Kat_egoriat:"
+
+#~ msgid "Preferences"
+#~ msgstr "Asetukset"
+
+#~ msgid "Categories"
+#~ msgstr "Kategoriat"
+
+#~ msgid "Push this button to select the font to be used by the editor"
+#~ msgstr "Napsauta tästä valitaksesi muokkaimessa käytettävän kirjasimen"
+
+#~ msgid "Push this button to configure text color"
+#~ msgstr "Napsauta tästä asettaaksesi tekstivärin"
+
+#~ msgid "Push this button to configure background color"
+#~ msgstr "Napsauta tästä asettaaksesi taustavärin"
+
+#~ msgid ""
+#~ "Push this button to configure the color in which the selected text should "
+#~ "appear"
+#~ msgstr ""
+#~ "Napsauta tätä asettaaksesi värin jolla valittuna oleva teksti esitetään"
+
+#~ msgid ""
+#~ "Push this button to configure the color in which the selected text should "
+#~ "be marked"
+#~ msgstr ""
+#~ "Napsauta tätä asettaaksesi värin jolla valittuna olevan tekstin tausta "
+#~ "väritetään"
+
+#~ msgid "Push this button to select the font to be used to print the body"
+#~ msgstr ""
+#~ "Napsauta tätä valitaksesi rungon tulostuksessa käytettävän kirjasimen"
+
+#~ msgid "Push this button to select the font to be used to print the headers"
+#~ msgstr ""
+#~ "Napsauta tätä valitaksesi otsikkojen tulostuksessa käytettävän kirjasimen"
+
+#~ msgid "Push this button to select the font to be used to print line numbers"
+#~ msgstr ""
+#~ "Napsauta tätä valitaksesi rivinumerojen tulostuksessa käytettävän "
+#~ "kirjasimen"
+
+#~ msgid "<b>Font</b>"
+#~ msgstr "<b>Kirjasin</b>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Auto Indent</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"x-large\">Automaattinen sisennys</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Font &amp; Colors</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Kirjasin&amp;värit</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Fonts</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Kirjasimet</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Line Numbers</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Rivinumerot</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Manager</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Hallinta</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Open</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Avaa</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Page</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Sivu</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Save</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Tallenna</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Tabs</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Välilehdet</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Undo</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Kumoa</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Wrap Mode</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Rivitystapa</span>"
+
+#~ msgid "<span weight=\"bold\">Colors</span>"
+#~ msgstr "<span weight=\"bold\">Värit</span>"
+
+#~ msgid "<span weight=\"bold\">When saving a new file...</span>"
+#~ msgstr "<span weight=\"bold\">Tallennettaessa uutta tiedostoa...</span>"
+
+#~ msgid "<span weight=\"bold\">When saving an existing file...</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\">Tallennettaessa olemassaolevaa tiedostoa...</span>"
+
+#~ msgid "Add new encodings"
+#~ msgstr "Lisää koodaustapoja"
+
+#~ msgid "Always use U_TF-8 encoding (faster)"
+#~ msgstr "Käytä aina U_TF-8 koodausta (nopeampi)"
+
+#~ msgid "Always use _UTF-8 encoding (faster)"
+#~ msgstr "Käytä aina _UTF-8 koodausta (nopeampi)"
+
+#~ msgid "Create a _backup copy of files before saving"
+#~ msgstr "Luo tiedostoista _varmuuskopio ennen tallentamista"
+
+#~ msgid "Do not _split words over two lines"
+#~ msgstr "Älä jaa _sanoja yli kahdelle riville"
+
+#~ msgid "Editor _font: "
+#~ msgstr "Muokkaimen _kirjasin: "
+
+#~ msgid "Enable _auto indentation"
+#~ msgstr "Käytä _automaattisisennystä"
+
+#~ msgid "Enable text _wrapping"
+#~ msgstr "Käytä _rivitystä"
+
+#~ msgid "Fonts & Colors"
+#~ msgstr "Kirjasimet & Värit"
+
+#~ msgid "Insert _spaces instead of tabs"
+#~ msgstr "Lisää _tyhjeitä sarkaimien sijaan"
+
+#~ msgid "LOGO"
+#~ msgstr "LOGO"
+
+#~ msgid "Line _numbers:"
+#~ msgstr "_Rivinumerot:"
+
+#~ msgid "Line numbers"
+#~ msgstr "Rivinumerot"
+
+#~ msgid "Move down"
+#~ msgstr "Siirrä alas"
+
+#~ msgid "Move up"
+#~ msgstr "Siirrä ylös"
+
+#~ msgid "Page he_aders:"
+#~ msgstr "Sivujen _otsikkotiedot"
+
+#~ msgid "Pick the background color"
+#~ msgstr "Valitse taustaväri"
+
+#~ msgid "Pick the selected text color"
+#~ msgstr "Valitse valitun tekstin väri"
+
+#~ msgid "Pick the selection color"
+#~ msgstr "Valitse valintaväri"
+
+#~ msgid "Plugin manager"
+#~ msgstr "Lliitännäistenhallinta"
+
+#~ msgid "Print _line numbers every"
+#~ msgstr "Tu_losta rivinumerot joka"
+
+#~ msgid "Print fonts"
+#~ msgstr "Tulostuskirjasimet"
+
+#~ msgid "Remove an encoding"
+#~ msgstr "Poista koodaustapa"
+
+#~ msgid "Se_lection color:"
+#~ msgstr "V_alintaväri:"
+
+#~ msgid "Selecte_d text color:"
+#~ msgstr "Valitun _tekstin väri:"
+
+#~ msgid "Set _tabs width equivalent to"
+#~ msgstr "Aseta välilehtien _leveydeksi"
+
+#~ msgid "Set limit on _undo actions to"
+#~ msgstr "Aseta k_umoamiskertojen rajaksi"
+
+#~ msgid "U_se default theme colors"
+#~ msgstr "Käy_tä oletusteeman värejä"
+
+#~ msgid "U_se original file encoding if possible"
+#~ msgstr "Käytä alkuperäi_stä tiedoston koodausta mikäli mahdollista"
+
+#~ msgid "Use cu_rrent locale's encoding if possible"
+#~ msgstr "Käy_tä nykyistä lokaalia aina kun mahdollista"
+
+#~ msgid "Use current _locale's encoding if possible"
+#~ msgstr "Käytä _nykyistä lokaalia aina kun mahdollista"
+
+#~ msgid "Wrap mode"
+#~ msgstr "Rivitystapa"
+
+#~ msgid "_Autosave current file every"
+#~ msgstr "Tallenna aktiivinen tiedosto _automaattisesti joka"
+
+#~ msgid "_Background color:"
+#~ msgstr "_Taustaväri:"
+
+#~ msgid "_Body:"
+#~ msgstr "_Tekstiosa:"
+
+#~ msgid "_Display line numbers"
+#~ msgstr "Näytä rivi_numerot"
+
+#~ msgid "_Print page headers"
+#~ msgstr "Tulosta sivujen _otsikkotiedot"
+
+#~ msgid "_Restore Default Fonts"
+#~ msgstr "_Palauta oletuskirjasimet"
+
+#~ msgid "_Supported encodings:"
+#~ msgstr "Tuetut koodau_stavat:"
+
+#~ msgid "_Text color:"
+#~ msgstr "_Tekstiväri:"
+
+#~ msgid "_Use default theme font"
+#~ msgstr "_Käytä teeman oletuskirjasinta"
+
+#~ msgid "_action(s)"
+#~ msgstr "toiminto(_a)"
+
+#~ msgid "_minutes"
+#~ msgstr "_minuuttia"
+
+#~ msgid "li_ne(s)"
+#~ msgstr " r_ivi(ä)"
+
+#~ msgid "_Insert a new preview phrase."
+#~ msgstr "_Lisää uusi esikatselurivi"
+
+#~ msgid "Modify preview phrase..."
+#~ msgstr "Muokkaa esikatseluriviä..."
+
+#~ msgid "Preview"
+#~ msgstr "Esikatselu"
+
+#~ msgid "_Modify preview phrase..."
+#~ msgstr "_Muokkaa esikatseluriviä..."
+
+#~ msgid "Font Selection"
+#~ msgstr "Kirjasimen valinta"
+
+#~ msgid "Sans Regular 12"
+#~ msgstr "Sans Regular 12"
+
+#~ msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
+#~ msgstr "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzÅåÄäÖö"
+
+#~ msgid "Pick a Font"
+#~ msgstr "Valitse kirjasin"
+
+#~ msgid "Title"
+#~ msgstr "Otsikko"
+
+#~ msgid "The title of the selection dialog box"
+#~ msgstr "Valintaikkunan otsikko"
+
+#~ msgid "Name of the selected font"
+#~ msgstr "Valitun kirjasimen nimi"
+
+#~ msgid "Preview text"
+#~ msgstr "Esikatseluteksti"
+
+#~ msgid "Preview text shown in the dialog"
+#~ msgstr "Esikatseluikkunassa näytettävä teksti"
+
+#~ msgid "Use font in label"
+#~ msgstr "Käytä kirjasinta otsikossa"
+
+#~ msgid "Use font in the label in font info mode"
+#~ msgstr "Käytä kirjasinta otsikossa kun katsot kirjasintietoja"
+
+#~ msgid "Font size for label"
+#~ msgstr "Otsikon kirjasinkoko"
+
+#~ msgid "Font size for label in font info mode"
+#~ msgstr "Otsikon kirjasinkoko kirjasintiedoissa"
+
+#~ msgid "Show size"
+#~ msgstr "Näytä koko"
+
+#~ msgid "Show size in font info mode"
+#~ msgstr "Näytä koko kirjasintiedoissa"
+
+#~ msgid "Font"
+#~ msgstr "Kirjasin"
+
+#~ msgid "Goto Line"
+#~ msgstr "Siirry riville"
+
+#~ msgid "_Line number:"
+#~ msgstr "_Rivinumerot:"
+
+#~ msgid "C_onfigure plugin"
+#~ msgstr "Muokkaa liitännäisen a_setuksia"
+
+#~ msgid "Configure the selected plugin"
+#~ msgstr "Muokkaa valitun liitännäisen asetuksia"
+
+#~ msgid "De_tails"
+#~ msgstr "_Yksityiskohdat"
+
+#~ msgid "_Description"
+#~ msgstr "_Kuvaus"
+
+#~ msgid "dialog1"
+#~ msgstr "ikkuna1"
+
+#~ msgid "_Location to search for:"
+#~ msgstr "_Sijainti josta etsitään:"
+
+#~ msgid "label"
+#~ msgstr "otsikko"
+
+#~ msgid "Find Next"
+#~ msgstr "Etsi seuraava"
+
+#~ msgid "Match _entire word only"
+#~ msgstr "_Etsi kokonaista sanaa"
+
+#~ msgid "Replace All"
+#~ msgstr "Korvaa kaikki"
+
+#~ msgid "Replace _with: "
+#~ msgstr "Korvaava _merkkijono:"
+
+#~ msgid "_Match case"
+#~ msgstr "_Huomioi kirjainkoko"
+
+#~ msgid "_Search for: "
+#~ msgstr "_Etsi:"
+
+#~ msgid "_Wrap around"
+#~ msgstr "_Rivitä"
+
+#~ msgid "Enter the _location (URI) of the file you would like to open:"
+#~ msgstr "Anna sen tiedoston _sijainti (URI) jonka haluat avattavan:"
+
+#~ msgid "Open from URI"
+#~ msgstr "Avaa URI:stä"
+
+#~ msgid "translator_credits"
+#~ msgstr ""
+#~ "Jarkko Ranta, 2000-2003\n"
+#~ "\n"
+#~ "http://gnome.fi/"
+
+#~ msgid "pluma"
+#~ msgstr "pluma"
+
+#~ msgid "pluma is a small and lightweight text editor for Gnome"
+#~ msgstr ""
+#~ "pluma on pieni ja kevyt tekstieditori Gnomelle. Suomennos: http://gnome-"
+#~ "fi.sourceforge.net/"
+
+#~ msgid "%s %d"
+#~ msgstr "%s %d"
+
+#~ msgid "Untitled"
+#~ msgstr "Nimetön"
+
+#~ msgid "Invalid file name"
+#~ msgstr "Epäkelpo tiedostonimi"
+
+#~ msgid "Invalid UTF-8 data"
+#~ msgstr "Viallista UTF-8 dataa"
+
+#~ msgid "Could not read symbolic link information for %s"
+#~ msgstr "Symbolisen linkin tietojen lukeminen kohteelle %s epäonnistui"
+
+#~ msgid "The file has too many symbolic links."
+#~ msgstr "Tiedostolla on liian monta symbolista linkkiä."
+
+#~ msgid "pluma cannot handle %s: locations in write mode."
+#~ msgstr ""
+#~ "pluma ei pysty käsittelemään sijaintia %s: sijainti kirjoitusoikeuksin."
+
+#~ msgid "pluma cannot handle this kind of location in write mode."
+#~ msgstr "pluma ei pysty käsittelemään tällaista sijaintia kirjoitustilassa."
+
+#~ msgid "Invalid filename."
+#~ msgstr "Epäkelpo tiedostonimi."
+
+#~ msgid ""
+#~ "There is not enough disk space to save the file.\n"
+#~ "Please free some disk space and try again."
+#~ msgstr ""
+#~ "Levyllä ei ole tarpeeksi tilaa tiedoston tallentamiseksi.\n"
+#~ "Vapauta levytilaa ja yritä uudelleen."
+
+#~ msgid ""
+#~ "The disk where you are trying to save the file has a limitation on file "
+#~ "sizes.  Please try saving a smaller file or saving it to a disk that does "
+#~ "not have this limitation."
+#~ msgstr ""
+#~ "Yrität kirjoittaa tiedostoa levylle jolle on asetettu tiedostokoon "
+#~ "rajoitus. Yritä tallentaa pienempi tiedosto tai tallenna levylle jolla ei "
+#~ "ole rajoitusta."
+
+#~ msgid "Could not create a backup file."
+#~ msgstr "Tiedoston varmuuskopiointi ei onnistunut."
+
+#~ msgid "It is not possible to revert an Untitled document"
+#~ msgstr "Et voi palauttaa Nimetöntä asiakirjaa levyltä"
+
+#~ msgid ""
+#~ "A file named \"%s\" already exists.\n"
+#~ "Do you want to replace it with the one you are saving?"
+#~ msgstr ""
+#~ "Tiedosto nimeltä \"%s\" on jo olemassa.\n"
+#~ "Haluatko korvata sen tiedostolla jonka olet tallentamassa?"
+
+#~ msgid ""
+#~ "The file \"%s\" is read-only.\n"
+#~ "Do you want to try to replace it with the one you are saving?"
+#~ msgstr ""
+#~ "Tiedosto nimeltä \"%s\" on jo olemassa.\n"
+#~ "Haluatko korvata sen tiedostolla jonka olet tallentamassa?"
+
+#~ msgid "Select a filename to save"
+#~ msgstr "Valitse tiedostonimi jolla tallennetaan"
+
+#~ msgid "Open File..."
+#~ msgstr "Avaa tiedosto..."
+
+#~ msgid "Loaded file '%s'"
+#~ msgstr "Ladattu tiedosto \"%s\""
+
+#~ msgid "Saving file '%s'..."
+#~ msgstr "Tallennetaan tiedostoa \"%s\"..."
+
+#~ msgid "The document has not been saved."
+#~ msgstr "Asiakirjaa ei ole tallennettu."
+
+#~ msgid "File '%s' saved."
+#~ msgstr "Tiedosto \"%s\" tallennettu."
+
+#~ msgid "Save as..."
+#~ msgstr "Tallenna nimellä..."
+
+#~ msgid ""
+#~ "Do you want to revert to saved the document '%s'?\n"
+#~ "\n"
+#~ "You will not be able to undo this operation."
+#~ msgstr ""
+#~ "Haluatko palauttaa tiedostosta \"%s\" aiemmin tallennetun version?\n"
+#~ "\n"
+#~ "Palauttamista ei pysty kumoamaan."
+
+#~ msgid "_Revert"
+#~ msgstr "_Palauta levyltä"
+
+#~ msgid "Reverting file '%s'..."
+#~ msgstr "Palautetaan tiedosto \"%s\"..."
+
+#~ msgid "The document has not been reverted."
+#~ msgstr "Asiakirjaa ei palautettu."
+
+#~ msgid "File '%s' reverted."
+#~ msgstr "Tiedosto \"%s\" palautettu."
+
+#~ msgid "Loading %d files..."
+#~ msgstr "Ladataan %d tiedostoa..."
+
+#~ msgid "The file \"%s\" does not exist. Would you like to create it?"
+#~ msgstr "Tiedostoa \"%s\" ei ole olemassa. Haluatko luoda sen?"
+
+#~ msgid "Loaded %i files"
+#~ msgstr "Ladattu %i tiedostoa"
+
+#~ msgid "Could not read data from stdin."
+#~ msgstr "Virhe luettaessa dataa stdin:istä."
+
+#~ msgid "RO"
+#~ msgstr "LUKU"
+
+#~ msgid "_Move to New Window"
+#~ msgstr "_Siirrä uuteen ikkunaan"
+
+#~ msgid "Open a file."
+#~ msgstr "Avaa tiedosto."
+
+#~ msgid ""
+#~ "Do you want to save the changes you made to the document \"%s\"? \n"
+#~ "\n"
+#~ "Your changes will be lost if you don't save them."
+#~ msgstr ""
+#~ "Haluatko tallentaa asiakirjaan \"%s\" tekemäsi muutokset? \n"
+#~ "\n"
+#~ "Tekemäsi muutokset menetetään ellet tallenna niitä."
+
+#~ msgid "Do_n't save"
+#~ msgstr "Ä_lä tallenna"
+
+#~ msgid "_Don't quit"
+#~ msgstr "Älä l_opeta"
+
+#~ msgid "_Don't close"
+#~ msgstr "Älä _sulje"
+
+#~ msgid "(modified)"
+#~ msgstr "(muutettu)"
+
+#~ msgid "(readonly)"
+#~ msgstr "(vain luku)"
+
+#~ msgid "Error, unable to open module file '%s'\n"
+#~ msgstr "Virhe, moduulitiedoston \"%s\" avaaminen ei onnistunut\n"
+
+#~ msgid "Error, plugin '%s' does not contain init function."
+#~ msgstr "Virhe, liitännäinen \"%s\" ei sisällä init-funktiota."
+
+#~ msgid "Error, plugin '%s' does not contain activate function."
+#~ msgstr "Virhe, liitännäinen \"%s\" ei sisällä activate-funktiota."
+
+#~ msgid "Error, plugin '%s' does not contain deactivate function."
+#~ msgstr "Virhe, liitännäinen \"%s\" ei sisällä deactivate-funktiota."
+
+#~ msgid "Error, impossible to initialize plugin '%s'"
+#~ msgstr "Virhe, liitännäisen \"%s\" alustus ei onnistu"
+
+#~ msgid "Error, impossible to destroy plugin '%s'"
+#~ msgstr "Virhe, liitännäisen \"%s\" tuhoaminen ei onnistu"
+
+#~ msgid "Error, impossible to activate plugin '%s'"
+#~ msgstr "Virhe, liitännäisen \"%s\" käynnistys ei onnistu"
+
+#~ msgid "Error, impossible to deactivate plugin '%s'"
+#~ msgstr "Virhe, liitännäisen \"%s\" poistaminen käytöstä ei onnistu"
+
+#~ msgid "Error, impossible to update ui of the plugin '%s'"
+#~ msgstr "Virhe, liitännäisen \"%s\" käyttöliittymän päivitys ei onnistu"
+
+#~ msgid "Cannot initialize preferences manager."
+#~ msgstr "Asetusohjelman käynnistys epäonnistui."
+
+#~ msgid "Expected `%s' got `%s' for key %s"
+#~ msgstr "Odotettiin: \"%s\". Saatiin: \"%s\" (avaimelle %s)."
+
+#~ msgid ""
+#~ "pluma is unable to print since it cannot find\n"
+#~ "one of the required fonts."
+#~ msgstr ""
+#~ "pluma ei pysty tulostamaan koska se ei löydä\n"
+#~ "yhtä tarvittavista kirjasimista."
+
+#~ msgid "File: %s"
+#~ msgstr "Tiedosto: %s"
+
+#~ msgid "Page: %d"
+#~ msgstr "Sivu: %d"
+
+#~ msgid "pluma - Print Preview"
+#~ msgstr "pluma - Tulostuksen esikatselu"
+
+#~ msgid ""
+#~ "An error occurred while printing.\n"
+#~ "\n"
+#~ "%s,"
+#~ msgstr ""
+#~ "Tulostusvirhe.\n"
+#~ "\n"
+#~ "%s,"
+
+#~ msgid "About this application"
+#~ msgstr "Tietoja tästä sovelluksesta"
+
+#~ msgid "C_ustomize Statusbar"
+#~ msgstr "M_ukauta tilariviä"
+
+#~ msgid "Change the visibility of the output window in the current window"
+#~ msgstr "Muuta tulosteikkunan näkyvyyttä nykyisessä ikkunassa"
+
+#~ msgid "Change the visibility of the toolbar in the current window"
+#~ msgstr "Muuta työkalupalkin näkyvyyttä nykyisessä ikkunassa"
+
+#~ msgid "Close"
+#~ msgstr "Sulje"
+
+#~ msgid "Close all open files"
+#~ msgstr "Sulje kaikki avoimet tiedostot"
+
+#~ msgid "Close the current file"
+#~ msgstr "Sulje nykyinen tiedosto"
+
+#~ msgid "Configure the application"
+#~ msgstr "Muokkaa sovelluksen asetuksia"
+
+#~ msgid "Copy"
+#~ msgstr "Kopioi"
+
+#~ msgid "Copy the selection"
+#~ msgstr "Kopioi valinta"
+
+#~ msgid "Create a new document"
+#~ msgstr "Luo uusi asiakirja"
+
+#~ msgid "Cu_t"
+#~ msgstr "_Leikkaa"
+
+#~ msgid "Customize"
+#~ msgstr "Mukauta"
+
+#~ msgid "Customize toolbars"
+#~ msgstr "Mukauta työkalupalkkeja"
+
+#~ msgid "Cut"
+#~ msgstr "Leikkaa"
+
+#~ msgid "Cut the selection"
+#~ msgstr "Leikkaa valinta"
+
+#~ msgid "Delete"
+#~ msgstr "Tyhjennä"
+
+#~ msgid "Delete the selected text"
+#~ msgstr "Tyhjennä valittu teksti"
+
+#~ msgid "Dump XML"
+#~ msgstr "Vedosta XML"
+
+#~ msgid "Dump the UI Xml description"
+#~ msgstr "Vedosta käyttöliittymän XML-kuvaus"
+
+#~ msgid "Find Again"
+#~ msgstr "Etsi seuraava"
+
+#~ msgid "Find Ne_xt"
+#~ msgstr "Etsi _seuraava"
+
+#~ msgid "Go to _Line..."
+#~ msgstr "Siirry _riville..."
+
+#~ msgid "Go to a specific line number"
+#~ msgstr "Siirry tietylle rivinumerolle"
+
+#~ msgid "Icon and _Text"
+#~ msgstr "Kuvake ja _teksti"
+
+#~ msgid "Main toolbar"
+#~ msgstr "Päätyökalupalkki"
+
+#~ msgid "New"
+#~ msgstr "Uusi"
+
+#~ msgid "Only show icons in the toolbar"
+#~ msgstr "Näytä vain kuvakkeet työkalupalkissa"
+
+#~ msgid "Open Location..."
+#~ msgstr "Avaa sijainti..."
+
+#~ msgid "Open _Location..."
+#~ msgstr "Avaa s_ijainti..."
+
+#~ msgid "Open a file"
+#~ msgstr "Avaa tiedosto"
+
+#~ msgid "Open a file from a specified location"
+#~ msgstr "Avaa tiedosto tietystä sijainnista"
+
+#~ msgid "Paste"
+#~ msgstr "Liitä"
+
+#~ msgid "Paste the clipboard"
+#~ msgstr "Liitä leikepöydän sisältö"
+
+#~ msgid "Pr_eferences"
+#~ msgstr "As_etukset"
+
+#~ msgid "Print Previe_w..."
+#~ msgstr "Tulostuksen esikatsel_u..."
+
+#~ msgid "Print Preview"
+#~ msgstr "Tulostuksen esikatselu"
+
+#~ msgid "Print Setup"
+#~ msgstr "Tulostusasetukset"
+
+#~ msgid "Print preview"
+#~ msgstr "Tulostuksen esikatselu"
+
+#~ msgid "Print the current file"
+#~ msgstr "Tulosta nykyinen tiedosto"
+
+#~ msgid "Quit"
+#~ msgstr "Lopeta"
+
+#~ msgid "Quit the program"
+#~ msgstr "Lopeta ohjelma"
+
+#~ msgid "Redo"
+#~ msgstr "Uudelleen"
+
+#~ msgid "Redo the undone action"
+#~ msgstr "Toista edellinen komento"
+
+#~ msgid "Replace a string"
+#~ msgstr "Korvaa merkkijono"
+
+#~ msgid "Revert"
+#~ msgstr "Palauta"
+
+#~ msgid "Revert to a saved version of the file"
+#~ msgstr "Palauta levylle tallennettu versio tiedostosta"
+
+#~ msgid "Save _As..."
+#~ msgstr "T_allenna nimellä..."
+
+#~ msgid "Save all open files"
+#~ msgstr "Tallenna kaikki avoimet tiedostot"
+
+#~ msgid "Save the current file with a different name"
+#~ msgstr "Tallenna nykyinen tiedosto uudella nimellä"
+
+#~ msgid "Search again for the same string"
+#~ msgstr "Etsi uudestan samaa merkkijonoa"
+
+#~ msgid "Search for a string"
+#~ msgstr "Etsi merkkijonoa"
+
+#~ msgid "Select All"
+#~ msgstr "Valitse kaikki"
+
+#~ msgid "Select _All"
+#~ msgstr "Valitse k_aikki"
+
+#~ msgid "Select the entire document"
+#~ msgstr "Valitse koko asiakirjan sisältö"
+
+#~ msgid "Set toolbar button style according to desktop default"
+#~ msgstr ""
+#~ "Aseta työkalupalkin painiketyyli järjestelmän oletusasetusten mukaiseksi"
+
+#~ msgid "Setup the page settings for your current printer"
+#~ msgstr "Aseta tulostimesi sivuasetukset"
+
+#~ msgid "Show _Cursor Position"
+#~ msgstr "Näytä _kohdistimen sijainti"
+
+#~ msgid "Show _Overwrite Mode"
+#~ msgstr "Näytä _ylikirjoitustila"
+
+#~ msgid "Show cursor position in the statusbar"
+#~ msgstr "Näytä kohdistimen sijainti tilarivillä"
+
+#~ msgid "Show overwrite mode in the statusbar"
+#~ msgstr "Näytä ylikirjoitustila tilarivillä"
+
+#~ msgid "Undo the last action"
+#~ msgstr "Kumoa edellinen toiminto"
+
+#~ msgid "_About"
+#~ msgstr "_Tietoja Plumaistä"
+
+#~ msgid "_Close"
+#~ msgstr "_Sulje"
+
+#~ msgid "_Close All"
+#~ msgstr "Sulje kai_kki"
+
+#~ msgid "_Contents"
+#~ msgstr "_Sisältö"
+
+#~ msgid "_Copy"
+#~ msgstr "_Kopioi"
+
+#~ msgid "_Customize Toolbar"
+#~ msgstr "_Mukauta työkalupalkkeja"
+
+#~ msgid "_Debug"
+#~ msgstr "_Vianetsintäviestit"
+
+#~ msgid "_Delete"
+#~ msgstr "_Tyhjennä"
+
+#~ msgid "_Desktop Default"
+#~ msgstr "_Työpöydän oletusarvo"
+
+#~ msgid "_Documents"
+#~ msgstr "A_siakirjat"
+
+#~ msgid "_Edit"
+#~ msgstr "_Muokkaa"
+
+#~ msgid "_File"
+#~ msgstr "_Tiedosto"
+
+#~ msgid "_Find..."
+#~ msgstr "_Etsi..."
+
+#~ msgid "_Help"
+#~ msgstr "O_hje"
+
+#~ msgid "_Icon"
+#~ msgstr "_Kuvake"
+
+#~ msgid "_New"
+#~ msgstr "_Uusi"
+
+#~ msgid "_Open..."
+#~ msgstr "_Avaa..."
+
+#~ msgid "_Output Window"
+#~ msgstr "_Tulosteikkuna"
+
+#~ msgid "_Paste"
+#~ msgstr "L_iitä"
+
+#~ msgid "_Print..."
+#~ msgstr "T_ulosta..."
+
+#~ msgid "_Priority Text beside Icons"
+#~ msgstr "_Näytä teksti kuvakkeen vieressä"
+
+#~ msgid "_Quit"
+#~ msgstr "_Lopeta"
+
+#~ msgid "_Redo"
+#~ msgstr "_Uudelleen"
+
+#~ msgid "_Replace..."
+#~ msgstr "Ko_rvaa..."
+
+#~ msgid "_Save"
+#~ msgstr "_Tallenna"
+
+#~ msgid "_Save All"
+#~ msgstr "Tallenna k_aikki"
+
+#~ msgid "_Search"
+#~ msgstr "_Etsi"
+
+#~ msgid "_Statusbar"
+#~ msgstr "_Tilarivi"
+
+#~ msgid "_Toolbar"
+#~ msgstr "T_yökalupalkki"
+
+#~ msgid "_Tools"
+#~ msgstr "Työ_kalut"
+
+#~ msgid "_Undo"
+#~ msgstr "K_umoa"
+
+#~ msgid "_View"
+#~ msgstr "_Näytä"
+
+#~ msgid ""
+#~ "Could not find the file \"%s\".\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly and try again."
+#~ msgstr ""
+#~ "Tiedostoa \"%s\" ei löytynyt.\n"
+#~ "\n"
+#~ "Tarkista että annoit sijainnin oikein ja yritä uudelleen."
+
+#~ msgid "Could not open the file \"%s\" because it contains corrupted data."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" avaaminen epäonnistui koska se sisältää viallista dataa."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because pluma cannot handle %s: locations."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" avaaminen epäonnistui koska pluma epäonnistui "
+#~ "käsittelemään kohdan %s: sijainnit."
+
+#~ msgid "Could not open the file \"%s\""
+#~ msgstr "Tiedoston \"%s\" avaaminen epäonnistui"
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because it contains data in an invalid "
+#~ "format."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" avaaminen epäonnistui koska se sisältää dataa "
+#~ "epäkelvossa muodossa."
+
+#~ msgid "Could not open the file \"%s\" because it is too big."
+#~ msgstr "Tiedoston \"%s\" avaaminen epäonnistui koska se on liian suuri."
+
+#~ msgid ""
+#~ "\"%s\" is not a valid location.\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly and try again."
+#~ msgstr ""
+#~ "\"%s\" ei ole kelvollinen sijainti.\n"
+#~ "\n"
+#~ "Tarkista että kirjoitit osoitteen oikein ja yritä uudelleen."
+
+#~ msgid "Could not open the file \"%s\" because access was denied."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" avaaminen epäonnistui koska pääsy siihen kiellettiin."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because there are too many open files.\n"
+#~ "\n"
+#~ "Please, close some open file and try again."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" avaaminen epäonnistui koska liian monta tiedostoa on jo "
+#~ "auki.\n"
+#~ "\n"
+#~ "Sulje ensin joku tiedosto ja yritä uudelleen."
+
+#~ msgid ""
+#~ "\"%s\" is a directory.\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly and try again."
+#~ msgstr ""
+#~ "\"%s\" on hakemisto.\n"
+#~ "\n"
+#~ "Tarkista että kirjoitit osoitteen oikein ja yritä uudelleen."
+
+#~ msgid ""
+#~ "Not enough available memory to open the file \"%s\". Please, close some "
+#~ "running application and try again."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" avaaminen vaatii liikaa muistia. Sulje jokin käynnissä "
+#~ "oleva ohjelma ja yritä uudelleen."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because no host \"%s\" could be found.\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly and that your proxy "
+#~ "settings are correct and then try again."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" avaaminen epäonnistui koska palvelinta \"%s\" ei "
+#~ "löytynyt. \n"
+#~ "\n"
+#~ "Tarkista että kirjoitit osoitteen oikein ja että välityspalvelimesi "
+#~ "asetukset ovat oikein ja yritä uudelleen."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because the host name was invalid.\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly and try again."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" avaaminen epäonnistui koska palvelimen nimi on "
+#~ "epäkelpo.\n"
+#~ "\n"
+#~ "Tarkista että kirjoitit osoitteen oikein ja yritä uudelleen."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because the host name was empty.\n"
+#~ "\n"
+#~ "Please, check that your proxy settings are correct and try again."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" avaaminen epäonnistui koska palvelimen nimi on tyhjä.\n"
+#~ "\n"
+#~ "Tarkista että välityspalvelimesi asetukset ovat kunnossa ja yritä "
+#~ "uudelleen."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because the attempt to log in failed.\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly and try again."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" avaaminen epäonnistui koska kirjautuminen epäonnistui.\n"
+#~ "\n"
+#~ "Tarkista että kirjoitit osoitteen oikein ja yritä uudelleen."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because it contains invalid UTF-8 data.\n"
+#~ "\n"
+#~ "Probably, you are trying to open a binary file."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" avaaminen epäonnistui koska se sisältää epäkelpoa UTF-8 "
+#~ "dataa.\n"
+#~ "\n"
+#~ "Yrität luultavasti avata binääritiedostoa."
+
+#~ msgid "Could not open the file \"%s\"."
+#~ msgstr "Tiedoston \"%s\" avaaminen epäonnistui."
+
+#~ msgid "Could not save the file \"%s\"."
+#~ msgstr "Tiedoston \"%s\" tallentaminen epäonnistui."
+
+#~ msgid ""
+#~ "Could not save the file \"%s\".\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Tiedoston \"%s\" tallentaminen epäonnistui.\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because pluma cannot find it.\n"
+#~ "\n"
+#~ "Perhaps, it has recently been deleted."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" palauttaminen levyltä epäonnistui koska pluma ei löydä "
+#~ "sitä.\n"
+#~ "\n"
+#~ "Tämä voi johtua siitä että se on poistettu."
+
+#~ msgid "Could not revert the file \"%s\" because it contains corrupted data."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" palauttaminen levyltä epäonnistui koska se sisältää "
+#~ "viallista dataa."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because pluma cannot handle %s: "
+#~ "locations."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" palauttaminen levyltä epäonnistui koska pluma ei "
+#~ "onnistunut käsittelemään kohtaa %s: sijainnit."
+
+#~ msgid "Could not revert the file \"%s\"."
+#~ msgstr "Tiedoston \"%s\" palauttaminen levyltä epäonnistui."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because it contains data in an invalid "
+#~ "format."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" palauttaminen levyltä epäonnistui koska se sisältää "
+#~ "epäkelvossa muodossa olevaa dataa."
+
+#~ msgid "Could not revert the file \"%s\" because it is too big."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" palauttaminen levyltä epäonnistui koska se on liian "
+#~ "suuri."
+
+#~ msgid "Could not revert the file \"%s\" because access was denied."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" palauttaminen levyltä epäonnistui koska pääsy siihen "
+#~ "estettiin."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because there are too many open files.\n"
+#~ "\n"
+#~ "Please, close some open file and try again."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" palauttaminen levyltä epäonnistui koska liian monta "
+#~ "tiedostoa on jo auki.\n"
+#~ "\n"
+#~ "Sulje ensin joku avoin tiedosto ja yritä uudelleen."
+
+#~ msgid ""
+#~ "Not enough available memory to revert the file \"%s\". Please, close some "
+#~ "running application and try again."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" palauttaminen epäonnistui koska se vaatii enemmän "
+#~ "muistia kuin on käytettävissä. Sulje joitain käynnissä olevia ohjelmia ja "
+#~ "yritä uudelleen."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because no host \"%s\" could be found.\n"
+#~ "\n"
+#~ "Please, check that your proxy settings are correct and try again."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" palauttaminen levyltä epäonnistui koska palvelinta \"%s"
+#~ "\" ei löytynyt. \n"
+#~ "\n"
+#~ "Tarkista että välityspalvelimesi asetukset ovat kunnossa ja yritä "
+#~ "uudelleen."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because the host name was empty.\n"
+#~ "\n"
+#~ "Please, check that your proxy settings are correct and try again."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" palauttaminen levyltä epäonnistui koska palvelimen nimi "
+#~ "oli tyhjä.\n"
+#~ "\n"
+#~ "Tarkista että välityspalvelimesi asetukset ovat kunnossa ja yritä "
+#~ "uudelleen."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because the attempt to log in failed."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" palauttaminen epäonnistui koska kirjautuminen ei "
+#~ "onnistunut."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because it contains invalid UTF-8 data.\n"
+#~ "\n"
+#~ "Probably, you are trying to revert a binary file."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" palauttaminen levyltä epäonnistui koska se sisältää "
+#~ "epäkelpoa UTF-8 dataa.\n"
+#~ "\n"
+#~ "Yrität luultavasti avata binääritiedostoa."
+
+#~ msgid "It is not possible to revert an Untitled document."
+#~ msgstr "Et voi palauttaa Nimetöntä asiakirjaa levyltä."
+
+#~ msgid "The file \"%s\" already exists."
+#~ msgstr "Tiedosto \"%s\" on jo olemassa."
+
+#~ msgid ""
+#~ "\"%s\" is a directory.\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly."
+#~ msgstr ""
+#~ "\"%s\" on hakemisto.\n"
+#~ "\n"
+#~ "Varmista että kirjoitit osoitteen oikein."
+
+#~ msgid ""
+#~ "Cannot create the file \"%s\".\n"
+#~ "\n"
+#~ "Make sure you have the appropriate write permissions."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" luominen epäonnistui.\n"
+#~ "\n"
+#~ "Varmista että sinulla on tarvittavat kirjoitusoikeudet."
+
+#~ msgid ""
+#~ "Cannot create the file \"%s\".\n"
+#~ "\n"
+#~ "The file name is too long."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" luominen epäonnistui.\n"
+#~ "\n"
+#~ "Tiedostonimi on liian pitkä."
+
+#~ msgid ""
+#~ "Cannot create the file \"%s\".\n"
+#~ "\n"
+#~ "A directory component in the file name does not exist or is a dangling "
+#~ "symbolic link."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" luominen epäonnistui.\n"
+#~ "\n"
+#~ "Annetulla nimellä olevaa hakemistokomponenttia ei ole olemassa, tai se on "
+#~ "symbolinen linkki jolla ei ole kohdetta."
+
+#~ msgid ""
+#~ "There is not enough disk space to create the file \"%s\".\n"
+#~ "\n"
+#~ "Please free some disk space and try again."
+#~ msgstr ""
+#~ "Levyllä ei ole tarpeeksi tilaa tiedoston \"%s\" tallentamiseksi.\n"
+#~ "\n"
+#~ "Vapauta levytilaa ja yritä uudelleen."
+
+#~ msgid "Could not create the file \"%s\"."
+#~ msgstr "Tiedoston \"%s\" luominen epäonnistui."
+
+#~ msgid "  Ln %d, Col. %d"
+#~ msgstr "  Rvi %d, Srke %d"
+
+#~ msgid "  OVR"
+#~ msgstr "  PÄÄLLE"
+
+#~ msgid "  INS"
+#~ msgstr "  LISÄÄ"
+
+#~ msgid "Show utility debugging messages."
+#~ msgstr "Näytä hyöty-debug-viestit."
+
+#~ msgid "Show mdi debugging messages."
+#~ msgstr "Näytä uak:n debug-viestit."
+
+#~ msgid "Show commands debugging messages."
+#~ msgstr "Näytä komentojen debug-viestit."
+
+#~ msgid "Show document debugging messages."
+#~ msgstr "Näytä asiakirjojen debug-viestit."
+
+#~ msgid "Show file debugging messages."
+#~ msgstr "Näytä tiedostojen debug-viestit."
+
+#~ msgid "Show plugin debugging messages."
+#~ msgstr "Näytä liitännäisten debug-viestit."
+
+#~ msgid "Show prefs debugging messages."
+#~ msgstr "Näytä asetusten debug-viestit."
+
+#~ msgid "Show printing debugging messages."
+#~ msgstr "Näytä tulostuksen debug-viestit."
+
+#~ msgid "Show search debugging messages."
+#~ msgstr "Näytä etsimisen debug-viestit."
+
+#~ msgid "Show undo debugging messages."
+#~ msgstr "Näytä kumoamisten debug-viestit."
+
+#~ msgid "Show view debugging messages."
+#~ msgstr "Näytä näkymien debug-viestit."
+
+#~ msgid "Show recent debugging messages."
+#~ msgstr "Näytä pikavalintojen debug-viestit."
+
+#~ msgid "Show session management debugging messages."
+#~ msgstr "Näytä istunnonhallinnan debug-viestit."
+
+#~ msgid "Turn on all debugging messages."
+#~ msgstr "Näytä kaikki debug-viestit."
+
+#~ msgid "Quit an existing instance of pluma"
+#~ msgstr "Lopeta käynnissä oleva pluma"
+
+#~ msgid "Create a new toplevel window in an existing instance of pluma"
+#~ msgstr "Luo uusi itsenäinen ikkuna käynnissä olevaan plumaiin"
+
+#~ msgid "Create a new document in an existing instance of pluma"
+#~ msgstr "Luo uusi asiakirja jo käynnissä olevaan plumaiin"
+
+#~ msgid "Close the output window"
+#~ msgstr "Sulje tulosteikkuna"
+
+#~ msgid "Clear the output window"
+#~ msgstr "Tyhjennä tulosteikkuna"
+
+#~ msgid "Choose one or more e_ncodings:"
+#~ msgstr "Valitse yksi tai useampia _koodaustapoja:"
+
+#~ msgid "Western"
+#~ msgstr "Länsimainen"
+
+#~ msgid "Central European"
+#~ msgstr "Keskieurooppalainen"
+
+#~ msgid "South European"
+#~ msgstr "Eteläeurooppalainen"
+
+#~ msgid "Baltic"
+#~ msgstr "Balttilainen"
+
+#~ msgid "Cyrillic"
+#~ msgstr "Kyrillinen"
+
+#~ msgid "Arabic"
+#~ msgstr "Arabialainen"
+
+#~ msgid "Greek"
+#~ msgstr "Kreikkalainen"
+
+#~ msgid "Hebrew Visual"
+#~ msgstr "Heprealainen kuvapohjainen"
+
+#~ msgid "Hebrew"
+#~ msgstr "Heprealainen"
+
+#~ msgid "Turkish"
+#~ msgstr "Turkkilainen"
+
+#~ msgid "Nordic"
+#~ msgstr "Pohjoismainen"
+
+#~ msgid "Celtic"
+#~ msgstr "Kelttiläinen"
+
+#~ msgid "Romanian"
+#~ msgstr "Romanialainen"
+
+#~ msgid "Unicode"
+#~ msgstr "Unicode"
+
+#~ msgid "Armenian"
+#~ msgstr "Armenialainen"
+
+#~ msgid "Chinese Traditional"
+#~ msgstr "Perinteinen kiinalainen"
+
+#~ msgid "Cyrillic/Russian"
+#~ msgstr "Kyrillinen/Venäläinen"
+
+#~ msgid "Japanese"
+#~ msgstr "Japanilainen"
+
+#~ msgid "Korean"
+#~ msgstr "Korealainen"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Yksinkertaistettu kiinalainen"
+
+#~ msgid "Georgian"
+#~ msgstr "Georgialainen"
+
+#~ msgid "Cyrillic/Ukrainian"
+#~ msgstr "Kyrillinen/Ukrainalainen"
+
+#~ msgid "Croatian"
+#~ msgstr "Kroatialainen"
+
+#~ msgid "Hindi"
+#~ msgstr "Hindiläinen"
+
+#~ msgid "Farsi"
+#~ msgstr "Farsilainen"
+
+#~ msgid "Gujarati"
+#~ msgstr "Gujaratilainen"
+
+#~ msgid "Gurmukhi"
+#~ msgstr "Gurmukhilainen"
+
+#~ msgid "Icelandic"
+#~ msgstr "Islantilainen"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Vietnamilainen"
+
+#~ msgid "Thai"
+#~ msgstr "Thailainen"
+
+#~ msgid " (invalid Unicode)"
+#~ msgstr " (epäkelpoa Unicodea)"

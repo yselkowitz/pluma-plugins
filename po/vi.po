@@ -1,0 +1,239 @@
+# Vietnamese translation for Pluma-Plugins.
+# Copyright © 2008 GNOME i18n Project for Vietnamese.
+# Nguyễn Thái Ngọc Duy <pclouds@gmx.net>, 2002.
+# Clytie Siddall <clytie@riverland.net.au>, 2005-2008.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins 2.22.1 GNOME TRUNK\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-02 08:25+0000\n"
+"PO-Revision-Date: 2008-06-06 16:51+0930\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: LocFactoryEditor 1.7b3\n"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "Tự động thêm dấu ngoặc đóng."
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.h:2
+msgid "Bracket Completion"
+msgstr "Điền nốt dấu ngoặc"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:254
+msgid "Character Map"
+msgstr "Sơ đồ ký tự"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "Chèn ký tự đặc biệt bằng cách đơn giản nhấn vào nó."
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.h:1
+msgid "Code comment"
+msgstr "Ghi chú tắt mã"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "Ghi chú tắt hay hủy ghi chú tắt một khối mã được chọn."
+
+#: ../plugins/codecomment/codecomment.py:230
+msgid "Co_mment Code"
+msgstr "Ghi chú tắt _mã"
+
+#: ../plugins/codecomment/codecomment.py:232
+msgid "Comment the selected code"
+msgstr "Ghi chú tát mã được chọn"
+
+#: ../plugins/codecomment/codecomment.py:236
+msgid "U_ncomment Code"
+msgstr "Hủ_y ghi chú tắt mã"
+
+#: ../plugins/codecomment/codecomment.py:238
+msgid "Uncomment the selected code"
+msgstr "Hủy ghi chú tắt mã được chọn"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.h:1
+#. ex:ts=4:et:
+msgid "Color Picker"
+msgstr "Bộ chọn màu"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "Chọn một màu trong hộp thoại và chèn đại diện thập lục của nó."
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "Pick _Color..."
+msgstr "_Chọn màu..."
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "Chọn màu trong hộp thoại"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Pick Color"
+msgstr "Chọn màu"
+
+#: ../plugins/colorpicker/colorpicker.py:226
+msgid "_Insert"
+msgstr "C_hèn"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.h:1
+msgid "Draw Spaces"
+msgstr "Vẽ dấu cách"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "Vẽ dấu cách và khoảng Tab"
+
+#: ../plugins/drawspaces/drawspaces.glade.h:1
+msgid "Draw non-breaking spaces"
+msgstr "Vẽ dấu cách không ngắt"
+
+#: ../plugins/drawspaces/drawspaces.glade.h:2
+msgid "Draw spaces"
+msgstr "Vẽ dấu cách"
+
+#: ../plugins/drawspaces/drawspaces.glade.h:3
+msgid "Draw tabs"
+msgstr "Vẽ cột Tab"
+
+#: ../plugins/drawspaces/drawspaces.glade.h:4
+msgid "Drawing color:"
+msgstr "Màu vẽ:"
+
+#: ../plugins/drawspaces/drawspaces.py:177
+msgid "Show White Space"
+msgstr "Hiện khoảng trắng"
+
+#: ../plugins/drawspaces/drawspaces.py:178
+msgid "Show spaces and tabs"
+msgstr "Hiện dấu cách và khoảng Tab"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.h:1
+#. ex:ts=4:et:
+msgid "Join several lines or split long ones"
+msgstr "Nối lại vài dòng, hoặc tách ra dòng dài"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.h:2
+msgid "Join/Split Lines"
+msgstr "Nối/Tách dòng"
+
+#: ../plugins/joinlines/joinlines.py:56
+msgid "_Join Lines"
+msgstr "_Nối dòng"
+
+#: ../plugins/joinlines/joinlines.py:57
+msgid "Join the selected lines"
+msgstr "Nối lại những dòng được chọn"
+
+#: ../plugins/joinlines/joinlines.py:59
+msgid "_Split Lines"
+msgstr "_Tách dòng"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "Split the selected lines"
+msgstr "Tách ra những dòng đã chọn"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "Thanh Ta_b"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "Hiện/ẩn thanh Tab trong cửa sổ hiện tại"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "Hiện thanh Tab"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr "Thanh Tab có nên hiển thị trong cửa sổ soạn thảo hay không."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr "Thêm một mục nhập trình đơn để hiện/ẩn thanh Tab."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "Hiện/Ẩn thanh Tab"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "Sa_ved sessions"
+msgstr "_Buổi hợp đã lưu"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "_Save current session"
+msgstr "_Lưu buổi hợp đang chạy"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "Save the current document list as a new session"
+msgstr "Lưu danh sách tài liệu hiện thời dưới dạng một buổi hợp mới"
+
+#: ../plugins/sessionsaver/__init__.py:67
+msgid "_Manage saved sessions..."
+msgstr "_Quản lý buổi hợp đã lưu..."
+
+#: ../plugins/sessionsaver/__init__.py:67
+msgid "Open the saved session manager"
+msgstr "Mở chức năng quản lý buổi hợp đã lưu"
+
+#: ../plugins/sessionsaver/__init__.py:107
+#, python-format
+msgid "Recover '%s' session"
+msgstr "Phục hồi buổi hợp « %s »"
+
+#: ../plugins/sessionsaver/dialogs.py:165
+msgid "Session Name"
+msgstr "Tên buổi hợp"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.h:1
+#. ex:ts=4:et:
+msgid "Save and restore your working sessions"
+msgstr "Lưu và phục hồi buổi hợp làm việc"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.h:2
+msgid "Session Saver"
+msgstr "Bộ lưu buổi hợp"
+
+#: ../plugins/sessionsaver/sessionsaver.glade.h:1
+msgid "Save session"
+msgstr "Lưu buổi hợp"
+
+#: ../plugins/sessionsaver/sessionsaver.glade.h:2
+msgid "Saved Sessions"
+msgstr "Buổi hợp đã lưu"
+
+#: ../plugins/sessionsaver/sessionsaver.glade.h:3
+msgid "Session name:"
+msgstr "Tên buổi hợp:"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "Quên bạn không sử dụng cột Tab."
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.h:2
+msgid "Smart Spaces"
+msgstr "Dấu cách khéo"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "Nhúng cửa sổ dòng lệnh trong ô bên dưới."
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.h:2
+msgid "Embedded Terminal"
+msgstr "Dòng lệnh nhúng"
+
+#: ../plugins/terminal/terminal.py:210
+msgid "Terminal"
+msgstr "Dòng lệnh"
+
+#: ../plugins/terminal/terminal.py:231
+msgid "C_hange Directory"
+msgstr "C_huyển đổi thư mục"

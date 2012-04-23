@@ -1,0 +1,11 @@
+[Pluma Plugin]
+Loader=python
+Module=multiedit
+IAge=2
+_Name=Multi Edit
+_Description=Edit document in multiple places at once
+Icon=pluma-plugin
+Authors=Jesse van den Kieboom <jessevdk@gnome.org>
+Copyright=Copyright © 2009 Jesse van den Kieboom
+Website=http://www.mate-desktop.org
+Version=@VERSION@

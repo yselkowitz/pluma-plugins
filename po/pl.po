@@ -1,0 +1,437 @@
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Aviary.pl
+# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
+# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
+# gnomepl@aviary.pl
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-22 23:15+0200\n"
+"PO-Revision-Date: 2010-09-22 15:28+0200\n"
+"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
+"Language-Team: Polish <gnomepl@aviary.pl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: Poland\n"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:1
+msgid "Bookmarks"
+msgstr "Zakładki"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "Łatwa nawigacja po dokumencie za pomocą zakładek"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:137
+msgid "Toggle Bookmark"
+msgstr "Przełącz zakładkę"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:138
+msgid "Toggle bookmark status of the current line"
+msgstr "Przełącza stan zakładki bieżącego wiersza"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:140
+msgid "Goto Next Bookmark"
+msgstr "Przejdź do następnej zakładki"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:141
+msgid "Goto the next bookmark"
+msgstr "Przechodzi do następnej zakładki"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:143
+msgid "Goto Previous Bookmark"
+msgstr "Przejdź do poprzedniej zakładki"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:144
+msgid "Goto the previous bookmark"
+msgstr "Przechodzi do poprzedniej zakładki"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "Automatycznie dodaje zamykające nawiasy."
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Bracket Completion"
+msgstr "Uzupełnianie nawiasów"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:258
+msgid "Character Map"
+msgstr "Mapa znaków"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "Pozwala wstawić znaki specjalne wybierając je za pomocą myszy."
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:1
+msgid "Code comment"
+msgstr "Komentowanie kodu"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "Pozwala komentować lub odkomentować zaznaczony blok kodu."
+
+#: ../plugins/codecomment/codecomment.py:230
+msgid "Co_mment Code"
+msgstr "Zako_mentuj kod"
+
+#: ../plugins/codecomment/codecomment.py:232
+msgid "Comment the selected code"
+msgstr "Zakomentowuje zaznaczony kod"
+
+#: ../plugins/codecomment/codecomment.py:236
+msgid "U_ncomment Code"
+msgstr "Odkome_ntuj kod"
+
+#: ../plugins/codecomment/codecomment.py:238
+msgid "Uncomment the selected code"
+msgstr "Odkomentowuje zaznaczony kod"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "Wybór koloru"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr ""
+"Pozwala wybrać kolor z okna dialogowego i wstawić jego szesnastkowy "
+"odpowiednik."
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "Pick _Color..."
+msgstr "Wybór _koloru..."
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "Wybór koloru z okna dialogowego"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Pick Color"
+msgstr "Wybór koloru"
+
+#: ../plugins/colorpicker/colorpicker.py:226
+msgid "_Insert"
+msgstr "_Wstaw"
+
+#. ex:ts=4:et:
+#: ../plugins/commander/commander.pluma-plugin.desktop.in.in.h:1
+msgid "Command line interface for advanced editing"
+msgstr "Interfejs wiersza poleceń do zaawansowanej redakcji tekstu"
+
+#: ../plugins/commander/commander.pluma-plugin.desktop.in.in.h:2
+msgid "Commander"
+msgstr "Commander"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:4
+msgid "Draw Spaces"
+msgstr "Wyświetlanie spacji"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "Wyświetla spacje i tabulacje"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:1
+msgid "Draw leading spaces"
+msgstr "Wyświetlanie spacji wiodących"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:2
+msgid "Draw new lines"
+msgstr "Wyświetlanie nowych wierszy"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:3
+msgid "Draw non-breaking spaces"
+msgstr "Wyświetlanie nieprzerywalnych spacji"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:4
+msgid "Draw spaces"
+msgstr "Wyświetlanie spacji"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:5
+msgid "Draw spaces in text"
+msgstr "Wyświetla spacji w tekście"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:6
+msgid "Draw tabs"
+msgstr "Wyświetlanie tabulacji"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:7
+msgid "Draw trailing spaces"
+msgstr "Wyświetlanie spacji na końcach wierszy"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:1
+msgid "Draw Leading Spaces"
+msgstr "Wyświetlanie spacji wiodących"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:2
+msgid "Draw New lines"
+msgstr "Wyświetlanie nowych wierszy"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:3
+msgid "Draw Non-Breaking Spaces"
+msgstr "Wyświetlanie nieprzerywalnych spacji"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:5
+msgid "Draw Spaces in Text"
+msgstr "Wyświetlanie spacji w tekście"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:6
+msgid "Draw Tabs"
+msgstr "Wyświetlanie tabulacji"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:7
+msgid "Draw Trailing Spaces"
+msgstr "Wyświetlanie spacji na końcach wierszy"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:8
+msgid "Show White Spaces"
+msgstr "Wyświetlanie spacji"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:167
+msgid "Show _White Space"
+msgstr "Wyświetlanie _spacji"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:168
+msgid "Show spaces and tabs"
+msgstr "Wyświetlanie spacji i tabulacji"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:612
+msgid "Error dialog"
+msgstr "Okno dialogowe błędu"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "Łączy wiele wierszy lub dzieli dłuższe"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:2
+msgid "Join/Split Lines"
+msgstr "Połącz/Podziel wiersze"
+
+#: ../plugins/joinlines/joinlines.py:56
+msgid "_Join Lines"
+msgstr "_Połącz wiersze"
+
+#: ../plugins/joinlines/joinlines.py:57
+msgid "Join the selected lines"
+msgstr "Łączy zaznaczone wiersze"
+
+#: ../plugins/joinlines/joinlines.py:59
+msgid "_Split Lines"
+msgstr "P_odziel wiersze"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "Split the selected lines"
+msgstr "Dzieli zaznaczone wiersze"
+
+#. ex:ts=4:et:
+#: ../plugins/multiedit/multiedit.pluma-plugin.desktop.in.in.h:1
+msgid "Edit document in multiple places at once"
+msgstr "Umożliwia modyfikowanie dokumentu w wielu miejscach na raz"
+
+#: ../plugins/multiedit/multiedit.pluma-plugin.desktop.in.in.h:2
+msgid "Multi Edit"
+msgstr "Edycja w wielu miejscach"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:315
+msgid "Added edit point..."
+msgstr "Dodano punkt modyfikowania..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:651
+msgid "Column Mode..."
+msgstr "Tryb kolumny..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:773
+msgid "Removed edit point..."
+msgstr "Usunięto punkt modyfikowania..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:936
+msgid "Cancelled column mode..."
+msgstr "Anulowano tryb kolumny..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1274
+msgid "Enter column edit mode using selection"
+msgstr "Proszę podać tryb edycji kolumny używając zaznaczenia"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1275
+msgid "Enter <b>smart</b> column edit mode using selection"
+msgstr ""
+"Proszę podać <b>inteligentny</b> tryb edycji kolumny używając zaznaczenia"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1276
+msgid "<b>Smart</b> column align mode using selection"
+msgstr "<b>Inteligentny</b> tryb dopasowania kolumny używając zaznaczenia"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1277
+msgid "<b>Smart</b> column align mode with additional space using selection"
+msgstr ""
+"<b>Inteligentny</b> tryb dopasowania kolumny za pomocą dodatkowego miejsca "
+"używając zaznaczenia"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1279
+msgid "Toggle edit point"
+msgstr "Przełącz punkt modyfikowania"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1280
+msgid "Add edit point at beginning of line/selection"
+msgstr "Dodaj punkt modyfikowania na początku wiersza/zaznaczenia"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1281
+msgid "Add edit point at end of line/selection"
+msgstr "Dodaj punkt modyfikowania na końcu wiersza/zaznaczenia"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1282
+msgid "Align edit points"
+msgstr "Dopasuj punkt modyfikowania"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1283
+msgid "Align edit points with additional space"
+msgstr "Dopasuj punkty modyfikowania za pomocą dodatkowego miejsca"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1319
+#: ../plugins/multiedit/multiedit/windowhelper.py:70
+msgid "Multi Edit Mode"
+msgstr "Tryb edycji w wieli miejscach"
+
+#: ../plugins/multiedit/multiedit/windowhelper.py:70
+msgid "Start multi edit mode"
+msgstr "Rozpocznij tryb edycji w wieli miejscach"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "Pasek _kart"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "Wyświetla lub ukrywa pasek kart w bieżącym oknie"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "Pasek kart jest widoczny"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr "Określa, czy pasek kart ma być widoczny w oknach."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr "Dodaje pozycję menu do wyświetlania/ukrywania paska kart."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "Wyświetl/Ukryj pasek kart"
+
+#: ../plugins/sessionsaver/__init__.py:64
+msgid "Sa_ved sessions"
+msgstr "Zap_isane sesje"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "_Save current session"
+msgstr "_Zapisz bieżącą sesję"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "Save the current document list as a new session"
+msgstr "Zapisuje bieżącą listę dokumentów jako nową sesję"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "_Manage saved sessions..."
+msgstr "_Zarządzaj zapisanymi sesjami..."
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "Open the saved session manager"
+msgstr "Otwiera menedżera zapisanych sesji"
+
+#: ../plugins/sessionsaver/__init__.py:106
+#, python-format
+msgid "Recover '%s' session"
+msgstr "Odtwórz sesję \"%s\""
+
+#: ../plugins/sessionsaver/dialogs.py:167
+msgid "Session Name"
+msgstr "Nazwa sesji"
+
+#. ex:ts=4:et:
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:1
+msgid "Save and restore your working sessions"
+msgstr "Zapisuje i odtwarza sesje robocze"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:2
+msgid "Session Saver"
+msgstr "Zapisywanie sesji"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:1
+msgid "Save session"
+msgstr "Zapisuje sesję"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:2
+msgid "Saved Sessions"
+msgstr "Zapisane sesje"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:3
+msgid "Session name:"
+msgstr "Nazwa sesji:"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "Tabulacja nie jest już potrzebna."
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Smart Spaces"
+msgstr "Inteligentne spacje"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "Osadza terminal w dolnym panelu."
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:2
+msgid "Embedded Terminal"
+msgstr "Osadzony terminal"
+
+#: ../plugins/terminal/terminal.py:286
+msgid "Terminal"
+msgstr "Terminal"
+
+#: ../plugins/terminal/terminal.py:308
+msgid "C_hange Directory"
+msgstr "Zmień _katalog"
+
+#: ../plugins/wordcompletion/pluma-word-completion-plugin.c:144
+msgid "Document Words"
+msgstr "Słowa dokumentu"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Word Completion"
+msgstr "Uzupełnianie słów"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Word completion using the completion framework"
+msgstr "Uzupełnianie słów używając struktury uzupełniania"
+
+#: ../plugins/synctex/synctex.pluma-plugin.desktop.in.in.h:1
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: ../plugins/synctex/synctex.pluma-plugin.desktop.in.in.h:2
+msgid "Synchronize between LaTeX and PDF with pluma and atril."
+msgstr ""
+"Synchronizacja między plikami LaTeX i PDF za pomocą programów pluma i Atril."
+
+#: ../plugins/synctex/synctex/synctex.py:280
+#: ../plugins/synctex/synctex/synctex.py:281
+msgid "Forward Search"
+msgstr "Wyszukiwanie do przodu"
+
+#. ex:ts=4:et:
+#: ../plugins/textsize/textsize.pluma-plugin.desktop.in.in.h:1
+msgid "Easily increase and decrease the text size"
+msgstr "Łatwe powiększanie i pomniejszanie rozmiaru tekstu"
+
+#: ../plugins/textsize/textsize.pluma-plugin.desktop.in.in.h:2
+msgid "Text Size"
+msgstr "Rozmiar tekstu"

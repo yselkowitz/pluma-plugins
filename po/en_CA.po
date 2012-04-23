@@ -1,0 +1,155 @@
+# English/Canada translation of pluma-plugins.
+# Copyright (C) 2004 Adam Weinberger and the GNOME Foundation
+# This file is distributed under the same licence as the pluma-plugins package.
+# Adam Weinberger <adamw@gnome.org>, 2004.
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-27 15:12-0500\n"
+"PO-Revision-Date: 2004-04-28 15:10-0400\n"
+"Last-Translator: Adam Weinberger <adamw@gnome.org>\n"
+"Language-Team: Canadian English <adamw@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "Automatically adds closing brackets."
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.h:2
+msgid "Bracket Completion"
+msgstr "Bracket Completion"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:255
+msgid "Character Map"
+msgstr "Character Map"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "Insert special characters just by clicking on them."
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.h:1
+msgid "Code comment"
+msgstr "Code comment"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "Comment out or uncomment a selected block of code."
+
+#: ../plugins/codecomment/codecomment.py:246
+msgid "Co_mment Code"
+msgstr "Co_mment Code"
+
+#: ../plugins/codecomment/codecomment.py:248
+msgid "Comment the selected code"
+msgstr "Comment the selected code"
+
+#: ../plugins/codecomment/codecomment.py:252
+msgid "U_ncomment Code"
+msgstr "U_ncomment Code"
+
+#: ../plugins/codecomment/codecomment.py:254
+msgid "Uncomment the selected code"
+msgstr "Uncomment the selected code"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.h:1
+msgid "Color Picker"
+msgstr "Colour Picker"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "Pick a colour from a dialogue and insert its hexadecimal representation."
+
+#: ../plugins/colorpicker/colorpicker.py:70
+msgid "_Color picker"
+msgstr "_Colour picker"
+
+#: ../plugins/colorpicker/colorpicker.py:71
+msgid "Pick a color from a dialog"
+msgstr "Pick a colour from a dialogue"
+
+#: ../plugins/colorpicker/colorpicker.py:217
+msgid "Color picker"
+msgstr "Colour picker"
+
+#: ../plugins/colorpicker/colorpicker.py:225
+msgid "_Insert"
+msgstr "_Insert"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "Join several lines or split long ones"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.h:2
+msgid "Join/Split Lines"
+msgstr "Join/Split Lines"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "_Join Lines"
+msgstr "_Join Lines"
+
+#: ../plugins/joinlines/joinlines.py:61
+msgid "Join the selected lines"
+msgstr "Join the selected lines"
+
+#: ../plugins/joinlines/joinlines.py:63
+msgid "_Split Lines"
+msgstr "_Split Lines"
+
+#: ../plugins/joinlines/joinlines.py:64
+msgid "Split the selected lines"
+msgstr "Split the selected lines"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "Tab_bar"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "Show or hide the tabbar in the current window"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "Tabbar is Visible"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr "Whether the tabbar should be visible in editing windows."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr "Add a menu entry to show/hide the tabbar."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "Show/Hide Tabbar"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "Forget you're not using tabulations."
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.h:2
+msgid "Smart Spaces"
+msgstr "Smart Spaces"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "Embed a terminal in the bottom pane."
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.h:2
+msgid "Embedded Terminal"
+msgstr "Embedded Terminal"
+
+#: ../plugins/terminal/terminal.py:203
+msgid "Terminal"
+msgstr "Terminal"
+
+#: ../plugins/terminal/terminal.py:224
+msgid "C_hange Directory"
+msgstr "C_hange Directory"

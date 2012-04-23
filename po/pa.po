@@ -1,0 +1,589 @@
+# translation of pluma-plugins.HEAD.po to Punjabi
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Amanpreet Singh Alam <aalam@redhat.com>, 2004.
+# Amanpreet Singh Alam <amanpreetalam@yahoo.com>, 2005.
+# A S Alam <aalam@users.sf.net>, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins.HEAD\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
+"cgi?product=pluma&component=Plugins\n"
+"POT-Creation-Date: 2010-01-17 00:07+0000\n"
+"PO-Revision-Date: 2010-02-05 06:37+0530\n"
+"Last-Translator: A S Alam <aalam@users.sf.net>\n"
+"Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"\n"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:1
+msgid "Bookmarks"
+msgstr "ਬੁੱਕਮਾਰਕ"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "ਬੁੱਕਮਾਰਕ ਨਾਲ ਡੌਕੂਮੈਂਟ ਵਿੱਚ ਸੌਖੀ ਤਰ੍ਹਾਂ ਨੇਵੀਗੇਸ਼ਨ"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:137
+msgid "Toggle Bookmark"
+msgstr "ਬੁੱਕਮਾਰਕ ਬਦਲੋ"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:138
+msgid "Toggle bookmark status of the current line"
+msgstr "ਮੌਜੂਦਾ ਲਾਈਨ ਦੇ ਬੁੱਕਮਾਰਕ ਦੀ ਹਾਲਤ ਬਦਲੋ"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:140
+msgid "Goto Next Bookmark"
+msgstr "ਅਗਲੇ ਬੁੱਕਮਾਰਕ ਉੱਤੇ ਜਾਓ"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:141
+msgid "Goto the next bookmark"
+msgstr "ਅਗਲੇ ਬੁੱਕਮਾਰਕ ਉੱਤੇ ਜਾਓ"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:143
+msgid "Goto Previous Bookmark"
+msgstr "ਪਿਛਲੇ ਬੁੱਕਮਾਰਕ ਉੱਤੇ ਜਾਓ"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:144
+msgid "Goto the previous bookmark"
+msgstr "ਪਿਛਲੇ ਬੁੱਕਮਾਰਕ ਉੱਤੇ ਜਾਓ"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "ਆਟੋਮੈਟਿਕ ਹੀ ਬੰਦ ਕਰਨ ਵਾਲੀਆਂ ਬਰੈਕਟਾਂ ਸ਼ਾਮਲ ਕਰੋ।"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Bracket Completion"
+msgstr "ਬਰੈਕਟ ਪੂਰਨਤਾ"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:258
+msgid "Character Map"
+msgstr "ਅੱਖਰ ਮੈਪ"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "ਖਾਸ ਅੱਖਰਾਂ ਨੂੰ ਕੇਵਲ ਕਲਿੱਕ ਕਰਕੇ ਹੀ ਸ਼ਾਮਲ ਕਰੋ।"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:1
+msgid "Code comment"
+msgstr "ਕੋਡ ਟਿੱਪਣੀ"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "ਚੁਣੇ ਕੋਡ ਦੇ ਬਲਾਕ ਵਿੱਚ ਟਿੱਪਣੀ ਲਾਉ ਜਾਂ ਹਟਾਓ।"
+
+#: ../plugins/codecomment/codecomment.py:230
+msgid "Co_mment Code"
+msgstr "ਟਿੱਪਣੀ ਕੋਡ(_m)"
+
+#: ../plugins/codecomment/codecomment.py:232
+msgid "Comment the selected code"
+msgstr "ਚੁਣੇ ਕੋਡ ਲਈ ਟਿੱਪਣੀ"
+
+#: ../plugins/codecomment/codecomment.py:236
+msgid "U_ncomment Code"
+msgstr "ਕੋਡ ਟਿੱਪਣੀ ਹਟਾਓ(_n)"
+
+#: ../plugins/codecomment/codecomment.py:238
+msgid "Uncomment the selected code"
+msgstr "ਚੁਣੇ ਕੋਡ ਲਈ ਟਿੱਪਣੀ ਹਟਾਓ"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "ਰੰਗ ਚੋਣਕਾਰ"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "ਡਾਈਲਾਗ ਤੋਂ ਰੰਗ ਚੁਣੋ ਅਤੇ ਹੈਕਸਾ-ਡੈਸੀਮਲ ਕੋਡ ਦਿਓ"
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "Pick _Color..."
+msgstr "ਰੰਗ ਚੁਣੋ(_C)..."
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "ਡਾਈਲਾਗ ਤੋਂ ਰੰਗ ਚੁਣੋ"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Pick Color"
+msgstr "ਰੰਗ ਚੁਣੋ"
+
+#: ../plugins/colorpicker/colorpicker.py:226
+msgid "_Insert"
+msgstr "ਸ਼ਾਮਲ(_I)"
+
+#. ex:ts=4:et:
+#: ../plugins/commander/commander.pluma-plugin.desktop.in.in.h:1
+msgid "Command line interface for advanced editing"
+msgstr "ਮਾਹਰ ਐਡਿਟਿੰਗ ਲਈ ਕਮਾਂਡ ਲਾਈਨ ਇੰਟਰਫੇਸ"
+
+#: ../plugins/commander/commander.pluma-plugin.desktop.in.in.h:2
+#| msgid "Co_mment Code"
+msgid "Commander"
+msgstr "ਕਮਾਂਡਰ"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:4
+msgid "Draw Spaces"
+msgstr "ਖਾਲੀ ਥਾਂ ਪਾਓ"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "ਖਾਲੀ ਥਾਂ ਅਤੇ ਟੈਬ ਦਿਓ"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:1
+#| msgid "Draw non-breaking spaces"
+msgid "Draw leading spaces"
+msgstr "ਅੱਗੇ ਖਾਲੀ ਥਾਂ ਵਾਹੋ"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:2
+msgid "Draw new lines"
+msgstr "ਨਵੀਆਂ ਲਾਈਨਾਂ ਦਿਓ"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:3
+msgid "Draw non-breaking spaces"
+msgstr "ਬਿਨ-ਬਰੇਕ ਖਾਲੀ ਥਾਂ ਦਿਓ"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:4
+msgid "Draw spaces"
+msgstr "ਖਾਲੀ ਥਾਂ ਦਿਓ"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:5
+#| msgid "Draw spaces"
+msgid "Draw spaces in text"
+msgstr "ਟੈਕਸਟ ਵਿੱਚ ਥਾਂ ਦਿਓ"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:6
+msgid "Draw tabs"
+msgstr "ਟੈਬ ਬਣਾਓ"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:7
+#| msgid "Draw non-breaking spaces"
+msgid "Draw trailing spaces"
+msgstr "ਪਿੱਛੇ ਖਾਲੀ ਥਾਂ ਦਿਓ"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:1
+#| msgid "Draw non-breaking spaces"
+msgid "Draw Leading Spaces"
+msgstr "ਅੱਗੇ ਖਾਲੀ ਥਾਂ ਦਿਓ"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:2
+#| msgid "Draw new lines"
+msgid "Draw New lines"
+msgstr "ਨਵੀਆਂ ਲਾਈਨਾਂ ਬਣਾਓ"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:3
+#| msgid "Draw non-breaking spaces"
+msgid "Draw Non-Breaking Spaces"
+msgstr "ਬਿਨ-ਬਰੇਕ ਖਾਲੀ ਥਾਂ ਦਿਓ"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:5
+#| msgid "Draw Spaces and Tabs"
+msgid "Draw Spaces in Text"
+msgstr "ਟੈਕਸਟ ਵਿੱਚ ਖਾਲੀ ਥਾਂ ਦਿਓ"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:6
+#| msgid "Draw tabs"
+msgid "Draw Tabs"
+msgstr "ਟੈਬ ਬਣਾਓ"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:7
+#| msgid "Draw non-breaking spaces"
+msgid "Draw Trailing Spaces"
+msgstr "ਪਿੱਛੇ ਖਾਲੀ ਥਾਂ ਦਿਓ"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:8
+#| msgid "Show _White Space"
+msgid "Show White Spaces"
+msgstr "ਖਾਲੀ ਥਾਂ ਵੇਖੋ"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:167
+msgid "Show _White Space"
+msgstr "ਸਾਫ਼ ਥਾਂ ਵੇਖੋ(_W)"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:168
+msgid "Show spaces and tabs"
+msgstr "ਖਾਲੀ ਥਾਂ ਅਤੇ ਟੈਬਾਂ ਵੇਖੋ"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:612
+msgid "Error dialog"
+msgstr "ਗਲਤੀ ਡਾਈਲਾਗ"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "ਕਈ ਲਾਈਨਾਂ ਜੋੜ ਦਿਓ ਜਾਂ ਲੰਮੀਆਂ ਨੂੰ ਵੰਡ ਦਿਓ"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:2
+msgid "Join/Split Lines"
+msgstr "ਲਾਈਨਾਂ ਜੋੜੋ/ਵੰਡੋ"
+
+#: ../plugins/joinlines/joinlines.py:56
+msgid "_Join Lines"
+msgstr "ਲਾਈਨਾਂ ਦਿਓ(_J)"
+
+#: ../plugins/joinlines/joinlines.py:57
+msgid "Join the selected lines"
+msgstr "ਚੁਣੀਆਂ ਲਾਈਨਾਂ ਜੋੜੋ"
+
+#: ../plugins/joinlines/joinlines.py:59
+msgid "_Split Lines"
+msgstr "ਲਾਈਨਾਂ ਵੰਡੋ(_S)"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "Split the selected lines"
+msgstr "ਚੁਣੀਆਂ ਲਾਈਨਾਂ ਵੰਡੋ"
+
+#. ex:ts=4:et:
+#: ../plugins/multiedit/multiedit.pluma-plugin.desktop.in.in.h:1
+msgid "Edit document in multiple places at once"
+msgstr "ਇਕੋ ਵਾਰ ਡੌਕੂਮੈਂਟ ਕਈ ਥਾਵਾਂ ਉੱਤੇ ਸੋਧੋ"
+
+#: ../plugins/multiedit/multiedit.pluma-plugin.desktop.in.in.h:2
+msgid "Multi Edit"
+msgstr "ਮਲਟੀ ਐਡਿਟ"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:279
+msgid "Added edit point..."
+msgstr "ਐਡਿਟ ਪੁਆਇੰਟ ਜੋੜਿਆ..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:417
+msgid "Column Mode..."
+msgstr "ਕਾਲਮ ਮੋਡ..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:535
+msgid "Removed edit point..."
+msgstr "ਹਟਾਇਆ ਐਡਿਟ ਪੁਆਇੰਟ..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:685
+msgid "Cancelled column mode..."
+msgstr "ਕਾਲਮ ਮੋਡ ਰੱਦ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:804
+msgid "Enter column edit mode using selection"
+msgstr "ਚੋਣ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਕਾਲਮ ਐਡਿਟ ਮੋਡ ਦਿਓ"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:805
+msgid "Toggle edit point"
+msgstr "ਸੋਧ ਪੁਆਇੰਟ ਬਦਲੋ"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:806
+msgid "Add edit point at beginning of line/selection"
+msgstr "ਲਾਈਨ ਦੇ ਸ਼ੁਰੂ/ਚੋਣ ਉੱਤੇ ਐਡਿਟ ਪੁਆਇੰਟ ਸ਼ਾਮਲ ਕਰੋ"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:807
+msgid "Add edit point at end of line/selection"
+msgstr "ਲਾਈਨ ਦੇ ਅੰਤ/ਚੋਣ ਉੱਤੇ ਐਡਿਟ ਪੁਆਇੰਟ ਸ਼ਾਮਲ ਕਰੋ"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:843
+#: ../plugins/multiedit/multiedit/windowhelper.py:69
+msgid "Multi Edit Mode"
+msgstr "ਮਲਟੀ ਐਡਿਟ ਮੋਡ"
+
+#: ../plugins/multiedit/multiedit/windowhelper.py:69
+msgid "Start multi edit mode"
+msgstr "ਮਲਟੀ ਐਡਿਟ ਮੋਡ ਸ਼ੁਰੂ"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "ਟੈਬ-ਪੱਟੀ(_b)"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "ਮੌਜੂਦਾ ਵਿੰਡੋ ਵਿੱਚ ਟੈਬ-ਪੱਟੀ ਵੇਖੋ ਜਾਂ ਓਹਲੇ ਕਰੋ"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "ਟੈਬ-ਪੱਟੀ ਵੇਖੋ"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr "ਕੀ ਸੋਧਯੋਗ ਵਿੰਡੋ ਵਿੱਚ ਟੈਬ-ਪੱਟੀ ਵੇਖਣੀ ਹੈ"
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr "ਟੈਬ-ਪੱਟੀ ਵੇਖਣ/ਓਹਲੇ ਕਰਨ ਲਈ ਮੇਨੂ ਐਂਟਰੀ ਸ਼ਾਮਲ ਕਰੋ"
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "ਟੈਬ-ਪੱਟੀ ਵੇਖੋ/ਓਹਲੇ ਕਰੋ"
+
+#: ../plugins/sessionsaver/__init__.py:64
+msgid "Sa_ved sessions"
+msgstr "ਸੰਭਾਲੇ ਸ਼ੈਸ਼ਨ(_v)"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "_Save current session"
+msgstr "ਮੌਜੂਦਾ ਸ਼ੈਸ਼ਨ ਸੰਭਾਲੋ(_S)"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "Save the current document list as a new session"
+msgstr "ਨਵੇਂ ਸ਼ੈਸ਼ਨ ਵਜੋਂ ਮੌਜੂਦਾ ਡੌਕੂਮੈਂਟ ਸੰਭਾਲੋ"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "_Manage saved sessions..."
+msgstr "ਸੰਭਾਲੇ ਸ਼ੈਸ਼ਨਾਂ ਦਾ ਪਰਬੰਧ(_M)..."
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "Open the saved session manager"
+msgstr "ਸੰਭਾਲੇ ਸ਼ੈਸ਼ਨ ਮੈਨੇਜਰ ਖੋਲ੍ਹੋ"
+
+#: ../plugins/sessionsaver/__init__.py:106
+#, python-format
+msgid "Recover '%s' session"
+msgstr "ਸ਼ੈਸ਼ਨ '%s' ਮੁੜ-ਪ੍ਰਾਪਤ ਕਰੋ"
+
+#: ../plugins/sessionsaver/dialogs.py:167
+msgid "Session Name"
+msgstr "ਸ਼ੈਸ਼ਨ ਨਾਂ"
+
+#. ex:ts=4:et:
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:1
+msgid "Save and restore your working sessions"
+msgstr "ਆਪਣੇ ਕਾਰਜਕਾਰੀ ਸ਼ੈਸ਼ਨ ਸੰਭਾਲੋ ਅਤੇ ਮੁੜ-ਪ੍ਰਾਪਤ ਕਰੋ"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:2
+msgid "Session Saver"
+msgstr "ਸ਼ੈਸ਼ਨ ਸੰਭਾਲਕਰਤਾ"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:1
+msgid "Save session"
+msgstr "ਸ਼ੈਸ਼ਨ ਸੰਭਾਲੋ"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:2
+msgid "Saved Sessions"
+msgstr "ਸੰਭਾਲੇ ਸ਼ੈਸ਼ਨ"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:3
+msgid "Session name:"
+msgstr "ਸ਼ੈਸ਼ਨ ਨਾਂ:"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "ਭੁੱਲ ਜਾਓ ਕਿ ਤੁਸੀਂ ਸਾਰਣੀ ਨਹੀਂ ਵਰਤ ਰਹੇ ਹੋ।"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Smart Spaces"
+msgstr "ਚੁਸਤ ਖਾਲੀ ਥਾਵਾਂ"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "ਤਲ ਵਿੱਚ ਟਰਮੀਨਲ ਸ਼ਾਮਲ ਕਰੋ।"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:2
+msgid "Embedded Terminal"
+msgstr "ਟਰਮੀਨਲ ਸ਼ਾਮਲ ਕਰੋ"
+
+#: ../plugins/terminal/terminal.py:262
+msgid "Terminal"
+msgstr "ਟਰਮੀਨਲ"
+
+#: ../plugins/terminal/terminal.py:285
+msgid "C_hange Directory"
+msgstr "ਡਾਇਰੈਕਟਰੀ ਬਦਲੋ(_h)"
+
+#: ../plugins/wordcompletion/pluma-word-completion-plugin.c:144
+msgid "Document Words"
+msgstr "ਡੌਕੂਮੈਂਟ ਸ਼ਬਦ"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:1
+#| msgid "Bracket Completion"
+msgid "Word Completion"
+msgstr "ਸ਼ਬਦ ਮੁਕੰਮਲ"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Word completion using the completion framework"
+msgstr "ਕੰਪਲਿਸ਼ਨ ਫਰੇਮਵਰਕ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਸ਼ਬਦ ਪੂਰੇ ਕਰੋ"
+
+#~ msgid "_ASCII Table"
+#~ msgstr "_ASCII ਸਾਰਣੀ"
+
+#~ msgid "Pop-up a dialog containing an ASCII Table"
+#~ msgstr "ASCII ਸਾਰਣੀ ਰੱਖਣ ਵਾਲਾ ਪੋਪਅੱਪ ਵਾਰਤਾਲਾਪ"
+
+#~ msgid "Char"
+#~ msgstr "ਅੱਖਰ"
+
+#~ msgid "Dec#"
+#~ msgstr "ਡੈਕਾ#"
+
+#~ msgid "Hex#"
+#~ msgstr "ਹੈਕਸਾ#"
+
+#~ msgid "Name"
+#~ msgstr "ਨਾਂ"
+
+#~ msgid "ASCII Table"
+#~ msgstr "ASCII ਸਾਰਣੀ"
+
+#~ msgid "ASCII table"
+#~ msgstr "ASCII ਸਾਰਣੀ"
+
+#~ msgid "This plugin displays a pop-up dialog which contains an ASCII Table."
+#~ msgstr "ਇਹ ਪਲੱਗਿੰਨ ਨਾਲ ASCII ਸਾਰਣੀ ਰੱਖਣ ਵਾਲਾ ਪੋਪਅੱਪ ਵਾਰਤਾਲਾਪ ਖੁੱਲੇਗਾ।"
+
+#~ msgid "Open CVS Chan_geLogs"
+#~ msgstr "CVS Chan_geLogs ਖੋਲੋ"
+
+#~ msgid "Searches for ChangeLogs in the current document and opens them"
+#~ msgstr "ਮੌਜੂਦਾ ਦਸਤਾਵੇਜ਼ ਵਿੱਚ ChangeLog ਦੀ ਖੋਜ ਕਰੋ ਅਤੇ ਇਹਨਾਂ ਨੂੰ ਖੋਲੋ"
+
+#~ msgid "A plugin that opens ChangeLogs found in CVS commit messages."
+#~ msgstr "ਇੱਕ ਪਲੱਗਿੰਨ, ਜੋ ਕਿ CVS ਕਮਿਟ ਸੁਨੇਹਿਆਂ ਦੇ ChangeLog ਨੂੰ ਖੋਲਦਾ ਹੈ।"
+
+#~ msgid "CVS ChangeLog"
+#~ msgstr "CVS ChangeLog"
+
+#~ msgid "Co_mpare Files..."
+#~ msgstr "ਫਾਇਲ ਤੁਲਨਾ(_m)..."
+
+#~ msgid "Makes a diff file from two documents or files"
+#~ msgstr "ਦੋ ਦਸਤਾਵੇਜ਼ ਜਾਂ ਫਾਇਲਾਂ ਤੋਂ ਅੰਤਰ(diff) ਫਾਇਲ ਬਣਦੀ ਹੈ"
+
+#~ msgid "Compare Files"
+#~ msgstr "ਫਾਇਲਾਂ ਦੀ ਤੁਲਨਾ"
+
+#~ msgid "C_ompare"
+#~ msgstr "ਤੁਲਨਾ(_o)"
+
+#~ msgid "Executed command"
+#~ msgstr "ਕਮਾਂਡ ਚਲਾਓ"
+
+#~ msgid "The two documents you selected are the same."
+#~ msgstr "ਤੁਸੀਂ, ਜੋ ਦਸਤਾਵੇਜ਼ ਚੁਣੇ ਹਨ, ਇੱਕ ਜਿਹੇ ਹਨ।"
+
+#~ msgid ""
+#~ "The \"first\" file you selected does not exist.\n"
+#~ "\n"
+#~ "Please provide a valid file."
+#~ msgstr ""
+#~ "\"ਪਹਿਲੀਂ\" ਫਾਇਲ, ਜੋ ਤੁਸੀਂ ਚੁਣੀ ਹੈ, ਮੌਜੂਦ ਨਹੀਂ ਹੈ।\n"
+#~ "\n"
+#~ "ਕਿਰਪਾ ਕਰਕੇ ਠੀਕ ਫਾਇਲ ਨਾਂ ਦਿਓ।"
+
+#~ msgid ""
+#~ "The \"second\" file you selected does not exist.\n"
+#~ "\n"
+#~ "Please provide a valid file."
+#~ msgstr ""
+#~ "\"ਦੂਜੀ\" ਫਾਇਲ, ਜੋ ਤੁਸੀਂ ਚੁਣੀ ਹੈ, ਮੌਜੂਦ ਨਹੀਂ ਹੈ।\n"
+#~ "\n"
+#~ "ਕਿਰਪਾ ਕਰਕੇ ਠੀਕ ਫਾਇਲ ਨਾਂ ਦਿਓ।"
+
+#~ msgid "The two files you selected are the same."
+#~ msgstr "ਦੋ ਚੁਣੀਆਂ ਫਾਇਲਾਂ ਇੱਕ ਹੀ ਹਨ।"
+
+#~ msgid "The \"first\" document contains no text."
+#~ msgstr "\"ਪਹਿਲੇ\" ਦਸਤਾਵੇਜ਼ ਵਿੱਚ ਕੋਈ ਪਾਠ ਨਹੀਂ ਹੈ।"
+
+#~ msgid "The \"second\" document contains no text."
+#~ msgstr "\"ਦੂਜੇ\" ਦਸਤਾਵੇਜ਼ ਵਿੱਚ ਕੋਈ ਪਾਠ ਨਹੀਂ ਹੈ।"
+
+#~ msgid ""
+#~ "Impossible to compare the selected documents.\n"
+#~ "\n"
+#~ "pluma could not create a temporary file."
+#~ msgstr ""
+#~ "ਚੁਣੇ ਦਸਤਾਵੇਜ਼ਾਂ ਦੀ ਤੁਲਨਾ ਅਸੰਭਵ ਹੈ।\n"
+#~ "\n"
+#~ "ਜੀ-ਸੰਪਾਦਕ ਆਰਜ਼ੀ ਡਾਇਰੈਕਟਰੀ ਨਹੀਂ ਬਣਾ ਸਕਦਾ ਹੈ।"
+
+#~ msgid ""
+#~ "Impossible to compare the selected documents.\n"
+#~ "\n"
+#~ "Error executing the diff command."
+#~ msgstr ""
+#~ "ਚੁਣੇ ਦਸਤਾਵੇਜ਼ਾਂ ਦੀ ਤੁਲਨਾ ਅਸੰਭਵ ਹੈ।\n"
+#~ "\n"
+#~ "ਅੰਤਰ ਕਮਾਂਡ ਚਲਾਉਣ ਦੌਰਾਨ ਗਲਤੀ ਆਈ ਹੈ।"
+
+#~ msgid "No differences were found between the selected documents."
+#~ msgstr "ਚੁਣੇ ਦਸਤਾਵੇਜ਼ਾਂ ਵਿੱਚ ਕੋਈ ਅੰਤਰ ਨਹੀਂ ਲੱਭਾ ਹੈ।"
+
+#~ msgid ""
+#~ "Impossible to compare the selected documents.\n"
+#~ "\n"
+#~ "The result contains invalid UTF-8 data."
+#~ msgstr ""
+#~ "ਚੁਣੇ ਦਸਤਾਵੇਜ਼ਾਂ ਦੀ ਤੁਲਨਾ ਅਸੰਭਵ ਹੈ।\n"
+#~ "\n"
+#~ "ਨਤੀਜਾ ਗਲਤ UTF-8 ਡਾਟਾ ਰੱਖਦਾ ਹੈ।"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "Choose the files to compare."
+#~ msgstr "ਤੁਲਨਾ ਕਰਨ ਲਈ ਫਾਇਲਾਂ ਚੁਣੋ।"
+
+#~ msgid "Compare files..."
+#~ msgstr "ਫਾਇਲ ਤੁਲਨਾ...."
+
+#~ msgid "F_rom document"
+#~ msgstr "ਦਸਤਾਵੇਜ਼ ਤੋਂ(_r)"
+
+#~ msgid "First"
+#~ msgstr "ਪਹਿਲਾਂ"
+
+#~ msgid "First file from disk"
+#~ msgstr "ਡਿਸਕ ਤੋਂ ਪਹਿਲੀ ਫਾਇਲ਼"
+
+#~ msgid "First file from open document"
+#~ msgstr "ਖੁੱਲੇ ਦਸਤਾਵੇਜ਼ ਤੋਂ ਪਹਿਲੀਂ ਫਾਇਲ"
+
+#~ msgid "From _document"
+#~ msgstr "ਦਸਤਾਵੇਜ਼ ਤੋਂ(_d)"
+
+#~ msgid "From a _file on disk"
+#~ msgstr "ਡਿਸਕ ਤੋਂ ਫਾਇਲ(_f)"
+
+#~ msgid "From a file o_n disk"
+#~ msgstr "ਡਿਸਕ ਤੋਂ ਫਾਇਲ(_n)"
+
+#~ msgid "Ignore _blanks (-b option)"
+#~ msgstr "ਖਾਲੀ ਛੱਡੋ(_b) (-b ਚੋਣ)"
+
+#~ msgid "Note that this option is only supported by GNU diff"
+#~ msgstr "ਇਹ ਚੋਣ, ਸਿਰਫ GNU diff ਰਾਹੀਂ ਹੀ ਸਹਿਯੋਗੀ ਹੈ"
+
+#~ msgid "Second"
+#~ msgstr "ਦੂਜਾ"
+
+#~ msgid "Second file from disk"
+#~ msgstr "ਡਿਸਕ ਤੋਂ ਦੂਜੀ ਫਾਇਲ"
+
+#~ msgid "Second file from open document"
+#~ msgstr "ਖੁੱਲ਼ੇ ਦਸਤਾਵੇਜ਼ ਤੋਂ ਦੂਜੀ ਫਾਇਲ"
+
+#~ msgid "Select the \"first\" file..."
+#~ msgstr "\"ਪਹਿਲੀਂ\" ਫਾਇਲ਼ ਚਣੋ..."
+
+#~ msgid "Select the \"second\" file..."
+#~ msgstr "\"ਦੂਜੀ\" ਫਾਇਲ ਚਣੋ..."
+
+#~ msgid "Select the first file to compare"
+#~ msgstr "ਤੁਲਨਾ ਕਰਨ ਲਈ ਪਹਿਲੀਂ ਫਾਇਲ ਚੁਣੋ"
+
+#~ msgid "Select the first open document to compare"
+#~ msgstr "ਤੁਲਨਾ ਕਰਨ ਲਈ ਪਹਿਲਾਂ ਖੁੱਲਾ ਦਸਤਾਵੇਜ਼ ਚੁਣੋ"
+
+#~ msgid "Select the second file to compare"
+#~ msgstr "ਤੁਲਨਾ ਕਰਨ ਲਈ ਦੂਜੀ ਫਾਇਲ ਚੁਣੋ"
+
+#~ msgid "Select the second open document to compare"
+#~ msgstr "ਤੁਲਨਾ ਕਰਨ ਲਈ ਦੂਜਾ ਖੁੱਲਾ ਦਸਤਾਵੇਜ਼ ਚੁਣੋ"
+
+#~ msgid "Use the _unified output format (-u option)"
+#~ msgstr "ਇਕਸਾਰ ਆਉਟਪੁੱਟ ਫਾਰਮਿਟ ਚੁਣੋ(_u) (-u ਚੋਣ)"
+
+#~ msgid ""
+#~ "The Compare Files plugin uses the \"diff\" program to compare two "
+#~ "documents or files on disk."
+#~ msgstr ""
+#~ "ਤੁਲਨਾ ਫਾਇਲ ਪਲੱਗਿੰਨ ਡਿਸਕ ਤੋਂ ਦੋ ਦਸਤਾਵੇਜ਼ ਜਾਂ ਫਾਇਲਾਂ ਵਿੱਚ ਅੰਤਰ ਜਾਣਨ ਲਈ \"diff\" ਕਾਰਜ "
+#~ "ਵਰਤਦੀ ਹੈ।"

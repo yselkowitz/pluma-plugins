@@ -1,0 +1,281 @@
+# Bulgarian translation of pluma-plugins po-file.
+# Copyright (C) 2002, 2003, 2005, 2006, 2008, 2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the pluma-plugins package.
+# Evgeni Boevski <linkej@yahoo.com>, 2002.
+# Yanko Kaneti <yaneti@declera.com>, 2003.
+# Alexander Shopov <ash@contact.bg>, 2005, 2006.
+# Yavor Doganov <yavor@gnu.org>, 2008, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-20 09:32+0300\n"
+"PO-Revision-Date: 2009-09-20 09:31+0300\n"
+"Last-Translator: Yavor Doganov <yavor@gnu.org>\n"
+"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:1
+msgid "Bookmarks"
+msgstr "Отметки"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "Лесна навигация из документите чрез отметки"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:130
+msgid "Toggle Bookmark"
+msgstr "Добавяне/премахване на отметка"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:131
+msgid "Toggle bookmark status of the current line"
+msgstr "Добавяне или премахване на отметка за текущия ред"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:133
+msgid "Goto Next Bookmark"
+msgstr "Отиване на следващата отметка"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:134
+msgid "Goto the next bookmark"
+msgstr "Отиване на следващата отметка"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:136
+msgid "Goto Previous Bookmark"
+msgstr "Отиване на предишната отметка"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:137
+msgid "Goto the previous bookmark"
+msgstr "Отиване на предишната отметка"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "Автоматично добавяне на затварящи скоби."
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Bracket Completion"
+msgstr "Затваряне на скобите"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:258
+msgid "Character Map"
+msgstr "Таблица със знаци"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "Вмъкване на специални знаци чрез натискането им"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:1
+msgid "Code comment"
+msgstr "Коментиране на код"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "Превръщане на част от кода в коментар и обратно."
+
+#: ../plugins/codecomment/codecomment.py:230
+msgid "Co_mment Code"
+msgstr "_Коментиране"
+
+#: ../plugins/codecomment/codecomment.py:232
+msgid "Comment the selected code"
+msgstr "Превръщане на избраното в коментар"
+
+#: ../plugins/codecomment/codecomment.py:236
+msgid "U_ncomment Code"
+msgstr "_Разкоментиране"
+
+#: ../plugins/codecomment/codecomment.py:238
+msgid "Uncomment the selected code"
+msgstr "Махане на коментирането на избраното"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "Цветна палитра"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr ""
+"Избор на цвят от диалогов прозорец и вмъкване на шестдесетичното му "
+"представяне."
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "Pick _Color..."
+msgstr "Избор на _цвят…"
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "Избор на цвят от диалогов прозорец"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Pick Color"
+msgstr "Избор на цвят"
+
+#: ../plugins/colorpicker/colorpicker.py:226
+msgid "_Insert"
+msgstr "_Вмъкване"
+
+#. ex:ts=4:et:
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Draw Spaces"
+msgstr "Изобразяване на шпации"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "Изобразяване на шпации и табулатори"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:1
+msgid "Draw new lines"
+msgstr "Изобразяване на нови редове"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:2
+msgid "Draw non-breaking spaces"
+msgstr "Изобразяване на шпации, които не се пренасят"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:3
+msgid "Draw spaces"
+msgstr "Изобразяване на шпации"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:4
+msgid "Draw tabs"
+msgstr "Изобразяване на табулатори"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:151
+msgid "Show _White Space"
+msgstr "Показване на _празни знаци"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:152
+msgid "Show spaces and tabs"
+msgstr "Показване на шпации и табулатори"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:542
+msgid "Error dialog"
+msgstr "Прозорец за грешки"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "Съединяване на един ред или разделяне на няколко"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:2
+msgid "Join/Split Lines"
+msgstr "Съединяване/разделяне на редове"
+
+#: ../plugins/joinlines/joinlines.py:56
+msgid "_Join Lines"
+msgstr "_Съединяване на редове"
+
+#: ../plugins/joinlines/joinlines.py:57
+msgid "Join the selected lines"
+msgstr "Съединяване на избраните редове"
+
+#: ../plugins/joinlines/joinlines.py:59
+msgid "_Split Lines"
+msgstr "_Разделяне на редове"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "Split the selected lines"
+msgstr "Разделяне на избраните редове"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "Лента за _табулациите"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "Показване/скриване на лентата за табулации в текущия прозорец"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "Лентата за табулациите е видима"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr ""
+"Дали лентата за табулации да е видима в прозореца, в който се редактира."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr ""
+"Добавяне на елемент към менюто за показване/скриване на лентата за табулации"
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "Показване/скриване на лентата за табулации"
+
+#: ../plugins/sessionsaver/__init__.py:64
+msgid "Sa_ved sessions"
+msgstr "Запазе_ни сесии"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "_Save current session"
+msgstr "_Запазване на текущата сесия"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "Save the current document list as a new session"
+msgstr "Запазване на списъка с текущите документи като нова сесия"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "_Manage saved sessions..."
+msgstr "_Управление на запазените сесии…"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "Open the saved session manager"
+msgstr "Отваряне на управителя на запазени сесии"
+
+#: ../plugins/sessionsaver/__init__.py:106
+#, python-format
+msgid "Recover '%s' session"
+msgstr "Възстановяване на сесия „%s“"
+
+#: ../plugins/sessionsaver/dialogs.py:167
+msgid "Session Name"
+msgstr "Име на сесия"
+
+#. ex:ts=4:et:
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:1
+msgid "Save and restore your working sessions"
+msgstr "Запазване и възстановяване на работните сесии"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:2
+msgid "Session Saver"
+msgstr "Запазване на сесии"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:1
+msgid "Save session"
+msgstr "Запазване на сесия"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:2
+msgid "Saved Sessions"
+msgstr "Запазени сесии"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:3
+msgid "Session name:"
+msgstr "Име на сесията:"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "Забравяне, че не се ползват табулации."
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Smart Spaces"
+msgstr "Умни шпации"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "Показване на терминал в долния прозорец."
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:2
+msgid "Embedded Terminal"
+msgstr "Вграден терминал"
+
+#: ../plugins/terminal/terminal.py:262
+msgid "Terminal"
+msgstr "Терминал"
+
+#: ../plugins/terminal/terminal.py:285
+msgid "C_hange Directory"
+msgstr "_Смяна на папка"

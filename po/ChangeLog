@@ -1,0 +1,647 @@
+2009-06-10  I. Felix <ifelix@redhat.com>
+
+	* ta.po:  Tamil Translation updated
+
+==== pluma-plugins 2.26.1 ====
+
+2009-03-31  Petr Kovar  <pknbe@volny.cz>
+
+	* cs.po: Updated Czech translation by Kamil Paral.
+
+2009-03-30  Sandeep Shedmake  <sshedmak@redhat.com>
+
+	* mr.po: Added Marathi Translations.
+	* LINGUAS: Added Marathi [mr] locale.
+
+2009-03-26  Philip Withnall  <philip@tecnocode.co.uk>
+
+	* en_GB.po: Updated British English translation by Jen Ockwell
+	<jenfraggleubuntu@gmail.com>.
+
+2009-03-24  Krishnababu K  <kkrothap@redhat.com>
+
+	* te.po: Updated Telugu Translation.
+	* LINGUAS: Added Telugu [te] locale.
+
+2009-03-24  Takeshi AIHANA <takeshi.aihana@gmail.com>
+
+	* ja.po: Updated Japanese translation.
+
+=== pluma-plugins 2.26.0 ====
+
+2009-03-10  Claude Paroz  <claude@2xlibre.net>
+
+	* fr.po: Updated French translation.
+
+2009-03-09  David Planella  <david.planella@gmail.com>
+
+	* ca.po: Updated Catalan translation by Joan Duran.
+
+2009-02-28 Og Maciel <ogmaciel@gnome.org>
+
+	* it.po: Updated Italian translation by Milo Casagrande.
+
+=== pluma-plugins 2.25.3 ====
+
+2009-02-22  Duarte Loreto <happyguy_pt@hotmail.com>
+
+	* pt.po: Updated Portuguese translation by Antonio Lima
+	<amrlima@gmail.com>.
+
+2009-01-23  Raivis DEjus  <orvils@gmail.com>
+
+	* lv.po: Updated Latvian translation.
+
+2009-01-13  Daniel Nylander <po@danielnylander.se>
+
+	* sv.po: Updated Swedish translation.
+
+2009-01-07  Gabor Kelemen  <kelemeng@gnome.hu>
+
+	* hu.po: Translation updated.
+
+2009-01-06 Og Maciel <ogmaciel@gnome.org>
+
+	* pt_BR.po: Updated Brazilian Portuguese translation by
+	Vladimir Melo.
+
+=== pluma-plugins 2.25.2 ====
+
+2009-01-05  Mario Blättermann  <mariobl@svn.gnome.org>
+
+	* de.po: Updated German translation.
+
+2009-01-03  Jorge Gonzalez  <jorgegonz@svn.gnome.org>
+
+	* es.po: Updated Spanish translation.
+
+2009-01-03  Jesse van den Kieboom  <jesse@icecrew.nl>
+
+	* POTFILES.in: Updated to include new bookmarks plugin.	
+
+2008-12-22  Gabor Kelemen  <kelemeng@gnome.hu>
+
+	* hu.po: Translation updated.
+
+2008-12-14  Leonardo Ferreira Fontenelle  <leonardof@gnome.org>
+
+	* pt_BR.po: Updated Brazilian Portuguese translation by Fabrio Nogueira.
+
+2008-12-06  Mario Blättermann  <mariobl@svn.gnome.org>
+
+	* de.po: Updated German translation.
+
+2008-12-03  Claude Paroz  <claude@2xlibre.net>
+
+	* fr.po: Updated French translation.
+
+=== pluma-plugins 2.25.1 ====
+
+2008-11-30  Jorge Gonzalez  <jorgegonz@svn.gnome.org>
+
+	* es.po: Updated Spanish translation.
+
+2008-11-27  Daniel Nylander <po@danielnylander.se>
+
+	* sv.po: Updated Swedish translation.
+
+2008-11-24  Nickolay V. Shmyrev  <nshmyrev@yandex.ru>
+
+	* ru.po: Updated Russian translation by Artem Popov.
+
+2008-11-24  Ignacio Casal Quinteiro  <nacho.resa@gmail.com>
+
+	* POTFILES.skip:
+	* POTFILES.in:
+	Updated.
+
+==== pluma-plugins 2.22.5 ====
+
+==== pluma-plugins 2.22.4 ====
+
+2008-10-06  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* LINGUAS: Remove no.po
+	* nb.po: Update
+	* no.po: Remove.
+
+2008-09-19  Gabor Kelemen  <kelemeng@gnome.hu>
+
+	* hu.po: Translation updated.
+
+2008-09-19  Djihed Afifi <djihed@gmail.com> 
+
+	* ar.po: Updated Arabic Translation by Djihed Afifi.
+
+2008-09-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* th.po: Updated Thai translation by Visal Srivisal.
+
+==== pluma-plugins 2.22.3 ====
+
+2008-09-07  Funda Wang  <fundawang@gmail.com>
+
+	* zh_CN.po: Updated zh_CN translation.
+
+2008-07-31  Djihed Afifi <djihed@gmail.com> 
+
+	* ar.po: Updated Arabic Translation by Djihed Afifi.
+
+2008-07-31  Djihed Afifi <djihed@gmail.com> 
+
+	* ar.po: Updated Arabic Translation by Djihed Afifi.
+
+2008-07-01  Gil Forcada  <gforcada@gnome.org>
+
+	* ca.po: Updated Catalan translation by Francesc Vilches.
+
+2008-06-28  Wadim Dziedzic  <wadimd@svn.gnome.org>
+
+	* pl.po: Updated Polish translation
+
+2008-06-20  Jonh Wendell  <jwendell@gnome.org>
+
+	* pt_BR.po: Updated Brazilian Portuguese translation by Fábio Nogueira.
+
+2008-06-06   Clytie Siddall <clytie@riverland.net.au>
+
+	* vi.po: Updated Vietnamese translation.
+
+==== pluma-plugins 2.22.2 ====
+
+==== pluma-plugins 2.22.1 ====
+
+2008-04-13  Alexander Shopov  <ash@contact.bg>
+
+	* bg.po: Updated Bulgarian translation by
+	Yavor Doganov <yavor@gnu.org>
+
+2008-04-13  Andre Klapper  <a9016009@gmx.de>
+
+	* de.po: Updated German translation.
+
+==== pluma-plugins 2.22.1 ====
+
+2008-04-07  Duarte Loreto <happyguy_pt@hotmail.com>
+
+	* pt.po: Updated Portuguese translation by António Lima
+	<amrlima@gmail.com>.
+
+2008-03-16  Gabor Kelemen  <kelemeng@gnome.hu>
+
+	* hu.po: Translation updated
+
+2008-03-15  Takeshi AIHANA <takeshi.aihana@gmail.com>
+
+	* ja.po: Updated Japanese translation.
+
+2008-03-15  Andre Klapper  <a9016009@gmx.de>
+
+	* de.po: Updated German translation.
+
+==== pluma-plugins 2.22.0 ====
+
+2008-03-09  Ihar Hrachyshka <booxter@lacinka.org>
+
+	* be@latin.po: Added Belarusian Latin translation.
+	* LINGUAS: Added be@latin.
+
+2008-03-09  Ilkka Tuohela <hile@iki.fi>
+
+	* fi.po: Updated Finnish translation.
+
+2008-03-08  Philip Withnall  <pwithnall@svn.gnome.org>
+
+	* en_GB.po: Updated British English translation.
+
+2008-03-08  Claude Paroz  <claude@2xlibre.net>
+
+	* fr.po: Updated French translation.
+
+2008-03-07  Daniel Nylander <po@danielnylander.se>
+
+	* sv.po: Updated Swedish translation.
+
+2008-03-04  Jorge Gonzalez  <jorgegonz@svn.gnome.org>
+
+	* es.po: Updated Spanish translation
+
+2008-03-03  Petr Kovar  <pknbe@volny.cz>
+
+	* cs.po: Updated Czech translation by Kamil Paral.
+
+2008-03-02  Luca Ferretti  <elle.uca@libero.it>
+
+	* it.po: Updated Italian translation by Milo Casagrande.
+
+2008-03-01  Daniel Nylander <po@danielnylander.se>
+
+	* sv.po: Updated Swedish translation.
+
+2008-02-28  Leonardo Ferreira Fontenelle  <leonardof@svn.gnome.org>
+
+	* pt_BR.po: Updated Brazilian Portuguese translation.
+
+2008-02-26  Luca Ferretti  <elle.uca@libero.it>
+
+	* it.po: Updated Italian translation by Milo Casagrande.
+
+2008-02-25  Gil Forcada  <gforcada@gnome.org>
+
+	* ca.po: Updated Catalan translation by Joan Duran.
+
+2008-02-19  Ilkka Tuohela <hile@iki.fi>
+
+	* fi.po: Updated Finnish translation.
+
+2008-02-18  Nguyễn Thái Ngọc Duy <pclouds@gmail.com>
+
+	* vi.po: Updated Vietnamese translation
+
+2008-02-18  Jorge Gonzalez  <jorgegonz@svn.gnome.org>  
+
+	* es.po: Updated Spanish translation 
+
+2008-02-16  Djihed Afifi <djihed@gmail.com> 
+
+	* ar.po: Updated Arabic Translation by Djihed Afifi.
+
+2008-02-11  Petr Kovar  <pknbe@volny.cz>
+
+	* cs.po: Updated Czech translation by Kamil Paral.
+
+2008-01-27 Kostas Papadimas <pkst@gnome.org>
+
+	* el.po: Updated Greek Translation.
+
+2008-01-15  Daniel Nylander <po@danielnylander.se>
+
+	* sv.po: Updated Swedish translation.
+
+2008-01-13  Kenneth Nielsen  <k.nielsen81@gmail.com>
+
+	* da.po: Updated Danish translation
+
+2007-12-31  Yannig Marchegay <yannig@marchegay.org>
+
+	* oc.po: Updated Occitan translation.
+2007-12-22  Stéphane Raimbault  <stephane.raimbault@gmail.com>
+
+	* fr.po: Updated French translation by Robert-André Mauchin.
+
+2007-12-17  Duarte Loreto <happyguy_pt@hotmail.com>
+
+	* pt.po: Updated Portuguese translation by António Lima
+	<amrlima@gmail.com>.
+
+2007-11-03  Jorge Gonzalez <jorgegonz@svn.gnome.org>
+
+        * es.po: Updated Spanish translation
+
+==== pluma-plugins 2.20.0 ====
+
+2007-09-21  Gil Forcada  <gforcada@svn.gnome.org>
+
+	* ca.po: Updated Catalan translation by Francesc Vilches.
+
+2007-09-15   Clytie Siddall <clytie@riverland.net.au>
+
+	* vi.po: Updated Vietnamese translation.
+
+2007-09-14 Gabor Kelemen  <kelemeng@gnome.hu>
+
+	* hu.po: Translation updated.
+
+2007-09-08  Takeshi AIHANA <takeshi.aihana@gmail.com>
+
+	* ja.po: Updated Japanese translation.
+
+2007-09-07  Jonh Wendell  <jwendell@gnome.org>
+
+	* pt_BR.po: Updated Brazilian Portuguese translation by Og Maciel.
+
+2007-09-07  Ilkka Tuohela  <hile@iki.fi>
+
+	* fi.po: Updated Finnish translation.
+
+2007-09-04  Alessio Frusciante  <algol@firenze.linux.it>
+
+	* it.po: Updated Italian translation by
+	Milo Casagrande <milo_casagrande@yahoo.it>.
+
+==== pluma-plugins 2.19.90 ====
+
+2007-08-20  Daniel Nylander <po@danielnylander.se>
+
+	* sv.po: Updated Swedish translation.
+
+2007-08-14  Ilkka Tuohela  <hile@iki.fi>
+
+	* fi.po: Updated Finnish translation.
+
+2007-07-30  Daniel Nylander <po@danielnylander.se>
+
+	* sv.po: Updated Swedish translation.
+
+2007-07-15  Jorge Gonzalez <jorgegonz@svn.gnome.org>
+
+        * es.po: Updated Spanish translation
+
+2007-06-21  Pema Geyleg <pema.geyleg@gmail.com>
+
+	* dz.po: Updated dzongkha translation
+
+2007-06-20  Alessio Frusciante  <algol@firenze.linux.it>
+
+	* LINGUAS: Added "it" (Italian).
+	* it.po: Added Italian translation by
+	Milo Casagrande <milo_casagrande@yahoo.it>.
+
+2007-06-15  Jorge Gonzalez <jorgegonz@svn.gnome.org>
+
+        * es.po: Updated Spanish translation
+
+2007-05-04  Jorge Gonzalez <jorgegonz@svn.gnome.org>
+
+	* es.po: Updated Spanish translation.
+
+2007-04-26  Christophe Merlet  <redfox@redfoxcenter.org>
+
+	* oc.po: Added Occitan translation from
+	Yannig MARCHEGAY <yannig@marchegay.org>.
+	* LINGUAS: Added "oc" (Occitan).
+
+2007-04-22  Stéphane Raimbault  <stephane.raimbault@gmail.com>
+
+	* fr.po: Updated French translation by Robert-André Mauchin.
+
+2007-04-6  Djihed Afifi <djihed@gmail.com> 
+
+	* ar.po: Updated Arabic Translation by Djihed Afifi.
+
+2007-03-28  Pema Geyleg <pema.geyleg@gmail.com>
+
+	* dz.po: Updated dzongkha translation.
+
+2007-03-21  Takeshi AIHANA <takeshi.aihana@gmail.com>
+
+	* ja.po: Updated Japanese translation.
+
+2007-03-19  Wouter Bolsterlee  <wbolster@svn.gnome.org>
+
+	* nl.po: Dutch translation updated by Wouter Bolsterlee.
+
+==== pluma-plugins 2.18.0 ====
+
+2007-03-19  Ilkka Tuohela  <hile@iki.fi>
+
+	* fi.po: Updated Finnish translation.
+
+2007-03-18  Leonardo Ferreira Fontenelle  <leonardof@svn.gnome.org>
+
+	* pt_BR.po: Updated Brazilian Portuguese translation ("Draw Spaces"
+	plugin).
+
+2007-03-18  Daniel Nylander <po@danielnylander.se>
+
+	* sv.po: Updated Swedish translation.
+
+2007-03-16  Steve Frécinaux  <code@istique.net>
+
+	* po/POTFILES.in: add Drawspaces files.
+
+2007-03-08  Leonardo Ferreira Fontenelle  <leonardof@svn.gnome.org>
+
+	* pt_BR.po: "gtk-cancel" and similar messages copied verbatim, just to
+	show 100% in the statistics.
+
+2007-03-05  Stéphane Raimbault  <stephane.raimbault@gmail.com>
+
+	* fr.po: Updated French translation.
+
+2007-03-04  Gabor Kelemen  <kelemeng@gnome.hu>
+
+	* hu.po: Translation updated by Gabor SUVEG.
+
+2007-02-28  Leonardo Ferreira Fontenelle  <leonardof@svn.gnome.org>
+
+	* pt_BR.po: Updated Brazilian Portuguese translation.
+
+2007-02-22  Abel Cheung  <abelcheung@gmail.com>
+
+	* zh_CN.po: Updated simplified Chinese translation on behalf of
+	Funda Wang.
+
+2007-02-22  Takeshi AIHANA <takeshi.aihana@gmail.com>
+
+	* ja.po: Updated Japanese translation.
+
+==== pluma-plugins 2.17.2 ====
+
+2007-02-02  Dimitris Glezos  <dimitris@glezos.com>
+
+	* el.po: Updated Greek translation.
+
+2007-02-03  Daniel Nylander <po@danielnylander.se>
+
+	* sv.po: Updated Swedish translation.
+
+2007-01-26  Josep Puigdemont i Casamajó  <josep.puigdemont@gmail.com>
+
+	* ca.po: Updated Catalan translation.
+
+2007-01-24  David Lodge <dave@cirt.net>
+
+	* en_GB.po: Updated English (British) translation
+
+2007-01-22  Steve Frécinaux  <code@istique.net>
+
+	* POTFILES.in: add files from the new SessionSaver plugin.
+
+=== pluma-plugins 2.17.0 ===
+
+2007-01-10  Pema Geyleg  <pema.geyleg@gmail.com>
+
+	* dz.po: Added Dzongkha Translation.
+	* LINGUAS: Added 'dz'.
+
+2007-01-10  Josep Puigdemont i Casamajó  <josep.puigdemont@gmail.com>
+
+	* ca.po: Updated Catalan translation.
+
+2006-12-27  Adam Weinberger  <adamw@gnome.org>
+
+	* en_CA.po: Updated Canadian English translation.
+
+2006-12-10  Daniel Nylander <po@danielnylander.se>
+
+	* sv.po: Updated Swedish translation.
+	
+2006-12-08  Francisco Javier F. Serrador  <serrador@openshine.com>
+
+	* es.po: Updated Spanish translation.
+
+2006-12-06  Lucas Rocha  <lucasr@gnome.org>
+
+	* pt_BR.po: Updated Brazilian Portuguese translation
+	by Leonardo Ferreira Fontenelle <leo.fontenelle@gmail.com>
+
+2006-11-26  Josep Puigdemont i Casamajó  <josep.puigdemont@gmail.com>
+
+	* ca.po: Updated Catalan translation.
+
+2006-11-18  Djihed Afifi <djihed@gmail.com> 
+
+	* ar.po: Updated Arabic Translation.
+
+2006-11-12  Priit Laes  <plaes@cvs.gnome.org>
+
+	* et.po: Translation updated by Ivar Smolin.
+
+2006-10-26  Vincent van Adrighem  <adrighem@gnome.org>
+
+	* nl.po: Translation updated by Reinout van Schouwen.
+
+2006-10-22  Christophe Merlet  <redfox@redfoxcenter.org>
+
+	* fr.po: Updated French translation from
+	Jonathan Ernst <jonathan@ernstfamily.ch>.
+
+2006-10-21  Gabor Kelemen  <kelemeng@gnome.hu>
+
+	* hu.po: Translation updated.
+
+2006-10-10  Francisco Javier F. Serrador  <serrador@openshine.com>
+
+	* es.po: Updated Spanish translation.
+
+2006-10-04  Jakub Friedl  <jfriedl@suse.cz>
+
+	* cs.po: Updated Czech Translation
+
+2006-09-25  Pawan Chitrakar  <pchitrakar@gmail.com>
+
+	* ne.po: Updated Nepali Translation
+
+2006-09-21  Alexander Shopov  <ash@contact.bg>
+
+	* bg.po: Updated Bulgarian translation by
+	Alexander Shopov <ash@contact.bg>
+
+2006-09-15  Ilkka Tuohela  <hile@iki.fi>
+
+	* fi.po: Updated Finnish translation.
+
+2006-09-13  David Lodge <dave@cirt.net>
+
+	* en_GB.po: Updated English (British) translation
+
+2006-09-09  Takeshi AIHANA <takeshi.aihana@gmail.com>
+
+	* ja.po: Updated Japanese translation.
+
+=== pluma-plugins 2.16.0 ===
+
+2006-09-04  Daniel Nylander <po@danielnylander.se>
+
+	* sv.po: Updated Swedish translation.
+	
+2006-09-03  Steve Frécinaux  <steve@istique.net>
+
+	* POTFILES.in: yet another forgotten file. Sorry guys.
+
+2006-09-02  Daniel Nylander <po@danielnylander.se>
+
+	* sv.po: Updated Swedish translation.
+	
+2006-08-28  Clytie Siddall <clytie@riverland.net.au>
+
+	* vi.po: Updated Vietnamese translation.
+
+2006-08-28  Steve Frécinaux  <steve@istique.net>
+
+	* POTFILES.in: add new translatable files.
+
+2006-08-27  Steve Frécinaux  <steve@istique.net>
+
+	* POTFILES.in: add codecomment plugin.
+
+2006-08-26  Josep Puigdemont i Casamajó  <josep.puigdemont@gmail.com>
+
+	* ca.po: Updated Catalan translation by
+	Gil Forcada <gilforcada@guifi.net>
+
+=== pluma-plugins 2.15.5 ===
+
+2006-08-21  Clytie Siddall <clytie@riverland.net.au>
+
+	* vi.po: Updated Vietnamese translation.
+
+2006-08-16  Gabor Kelemen  <kelemeng@gnome.hu>
+
+	* hu.po: Translation updated.
+
+2006-07-28  Christophe Merlet  <redfox@redfoxcenter.org>
+
+	* fr.po: Updated French translation.
+
+2006-07-10  Gabor Kelemen  <kelemeng@gnome.hu>
+
+	* LINGUAS: Added all the existing translations
+
+2006-07-10  Gabor Kelemen  <kelemeng@gnome.hu>
+
+	* hu.po: Translation updated.
+
+2006-07-10  Gabor Kelemen  <kelemeng@gnome.hu>
+
+	* hu.po: Translation updated.
+
+2006-07-06  Nickolay V. Shmyrev  <nshmyrev@yandex.ru>
+
+	* ru.po: Updated Russian translation by
+	Valek Filippov <frob@df.ru>.
+
+2006-07-02  Ilkka Tuohela  <hile@iki.fi>
+
+	* fi.po: Updated Finnish translation.
+
+2006-07-01  Steve Frécinaux  <steve@istique.net>
+
+	* POTFILES.skip: add quickies/quickies.glade
+
+2006-06-25  Daniel Nylander  <po@danielnylander.se>
+
+	* sv.po: Updated Swedish translation.
+	
+2006-06-15  Hendrik Richter  <hendrikr@gnome.org>
+
+	* de.po: Updated German translation.
+
+2006-06-15  Francisco Javier F. Serrador  <serrador@openshine.com>
+
+	* es.po: Updated Spanish translation.
+
+2006-06-11  Steve Frécinaux  <steve@istique.net>
+
+	* POTFILES.in: remove /quickies since it is not distributed (it
+	messed up the distcheck process)
+
+=== pluma-plugins 2.15.3 ===
+
+2006-06-11  Steve Frécinaux  <steve@istique.net>
+
+	* ChangeLog: Move old changelog entries since they belong to the
+	old pluma-plugins package.
+
+2006-06-08  Jakub Friedl  <jfriedl@suse.cz>
+
+	* cs.po: Updated Czech translation.
+
+2006-06-06  Raphael Higino  <raphaelh@cvs.gnome.org>
+
+	* pt_BR.po: Updated Brazilian Portuguese translation.
+
+2006-06-04  Funda Wang  <fundawang@linux.net.cn>
+
+	* POTFILES.in: Recall missing files.

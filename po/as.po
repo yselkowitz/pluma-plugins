@@ -1,0 +1,279 @@
+# translation of pluma-plugins.po.master.as.po to Assamese
+# Assamese translation of pluma-plugins.
+# Copyright (C) 2009 pluma-plugins's COPYRIGHT HOLDER
+# This file is distributed under the same license as the pluma-plugins package.
+#
+# Amitakhya Phukan <aphukan@fedoraproject.org>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins.po.master.as\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pluma-plugins&component=general\n"
+"POT-Creation-Date: 2009-06-10 10:18+0000\n"
+"PO-Revision-Date: 2009-06-15 16:50+0530\n"
+"Last-Translator: Amitakhya Phukan <aphukan@fedoraproject.org>\n"
+"Language-Team: Assamese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:1
+msgid "Bookmarks"
+msgstr ""
+""
+"পত্ৰচিহ্নসমূহ"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "পত্ৰচিহ্নৰ সৈতে নথিপত্ৰ সহজে ভ্ৰমন কৰা"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:129
+msgid "Toggle Bookmark"
+msgstr "পত্ৰচিহ্ন টগল কৰক"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:130
+msgid "Toggle bookmark status of the current line"
+msgstr "বৰ্ত্তমান শাৰীৰ পত্ৰচিহ্নৰ অৱস্থা টগল কৰক"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:132
+msgid "Goto Next Bookmark"
+msgstr "পিছৰ পত্ৰচিহ্নলৈ যাওক"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:133
+msgid "Goto the next bookmark"
+msgstr "পিছৰ পত্ৰচিহ্নলৈ যাওক"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:135
+msgid "Goto Previous Bookmark"
+msgstr "আগৰ পত্ৰচিহ্নলৈ যাওক"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:136
+msgid "Goto the previous bookmark"
+msgstr "আগৰ পত্ৰচিহ্নলৈ যাওক"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "বন্ধনী নিজেই যোগ কৰে ।"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Bracket Completion"
+msgstr "বন্ধনী সম্পূৰ্ণ কৰা ।"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:258
+msgid "Character Map"
+msgstr "কেৰেক্টাৰ মেপ"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "বিশেষ আকৰ অকল টিপিলেই ভৰোৱা হ'ব ।"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:1
+msgid "Code comment"
+msgstr "কোডৰ কমেন্ট"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "কোডৰ এটা নিৰ্দিষ্ট অংশক কমেন্ট বা আন-কমেন্ট কৰক ।"
+
+#: ../plugins/codecomment/codecomment.py:230
+msgid "Co_mment Code"
+msgstr "কোডত কমেন্ট দিয়ক (_m)"
+
+#: ../plugins/codecomment/codecomment.py:232
+msgid "Comment the selected code"
+msgstr "নিৰ্বাচিত কোডক কমেন্ট কৰক"
+
+#: ../plugins/codecomment/codecomment.py:236
+msgid "U_ncomment Code"
+msgstr "কোডক আন-কমেন্ট কৰক (_n)"
+
+#: ../plugins/codecomment/codecomment.py:238
+msgid "Uncomment the selected code"
+msgstr "নিৰ্বাচিত কোডক আন-কমেন্ট কৰক"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "ৰং নিৰ্বাচন কৰোঁতা"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "সম্বাদৰ পৰা এটা ৰং বাচক আৰু তাৰ হেক্সাডেচিমেল ৰূপ ভৰাওক ।"
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "Pick _Color..."
+msgstr "ৰং নিৰ্ব্বাচন কৰক (_C)..."
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "সম্বাদৰ পৰা এটা ৰং বাচি লওক"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Pick Color"
+msgstr "ৰং নিৰ্ব্বাচন কৰক"
+
+#: ../plugins/colorpicker/colorpicker.py:226
+msgid "_Insert"
+msgstr "ভৰাওক (_I)"
+
+#. ex:ts=4:et:
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Draw Spaces"
+msgstr "স্পেচ আঁকক"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "স্পেচ আৰু টেব আঁকক"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:1
+msgid "Draw new lines"
+msgstr "নতুন শাৰী আঁকক"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:2
+msgid "Draw non-breaking spaces"
+msgstr "নভঙা স্পেচ আঁকক"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:3
+msgid "Draw spaces"
+msgstr "স্পেচ আঁকক"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:4
+msgid "Draw tabs"
+msgstr "টেব আঁকক"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:151
+msgid "Show _White Space"
+msgstr "ৰিক্ত স্থান দেখুৱাওক (_W)"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:152
+msgid "Show spaces and tabs"
+msgstr "স্পেচ আৰু টেব দেখুৱাওক"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:542
+msgid "Error dialog"
+msgstr "ভুলৰ সম্বাদ"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "বহুতো শাৰী যোগ কৰক বা দীঘল শাৰী ভাঙি দিয়ক"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:2
+msgid "Join/Split Lines"
+msgstr "শাৰী একেলগ কৰক/ভাঙক"
+
+#: ../plugins/joinlines/joinlines.py:56
+msgid "_Join Lines"
+msgstr "শাৰীসমূহ যোগ কৰক (_J)"
+
+#: ../plugins/joinlines/joinlines.py:57
+msgid "Join the selected lines"
+msgstr "নিৰ্বাচিত শাৰী একেলগ কৰক"
+
+#: ../plugins/joinlines/joinlines.py:59
+msgid "_Split Lines"
+msgstr "শাৰীসমূহ ভাঙক (_S)"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "Split the selected lines"
+msgstr "নিৰ্বাচিত শাৰী ভাঙক"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "টেব বাৰ (_b)"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "বৰ্ত্তমানৰ সংযোগক্ষেত্ৰত টেববাৰ দেখুৱাওক বা লুকাওক"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "টেববাৰ দেখিব পাৰি"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr "সম্পাদন কৰিব লগা সংযোগক্ষেত্ৰত টেববাৰ দেখিব পৰা হ'ব লাগে নে নালাগে ।"
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr "টেববাৰ দেখুৱাবলৈ/লুকাবলৈ এটা তালিকাৰ নিবেশ যোগ কৰক ।"
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "টেববাৰ দেখুৱাওক/লুকাওক"
+
+#: ../plugins/sessionsaver/__init__.py:64
+msgid "Sa_ved sessions"
+msgstr "সংৰক্ষিত অধিবেশন (_v)"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "_Save current session"
+msgstr "বৰ্ত্তমানৰ অধিবেশন ৰক্ষা কৰক (_S)"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "Save the current document list as a new session"
+msgstr "বৰ্ত্তমানৰ নথিপত্ৰৰ তালিকাক এটা নতুন অধিবেশন হিচাপে ৰক্ষা কৰক"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "_Manage saved sessions..."
+msgstr "সংৰক্ষিত অধিবেশন পৰিচালনা কৰক (_M)..."
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "Open the saved session manager"
+msgstr "সংৰক্ষিত অধিবেশনৰ পৰিচালকক খোলক"
+
+#: ../plugins/sessionsaver/__init__.py:106
+#, python-format
+msgid "Recover '%s' session"
+msgstr "'%s' অধিবেশন পুনৰুদ্ধাৰ কৰক"
+
+#: ../plugins/sessionsaver/dialogs.py:167
+msgid "Session Name"
+msgstr "অধিবেশনৰ নাম"
+
+#. ex:ts=4:et:
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:1
+msgid "Save and restore your working sessions"
+msgstr "আপোনাৰ কাৰ্যকৰ অধিবেশন ৰক্ষা আৰু পুনৰুদ্ধাৰ কৰক"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:2
+msgid "Session Saver"
+msgstr "অধিবেশন সংৰক্ষক"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:1
+msgid "Save session"
+msgstr "অধিবেশন পুনৰুদ্ধাৰ কৰক"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:2
+msgid "Saved Sessions"
+msgstr "সংৰক্ষিত অধিবেশন"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:3
+msgid "Session name:"
+msgstr "অধিবেশনৰ নাম:"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "আপুনি টেবুলেছন ব্যৱহাৰ নকৰাটো পাহৰি যাওক ।"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Smart Spaces"
+msgstr "স্মাৰ্ট স্পেচেচ"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "তলৰ পেনত এটা টাৰ্মিনেল প্ৰোথিত কৰক ।"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:2
+msgid "Embedded Terminal"
+msgstr "প্ৰোথিত টাৰ্মিনেল"
+
+#: ../plugins/terminal/terminal.py:249
+msgid "Terminal"
+msgstr "টাৰ্মিনেল"
+
+#: ../plugins/terminal/terminal.py:272
+msgid "C_hange Directory"
+msgstr "পঞ্জিকা সলনি কৰক (_h)"
+

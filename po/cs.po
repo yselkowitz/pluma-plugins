@@ -1,0 +1,440 @@
+# Czech translation of pluma-plugins.
+# Copyright (C) 2002,2003, 2006, 2009 the author(s) of pluma-plugins.
+# Copyright (C) 2003, 2004, 2005 Miloslav Trmac <mitr@volny.cz>.
+# This file is distributed under the same license as the pluma-plugins package.
+#
+# Michal Bukovjan <michal.bukovjan@openone.cz>, 2002.
+# Michal Bukovjan <bukm@centrum.cz>, 2003.
+# Miloslav Trmac <mitr@volny.cz>, 2003, 2004, 2005.
+# Jakub Friedl <jfriedl@suse.cz>, 2006.
+# Kamil Páral <ripper42@gmail.com>, 2008, 2009.
+# Marek Černocký <marek@manet.cz>, 2009, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins 1.2\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=pluma&component=Plugins\n"
+"POT-Creation-Date: 2010-09-18 11:37+0000\n"
+"PO-Revision-Date: 2010-09-18 21:39+0200\n"
+"Last-Translator: Marek Černocký <marek@manet.cz>\n"
+"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:1
+msgid "Bookmarks"
+msgstr "Záložky"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "Jednoduché procházení dokumentem pomocí záložek"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:137
+msgid "Toggle Bookmark"
+msgstr "Přepnout záložku"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:138
+msgid "Toggle bookmark status of the current line"
+msgstr "Přepnout stav záložky na aktuálním řádku"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:140
+msgid "Goto Next Bookmark"
+msgstr "Přejít na následující záložku"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:141
+msgid "Goto the next bookmark"
+msgstr "Přejít na následující záložku"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:143
+msgid "Goto Previous Bookmark"
+msgstr "Přejít na předcházející záložku"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:144
+msgid "Goto the previous bookmark"
+msgstr "Přejít na předcházející záložku"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "Automaticky přidávat uzavírací závorky."
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Bracket Completion"
+msgstr "Doplňování závorek"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:258
+msgid "Character Map"
+msgstr "Mapa znaků"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "Vkládání speciálních znaků pouhým kliknutím."
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:1
+msgid "Code comment"
+msgstr "Komentování kódu"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "Zakomentovat nebo odkomentovat vybraný blok kódu."
+
+#: ../plugins/codecomment/codecomment.py:230
+msgid "Co_mment Code"
+msgstr "_Komentovat kód"
+
+#: ../plugins/codecomment/codecomment.py:232
+msgid "Comment the selected code"
+msgstr "Komentovat vybraný kód"
+
+#: ../plugins/codecomment/codecomment.py:236
+msgid "U_ncomment Code"
+msgstr "_Odkomentovat kód"
+
+#: ../plugins/codecomment/codecomment.py:238
+msgid "Uncomment the selected code"
+msgstr "Odkomentovat vybraný kód"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "Barevná pipeta"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "Vybrat barvu z dialogu a vložit její šestnáctkové vyjádření."
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "Pick _Color..."
+msgstr "Vybrat _barvu…"
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "Vybrat barvu z dialogu"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Pick Color"
+msgstr "Vybrat barvu"
+
+#: ../plugins/colorpicker/colorpicker.py:226
+msgid "_Insert"
+msgstr "_Vložit"
+
+#. ex:ts=4:et:
+#: ../plugins/commander/commander.pluma-plugin.desktop.in.in.h:1
+msgid "Command line interface for advanced editing"
+msgstr "Rozhraní příkazového řádku k pokročilým úpravám"
+
+#: ../plugins/commander/commander.pluma-plugin.desktop.in.in.h:2
+msgid "Commander"
+msgstr "Commander"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:4
+msgid "Draw Spaces"
+msgstr "Vykreslovat mezery"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "Vykreslovat mezery a tabulátory"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:1
+msgid "Draw leading spaces"
+msgstr "Vykreslovat úvodní mezery"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:2
+msgid "Draw new lines"
+msgstr "Vykreslovat nové řádky"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:3
+msgid "Draw non-breaking spaces"
+msgstr "Vykreslovat nezlomitelné mezery"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:4
+msgid "Draw spaces"
+msgstr "Vykreslovat mezery"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:5
+msgid "Draw spaces in text"
+msgstr "Vykreslovat mezery v textu"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:6
+msgid "Draw tabs"
+msgstr "Vykreslovat tabulátory"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:7
+msgid "Draw trailing spaces"
+msgstr "Vykreslovat koncové mezery"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:1
+msgid "Draw Leading Spaces"
+msgstr "Vykreslovat úvodní mezery"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:2
+msgid "Draw New lines"
+msgstr "Vykreslovat zakončení řádků"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:3
+msgid "Draw Non-Breaking Spaces"
+msgstr "Vykreslovat nezlomitelné mezery"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:5
+msgid "Draw Spaces in Text"
+msgstr "Vykreslovat mezery v textu"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:6
+msgid "Draw Tabs"
+msgstr "Vykreslovat tabulátory"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:7
+msgid "Draw Trailing Spaces"
+msgstr "Vykreslovat koncové mezery"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:8
+msgid "Show White Spaces"
+msgstr "Zobrazovat bílé znaky"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:167
+msgid "Show _White Space"
+msgstr "Zobrazovat _bílé znaky"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:168
+msgid "Show spaces and tabs"
+msgstr "Zobrazovat mezery a tabulátory"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:612
+msgid "Error dialog"
+msgstr "Chybový dialog"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "Spojit několik řádků nebo rozdělit dlouhé řádky"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:2
+msgid "Join/Split Lines"
+msgstr "Spojit/Rozdělit řádky"
+
+#: ../plugins/joinlines/joinlines.py:56
+msgid "_Join Lines"
+msgstr "_Spojit řádky"
+
+#: ../plugins/joinlines/joinlines.py:57
+msgid "Join the selected lines"
+msgstr "Spojit vybrané řádky"
+
+#: ../plugins/joinlines/joinlines.py:59
+msgid "_Split Lines"
+msgstr "_Rozdělit řádky"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "Split the selected lines"
+msgstr "Rozdělit vybrané řádky"
+
+#. ex:ts=4:et:
+#: ../plugins/multiedit/multiedit.pluma-plugin.desktop.in.in.h:1
+msgid "Edit document in multiple places at once"
+msgstr "Úprava dokumentu na více místech současně"
+
+#: ../plugins/multiedit/multiedit.pluma-plugin.desktop.in.in.h:2
+msgid "Multi Edit"
+msgstr "Vícenásobná úprava"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:315
+msgid "Added edit point..."
+msgstr "Přidat editační bod…"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:651
+msgid "Column Mode..."
+msgstr "Sloupcový režim…"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:773
+msgid "Removed edit point..."
+msgstr "Odebrat editační bod…"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:936
+msgid "Cancelled column mode..."
+msgstr "Sloupcový režim zrušen…"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1274
+msgid "Enter column edit mode using selection"
+msgstr "Vstoupit do režimu úpravy sloupců pomocí výběru"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1275
+msgid "Enter <b>smart</b> column edit mode using selection"
+msgstr "Vstoupit do režimu <b>chytré</b> úpravy sloupců pomocí výběru"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1276
+msgid "<b>Smart</b> column align mode using selection"
+msgstr "Režim <b>chytré</b> úpravy sloupců pomocí výběru"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1277
+msgid "<b>Smart</b> column align mode with additional space using selection"
+msgstr ""
+"Režim <b>chytré</b> úpravy sloupců s doplňujícími mezerami pomocí výběru"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1279
+msgid "Toggle edit point"
+msgstr "Přepnout editační bod"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1280
+msgid "Add edit point at beginning of line/selection"
+msgstr "Přidat editační bod na začátek řádku/výběru"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1281
+msgid "Add edit point at end of line/selection"
+msgstr "Přidat editační bod na konec řádku/výběru"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1282
+msgid "Align edit points"
+msgstr "Zarovnat editační body"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1283
+msgid "Align edit points with additional space"
+msgstr "Zarovnat editační body doplněním mezer"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1319
+#: ../plugins/multiedit/multiedit/windowhelper.py:70
+msgid "Multi Edit Mode"
+msgstr "Režim vícenásobné úpravy"
+
+#: ../plugins/multiedit/multiedit/windowhelper.py:70
+msgid "Start multi edit mode"
+msgstr "Začít režim vícenásobné úpravy"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "Lišta _karet"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "Zobrazit či skrýt lištu karet v aktuálním okně"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "Lišta karet je viditelná"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr "Zda má být lišta karet viditelná v editačních oknech."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr "Přidává položku nabídky pro zobrazení/skrytí lišty karet."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "Zobrazit/skrýt lištu karet"
+
+#: ../plugins/sessionsaver/__init__.py:64
+msgid "Sa_ved sessions"
+msgstr "_Uložená sezení"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "_Save current session"
+msgstr "Uložit aktuální _sezení"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "Save the current document list as a new session"
+msgstr "Uložit aktuální seznam dokumentů jako nové sezení"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "_Manage saved sessions..."
+msgstr "Spravovat _uložená sezení…"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "Open the saved session manager"
+msgstr "Otevřít správce uložených sezení"
+
+#: ../plugins/sessionsaver/__init__.py:106
+#, python-format
+msgid "Recover '%s' session"
+msgstr "Obnovit sezení „%s“"
+
+#: ../plugins/sessionsaver/dialogs.py:167
+msgid "Session Name"
+msgstr "Název sezení"
+
+#. ex:ts=4:et:
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:1
+msgid "Save and restore your working sessions"
+msgstr "Uložit a obnovit vaše pracovní sezení"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:2
+msgid "Session Saver"
+msgstr "Ukládač sezení"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:1
+msgid "Save session"
+msgstr "Uložit sezení"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:2
+msgid "Saved Sessions"
+msgstr "Uložená sezení"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:3
+msgid "Session name:"
+msgstr "Název sezení:"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "Zapomeňte, že nepoužíváte tabulace."
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Smart Spaces"
+msgstr "Inteligentní mezery"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "Vložit terminál do spodního panelu."
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:2
+msgid "Embedded Terminal"
+msgstr "Vestavěný terminál"
+
+#: ../plugins/terminal/terminal.py:286
+msgid "Terminal"
+msgstr "Terminál"
+
+#: ../plugins/terminal/terminal.py:308
+msgid "C_hange Directory"
+msgstr "Změnit _adresář"
+
+#: ../plugins/wordcompletion/pluma-word-completion-plugin.c:144
+msgid "Document Words"
+msgstr "Slova dokumentu"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Word Completion"
+msgstr "Dokončování slov"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Word completion using the completion framework"
+msgstr "Dokončování slov využívající vývojářský systém pro doplňování"
+
+#: ../plugins/synctex/synctex.pluma-plugin.desktop.in.in.h:1
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: ../plugins/synctex/synctex.pluma-plugin.desktop.in.in.h:2
+msgid "Synchronize between LaTeX and PDF with pluma and atril."
+msgstr "Synchronizovat mezi formáty LaTeX a PDF s aplikacemi pluma a atril."
+
+#: ../plugins/synctex/synctex/synctex.py:280
+#: ../plugins/synctex/synctex/synctex.py:281
+msgid "Forward Search"
+msgstr "Hledat vpřed"
+
+#. ex:ts=4:et:
+#: ../plugins/textsize/textsize.pluma-plugin.desktop.in.in.h:1
+msgid "Easily increase and decrease the text size"
+msgstr "Snadné zvětšení a zmenšení velikosti textu"
+
+#: ../plugins/textsize/textsize.pluma-plugin.desktop.in.in.h:2
+msgid "Text Size"
+msgstr "Velikost textu"
+

@@ -1,0 +1,155 @@
+# Pluma'i pluginate eesti keele tõlge.
+# Estonian translation of Pluma-plugins.
+#
+# Copyright (C) 2006, The Gnome Project.
+# This file is distributed under the same license as the pluma package.
+#
+# Ivar Smolin <okul@linux.ee>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-11 18:49+0100\n"
+"PO-Revision-Date: 2006-03-27 12:19+0300\n"
+"Last-Translator: Ivar Smolin <okul@linux.ee>\n"
+"Language-Team: Estonian <gnome-et@linux.ee>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "Sulgevate sulgude automaatne lisamine."
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.h:2
+msgid "Bracket Completion"
+msgstr "Sulgude lõpetamine"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:255
+msgid "Character Map"
+msgstr "Märgikaart"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "Erimärkide lisamine neile klõpsamise teel."
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.h:1
+msgid "Code comment"
+msgstr "Koodi kommentaarid"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "Valitud koodibloki sisse- ja väljakommenteerimine"
+
+#: ../plugins/codecomment/codecomment.py:246
+msgid "Co_mment Code"
+msgstr "Ko_mmenteeri kood"
+
+#: ../plugins/codecomment/codecomment.py:248
+msgid "Comment the selected code"
+msgstr "Valitud koodi väljakommenteerimine"
+
+#: ../plugins/codecomment/codecomment.py:252
+msgid "U_ncomment Code"
+msgstr "Eemal_da koodi kommentaarid"
+
+#: ../plugins/codecomment/codecomment.py:254
+msgid "Uncomment the selected code"
+msgstr "Valitud koodi sissekommenteerimine"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.h:1
+msgid "Color Picker"
+msgstr "Värvuse valimine"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr ""
+"Värvuse valimine dialoogiaknast ja selle kuueteistkümnendsüsteemis esituse "
+"lisamine dokumendile"
+
+#: ../plugins/colorpicker/colorpicker.py:70
+msgid "_Color picker"
+msgstr "_Vali värvus"
+
+#: ../plugins/colorpicker/colorpicker.py:71
+msgid "Pick a color from a dialog"
+msgstr "Värvuse valimine dialoogiaknast"
+
+#: ../plugins/colorpicker/colorpicker.py:217
+msgid "Color picker"
+msgstr "Värvuse valimine"
+
+#: ../plugins/colorpicker/colorpicker.py:225
+msgid "_Insert"
+msgstr "_Lisa"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.h:1
+msgid "Join several lines or split long ones"
+msgstr ""
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.h:2
+msgid "Join/Split Lines"
+msgstr ""
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "_Join Lines"
+msgstr ""
+
+#: ../plugins/joinlines/joinlines.py:61
+msgid "Join the selected lines"
+msgstr ""
+
+#: ../plugins/joinlines/joinlines.py:63
+msgid "_Split Lines"
+msgstr ""
+
+#: ../plugins/joinlines/joinlines.py:64
+msgid "Split the selected lines"
+msgstr ""
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr ""
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr ""
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr ""
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr ""
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr ""
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr ""
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr ""
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.h:2
+msgid "Smart Spaces"
+msgstr ""
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr ""
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.h:2
+msgid "Embedded Terminal"
+msgstr "Põimitud terminal"
+
+#: ../plugins/terminal/terminal.py:173
+msgid "Terminal"
+msgstr "Terminal"

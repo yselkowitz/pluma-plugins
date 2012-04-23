@@ -1,0 +1,10 @@
+[Pluma Plugin]
+Module=charmap
+IAge=2
+_Name=Character Map
+_Description=Insert special characters just by clicking on them.
+Icon=gucharmap
+Authors=Steve Frécinaux <steve@istique.net>
+Copyright=Copyright @ 2006 Steve Frécinaux
+Website=http://www.mate-desktop.org
+Version=@VERSION@

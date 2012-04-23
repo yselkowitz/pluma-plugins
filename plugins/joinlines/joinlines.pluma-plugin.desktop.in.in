@@ -1,0 +1,10 @@
+[Pluma Plugin]
+Loader=python
+Module=joinlines
+IAge=2
+_Name=Join/Split Lines
+_Description=Join several lines or split long ones
+Authors=Steve Frécinaux <steve@istique.net>\nAndré Homeyer
+Copyright=Copyright @ 2006-2007 Steve Frécinaux, André Homeyer
+Website=http://www.mate-desktop.org
+Version=@VERSION@

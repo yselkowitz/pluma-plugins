@@ -1,0 +1,262 @@
+# Albanian translation of pluma-plugins-2.4
+# This file is distributed under the same license as the pluma-plugins package.
+# Copyright (C) 2003, 2004 Free Software Foundation, Inc.
+# Laurent Dhima <laurenti@alblinux.net>, 2003, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-08-19 11:26+0200\n"
+"PO-Revision-Date: 2004-02-17 02:23+0100\n"
+"Last-Translator: Laurent Dhima <laurenti@alblinux.net>\n"
+"Language-Team: Albanian <gnome-albanian-perkthyesit@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3\n"
+
+#: plugins/ASCII/ascii.c:43
+msgid "_ASCII Table"
+msgstr "Tabela _ASCII"
+
+#: plugins/ASCII/ascii.c:46
+msgid "Pop-up a dialog containing an ASCII Table"
+msgstr "Shfaq një dritare dialogu që përmban tabelën ASCII"
+
+#: plugins/ASCII/ascii.c:303
+msgid "Char"
+msgstr "Gërma"
+
+#: plugins/ASCII/ascii.c:310
+msgid "Dec#"
+msgstr "Dec#"
+
+#: plugins/ASCII/ascii.c:317
+msgid "Hex#"
+msgstr "Hex#"
+
+#: plugins/ASCII/ascii.c:324
+msgid "Name"
+msgstr "Emri"
+
+#: plugins/ASCII/ascii.c:369
+msgid "ASCII Table"
+msgstr "Tabela ASCII"
+
+#: plugins/ASCII/ascii.c:382 plugins/ASCII/asciitable.glade2.h:2
+msgid "_Insert char"
+msgstr "_Shto gërmën"
+
+#: plugins/ASCII/asciitable.glade2.h:1
+#: plugins/ASCII/ascii.pluma-plugin.desktop.in.h:1
+msgid "ASCII table"
+msgstr "Tabela ASCII"
+
+#: plugins/ASCII/ascii.pluma-plugin.desktop.in.h:2
+msgid "This plugin displays a pop-up dialog which contains an ASCII Table."
+msgstr "Ky plugin shfaq një dritare dialogu e cila përmban tabelën ASCII."
+
+#: plugins/cvschangelog/cvschangelog.c:49
+msgid "Open CVS Chan_geLogs"
+msgstr "Hap chan_geLogs e CVS"
+
+#: plugins/cvschangelog/cvschangelog.c:52
+msgid "Searches for ChangeLogs in the current document and opens them"
+msgstr "Kërkon për changelogs në dokument dhe i hap ato"
+
+#: plugins/cvschangelog/cvschangelog.pluma-plugin.desktop.in.h:1
+msgid "A plugin that opens ChangeLogs found in CVS commit messages."
+msgstr "Një plugin që hap changelogs e gjetur në mesazhet e commit të CVS."
+
+#: plugins/cvschangelog/cvschangelog.pluma-plugin.desktop.in.h:2
+msgid "CVS ChangeLog"
+msgstr "Changelog e CVS"
+
+#: plugins/diff/diff.c:64
+msgid "Co_mpare Files..."
+msgstr "Kra_haso files..."
+
+#: plugins/diff/diff.c:67
+msgid "Makes a diff file from two documents or files"
+msgstr "Krijon një file diff ndërmjet dy files apo dokumentesh"
+
+#. Create the dialog
+#: plugins/diff/diff.c:270 plugins/diff/diff.pluma-plugin.desktop.in.h:1
+msgid "Compare Files"
+msgstr "Krahaso files"
+
+#: plugins/diff/diff.c:284
+msgid "C_ompare"
+msgstr "Krahas_o"
+
+#: plugins/diff/diff.c:511
+msgid "Executed command"
+msgstr "Komanda e zbatuar"
+
+#: plugins/diff/diff.c:652
+msgid "The two documents you selected are the same."
+msgstr "Dy dokumentet e zgjedhur janë njësoj."
+
+#: plugins/diff/diff.c:660
+msgid ""
+"The \"first\" file you selected does not exist.\n"
+"\n"
+"Please provide a valid file."
+msgstr ""
+"File i \"parë\" që keni zgjedhur nuk ekziston.\n"
+"\n"
+"Ju lutem zgjidhni një file të vlefshëm."
+
+#: plugins/diff/diff.c:669
+msgid ""
+"The \"second\" file you selected does not exist.\n"
+"\n"
+"Please provide a valid file."
+msgstr ""
+"File i \"dytë\" që keni zgjedhur nuk ekziston.\n"
+"\n"
+"Ju lutem zgjidhni një file të vlefshëm."
+
+#: plugins/diff/diff.c:677
+msgid "The two files you selected are the same."
+msgstr "Dy files e zgjedhur janë njësoj."
+
+#: plugins/diff/diff.c:694
+msgid "The \"first\" document contains no text."
+msgstr "Dokumenti i \"parë\" nuk përmban tekst."
+
+#: plugins/diff/diff.c:728
+msgid "The \"second\" document contains no text."
+msgstr "Dokumenti i \"dytë\" nuk përmban tekst."
+
+#. FIXME: do better error reporting ... . Chema
+#: plugins/diff/diff.c:754
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"pluma could not create a temporary file."
+msgstr ""
+"I pamundur krahasimi i dokumenteve të zgjedhur.\n"
+"\n"
+"pluma nuk arrin të krijojë një file të përkohshëm."
+
+#: plugins/diff/diff.c:778 plugins/diff/diff.c:791
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"Error executing the diff command."
+msgstr ""
+"I pamundur krahasimi i dokumenteve të zgjedhur.\n"
+"\n"
+"Gabim gjatë ekzekutimit të komandës diff."
+
+#: plugins/diff/diff.c:813
+msgid "No differences were found between the selected documents."
+msgstr "Nuk u gjetën ndryshime midis dokumenteve të zgjedhur."
+
+#: plugins/diff/diff.c:854
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"The result contains invalid UTF-8 data."
+msgstr ""
+"I pamundur krahasimi i dokumentëve të zgjedhur.\n"
+"\n"
+"Rezultati përmban të dhëna UTF-8 të pavlefshme."
+
+#: plugins/diff/diff.glade2.h:1
+msgid "*"
+msgstr "*"
+
+#: plugins/diff/diff.glade2.h:2
+msgid "Choose the files to compare."
+msgstr "Zgjidh files që duhen krahasuar."
+
+#: plugins/diff/diff.glade2.h:3
+msgid "Compare files..."
+msgstr "Krahaso files..."
+
+#: plugins/diff/diff.glade2.h:4
+msgid "F_rom document"
+msgstr "N_ga dokumenti"
+
+#: plugins/diff/diff.glade2.h:5
+msgid "First"
+msgstr "E Para"
+
+#: plugins/diff/diff.glade2.h:6
+msgid "First file from disk"
+msgstr "File i parë nga disku"
+
+#: plugins/diff/diff.glade2.h:7
+msgid "First file from open document"
+msgstr "File i parë nga dokumenti aktual"
+
+#: plugins/diff/diff.glade2.h:8
+msgid "From _document"
+msgstr "Nga _dokumenti"
+
+#: plugins/diff/diff.glade2.h:9
+msgid "From a _file on disk"
+msgstr "Nga një _file në disk"
+
+#: plugins/diff/diff.glade2.h:10
+msgid "From a file o_n disk"
+msgstr "Nga një file _në disk"
+
+#: plugins/diff/diff.glade2.h:11
+msgid "Ignore _blanks (-b option)"
+msgstr "Mos llogarit hapësirat _bosh (opcioni -b)"
+
+#: plugins/diff/diff.glade2.h:12
+msgid "Note that this option is only supported by GNU diff"
+msgstr "Ki parasysh që ky opcion suportohet vetëm nga GNU diff"
+
+#: plugins/diff/diff.glade2.h:13
+msgid "Second"
+msgstr "I dyti"
+
+#: plugins/diff/diff.glade2.h:14
+msgid "Second file from disk"
+msgstr "File i dytë nga disku"
+
+#: plugins/diff/diff.glade2.h:15
+msgid "Second file from open document"
+msgstr "File i dytë nga dokumenti i hapur"
+
+#: plugins/diff/diff.glade2.h:16
+msgid "Select the \"first\" file..."
+msgstr "Zgjidh file e \"parë\"..."
+
+#: plugins/diff/diff.glade2.h:17
+msgid "Select the \"second\" file..."
+msgstr "Zgjidh file e \"dytë\"..."
+
+#: plugins/diff/diff.glade2.h:18
+msgid "Select the first file to compare"
+msgstr "Zgjidh file e parë që duhet krahasuar"
+
+#: plugins/diff/diff.glade2.h:19
+msgid "Select the first open document to compare"
+msgstr "Zgjidh dokumentin e parë të hapur që duhet krahasuar"
+
+#: plugins/diff/diff.glade2.h:20
+msgid "Select the second file to compare"
+msgstr "Zgjidh file e dytë që duhet krahasuar"
+
+#: plugins/diff/diff.glade2.h:21
+msgid "Select the second open document to compare"
+msgstr "Zgjidh dokumentin e dytë të hapur që duhet krahasuar"
+
+#: plugins/diff/diff.glade2.h:22
+msgid "Use the _unified output format (-u option)"
+msgstr "Përdor formatin e output të _unifikuar (opcioni -u)"
+
+#: plugins/diff/diff.pluma-plugin.desktop.in.h:2
+msgid ""
+"The Compare Files plugin uses the \"diff\" program to compare two documents "
+"or files on disk."
+msgstr ""
+"Plugin «Krahaso file» përdor programin \"diff\" për të krahasuar dy "
+"dokumente apo file në disk."

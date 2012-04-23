@@ -1,0 +1,444 @@
+# French translation of pluma-plugins.
+# Copyright (C) 1998-2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the pluma-plugins-package.
+#
+#
+# Christophe Merlet <redfox@redfoxcenter.org>, 2000-2006.
+# Jonathan Ernst <jonathan@ernstfamily.ch>, 2006.
+# Stéphane Raimbault <stephane.raimbault@gmail.com>, 2007.
+# Robert-André Mauchin <zebob.m@pengzone.org>, 2007.
+# Claude Paroz <claude@2xlibre.net>, 2008-2009.
+# Laurent Coudeur <laurentc@iol.ie>, 2009.
+# Bruno Brouard <annoa.b@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins HEAD\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
+"cgi?product=pluma&component=Plugins\n"
+"POT-Creation-Date: 2010-09-18 20:26+0000\n"
+"PO-Revision-Date: 2010-09-19 00:10+0200\n"
+"Last-Translator: Bruno Brouard <annoa.b@gmail.com>\n"
+"Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:1
+msgid "Bookmarks"
+msgstr "Signets"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "Navigation aisée dans vos documents avec des signets"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:137
+msgid "Toggle Bookmark"
+msgstr "Activer/désactiver le signet"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:138
+msgid "Toggle bookmark status of the current line"
+msgstr "Inverse l'état de signet de la ligne actuelle"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:140
+msgid "Goto Next Bookmark"
+msgstr "Aller au signet suivant"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:141
+msgid "Goto the next bookmark"
+msgstr "Va au signet suivant"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:143
+msgid "Goto Previous Bookmark"
+msgstr "Aller au signet précédent"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:144
+msgid "Goto the previous bookmark"
+msgstr "Va au signet précédent"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "Ajoute automatiquement les parenthèses fermantes."
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Bracket Completion"
+msgstr "Complétion de parenthèses"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:258
+msgid "Character Map"
+msgstr "Table de caractères"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "Insère des caractères spéciaux juste en cliquant dessus."
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:1
+msgid "Code comment"
+msgstr "Commentateur de code"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "Commente ou décommente un bloc de code sélectionnée."
+
+#: ../plugins/codecomment/codecomment.py:230
+msgid "Co_mment Code"
+msgstr "_Commenter le code"
+
+#: ../plugins/codecomment/codecomment.py:232
+msgid "Comment the selected code"
+msgstr "Commente le code sélectionné"
+
+#: ../plugins/codecomment/codecomment.py:236
+msgid "U_ncomment Code"
+msgstr "_Décommenter le code"
+
+#: ../plugins/codecomment/codecomment.py:238
+msgid "Uncomment the selected code"
+msgstr "Décommente le code sélectionné"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "Sélecteur de couleurs"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr ""
+"Pioche une couleur dans une boîte de dialogue et l'insère sous sa forme "
+"hexadécimale."
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "Pick _Color..."
+msgstr "Sélectionner une _couleur..."
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "Pioche une couleur depuis une boîte de dialogue"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Pick Color"
+msgstr "Sélectionner une couleur"
+
+#: ../plugins/colorpicker/colorpicker.py:226
+msgid "_Insert"
+msgstr "_Insérer"
+
+#. ex:ts=4:et:
+#: ../plugins/commander/commander.pluma-plugin.desktop.in.in.h:1
+msgid "Command line interface for advanced editing"
+msgstr "Interface en ligne de commande pour l'édition avancée"
+
+#: ../plugins/commander/commander.pluma-plugin.desktop.in.in.h:2
+msgid "Commander"
+msgstr "Commander"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:4
+msgid "Draw Spaces"
+msgstr "Indicateur d'espaces"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "Indique les espaces et les tabulations"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:1
+msgid "Draw leading spaces"
+msgstr "Indiquer les espaces de début"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:2
+msgid "Draw new lines"
+msgstr "Indiquer les sauts de ligne"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:3
+msgid "Draw non-breaking spaces"
+msgstr "Indiquer les espaces insécables"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:4
+msgid "Draw spaces"
+msgstr "Indiquer les espaces"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:5
+msgid "Draw spaces in text"
+msgstr "Indiquer les espaces dans le texte"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:6
+msgid "Draw tabs"
+msgstr "Indiquer les tabulations"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:7
+msgid "Draw trailing spaces"
+msgstr "Indiquer les espaces de fin"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:1
+msgid "Draw Leading Spaces"
+msgstr "Indiquer les espaces de début"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:2
+msgid "Draw New lines"
+msgstr "Indiquer les sauts de ligne"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:3
+msgid "Draw Non-Breaking Spaces"
+msgstr "Indiquer les espaces insécables"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:5
+msgid "Draw Spaces in Text"
+msgstr "Indique les espaces dans le texte"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:6
+msgid "Draw Tabs"
+msgstr "Indiquer les tabulations"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:7
+msgid "Draw Trailing Spaces"
+msgstr "Indiquer les espaces de fin"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:8
+msgid "Show White Spaces"
+msgstr "Afficher les espaces"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:167
+msgid "Show _White Space"
+msgstr "Afficher les _espaces"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:168
+msgid "Show spaces and tabs"
+msgstr "Affiche les espaces et les tabulations"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:612
+msgid "Error dialog"
+msgstr "Fenêtre d'erreur"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "Joint plusieurs lignes ou sépare les longues lignes"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:2
+msgid "Join/Split Lines"
+msgstr "Joindre/couper les lignes"
+
+#: ../plugins/joinlines/joinlines.py:56
+msgid "_Join Lines"
+msgstr "_Joindre des lignes"
+
+#: ../plugins/joinlines/joinlines.py:57
+msgid "Join the selected lines"
+msgstr "Joint les lignes sélectionnées"
+
+#: ../plugins/joinlines/joinlines.py:59
+msgid "_Split Lines"
+msgstr "_Couper des lignes"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "Split the selected lines"
+msgstr "Coupe les lignes sélectionnées"
+
+#. ex:ts=4:et:
+#: ../plugins/multiedit/multiedit.pluma-plugin.desktop.in.in.h:1
+msgid "Edit document in multiple places at once"
+msgstr "Éditer un document à plusieurs endroits en même temps"
+
+#: ../plugins/multiedit/multiedit.pluma-plugin.desktop.in.in.h:2
+msgid "Multi Edit"
+msgstr "Édition multiple"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:315
+msgid "Added edit point..."
+msgstr "Point d'édition ajouté..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:651
+msgid "Column Mode..."
+msgstr "Mode colonne..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:773
+msgid "Removed edit point..."
+msgstr "Point d'édition supprimé..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:936
+msgid "Cancelled column mode..."
+msgstr "Mode colonne annulé..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1274
+msgid "Enter column edit mode using selection"
+msgstr "Démarre le mode d'édition en colonne en utilisant la sélection"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1275
+msgid "Enter <b>smart</b> column edit mode using selection"
+msgstr ""
+"Démarre le mode d'édition en colonne <b>intelligente</b> en utilisant la "
+"sélection"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1276
+msgid "<b>Smart</b> column align mode using selection"
+msgstr ""
+"Mode d'alignement en colonne <b>intelligente</b> en utilisant la sélection"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1277
+msgid "<b>Smart</b> column align mode with additional space using selection"
+msgstr ""
+"Mode d'alignement en colonne <b>intelligente</b> avec espace supplémentaire "
+"en utilisant la sélection"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1279
+msgid "Toggle edit point"
+msgstr "Basculer le point d'édition"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1280
+msgid "Add edit point at beginning of line/selection"
+msgstr "Ajoute un point d'édition au début de la ligne ou de la sélection"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1281
+msgid "Add edit point at end of line/selection"
+msgstr "Ajoute un point d'édition à la fin de la ligne ou de la sélection"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1282
+msgid "Align edit points"
+msgstr "Aligner les points d'édition"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1283
+msgid "Align edit points with additional space"
+msgstr "Aligner les points d'édition avec espace supplémentaire"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1319
+#: ../plugins/multiedit/multiedit/windowhelper.py:70
+msgid "Multi Edit Mode"
+msgstr "Mode d'édition multiple"
+
+#: ../plugins/multiedit/multiedit/windowhelper.py:70
+msgid "Start multi edit mode"
+msgstr "Démarrer le mode d'édition multiple"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "Barre d'_onglets"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "Affiche ou cache la barre d'onglets dans la fenêtre en cours"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "Barre d'onglets visible"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr ""
+"Indique si la barre d'onglets doit être visible dans les fenêtres d'édition."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr "Ajoute une entrée de menus pour afficher/masquer la barre d'onglets."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "Afficher/Masquer la barre d'onglets"
+
+#: ../plugins/sessionsaver/__init__.py:64
+msgid "Sa_ved sessions"
+msgstr "Sessions enre_gistrées"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "_Save current session"
+msgstr "_Enregistrer la session actuelle"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "Save the current document list as a new session"
+msgstr "Enregistre la liste actuelle des documents dans une nouvelle session"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "_Manage saved sessions..."
+msgstr "_Gérer les sessions enregistrées..."
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "Open the saved session manager"
+msgstr "Ouvre le gestionnaire des sessions enregistrées"
+
+#: ../plugins/sessionsaver/__init__.py:106
+#, python-format
+msgid "Recover '%s' session"
+msgstr "Rétablir la session '%s'"
+
+#: ../plugins/sessionsaver/dialogs.py:167
+msgid "Session Name"
+msgstr "Nom de session"
+
+#. ex:ts=4:et:
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:1
+msgid "Save and restore your working sessions"
+msgstr "Enregistre et restaure vos sessions de travail"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:2
+msgid "Session Saver"
+msgstr "Enregistreur de session"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:1
+msgid "Save session"
+msgstr "Enregistrement de session"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:2
+msgid "Saved Sessions"
+msgstr "Sessions enregistrées"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:3
+msgid "Session name:"
+msgstr "Nom de session :"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "Oubliez que vous n'utilisez pas les tabulations."
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Smart Spaces"
+msgstr "Espaces intelligents"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "Intègre un terminal dans le panneau du bas."
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:2
+msgid "Embedded Terminal"
+msgstr "Terminal intégré"
+
+#: ../plugins/terminal/terminal.py:286
+msgid "Terminal"
+msgstr "Terminal"
+
+#: ../plugins/terminal/terminal.py:308
+msgid "C_hange Directory"
+msgstr "C_hanger de répertoire"
+
+#: ../plugins/wordcompletion/pluma-word-completion-plugin.c:144
+msgid "Document Words"
+msgstr "Mots du document"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Word Completion"
+msgstr "Complétion de mots"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Word completion using the completion framework"
+msgstr "Complétion de mots, utilise la structure de complétion"
+
+#: ../plugins/synctex/synctex.pluma-plugin.desktop.in.in.h:1
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: ../plugins/synctex/synctex.pluma-plugin.desktop.in.in.h:2
+msgid "Synchronize between LaTeX and PDF with pluma and atril."
+msgstr "Synchronisation entre LaTeX et PDF avec pluma et atril."
+
+#: ../plugins/synctex/synctex/synctex.py:280
+#: ../plugins/synctex/synctex/synctex.py:281
+msgid "Forward Search"
+msgstr "Recherche en avant"
+
+#. ex:ts=4:et:
+#: ../plugins/textsize/textsize.pluma-plugin.desktop.in.in.h:1
+msgid "Easily increase and decrease the text size"
+msgstr "Augmenter et diminuer facilement la taille du texte"
+
+#: ../plugins/textsize/textsize.pluma-plugin.desktop.in.in.h:2
+msgid "Text Size"
+msgstr "Text Size"
+

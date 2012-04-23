@@ -1,0 +1,9 @@
+[Pluma Plugin]
+Module=bookmarks
+IAge=2
+_Name=Bookmarks
+_Description=Easy document navigation with bookmarks
+Authors=Jesse van den Kieboom <jesse@icecrew.nl>
+Copyright=Copyright @ 2009 Jesse van den Kieboom
+Website=http://www.mate-desktop.org
+Version=@VERSION@

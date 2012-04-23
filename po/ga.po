@@ -1,0 +1,460 @@
+#
+# Alastair McKinstry <mckinstry@computer.org>, 2000
+# Paul Duffy <dubhthach@frink.nuigalway.ie>,2003
+
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-0.5.5\n"
+"POT-Creation-Date: 2003-05-23 13:45+0100\n"
+"PO-Revision-Date: 2003-05-23  13:47+0100\n"
+"Last-Translator: Paul Duffy <dubhthach@frink.nuigalway.ie>\n"
+"Language-Team: Irish \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: plugins/ASCII/ascii.c:43
+msgid "_ASCII Table"
+msgstr ""
+
+#: plugins/ASCII/ascii.c:46
+msgid "Pop-up a dialog containing an ASCII Table"
+msgstr ""
+
+#: plugins/ASCII/ascii.c:303
+#, fuzzy
+msgid "Char"
+msgstr "Dún"
+
+#: plugins/ASCII/ascii.c:310
+msgid "Dec#"
+msgstr ""
+
+#: plugins/ASCII/ascii.c:317
+msgid "Hex#"
+msgstr ""
+
+#: plugins/ASCII/ascii.c:324
+msgid "Name"
+msgstr "Ainm"
+
+#: plugins/ASCII/ascii.c:369
+msgid "ASCII Table"
+msgstr ""
+
+#: plugins/ASCII/ascii.c:382 plugins/ASCII/asciitable.glade2.h:2
+msgid "_Insert char"
+msgstr ""
+
+#: plugins/ASCII/ascii.pluma-plugin.desktop.in.h:1
+#: plugins/ASCII/asciitable.glade2.h:1
+msgid "ASCII table"
+msgstr ""
+
+#: plugins/ASCII/ascii.pluma-plugin.desktop.in.h:2
+msgid "This plugin displays a pop-up dialog which contains an ASCII Table."
+msgstr ""
+
+#. AFAIK, all cvs commit messages start with this
+#: plugins/cvschangelog/cvschangelog.c:49
+msgid "Open CVS Chan_geLogs"
+msgstr ""
+
+#: plugins/cvschangelog/cvschangelog.c:52
+msgid "Searches for ChangeLogs in the current document and opens them"
+msgstr ""
+
+#: plugins/cvschangelog/cvschangelog.pluma-plugin.desktop.in.h:1
+msgid "A plugin that opens ChangeLogs found in CVS commit messages."
+msgstr ""
+
+#: plugins/cvschangelog/cvschangelog.pluma-plugin.desktop.in.h:2
+msgid "CVS ChangeLog"
+msgstr ""
+
+#: plugins/diff/diff.c:65
+#, fuzzy
+msgid "Co_mpare Files..."
+msgstr "Oscáil Comhad..."
+
+#: plugins/diff/diff.c:68
+msgid "Makes a diff file from two documents or files"
+msgstr ""
+
+#. Create the dialog
+#: plugins/diff/diff.c:271 plugins/diff/diff.pluma-plugin.desktop.in.h:1
+#, fuzzy
+msgid "Compare Files"
+msgstr "Oscaíl comhad"
+
+#: plugins/diff/diff.c:285
+msgid "C_ompare"
+msgstr ""
+
+#: plugins/diff/diff.c:513
+msgid "Executed command"
+msgstr ""
+
+#: plugins/diff/diff.c:654
+#, fuzzy
+msgid "The two documents you selected are the same."
+msgstr "Capéiseanna"
+
+#: plugins/diff/diff.c:662
+msgid ""
+"The \"first\" file you selected does not exist.\n"
+"\n"
+"Please provide a valid file."
+msgstr ""
+
+#: plugins/diff/diff.c:671
+msgid ""
+"The \"second\" file you selected does not exist.\n"
+"\n"
+"Please provide a valid file."
+msgstr ""
+
+#: plugins/diff/diff.c:679
+msgid "The two files you selected are the same."
+msgstr ""
+
+#: plugins/diff/diff.c:696
+msgid "The \"first\" document contains no text."
+msgstr ""
+
+#: plugins/diff/diff.c:730
+msgid "The \"second\" document contains no text."
+msgstr ""
+
+#. FIXME: do better error reporting ... . Chema
+#: plugins/diff/diff.c:756
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"pluma could not create a temporary file."
+msgstr ""
+
+#: plugins/diff/diff.c:780 plugins/diff/diff.c:793
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"Error executing the diff command."
+msgstr ""
+
+#: plugins/diff/diff.c:815
+msgid "No differences were found between the selected documents."
+msgstr ""
+
+#: plugins/diff/diff.c:856
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"The result contains invalid UTF-8 data."
+msgstr ""
+
+#: plugins/diff/diff.glade2.h:1 plugins/shell_output/shell_output.glade2.h:1
+msgid "*"
+msgstr ""
+
+#: plugins/diff/diff.glade2.h:2
+msgid "Choose the files to compare."
+msgstr ""
+
+#: plugins/diff/diff.glade2.h:3
+#, fuzzy
+msgid "Compare files..."
+msgstr "Oscáil Comhad..."
+
+#: plugins/diff/diff.glade2.h:4
+#, fuzzy
+msgid "F_rom document"
+msgstr "Capéiseanna"
+
+#: plugins/diff/diff.glade2.h:5
+msgid "First"
+msgstr ""
+
+#: plugins/diff/diff.glade2.h:6
+msgid "First file from disk"
+msgstr ""
+
+#: plugins/diff/diff.glade2.h:7
+#, fuzzy
+msgid "First file from open document"
+msgstr "Rphost an capéis seo"
+
+#: plugins/diff/diff.glade2.h:8
+#, fuzzy
+msgid "From _document"
+msgstr "Capéiseanna"
+
+#: plugins/diff/diff.glade2.h:9
+msgid "From a _file on disk"
+msgstr ""
+
+#: plugins/diff/diff.glade2.h:10
+msgid "From a file o_n disk"
+msgstr ""
+
+#: plugins/diff/diff.glade2.h:11
+msgid "Ignore _blanks (-b option)"
+msgstr ""
+
+#: plugins/diff/diff.glade2.h:12
+msgid "Note that this option is only supported by GNU diff"
+msgstr ""
+
+#: plugins/diff/diff.glade2.h:13
+msgid "Second"
+msgstr ""
+
+#: plugins/diff/diff.glade2.h:14
+msgid "Second file from disk"
+msgstr ""
+
+#: plugins/diff/diff.glade2.h:15
+#, fuzzy
+msgid "Second file from open document"
+msgstr "Rphost an capéis seo"
+
+#: plugins/diff/diff.glade2.h:16
+msgid "Select the \"first\" file..."
+msgstr ""
+
+#: plugins/diff/diff.glade2.h:17
+msgid "Select the \"second\" file..."
+msgstr ""
+
+#: plugins/diff/diff.glade2.h:18
+#, fuzzy
+msgid "Select the first file to compare"
+msgstr "Rphost an capéis seo"
+
+#: plugins/diff/diff.glade2.h:19
+#, fuzzy
+msgid "Select the first open document to compare"
+msgstr "Rphost an capéis seo"
+
+#: plugins/diff/diff.glade2.h:20
+#, fuzzy
+msgid "Select the second file to compare"
+msgstr "Rphost an capéis seo"
+
+#: plugins/diff/diff.glade2.h:21
+#, fuzzy
+msgid "Select the second open document to compare"
+msgstr "Rphost an capéis seo"
+
+#: plugins/diff/diff.glade2.h:22
+msgid "Use the _unified output format (-u option)"
+msgstr ""
+
+#: plugins/diff/diff.pluma-plugin.desktop.in.h:2
+msgid ""
+"The Compare Files plugin uses the <tt>diff</tt> program to compare two "
+"documents or files on disk.\n"
+"\n"
+"For more info on <tt>diff</tt> program, type <tt>man diff</tt> in a shell "
+"prompt."
+msgstr ""
+
+#: plugins/shell_output/shell_output.c:56
+msgid "_Run Command..."
+msgstr ""
+
+#: plugins/shell_output/shell_output.c:59
+msgid "Run a command"
+msgstr ""
+
+#: plugins/shell_output/shell_output.c:161
+#: plugins/shell_output/shell_output.c:516
+msgid "Stopped"
+msgstr ""
+
+#: plugins/shell_output/shell_output.c:246
+msgid "An error occurs while running the selected command."
+msgstr ""
+
+#: plugins/shell_output/shell_output.c:302
+msgid "Run Command"
+msgstr ""
+
+#: plugins/shell_output/shell_output.c:318
+msgid "_Run"
+msgstr "_Rith"
+
+#: plugins/shell_output/shell_output.c:522
+msgid "Done"
+msgstr ""
+
+#: plugins/shell_output/shell_output.c:524
+msgid "Failed"
+msgstr "Theip"
+
+#: plugins/shell_output/shell_output.c:696
+msgid ""
+"The shell command entry is empty.\n"
+"\n"
+"Please, insert a valid shell command."
+msgstr ""
+
+#: plugins/shell_output/shell_output.c:729
+msgid ""
+"Error parsing the shell command.\n"
+"\n"
+"Please, insert a valid shell command."
+msgstr ""
+
+#: plugins/shell_output/shell_output.c:815
+msgid "Executing command"
+msgstr ""
+
+#: plugins/shell_output/shell_output.glade2.h:2
+msgid "Co_mmand:"
+msgstr ""
+
+#: plugins/shell_output/shell_output.glade2.h:3
+msgid "Select the working directory..."
+msgstr ""
+
+#: plugins/shell_output/shell_output.glade2.h:4
+msgid "_Show results in Output Window"
+msgstr ""
+
+#: plugins/shell_output/shell_output.glade2.h:5
+msgid "_Working directory:"
+msgstr ""
+
+#: plugins/shell_output/shell_output.glade2.h:6
+#, fuzzy
+msgid "pluma: Shell Output plugin"
+msgstr "pluma: plogála r-phost"
+
+#: plugins/shell_output/shell_output.pluma-plugin.desktop.in.h:1
+msgid ""
+"Execute an external program and eventually grabs its output in the output "
+"window."
+msgstr ""
+
+#: plugins/shell_output/shell_output.pluma-plugin.desktop.in.h:2
+msgid "Shell command"
+msgstr ""
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:136
+#, fuzzy
+msgid "Tag list plugin"
+msgstr "pluma: plogála r-phost"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:154
+msgid "Select the group of tags you want to use"
+msgstr ""
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:176
+msgid "Tag Groups Combo"
+msgstr ""
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:178
+msgid "Tags Name List"
+msgstr ""
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:188
+#, fuzzy
+msgid "Double-click on a tag to insert it in the current document"
+msgstr "Priontáil an comhad seo"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:199
+msgid "Tags"
+msgstr ""
+
+#: plugins/taglist/pluma-taglist-plugin.c:46
+msgid "Tag _List"
+msgstr ""
+
+#.
+#. #define MENU_ITEM_NAME		"TagList"
+#.
+#: plugins/taglist/pluma-taglist-plugin.c:51
+msgid "Show the tag list window"
+msgstr ""
+
+#: plugins/taglist/taglist.pluma-plugin.desktop.in.h:1
+msgid "Tag list"
+msgstr ""
+
+#: plugins/taglist/taglist.pluma-plugin.desktop.in.h:2
+msgid ""
+"The tag list plugin provides a method to easily insert into a document "
+"commonly used tags/strings without having to type them."
+msgstr ""
+
+#: plugins/indent/indent.c:45
+#, fuzzy
+msgid "_Indent"
+msgstr "Capéiseanna"
+
+#: plugins/indent/indent.c:47
+msgid "Indent selected lines"
+msgstr ""
+
+#: plugins/indent/indent.c:49
+msgid "U_nindent"
+msgstr ""
+
+#: plugins/indent/indent.c:51
+msgid "Unindent selected lines"
+msgstr ""
+
+#: plugins/indent/indent.pluma-plugin.desktop.in.h:1
+msgid "Indent lines"
+msgstr ""
+
+#: plugins/indent/indent.pluma-plugin.desktop.in.h:2
+msgid "Indent or un-indent selected lines."
+msgstr ""
+
+#: plugins/sort/sort.glade2.h:1
+#, fuzzy
+msgid "R_emove duplicates"
+msgstr "_Bain as Radharc"
+
+#: plugins/sort/sort.glade2.h:2
+#, fuzzy
+msgid "S_tart at column:"
+msgstr "Capéiseanna"
+
+#: plugins/sort/sort.pluma-plugin.desktop.in.h:1 plugins/sort/sort.glade2.h:3
+msgid "Sort"
+msgstr "Sórtáil"
+
+#: plugins/sort/sort.glade2.h:4
+msgid "You cannot undo a sort operation"
+msgstr ""
+
+#: plugins/sort/sort.glade2.h:5
+msgid "_Ignore case"
+msgstr ""
+
+#: plugins/sort/sort.glade2.h:6
+msgid "_Reverse order"
+msgstr ""
+
+#: plugins/sort/sort.glade2.h:7
+msgid "_Sort"
+msgstr "_Sórtáil"
+
+#: plugins/sort/sort.pluma-plugin.desktop.in.h:2
+#, fuzzy
+msgid "Sorts a document or selected text."
+msgstr "Capéiseanna"
+
+#. Key in case the plugin ever needs any settings
+#: plugins/sort/sort.c:26
+msgid "S_ort..."
+msgstr "Só_rtáil..."
+
+#: plugins/sort/sort.c:29
+#, fuzzy
+msgid "Sort the current document or selection."
+msgstr "Rphost an capéis seo"
+

@@ -1,0 +1,306 @@
+# translation of pluma-plugins.master.gu.po to Gujarati
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Ankit Patel <ankit@redhat.com>, 2004.
+# Sweta Kothari <swkothar@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins.master.gu\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pluma&component=Plugins\n"
+"POT-Creation-Date: 2009-10-18 20:14+0000\n"
+"PO-Revision-Date: 2009-10-20 14:30+0530\n"
+"Last-Translator: Sweta Kothari <swkothar@redhat.com>\n"
+"Language-Team: Gujarati\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:1
+msgid "Bookmarks"
+msgstr "બુકમાર્કો"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "બુકમાર્કો સાથે સરળ દસ્તાવેજ શોધનાર"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:130
+msgid "Toggle Bookmark"
+msgstr "ટોગલ બુકમાર્ક"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:131
+msgid "Toggle bookmark status of the current line"
+msgstr "હાલનાં વાક્ય પર ટોગલ બુકમાર્ક સ્થિતિ"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:133
+msgid "Goto Next Bookmark"
+msgstr "પછીનાં બુકમાર્ક પર જાઓ"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:134
+msgid "Goto the next bookmark"
+msgstr "પછીનાં બુકમાર્ક પર જાઓ"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:136
+msgid "Goto Previous Bookmark"
+msgstr "પહેલાનાં બુકમાર્ક પર જાઓ"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:137
+msgid "Goto the previous bookmark"
+msgstr "પહેલાનાં બુકમાર્ક પર જાઓ"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "બંધ કરતા કૌંસો ઓપોઆપ ઉમેરાય છે."
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Bracket Completion"
+msgstr "કૌંસ સમાપ્તિ"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:258
+msgid "Character Map"
+msgstr "અક્ષર નક્ષો"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "તેઓની પક ફક્ત ક્લિક કરવા દ્દારા ચોક્કસ અક્ષરોને દાખલ કરો."
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:1
+msgid "Code comment"
+msgstr "કોડ ટિપ્પણી"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "કોડનાં પસંદ થયેલ બ્લોકની ટિપ્પણી ન કરો અથવા ટિપ્પણીમાંથી બહાર નીકળો."
+
+#: ../plugins/codecomment/codecomment.py:230
+msgid "Co_mment Code"
+msgstr "ટિપ્પણી કોડ (_m)"
+
+#: ../plugins/codecomment/codecomment.py:232
+msgid "Comment the selected code"
+msgstr "પસંદ થયેલ કોડની ટિપ્પણી કરો"
+
+#: ../plugins/codecomment/codecomment.py:236
+msgid "U_ncomment Code"
+msgstr "કોડની ટિપ્પણી ન કરો (_n)"
+
+#: ../plugins/codecomment/codecomment.py:238
+msgid "Uncomment the selected code"
+msgstr "પસંદ થયેલ કોડની ટિપ્પણી ન કરો"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "રંગ પસંક કરનાર"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "સંવાદ માંથી રંગને પસંદ કરો અને તેની હેક્ઝાડેશીમલ રજૂઆતને દાખલ કરો."
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "Pick _Color..."
+msgstr "રંગ પસંદ કરો (_C)..."
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "સંવાદ માંથી રંગ પસંદ કરો"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Pick Color"
+msgstr "રંગને પસંદ કરો"
+
+#: ../plugins/colorpicker/colorpicker.py:226
+msgid "_Insert"
+msgstr "દાખલ કરો (_I)"
+
+#. ex:ts=4:et:
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Draw Spaces"
+msgstr "જગ્યાઓને દોરો"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "જગ્યાઓ અને ટેબોને દોરો"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:1
+#| msgid "Draw non-breaking spaces"
+msgid "Draw leading spaces"
+msgstr "મુખ્ય જગ્યાઓને દોરો"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:2
+msgid "Draw new lines"
+msgstr "નવી લીટીઓને દોરો"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:3
+msgid "Draw non-breaking spaces"
+msgstr "બ્રેક ન થાય તેવી જગ્યાઓને દોરો"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:4
+msgid "Draw spaces"
+msgstr "જગ્યાઓને દોરો"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:5
+#| msgid "Draw spaces"
+msgid "Draw spaces in text"
+msgstr "લખાણમાં જગ્યાઓને દોરો"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:6
+msgid "Draw tabs"
+msgstr "ટેબોને દોરો"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:7
+#| msgid "Draw non-breaking spaces"
+msgid "Draw trailing spaces"
+msgstr "ટ્રેલિંગ જગ્યાઓને દોરો"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:163
+msgid "Show _White Space"
+msgstr "સફેદ જગ્યાને બતાવો (_W)"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:164
+msgid "Show spaces and tabs"
+msgstr "જગ્યાઓ અને ટેબોને બતાવો"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:626
+msgid "Error dialog"
+msgstr "ભૂલ સંવાદ"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "ઘણીબધી લીટીઓ અથવા અલગ થયેલ લાંબી એક ને જોડો"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:2
+msgid "Join/Split Lines"
+msgstr "લીટીઓને જોડો/અલગ કરો"
+
+#: ../plugins/joinlines/joinlines.py:56
+msgid "_Join Lines"
+msgstr "લીટીઓને જોડો (_J)"
+
+#: ../plugins/joinlines/joinlines.py:57
+msgid "Join the selected lines"
+msgstr "પસંદ થયેલ લીટીઓને જોડો"
+
+#: ../plugins/joinlines/joinlines.py:59
+msgid "_Split Lines"
+msgstr "લીટીઓને અલગ કરો (_S)"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "Split the selected lines"
+msgstr "પસંદ થયેલ લીટીઓને અલગ કરો"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "ટેબ પટ્ટી (_b)"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "હાલની વિન્ડોમાં ટેબપટ્ટી ને બતાવો અથવા છુપાડો"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "ટેબપટ્ટી એ દેખાય તેવુ છે"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr "ફેરફાર થતી વિન્ડોમાં ક્યાંતો ટેબપટ્ટી દેખાવી જોઇએ."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr "ટેબપટ્ટીને બતાવવા/છુપાડવા માટે મેનુ નોંધણીને ઉમેરો."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "ટેબપટ્ટીને બતાવો/છુપાડો"
+
+#: ../plugins/sessionsaver/__init__.py:64
+msgid "Sa_ved sessions"
+msgstr "સંગ્રહ થયેલ સત્રો (_v)"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "_Save current session"
+msgstr "હાલનાં સત્રને સંગ્રહો (_S)"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "Save the current document list as a new session"
+msgstr "નવા સત્ર તરીકે હાલનાં દસ્તાવેજની યાદીને સંગ્રહો"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "_Manage saved sessions..."
+msgstr "સંગ્રહ થયેલ સત્રોને સંચાલિત કરો (_M)"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "Open the saved session manager"
+msgstr "સંગ્રહ થયેલ સત્ર વ્યવસ્થાપકને ખોલો"
+
+#: ../plugins/sessionsaver/__init__.py:106
+#, python-format
+msgid "Recover '%s' session"
+msgstr "'%s' સત્રને પાછુ મેળવો"
+
+#: ../plugins/sessionsaver/dialogs.py:167
+msgid "Session Name"
+msgstr "સત્ર નામ"
+
+#. ex:ts=4:et:
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:1
+msgid "Save and restore your working sessions"
+msgstr "તમારી કામ કરતા સત્રોને સંગહો અને પુન:સંગ્રહ કરો"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:2
+msgid "Session Saver"
+msgstr "સત્ર સંગ્રહ કરનાર"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:1
+msgid "Save session"
+msgstr "સત્રને સંગ્રહો"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:2
+msgid "Saved Sessions"
+msgstr "સંગ્રહ થયેલ સત્રો"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:3
+msgid "Session name:"
+msgstr "સત્ર નામ:"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "ભૂલી જાઓ કે તમે કોષ્ટકોને વાપરી રહ્યા નથી."
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Smart Spaces"
+msgstr "હોશિયાર જગ્યાઓ"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "નીચેના તકતીમાં ટર્મિનલને એમ્બેડ કરો."
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:2
+msgid "Embedded Terminal"
+msgstr "એમ્બેડ થયેલ ટર્મિનલ"
+
+#: ../plugins/terminal/terminal.py:262
+msgid "Terminal"
+msgstr "ટર્મિનલ"
+
+#: ../plugins/terminal/terminal.py:285
+msgid "C_hange Directory"
+msgstr "ડિરેક્ટરીને બદલો (_h)"
+
+#: ../plugins/wordcompletion/pluma-word-completion-plugin.c:144
+msgid "Document Words"
+msgstr "દસ્તાવેજ શબ્દો"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:1
+#| msgid "Bracket Completion"
+msgid "Word Completion"
+msgstr "શબ્દ સમાપ્તિ"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Word completion using the completion framework"
+msgstr "શબ્દ સમાપ્તિ એ ફ્રેમવર્ક સમાપ્તિ ને વાપરી રહી છે"
+

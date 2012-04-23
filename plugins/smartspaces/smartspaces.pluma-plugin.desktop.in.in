@@ -1,0 +1,11 @@
+[Pluma Plugin]
+Loader=python
+Module=smartspaces
+IAge=2
+_Name=Smart Spaces
+_Description=Forget you're not using tabulations.
+Icon=gtk-unindent
+Authors=Steve Frécinaux <steve@istique.net>
+Copyright=Copyright © 2006 Steve Frécinaux
+Website=http://www.mate-desktop.org
+Version=@VERSION@

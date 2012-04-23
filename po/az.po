@@ -1,0 +1,272 @@
+# pluma-plugins.HEAD.az.po faylının Azərbaycan dilinə tərcüməsi
+# ---------------------------------------------------------------------
+# Copyright (C) 1999-2000,2003 Free Software Foundation, Inc.
+# ---------------------------------------------------------------------
+# Vasif Ismailoglu MD <azerb_linux@hotmail.com>,2000-2001 .
+# Mətin Əmirov <metin@karegen.com>, 2003
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins.HEAD.az\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2003-08-23 04:09+0200\n"
+"PO-Revision-Date: 2003-09-10 18:21+0300\n"
+"Last-Translator: Mətin Əmirov <metin@karegen.com>\n"
+"Language-Team: Azərbaycan <gnome@azitt.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.1\n"
+
+#: plugins/ASCII/ascii.c:43
+msgid "_ASCII Table"
+msgstr "_ASCII Cədvəli"
+
+#: plugins/ASCII/ascii.c:46
+msgid "Pop-up a dialog containing an ASCII Table"
+msgstr "ASCII cədvəlini daxil edən dialoqu göstər"
+
+#: plugins/ASCII/ascii.c:303
+msgid "Char"
+msgstr "Hərf"
+
+#: plugins/ASCII/ascii.c:310
+msgid "Dec#"
+msgstr "Dec#"
+
+#: plugins/ASCII/ascii.c:317
+msgid "Hex#"
+msgstr "Hex#"
+
+#: plugins/ASCII/ascii.c:324
+msgid "Name"
+msgstr "Ad"
+
+#: plugins/ASCII/ascii.c:369
+msgid "ASCII Table"
+msgstr "ASCII Cədvəli"
+
+#: plugins/ASCII/ascii.c:382 plugins/ASCII/asciitable.glade2.h:2
+msgid "_Insert char"
+msgstr "Hərf _daxil et"
+
+#: plugins/ASCII/asciitable.glade2.h:1
+#: plugins/ASCII/ascii.pluma-plugin.desktop.in.h:1
+msgid "ASCII table"
+msgstr "ASCII cədvəli"
+
+#: plugins/ASCII/ascii.pluma-plugin.desktop.in.h:2
+msgid "This plugin displays a pop-up dialog which contains an ASCII Table."
+msgstr "Bu əlavə ASCII cədvəlini daxil edən dialoqu göstərir."
+
+#. AFAIK, all cvs commit messages start with this
+#: plugins/cvschangelog/cvschangelog.c:49
+msgid "Open CVS Chan_geLogs"
+msgstr "CVS Chan_geLog'ları aç"
+
+#: plugins/cvschangelog/cvschangelog.c:52
+msgid "Searches for ChangeLogs in the current document and opens them"
+msgstr "Hazırkı sənəddə ChangeLog'ları axtarır və onları açır"
+
+#: plugins/cvschangelog/cvschangelog.pluma-plugin.desktop.in.h:1
+msgid "A plugin that opens ChangeLogs found in CVS commit messages."
+msgstr "CVS commit ismarışlarında ChangeLog'ları tapıb göstərən əlavə."
+
+#: plugins/cvschangelog/cvschangelog.pluma-plugin.desktop.in.h:2
+msgid "CVS ChangeLog"
+msgstr "CVS ChangeLog"
+
+#: plugins/diff/diff.c:65
+msgid "Co_mpare Files..."
+msgstr "Faylları _Müqayisə Et..."
+
+#: plugins/diff/diff.c:68
+msgid "Makes a diff file from two documents or files"
+msgstr "İki sənəd ya da fayl arasında fərqləri tap"
+
+#. Create the dialog
+#: plugins/diff/diff.c:271 plugins/diff/diff.pluma-plugin.desktop.in.h:1
+msgid "Compare Files"
+msgstr "Faylları Müqayisə Et"
+
+#: plugins/diff/diff.c:285
+msgid "C_ompare"
+msgstr "Mü_qayisə"
+
+#: plugins/diff/diff.c:513
+msgid "Executed command"
+msgstr "İcra edilən əmr"
+
+#: plugins/diff/diff.c:654
+msgid "The two documents you selected are the same."
+msgstr "Seçdiyiniz iki sənəd eynidir."
+
+#: plugins/diff/diff.c:662
+msgid ""
+"The \"first\" file you selected does not exist.\n"
+"\n"
+"Please provide a valid file."
+msgstr ""
+"Seçdiyiniz \"birinci\" fayl mövcud deyil.\n"
+"\n"
+"Xahiş edirik, hökmlü fayl seçin."
+
+#: plugins/diff/diff.c:671
+msgid ""
+"The \"second\" file you selected does not exist.\n"
+"\n"
+"Please provide a valid file."
+msgstr ""
+"Seçdiyiniz \"ikinci\" fayl mövcud deyil.\n"
+"\n"
+"Xahiş edirik, hökmlü fayl seçin."
+
+#: plugins/diff/diff.c:679
+msgid "The two files you selected are the same."
+msgstr "Seçdiyiniz iki fayl eynidir."
+
+#: plugins/diff/diff.c:696
+msgid "The \"first\" document contains no text."
+msgstr "Birinci sənəd mətn daxil etmir"
+
+#: plugins/diff/diff.c:730
+msgid "The \"second\" document contains no text."
+msgstr "İkinci sənəd mətn daxil etmir"
+
+#. FIXME: do better error reporting ... . Chema
+#: plugins/diff/diff.c:756
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"pluma could not create a temporary file."
+msgstr ""
+"Seçili sənədlərin müqayisəsi mümkün deyil.\n"
+"\n"
+"pluma müvəqqəti fayl yarada bilmədi."
+
+#: plugins/diff/diff.c:780 plugins/diff/diff.c:793
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"Error executing the diff command."
+msgstr ""
+"Seçili sənədlərin müqayisəsi mümkün deyil.\n"
+"\n"
+"diff əmrinin icra edilə bilmir."
+
+#: plugins/diff/diff.c:815
+msgid "No differences were found between the selected documents."
+msgstr "Seçili sənədlər arasında heç bir fərq tapılmadı."
+
+#: plugins/diff/diff.c:856
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"The result contains invalid UTF-8 data."
+msgstr ""
+"Seçili sənədlərin müqayisəsi mümkün deyil.\n"
+"\n"
+"Nəticə hökmsüz UTF-8 mə'lumatını daxil edir."
+
+#: plugins/diff/diff.glade2.h:1
+msgid "*"
+msgstr "*"
+
+#: plugins/diff/diff.glade2.h:2
+msgid "Choose the files to compare."
+msgstr "Müqayisə ediləcək faylları seçin."
+
+#: plugins/diff/diff.glade2.h:3
+msgid "Compare files..."
+msgstr "Faylları müqayisə et..."
+
+#: plugins/diff/diff.glade2.h:4
+msgid "F_rom document"
+msgstr "_Bu sənəddən"
+
+#: plugins/diff/diff.glade2.h:5
+msgid "First"
+msgstr "Birinci"
+
+#: plugins/diff/diff.glade2.h:6
+msgid "First file from disk"
+msgstr "Disktəki ilk fayl"
+
+#: plugins/diff/diff.glade2.h:7
+msgid "First file from open document"
+msgstr "Açıq sənəddən ilk fayl"
+
+#: plugins/diff/diff.glade2.h:8
+msgid "From _document"
+msgstr "_Sənəddən"
+
+#: plugins/diff/diff.glade2.h:9
+msgid "From a _file on disk"
+msgstr "Disktəki _fayldan"
+
+#: plugins/diff/diff.glade2.h:10
+msgid "From a file o_n disk"
+msgstr "_Disktəki fayldan"
+
+#: plugins/diff/diff.glade2.h:11
+msgid "Ignore _blanks (-b option)"
+msgstr "_Boşluqları nəzərə alma (-b seçimi)"
+
+#: plugins/diff/diff.glade2.h:12
+msgid "Note that this option is only supported by GNU diff"
+msgstr "Bu, sadəcə olaraq GNU diff tərəfindən dəstəklənir"
+
+#: plugins/diff/diff.glade2.h:13
+msgid "Second"
+msgstr "İkinci"
+
+#: plugins/diff/diff.glade2.h:14
+msgid "Second file from disk"
+msgstr "Disktəki ikinci fayl"
+
+#: plugins/diff/diff.glade2.h:15
+msgid "Second file from open document"
+msgstr "Açıq sənəddən ikinci fayl"
+
+#: plugins/diff/diff.glade2.h:16
+msgid "Select the \"first\" file..."
+msgstr "\"Birinci\" faylı seç..."
+
+#: plugins/diff/diff.glade2.h:17
+msgid "Select the \"second\" file..."
+msgstr "\"İkinci\" faylı seç..."
+
+#: plugins/diff/diff.glade2.h:18
+msgid "Select the first file to compare"
+msgstr "Müqayisə ediləcək ilk faylı seç"
+
+#: plugins/diff/diff.glade2.h:19
+msgid "Select the first open document to compare"
+msgstr "Müqayisə ediləcək ilk açıq sənədi seç"
+
+#: plugins/diff/diff.glade2.h:20
+msgid "Select the second file to compare"
+msgstr "Müqayisə ediləcək ikinci faylı seç"
+
+#: plugins/diff/diff.glade2.h:21
+msgid "Select the second open document to compare"
+msgstr "Müqayisə ediləcək ikinci açıq sənədi seç"
+
+#: plugins/diff/diff.glade2.h:22
+msgid "Use the _unified output format (-u option)"
+msgstr "_Tək (unified) çıxış formatını işlət (-u seçimi)"
+
+#: plugins/diff/diff.pluma-plugin.desktop.in.h:2
+msgid ""
+"The Compare Files plugin uses the <tt>diff</tt> program to compare two "
+"documents or files on disk.\n"
+"\n"
+"For more info on <tt>diff</tt> program, type <tt>man diff</tt> in a shell "
+"prompt."
+msgstr ""
+"Faylları Müqayisə Et əlavəsi disktəki iki faylı <tt>diff</tt> proqramı vasitəsiylə"
+"müqayisə edir.\n"
+"\n"
+"<tt>diff</tt> proqramı haqqında daha ətraflı mə'lumat üçün, terminala "
+"<tt>man diff</tt> ya da Nautilus'un ünvan çubuğuna <tt>man:diff</tt> "
+"əmrini yazın"
+

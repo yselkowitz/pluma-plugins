@@ -1,0 +1,309 @@
+# translation of pluma-plugins.master.or.po to Oriya
+# Oriya translation of pluma-plugins.HEAD.pot.
+# This file is distributed under the same license as the pluma-plugins package.
+# Copyright (C) 2004, 2009 Free Software Foundation, Inc.
+#
+# Gora Mohanty <gora_mohanty@yahoo.co.in>, 2004.
+# Manoj Kumar Giri <mgiri@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins.master.or\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pluma&component=Plugins\n"
+"POT-Creation-Date: 2009-10-18 20:14+0000\n"
+"PO-Revision-Date: 2009-10-28 13:03+0530\n"
+"Last-Translator: Manoj Kumar Giri <mgiri@redhat.com>\n"
+"Language-Team: Oriya <oriya-it@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n!=1);\n\n"
+"\n"
+"\n"
+"\n"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:1
+msgid "Bookmarks"
+msgstr "ଚିହ୍ନିତ ସ୍ଥାନଗୁଡ଼ିକ"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "ଚିହ୍ନିତ ସ୍ଥାନଗୁଡ଼ିକ ସହିତ ସହଜ ଦଲିଲ ସଞ୍ଚାରକ"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:130
+msgid "Toggle Bookmark"
+msgstr "ଚିହ୍ନିତ ସ୍ଥାନଗୁଡ଼ିକୁ ଆଗପଛକରନ୍ତୁ"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:131
+msgid "Toggle bookmark status of the current line"
+msgstr "ପ୍ରଚଳିତ ଧାଡ଼ିର ଚିହ୍ନିତ ସ୍ଥାନକୁ ଆଗପଛ କରନ୍ତୁ"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:133
+msgid "Goto Next Bookmark"
+msgstr "ପରବର୍ତ୍ତି ଚିହ୍ନିତ ସ୍ଥାନକୁ ଯାଆନ୍ତୁ"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:134
+msgid "Goto the next bookmark"
+msgstr "ପରବର୍ତ୍ତି ଚିହ୍ନିତ ସ୍ଥାନକୁ ଯାଆନ୍ତୁ"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:136
+msgid "Goto Previous Bookmark"
+msgstr "ପୂର୍ବବର୍ତ୍ତି ଚିହ୍ନିତ ସ୍ଥାନକୁ ଯାଆନ୍ତୁ"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:137
+msgid "Goto the previous bookmark"
+msgstr "ପୂର୍ବବର୍ତ୍ତି ଚିହ୍ନିତ ସ୍ଥାନକୁ ଯାଆନ୍ତୁ"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "ବନ୍ଦହୋଇଥିବା ବନ୍ଧନିଗୁଡ଼ିକୁ ସ୍ୱୟଂଚାଳିତ ଭାବରେ ଯୋଗକରନ୍ତୁ।"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Bracket Completion"
+msgstr "ବନ୍ଧନୀ ସମ୍ପୂର୍ଣ୍ଣ"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:258
+msgid "Character Map"
+msgstr "ଅକ୍ଷର ତାଲିକା"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "ବିଶିଷ୍ଟ ଅକ୍ଷରଗୁଡ଼ିକୁ ସେମାନଙ୍କ ଉପରେ କ୍ଲିକ କରି ଭର୍ତ୍ତିକରନ୍ତୁ।"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:1
+msgid "Code comment"
+msgstr "ସଂକେତ ଟିପ୍ପଣୀ"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "ବଚ୍ଛିତ ସଂକେତ ବ୍ଲକରେ ଟିପ୍ପଣୀ ଦିଅନ୍ତୁ ଅଥବା ଦିଅନ୍ତୁ ନାହିଁ।"
+
+#: ../plugins/codecomment/codecomment.py:230
+msgid "Co_mment Code"
+msgstr "ଟିପ୍ପଣୀ ସଂକେତ (_m)"
+
+#: ../plugins/codecomment/codecomment.py:232
+msgid "Comment the selected code"
+msgstr "ବଚ୍ଛିତ ସଂକେତରେ ଟିପ୍ପଣୀ ଦିଅନ୍ତୁ"
+
+#: ../plugins/codecomment/codecomment.py:236
+msgid "U_ncomment Code"
+msgstr "ସଂକେତକୁ ଟିପ୍ପଣୀ ଦିଅନ୍ତୁ ନାହିଁ (_n)"
+
+#: ../plugins/codecomment/codecomment.py:238
+msgid "Uncomment the selected code"
+msgstr "ବଚ୍ଛିତ ସଂକେତକୁ ଟିପ୍ପଣୀହୀନ କରନ୍ତୁ"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "ରଙ୍ଗ ଗୋଟାଳୀ"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "ସଂଳାପରୁ ଗୋଟିଏ ରଙ୍ଗ ବାଛନ୍ତୁ ଏବଂ ଏହାର ଶୋହଳମିକ ଉପସ୍ଥାପନାକୁ ଭର୍ତ୍ତିକରନ୍ତୁ।"
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "Pick _Color..."
+msgstr "ରଙ୍ଗ ଗୋଟାନ୍ତୁ (_C)..."
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "ଗୋଟିଏ ସଂଳାପରୁ ରଙ୍ଗ ଗୋଟାନ୍ତୁ"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Pick Color"
+msgstr "ରଙ୍ଗ ଗୋଟାନ୍ତୁ"
+
+#: ../plugins/colorpicker/colorpicker.py:226
+msgid "_Insert"
+msgstr "ଭର୍ତ୍ତି କରନ୍ତୁ (_I)"
+
+#. ex:ts=4:et:
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Draw Spaces"
+msgstr "ଖାଲିସ୍ଥାନ ଆଙ୍କନ୍ତୁ"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "ଖାଲିସ୍ଥାନ ଏବଂ ଟ୍ୟାବ ଆଙ୍କନ୍ତୁ"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:1
+#| msgid "Draw non-breaking spaces"
+msgid "Draw leading spaces"
+msgstr "ଅଗ୍ରୀଣ ଖାଲିସ୍ଥାନଗୁଡ଼ିକୁ ଆଙ୍କନ୍ତୁ"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:2
+msgid "Draw new lines"
+msgstr "ନୂତନ ଧାଡ଼ିଗୁଡ଼ିକୁ ଆଙ୍କନ୍ତୁ"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:3
+msgid "Draw non-breaking spaces"
+msgstr "ଅଭଙ୍ଗା ଖାଲିସ୍ଥାନଗୁଡ଼ିକୁ ଆଙ୍କନ୍ତୁ"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:4
+msgid "Draw spaces"
+msgstr "ଖାଲିସ୍ଥାନଗୁଡ଼ିକୁ ଆଙ୍କନ୍ତୁ"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:5
+#| msgid "Draw spaces"
+msgid "Draw spaces in text"
+msgstr "ପାଠ୍ୟରେ ଖାଲିସ୍ଥାନଗୁଡ଼ିକୁ ଆଙ୍କନ୍ତୁ"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:6
+msgid "Draw tabs"
+msgstr "ଟ୍ୟାବଗୁଡ଼ିକୁ ଆଙ୍କନ୍ତୁ"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:7
+#| msgid "Draw non-breaking spaces"
+msgid "Draw trailing spaces"
+msgstr "ପଛୁଆ ଖାଲିସ୍ଥାନଗୁଡ଼ିକୁ ଆଙ୍କନ୍ତୁ"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:163
+msgid "Show _White Space"
+msgstr "ଧଳା ଖାଲିସ୍ଥାନ ଦର୍ଶାନ୍ତୁ (_W)"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:164
+msgid "Show spaces and tabs"
+msgstr "ଖାଲିସ୍ଥାନ ଏବଂ ଟ୍ୟାବଗୁଡ଼ିକୁ ଦର୍ଶାନ୍ତୁ"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:626
+msgid "Error dialog"
+msgstr "ତ୍ରୁଟି ସଂଳାପ"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "ଅନେକ ଧାଡ଼ିଗୁଡ଼ିକୁ ଯୋଗକରନ୍ତୁ ଅଥବା ଲମ୍ବା ଧାଡ଼ିକୁ ପୃଥକ କରନ୍ତୁ"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:2
+msgid "Join/Split Lines"
+msgstr "ଧାଡ଼ିଗୁଡ଼ିକୁ ଯୋଗକରନ୍ତୁ/ପୃଥକ କରନ୍ତୁ"
+
+#: ../plugins/joinlines/joinlines.py:56
+msgid "_Join Lines"
+msgstr "ଧାଡ଼ିଗୁଡ଼ିକୁ ଯୋଗକରନ୍ତୁ (_J)"
+
+#: ../plugins/joinlines/joinlines.py:57
+msgid "Join the selected lines"
+msgstr "ବଚ୍ଛିତ ଧାଡ଼ିଗୁଡ଼ିକୁ ଯୋଗକରନ୍ତୁ"
+
+#: ../plugins/joinlines/joinlines.py:59
+msgid "_Split Lines"
+msgstr "ଧାଡ଼ିଗୁଡ଼ିକୁ ପୃଥକ କରନ୍ତୁ (_S)"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "Split the selected lines"
+msgstr "ବଚ୍ଛିତ ଧାଡ଼ିଗୁଡ଼ିକୁ ପୃଥକ କରନ୍ତୁ"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "ଟ୍ୟାବ ପଟି (_b)"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "ପ୍ରଚଳିତ ୱିଣ୍ଡୋରେ ଟ୍ୟାବ ପଟିକୁ ଦର୍ଶାନ୍ତୁ ଅଥବା ଲୁଚାନ୍ତୁ"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "ଟ୍ୟାବ ପଟିଟି ଦୃଶ୍ୟମାନ ହେଉଛି"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr "ଟ୍ୟାବ ପଟିଟି ସମ୍ପାଦନ ୱିଣ୍ଡୋଗୁଡ଼ିକରେ ଦୃଶ୍ୟମାନ ହେବ କି ନାହିଁ। "
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr "ଟ୍ୟାବ ପଟିକୁ ଦର୍ଶାଇବା/ଲୁଚାଇବା ପାଇଁ ଗୋଟିଏ ତାଲିକା ଭରଣ ଯୋଗ କରନ୍ତୁ।"
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "ଟ୍ୟାବ ପଟି ଦର୍ଶାନ୍ତୁ/ଲୁଚାନ୍ତୁ"
+
+#: ../plugins/sessionsaver/__init__.py:64
+msgid "Sa_ved sessions"
+msgstr "ସଂରକ୍ଷିତ ଅଧିବେଶନ (_v)"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "_Save current session"
+msgstr "ପ୍ରଚଳିତ ଅଧିବେଶନକୁ ସଂରକ୍ଷଣ କରନ୍ତୁ (_S)"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "Save the current document list as a new session"
+msgstr "ପ୍ରଚଳିତ ଦଲିଲ ତାଲିକାକୁ ଗୋଟିଏ ନୂତନ ଅଧିବେଶନ ଭାବରେ ସଂରକ୍ଷଣ କରନ୍ତୁ"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "_Manage saved sessions..."
+msgstr "ସଂରକ୍ଷିତ ଅଧିବେଶନଗୁଡ଼ିକୁ ପରିଚାଳନା କରନ୍ତୁ (_M)..."
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "Open the saved session manager"
+msgstr "ସଂରକ୍ଷିତ ଅଧିବେଶନ ପରିଚାଳକଙ୍କୁ ଖୋଲନ୍ତୁ"
+
+#: ../plugins/sessionsaver/__init__.py:106
+#, python-format
+msgid "Recover '%s' session"
+msgstr "'%s' ଅଧିବେଶନର ପୁନଃରୁଦ୍ଧାର କରନ୍ତୁ"
+
+#: ../plugins/sessionsaver/dialogs.py:167
+msgid "Session Name"
+msgstr "ଅଧିବେଶନ ନାମ"
+
+#. ex:ts=4:et:
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:1
+msgid "Save and restore your working sessions"
+msgstr "ଆପଣଙ୍କର କାର୍ଯ୍ୟରତ ଅଧିବେଶନକୁ ସଂରକ୍ଷଣ ଏବଂ ପୁନଃରୁଦ୍ଧାର କରନ୍ତୁ"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:2
+msgid "Session Saver"
+msgstr "ଅଧିବେଶନ ସଂରକ୍ଷକ"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:1
+msgid "Save session"
+msgstr "ଅଧିବେଶନ ସଂରକ୍ଷଣ କରନ୍ତୁ"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:2
+msgid "Saved Sessions"
+msgstr "ସଂରକ୍ଷିତ ଅଧିବେଶନ"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:3
+msgid "Session name:"
+msgstr "ଅଧିବେଶନ ନାମ:"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "ଭୁଲିଯାଆନ୍ତୁ ଆପଣ ସାରଣୀ ବ୍ୟବହାର କରୁନାହାନ୍ତି।"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Smart Spaces"
+msgstr "ଚତୁର ଖାଲିସ୍ଥାନ"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "ତଳ ସ୍ଥାନରେ ଗୋଟିଏ ଟର୍ମିନାଲ ସଂଲଗ୍ନ କରନ୍ତୁ।"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:2
+msgid "Embedded Terminal"
+msgstr "ସଂଲଗ୍ନ ଟର୍ମିନାଲ"
+
+#: ../plugins/terminal/terminal.py:262
+msgid "Terminal"
+msgstr "ଟର୍ମିନାଲ"
+
+#: ../plugins/terminal/terminal.py:285
+msgid "C_hange Directory"
+msgstr "ଡିରେକ୍ଟୋରୀ ପରିବର୍ତ୍ତନ କରନ୍ତୁ (_h)"
+
+#: ../plugins/wordcompletion/pluma-word-completion-plugin.c:144
+msgid "Document Words"
+msgstr "ଦଲିଲ ଶବ୍ଦଗୁଡ଼ିକ"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:1
+#| msgid "Bracket Completion"
+msgid "Word Completion"
+msgstr "ଶବ୍ଦ ପୂର୍ଣ୍ଣତା"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Word completion using the completion framework"
+msgstr "ସମ୍ପୂର୍ଣ୍ଣ ଫ୍ରେମୱର୍କ ବ୍ୟବହାର କରି ଶବ୍ଦ ସମ୍ପୂର୍ଣ୍ଣତା"
+

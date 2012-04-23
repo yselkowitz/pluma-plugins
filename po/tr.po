@@ -1,0 +1,2474 @@
+# Turkish translations of pluma.
+# Copyright (C) 2002-2003 Free Software Foundation, Inc.
+# Nilgün Belma Bugüner <nilgun@fide.org>, 2001, 2002.
+# Fatih Demir <kabalak@gtranslator.org>, 2000.
+# Erkan <erkaN@linux-sevenler.de>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2003-12-28 21:38+0000\n"
+"PO-Revision-Date: 2003-02-04 06:21+0000\n"
+"Last-Translator: erkaN <erkaN@linux-sevenler.de>\n"
+"Language-Team: Turkish <gnome-turk@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: plugins/ASCII/ascii.c:43
+msgid "_ASCII Table"
+msgstr "_ASCII Tablosu"
+
+#: plugins/ASCII/ascii.c:46
+msgid "Pop-up a dialog containing an ASCII Table"
+msgstr "ASCII tablosunu içeren bir pencere oluştur"
+
+#: plugins/ASCII/ascii.c:303
+msgid "Char"
+msgstr "Karakter"
+
+#: plugins/ASCII/ascii.c:310
+msgid "Dec#"
+msgstr "Onluk#"
+
+#: plugins/ASCII/ascii.c:317
+msgid "Hex#"
+msgstr "Onaltılık#"
+
+#: plugins/ASCII/ascii.c:324
+msgid "Name"
+msgstr "İsim"
+
+#: plugins/ASCII/ascii.c:369
+msgid "ASCII Table"
+msgstr "ASCII Tablosu"
+
+#: plugins/ASCII/ascii.c:382 plugins/ASCII/asciitable.glade2.h:2
+msgid "_Insert char"
+msgstr "_Karakter ekle"
+
+#: plugins/ASCII/asciitable.glade2.h:1
+#: plugins/ASCII/ascii.pluma-plugin.desktop.in.h:1
+msgid "ASCII table"
+msgstr "ASCII tablosu"
+
+#: plugins/ASCII/ascii.pluma-plugin.desktop.in.h:2
+msgid "This plugin displays a pop-up dialog which contains an ASCII Table."
+msgstr "Bu eklenti, ASCII tablosunu gösteren bir pop-up penceresi gösterir."
+
+#. AFAIK, all cvs commit messages start with this
+#: plugins/cvschangelog/cvschangelog.c:49
+msgid "Open CVS Chan_geLogs"
+msgstr "_CVS Değişiklik Günlüğünü Aç"
+
+#: plugins/cvschangelog/cvschangelog.c:52
+msgid "Searches for ChangeLogs in the current document and opens them"
+msgstr "Mevcut belgedeki değişiklik günlüğü iletilerini araştırır ve açar. "
+
+#: plugins/cvschangelog/cvschangelog.pluma-plugin.desktop.in.h:1
+msgid "A plugin that opens ChangeLogs found in CVS commit messages."
+msgstr ""
+"CVS commit iletilerinindeki değişiklik bilgileri günlüğünü açan bir eklenti."
+
+#: plugins/cvschangelog/cvschangelog.pluma-plugin.desktop.in.h:2
+msgid "CVS ChangeLog"
+msgstr "CVS Değişiklik Günlüğü"
+
+#: plugins/diff/diff.c:64
+msgid "Co_mpare Files..."
+msgstr "Dosyaları Karşılaştır..."
+
+#: plugins/diff/diff.c:67
+msgid "Makes a diff file from two documents or files"
+msgstr "İki belgeyi karşılaştırarak diff dosyası hazırlar"
+
+#. Create the dialog
+#: plugins/diff/diff.c:270 plugins/diff/diff.pluma-plugin.desktop.in.h:1
+msgid "Compare Files"
+msgstr "Dosyaları karşılaştır"
+
+#: plugins/diff/diff.c:284
+msgid "C_ompare"
+msgstr "_Karşılaştır"
+
+#: plugins/diff/diff.c:511
+msgid "Executed command"
+msgstr "Komut çalıştırıldı"
+
+#: plugins/diff/diff.c:652
+msgid "The two documents you selected are the same."
+msgstr "Seçtiğiniz iki dosya da birbirinin aynısı."
+
+#: plugins/diff/diff.c:660
+msgid ""
+"The \"first\" file you selected does not exist.\n"
+"\n"
+"Please provide a valid file."
+msgstr ""
+"Seçtiğiniz \"ilk\" dosya bulunamadı. \n"
+"\n"
+"Lütfen geçerli bir dosya seçiniz."
+
+#: plugins/diff/diff.c:669
+msgid ""
+"The \"second\" file you selected does not exist.\n"
+"\n"
+"Please provide a valid file."
+msgstr ""
+"Seçtiğiniz \"ikinci\" dosya bulunamadı. \n"
+"\n"
+"Lütfen geçerli bir dosya seçiniz."
+
+#: plugins/diff/diff.c:677
+msgid "The two files you selected are the same."
+msgstr "İki dosya birbirinin aynısı."
+
+#: plugins/diff/diff.c:694
+msgid "The \"first\" document contains no text."
+msgstr "Seçilen ilk dosya boş."
+
+#: plugins/diff/diff.c:728
+msgid "The \"second\" document contains no text."
+msgstr "Seçilen ikinci dosya boş."
+
+#. FIXME: do better error reporting ... . Chema
+#: plugins/diff/diff.c:754
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"pluma could not create a temporary file."
+msgstr ""
+"Seçili belgelerin karşılaştırılması olanaksız. \n"
+"\n"
+"pluma geçici dosya oluşturamadı."
+
+#: plugins/diff/diff.c:778 plugins/diff/diff.c:791
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"Error executing the diff command."
+msgstr ""
+"Seçili belgelerin karşılaştırılması olanaksız. \n"
+"\n"
+"Diff komutu çalıştırılırken hata oluştu."
+
+#: plugins/diff/diff.c:813
+msgid "No differences were found between the selected documents."
+msgstr "Seçilen dosyalar arasında fark bulunamadı."
+
+#: plugins/diff/diff.c:854
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"The result contains invalid UTF-8 data."
+msgstr ""
+"Seçili belgelerin karşılaştırılması olanaksız. \n"
+"\n"
+"Sonuç geçersiz UTF-8 verisi içeriyor."
+
+#: plugins/diff/diff.glade2.h:1
+msgid "*"
+msgstr "*"
+
+#: plugins/diff/diff.glade2.h:2
+msgid "Choose the files to compare."
+msgstr "Karşılaştırılacak dosyaları seçin."
+
+#: plugins/diff/diff.glade2.h:3
+msgid "Compare files..."
+msgstr "Dosyaları karşılaştır..."
+
+#: plugins/diff/diff.glade2.h:4
+msgid "F_rom document"
+msgstr "_Belgeden"
+
+#: plugins/diff/diff.glade2.h:5
+msgid "First"
+msgstr "Birinci"
+
+#: plugins/diff/diff.glade2.h:6
+msgid "First file from disk"
+msgstr "D_isk üzerindeki ilk dosya"
+
+#: plugins/diff/diff.glade2.h:7
+msgid "First file from open document"
+msgstr "Açık belgeden ilk dosya"
+
+#: plugins/diff/diff.glade2.h:8
+msgid "From _document"
+msgstr "_Belgeden"
+
+#: plugins/diff/diff.glade2.h:9
+msgid "From a _file on disk"
+msgstr "_Disk üzerindeki bir dosyadan"
+
+#: plugins/diff/diff.glade2.h:10
+msgid "From a file o_n disk"
+msgstr "D_isk üzerindeki bir dosyadan"
+
+#: plugins/diff/diff.glade2.h:11
+msgid "Ignore _blanks (-b option)"
+msgstr "Boşluk karakterlerini yoksay (-b seçeneği)"
+
+#: plugins/diff/diff.glade2.h:12
+msgid "Note that this option is only supported by GNU diff"
+msgstr "Bu seçenek yalnızca GNU diff tarafından desteklenir."
+
+#: plugins/diff/diff.glade2.h:13
+msgid "Second"
+msgstr "İkinci"
+
+#: plugins/diff/diff.glade2.h:14
+msgid "Second file from disk"
+msgstr "_Disk üzerindeki ikinci dosya"
+
+#: plugins/diff/diff.glade2.h:15
+msgid "Second file from open document"
+msgstr "Açık belgeden ikinci dosya"
+
+#: plugins/diff/diff.glade2.h:16
+msgid "Select the \"first\" file..."
+msgstr "\"İlk\" dosyayı seç..."
+
+#: plugins/diff/diff.glade2.h:17
+msgid "Select the \"second\" file..."
+msgstr "\"İkinci\" dosyayı seç..."
+
+#: plugins/diff/diff.glade2.h:18
+msgid "Select the first file to compare"
+msgstr "Karşılaştırılacak ilk dosyayı seç"
+
+#: plugins/diff/diff.glade2.h:19
+msgid "Select the first open document to compare"
+msgstr "Karşılaştırılacak ilk açık belgeyi seç"
+
+#: plugins/diff/diff.glade2.h:20
+msgid "Select the second file to compare"
+msgstr "Karşılaştırılacak ikinci dosyayı seç"
+
+#: plugins/diff/diff.glade2.h:21
+msgid "Select the second open document to compare"
+msgstr "Karşılaştırılacak ikinci açık belgeyi seç"
+
+#: plugins/diff/diff.glade2.h:22
+msgid "Use the _unified output format (-u option)"
+msgstr "Birleştirilmiş çıktı biçimini kullan (-u seçeneği)"
+
+#: plugins/diff/diff.pluma-plugin.desktop.in.h:2
+msgid ""
+"The Compare Files plugin uses the <tt>diff</tt> program to compare two "
+"documents or files on disk.\n"
+"\n"
+"For more info on <tt>diff</tt> program, type <tt>man diff</tt> in a shell "
+"prompt."
+msgstr ""
+"Dosya Karşılaştırma eklentisi  disk üzerindeki iki dosya ya da belgeyi "
+"karşılaştırmak için <tt>diff</tt> programını kullanır.\n"
+"\n"
+" <tt>diff</tt> programı hakkında daha fazla bilgi için komut penceresinde  "
+"<tt>man diff</tt> yazınız."
+
+#~ msgid "pluma application"
+#~ msgstr "pluma uygulaması"
+
+#~ msgid "pluma automation factory"
+#~ msgstr "pluma özdevinim fabrikası"
+
+#~ msgid "Edit text files"
+#~ msgstr "Metin dosyalarını düzenle"
+
+#~ msgid "Text Editor"
+#~ msgstr "Metin Düzenleyici"
+
+#~ msgid ""
+#~ "A custom font that will be used for the editing area. This will only take "
+#~ "effect if the \"Use Default Font\" option is turned off."
+#~ msgstr ""
+#~ "Düzenleme bölgesi için kullanılacak özel bir yazıtipi. Bu, sadece "
+#~ "\"Geçerli Fontu Kullan\" seçeneği kapalı ise etki gösterir."
+
+#~ msgid "Auto Save"
+#~ msgstr "Kendiliğinden Kaydet"
+
+#~ msgid "Auto Save Interval"
+#~ msgstr "Kendiliğinden Kaydetme Aralığı"
+
+#~ msgid "Auto indent"
+#~ msgstr "Kendiliğinden girintile"
+
+#~ msgid "Background Color"
+#~ msgstr "Arkaplan rengi"
+
+#~ msgid ""
+#~ "Background color for selected text in the editing area. This will only "
+#~ "take effect if the \"Use Default Colors\" option is turned off."
+#~ msgstr ""
+#~ "Düzenleme bölgesindeki seçili metin için arkaplan rengi. Bu, sadece "
+#~ "\"Geçerli Rengi Kullan\" seçeneği kapalı ise etki gösterir."
+
+#~ msgid ""
+#~ "Background color for unselected text in the editing area. This will only "
+#~ "take effect if the \"Use Default Colors\" option is turned off."
+#~ msgstr ""
+#~ "Düzenleme bölgesindeki seçili olmayan metin için arkaplan rengi. Bu, "
+#~ "sadece \"Geçerli Rengi Kullan\" seçeneği kapalı ise etki gösterir."
+
+#~ msgid "Backup Copy Extension"
+#~ msgstr "Yedekleme Kopyası Uzantısı"
+
+#~ msgid "Body Font for Printing"
+#~ msgstr "Yazdırma için Gövde Yazıtipi"
+
+#~ msgid "Create Backup Copies"
+#~ msgstr "Yedekleme Kopyaları oluştur"
+
+#~ msgid "Display Line Numbers"
+#~ msgstr "Satır Sayılarını Göster"
+
+#~ msgid "Editor Font"
+#~ msgstr "Düzenleyici Yazıtipi"
+
+#~ msgid "Encoding for Saving"
+#~ msgstr "Kayıt için Şifreleme"
+
+#~ msgid "Encodings"
+#~ msgstr "Şifremeler"
+
+#~ msgid ""
+#~ "Extension or suffix to use for backup file names. This will only take "
+#~ "effect if the \"Create Backup Copies\" option is turned on."
+#~ msgstr ""
+#~ "Yedekleme dosya adları için uzantı ya da sonekler.  Bu, sadece "
+#~ "\"Yedekleme Kopyaları oluştur\" seçeneği kapalı ise etki gösterir."
+
+#~ msgid ""
+#~ "Foreground color for selected text in the editing area. This will only "
+#~ "take effect if the \"Use Default Colors\" option is turned off."
+#~ msgstr ""
+#~ "Düzenleme bölgesindeki seçili metin için önplan rengi. Bu, sadece "
+#~ "\"Geçerli Rengi Kullan\" seçeneği kapalı ise etki gösterir."
+
+#~ msgid ""
+#~ "Foreground color for the unselected text in the editing area. This will "
+#~ "only take effect if the \"Use Default Colors\" option is turned off."
+#~ msgstr ""
+#~ "Düzenleme bölgesindeki seçili olmayan metin için önplan rengi. Bu, sadece "
+#~ "\"Geçerli Rengi Kullan\" seçeneği kapalı ise etki gösterir."
+
+#~ msgid "Header Font for Printing"
+#~ msgstr "Yazdırma İçin Sayfa Başlığı Yazıtipi"
+
+#~ msgid ""
+#~ "If this value is 0, then no line numbers will be inserted when printing a "
+#~ "document. Otherwise, pluma will print line numbers every such number of "
+#~ "lines."
+#~ msgstr ""
+#~ "Bu değer \"0\" ise, belge yazdırılırken satır sayıları eklenmez. Aksi "
+#~ "halde, pluma her satır için satır sayılarını yazdırır."
+
+#~ msgid "Insert spaces"
+#~ msgstr "Boşlukları araya ekle"
+
+#~ msgid "Line Number Font for Printing"
+#~ msgstr "Yazdırma için Satır Sayısı Yazıtipi."
+
+#~ msgid "Line Wrapping Mode"
+#~ msgstr "Satır Kaydırma Kipi"
+
+#~ msgid ""
+#~ "List of encodings used by pluma for reading files not encoded in UTF-8 or "
+#~ "in the current locale encoding."
+#~ msgstr ""
+#~ "Pluma'in UTF-8 ya da geçerli yerel ayarlara göre kodlanmamış dosyaları "
+#~ "okumak için kullandığı kodlamaların listesi."
+
+#~ msgid "Maximum Recent Files"
+#~ msgstr "Enfazla Kullanılan Son Dosyalar"
+
+#~ msgid "Maximum number of actions that pluma will be able to undo or redo."
+#~ msgstr ""
+#~ "Pluma'in geri alabileceği ya da tekrarlayabileceği eylemlerin en yükek "
+#~ "sayısı."
+
+#~ msgid ""
+#~ "Number of minutes after which pluma will automatically save modified "
+#~ "files. This will only take effect if the \"Auto Save\" option is turned "
+#~ "on."
+#~ msgstr ""
+#~ "Pluma'in değiştirilmiş dosyaları kaç dakika sonra kendiliğinden "
+#~ "kaydedeceği. Bu, sadece \"Kendiliğinden Kaydet\" seçeneği açık ise etki "
+#~ "gösterir."
+
+#~ msgid "Print Header"
+#~ msgstr "Sayfa başlıklarını yazdır"
+
+#~ msgid "Print Line Numbers"
+#~ msgstr "Satır Sayılarını Yazdır"
+
+#~ msgid "Printing Line Wrapping Mode"
+#~ msgstr "Yazdırma Satır Sarmalama Kipi"
+
+#~ msgid "Selected Text Color"
+#~ msgstr "_Seçili metin rengi:"
+
+#~ msgid "Selection Color"
+#~ msgstr "Seçim _rengi:"
+
+#~ msgid "Show Cursor Position"
+#~ msgstr "İmleç _Konumunu Göster"
+
+#~ msgid "Show Overwrite Mode"
+#~ msgstr "Üstüne Yazma Kipini Göster"
+
+#~ msgid ""
+#~ "Specifies how to wrap long lines for printing. Use \"GTK_WRAP_NONE\" for "
+#~ "no wrapping, \"GTK_WRAP_WORD\" for wrapping at word boundaries, and "
+#~ "\"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. Note "
+#~ "that the values are case-sensitive, so make sure they appear exactly as "
+#~ "mentioned here."
+#~ msgstr ""
+#~ "Yazdırma işlemi için uzun satırların nasıl kaydırılacağını belirtir. "
+#~ "Kaydırmamak için \"GTK_WRAP_WORD\", sözcük sınırlarında kaydırmak için "
+#~ "\"GTK_WRAP_WORD\", bağımsız karakter sınırlarında kaydırmak için  "
+#~ "\"GTK_WRAP_WORD\" kullanınız. Değerler BÜYÜK/küçük harf duyarlıdır, tam "
+#~ "olarak burada yer aldığı gibi yazmaya özen gösteriniz."
+
+#~ msgid ""
+#~ "Specifies how to wrap long lines in the editing area. Use \"GTK_WRAP_NONE"
+#~ "\" for no wrapping, \"GTK_WRAP_WORD\" for wrapping at word boundaries, "
+#~ "and \"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. "
+#~ "Note that the values are case-sensitive, so make sure they appear exactly "
+#~ "as mentioned here."
+#~ msgstr ""
+#~ "Düzenleme bölgesinde uzun satırların nasıl kaydırılacağını belirtir. "
+#~ "Kaydırmamak için \"GTK_WRAP_WORD\", sözcük sınırlarında kaydırmak için "
+#~ "\"GTK_WRAP_WORD\", bağımsız karakter sınırlarında kaydırmak için  "
+#~ "\"GTK_WRAP_WORD\" kullanınız. Değerler BÜYÜK/küçük harf duyarlıdır, tam "
+#~ "olarak burada yer aldığı gibi yazmaya özen gösteriniz."
+
+#~ msgid ""
+#~ "Specifies the font to use for a document's body when printing documents."
+#~ msgstr ""
+#~ "Belge yazdırırken belge gövdesi için hangi yazıtipinin kullanılacağını "
+#~ "belirtir."
+
+#~ msgid ""
+#~ "Specifies the font to use for line numbers when printing. This will only "
+#~ "take effect if the \"Print Line Numbers\" option is non-zero."
+#~ msgstr ""
+#~ "Yazdırma işleminde satır sayıları için kullanılacak yazıtipini belirtir. "
+#~ "Bu, sadece \"Satır Sayılarını Yazdır\" seçeneği \"0\" değilse etki "
+#~ "gösterir."
+
+#~ msgid ""
+#~ "Specifies the font to use for page headers when printing a document. This "
+#~ "will only take effect if the \"Print Header\" option is turned on."
+#~ msgstr ""
+#~ "Yazdırma işleminde satır sayıları için kullanılacak yazıtipini belirtir. "
+#~ "Bu, sadece \"Satır Sayılarını Yazdır\" seçeneği \"0\" değilse etki "
+#~ "gösterir."
+
+#~ msgid ""
+#~ "Specifies the maximum number of recently opened files that will be "
+#~ "displayed in the \"Recent Files\" submenu."
+#~ msgstr ""
+#~ "\"Son Dosyalar \" altmenüsünde görüntülenecek olan son dönemde açılmış "
+#~ "dosyaların en yüksek sayısını belirtir."
+
+#~ msgid ""
+#~ "Specifies the number of spaces that should be displayed instead of Tab "
+#~ "characters."
+#~ msgstr "Sekme karakteri yerine görüntülenecek boşluk sayısını belirtir."
+
+#~ msgid "Status Bar is Visible"
+#~ msgstr "_Durum Çubuğu Görünür Durumda"
+
+#~ msgid ""
+#~ "Style for the toolbar buttons. Possible values are \"PLUMA_TOOLBAR_SYSTEM"
+#~ "\" to use the system's default style, \"PLUMA_TOOLBAR_ICONS\" to display "
+#~ "icons only, \"PLUMA_TOOLBAR_ICONS_AND_TEXT\" to display both icons and "
+#~ "text, and \"PLUMA_TOOLBAR_ICONS_BOTH_HORIZ\" to display prioritized text "
+#~ "beside icons. Note that the values are case-sensitive, so make sure they "
+#~ "appear exactly as mentioned here."
+#~ msgstr ""
+#~ "Araç çubuğu düğmeleri biçemi. Olası değerler, sistemin geçerli biçemi "
+#~ "için \"PLUMA_TOOLBAR_SYSTEM\", sadece simgeleri görüntülemek için "
+#~ "\"PLUMA_TOOLBAR_ICONS\", hem simge hem metin görüntülemek için "
+#~ "\"PLUMA_TOOLBAR_ICONS_AND_TEXT\", hem simge hem de metni yanyana "
+#~ "görüntülemek için \"PLUMA_TOOLBAR_ICONS_BOTH_HORIZ\" olabilir. Değerler "
+#~ "BÜYÜK/küçük harf duyarlıdır, tam olarak burada yer aldığı gibi yazmaya "
+#~ "özen gösteriniz."
+
+#~ msgid "Tab Size"
+#~ msgstr "Sekme Boyutu"
+
+#~ msgid "Text Color"
+#~ msgstr "_Metin rengi:"
+
+#~ msgid ""
+#~ "The encoding method to use for saving files. Possible values are "
+#~ "\"PLUMA_SAVE_ALWAYS_UTF8\" for mandatory UTF-8 saving, "
+#~ "\"PLUMA_SAVE_CURRENT_LOCALE_IF_POSSIBLE\" if you want pluma to try to "
+#~ "convert the document it is saving to your current locale's encoding, "
+#~ "\"PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE\" if you want pluma to "
+#~ "try to use the original file encoding (new files in UTF8) and "
+#~ "\"PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE_NCL\" if you want pluma "
+#~ "to try to use the original file encoding (new files in current locale's "
+#~ "encoding). If the conversion is successful, it will be used. Otherwise, "
+#~ "UTF-8 will be used. Note that the values are case-sensitive, so make sure "
+#~ "they appear exactly as mentioned here."
+#~ msgstr ""
+#~ "Dosyaları kaydetmek için kullanılan encode metodu. Olası değerler "
+#~ "\"PLUMA_SAVE_ALWAYS_UTF8\" UTF-8 kayıt için zorunlu, "
+#~ "\"PLUMA_SAVE_CURRENT_LOCALE_IF_POSSIBLE\" eğer pluma'in sizin yerel "
+#~ "locale ayarlarınıza dönüştürerek kaydetmesini istiyorsanız, "
+#~ "\"PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE\" eğer pluma'in orjinal "
+#~ "encode ayarları ile kaydetmesini istiyorsanız  (yeni dosyalar UTF8 ile ) "
+#~ "\"PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE_NCL\" if you want pluma "
+#~ "to try to use the original file encoding (new files in current locale's "
+#~ "encoding). If the conversion is successful, it will be used. Otherwise, "
+#~ "UTF-8 will be used. Note that the values are case-sensitive, so make sure "
+#~ "they appear exactly as mentioned here."
+
+#~ msgid "Toolbar Buttons Style"
+#~ msgstr "Araç çubuğu düğme stili"
+
+#~ msgid "Toolbar is Visible"
+#~ msgstr "Araç Çubukları Görünür Durumda"
+
+#~ msgid "Undo Actions Limit"
+#~ msgstr "Eylemleri Geri Alma Sınırı"
+
+#~ msgid "Use Default Colors"
+#~ msgstr "Ö_ntanımlı renkleri kullan"
+
+#~ msgid "Use Default Font"
+#~ msgstr "Ö_ntanımlı yazıtipini kullan"
+
+#~ msgid ""
+#~ "Whether pluma should automatically save modified files after a time "
+#~ "interval. You can set the time interval with the \"Auto Save Interval\" "
+#~ "option."
+#~ msgstr ""
+#~ "Pluma, değiştirilen dosyaları belli bir zaman aralığının ardından "
+#~ "kendiliğinden kaydeder. Zaman arlığını \"Kendiliğinden Kaydetme Aralığı\" "
+#~ "seçeneğinden ayarlayabilirsiniz."
+
+#~ msgid ""
+#~ "Whether pluma should create backup copies for the files it saves. You can "
+#~ "set the backup file extension with the \"Backup Copy Extension\" option."
+#~ msgstr ""
+#~ "Pluma kaydettiği dosyalar için yedek kopyalar oluşturur. Yedek dosya "
+#~ "uzantısını, \"Yedek Kopya Uzantısı\" seçeneğiyle ayarlayabilirsiniz."
+
+#~ msgid "Whether pluma should display line numbers in the editing area."
+#~ msgstr "Pluma düzenleme alanında satır sayılarını gösterir."
+
+#~ msgid "Whether pluma should enable auto indentation."
+#~ msgstr "Pluma kendiliğinden girintilemeyi etkinleştirir."
+
+#~ msgid ""
+#~ "Whether pluma should include a document header when printing documents."
+#~ msgstr "Pluma belgeleri yazdırırken bir belge başlığı ekler."
+
+#~ msgid "Whether pluma should insert spaces instead of tabs."
+#~ msgstr "Pluma sekmelerin yerine boşluk ekler."
+
+#~ msgid ""
+#~ "Whether the status bar at the bottom of editing windows should be visible."
+#~ msgstr ""
+#~ "Düzenleme penceresinin altında bulunan durum çubuğu görünür hale gelir."
+
+#~ msgid ""
+#~ "Whether the status bar should show the cursor position in editing "
+#~ "windows. Make sure you turn on the \"Status Bar is Visible\" option for "
+#~ "this to take effect."
+#~ msgstr ""
+#~ "Durum çubuğu, düzenleme penceresindeki imleç konumunu gösterir. Bu "
+#~ "seçeneğin kullanılabilmesi için \"Durum Çubuğu Görünür\" seçeneğini "
+#~ "etkinleştirdiğinizden emin olun."
+
+#~ msgid ""
+#~ "Whether the status bar should show the insert/overwrite mode in editing "
+#~ "windows. Make sure you turn on the \"Status Bar is Visible\" option for "
+#~ "this to take effect."
+#~ msgstr ""
+#~ "Durum çubuğu, üzerine yazaraya ekle kipini gösterir. Bu seçeneğin "
+#~ "kullanılabilmesi için \"Durum Çubuğu Görünür\" seçeneğini "
+#~ "etkinleştirdiğinizden emin olun."
+
+#~ msgid "Whether the toolbar should be visible in editing windows."
+#~ msgstr "Düzenleme penceresindeki araç çubuğu görünür hale gelir."
+
+#~ msgid ""
+#~ "Whether to use the system's default colors for the editing area. If this "
+#~ "option is turned off, then the colors of the editing area will be those "
+#~ "specified in the \"Background Color\", \"Text Color\", \"Selected Text "
+#~ "Color\", and \"Selection Color\" options."
+#~ msgstr ""
+#~ "Uygulama alanı için sistemin öntanımlı renkleri kullanılır. Bu seçenek "
+#~ "kapalı ise, uygulama alanının renkleri \"Arkaplan Rengi\", \"Metin Rengi"
+#~ "\", \"Seçilmiş Metin Rengi\" ve \"Seçim Rengi\" seçeneklerinde "
+#~ "belirlenmiş olan renkler olur. "
+
+#~ msgid ""
+#~ "Whether to use the system's default font for editing text instead of a "
+#~ "font specific to pluma. If this option is turned off, then the font named "
+#~ "in the \"Editor Font\" option will be used instead of the system font."
+#~ msgstr ""
+#~ "Metin düzenleme için sistemin öntanımlı yazıtipi yerine plumain özel "
+#~ "yazıtipleri kullanılır. Bu seçenek kapalı ise, sistem yazıtipi yerine "
+#~ "\"Düzenleyici Yazıtipi \" seçeneğinde belirlenmiş olan yazıtipi "
+#~ "kullanılır."
+
+#~ msgid "_Document Statistics"
+#~ msgstr "_Belge İstatistikleri"
+
+#~ msgid "Get statistic info on current document"
+#~ msgstr "Geçerli belgenin istatistik bilgilerini göster"
+
+#~ msgid "Document Statistics"
+#~ msgstr "Belge İstatistikleri"
+
+#~ msgid "_Update"
+#~ msgstr "_Güncelle"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "Bytes"
+#~ msgstr "Bayt"
+
+#~ msgid "Characters (no spaces)"
+#~ msgstr "Karakter (boşluksuz)"
+
+#~ msgid "Characters (with spaces)"
+#~ msgstr "Karakter (boşluklarla birlikte)"
+
+#~ msgid "File Name"
+#~ msgstr "Dosya Adı"
+
+#~ msgid "Lines"
+#~ msgstr "Satırlar"
+
+#~ msgid "Update"
+#~ msgstr "Güncelle"
+
+#~ msgid "Words"
+#~ msgstr "Kelime"
+
+#~ msgid "pluma: Document Info plugin"
+#~ msgstr "pluma: Belge Bilgi eklentisi"
+
+#~ msgid ""
+#~ "The Document Statistics plugin analyzes the current document and "
+#~ "determines the number of words, lines, characters and non-space "
+#~ "characters in it and displays the result."
+#~ msgstr ""
+#~ "Belge İstatistik eklentisi, belgenizi analiz ederek, sözcükleri, "
+#~ "satırları ve boşluklar dışındaki karakterleri sayar ve sonuçları size "
+#~ "gösterir."
+
+#~ msgid "Insert User Na_me"
+#~ msgstr "Kullanıcı _Adı Gir"
+
+#~ msgid "Insert the user name at the cursor position"
+#~ msgstr "İmlecin bulunduğu yere kullanıcı adını ekler."
+
+#~ msgid "Inserts the user name at the cursor position."
+#~ msgstr "İmlecin bulunduğu yere kullanıcı adını ekler."
+
+#~ msgid "User name"
+#~ msgstr "Kullanıcı adı"
+
+#~ msgid "_Run Command..."
+#~ msgstr "Komut _Çalıştır..."
+
+#~ msgid "Run a command"
+#~ msgstr "Bir komut çalıştır"
+
+#~ msgid "Stopped"
+#~ msgstr "Durdu"
+
+#~ msgid "An error occurs while running the selected command."
+#~ msgstr "Seçilen komut çalıştırılırken bir hata oluştu."
+
+#~ msgid "Run Command"
+#~ msgstr "Komut çalıştır"
+
+#~ msgid "_Run"
+#~ msgstr "Çalış_tır"
+
+#~ msgid "Done"
+#~ msgstr "Yapıldı"
+
+#~ msgid "Failed"
+#~ msgstr "Hata"
+
+#~ msgid ""
+#~ "The shell command entry is empty.\n"
+#~ "\n"
+#~ "Please, insert a valid shell command."
+#~ msgstr ""
+#~ "Kabuk komutu verilmedi.\n"
+#~ "\n"
+#~ "Lütfen geçerli bir komut girin."
+
+#~ msgid ""
+#~ "Error parsing the shell command.\n"
+#~ "\n"
+#~ "Please, insert a valid shell command."
+#~ msgstr ""
+#~ "Kabuk komutu çözümlenirken hata.\n"
+#~ "\n"
+#~ "Lütfen geçerli bir komut girin."
+
+#~ msgid "Executing command"
+#~ msgstr "Komut çalıştırılıyor"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "Ko_mut:"
+
+#~ msgid "Select the working directory..."
+#~ msgstr "_Çalışma dizinini seç:"
+
+#~ msgid "_Show results in Output Window"
+#~ msgstr "Çıktı Penceresinde sonuçları _göster"
+
+#~ msgid "_Working directory:"
+#~ msgstr "_Çalışma dizini:"
+
+#~ msgid "pluma: Shell Output plugin"
+#~ msgstr "pluma: Kabuk Çıktı Eklentisi"
+
+#~ msgid ""
+#~ "Execute an external program and eventually grabs its output in the output "
+#~ "window."
+#~ msgstr "Dışsal bir program çalıştır ve çıktısını bir pencereye yönelt"
+
+#~ msgid "Shell command"
+#~ msgstr "Kabuk komutu"
+
+#~ msgid "Tag list plugin"
+#~ msgstr "Etiket listesi eklentisi"
+
+#~ msgid "Select the group of tags you want to use"
+#~ msgstr "Kullanacağınız etiket grubunu seçiniz."
+
+#~ msgid "Tag Groups Combo"
+#~ msgstr "Etiket Grupları Kutusu"
+
+#~ msgid "Tags Name List"
+#~ msgstr "Etiket Adları listesi"
+
+#~ msgid "Double-click on a tag to insert it in the current document"
+#~ msgstr "Herhangi bir etiketi belgeye eklemek için çift tıklatın"
+
+#~ msgid "Tags"
+#~ msgstr "Etiketler"
+
+#~ msgid "Tag _List"
+#~ msgstr "Etiket _Listesi"
+
+#~ msgid "Show the tag list window"
+#~ msgstr "Etiket listesi penceresini göster."
+
+#~ msgid "Tag list"
+#~ msgstr "Etiket listesi"
+
+#~ msgid ""
+#~ "The tag list plugin provides a method to easily insert into a document "
+#~ "commonly used tags/strings without having to type them."
+#~ msgstr ""
+#~ "Etiket listesi eklentisi, sıklıkla kullandığınız etiketlerin/dizgelerin "
+#~ "tekrar yazılmaksızın belgeye kolaylıkla eklenmesi için bir yöntem sağlar."
+
+#~ msgid "In_sert Date and Time..."
+#~ msgstr "Tari_h/Zaman Ekle..."
+
+#~ msgid "Insert current date and time at the cursor position"
+#~ msgstr "İmlecin bulunduğu yere şimdiki tarihi ve saati ekler."
+
+#~ msgid "Available formats"
+#~ msgstr "Kullanılabilir biçemler"
+
+#~ msgid "Configure insert date/time plugin..."
+#~ msgstr "Tarih/Zaman Ekleme eklentisini yapılandır..."
+
+#~ msgid "    "
+#~ msgstr "...."
+
+#~ msgid "<span size=\"small\">01/11/2002 17:52:00</span>"
+#~ msgstr "<span size=\"small\">01/11/2002 17:52:00</span>"
+
+#~ msgid "<span weight=\"bold\"> When inserting date/time...</span>"
+#~ msgstr "<span weight=\"bold\"> Tarih/saati belirlerken...</span>"
+
+#~ msgid "Configure date/time plugin"
+#~ msgstr "Tarih/Zaman Ekleme eklentisini yapılandır..."
+
+#~ msgid "Insert Date and Time"
+#~ msgstr "Tarih ve Zaman Ekle"
+
+#~ msgid "Use the _selected format"
+#~ msgstr "Seçili biçimi kullan"
+
+#~ msgid "_Insert"
+#~ msgstr "_Ekle"
+
+#~ msgid "_Prompt for a format"
+#~ msgstr "Bir biçim için durakla"
+
+#~ msgid "_Use custom format"
+#~ msgstr "Özel bir biçim kullan"
+
+#~ msgid "Insert Date/Time"
+#~ msgstr "Tarih/Zaman Ekle"
+
+#~ msgid "Inserts current date and time at the cursor position."
+#~ msgstr "İmlecin bulunduğu yere şimdiki tarihi ve saati ekler."
+
+#~ msgid "_Indent"
+#~ msgstr "_İçeriden"
+
+#~ msgid "Indent selected lines"
+#~ msgstr "Seçili satırları içeriye kaydır"
+
+#~ msgid "U_nindent"
+#~ msgstr "İçeri kaydırmayı iptal et"
+
+#~ msgid "Unindent selected lines"
+#~ msgstr "İçeriye kaydırılmış satırları eski haline getir"
+
+#~ msgid "Indent lines"
+#~ msgstr "Satırları içeriye al"
+
+#~ msgid "Indent or un-indent selected lines."
+#~ msgstr "Seçili satırları "
+
+#~ msgid "R_emove duplicates"
+#~ msgstr "Çift olanları sil"
+
+#~ msgid "S_tart at column:"
+#~ msgstr "Sü_tunda başla:"
+
+#~ msgid "Sort"
+#~ msgstr "Sırala"
+
+#~ msgid "You cannot undo a sort operation"
+#~ msgstr "Bir sıralama işlemini geri alamazsınız"
+
+#~ msgid "_Ignore case"
+#~ msgstr "BÜYÜK/küçük harf duyarlılığını _gözardı et"
+
+#~ msgid "_Reverse order"
+#~ msgstr "Ters sırada"
+
+#~ msgid "_Sort"
+#~ msgstr "Sırala"
+
+#~ msgid "Sorts a document or selected text."
+#~ msgstr "Bir belge veya seçili metni sıraya dizer"
+
+#~ msgid "(no suggested words)"
+#~ msgstr "(kelime önerisi yok)"
+
+#~ msgid "_More..."
+#~ msgstr "Daha fazla..."
+
+#~ msgid "_Ignore All"
+#~ msgstr "Hepsini _Gözardı Et"
+
+#~ msgid "_Add"
+#~ msgstr "_Ekle"
+
+#~ msgid "_Spelling Suggestions..."
+#~ msgstr "_Yazım Önerileri"
+
+#~ msgid "Check Spelling"
+#~ msgstr "Dilbilgisi denetimi"
+
+#~ msgid "Suggestions"
+#~ msgstr "Öneriler"
+
+#~ msgid "(correct spelling)"
+#~ msgstr "(imla hatalarını düzelt)"
+
+#~ msgid "Completed spell checking"
+#~ msgstr "Dilbilgisi denetimi tamamlandı"
+
+#~ msgid "Breton"
+#~ msgstr "Breton"
+
+#~ msgid "Catalan"
+#~ msgstr "Katalan"
+
+#~ msgid "Czech"
+#~ msgstr "Çekçe"
+
+#~ msgid "Danish"
+#~ msgstr "Danimarkaca"
+
+#~ msgid "German (Germany)"
+#~ msgstr "Almanca (Almanya)"
+
+#~ msgid "German (Swiss)"
+#~ msgstr "Almanca (İsviçre)"
+
+#~ msgid "English (American)"
+#~ msgstr "İngilizce (Amerika)"
+
+#~ msgid "English (British)"
+#~ msgstr "İngilizce (Britanya)"
+
+#~ msgid "English (Canadian)"
+#~ msgstr "İngilizce (Kanada)"
+
+#~ msgid "Esperanto"
+#~ msgstr "Esperanto"
+
+#~ msgid "Spanish"
+#~ msgstr "İspanyolca"
+
+#~ msgid "Faroese"
+#~ msgstr "Faroese"
+
+#~ msgid "French (France)"
+#~ msgstr "Fransızca (Fransa)"
+
+#~ msgid "French (Swiss)"
+#~ msgstr "Fransızca (İsviçre)"
+
+#~ msgid "Italian"
+#~ msgstr "İtalyanca"
+
+#~ msgid "Dutch"
+#~ msgstr "Hollandaca"
+
+#~ msgid "Norwegian"
+#~ msgstr "Norveççe"
+
+#~ msgid "Polish"
+#~ msgstr "Polonezce"
+
+#~ msgid "Portuguese (Portugal)"
+#~ msgstr "Portekizce (Portekiz)"
+
+#~ msgid "Portuguese (Brazilian)"
+#~ msgstr "Portekizce (Brezilya)"
+
+#~ msgid "Russian"
+#~ msgstr "Rusça"
+
+#~ msgid "Swedish"
+#~ msgstr "İsveççe"
+
+#~ msgid "Default"
+#~ msgstr "Geçerli"
+
+#~ msgid "Could not find the required widgets inside %s."
+#~ msgstr "%s içindeki gereken düğmecikler bulunamadı"
+
+#~ msgid "Languages"
+#~ msgstr "Diller"
+
+#~ msgid "Checks the spelling of the current document."
+#~ msgstr "Geçerli belgede dilbilgisi denetimi yapar."
+
+#~ msgid "Spell checker"
+#~ msgstr "Yazım denetimcisi"
+
+#~ msgid "Select the _language of the current document."
+#~ msgstr "Geçerli belgenin _dilini seçer."
+
+#~ msgid "Set language"
+#~ msgstr "Dili ayarla"
+
+#~ msgid "<b>Language</b>"
+#~ msgstr "<b>Dil</b>"
+
+#~ msgid "<b>word</b>"
+#~ msgstr "<b>sözcük</b>"
+
+#~ msgid "Add w_ord"
+#~ msgstr "S_özcük ekle"
+
+#~ msgid "Cha_nge"
+#~ msgstr "_Değiştir"
+
+#~ msgid "Change A_ll"
+#~ msgstr "_Tümünü Değiştir"
+
+#~ msgid "Change _to:"
+#~ msgstr "Değiş_tir:"
+
+#~ msgid "Check _Word"
+#~ msgstr "Sözcük De_netle"
+
+#~ msgid "Check spelling"
+#~ msgstr "Yazım denetimi"
+
+#~ msgid "Ignore _All"
+#~ msgstr "Tü_münü Gözardı Et"
+
+#~ msgid "Language:"
+#~ msgstr "Dil:"
+
+#~ msgid "Mispelled word:"
+#~ msgstr "Hatalı yazılmış sözcük:"
+
+#~ msgid "User dictionary:"
+#~ msgstr "Kullanıcı sözlüğü:"
+
+#~ msgid "_Ignore"
+#~ msgstr "_Gözardı et"
+
+#~ msgid "_Suggestions:"
+#~ msgstr "_Öneriler:"
+
+#~ msgid "S_ort..."
+#~ msgstr "_Sırala..."
+
+#~ msgid "Sort the current document or selection."
+#~ msgstr "Geçerli belgeyi ya da seçili bölgeyi sırala"
+
+#~ msgid "_Check Spelling"
+#~ msgstr "_Yazım Denetimi"
+
+#~ msgid "Check the current document for incorrect spelling"
+#~ msgstr "Geçerli belgeyi yazım hatalarına karşı denetle"
+
+#~ msgid "_Autocheck Spelling"
+#~ msgstr "_Kendiliğinden Yazım Denetimi"
+
+#~ msgid "Automatically spell-check the current document"
+#~ msgstr "Geçerli belgede dilbilgisi denetimini kendiliğinden yap"
+
+#~ msgid "Set _Language"
+#~ msgstr "_Dili Ayarla"
+
+#~ msgid "Set the language of the current document"
+#~ msgstr "Geçerli belgenin _dilini ayarla."
+
+#~ msgid "The document is empty."
+#~ msgstr "Belge boş."
+
+#~ msgid "The selected text does not contain mispelled words."
+#~ msgstr "Seçili metin, hatalı yazılmış sözcük içermiyor."
+
+#~ msgid "The document does not contain mispelled words."
+#~ msgstr "Belgede hatalı yazılmış sözcük yok."
+
+#~ msgid "Activate %s"
+#~ msgstr "%s'i etkinleştir"
+
+#~ msgid "Go to Line"
+#~ msgstr "Satıra Git "
+
+#~ msgid "_Go to Line"
+#~ msgstr "_Satıra Git"
+
+#~ msgid "The text \"%s\" was not found."
+#~ msgstr "\"%s\" metni bulunamadı."
+
+#~ msgid "Replace"
+#~ msgstr "Değiştir"
+
+#~ msgid "Replace _All"
+#~ msgstr "_Hepsini Değiştir"
+
+#~ msgid "_Replace"
+#~ msgstr "_Değiştir"
+
+#~ msgid "Find"
+#~ msgstr "Bul"
+
+#~ msgid "Found and replaced %d occurences."
+#~ msgstr "%d eşleşme bulundu ve değiştirildi."
+
+#~ msgid "Open Location"
+#~ msgstr "Konum Aç"
+
+#~ msgid "Plugin"
+#~ msgstr "Eklenti"
+
+#~ msgid "Load"
+#~ msgstr "Yükle"
+
+#~ msgid "Module file name"
+#~ msgstr "Birim dosya ismi"
+
+#~ msgid "Author(s)"
+#~ msgstr "Yazar(lar)"
+
+#~ msgid "Could not find plugin-manager.glade2, reinstall pluma.\n"
+#~ msgstr "plugin-manager.glade2 bulunamadı, pluma yeniden kurulmalı.\n"
+
+#~ msgid "Invalid glade file for plugin manager -- not all widgets found.\n"
+#~ msgstr ""
+#~ "Eklenti yöneticisinin glade dosyası geçersiz -- parçaların tamamı yok.\n"
+
+#~ msgid "Set program location..."
+#~ msgstr "Program konumunu belirt..."
+
+#~ msgid ""
+#~ "The %s plugin uses an external program, called <tt>%s</tt>, to perform "
+#~ "its task.\n"
+#~ "\n"
+#~ "Please, specify the location of the <tt>%s</tt> program."
+#~ msgstr ""
+#~ "%s eklentisi, işlemi tamamlamak için <tt>%s</tt> adında bir başka "
+#~ "programı kullanıyor.\n"
+#~ "\n"
+#~ "Lütfen <tt>%s</tt> programının konumunu belirtiniz."
+
+#~ msgid "The selected file is not executable."
+#~ msgstr "Seçili dosya çalıştırılamaz."
+
+#~ msgid "Font & Colors"
+#~ msgstr "Yazı tipleri ve Renkler"
+
+#~ msgid "Tabs"
+#~ msgstr "Sekmeler"
+
+#~ msgid "Wrap Mode"
+#~ msgstr "Kaydırma kipi"
+
+#~ msgid "Auto Indent"
+#~ msgstr "Kendiliğinden girintile"
+
+#~ msgid "Line Numbers"
+#~ msgstr "Satır Sayıları"
+
+#~ msgid "Open"
+#~ msgstr "Aç"
+
+#~ msgid "Save"
+#~ msgstr "Kaydet"
+
+#~ msgid "Undo"
+#~ msgstr "Geri Al"
+
+#~ msgid "Page"
+#~ msgstr "Sayfa"
+
+#~ msgid "Fonts"
+#~ msgstr "Yazıtipi"
+
+#~ msgid "Manager"
+#~ msgstr "Yönetici"
+
+#~ msgid "Editor"
+#~ msgstr "Düzenleyici"
+
+#~ msgid "Print"
+#~ msgstr "Yazdır"
+
+#~ msgid "Plugins"
+#~ msgstr "Eklentiler"
+
+#~ msgid "Cat_egories:"
+#~ msgstr "_Kategoriler:"
+
+#~ msgid "Preferences"
+#~ msgstr "Tercihler"
+
+#~ msgid "Categories"
+#~ msgstr "Kategoriler"
+
+#~ msgid "Push this button to select the font to be used by the editor"
+#~ msgstr ""
+#~ "Düzenleyici tarafından kullanılacak olan yazıtipini seçmek için bu "
+#~ "düğmeyi tıklayınız."
+
+#~ msgid "Push this button to configure text color"
+#~ msgstr "Metin rengini ayarlamak için bu düğmeyi tıklayınız."
+
+#~ msgid "Push this button to configure background color"
+#~ msgstr "Arkaplan rengini düzenlemek için bu düğmeyi tıklayınız."
+
+#~ msgid ""
+#~ "Push this button to configure the color in which the selected text should "
+#~ "appear"
+#~ msgstr ""
+#~ "Seçili metnin hangi renkte görüntüleneceğini ayarlamak için bu düğmeyi "
+#~ "tıklayınız."
+
+#~ msgid ""
+#~ "Push this button to configure the color in which the selected text should "
+#~ "be marked"
+#~ msgstr ""
+#~ "Seçili metnin hangi renkte işaretleneceğini ayarlamak için bu düğmeyi "
+#~ "tıklayınız."
+
+#~ msgid "Push this button to select the font to be used to print the body"
+#~ msgstr ""
+#~ "Gövde yazdırılırken kullanılacak olan yazıtipini seçmek için bu düğmeyi "
+#~ "tıklayınız."
+
+#~ msgid "Push this button to select the font to be used to print the headers"
+#~ msgstr ""
+#~ "Sayfa başlıkları yazdırılırken kullanılacak olan yazıtipini seçmek için "
+#~ "bu düğmeyi tıklayınız."
+
+#~ msgid "Push this button to select the font to be used to print line numbers"
+#~ msgstr ""
+#~ "Satır sayıları yazdırılırken kullanılacak olan yazıtipini seçmek için bu "
+#~ "düğmeyi tıklayınız."
+
+#~ msgid "<b>Font</b>"
+#~ msgstr "<b>Yazıtipi</b>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Auto Indent</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Otomatik içeriden</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Font &amp; Colors</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"x-large\">Yazıtipi &amp; Renkler</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Fonts</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Yazıtipleri</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Line Numbers</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Satır Sayıları/span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Manager</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Yönetici</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Open</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Aç</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Page</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Sayfa</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Save</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Kaydet</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Tabs</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Sekmeler</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Undo</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Geri Al</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Wrap Mode</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Kaydırma Kipi</span>"
+
+#~ msgid "<span weight=\"bold\">Colors</span>"
+#~ msgstr "<span weight=\"bold\">Renkler</span>"
+
+#~ msgid "<span weight=\"bold\">When saving a new file...</span>"
+#~ msgstr "<span weight=\"bold\"Yeni bir dosya kaydederken...</span>"
+
+#~ msgid "<span weight=\"bold\">When saving an existing file...</span>"
+#~ msgstr "<span weight=\"bold\">Mevcut bir dosyayı kaydederken...</span>"
+
+#~ msgid "Add new encodings"
+#~ msgstr "Yeni kodlamalar ekle"
+
+#~ msgid "Always use U_TF-8 encoding (faster)"
+#~ msgstr "_Her zaman UTF-8 kodlama kullan (daha hızlı)"
+
+#~ msgid "Always use _UTF-8 encoding (faster)"
+#~ msgstr "_Her zaman UTF8 kodlama kullan (daha hızlı)"
+
+#~ msgid "Create a _backup copy of files before saving"
+#~ msgstr "Dosyaları kaydetmeden önce _yedekleme kopyası oluştur."
+
+#~ msgid "Do not _split words over two lines"
+#~ msgstr "Ke_limeleri iki ayrı satıra bölme"
+
+#~ msgid "Editor _font: "
+#~ msgstr "Düzenleyici yazıtipi"
+
+#~ msgid "Enable _auto indentation"
+#~ msgstr "Kendiliğinden _girintilemeyi etkinleştir"
+
+#~ msgid "Enable text _wrapping"
+#~ msgstr "Metin _kaydırmayı etkinleştir"
+
+#~ msgid "Fonts & Colors"
+#~ msgstr "Yazı Tipleri ve Renkler"
+
+#~ msgid "Insert _spaces instead of tabs"
+#~ msgstr "Sekme yerine _boşluk ekle"
+
+#~ msgid "LOGO"
+#~ msgstr "LOGO"
+
+#~ msgid "Line _numbers:"
+#~ msgstr "Satır _sayıları"
+
+#~ msgid "Line numbers"
+#~ msgstr "Satır numaraları"
+
+#~ msgid "Move down"
+#~ msgstr "Aşağı taşı"
+
+#~ msgid "Move up"
+#~ msgstr "Yukarı taşı"
+
+#~ msgid "Page he_aders:"
+#~ msgstr "_Sayfa başlıkları"
+
+#~ msgid "Pick the background color"
+#~ msgstr "Arkaplan rengini al"
+
+#~ msgid "Pick the selected text color"
+#~ msgstr "Seçilen metin rengini al"
+
+#~ msgid "Pick the selection color"
+#~ msgstr "Seçili rengi al"
+
+#~ msgid "Pick the text color"
+#~ msgstr "Metin rengini al"
+
+#~ msgid "Plugin manager"
+#~ msgstr "Eklenti Yöneticisi "
+
+#~ msgid "Print _line numbers every"
+#~ msgstr "Her X satırı yazdır"
+
+#~ msgid "Print fonts"
+#~ msgstr "Yazıtiplerini yazdır"
+
+#~ msgid "Remove an encoding"
+#~ msgstr "Şifrelemeleyi kaldır"
+
+#~ msgid "Se_lection color:"
+#~ msgstr "Seçim _rengi:"
+
+#~ msgid "Selecte_d text color:"
+#~ msgstr "_Seçili metin rengi:"
+
+#~ msgid "Set _tabs width equivalent to"
+#~ msgstr "Sekme genişliğini eşitle"
+
+#~ msgid "Set limit on _undo actions to"
+#~ msgstr "Geri alma işlemini sınırlandır"
+
+#~ msgid "U_se default theme colors"
+#~ msgstr "Ö_ntanımlı tema renklerini kullan"
+
+#~ msgid "U_se original file encoding if possible"
+#~ msgstr "Mümkünse orjinal kodlama dosyasını kullan"
+
+#~ msgid "Use cu_rrent locale's encoding if possible"
+#~ msgstr "Mümkünse şu anki locale'nin kpdlamasını kullan"
+
+#~ msgid "Use current _locale's encoding if possible"
+#~ msgstr "Mümkünse şu anki locale'nin kodlamasını kullan"
+
+#~ msgid "Wrap mode"
+#~ msgstr "Kaydırma kipi"
+
+#~ msgid "_Autosave current file every"
+#~ msgstr "Geçerli belgeyi şu kadar süre sonra kaydet: "
+
+#~ msgid "_Background color:"
+#~ msgstr "Arkaplan _rengi:"
+
+#~ msgid "_Body:"
+#~ msgstr "_Gövde:"
+
+#~ msgid "_Display line numbers"
+#~ msgstr "Satır sayılarını  _göster"
+
+#~ msgid "_Print page headers"
+#~ msgstr "_Sayfa başlıklarını yazdır "
+
+#~ msgid "_Restore Default Fonts"
+#~ msgstr "Ö_ntanımlı Yazıtipine Dön"
+
+#~ msgid "_Supported encodings:"
+#~ msgstr "Desteklenen _Kodlamalar:"
+
+#~ msgid "_Text color:"
+#~ msgstr "_Metin rengi:"
+
+#~ msgid "_Use default theme font"
+#~ msgstr "Ö_ntanımlı tema yazıtipini kullan"
+
+#~ msgid "_action(s)"
+#~ msgstr "e_ylem(ler)"
+
+#~ msgid "_minutes"
+#~ msgstr "_dakika"
+
+#~ msgid "character(s)"
+#~ msgstr " karakter(ler)"
+
+#~ msgid "li_ne(s)"
+#~ msgstr "sa_tır(lar)"
+
+#~ msgid "_Insert a new preview phrase."
+#~ msgstr "Yeni bir önizleme biçimi ekle"
+
+#~ msgid "Modify preview phrase..."
+#~ msgstr "Önizleme biçimini değiştir"
+
+#~ msgid "Preview"
+#~ msgstr "Önizleme"
+
+#~ msgid "_Modify preview phrase..."
+#~ msgstr "Önizleme biçimini değiştir"
+
+#~ msgid "Font Selection"
+#~ msgstr "Yazıtipi seçimi"
+
+#~ msgid "Sans Regular 12"
+#~ msgstr "Sans Regular 12"
+
+#~ msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
+#~ msgstr "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
+
+#~ msgid "Pick a Font"
+#~ msgstr "Bir Yazıtipi Al"
+
+#~ msgid "Title"
+#~ msgstr "Başlık"
+
+#~ msgid "The title of the selection dialog box"
+#~ msgstr "Seçim dialog kutusu başlığı"
+
+#~ msgid "Font name"
+#~ msgstr "Yazıtipi adı"
+
+#~ msgid "Name of the selected font"
+#~ msgstr "Seçili yazıtipinin adı"
+
+#~ msgid "Preview text"
+#~ msgstr "Metin önizleme"
+
+#~ msgid "Preview text shown in the dialog"
+#~ msgstr "Dialogda görüntülenen metin önizleme"
+
+#~ msgid "Use font in label"
+#~ msgstr "Etikette yazıtipi kullan"
+
+#~ msgid "Use font in the label in font info mode"
+#~ msgstr "Yazı tipi bilgi modunda yazı tipini etikette kullan"
+
+#~ msgid "Font size for label"
+#~ msgstr "Etiket için yazıtipi boyutu"
+
+#~ msgid "Font size for label in font info mode"
+#~ msgstr "Yazı tipi bilgi modu için yazı tipi büyüklüğü"
+
+#~ msgid "Show size"
+#~ msgstr "Boyutu göster"
+
+#~ msgid "Show size in font info mode"
+#~ msgstr "Yazı tipi bilgi modunda büyüklüüğ göster"
+
+#~ msgid "Font"
+#~ msgstr "Yazıtipi"
+
+#~ msgid "Goto Line"
+#~ msgstr "Satıra Git"
+
+#~ msgid "_Line number:"
+#~ msgstr "Satır numarası:"
+
+#~ msgid "C_onfigure plugin"
+#~ msgstr "E_klentiyi yapılandır"
+
+#~ msgid "Configure the selected plugin"
+#~ msgstr "Seçili eklentiyi yapılandır"
+
+#~ msgid "De_tails"
+#~ msgstr "_Ayrıntılar "
+
+#~ msgid "_Description"
+#~ msgstr "_Açıklama"
+
+#~ msgid "dialog1"
+#~ msgstr "dialog1"
+
+#~ msgid "_Location to search for:"
+#~ msgstr "Aranılacak yer"
+
+#~ msgid "label"
+#~ msgstr "etiket"
+
+#~ msgid "Find Next"
+#~ msgstr "Sonrakini Bul"
+
+#~ msgid "Match _entire word only"
+#~ msgstr "Sadece tüm kelimeyi eşleştir"
+
+#~ msgid "Replace All"
+#~ msgstr "Tümünü Değiştir"
+
+#~ msgid "Replace _with: "
+#~ msgstr "Şun_la değiştir:"
+
+#~ msgid "_Match case"
+#~ msgstr "Büyük harf/küçük harf eşleştir"
+
+#~ msgid "_Search for: "
+#~ msgstr "_Ara: "
+
+#~ msgid "_Wrap around"
+#~ msgstr "_Kaydır"
+
+#~ msgid "Enter the _location (URI) of the file you would like to open:"
+#~ msgstr "Açmak istediğiniz dosyanın yerini (URL) girin"
+
+#~ msgid "Open from URI"
+#~ msgstr "URI'den aç"
+
+#~ msgid "translator_credits"
+#~ msgstr "Çevirenler"
+
+#~ msgid "pluma"
+#~ msgstr "pluma"
+
+#~ msgid "pluma is a small and lightweight text editor for Gnome"
+#~ msgstr ""
+#~ "pluma Gnome için ufak ve kolay kullanılabilen bir metin düzenleyicidir."
+
+#~ msgid "%s %d"
+#~ msgstr "%s %d"
+
+#~ msgid "Untitled"
+#~ msgstr "İsimsiz"
+
+#~ msgid "Invalid file name"
+#~ msgstr "Geçersiz dosya adı"
+
+#~ msgid "Invalid UTF-8 data"
+#~ msgstr "Geçersiz UTF8 verisi"
+
+#~ msgid "Could not read symbolic link information for %s"
+#~ msgstr "%s için sembolik bağlantı bilgisi okunamadı."
+
+#~ msgid "The file has too many symbolic links."
+#~ msgstr "Dosyada çok fazla sembolik bağlantı var."
+
+#~ msgid "pluma cannot handle %s: locations in write mode."
+#~ msgstr "Yerler yazma modundayken pluma %s 'yi işleyemiyor"
+
+#~ msgid "pluma cannot handle this kind of location in write mode."
+#~ msgstr "Pluma yazma modunda bu tip bir yeri işleyemiyor"
+
+#~ msgid "Invalid filename."
+#~ msgstr "Geçersiz dosya adı."
+
+#~ msgid ""
+#~ "There is not enough disk space to save the file.\n"
+#~ "Please free some disk space and try again."
+#~ msgstr ""
+#~ "Dosyayı kaydetmek için yeterli disk alanı yok. \n"
+#~ "Lütfen diskinizde yer açıp tekrar deneyin."
+
+#~ msgid ""
+#~ "The disk where you are trying to save the file has a limitation on file "
+#~ "sizes.  Please try saving a smaller file or saving it to a disk that does "
+#~ "not have this limitation."
+#~ msgstr ""
+#~ "Dosyayı kaydetmeye çalıştığınız diskte dosya boyutu sınırı var. Lütfen "
+#~ "daha küçük bir dosyayı kaydetmeye çalışın ya da sınırlaması olmayan bir "
+#~ "disk kullanın."
+
+#~ msgid "Could not create a backup file."
+#~ msgstr "Yedekleme kopyası oluşturulamadı."
+
+#~ msgid "It is not possible to revert an Untitled document"
+#~ msgstr "İsimsiz bir belge eski haline getirilemez"
+
+#~ msgid ""
+#~ "A file named \"%s\" already exists.\n"
+#~ "Do you want to replace it with the one you are saving?"
+#~ msgstr ""
+#~ "''%s'' isimli bir dosya zaten var.\n"
+#~ "Üzerine yazılmasını ister misiniz?"
+
+#~ msgid ""
+#~ "The file \"%s\" is read-only.\n"
+#~ "Do you want to try to replace it with the one you are saving?"
+#~ msgstr ""
+#~ "''%s'' isimli dosya salt okunur.\n"
+#~ "Üzerine yazılmasını ister misiniz?"
+
+#~ msgid "Select a filename to save"
+#~ msgstr "Kaydetmek için bir dosya adı seçin"
+
+#~ msgid "Open File..."
+#~ msgstr "Dosya Aç... "
+
+#~ msgid "Loaded file '%s'"
+#~ msgstr "'%s' dosyası yüklendi"
+
+#~ msgid "Saving file '%s'..."
+#~ msgstr "'%s' dosyası kaydediliyor ..."
+
+#~ msgid "The document has not been saved."
+#~ msgstr "Belge kaydedilmedi."
+
+#~ msgid "File '%s' saved."
+#~ msgstr "'%s' dosyası kaydedildi."
+
+#~ msgid "Save as..."
+#~ msgstr "Farklı Kaydet ... "
+
+#~ msgid ""
+#~ "Do you want to revert to saved the document '%s'?\n"
+#~ "\n"
+#~ "You will not be able to undo this operation."
+#~ msgstr ""
+#~ "``%s'' belgesini kaydedilmiş en son haline döndürmek ister misiniz?\n"
+#~ "\n"
+#~ "Bu işlem geri alınamaz."
+
+#~ msgid "_Revert"
+#~ msgstr "_Eski Durumuna Getir"
+
+#~ msgid "Reverting file '%s'..."
+#~ msgstr "'%s' dosyası eski haline getiriliyor ..."
+
+#~ msgid "The document has not been reverted."
+#~ msgstr "Belge eski haline dönüştürülmedi."
+
+#~ msgid "File '%s' reverted."
+#~ msgstr "'%s' eski haline getirildi."
+
+#~ msgid "Loading %d files..."
+#~ msgstr "%d dosyaları yükleniyor.."
+
+#~ msgid "The file \"%s\" does not exist. Would you like to create it?"
+#~ msgstr " \"%s\" dosyası yok. Bu dosyayı oluşturmak ister misiniz?"
+
+#~ msgid "Loaded %i files"
+#~ msgstr "%i dosyaları yüklendi"
+
+#~ msgid "Could not read data from stdin."
+#~ msgstr "stdin'den veri okunamıyor"
+
+#~ msgid "RO"
+#~ msgstr "Sadece Okuma"
+
+#~ msgid "_Move to New Window"
+#~ msgstr "Yeni bir pencereye taşı"
+
+#~ msgid "Open a file."
+#~ msgstr "Bir dosya aç."
+
+#~ msgid ""
+#~ "Do you want to save the changes you made to the document \"%s\"? \n"
+#~ "\n"
+#~ "Your changes will be lost if you don't save them."
+#~ msgstr ""
+#~ "``%s'' belgesine yaptığınız değişiklikleri kaydetmek ister misiniz?\n"
+#~ "\n"
+#~ "Kaydetmezseniz, çalışmanız boşa gidecek."
+
+#~ msgid "Do_n't save"
+#~ msgstr "Kaydet_me"
+
+#~ msgid "_Don't quit"
+#~ msgstr "Çık_ma"
+
+#~ msgid "_Don't close"
+#~ msgstr "Kapat_ma"
+
+#~ msgid "(modified)"
+#~ msgstr "(değiştirilen)"
+
+#~ msgid "(readonly)"
+#~ msgstr "(salt okunur)"
+
+#~ msgid "Error, unable to open module file '%s'\n"
+#~ msgstr "Hata, birim dosyası '%s' açılamadı\n"
+
+#~ msgid "Error, plugin '%s' does not contain init function."
+#~ msgstr "Hata, eklenti '%s' init işlevini içermiyor."
+
+#~ msgid "Error, plugin '%s' does not contain activate function."
+#~ msgstr "Hata, eklenti '%s' etkinleştirme işlevini içermiyor."
+
+#~ msgid "Error, plugin '%s' does not contain deactivate function."
+#~ msgstr "Hata, eklenti '%s' etkisizleştirme işlevini içermiyor."
+
+#~ msgid "Error, impossible to initialize plugin '%s'"
+#~ msgstr "Hata, '%s' eklentisini başlatmak olanaksız"
+
+#~ msgid "Error, impossible to destroy plugin '%s'"
+#~ msgstr "Hata, '%s' eklentisini etkisizleştirmek olanaksız"
+
+#~ msgid "Error, impossible to activate plugin '%s'"
+#~ msgstr "Hata, '%s' eklentisini etkinleştirmek olanaksız"
+
+#~ msgid "Error, impossible to deactivate plugin '%s'"
+#~ msgstr "Hata, '%s' eklentisini etkisizleştirmek olanaksız"
+
+#~ msgid "Error, impossible to update ui of the plugin '%s'"
+#~ msgstr "Hata, '%s' eklentisinin arayüzünü güncellemek olanaksız"
+
+#~ msgid "Cannot initialize preferences manager."
+#~ msgstr "Tercihler yöneticisi başlatılamıyor."
+
+#~ msgid "Expected `%s' got `%s' for key %s"
+#~ msgstr "%s anahtarı için %s bekleniyordu %s"
+
+#~ msgid ""
+#~ "pluma is unable to print since it cannot find\n"
+#~ "one of the required fonts."
+#~ msgstr ""
+#~ "Gerekli yazı tiplerinden biri\n"
+#~ "bulunamadığından pluma yazdıramıyor"
+
+#~ msgid "File: %s"
+#~ msgstr "Dosya: %s"
+
+#~ msgid "Page: %d"
+#~ msgstr "Sayfa: %d"
+
+#~ msgid "pluma - Print Preview"
+#~ msgstr "pluma - Yazdırma Önizleme"
+
+#~ msgid ""
+#~ "An error occurred while printing.\n"
+#~ "\n"
+#~ "%s,"
+#~ msgstr ""
+#~ "Yazdırma sırasında bir hata oluştu.\n"
+#~ "\n"
+#~ "%s,"
+
+#~ msgid "About this application"
+#~ msgstr "Bu uygulama hakkında"
+
+#~ msgid "C_ustomize Statusbar"
+#~ msgstr "_Durum Çubuğunu Kişiselleştir"
+
+#~ msgid "Change the visibility of the output window in the current window"
+#~ msgstr "Çıktı penceresinin geçerli penceredeki görünümünü değiştir."
+
+#~ msgid "Change the visibility of the statusbar in the current window"
+#~ msgstr "Geçerli penceredeki durum çubuğunun görünürlüğünü değiştir. "
+
+#~ msgid "Change the visibility of the toolbar in the current window"
+#~ msgstr "Geçerli penceredeki araç çubuğunun görünürlüğünü değiştir. "
+
+#~ msgid "Close"
+#~ msgstr "Kapat"
+
+#~ msgid "Close all open files"
+#~ msgstr "Açık tüm dosyaları kapat"
+
+#~ msgid "Close the current file"
+#~ msgstr "Çalışılan dosyayı kapat"
+
+#~ msgid "Configure the application"
+#~ msgstr "Uygulamayı yapılandır"
+
+#~ msgid "Copy"
+#~ msgstr "Kopyala"
+
+#~ msgid "Copy the selection"
+#~ msgstr "Seçimi panoya kopyala"
+
+#~ msgid "Create a new document"
+#~ msgstr "Yeni bir belge oluştur"
+
+#~ msgid "Cu_t"
+#~ msgstr "_Kes"
+
+#~ msgid "Customize"
+#~ msgstr "Kişiselleştir"
+
+#~ msgid "Customize toolbars"
+#~ msgstr "Araç çubuklarını kişiselleştir"
+
+#~ msgid "Cut"
+#~ msgstr "Kes"
+
+#~ msgid "Cut the selection"
+#~ msgstr "Seçimi taşınmak üzere panoya kopyalar"
+
+#~ msgid "Delete"
+#~ msgstr "Sil"
+
+#~ msgid "Delete the selected text"
+#~ msgstr "Seçili metni sil"
+
+#~ msgid "Dump XML"
+#~ msgstr "XML Dökümle"
+
+#~ msgid "Dump the UI Xml description"
+#~ msgstr "UI Xml tanımını dökümler"
+
+#~ msgid "Find Again"
+#~ msgstr "Tekrar Bul"
+
+#~ msgid "Find Ne_xt"
+#~ msgstr "Sonrakini B_ul"
+
+#~ msgid "Go to _Line..."
+#~ msgstr "Satıra _git..."
+
+#~ msgid "Go to a specific line number"
+#~ msgstr "Belirtilen satıra git"
+
+#~ msgid "Icon and _Text"
+#~ msgstr "Simge ve _Metin"
+
+#~ msgid "Main toolbar"
+#~ msgstr "Ana araç çubuğu"
+
+#~ msgid "Move the current document to a new window"
+#~ msgstr "Geçerli belgeyi yeni bir pencereye taşı"
+
+#~ msgid "New"
+#~ msgstr "Yeni"
+
+#~ msgid "Only show icons in the toolbar"
+#~ msgstr "Araç çubuğunda sadece simge göster"
+
+#~ msgid "Open Location..."
+#~ msgstr "Konum Aç..."
+
+#~ msgid "Open _Location..."
+#~ msgstr "_Konum Aç..."
+
+#~ msgid "Open a file"
+#~ msgstr "Bir dosya aç"
+
+#~ msgid "Open a file from a specified location"
+#~ msgstr "Belirtilen konumdan bir dosya aç"
+
+#~ msgid "Open the pluma manual"
+#~ msgstr "Pluma kılavuzunu aç"
+
+#~ msgid "Paste"
+#~ msgstr "Yapıştır"
+
+#~ msgid "Paste the clipboard"
+#~ msgstr "Panodan yapıştırır"
+
+#~ msgid "Pr_eferences"
+#~ msgstr "Ter_cihler"
+
+#~ msgid "Print Previe_w..."
+#~ msgstr "Y_azdırma Önizleme..."
+
+#~ msgid "Print Preview"
+#~ msgstr "Yazdırma Önizleme"
+
+#~ msgid "Print Setup"
+#~ msgstr "Yazdırma Ayarları"
+
+#~ msgid "Print preview"
+#~ msgstr "Yazdırma önizlemesi"
+
+#~ msgid "Print the current file"
+#~ msgstr "Çalışılan dosyayı yazdır"
+
+#~ msgid "Quit"
+#~ msgstr "Çık"
+
+#~ msgid "Quit the program"
+#~ msgstr "Uygulamadan çık"
+
+#~ msgid "Redo"
+#~ msgstr "Tekrar Yap"
+
+#~ msgid "Redo the undone action"
+#~ msgstr "Geri alınan işlemi tekrar yap"
+
+#~ msgid "Replace a string"
+#~ msgstr "Bir dizgeyi değiştir"
+
+#~ msgid "Revert"
+#~ msgstr "Eski Durumuna Getir"
+
+#~ msgid "Revert to a saved version of the file"
+#~ msgstr "Dosyayı kaydedilmiş haline dönüştürür"
+
+#~ msgid "Save As"
+#~ msgstr "Farklı Kaydet"
+
+#~ msgid "Save _As..."
+#~ msgstr "_Farklı Kaydet... "
+
+#~ msgid "Save all open files"
+#~ msgstr "Tüm açık dosyaları kaydet"
+
+#~ msgid "Save the current file"
+#~ msgstr "Çalışılan dosyayı kaydeder"
+
+#~ msgid "Save the current file with a different name"
+#~ msgstr "Çalışılan dosyayı başka bir dosya adıyla kaydet"
+
+#~ msgid "Search again for the same string"
+#~ msgstr "Aynı dizgeyi tekrar ara"
+
+#~ msgid "Search for a string"
+#~ msgstr "Bir dizgeyi ara"
+
+#~ msgid "Select All"
+#~ msgstr "Tümünü Seç"
+
+#~ msgid "Select _All"
+#~ msgstr "_Tümünü Seç"
+
+#~ msgid "Select the entire document"
+#~ msgstr "Belgenin tamamını seçili duruma getirir"
+
+#~ msgid "Set toolbar button style according to desktop default"
+#~ msgstr "Araç çubuğu düğme stilini geçerli masaüstüne göre ayarla"
+
+#~ msgid "Setup the page settings for your current printer"
+#~ msgstr "Geçerli yazıcınızın sayfa ayarları"
+
+#~ msgid "Show _Cursor Position"
+#~ msgstr "İmleç _Konumunu Göster"
+
+#~ msgid "Show _Overwrite Mode"
+#~ msgstr "_Üzerine Yazma Kipini Göster"
+
+#~ msgid "Show cursor position in the statusbar"
+#~ msgstr "Durum çubuğunda imleç konumunu göster"
+
+#~ msgid "Show overwrite mode in the statusbar"
+#~ msgstr "Durum çubuğunda üzerine yazma kipini göster"
+
+#~ msgid "Undo the last action"
+#~ msgstr "Son işlemi geri al"
+
+#~ msgid "_About"
+#~ msgstr "_Hakkında "
+
+#~ msgid "_Close"
+#~ msgstr "Kapa_t"
+
+#~ msgid "_Close All"
+#~ msgstr "_Hepsini Kapat..."
+
+#~ msgid "_Contents"
+#~ msgstr "_İçerik"
+
+#~ msgid "_Copy"
+#~ msgstr "K_opyala"
+
+#~ msgid "_Customize Toolbar"
+#~ msgstr "_Araç Çubuklarını Kişiselleştir"
+
+#~ msgid "_Debug"
+#~ msgstr "_Hata Ayıklama"
+
+#~ msgid "_Delete"
+#~ msgstr "_Sil"
+
+#~ msgid "_Desktop Default"
+#~ msgstr "Masaüstü _Öntanımlısı"
+
+#~ msgid "_Documents"
+#~ msgstr "_Belgeler"
+
+#~ msgid "_Edit"
+#~ msgstr "_Düzenle"
+
+#~ msgid "_File"
+#~ msgstr "_Dosya"
+
+#~ msgid "_Find..."
+#~ msgstr "_Bul..."
+
+#~ msgid "_Help"
+#~ msgstr "_Yardım"
+
+#~ msgid "_Icon"
+#~ msgstr "_Simge"
+
+#~ msgid "_New"
+#~ msgstr "_Yeni"
+
+#~ msgid "_Open..."
+#~ msgstr "_Aç..."
+
+#~ msgid "_Output Window"
+#~ msgstr "_Çıktı Penceresi"
+
+#~ msgid "_Paste"
+#~ msgstr "_Yapıştır"
+
+#~ msgid "_Print..."
+#~ msgstr "_Yazdır..."
+
+#~ msgid "_Priority Text beside Icons"
+#~ msgstr "Öncelik metin ikonları arkasında"
+
+#~ msgid "_Quit"
+#~ msgstr "Çı_k"
+
+#~ msgid "_Redo"
+#~ msgstr "_Tekrar Yap"
+
+#~ msgid "_Replace..."
+#~ msgstr "_Değiştir..."
+
+#~ msgid "_Save"
+#~ msgstr "_Kaydet"
+
+#~ msgid "_Save All"
+#~ msgstr "Hepsini _Kaydet "
+
+#~ msgid "_Search"
+#~ msgstr "_Ara"
+
+#~ msgid "_Statusbar"
+#~ msgstr "_Durum çubuğu"
+
+#~ msgid "_Toolbar"
+#~ msgstr "_Araç Çubuğu"
+
+#~ msgid "_Tools"
+#~ msgstr "_Araçlar"
+
+#~ msgid "_Undo"
+#~ msgstr "_Geri Al"
+
+#~ msgid "_View"
+#~ msgstr "_Görüntüle"
+
+#~ msgid ""
+#~ "Could not find the file \"%s\".\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly and try again."
+#~ msgstr ""
+#~ "\"%s\" dosyası bulunamıyor.\n"
+#~ "\n"
+#~ "Lütfen konumu doğru yazdığınıza emin olun ve tekrar deneyin."
+
+#~ msgid "Could not open the file \"%s\" because it contains corrupted data."
+#~ msgstr "\"%s\" dosyası açılamıyor çünkü zarar görmüş veri içeriyor."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because pluma cannot handle %s: locations."
+#~ msgstr ""
+#~ "\"%s\" dosyası açılamıyor çünkü pluma %s: konumlarını tanımlayamıyor."
+
+#~ msgid "Could not open the file \"%s\""
+#~ msgstr "%s dosyası açılamadı."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because it contains data in an invalid "
+#~ "format."
+#~ msgstr "\"%s\" dosyası açılamıyor çünkü geçersiz biçimli veri içeriyor."
+
+#~ msgid "Could not open the file \"%s\" because it is too big."
+#~ msgstr "\"%s\" dosyası açılamıyor çünkü boyutu çok yüksek."
+
+#~ msgid ""
+#~ "\"%s\" is not a valid location.\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly and try again."
+#~ msgstr ""
+#~ "\"%s\" geçerli bir konum değil\n"
+#~ "\n"
+#~ "Lütfen konumu doğru yazdığınıza emin olun ve tekrar deneyin."
+
+#~ msgid "Could not open the file \"%s\" because access was denied."
+#~ msgstr "\"%s\" dosyası açılamıyor çünkü erişim engellendi."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because there are too many open files.\n"
+#~ "\n"
+#~ "Please, close some open file and try again."
+#~ msgstr ""
+#~ "\"%s\" dosyası açılamıyor çünkü çok fazla açık dosya var.\n"
+#~ "\n"
+#~ "Lütfen bazı açık dosyaları kapatın ve tekrar deneyin."
+
+#~ msgid ""
+#~ "\"%s\" is a directory.\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly and try again."
+#~ msgstr ""
+#~ "\"%s\" bir dizin.\n"
+#~ "\n"
+#~ "Lütfen konumu doğru yazdığınıza emin olun ve tekrar deneyin."
+
+#~ msgid ""
+#~ "Not enough available memory to open the file \"%s\". Please, close some "
+#~ "running application and try again."
+#~ msgstr ""
+#~ " \"%s\" dosyasını açmak için yeterli bellek yok. Lütfen çalışmakta olan "
+#~ "bazı uygulamaları kapatıp tekrar deneyin."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because no host \"%s\" could be found.\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly and that your proxy "
+#~ "settings are correct and then try again."
+#~ msgstr ""
+#~ "\"%s\"dosyası açılamadı çünkü ana bilgisayar \"%s\" bulunamadı.\n"
+#~ "\n"
+#~ "Lütfen konumu doğru yazdığınıza ve vekil sunucu ayarlarınızın doğru "
+#~ "olduğuna emin olun ve tekrar deneyin."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because the host name was invalid.\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly and try again."
+#~ msgstr ""
+#~ "\"%s\"dosyası açılamadı çünkü ana bilgisayar adı geçersiz.\n"
+#~ "\n"
+#~ "Lütfen konumu doğru yazdığınıza emin olun ve tekrar deneyin."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because the host name was empty.\n"
+#~ "\n"
+#~ "Please, check that your proxy settings are correct and try again."
+#~ msgstr ""
+#~ "\"%s\"dosyası açılamadı çünkü ana bilgisayar adı boş..\n"
+#~ "\n"
+#~ "Lütfen vekil sunucu ayarlarınızın doğru olduğuna emin olun ve tekrar "
+#~ "deneyin."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because the attempt to log in failed.\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly and try again."
+#~ msgstr ""
+#~ "\"%s\"dosyası açılamadı çünkü oturum açma girişimi başarısız oldu.\n"
+#~ "\n"
+#~ "Lütfen konumu doğru yazdığınıza emin olun ve tekrar deneyin."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because it contains invalid UTF-8 data.\n"
+#~ "\n"
+#~ "Probably, you are trying to open a binary file."
+#~ msgstr ""
+#~ "\"%s\"dosyası açılamadı çünkü geçersiz UTF-8 bilgisi içeriyor.\n"
+#~ "\n"
+#~ "Bir kütük dosyası açmaya çalışıyor olabilirsiniz."
+
+#~ msgid "Could not open the file \"%s\"."
+#~ msgstr "Dosya açılamadı: %s"
+
+#~ msgid "Could not save the file \"%s\"."
+#~ msgstr "\"%s\"dosyası kaydedilemedi."
+
+#~ msgid ""
+#~ "Could not save the file \"%s\".\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\"%s\"kaydedilemedi.\n"
+#~ "\n"
+#~ "%s."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because pluma cannot find it.\n"
+#~ "\n"
+#~ "Perhaps, it has recently been deleted."
+#~ msgstr ""
+#~ "\"%s\"dosyası eski haline getirilemedi çünkü pluma bu dosyayı bulamıyor.\n"
+#~ "\n"
+#~ "Dosya silinmiş olabilir."
+
+#~ msgid "Could not revert the file \"%s\" because it contains corrupted data."
+#~ msgstr ""
+#~ "\"%s\"dosyası eski haline getirilemedi çünkü zarar görmüş veri içeriyor."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because pluma cannot handle %s: "
+#~ "locations."
+#~ msgstr ""
+#~ "\"%s\"dosyası eski haline getirilemedi çünkü pluma %s: konumlarını "
+#~ "tanımlayamıyor."
+
+#~ msgid "Could not revert the file \"%s\"."
+#~ msgstr " \"%s\" dosyası eski haline getirilemiyor."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because it contains data in an invalid "
+#~ "format."
+#~ msgstr ""
+#~ "\"%s\"dosyası eski haline getirilemedi çünkü geçersiz biçimli veri "
+#~ "içeriyor."
+
+#~ msgid "Could not revert the file \"%s\" because it is too big."
+#~ msgstr "\"%s\"dosyası eski haline getirilemedi çünkü dosya çok büyük."
+
+#~ msgid "Could not revert the file \"%s\" because access was denied."
+#~ msgstr "\"%s\"dosyası eski haline getirilemedi çünkü erişim engellendi."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because there are too many open files.\n"
+#~ "\n"
+#~ "Please, close some open file and try again."
+#~ msgstr ""
+#~ "\"%s\"dosyası eski haline getirilemedi çünkü çok fazla açık dosya var. \n"
+#~ "\n"
+#~ "Lütfen bazı dosyaları kapatıp tekrar deneyin."
+
+#~ msgid ""
+#~ "Not enough available memory to revert the file \"%s\". Please, close some "
+#~ "running application and try again."
+#~ msgstr ""
+#~ "\"%s\"dosyasının eski haline getirilmesi için yeterli bellek yok. Lütfen "
+#~ "çalışan bazı uygulamaları kapatıp tekrar deneyin."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because no host \"%s\" could be found.\n"
+#~ "\n"
+#~ "Please, check that your proxy settings are correct and try again."
+#~ msgstr ""
+#~ "\"%s\"dosyası eski haline getirilemedi çünkü ana bilgisayar \"%s\" "
+#~ "bulunamadı.\n"
+#~ "\n"
+#~ "Lütfenvekil sunucu ayarlarınızın doğru olduğuna emin olun ve tekrar "
+#~ "deneyin."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because the host name was empty.\n"
+#~ "\n"
+#~ "Please, check that your proxy settings are correct and try again."
+#~ msgstr ""
+#~ "\"%s\"dosyası eski haline getirilemedi çünkü ana bilgisayar adı boş..\n"
+#~ "\n"
+#~ "Lütfen vekil sunucu ayarlarınızın doğru olduğuna emin olun "
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because the attempt to log in failed."
+#~ msgstr ""
+#~ "\"%s\"dosyası eski haline getirilemedi çünkü oturum açma girişimi "
+#~ "başarısız oldu."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because it contains invalid UTF-8 data.\n"
+#~ "\n"
+#~ "Probably, you are trying to revert a binary file."
+#~ msgstr ""
+#~ "\"%s\"dosyası eski haline getirilemedi çünkü geçersiz UTF-8 bilgisi "
+#~ "içeriyor.\n"
+#~ "\n"
+#~ "Bir kütük dosyası açmaya çalışıyor olabilirsiniz."
+
+#~ msgid "It is not possible to revert an Untitled document."
+#~ msgstr "İsimsiz bir belge eski haline getirilemez."
+
+#~ msgid "The file \"%s\" already exists."
+#~ msgstr "\"%s\"dosyası zaten var."
+
+#~ msgid ""
+#~ "\"%s\" is a directory.\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly."
+#~ msgstr ""
+#~ "\"%s\"bir dizin. \n"
+#~ "\n"
+#~ "Lütfen konumu doğru yazdığınıza emin olun."
+
+#~ msgid ""
+#~ "Cannot create the file \"%s\".\n"
+#~ "\n"
+#~ "Make sure you have the appropriate write permissions."
+#~ msgstr ""
+#~ " \"%s\"dosyarı oluşturulamıyor.\n"
+#~ "\n"
+#~ "Geçerli yazma iznine sahip olduğunuzdan emin olun."
+
+#~ msgid ""
+#~ "Cannot create the file \"%s\".\n"
+#~ "\n"
+#~ "The file name is too long."
+#~ msgstr ""
+#~ " \"%s\"dosyarı oluşturulamıyor.\n"
+#~ "\n"
+#~ "Dosya adı çok uzun."
+
+#~ msgid ""
+#~ "Cannot create the file \"%s\".\n"
+#~ "\n"
+#~ "A directory component in the file name does not exist or is a dangling "
+#~ "symbolic link."
+#~ msgstr ""
+#~ " \"%s\"dosyarı oluşturulamıyor.\n"
+#~ "\n"
+#~ "Dosya adında bulunan bir dizin bileşeni yok, ya da artık geçerli olmayan "
+#~ "bir sembolink bağlantı."
+
+#~ msgid ""
+#~ "There is not enough disk space to create the file \"%s\".\n"
+#~ "\n"
+#~ "Please free some disk space and try again."
+#~ msgstr ""
+#~ "\"%s\"dosyasını oluşturmak için yeterli disk alanı yok..\n"
+#~ "\n"
+#~ "Lütfen disk alanı boşaltıp tekrar deneyiniz."
+
+#~ msgid "Could not create the file \"%s\"."
+#~ msgstr " \"%s\" dosyası oluşturulamıyor."
+
+#~ msgid "  Ln %d, Col. %d"
+#~ msgstr " Sat %d, Süt. %d"
+
+#~ msgid "  OVR"
+#~ msgstr "  ÜZR"
+
+#~ msgid "  INS"
+#~ msgstr "  ÜYZ"
+
+#~ msgid "Show utility debugging messages."
+#~ msgstr "Yazılım hata ayıklama iletilerini gösterir."
+
+#~ msgid "Show mdi debugging messages."
+#~ msgstr "Görünüm hata ayıklama iletilerini göster."
+
+#~ msgid "Show commands debugging messages."
+#~ msgstr "Komut hata ayıklama iletilerini göster."
+
+#~ msgid "Show document debugging messages."
+#~ msgstr "Belge hata ayıklama iletilerini göster."
+
+#~ msgid "Show file debugging messages."
+#~ msgstr "Dosya hata ayıklama iletilerini göster."
+
+#~ msgid "Show plugin debugging messages."
+#~ msgstr "Eklenti hata ayıklama iletilerini göster."
+
+#~ msgid "Show prefs debugging messages."
+#~ msgstr "Tercihler hata ayıklama iletilerini göster."
+
+#~ msgid "Show printing debugging messages."
+#~ msgstr "Yazdırma hata ayıklama iletilerini göster."
+
+#~ msgid "Show search debugging messages."
+#~ msgstr "Arama hata ayıklama iletilerini göster."
+
+#~ msgid "Show undo debugging messages."
+#~ msgstr "Geri alma hata ayıklama iletilerini göster."
+
+#~ msgid "Show view debugging messages."
+#~ msgstr "Görünüm hata ayıklama iletilerini göster."
+
+#~ msgid "Show recent debugging messages."
+#~ msgstr "En son hata ayıklama iletilerini göster."
+
+#~ msgid "Show session management debugging messages."
+#~ msgstr "Oturum yöntetimi hata ayıklama iletilerini göster."
+
+#~ msgid "Turn on all debugging messages."
+#~ msgstr "Tüm hata ayıklama iletilerini aç."
+
+#~ msgid "Quit an existing instance of pluma"
+#~ msgstr "Pluma'in mevcut durumundan çık"
+
+#~ msgid "Create a new toplevel window in an existing instance of pluma"
+#~ msgstr "Pluma'in mevcut durumunda yeni bir en üst düzey pencere yarat"
+
+#~ msgid "Create a new document in an existing instance of pluma"
+#~ msgstr "Mevcut durumda yeni bir belge yarat"
+
+#~ msgid "Close the output window"
+#~ msgstr "Çıktı penceresini kapat"
+
+#~ msgid "Copy selected lines"
+#~ msgstr "Seçili satırları kopyala"
+
+#~ msgid "Clear the output window"
+#~ msgstr "Çıktı penceresini temizle"
+
+#~ msgid "Output Lines"
+#~ msgstr "Çıktı satırları"
+
+#~ msgid "Choose one or more e_ncodings:"
+#~ msgstr "Bİr veya bşrden fazla kodlama seçiniz:"
+
+#~ msgid "Western"
+#~ msgstr "Batı"
+
+#~ msgid "Central European"
+#~ msgstr "Orta Avrupa"
+
+#~ msgid "South European"
+#~ msgstr "Güney Avrupa"
+
+#~ msgid "Baltic"
+#~ msgstr "Baltık"
+
+#~ msgid "Cyrillic"
+#~ msgstr "Kiril"
+
+#~ msgid "Arabic"
+#~ msgstr "Arapça"
+
+#~ msgid "Greek"
+#~ msgstr "Yunanca"
+
+#~ msgid "Hebrew Visual"
+#~ msgstr "İbranice-Görünümsel"
+
+#~ msgid "Hebrew"
+#~ msgstr "İbranice"
+
+#~ msgid "Turkish"
+#~ msgstr "Türkçe"
+
+#~ msgid "Nordic"
+#~ msgstr "İskandinav"
+
+#~ msgid "Celtic"
+#~ msgstr "Kelt"
+
+#~ msgid "Romanian"
+#~ msgstr "Romence"
+
+#~ msgid "Unicode"
+#~ msgstr "Unikod"
+
+#~ msgid "Armenian"
+#~ msgstr "Ermenice"
+
+#~ msgid "Chinese Traditional"
+#~ msgstr "Geleneksel Çince"
+
+#~ msgid "Cyrillic/Russian"
+#~ msgstr "Kiril/Rusça"
+
+#~ msgid "Japanese"
+#~ msgstr "Japonca"
+
+#~ msgid "Korean"
+#~ msgstr "Kore Dili"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Basitleştirilmiş Çince"
+
+#~ msgid "Georgian"
+#~ msgstr "Gürcüce"
+
+#~ msgid "Cyrillic/Ukrainian"
+#~ msgstr "Kiril/Ukrayna Dili"
+
+#~ msgid "Croatian"
+#~ msgstr "Hırvatça"
+
+#~ msgid "Hindi"
+#~ msgstr "Hintçe"
+
+#~ msgid "Farsi"
+#~ msgstr "Farsça"
+
+#~ msgid "Gujarati"
+#~ msgstr "Gujarati"
+
+#~ msgid "Gurmukhi"
+#~ msgstr "Gurmukhi"
+
+#~ msgid "Icelandic"
+#~ msgstr "İzlandaca"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Vietnamca"
+
+#~ msgid "Thai"
+#~ msgstr "Tay Dili"
+
+#~ msgid " (invalid Unicode)"
+#~ msgstr " (geçersiz unikod)"

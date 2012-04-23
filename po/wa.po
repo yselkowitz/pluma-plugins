@@ -1,0 +1,269 @@
+# Translation into the walloon language.
+#
+# Si vos voloz donner on côp di spale pol ratournaedje di Gnome (ou des
+# ôtes libes programes) sicrijhoz-mu a l' adresse emile
+# <srtxg@chanae.alphanet.ch>; nos avons co bråmint di l' ovraedje a fé.
+#
+# Copyright (C) 1999 Free Software Foundation, Inc.
+# Pablo Saratxaga <srtxg@chanae.alphanet.ch> 1999-2002,2003
+# Pablo Saratxaga <pablo@walon.org>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-18 20:13+0100\n"
+"PO-Revision-Date: 2004-01-19 03:31+0100\n"
+"Last-Translator: Pablo Saratxaga <pablo@walon.org>\n"
+"Language-Team: Walloon <linux-wa@walon.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.2\n"
+
+#: plugins/ASCII/ascii.c:43
+msgid "_ASCII Table"
+msgstr "Tåvlea _ASCII"
+
+#: plugins/ASCII/ascii.c:46
+msgid "Pop-up a dialog containing an ASCII Table"
+msgstr "Mostrer on purnea avou li tåvlea des caracteres ASCII"
+
+#: plugins/ASCII/ascii.c:303
+msgid "Char"
+msgstr "Char"
+
+#: plugins/ASCII/ascii.c:310
+msgid "Dec#"
+msgstr "Dec#"
+
+#: plugins/ASCII/ascii.c:317
+msgid "Hex#"
+msgstr "Hex#"
+
+#: plugins/ASCII/ascii.c:324
+msgid "Name"
+msgstr "No"
+
+#: plugins/ASCII/ascii.c:369
+msgid "ASCII Table"
+msgstr "Tåvlea ASCII"
+
+#: plugins/ASCII/ascii.c:382 plugins/ASCII/asciitable.glade2.h:2
+msgid "_Insert char"
+msgstr "_Sititchî caractere"
+
+#: plugins/ASCII/asciitable.glade2.h:1
+#: plugins/ASCII/ascii.pluma-plugin.desktop.in.h:1
+msgid "ASCII table"
+msgstr "Tåvlea ASCII"
+
+#: plugins/ASCII/ascii.pluma-plugin.desktop.in.h:2
+msgid "This plugin displays a pop-up dialog which contains an ASCII Table."
+msgstr "Ci tchôke-divins chal mostere on purnea avou li tåvlea des caracteres ASCII."
+
+#: plugins/cvschangelog/cvschangelog.c:49
+msgid "Open CVS Chan_geLogs"
+msgstr "Drovi les fitchîs Chan_geLog do CVS"
+
+#: plugins/cvschangelog/cvschangelog.c:52
+msgid "Searches for ChangeLogs in the current document and opens them"
+msgstr "Cweri après des fitchîs ChangeLog el documint do moumint et s' les drovi"
+
+#: plugins/cvschangelog/cvschangelog.pluma-plugin.desktop.in.h:1
+msgid "A plugin that opens ChangeLogs found in CVS commit messages."
+msgstr ""
+"On tchôke-divins po drovi les fitchîs ChangeLog do CVS po les messaedjes di "
+"«commit»"
+
+#: plugins/cvschangelog/cvschangelog.pluma-plugin.desktop.in.h:2
+msgid "CVS ChangeLog"
+msgstr "CVS ChangeLog"
+
+#: plugins/diff/diff.c:64
+msgid "Co_mpare Files..."
+msgstr "Co_mparer fitchîs..."
+
+#: plugins/diff/diff.c:67
+msgid "Makes a diff file from two documents or files"
+msgstr "Fwait on diff (diferince des royes di tecse) inte deus fitchîs ou documints"
+
+#. Create the dialog
+#: plugins/diff/diff.c:270 plugins/diff/diff.pluma-plugin.desktop.in.h:1
+msgid "Compare Files"
+msgstr "Comparer fitchîs"
+
+#: plugins/diff/diff.c:284
+msgid "C_ompare"
+msgstr "C_omparer"
+
+#: plugins/diff/diff.c:511
+msgid "Executed command"
+msgstr "Comande enondêye"
+
+#: plugins/diff/diff.c:652
+msgid "The two documents you selected are the same."
+msgstr "Les deus documints tchoezis sont li minme."
+
+#: plugins/diff/diff.c:660
+msgid ""
+"The \"first\" file you selected does not exist.\n"
+"\n"
+"Please provide a valid file."
+msgstr ""
+"Li «prumî» fitchî tchoezi n' egzistêye nén.\n"
+"\n"
+"Dinez on no d' fitchî valåbe s' i vos plait"
+
+#: plugins/diff/diff.c:669
+msgid ""
+"The \"second\" file you selected does not exist.\n"
+"\n"
+"Please provide a valid file."
+msgstr ""
+"Li «deujhinme» fitchî tchoezi n' egzistêye nén.\n"
+"\n"
+"Dinez on no d' fitchî valåbe s' i vos plait"
+
+#: plugins/diff/diff.c:677
+msgid "The two files you selected are the same."
+msgstr "Les deus fitchîs tchoezis sont li minme."
+
+#: plugins/diff/diff.c:694
+msgid "The \"first\" document contains no text."
+msgstr "Li «prumî» documint n' a nou tecse å dvins."
+
+#: plugins/diff/diff.c:728
+msgid "The \"second\" document contains no text."
+msgstr "Li «deujhinme» documint n' a nou tecse å dvins."
+
+#. FIXME: do better error reporting ... . Chema
+#: plugins/diff/diff.c:754
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"pluma could not create a temporary file."
+msgstr ""
+"Dj' a nén polou comparer les documints tchoezis.\n"
+"\n"
+"pluma èn pout nén fé on fitchî timporaire."
+
+#: plugins/diff/diff.c:778 plugins/diff/diff.c:791
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"Error executing the diff command."
+msgstr ""
+"Dj' a nén polou comparer les documints tchoezis.\n"
+"\n"
+"Åk n' a nén stî tot-z enondant li comande «diff»."
+
+#: plugins/diff/diff.c:813
+msgid "No differences were found between the selected documents."
+msgstr "Nole diferince di trovêye inte les deus documints tchoezis."
+
+#: plugins/diff/diff.c:854
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"The result contains invalid UTF-8 data."
+msgstr ""
+"C' est nén possibe di comparer les documints tchoezis.\n"
+"\n"
+"Li rzultat contént des dnêyes UTF-8 nén valides."
+
+#: plugins/diff/diff.glade2.h:1
+msgid "*"
+msgstr "*"
+
+#: plugins/diff/diff.glade2.h:2
+msgid "Choose the files to compare."
+msgstr "Tchoezixhoz les fitchîs a comparer."
+
+#: plugins/diff/diff.glade2.h:3
+msgid "Compare files..."
+msgstr "Comparer fitchîs..."
+
+#: plugins/diff/diff.glade2.h:4
+msgid "F_rom document"
+msgstr "A _pårti d' on documint"
+
+#: plugins/diff/diff.glade2.h:5
+msgid "First"
+msgstr "Prumî"
+
+#: plugins/diff/diff.glade2.h:6
+msgid "First file from disk"
+msgstr "Prumî fitchî del deure plake"
+
+#: plugins/diff/diff.glade2.h:7
+msgid "First file from open document"
+msgstr "Prumî fitchî do drovaedje di documint"
+
+#: plugins/diff/diff.glade2.h:8
+msgid "From _document"
+msgstr "A pårti d' on _documint"
+
+#: plugins/diff/diff.glade2.h:9
+msgid "From a _file on disk"
+msgstr "A pårti d' on _fitchî del deure plake"
+
+#: plugins/diff/diff.glade2.h:10
+msgid "From a file o_n disk"
+msgstr "A pårti d' on fitchî del _deure plake"
+
+#: plugins/diff/diff.glade2.h:11
+msgid "Ignore _blanks (-b option)"
+msgstr "Passer houte des _blancs (tchuze -b)"
+
+#: plugins/diff/diff.glade2.h:12
+msgid "Note that this option is only supported by GNU diff"
+msgstr "Note ki cisse tchuze chal ni va k' avou l' «diff» di GNU"
+
+#: plugins/diff/diff.glade2.h:13
+msgid "Second"
+msgstr "Deujhinme"
+
+#: plugins/diff/diff.glade2.h:14
+msgid "Second file from disk"
+msgstr "Deujhinme fitchî del deure plake"
+
+#: plugins/diff/diff.glade2.h:15
+msgid "Second file from open document"
+msgstr "Deujhinme fitchî do drovaedje di documint"
+
+#: plugins/diff/diff.glade2.h:16
+msgid "Select the \"first\" file..."
+msgstr "Tchoezi li «prumî» fitchî..."
+
+#: plugins/diff/diff.glade2.h:17
+msgid "Select the \"second\" file..."
+msgstr "Tchoezi li «deujhinme» fitchî..."
+
+#: plugins/diff/diff.glade2.h:18
+msgid "Select the first file to compare"
+msgstr "Tchoezi li prumî fitchî po comparer"
+
+#: plugins/diff/diff.glade2.h:19
+msgid "Select the first open document to compare"
+msgstr "Tchoezi li prumî documint po comparer"
+
+#: plugins/diff/diff.glade2.h:20
+msgid "Select the second file to compare"
+msgstr "Tchoezi li deujhinme fitchî po comparer"
+
+#: plugins/diff/diff.glade2.h:21
+msgid "Select the second open document to compare"
+msgstr "Tchoezi li deujhinme documint po comparer"
+
+#: plugins/diff/diff.glade2.h:22
+msgid "Use the _unified output format (-u option)"
+msgstr "Eployî li cogne _unifieye pol rexhowe (tchuze -u)"
+
+#: plugins/diff/diff.pluma-plugin.desktop.in.h:2
+msgid ""
+"The Compare Files plugin uses the \"diff\" program to compare two documents "
+"or files on disk."
+msgstr ""
+"Li tchôke-divins po comparer les fitchîs eploye li programe «diff» po vey "
+"les diferinces inte deus documints ou fitchîs sol deure plake."

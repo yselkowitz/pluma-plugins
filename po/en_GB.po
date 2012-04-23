@@ -1,0 +1,490 @@
+# English (British) translation.
+# Copyright (C) 2004 THE pluma-plugins'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the pluma-plugins package.
+# Gareth Owen <gowen72@yahoo.com>, 2004.
+# Jen Ockwell <jenfraggleubuntu@gmail.com>, 2009.
+# David Lodge <dave@cirt.net>, 2009.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pluma-"
+"plugins&component=general\n"
+"POT-Creation-Date: 2009-03-16 11:43+0000\n"
+"PO-Revision-Date: 2009-03-22 18:52+0000\n"
+"Last-Translator: Jen Ockwell <jenfraggleubuntu@gmail.com>\n"
+"Language-Team: British English <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:1
+msgid "Bookmarks"
+msgstr "Bookmarks"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "Easy document navigation with bookmarks"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:129
+msgid "Toggle Bookmark"
+msgstr "Toggle Bookmark"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:130
+msgid "Toggle bookmark status of the current line"
+msgstr "Toggle bookmark status of the current line"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:132
+msgid "Goto Next Bookmark"
+msgstr "Goto Next Bookmark"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:133
+msgid "Goto the next bookmark"
+msgstr "Goto the next bookmark"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:135
+msgid "Goto Previous Bookmark"
+msgstr "Goto Previous Bookmark"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:136
+msgid "Goto the previous bookmark"
+msgstr "Goto the previous bookmark"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "Automatically adds closing brackets."
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Bracket Completion"
+msgstr "Bracket Completion"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:258
+msgid "Character Map"
+msgstr "Character Map"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "Insert special characters just by clicking on them."
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:1
+msgid "Code comment"
+msgstr "Code comment"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "Comment out or uncomment a selected block of code."
+
+#: ../plugins/codecomment/codecomment.py:230
+msgid "Co_mment Code"
+msgstr "Co_mment Code"
+
+#: ../plugins/codecomment/codecomment.py:232
+msgid "Comment the selected code"
+msgstr "Comment the selected code"
+
+#: ../plugins/codecomment/codecomment.py:236
+msgid "U_ncomment Code"
+msgstr "U_ncomment Code"
+
+#: ../plugins/codecomment/codecomment.py:238
+msgid "Uncomment the selected code"
+msgstr "Uncomment the selected code"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "Colour Picker"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr ""
+"Pick a colour from a dialogue and insert its hexadecimal representation."
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "Pick _Color..."
+msgstr "Pick _Colour..."
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "Pick a colour from a dialogue"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Pick Color"
+msgstr "Pick Colour"
+
+#: ../plugins/colorpicker/colorpicker.py:226
+msgid "_Insert"
+msgstr "_Insert"
+
+#. ex:ts=4:et:
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Draw Spaces"
+msgstr "Draw Spaces"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "Draw Spaces and Tabs"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:1
+msgid "Draw new lines"
+msgstr "Draw new lines"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:2
+msgid "Draw non-breaking spaces"
+msgstr "Draw non-breaking spaces"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:3
+msgid "Draw spaces"
+msgstr "Draw spaces"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:4
+msgid "Draw tabs"
+msgstr "Draw tabs"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:149
+msgid "Show _White Space"
+msgstr "Show _White Space"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:150
+msgid "Show spaces and tabs"
+msgstr "Show spaces and tabs"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:526
+msgid "Error dialog"
+msgstr "Error dialogue"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "Join several lines or split long ones"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:2
+msgid "Join/Split Lines"
+msgstr "Join/Split Lines"
+
+#: ../plugins/joinlines/joinlines.py:56
+msgid "_Join Lines"
+msgstr "_Join Lines"
+
+#: ../plugins/joinlines/joinlines.py:57
+msgid "Join the selected lines"
+msgstr "Join the selected lines"
+
+#: ../plugins/joinlines/joinlines.py:59
+msgid "_Split Lines"
+msgstr "_Split Lines"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "Split the selected lines"
+msgstr "Split the selected lines"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "Tab_bar"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "Show or hide the tabbar in the current window"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "Tabbar is Visible"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr "Whether the tabbar should be visible in editing windows."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr "Add a menu entry to show/hide the tabbar."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "Show/Hide Tabbar"
+
+#: ../plugins/sessionsaver/__init__.py:64
+msgid "Sa_ved sessions"
+msgstr "Sa_ved sessions"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "_Save current session"
+msgstr "_Save current session"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "Save the current document list as a new session"
+msgstr "Save the current document list as a new session"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "_Manage saved sessions..."
+msgstr "_Manage saved sessions..."
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "Open the saved session manager"
+msgstr "Open the saved session manager"
+
+#: ../plugins/sessionsaver/__init__.py:106
+#, python-format
+msgid "Recover '%s' session"
+msgstr "Recover '%s' session"
+
+#: ../plugins/sessionsaver/dialogs.py:167
+msgid "Session Name"
+msgstr "Session Name"
+
+#. ex:ts=4:et:
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:1
+msgid "Save and restore your working sessions"
+msgstr "Save and restore your working sessions"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:2
+msgid "Session Saver"
+msgstr "Session Saver"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:1
+msgid "Save session"
+msgstr "Save session"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:2
+msgid "Saved Sessions"
+msgstr "Saved Sessions"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:3
+msgid "Session name:"
+msgstr "Session name:"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "Forget you're not using tabulations."
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Smart Spaces"
+msgstr "Smart Spaces"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "Embed a terminal in the bottom pane."
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:2
+msgid "Embedded Terminal"
+msgstr "Embedded Terminal"
+
+#: ../plugins/terminal/terminal.py:249
+msgid "Terminal"
+msgstr "Terminal"
+
+#: ../plugins/terminal/terminal.py:272
+msgid "C_hange Directory"
+msgstr "C_hange Directory"
+
+#~ msgid "Drawing color:"
+#~ msgstr "Drawing colour:"
+
+#~ msgid "_Color picker"
+#~ msgstr "_Colour picker"
+
+#~ msgid "Color picker"
+#~ msgstr "Colour picker"
+
+#~ msgid "gtk-cancel"
+#~ msgstr "gtk-cancel"
+
+#~ msgid "gtk-close"
+#~ msgstr "gtk-close"
+
+#~ msgid "gtk-delete"
+#~ msgstr "gtk-delete"
+
+#~ msgid "gtk-open"
+#~ msgstr "gtk-open"
+
+#~ msgid "gtk-save"
+#~ msgstr "gtk-save"
+
+#~ msgid "_ASCII Table"
+#~ msgstr "_ASCII Table"
+
+#~ msgid "Pop-up a dialog containing an ASCII Table"
+#~ msgstr "Pop-up a dialogue containing an ASCII Table"
+
+#~ msgid "Char"
+#~ msgstr "Char"
+
+#~ msgid "Dec#"
+#~ msgstr "Dec#"
+
+#~ msgid "Hex#"
+#~ msgstr "Hex#"
+
+#~ msgid "Name"
+#~ msgstr "Name"
+
+#~ msgid "ASCII Table"
+#~ msgstr "ASCII Table"
+
+#~ msgid "ASCII table"
+#~ msgstr "ASCII table"
+
+#~ msgid "This plugin displays a pop-up dialog which contains an ASCII Table."
+#~ msgstr ""
+#~ "This plugin displays a pop-up dialogue which contains an ASCII Table."
+
+#~ msgid "Open CVS Chan_geLogs"
+#~ msgstr "Open CVS Chan_geLogs"
+
+#~ msgid "Searches for ChangeLogs in the current document and opens them"
+#~ msgstr "Searches for ChangeLogs in the current document and opens them"
+
+#~ msgid "A plugin that opens ChangeLogs found in CVS commit messages."
+#~ msgstr "A plugin that opens ChangeLogs found in CVS commit messages."
+
+#~ msgid "CVS ChangeLog"
+#~ msgstr "CVS ChangeLog"
+
+#~ msgid "Co_mpare Files..."
+#~ msgstr "Co_mpare Files..."
+
+#~ msgid "Makes a diff file from two documents or files"
+#~ msgstr "Makes a diff file from two documents or files"
+
+#~ msgid "Compare Files"
+#~ msgstr "Compare Files"
+
+#~ msgid "C_ompare"
+#~ msgstr "C_ompare"
+
+#~ msgid "Executed command"
+#~ msgstr "Executed command"
+
+#~ msgid "The two documents you selected are the same."
+#~ msgstr "The two documents you selected are the same."
+
+#~ msgid ""
+#~ "The \"first\" file you selected does not exist.\n"
+#~ "\n"
+#~ "Please provide a valid file."
+#~ msgstr ""
+#~ "The \"first\" file you selected does not exist.\n"
+#~ "\n"
+#~ "Please provide a valid file."
+
+#~ msgid ""
+#~ "The \"second\" file you selected does not exist.\n"
+#~ "\n"
+#~ "Please provide a valid file."
+#~ msgstr ""
+#~ "The \"second\" file you selected does not exist.\n"
+#~ "\n"
+#~ "Please provide a valid file."
+
+#~ msgid "The two files you selected are the same."
+#~ msgstr "The two files you selected are the same."
+
+#~ msgid "The \"first\" document contains no text."
+#~ msgstr "The \"first\" document contains no text."
+
+#~ msgid "The \"second\" document contains no text."
+#~ msgstr "The \"second\" document contains no text."
+
+#~ msgid ""
+#~ "Impossible to compare the selected documents.\n"
+#~ "\n"
+#~ "pluma could not create a temporary file."
+#~ msgstr ""
+#~ "Impossible to compare the selected documents.\n"
+#~ "\n"
+#~ "pluma could not create a temporary file."
+
+#~ msgid ""
+#~ "Impossible to compare the selected documents.\n"
+#~ "\n"
+#~ "Error executing the diff command."
+#~ msgstr ""
+#~ "Impossible to compare the selected documents.\n"
+#~ "\n"
+#~ "Error executing the diff command."
+
+#~ msgid "No differences were found between the selected documents."
+#~ msgstr "No differences were found between the selected documents."
+
+#~ msgid ""
+#~ "Impossible to compare the selected documents.\n"
+#~ "\n"
+#~ "The result contains invalid UTF-8 data."
+#~ msgstr ""
+#~ "Impossible to compare the selected documents.\n"
+#~ "\n"
+#~ "The result contains invalid UTF-8 data."
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "Choose the files to compare."
+#~ msgstr "Choose the files to compare."
+
+#~ msgid "Compare files..."
+#~ msgstr "Compare files..."
+
+#~ msgid "F_rom document"
+#~ msgstr "F_rom document"
+
+#~ msgid "First"
+#~ msgstr "First"
+
+#~ msgid "First file from disk"
+#~ msgstr "First file from disk"
+
+#~ msgid "First file from open document"
+#~ msgstr "First file from open document"
+
+#~ msgid "From _document"
+#~ msgstr "From _document"
+
+#~ msgid "From a _file on disk"
+#~ msgstr "From a _file on disk"
+
+#~ msgid "From a file o_n disk"
+#~ msgstr "From a file o_n disk"
+
+#~ msgid "Ignore _blanks (-b option)"
+#~ msgstr "Ignore _blanks (-b option)"
+
+#~ msgid "Note that this option is only supported by GNU diff"
+#~ msgstr "Note that this option is only supported by GNU diff"
+
+#~ msgid "Second"
+#~ msgstr "Second"
+
+#~ msgid "Second file from disk"
+#~ msgstr "Second file from disk"
+
+#~ msgid "Second file from open document"
+#~ msgstr "Second file from open document"
+
+#~ msgid "Select the \"first\" file..."
+#~ msgstr "Select the \"first\" file..."
+
+#~ msgid "Select the \"second\" file..."
+#~ msgstr "Select the \"second\" file..."
+
+#~ msgid "Select the first file to compare"
+#~ msgstr "Select the first file to compare"
+
+#~ msgid "Select the first open document to compare"
+#~ msgstr "Select the first open document to compare"
+
+#~ msgid "Select the second file to compare"
+#~ msgstr "Select the second file to compare"
+
+#~ msgid "Select the second open document to compare"
+#~ msgstr "Select the second open document to compare"
+
+#~ msgid "Use the _unified output format (-u option)"
+#~ msgstr "Use the _unified output format (-u option)"
+
+#~ msgid ""
+#~ "The Compare Files plugin uses the \"diff\" program to compare two "
+#~ "documents or files on disk."
+#~ msgstr ""
+#~ "The Compare Files plugin uses the \"diff\" program to compare two "
+#~ "documents or files on disk."

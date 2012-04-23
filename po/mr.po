@@ -1,0 +1,276 @@
+# translation of pluma-plugins.HEAD.po to marathi
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins.HEAD\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pluma-plugins&component=general\n"
+"POT-Creation-Date: 2009-02-28 16:10+0000\n"
+"PO-Revision-Date: 2009-03-30 16:42+0530\n"
+"Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
+"Language-Team: marathi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:1
+msgid "Bookmarks"
+msgstr "पुस्तकखूण"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "पुस्तखूणसह सोपे दस्तऐवज संचारन"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:129
+msgid "Toggle Bookmark"
+msgstr "पुस्तकखूण बदला"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:130
+msgid "Toggle bookmark status of the current line"
+msgstr "वर्तमान ओळीची पुस्तकखूण स्थिती बदला"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:132
+msgid "Goto Next Bookmark"
+msgstr "पुढिल पुस्तकखूणवर जा"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:133
+msgid "Goto the next bookmark"
+msgstr "पुढिल पुस्तकखूणवर जा"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:135
+msgid "Goto Previous Bookmark"
+msgstr "मागिल पुस्तकखूणवर जा"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:136
+msgid "Goto the previous bookmark"
+msgstr "मागिल पुस्तकखूणवर जा"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "स्वयं बंद करण्याजोगी ब्रॅकेट समावेष करा."
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Bracket Completion"
+msgstr "ब्रॅकेट पूर्णत्व"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:258
+msgid "Character Map"
+msgstr "अक्षर नकाशा"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "क्लिक करून विशेष अक्षर अंतर्भूत करा."
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:1
+msgid "Code comment"
+msgstr "कोड टिपण्णी"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "निवडलेल्या कोड भाग करीता टिपण्णी शक्य करा किंवा टिपण्णी अशक्य करा."
+
+#: ../plugins/codecomment/codecomment.py:230
+msgid "Co_mment Code"
+msgstr "कोड अंतर्गत टिपण्णी करा (_m)"
+
+#: ../plugins/codecomment/codecomment.py:232
+msgid "Comment the selected code"
+msgstr "निवडलेल्या कोड अंतर्गत टिपण्णी शक्य करा"
+
+#: ../plugins/codecomment/codecomment.py:236
+msgid "U_ncomment Code"
+msgstr "कोड अंतर्गत टिपण्णी अशक्य करा (_n)"
+
+#: ../plugins/codecomment/codecomment.py:238
+msgid "Uncomment the selected code"
+msgstr "निवडलेल्या कोड अंतर्गत टिपण्णी अशक्य करा"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "रंग निवडकर्ता"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "संवाद पासून रंग निवडा व त्याचे hexadecimal रूप अंतर्भूत करा."
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "Pick _Color..."
+msgstr "रंग निवडा (_C)..."
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "संवाद पासून रंग निवडा"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Pick Color"
+msgstr "रंग निवडा"
+
+#: ../plugins/colorpicker/colorpicker.py:226
+msgid "_Insert"
+msgstr "अंतर्भूत करा (_I)"
+
+#. ex:ts=4:et:
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Draw Spaces"
+msgstr "मोकळी जागा बनवा"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "मोकळी जागा व टॅब बनवा"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:1
+msgid "Draw new lines"
+msgstr "नवीन ओळ बनवा"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:2
+msgid "Draw non-breaking spaces"
+msgstr "विना-खंडीत जागा बनवा"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:3
+msgid "Draw spaces"
+msgstr "जागा बनवा"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:4
+msgid "Draw tabs"
+msgstr "टॅब बनवा"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:149
+msgid "Show _White Space"
+msgstr "White Space (_W)"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:150
+msgid "Show spaces and tabs"
+msgstr "जागा व टॅब दाखवा"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:526
+msgid "Error dialog"
+msgstr "त्रुटी संवाद"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "अनेक ओळ जुळवा किंवा मोठ्यांची विभागणी करा"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:2
+msgid "Join/Split Lines"
+msgstr "ओळ जुळवा/विभागणी करा"
+
+#: ../plugins/joinlines/joinlines.py:56
+msgid "_Join Lines"
+msgstr "ओळ जुळवा (_J)"
+
+#: ../plugins/joinlines/joinlines.py:57
+msgid "Join the selected lines"
+msgstr "निवडलेल्या ओळ जुळवा"
+
+#: ../plugins/joinlines/joinlines.py:59
+msgid "_Split Lines"
+msgstr "ओळींची विभागणी करा (_S)"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "Split the selected lines"
+msgstr "निवडलेल्या ओळींची विभागणी करा"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "टॅब पट्टी (_b)"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "वर्तमान खिडकी अंतर्गत टॅबपट्टी दाखवा किंवा लपवा"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "टॅबपट्टी दृष्यास्पद आहे"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr "खिडकी संपादीत करण्याकरीता टॅबपट्टी दृष्यास्पद असावी का."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr "टॅबपट्टी दाखवण्याकरीता/लपवण्याकरीता मेन्यू नोंदणी समावेष करा."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "टॅबपट्टी दाखवा/लपवा"
+
+#: ../plugins/sessionsaver/__init__.py:64
+msgid "Sa_ved sessions"
+msgstr "साठवलेले सत्र (_v)"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "_Save current session"
+msgstr "वर्तमान सत्र साठवा (_S)"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "Save the current document list as a new session"
+msgstr "वर्तमान दस्तऐवज यादी नवीन सत्र नुरूप साठवा"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "_Manage saved sessions..."
+msgstr "साठवलेले सत्र व्यवस्थापीत करा (_M)..."
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "Open the saved session manager"
+msgstr "साठवलेले सत्र व्यवस्थापक उघडा"
+
+#: ../plugins/sessionsaver/__init__.py:106
+#, python-format
+msgid "Recover '%s' session"
+msgstr "'%s' सत्र प्राप्त करा"
+
+#: ../plugins/sessionsaver/dialogs.py:167
+msgid "Session Name"
+msgstr "सत्राचे नाव"
+
+#. ex:ts=4:et:
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:1
+msgid "Save and restore your working sessions"
+msgstr "तुमचे कार्यरत सत्र साठवा व पूर्वस्थितीत न्या"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:2
+msgid "Session Saver"
+msgstr "सत्र संग्रहकर्ता"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:1
+msgid "Save session"
+msgstr "सत्र साठवा"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:2
+msgid "Saved Sessions"
+msgstr "साठवलेली सत्रं"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:3
+msgid "Session name:"
+msgstr "सत्राचे नाव:"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "तुम्ही टॅबचा वापर करत नाही हे लक्षात ठेवा."
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Smart Spaces"
+msgstr "सुस्थित जागा"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "तळ पटल अंतर्गत टर्मिनल अंतर्भतू करा."
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:2
+msgid "Embedded Terminal"
+msgstr "अंतर्भूतीत टर्मिनल"
+
+#: ../plugins/terminal/terminal.py:249
+msgid "Terminal"
+msgstr "टर्मिनल"
+
+#: ../plugins/terminal/terminal.py:272
+msgid "C_hange Directory"
+msgstr "डिरेक्ट्री बदला (_C)"
+

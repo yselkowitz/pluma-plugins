@@ -1,0 +1,3134 @@
+# translation of pluma.HEAD.he.po to Hebrew
+# translation of pluma.HEAD.po to Hebrew
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Meir Kriheli <meirkr@mksoft.co.il>, 2003
+# Gil 'Dolfin' Osher <dolfin@rpg.org.il>, 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma.HEAD.he\n"
+"POT-Creation-Date: 2003-01-27 04:50+0100\n"
+"PO-Revision-Date: 2003-01-27 14:19+0200\n"
+"Last-Translator: Gil 'Dolfin' Osher <dolfin@rpg.org.il>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0\n"
+
+#: data/GNOME_Pluma.server.in.h:1
+msgid "pluma application"
+msgstr "יישום pluma"
+
+#: data/GNOME_Pluma.server.in.h:2
+msgid "pluma automation factory"
+msgstr "בית-יוצר לאוטומציה של pluma"
+
+#: data/pluma.desktop.in.h:1
+msgid "Edit text files"
+msgstr "ערוך קבצי מלל"
+
+#: data/pluma.desktop.in.h:2 src/pluma2.c:340
+msgid "Text Editor"
+msgstr "עורך מלל"
+
+#: data/pluma.schemas.in.h:1
+msgid ""
+"A custom font that will be used for the editing area. This will only take "
+"effect if the \"Use Default Font\" option is turned off."
+msgstr ""
+"גופן מותאם אישית שישמש האיזור העריכה. זה ישפיע רק במקרהואפשרות \"השתמש בגופן "
+"ברירת-מחדל\" לא נבחרה."
+
+#: data/pluma.schemas.in.h:2
+msgid "Auto Save"
+msgstr "שמירה אוטומטית"
+
+#: data/pluma.schemas.in.h:3
+msgid "Auto Save Interval"
+msgstr "מרווח זמן שמירה אוטומטית"
+
+#: data/pluma.schemas.in.h:4
+msgid "Auto indent"
+msgstr "הזחה אוטומטית"
+
+#: data/pluma.schemas.in.h:5
+msgid "Background Color"
+msgstr "צבע רקע"
+
+#: data/pluma.schemas.in.h:6
+msgid ""
+"Background color for selected text in the editing area. This will only take "
+"effect if the \"Use Default Colors\" option is turned off."
+msgstr ""
+"צבע רקע למלל מסומן באזור העריכה. זה ישפיע רק במקרה ואפשרות \"השתמש בצבעי "
+"ברירת מחדל\" לא נבחרה."
+
+#: data/pluma.schemas.in.h:7
+msgid ""
+"Background color for unselected text in the editing area. This will only "
+"take effect if the \"Use Default Colors\" option is turned off."
+msgstr ""
+"צבע רקע למלל לא מסומן באזור העריכה. זה ישפיע רקבמקרה ואפשרות \"השתמש בצבעי "
+"ברירת מחדל\" לא נבחרה."
+
+#: data/pluma.schemas.in.h:8
+msgid "Backup Copy Extension"
+msgstr "סיומת עותק גיבוי"
+
+#: data/pluma.schemas.in.h:9
+msgid "Body Font for Printing"
+msgstr "גופן גוף המסמך להדפסה"
+
+#: data/pluma.schemas.in.h:10
+msgid "Create Backup Copies"
+msgstr "יצר עותקי גיבוי"
+
+#: data/pluma.schemas.in.h:11
+msgid "Display Line Numbers"
+msgstr "הצג מספור שורות"
+
+#: data/pluma.schemas.in.h:12
+msgid "Editor Font"
+msgstr "גופן העורך"
+
+#: data/pluma.schemas.in.h:13
+msgid "Encoding for Saving"
+msgstr "קידוד לשמירה"
+
+#: data/pluma.schemas.in.h:14 src/dialogs/pluma-preferences-dialog.c:2292
+#: src/dialogs/pluma-encodings-dialog.c:257
+#: src/dialogs/pluma-encodings-dialog.glade2.h:2
+msgid "Encodings"
+msgstr "קידודים"
+
+#: data/pluma.schemas.in.h:15
+msgid ""
+"Extension or suffix to use for backup file names. This will only take effect "
+"if the \"Create Backup Copies\" option is turned on."
+msgstr "סיומת לשמות קבצי גיבוי. זה ישפיע רק במקרה ואפשרות \"יצר קבצי גיבוי\" נבחרה."
+
+#: data/pluma.schemas.in.h:16
+msgid ""
+"Foreground color for selected text in the editing area. This will only take "
+"effect if the \"Use Default Colors\" option is turned off."
+msgstr ""
+"צבע קדמה למלל מסומן באזור העריכה. זה ישפיע רק במקרה ואפשרות \"השתמש בצבעי "
+"ברירת מחדל\" לא נבחרה."
+
+#: data/pluma.schemas.in.h:17
+msgid ""
+"Foreground color for the unselected text in the editing area. This will only "
+"take effect if the \"Use Default Colors\" option is turned off."
+msgstr ""
+"צבע קדמה למלל לא מסומן באזור העריכה. זה ישפיע רק במקרה ואפשרות \"השתמש בצבעי "
+"ברירת מחדל\" לא נבחרה."
+
+#: data/pluma.schemas.in.h:18
+msgid "Header Font for Printing"
+msgstr "גופן כותרת להדפסה"
+
+#: data/pluma.schemas.in.h:19
+msgid ""
+"If this value is 0, then no line numbers will be inserted when printing a "
+"document. Otherwise, pluma will print line numbers every such number of "
+"lines."
+msgstr ""
+"אם ערך זה הוא 0, לא יוכנסו מספרי שורות בעת הדפסת מסמך. אחרת, pluma ידפיס "
+"מספרי שורות כל מספר שורות המצויין על ידי ערך זה."
+
+#: data/pluma.schemas.in.h:20
+msgid "Insert spaces"
+msgstr "הכנס רווחים"
+
+#: data/pluma.schemas.in.h:21
+msgid "Line Number Font for Printing"
+msgstr "גופן מספור שורות להדפסה"
+
+#: data/pluma.schemas.in.h:22
+msgid "Line Wrapping Mode"
+msgstr "מצב גלישת שורות"
+
+#: data/pluma.schemas.in.h:23
+msgid ""
+"List of encodings used by pluma for reading files not encoded in UTF-8 or in "
+"the current locale encoding."
+msgstr ""
+"רשימת קידודים המשמשים את pluma עבור קריאת קבצים שלא מקודדים ב-UTF-8 אובקידוד "
+"השפה הנוכחית."
+
+#: data/pluma.schemas.in.h:24
+msgid "Maximum Recent Files"
+msgstr "מקסימום קבצים שנפתחו לאחרונה"
+
+#: data/pluma.schemas.in.h:25
+msgid "Maximum number of actions that pluma will be able to undo or redo."
+msgstr "מקסימום מספר הפעולות ש-pluma יוכל לבטל או לבצע שוב."
+
+#: data/pluma.schemas.in.h:26
+msgid ""
+"Number of minutes after which pluma will automatically save modified files. "
+"This will only take effect if the \"Auto Save\" option is turned on."
+msgstr ""
+"מספר הדקות שלאחריהן pluma ישמור אוטומטית קבצים ששונו. זה ישפיע רק במקרה "
+"ואפשרות \"שמירה אוטומטית\" נבחרה."
+
+#: data/pluma.schemas.in.h:27
+msgid "Print Header"
+msgstr "הדפס כותרת"
+
+#: data/pluma.schemas.in.h:28
+msgid "Print Line Numbers"
+msgstr "הדפס מספור שורות"
+
+#: data/pluma.schemas.in.h:29
+msgid "Printing Line Wrapping Mode"
+msgstr "מצב גלישת שורות בהדפסה"
+
+#: data/pluma.schemas.in.h:30
+msgid "Selected Text Color"
+msgstr "צבע מלל מסומן"
+
+#: data/pluma.schemas.in.h:31
+msgid "Selection Color"
+msgstr "צבע סימון"
+
+#: data/pluma.schemas.in.h:32
+msgid "Show Cursor Position"
+msgstr "הצג מיקום הסמן"
+
+#: data/pluma.schemas.in.h:33
+msgid "Show Overwrite Mode"
+msgstr "הצג מצב דריסה"
+
+#: data/pluma.schemas.in.h:34
+msgid ""
+"Specifies how to wrap long lines for printing. Use \"GTK_WRAP_NONE\" for no "
+"wrapping, \"GTK_WRAP_WORD\" for wrapping at word boundaries, and "
+"\"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. Note that "
+"the values are case-sensitive, so make sure they appear exactly as mentioned "
+"here."
+msgstr ""
+"מציין כיצד להדפיס גלישת שורות. השתמש ב \"GTK_WRAP_NONE\" למניעת גלישת שורות, "
+"\"GTK_WRAP_WORD\" לגלישה בסוף מילים,  ו-\"GTK_WRAP_CHAR\" לגלישה בסוף תווים "
+"בודדים. שים לב שערכים אלה תלויים רישיות , לכןן יש לוודא שהם יופיעו בדיוק "
+"כמתואר כאן."
+
+#: data/pluma.schemas.in.h:35
+msgid ""
+"Specifies how to wrap long lines in the editing area. Use \"GTK_WRAP_NONE\" "
+"for no wrapping, \"GTK_WRAP_WORD\" for wrapping at word boundaries, and "
+"\"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. Note that "
+"the values are case-sensitive, so make sure they appear exactly as mentioned "
+"here."
+msgstr ""
+"מציין כיצד להציג גלישת שורות באזור העריכה. השתמש ב \"GTK_WRAP_NONE\" למניעת "
+"גלישת שורות, \"GTK_WRAP_WORD\" לגלישה בסוף מילים,  ו-\"GTK_WRAP_CHAR\" "
+"לגלישה בסוף תווים בודדים. שים לב שערכים אלה תלויים רישיות , לכן יש לוודא שהם "
+"יופיעו בדיוק כמתואר כאן."
+
+#: data/pluma.schemas.in.h:36
+msgid "Specifies the font to use for a document's body when printing documents."
+msgstr "מציין את הגופן המשמש בגוף המסמך בעת הדפסה."
+
+#: data/pluma.schemas.in.h:37
+msgid ""
+"Specifies the font to use for line numbers when printing. This will only "
+"take effect if the \"Print Line Numbers\" option is non-zero."
+msgstr ""
+"מציין את הגופן המשמש להדפסת מספרי שורות. זה ישפיע רק אם אפשרות \"הדפס מספרי "
+"שורות\" שונה מאפס."
+
+#: data/pluma.schemas.in.h:38
+msgid ""
+"Specifies the font to use for page headers when printing a document. This "
+"will only take effect if the \"Print Header\" option is turned on."
+msgstr ""
+"מציין את הגופן המשמש להדפסת כותרות עמוד. זה ישפיע רק במקרה ואפשרות \"הדפס "
+"כותרות\" נבחרה."
+
+#: data/pluma.schemas.in.h:39
+msgid ""
+"Specifies the maximum number of recently opened files that will be displayed "
+"in the \"Recent Files\" submenu."
+msgstr ""
+"מציין את המספר המקסימלי של מסמכים שנפתחו לאחרונה שיוצגו בתת-תפריט \"מסמכים "
+"אחרונים\""
+
+#: data/pluma.schemas.in.h:40
+msgid ""
+"Specifies the number of spaces that should be displayed instead of Tab "
+"characters."
+msgstr "מציין את מספר הרווחים שיוצגו במקום תווי TAB."
+
+#: data/pluma.schemas.in.h:41
+msgid "Status Bar is Visible"
+msgstr "שורת מצב גלויה"
+
+#: data/pluma.schemas.in.h:42
+msgid ""
+"Style for the toolbar buttons. Possible values are \"PLUMA_TOOLBAR_SYSTEM\" "
+"to use the system's default style, \"PLUMA_TOOLBAR_ICONS\" to display icons "
+"only, \"PLUMA_TOOLBAR_ICONS_AND_TEXT\" to display both icons and text, and "
+"\"PLUMA_TOOLBAR_ICONS_BOTH_HORIZ\" to display prioritized text beside icons. "
+"Note that the values are case-sensitive, so make sure they appear exactly as "
+"mentioned here."
+msgstr ""
+"סגנון לחצני סרגל הכלים. ערכים אפשריים הם \"PLUMA_TOOLBAR_SYSTEM\" לשימוש "
+"בברירת המחדל של המערכת, \"PLUMA_TOOLBAR_ICONS\" להצגת סמלים בלבד, "
+"\"PLUMA_TOOLBAR_ICONS_AND_TEXT\" להצגת סמלים ומלל, ו-"
+"\"PLUMA_TOOLBAR_ICONS_BOTH_HORIZ\" להצגת טקסט חשוב לצד סמלים. שים לב שערכים "
+"אלה תלויים רישיות , לכן יש לוודא שהם יופיעו בדיוק כמתואר כאן."
+
+#: data/pluma.schemas.in.h:43
+msgid "Tab Size"
+msgstr "גודל TAB"
+
+#: data/pluma.schemas.in.h:44
+msgid "Text Color"
+msgstr "צבע מלל"
+
+#: data/pluma.schemas.in.h:45
+msgid ""
+"The encoding method to use for saving files. Possible values are "
+"\"PLUMA_SAVE_ALWAYS_UTF8\" for mandatory UTF-8 saving, "
+"\"PLUMA_SAVE_CURRENT_LOCALE_IF_POSSIBLE\" if you want pluma to try to "
+"convert the document it is saving to your current locale's encoding, "
+"\"PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE\" if you want pluma to try "
+"to use the original file encoding (new files in UTF8) and "
+"\"PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE_NCL\" if you want pluma to "
+"try to use the original file encoding (new files in current locale's "
+"encoding). If the conversion is successful, it will be used. Otherwise, UTF-"
+"8 will be used. Note that the values are case-sensitive, so make sure they "
+"appear exactly as mentioned here."
+msgstr ""
+"שיטת הקידוד המשמשת לשמירת קבצים. ערכים אפשרים הם \"PLUMA_SAVE_ALWAYS_UTF8\" "
+"לאילות שמירה ב-UTF-8, \"PLUMA_SAVE_CURRENT_LOCALE_IF_POSSIBLE\" שם ברצונך ש-"
+"pluma ינסה להמיר את המסמך הנשמר לקידוד השפה הנוכחית, "
+"\"PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE\" אם ברצונך ש-pluma ינסה "
+"להשתמש בקידוד המקורי של הקובץ (UTF-8 לקבצים חדשים), ו-"
+"\"PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE_NCL\" אם ברצונך ש-pluma ינסה "
+"להשתמש בקידוד של הקבוץ המקורי (קבצים חדשים לפי קידוד השפה הנוכחית). אם ההמרה "
+"מוצלחת היא תשמש לשמירה. אחרת, UTF-8 ישמש לשמירה. שים לב שערכים אלה תלויים "
+"רישיות , לכן יש לוודא שהם יופיעו בדיוק כמתואר כאן."
+
+#: data/pluma.schemas.in.h:46
+msgid "Toolbar Buttons Style"
+msgstr "סגנון לחצני סרגל כלים"
+
+#: data/pluma.schemas.in.h:47
+msgid "Toolbar is Visible"
+msgstr "סרגל כלים גלוי"
+
+#: data/pluma.schemas.in.h:48
+msgid "Undo Actions Limit"
+msgstr "מגבלת פעולות ביטול"
+
+#: data/pluma.schemas.in.h:49
+msgid "Use Default Colors"
+msgstr "השתמש בצבעי ברירת-מחדל"
+
+#: data/pluma.schemas.in.h:50
+msgid "Use Default Font"
+msgstr "השתמש בגופן ברירת מחדל"
+
+#: data/pluma.schemas.in.h:51
+msgid ""
+"Whether pluma should automatically save modified files after a time "
+"interval. You can set the time interval with the \"Auto Save Interval\" "
+"option."
+msgstr ""
+"האם לשמור קבצים ששונו אוטומטית לאחר מרווח זמן. ניתן לקבוע את מרווח הזמן "
+"בעזרת אפשרות \"מרווח זמן שמירה אוטומטית\"."
+
+#: data/pluma.schemas.in.h:52
+msgid ""
+"Whether pluma should create backup copies for the files it saves. You can "
+"set the backup file extension with the \"Backup Copy Extension\" option."
+msgstr ""
+"האם ליצור עןתקי גיבוי למסמכים הנשמרים. ניתן לקבוע את סיומת קבצי הגיבוי בעזרת "
+"אפשרות \"סיומת עותק גיבוי\"."
+
+#: data/pluma.schemas.in.h:53
+msgid "Whether pluma should display line numbers in the editing area."
+msgstr "האם להציג מספרי שורות באיזור העריכה."
+
+#: data/pluma.schemas.in.h:54
+msgid "Whether pluma should enable auto indentation."
+msgstr "אם לאפשר הזחה אוטומטית."
+
+#: data/pluma.schemas.in.h:55
+msgid "Whether pluma should include a document header when printing documents."
+msgstr "האם לכלול כותרת מסמך בעת הדפסת מסמכים."
+
+#: data/pluma.schemas.in.h:56
+msgid "Whether pluma should insert spaces instead of tabs."
+msgstr "האם pluma יכניס רווחים במקום TAB."
+
+#: data/pluma.schemas.in.h:57
+msgid "Whether the status bar at the bottom of editing windows should be visible."
+msgstr "האם להציג את שורת המצב בתחתית חלונות העריכה."
+
+#: data/pluma.schemas.in.h:58
+msgid ""
+"Whether the status bar should show the cursor position in editing windows. "
+"Make sure you turn on the \"Status Bar is Visible\" option for this to take "
+"effect."
+msgstr ""
+"האם להציג את מיקום הסמן בחלונות העריכה. יש לוודא שנבחרה אפשרות \"שורת מצב "
+"גלויה\" כדי שאפשרות זו תשפיע."
+
+#: data/pluma.schemas.in.h:59
+msgid ""
+"Whether the status bar should show the insert/overwrite mode in editing "
+"windows. Make sure you turn on the \"Status Bar is Visible\" option for this "
+"to take effect."
+msgstr ""
+"האם שורת המצב תציג מצב דריסה/הכנסה בחלונות העריכה.  יש לוודא שנבחרה אפשרות "
+"\"שורת מצב גלויה\" כדי שאפשרות זו תשפיע."
+
+#: data/pluma.schemas.in.h:60
+msgid "Whether the toolbar should be visible in editing windows."
+msgstr "האם להציג את סרגל הכלים בחלונות העריכה."
+
+#: data/pluma.schemas.in.h:61
+msgid ""
+"Whether to use the system's default colors for the editing area. If this "
+"option is turned off, then the colors of the editing area will be those "
+"specified in the \"Background Color\", \"Text Color\", \"Selected Text Color"
+"\", and \"Selection Color\" options."
+msgstr ""
+"האם להשתמש בצבעי ברירת המחדל של המערכת באזור העריכה. אם אפשרות זו לא נבחרה, "
+"צבעי אזור העריכה יהיו אלה שצויינו באפשרויות \"צבע רקע\", \"צבע מלל\", \"צבע "
+"מלל מסומן\" ו-\"צבע סימון\"."
+
+#: data/pluma.schemas.in.h:62
+msgid ""
+"Whether to use the system's default font for editing text instead of a font "
+"specific to pluma. If this option is turned off, then the font named in the "
+"\"Editor Font\" option will be used instead of the system font."
+msgstr ""
+"האם להשתמש בגופן ברירת המחדל של המערכת לעריכת מלל במקום הגופן שצויין עבור "
+"pluma. אם אפשרות זו לא נבחרה, הגופן באפשרות \"גופן העורך\" ישמש במקום גופן "
+"המערכת."
+
+#: plugins/ASCII/ascii.c:43
+msgid "_ASCII Table"
+msgstr "טבלת _ASCII"
+
+#: plugins/ASCII/ascii.c:46
+msgid "Pop-up a dialog containing an ASCII Table"
+msgstr "הצגת תיבת שיח המכילה טבלת ASCII"
+
+#: plugins/ASCII/ascii.c:303
+msgid "Char"
+msgstr "תו"
+
+#: plugins/ASCII/ascii.c:310
+msgid "Dec#"
+msgstr "עשרוני"
+
+#: plugins/ASCII/ascii.c:317
+msgid "Hex#"
+msgstr "הקסא"
+
+#: plugins/ASCII/ascii.c:324
+msgid "Name"
+msgstr "שם"
+
+#: plugins/ASCII/ascii.c:369
+msgid "ASCII Table"
+msgstr "טבלת ASCII"
+
+#: plugins/ASCII/ascii.c:382 plugins/ASCII/asciitable.glade2.h:2
+msgid "_Insert char"
+msgstr "_הכנס תו"
+
+#: plugins/ASCII/asciitable.glade2.h:1
+#: plugins/ASCII/ascii.pluma-plugin.desktop.in.h:1
+msgid "ASCII table"
+msgstr "טבלת ASCII"
+
+#: plugins/ASCII/ascii.pluma-plugin.desktop.in.h:2
+msgid "This plugin displays a pop-up dialog which contains an ASCII Table."
+msgstr "תוסף זה מציג תיבת שיח המכילה טבלת ASCII"
+
+#. AFAIK, all cvs commit messages start with this
+#: plugins/cvschangelog/cvschangelog.c:49
+msgid "Open CVS Chan_geLogs"
+msgstr "פתיחת CVS Chan_geLogs"
+
+#: plugins/cvschangelog/cvschangelog.c:52
+msgid "Searches for ChangeLogs in the current document and opens them"
+msgstr "חיפוש ChangeLogs במסמך הנוכחי ופתיחתם"
+
+#: plugins/cvschangelog/cvschangelog.pluma-plugin.desktop.in.h:1
+msgid "A plugin that opens ChangeLogs found in CVS commit messages."
+msgstr "תוסף שפותח ChangeLogs הנמצאים בהודעות CVS commit."
+
+#: plugins/cvschangelog/cvschangelog.pluma-plugin.desktop.in.h:2
+msgid "CVS ChangeLog"
+msgstr "CVS ChangeLog"
+
+#: plugins/diff/diff.c:65
+msgid "Co_mpare Files..."
+msgstr "הש_ווה קבצים..."
+
+#: plugins/diff/diff.c:68
+msgid "Makes a diff file from two documents or files"
+msgstr "יצירת קובץ הפרשי בין שני מסמכים או קבצים."
+
+#. Create the dialog
+#: plugins/diff/diff.c:271 plugins/diff/diff.pluma-plugin.desktop.in.h:1
+msgid "Compare Files"
+msgstr "השווה קבצים"
+
+#: plugins/diff/diff.c:285
+msgid "C_ompare"
+msgstr "הש_ווה"
+
+#: plugins/diff/diff.c:513
+msgid "Executed command"
+msgstr "הרץ פקודה"
+
+#: plugins/diff/diff.c:654
+msgid "The two documents you selected are the same."
+msgstr "שני המסמכים שבחרת זהים."
+
+#: plugins/diff/diff.c:662
+msgid ""
+"The \"first\" file you selected does not exist.\n"
+"\n"
+"Please provide a valid file."
+msgstr ""
+"הקובץ \"הראשון\" שבחרת לא קיים.\n"
+"\n"
+"נא לציין קובץ חוקי."
+
+#: plugins/diff/diff.c:671
+msgid ""
+"The \"second\" file you selected does not exist.\n"
+"\n"
+"Please provide a valid file."
+msgstr ""
+"הקובץ \"השני\" שבחרת לא קיים.\n"
+"\n"
+"נא לציין קובץ חוקי."
+
+#: plugins/diff/diff.c:679
+msgid "The two files you selected are the same."
+msgstr "שני הקבצים שבחרת זהים."
+
+#: plugins/diff/diff.c:696
+msgid "The \"first\" document contains no text."
+msgstr "המסמך \"הראשון\" אינו מכיל מלל."
+
+#: plugins/diff/diff.c:730
+msgid "The \"second\" document contains no text."
+msgstr "המסמך \"השני\" אינו מכיל מלל."
+
+#. FIXME: do better error reporting ... . Chema
+#: plugins/diff/diff.c:756
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"pluma could not create a temporary file."
+msgstr ""
+"לא ניתן להשוות את המסמכים הנבחרים.\n"
+"\n"
+"pluma אינו יכול ליצור קובץ זמני."
+
+#: plugins/diff/diff.c:780 plugins/diff/diff.c:793
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"Error executing the diff command."
+msgstr ""
+"לא ניתן להשוות את המסמכים הנבחרים.\n"
+"\n"
+"שגיאה בהרצת פקודת diff."
+
+#: plugins/diff/diff.c:815
+msgid "No differences were found between the selected documents."
+msgstr "לא נמצאו הבדלים בין המסמכים הנבחרים."
+
+#: plugins/diff/diff.c:856
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"The result contains invalid UTF-8 data."
+msgstr ""
+"לא ניתן להשוות את המסמכים הנבחרים.\n"
+"\n"
+"התוצאה מכילה מידע UTF-8 לא חוקי."
+
+#: plugins/diff/diff.glade2.h:1 plugins/shell_output/shell_output.glade2.h:1
+#: plugins/time/time.glade2.h:2 plugins/spell/spell-checker.glade2.h:1
+#: src/dialogs/replace.glade2.h:1 src/dialogs/uri.glade2.h:1
+msgid "*"
+msgstr "*"
+
+#: plugins/diff/diff.glade2.h:2
+msgid "Choose the files to compare."
+msgstr "בחר קבצים להשוואה."
+
+#: plugins/diff/diff.glade2.h:3
+msgid "Compare files..."
+msgstr "השווה קבצים..."
+
+#: plugins/diff/diff.glade2.h:4
+msgid "F_rom document"
+msgstr "_ממסמך"
+
+#: plugins/diff/diff.glade2.h:5
+msgid "First"
+msgstr "ראשון"
+
+#: plugins/diff/diff.glade2.h:6
+msgid "First file from disk"
+msgstr "קובץ ראשון מהדיסק"
+
+#: plugins/diff/diff.glade2.h:7
+msgid "First file from open document"
+msgstr "קובץ ראשון ממסמך פתוח"
+
+#: plugins/diff/diff.glade2.h:8
+msgid "From _document"
+msgstr "ממ_סמך"
+
+#: plugins/diff/diff.glade2.h:9
+msgid "From a _file on disk"
+msgstr "מ_קובץ בדיסק"
+
+#: plugins/diff/diff.glade2.h:10
+msgid "From a file o_n disk"
+msgstr "מקובץ ב_דיסק"
+
+#: plugins/diff/diff.glade2.h:11
+msgid "Ignore _blanks (-b option)"
+msgstr "התעלם מתווים _ריקים (אפשרות -b)"
+
+#: plugins/diff/diff.glade2.h:12
+msgid "Note that this option is only supported by GNU diff"
+msgstr "שים לב שאפשרות זו נתמכת רק על ידי GNU diff"
+
+#: plugins/diff/diff.glade2.h:13
+msgid "Second"
+msgstr "שני"
+
+#: plugins/diff/diff.glade2.h:14
+msgid "Second file from disk"
+msgstr "קובץ שני מדיסק"
+
+#: plugins/diff/diff.glade2.h:15
+msgid "Second file from open document"
+msgstr "קובץ שני ממסמך פתוח"
+
+#: plugins/diff/diff.glade2.h:16
+msgid "Select the \"first\" file..."
+msgstr "בחר את הקובץ ה\"ראשון\"..."
+
+#: plugins/diff/diff.glade2.h:17
+msgid "Select the \"second\" file..."
+msgstr "בחר את הקובץ ה\"שני\""
+
+#: plugins/diff/diff.glade2.h:18
+msgid "Select the first file to compare"
+msgstr "בחר בקובץ הראשון להשוואה."
+
+#: plugins/diff/diff.glade2.h:19
+msgid "Select the first open document to compare"
+msgstr "בחר במסמך הפתוח הראשון להשוואה"
+
+#: plugins/diff/diff.glade2.h:20
+msgid "Select the second file to compare"
+msgstr "בחר בקובץ השני להשוואה"
+
+#: plugins/diff/diff.glade2.h:21
+msgid "Select the second open document to compare"
+msgstr "בחר במסמך פתוח השני להשוואה"
+
+#: plugins/diff/diff.glade2.h:22
+msgid "Use the _unified output format (-u option)"
+msgstr "השתמש בתסדיר פלט מאו_חד (אפשרות -u)"
+
+#: plugins/diff/diff.pluma-plugin.desktop.in.h:2
+msgid ""
+"The Compare Files plugin uses the <tt>diff</tt> program to compare two "
+"documents or files on disk.\n"
+"\n"
+"For more info on <tt>diff</tt> program, type <tt>man diff</tt> in a shell "
+"prompt."
+msgstr ""
+"תוסף השוואת הקבצים משתמש בתוכנת <tt>diff</tt> להשוואת שני מסמכים או קבצים "
+"בדיסק.\n"
+"\n"
+"למידע נוסף אודות תוכנת <tt>diff</tt> הקלד <tt>man diff</tt> בשורת פקודה."
+
+#: plugins/docinfo/docinfo.c:46
+msgid "_Document Statistics"
+msgstr "סטטיסטיקות _מסמך"
+
+#: plugins/docinfo/docinfo.c:49
+msgid "Get statistic info on current document"
+msgstr "קבלת מידע סטטיסטי אודות המסמך הנוכחי"
+
+#: plugins/docinfo/docinfo.c:142
+#: plugins/docinfo/docinfo.pluma-plugin.desktop.in.h:1
+msgid "Document Statistics"
+msgstr "סטטיסטיקות מסמך"
+
+#: plugins/docinfo/docinfo.c:153
+msgid "_Update"
+msgstr "_עדכן"
+
+#: plugins/docinfo/docinfo.glade2.h:1
+msgid "0"
+msgstr "0"
+
+#: plugins/docinfo/docinfo.glade2.h:2
+msgid "Bytes"
+msgstr "בתים"
+
+#: plugins/docinfo/docinfo.glade2.h:3
+msgid "Characters (no spaces)"
+msgstr "תווים (ללא רווחים)"
+
+#: plugins/docinfo/docinfo.glade2.h:4
+msgid "Characters (with spaces)"
+msgstr "תווים (כולל רווחים)"
+
+#: plugins/docinfo/docinfo.glade2.h:5
+msgid "File Name"
+msgstr "שם קובץ"
+
+#: plugins/docinfo/docinfo.glade2.h:6 src/pluma-print.c:373
+msgid "Lines"
+msgstr "שורות"
+
+#: plugins/docinfo/docinfo.glade2.h:7
+msgid "Update"
+msgstr "עדכן"
+
+#: plugins/docinfo/docinfo.glade2.h:8
+msgid "Words"
+msgstr "מילים"
+
+#: plugins/docinfo/docinfo.glade2.h:9
+msgid "pluma: Document Info plugin"
+msgstr "pluma: תוסף מידע מסמך"
+
+#: plugins/docinfo/docinfo.pluma-plugin.desktop.in.h:2
+msgid ""
+"The Document Statistics plugin analyzes the current document and determines "
+"the number of words, lines, characters and non-space characters in it and "
+"displays the result."
+msgstr ""
+"תוסף סטטיסטיקות המסמך מנתח את המסמך הנוכחי וקובע את מספר המילים, שורות, "
+"תווים ותווים ללא רווחים בו ומציג את התוצאה."
+
+#: plugins/sample/sample.c:43
+msgid "Insert User Na_me"
+msgstr "הכנס שם מ_שתמש"
+
+#: plugins/sample/sample.c:46
+msgid "Insert the user name at the cursor position"
+msgstr "הכנס את שם המשתמש במיקום הסמן"
+
+#: plugins/sample/sample.pluma-plugin.desktop.in.h:1
+msgid "Inserts the user name at the cursor position."
+msgstr "מכניס את שם המשתמש במיקום הסמן"
+
+#: plugins/sample/sample.pluma-plugin.desktop.in.h:2
+msgid "User name"
+msgstr "שם משתמש"
+
+#: plugins/shell_output/shell_output.c:56
+msgid "_Run Command..."
+msgstr "ה_פעל פקודה..."
+
+#: plugins/shell_output/shell_output.c:59
+msgid "Run a command"
+msgstr "הפעלת פקודה"
+
+#: plugins/shell_output/shell_output.c:161
+#: plugins/shell_output/shell_output.c:516
+msgid "Stopped"
+msgstr "עצר"
+
+#: plugins/shell_output/shell_output.c:246
+msgid "An error occurs while running the selected command."
+msgstr "ארעה שגיאה בעת הפעלת הפקודה המבוקשת"
+
+#: plugins/shell_output/shell_output.c:302
+msgid "Run Command"
+msgstr "הפעל פקודה"
+
+#: plugins/shell_output/shell_output.c:318
+msgid "_Run"
+msgstr "ה_פעל"
+
+#: plugins/shell_output/shell_output.c:522
+msgid "Done"
+msgstr "הסתיים"
+
+#: plugins/shell_output/shell_output.c:524
+msgid "Failed"
+msgstr "נכשל"
+
+#: plugins/shell_output/shell_output.c:696
+msgid ""
+"The shell command entry is empty.\n"
+"\n"
+"Please, insert a valid shell command."
+msgstr ""
+"שדה הפקודה ריק\n"
+"\n"
+"אנא הכנס פקודה חוקית."
+
+#: plugins/shell_output/shell_output.c:729
+msgid ""
+"Error parsing the shell command.\n"
+"\n"
+"Please, insert a valid shell command."
+msgstr ""
+"שגיאה בפירוק הפקודה\n"
+"\n"
+"אנא הכנס פקודה חוקית."
+
+#: plugins/shell_output/shell_output.c:815
+msgid "Executing command"
+msgstr "מפעיל פקודה"
+
+#: plugins/shell_output/shell_output.glade2.h:2
+msgid "Co_mmand:"
+msgstr "פ_קודה:"
+
+#: plugins/shell_output/shell_output.glade2.h:3
+msgid "Select the working directory..."
+msgstr "בחר את ספריית העבודה."
+
+#: plugins/shell_output/shell_output.glade2.h:4
+msgid "_Show results in Output Window"
+msgstr "ה_צג תוצאות בחלון הפלט"
+
+#: plugins/shell_output/shell_output.glade2.h:5
+msgid "_Working directory:"
+msgstr "_ספריית עבודה:"
+
+#: plugins/shell_output/shell_output.glade2.h:6
+msgid "pluma: Shell Output plugin"
+msgstr "pluma: תוסף פלט פקודה"
+
+#: plugins/shell_output/shell_output.pluma-plugin.desktop.in.h:1
+msgid ""
+"Execute an external program and eventually grabs its output in the output "
+"window."
+msgstr "הפעלת תוכנית חיצונית ותפיסת הפלט שלה והצגתו בחלון הפלט."
+
+#: plugins/shell_output/shell_output.pluma-plugin.desktop.in.h:2
+msgid "Shell command"
+msgstr "פקודה"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:136
+msgid "Tag list plugin"
+msgstr "תוסף רשימת תגיות"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:154
+msgid "Select the group of tags you want to use"
+msgstr "בחר בקבוצת התגיות שברצונך להשתמש"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:176
+msgid "Tag Groups Combo"
+msgstr "קבוצות תגיות"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:178
+msgid "Tags Name List"
+msgstr "רשימת שמות תגיות"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:188
+msgid "Double-click on a tag to insert it in the current document"
+msgstr "לחיצה כפולה על תגית כדי להכניסה למסמך הנוכחי"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:199
+msgid "Tags"
+msgstr "תגיות"
+
+#: plugins/taglist/pluma-taglist-plugin.c:46
+msgid "Tag _List"
+msgstr "רשימת _תגיות"
+
+#.
+#. #define MENU_ITEM_NAME		"TagList"
+#.
+#: plugins/taglist/pluma-taglist-plugin.c:51
+msgid "Show the tag list window"
+msgstr "הצג חלון רשימת תגיות"
+
+#: plugins/taglist/taglist.pluma-plugin.desktop.in.h:1
+msgid "Tag list"
+msgstr "רשימת תגיות"
+
+#: plugins/taglist/taglist.pluma-plugin.desktop.in.h:2
+msgid ""
+"The tag list plugin provides a method to easily insert into a document "
+"commonly used tags/strings without having to type them."
+msgstr ""
+"תוסף רשימת תגיות מספק שיטה להכנסת תגיות/מחרוזות נפוצות למסמך ללא צורך "
+"בהקלדתן."
+
+#: plugins/time/time.c:48
+msgid "In_sert Date and Time..."
+msgstr "ה_כנס תאריך ושעה..."
+
+#: plugins/time/time.c:51
+msgid "Insert current date and time at the cursor position"
+msgstr "הכנסת תאריך ושעה נוכחיים במיקום הסמן"
+
+#: plugins/time/time.c:448
+msgid "Available formats"
+msgstr "תסדירים זמינים"
+
+#: plugins/time/time.c:552
+msgid "Configure insert date/time plugin..."
+msgstr "תצורת תוסף הכנסת תאריך/שעה..."
+
+#: plugins/time/time.glade2.h:1 src/dialogs/pluma-preferences.glade2.h:1
+msgid "    "
+msgstr "    "
+
+#: plugins/time/time.glade2.h:3
+msgid "<span size=\"small\">01/11/2002 17:52:00</span>"
+msgstr "<span size=\"small\">01/11/2002 17:52:00</span>"
+
+#: plugins/time/time.glade2.h:4
+msgid "<span weight=\"bold\"> When inserting date/time...</span>"
+msgstr "<span weight=\"bold\"> כשמכניסים תאריך/שעה...</span>"
+
+#: plugins/time/time.glade2.h:5
+msgid "Configure date/time plugin"
+msgstr "תצורת תוסף תאריך/שעה"
+
+#: plugins/time/time.glade2.h:6
+msgid "Insert Date and Time"
+msgstr "הכנס תאריך ושעה"
+
+#: plugins/time/time.glade2.h:7
+msgid "Use the _selected format"
+msgstr "השתמש ב_תסדיר הנבחר"
+
+#: plugins/time/time.glade2.h:8
+msgid "_Insert"
+msgstr "_הכנס"
+
+#: plugins/time/time.glade2.h:9
+msgid "_Prompt for a format"
+msgstr "_שאל אודות תסדיר"
+
+#: plugins/time/time.glade2.h:10
+msgid "_Use custom format"
+msgstr "השתמש בתסדיר _מותאם"
+
+#: plugins/time/time.pluma-plugin.desktop.in.h:1
+msgid "Insert Date/Time"
+msgstr "הכנס תאריך/שעה"
+
+#: plugins/time/time.pluma-plugin.desktop.in.h:2
+msgid "Inserts current date and time at the cursor position."
+msgstr "הכנס תאריך ושעה נוכחיים במיקום הסמן"
+
+#: plugins/indent/indent.c:45
+msgid "_Indent"
+msgstr "_הזח פנימה"
+
+#: plugins/indent/indent.c:47
+msgid "Indent selected lines"
+msgstr "הזח פנימה שורות מסומנות"
+
+#: plugins/indent/indent.c:49
+msgid "U_nindent"
+msgstr "ה_זח החוצה"
+
+#: plugins/indent/indent.c:51
+msgid "Unindent selected lines"
+msgstr "הזח החוצה שורות מסומנות"
+
+#: plugins/indent/indent.pluma-plugin.desktop.in.h:1
+msgid "Indent lines"
+msgstr "הזח פנימה שורות"
+
+#: plugins/indent/indent.pluma-plugin.desktop.in.h:2
+msgid "Indent or un-indent selected lines."
+msgstr "הזח פנימה או החוצה שורות מסומנות"
+
+#: plugins/sort/sort.glade2.h:1
+msgid "R_emove duplicates"
+msgstr "הסר _כפולים"
+
+#: plugins/sort/sort.glade2.h:2
+msgid "S_tart at column:"
+msgstr "התחל ב_עמודה: "
+
+#: plugins/sort/sort.glade2.h:3 plugins/sort/sort.pluma-plugin.desktop.in.h:1
+msgid "Sort"
+msgstr "מיון"
+
+#: plugins/sort/sort.glade2.h:4
+msgid "You cannot undo a sort operation"
+msgstr "לא ניתן לבטל פעולת מיון"
+
+#: plugins/sort/sort.glade2.h:5
+msgid "_Ignore case"
+msgstr ""
+
+#: plugins/sort/sort.glade2.h:6
+msgid "_Reverse order"
+msgstr "סדר יור_ד"
+
+#: plugins/sort/sort.glade2.h:7
+msgid "_Sort"
+msgstr "_מיין"
+
+#: plugins/sort/sort.pluma-plugin.desktop.in.h:2
+msgid "Sorts a document or selected text."
+msgstr "ממיין מסמך או מלל מסומן"
+
+#: plugins/spell/pluma-automatic-spell-checker.c:318
+#: plugins/spell/pluma-spell-checker-dialog.c:504
+msgid "(no suggested words)"
+msgstr "(אין מילים מוצעות)"
+
+#: plugins/spell/pluma-automatic-spell-checker.c:342
+msgid "_More..."
+msgstr "_עוד..."
+
+#. Ignore all
+#: plugins/spell/pluma-automatic-spell-checker.c:395
+msgid "_Ignore All"
+msgstr "התע_לם מהכל"
+
+#. + Add to Dictionary
+#: plugins/spell/pluma-automatic-spell-checker.c:408
+msgid "_Add"
+msgstr "_הוסף"
+
+#: plugins/spell/pluma-automatic-spell-checker.c:445
+msgid "_Spelling Suggestions..."
+msgstr "ה_צעות איות"
+
+#: plugins/spell/pluma-spell-checker-dialog.c:285
+msgid "Check Spelling"
+msgstr "בדוק איות"
+
+#: plugins/spell/pluma-spell-checker-dialog.c:296
+msgid "Suggestions"
+msgstr "הצעות"
+
+#: plugins/spell/pluma-spell-checker-dialog.c:608
+msgid "(correct spelling)"
+msgstr "(איות נכון)"
+
+#: plugins/spell/pluma-spell-checker-dialog.c:785
+msgid "Completed spell checking"
+msgstr "בדיקת איות הסתיימה"
+
+#: plugins/spell/pluma-spell-checker.c:73
+msgid "Breton"
+msgstr "ברטון"
+
+#: plugins/spell/pluma-spell-checker.c:74
+msgid "Catalan"
+msgstr "קאטאלנית"
+
+#: plugins/spell/pluma-spell-checker.c:75
+msgid "Czech"
+msgstr "צ'כית"
+
+#: plugins/spell/pluma-spell-checker.c:76
+msgid "Danish"
+msgstr "דנית"
+
+#: plugins/spell/pluma-spell-checker.c:77
+msgid "German (Germany)"
+msgstr "גרמנית (גרמניה)"
+
+#: plugins/spell/pluma-spell-checker.c:78
+msgid "German (Swiss)"
+msgstr "גרמנית (שוויץ)"
+
+#: plugins/spell/pluma-spell-checker.c:79
+msgid "English (American)"
+msgstr "אנגלית (אמריקאית)"
+
+#: plugins/spell/pluma-spell-checker.c:80
+msgid "English (British)"
+msgstr "אנגלית (בריטית)"
+
+#: plugins/spell/pluma-spell-checker.c:81
+msgid "English (Canadian)"
+msgstr "אנגלית (קנדית)"
+
+#: plugins/spell/pluma-spell-checker.c:82
+msgid "Esperanto"
+msgstr "אספרנטו"
+
+#: plugins/spell/pluma-spell-checker.c:83
+msgid "Spanish"
+msgstr "ספרדית"
+
+#: plugins/spell/pluma-spell-checker.c:84
+msgid "Faroese"
+msgstr ""
+
+#: plugins/spell/pluma-spell-checker.c:85
+msgid "French (France)"
+msgstr "צרפתית (צרפת)"
+
+#: plugins/spell/pluma-spell-checker.c:86
+msgid "French (Swiss)"
+msgstr "צרפתית (שוויץ)"
+
+#: plugins/spell/pluma-spell-checker.c:87
+msgid "Italian"
+msgstr "איטלקית"
+
+#: plugins/spell/pluma-spell-checker.c:88
+msgid "Dutch"
+msgstr "הולנדית"
+
+#: plugins/spell/pluma-spell-checker.c:89
+msgid "Norwegian"
+msgstr "נורווגית"
+
+#: plugins/spell/pluma-spell-checker.c:90
+msgid "Polish"
+msgstr "פולנית"
+
+#: plugins/spell/pluma-spell-checker.c:91
+msgid "Portuguese (Portugal)"
+msgstr "פורטוזית (ברזיל)"
+
+#: plugins/spell/pluma-spell-checker.c:92
+msgid "Portuguese (Brazilian)"
+msgstr "פורטגזית (בריזלאית)"
+
+#: plugins/spell/pluma-spell-checker.c:93
+msgid "Russian"
+msgstr "רוסית"
+
+#: plugins/spell/pluma-spell-checker.c:94
+msgid "Swedish"
+msgstr "שבדית"
+
+#: plugins/spell/pluma-spell-checker.c:653
+msgid "Default"
+msgstr "ברירת מחדל"
+
+#: plugins/spell/pluma-spell-language-dialog.c:229
+#: src/dialogs/pluma-dialog-goto-line.c:165
+#: src/dialogs/pluma-plugin-program-location-dialog.c:96
+#: src/dialogs/pluma-encodings-dialog.c:238
+#, c-format
+msgid "Could not find the required widgets inside %s."
+msgstr "לא ניתן למצוא את הפריטים המבוקשים בתוך %s"
+
+#: plugins/spell/pluma-spell-language-dialog.c:249
+msgid "Languages"
+msgstr "שפות"
+
+#: plugins/spell/spell.pluma-plugin.desktop.in.h:1
+msgid "Checks the spelling of the current document."
+msgstr "בדיקת האיות במסמך הנוכחי."
+
+#: plugins/spell/spell.pluma-plugin.desktop.in.h:2
+msgid "Spell checker"
+msgstr "בודק איות"
+
+#: plugins/spell/languages-dialog.glade2.h:1
+msgid "Select the _language of the current document."
+msgstr "בחירת _שפת המסמך הנוכחי."
+
+#: plugins/spell/languages-dialog.glade2.h:2
+msgid "Set language"
+msgstr "קבע שפה"
+
+#: plugins/spell/spell-checker.glade2.h:2
+msgid "<b>Language</b>"
+msgstr "<b>שפה</b>"
+
+#: plugins/spell/spell-checker.glade2.h:3
+msgid "<b>word</b>"
+msgstr "<b>מילה</b>"
+
+#: plugins/spell/spell-checker.glade2.h:4
+msgid "Add w_ord"
+msgstr "הוסף _מילה"
+
+#: plugins/spell/spell-checker.glade2.h:5
+msgid "Cha_nge"
+msgstr "_שנה"
+
+#: plugins/spell/spell-checker.glade2.h:6
+msgid "Change A_ll"
+msgstr "שנה ה_כל"
+
+#: plugins/spell/spell-checker.glade2.h:7
+msgid "Change _to:"
+msgstr "שנה _ל:"
+
+#: plugins/spell/spell-checker.glade2.h:8
+msgid "Check _Word"
+msgstr "_בדוק מילה"
+
+#: plugins/spell/spell-checker.glade2.h:9
+msgid "Check spelling"
+msgstr "בדוק איות"
+
+#: plugins/spell/spell-checker.glade2.h:10
+msgid "Ignore _All"
+msgstr "התעלם מה_כל"
+
+#: plugins/spell/spell-checker.glade2.h:11
+msgid "Language:"
+msgstr "שפה:"
+
+#: plugins/spell/spell-checker.glade2.h:12
+msgid "Mispelled word:"
+msgstr "מילה שגויה:"
+
+#: plugins/spell/spell-checker.glade2.h:13
+msgid "User dictionary:"
+msgstr "מילון משתמש:"
+
+#: plugins/spell/spell-checker.glade2.h:14
+msgid "_Ignore"
+msgstr "ה_תעלם"
+
+#: plugins/spell/spell-checker.glade2.h:15
+msgid "_Suggestions:"
+msgstr "ה_צעות:"
+
+#. Key in case the plugin ever needs any settings
+#: plugins/sort/sort.c:26
+msgid "S_ort..."
+msgstr "_מיין..."
+
+#: plugins/sort/sort.c:29
+msgid "Sort the current document or selection."
+msgstr "מיין את המסמך הנוכחי או את הבחירה."
+
+#: plugins/spell/spell.c:51
+msgid "_Check Spelling"
+msgstr "_בדיקת איות"
+
+#: plugins/spell/spell.c:54
+msgid "Check the current document for incorrect spelling"
+msgstr "בדוק את המסמך הנוכחי לאיות שגוי"
+
+#: plugins/spell/spell.c:56
+msgid "_Autocheck Spelling"
+msgstr "בדוק איות _אוטמטית"
+
+#: plugins/spell/spell.c:59
+msgid "Automatically spell-check the current document"
+msgstr "בדוק את האיות במסמך הנוכחי אוטומטית"
+
+#: plugins/spell/spell.c:61
+msgid "Set _Language"
+msgstr "קבע _שפה"
+
+#: plugins/spell/spell.c:64
+msgid "Set the language of the current document"
+msgstr "קבע את השפה של המסמך הנוכחי"
+
+#: plugins/spell/spell.c:549
+msgid "The document is empty."
+msgstr "המסמך ריק."
+
+#: plugins/spell/spell.c:567
+msgid "The selected text does not contain mispelled words."
+msgstr "המלל הנבחר אינו מכיל מילים בעלות איות שגוי."
+
+#: plugins/spell/spell.c:568
+msgid "The document does not contain mispelled words."
+msgstr "המסמך הזה אינו מכיל מילים בעלות איות שגוי."
+
+#: src/bonobo-mdi.c:549 src/bonobo-mdi.c:1962
+#, c-format
+msgid "Activate %s"
+msgstr "הפעל %s"
+
+#: src/dialogs/pluma-dialog-goto-line.c:139
+msgid "Go to Line"
+msgstr "לך לשורה"
+
+#. Add Goto Line button
+#: src/dialogs/pluma-dialog-goto-line.c:149
+msgid "_Go to Line"
+msgstr "_לך לשורה"
+
+#: src/dialogs/pluma-dialog-replace.c:132
+#: src/dialogs/pluma-dialog-replace.c:1025 src/pluma-commands.c:363
+#, c-format
+msgid "The text \"%s\" was not found."
+msgstr "המלל \"%s\" לא נמצא."
+
+#: src/dialogs/pluma-dialog-replace.c:240 src/dialogs/replace.glade2.h:4
+#: src/pluma-ui.xml.h:51
+msgid "Replace"
+msgstr "החלף"
+
+#: src/dialogs/pluma-dialog-replace.c:251
+msgid "Replace _All"
+msgstr "החלף ה_כל"
+
+#. Add Replace button
+#: src/dialogs/pluma-dialog-replace.c:254 src/pluma-file-selector-util.c:129
+msgid "_Replace"
+msgstr "_החלף"
+
+#: src/dialogs/pluma-dialog-replace.c:376 src/pluma-ui.xml.h:22
+msgid "Find"
+msgstr "מצא"
+
+#: src/dialogs/pluma-dialog-replace.c:1034
+#, c-format
+msgid "Found and replaced %d occurences."
+msgstr "מציאה והחלפה ארעה %d פעמים."
+
+#: src/dialogs/pluma-dialog-uri.c:83
+msgid "Open Location"
+msgstr "פתח מיקום"
+
+#: src/dialogs/pluma-plugin-manager.c:53
+msgid "Plugin"
+msgstr "תוסף"
+
+#: src/dialogs/pluma-plugin-manager.c:54
+msgid "Load"
+msgstr "טען"
+
+#: src/dialogs/pluma-plugin-manager.c:320
+msgid "Module file name"
+msgstr "שם קובץ המודול"
+
+#: src/dialogs/pluma-plugin-manager.c:321
+msgid "Author(s)"
+msgstr "מחבר(ים)"
+
+#: src/dialogs/pluma-plugin-manager.c:488
+msgid "Could not find plugin-manager.glade2, reinstall pluma.\n"
+msgstr ""
+
+#: src/dialogs/pluma-plugin-manager.c:511
+msgid "Invalid glade file for plugin manager -- not all widgets found.\n"
+msgstr ""
+
+#: src/dialogs/pluma-plugin-program-location-dialog.c:74
+#: src/dialogs/program-location-dialog.glade2.h:1
+msgid "Set program location..."
+msgstr "קבע מיקום תוכנית..."
+
+#: src/dialogs/pluma-plugin-program-location-dialog.c:102
+#, c-format
+msgid ""
+"The %s plugin uses an external program, called <tt>%s</tt>, to perform its "
+"task.\n"
+"\n"
+"Please, specify the location of the <tt>%s</tt> program."
+msgstr ""
+"התוסף %s משתמש בתוכנית חיצונית, הנקראת <tt>%s</tt>, כדי לבצע את "
+"פעולתו.\n"
+"\n"
+"אנא ודא את המיקום של התוכנית <tt>%s</tt>."
+
+#: src/dialogs/pluma-plugin-program-location-dialog.c:148
+msgid "The selected file is not executable."
+msgstr "הקובץ הנבחר אינו ניתו להפעלה."
+
+#: src/dialogs/pluma-preferences-dialog.c:234
+msgid "Font & Colors"
+msgstr "גופן וצבעים"
+
+#: src/dialogs/pluma-preferences-dialog.c:236
+#: src/dialogs/pluma-preferences.glade2.h:47
+msgid "Tabs"
+msgstr "טבולטורים"
+
+#: src/dialogs/pluma-preferences-dialog.c:237
+msgid "Wrap Mode"
+msgstr "מצב גלישה"
+
+#: src/dialogs/pluma-preferences-dialog.c:238
+msgid "Auto Indent"
+msgstr "הזחה אוטומטית"
+
+#: src/dialogs/pluma-preferences-dialog.c:239
+msgid "Line Numbers"
+msgstr "מספרי שורות"
+
+#: src/dialogs/pluma-preferences-dialog.c:241 src/pluma-ui.xml.h:32
+msgid "Open"
+msgstr "פתיחה"
+
+#: src/dialogs/pluma-preferences-dialog.c:242
+#: src/dialogs/pluma-preferences.glade2.h:42 src/pluma-ui.xml.h:55
+msgid "Save"
+msgstr "שמירה"
+
+#: src/dialogs/pluma-preferences-dialog.c:243
+#: src/dialogs/pluma-preferences.glade2.h:50 src/pluma-ui.xml.h:72
+msgid "Undo"
+msgstr "בטל"
+
+#: src/dialogs/pluma-preferences-dialog.c:251
+msgid "Page"
+msgstr "עמוד"
+
+#: src/dialogs/pluma-preferences-dialog.c:253
+msgid "Fonts"
+msgstr "גופנים"
+
+#: src/dialogs/pluma-preferences-dialog.c:260
+msgid "Manager"
+msgstr "מנהל"
+
+#: src/dialogs/pluma-preferences-dialog.c:268
+msgid "Editor"
+msgstr "עורך"
+
+#: src/dialogs/pluma-preferences-dialog.c:269
+#: src/dialogs/pluma-preferences.glade2.h:38 src/pluma-print.c:364
+#: src/pluma-ui.xml.h:41
+msgid "Print"
+msgstr "הדפס"
+
+#: src/dialogs/pluma-preferences-dialog.c:270
+msgid "Plugins"
+msgstr "תוספים"
+
+#: src/dialogs/pluma-preferences-dialog.c:342
+msgid "Cat_egories:"
+msgstr "_קטגוריות:"
+
+#: src/dialogs/pluma-preferences-dialog.c:364
+msgid "Preferences"
+msgstr "העדפות"
+
+#: src/dialogs/pluma-preferences-dialog.c:604
+msgid "Categories"
+msgstr "קטגוריות"
+
+#: src/dialogs/pluma-preferences-dialog.c:837
+msgid "Push this button to select the font to be used by the editor"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:840
+msgid "Push this button to configure text color"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:842
+msgid "Push this button to configure background color"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:844
+msgid ""
+"Push this button to configure the color in which the selected text should "
+"appear"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:847
+msgid ""
+"Push this button to configure the color in which the selected text should be "
+"marked"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:1852
+msgid "Push this button to select the font to be used to print the body"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:1854
+msgid "Push this button to select the font to be used to print the headers"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:1856
+msgid "Push this button to select the font to be used to print line numbers"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:2
+msgid "<b>Font</b>"
+msgstr "<b>גופן</b>"
+
+#: src/dialogs/pluma-preferences.glade2.h:3
+msgid "<span weight=\"bold\" size=\"x-large\">Auto Indent</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">הזחה אוטומטית</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:4
+msgid "<span weight=\"bold\" size=\"x-large\">Font &amp; Colors</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">גופן וצבעים</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:5
+msgid "<span weight=\"bold\" size=\"x-large\">Fonts</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">גופנים</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:6
+msgid "<span weight=\"bold\" size=\"x-large\">Line Numbers</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">מספרי שורות</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:7
+msgid "<span weight=\"bold\" size=\"x-large\">Manager</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">מנהל</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:8
+msgid "<span weight=\"bold\" size=\"x-large\">Open</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">פתיחה</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:9
+msgid "<span weight=\"bold\" size=\"x-large\">Page</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">עמוד</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:10
+msgid "<span weight=\"bold\" size=\"x-large\">Save</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">שמירה</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:11
+msgid "<span weight=\"bold\" size=\"x-large\">Tabs</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">טבולטורים</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:12
+msgid "<span weight=\"bold\" size=\"x-large\">Undo</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">בטל</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:13
+msgid "<span weight=\"bold\" size=\"x-large\">Wrap Mode</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">מצב גלישה</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:14
+msgid "<span weight=\"bold\">Colors</span>"
+msgstr "<span weight=\"bold\">צבעים</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:15
+msgid "<span weight=\"bold\">When saving a new file...</span>"
+msgstr "<span weight=\"bold\">כאשר שומרים קובץ חדש...</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:16
+msgid "<span weight=\"bold\">When saving an existing file...</span>"
+msgstr "<span weight=\"bold\">כאשר שומרים קובץ קיים...</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:17
+msgid "Add new encodings"
+msgstr "הוסף קידודים חדשים"
+
+#: src/dialogs/pluma-preferences.glade2.h:18
+msgid "Always use U_TF-8 encoding (faster)"
+msgstr "תמיד השתמש בקידוד U_TF-8 (מהיר יותר)"
+
+#: src/dialogs/pluma-preferences.glade2.h:19
+msgid "Always use _UTF-8 encoding (faster)"
+msgstr "תמיד השתמש בקידוד _UTF-8 (מהיר יותר)"
+
+#: src/dialogs/pluma-preferences.glade2.h:20
+msgid "Create a _backup copy of files before saving"
+msgstr "צור עותק _גיבוי של הקבצים לפני השמירה"
+
+#: src/dialogs/pluma-preferences.glade2.h:21
+msgid "Do not _split words over two lines"
+msgstr "אל ת_פצל מילים ליותר משתי שורות"
+
+#: src/dialogs/pluma-preferences.glade2.h:22
+msgid "Editor _font: "
+msgstr "_גופן עורך: "
+
+#: src/dialogs/pluma-preferences.glade2.h:23
+msgid "Enable _auto indentation"
+msgstr "אפשר הזחה _אוטומטית"
+
+#: src/dialogs/pluma-preferences.glade2.h:24
+msgid "Enable text _wrapping"
+msgstr "אפשר _גלישת מלל"
+
+#: src/dialogs/pluma-preferences.glade2.h:25
+msgid "Fonts & Colors"
+msgstr "גופנים וצבעים"
+
+#: src/dialogs/pluma-preferences.glade2.h:26
+msgid "Insert _spaces instead of tabs"
+msgstr "הכנס _רווחים במקום טבולטורים"
+
+#: src/dialogs/pluma-preferences.glade2.h:27
+msgid "LOGO"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:28
+msgid "Line _numbers:"
+msgstr "_מספרי שורות:"
+
+#: src/dialogs/pluma-preferences.glade2.h:29
+msgid "Line numbers"
+msgstr "מספרי שורות"
+
+#: src/dialogs/pluma-preferences.glade2.h:30
+msgid "Move down"
+msgstr "הזז מטה"
+
+#: src/dialogs/pluma-preferences.glade2.h:31
+msgid "Move up"
+msgstr "הזז מעלה"
+
+#: src/dialogs/pluma-preferences.glade2.h:32
+msgid "Page he_aders:"
+msgstr "_כותרי עמוד:"
+
+#: src/dialogs/pluma-preferences.glade2.h:33
+msgid "Pick the background color"
+msgstr "בחר צבע רקע"
+
+#: src/dialogs/pluma-preferences.glade2.h:34
+msgid "Pick the selected text color"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:35
+msgid "Pick the selection color"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:36
+msgid "Pick the text color"
+msgstr "בחר את צבע המלל"
+
+#: src/dialogs/pluma-preferences.glade2.h:37
+msgid "Plugin manager"
+msgstr "מנהל תוספים"
+
+#: src/dialogs/pluma-preferences.glade2.h:39
+msgid "Print _line numbers every"
+msgstr "הדפס מספרי _שורות כל"
+
+#: src/dialogs/pluma-preferences.glade2.h:40
+msgid "Print fonts"
+msgstr "גופני הדפסה"
+
+#: src/dialogs/pluma-preferences.glade2.h:41
+msgid "Remove an encoding"
+msgstr "הסר קידוד"
+
+#: src/dialogs/pluma-preferences.glade2.h:43
+msgid "Se_lection color:"
+msgstr "צבע _בחירה:"
+
+#: src/dialogs/pluma-preferences.glade2.h:44
+msgid "Selecte_d text color:"
+msgstr "צבע מלל נב_חר:"
+
+#: src/dialogs/pluma-preferences.glade2.h:45
+msgid "Set _tabs width equivalent to"
+msgstr "קבע אורך _טבולטור שווה ל"
+
+#: src/dialogs/pluma-preferences.glade2.h:46
+msgid "Set limit on _undo actions to"
+msgstr "קבע הגבלה על פעולות _ביטול ל"
+
+#: src/dialogs/pluma-preferences.glade2.h:48
+msgid "U_se default theme colors"
+msgstr "ה_שתמש בצבעי ברירת המחדל של ערכת הנושא"
+
+#: src/dialogs/pluma-preferences.glade2.h:49
+msgid "U_se original file encoding if possible"
+msgstr "ה_שתמש בקידוד המקורי אם אפשר"
+
+#: src/dialogs/pluma-preferences.glade2.h:51
+msgid "Use cu_rrent locale's encoding if possible"
+msgstr "השתמש בקידוד האיזור ה_נוכחי אם אפשר"
+
+#: src/dialogs/pluma-preferences.glade2.h:52
+msgid "Use current _locale's encoding if possible"
+msgstr "השתמש בקידוד ה_איזור הנוכחי אם אפשר"
+
+#: src/dialogs/pluma-preferences.glade2.h:53
+msgid "Wrap mode"
+msgstr "מצב גלישה"
+
+#: src/dialogs/pluma-preferences.glade2.h:54
+msgid "_Autosave current file every"
+msgstr "_שמור אוטומטית את הקובץ הנוכחי כל"
+
+#: src/dialogs/pluma-preferences.glade2.h:55
+msgid "_Background color:"
+msgstr "צבע _רקע:"
+
+#: src/dialogs/pluma-preferences.glade2.h:56
+msgid "_Body:"
+msgstr "_גוף:"
+
+#: src/dialogs/pluma-preferences.glade2.h:57
+msgid "_Display line numbers"
+msgstr "_הצג מספרי שורות"
+
+#: src/dialogs/pluma-preferences.glade2.h:58
+msgid "_Print page headers"
+msgstr "_הדפס כותרי עמוד"
+
+#: src/dialogs/pluma-preferences.glade2.h:59
+msgid "_Restore Default Fonts"
+msgstr "_שחזר גופני ברירת מחדל"
+
+#: src/dialogs/pluma-preferences.glade2.h:60
+msgid "_Supported encodings:"
+msgstr "קידודים _נתמכים:"
+
+#: src/dialogs/pluma-preferences.glade2.h:61
+msgid "_Text color:"
+msgstr "צבע _מלל:"
+
+#: src/dialogs/pluma-preferences.glade2.h:62
+msgid "_Use default theme font"
+msgstr "_השתמש בגופן ברירת המחדל של ערכת הנושא"
+
+#: src/dialogs/pluma-preferences.glade2.h:63
+msgid "_action(s)"
+msgstr "_פעולה(ות)"
+
+#: src/dialogs/pluma-preferences.glade2.h:64
+msgid "_minutes"
+msgstr "_דקות"
+
+#: src/dialogs/pluma-preferences.glade2.h:65
+msgid "character(s)"
+msgstr "תו(ים)"
+
+#: src/dialogs/pluma-preferences.glade2.h:66
+msgid "li_ne(s)"
+msgstr "_שורה(ות)"
+
+#: src/dialogs/gnome-print-font-dialog.c:107
+msgid "_Insert a new preview phrase."
+msgstr "_הכנס משפט תצוגה מקדימה חדש"
+
+#: src/dialogs/gnome-print-font-dialog.c:113
+msgid "Modify preview phrase..."
+msgstr "ערוך משפט תצוגה מקדימה..."
+
+#: src/dialogs/gnome-print-font-dialog.c:167
+msgid "Preview"
+msgstr "תצוגה מקדימה"
+
+#: src/dialogs/gnome-print-font-dialog.c:180
+msgid "_Modify preview phrase..."
+msgstr "_ערוך משפט תצוגה מקדימה..."
+
+#: src/dialogs/gnome-print-font-dialog.c:243
+msgid "Font Selection"
+msgstr "בחירת גופן"
+
+#: src/dialogs/gnome-print-font-picker.c:89
+msgid "Sans Regular 12"
+msgstr ""
+
+#: src/dialogs/gnome-print-font-picker.c:90
+msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
+msgstr "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz אבגדהוזחטיכלמנסעפצקרשת"
+
+#: src/dialogs/gnome-print-font-picker.c:91
+msgid "Pick a Font"
+msgstr "בחר גופן"
+
+#: src/dialogs/gnome-print-font-picker.c:176
+msgid "Title"
+msgstr "כותרת"
+
+#: src/dialogs/gnome-print-font-picker.c:177
+msgid "The title of the selection dialog box"
+msgstr ""
+
+#: src/dialogs/gnome-print-font-picker.c:197
+msgid "Font name"
+msgstr "שם הגופן"
+
+#: src/dialogs/gnome-print-font-picker.c:198
+msgid "Name of the selected font"
+msgstr "שם הגופן הנבחר"
+
+#: src/dialogs/gnome-print-font-picker.c:206
+msgid "Preview text"
+msgstr "תצוגה מקדימה של מלל"
+
+#: src/dialogs/gnome-print-font-picker.c:207
+msgid "Preview text shown in the dialog"
+msgstr ""
+
+#: src/dialogs/gnome-print-font-picker.c:215
+msgid "Use font in label"
+msgstr "השתמש בגופן בתוית"
+
+#: src/dialogs/gnome-print-font-picker.c:216
+msgid "Use font in the label in font info mode"
+msgstr ""
+
+#: src/dialogs/gnome-print-font-picker.c:224
+msgid "Font size for label"
+msgstr "גודל הגופן לתוית"
+
+#: src/dialogs/gnome-print-font-picker.c:225
+msgid "Font size for label in font info mode"
+msgstr ""
+
+#: src/dialogs/gnome-print-font-picker.c:235
+msgid "Show size"
+msgstr "הצג גודל"
+
+#: src/dialogs/gnome-print-font-picker.c:236
+msgid "Show size in font info mode"
+msgstr ""
+
+#: src/dialogs/gnome-print-font-picker.c:1015
+msgid "Font"
+msgstr "גופן"
+
+#. gnome_print_font_picker_update_font_info
+#: src/dialogs/goto-line.glade2.h:1
+msgid "Goto Line"
+msgstr "לך לשורה"
+
+#: src/dialogs/goto-line.glade2.h:2
+msgid "_Line number:"
+msgstr "_מספר שורה:"
+
+#: src/dialogs/plugin-manager.glade2.h:1
+msgid "C_onfigure plugin"
+msgstr "ה_גדר תוסף"
+
+#: src/dialogs/plugin-manager.glade2.h:2
+msgid "Configure the selected plugin"
+msgstr "הגדר את התוסף הנבחר"
+
+#: src/dialogs/plugin-manager.glade2.h:3
+msgid "De_tails"
+msgstr "_פרטים"
+
+#: src/dialogs/plugin-manager.glade2.h:4
+msgid "_Description"
+msgstr "_תיאור"
+
+#: src/dialogs/plugin-manager.glade2.h:5
+msgid "dialog1"
+msgstr ""
+
+#: src/dialogs/program-location-dialog.glade2.h:2
+msgid "_Location to search for:"
+msgstr "_מיקום לחפש בו:"
+
+#: src/dialogs/program-location-dialog.glade2.h:3
+msgid "label"
+msgstr ""
+
+#: src/dialogs/replace.glade2.h:2
+msgid "Find Next"
+msgstr "מצא את הבא"
+
+#: src/dialogs/replace.glade2.h:3
+msgid "Match _entire word only"
+msgstr "התאם מילים _שלמות בלבד"
+
+#: src/dialogs/replace.glade2.h:5
+msgid "Replace All"
+msgstr "החלף הכל"
+
+#: src/dialogs/replace.glade2.h:6
+msgid "Replace _with: "
+msgstr "החלף _עם: "
+
+#: src/dialogs/replace.glade2.h:7
+msgid "_Match case"
+msgstr ""
+
+#: src/dialogs/replace.glade2.h:8
+msgid "_Search for: "
+msgstr "חפש: "
+
+#: src/dialogs/replace.glade2.h:9
+msgid "_Wrap around"
+msgstr ""
+
+#: src/dialogs/uri.glade2.h:2
+msgid "Enter the _location (URI) of the file you would like to open:"
+msgstr "הכנס את ה_מיקום (כתובת) של הקובץ שברצונך לפתוח:"
+
+#: src/dialogs/uri.glade2.h:3
+msgid "Open from URI"
+msgstr "פתח מכתובת"
+
+#: src/pluma-commands.c:472
+msgid "translator_credits"
+msgstr ""
+"מאיר קריחלי\n"
+"meir@mksoft.co.il\n"
+"\n"
+"גיל אשר\n"
+"dolfin@rpg.org.il\n"
+"\n"
+"פרוייקט LinBrew\n"
+"http://linbrew.sourceforge.net"
+
+#: src/pluma-commands.c:497
+msgid "pluma"
+msgstr "pluma"
+
+#: src/pluma-commands.c:501
+msgid "pluma is a small and lightweight text editor for Gnome"
+msgstr "pluma הינו עורך מלל קטן וקל בעבור Gnome"
+
+#: src/pluma-document.c:537 src/pluma-document.c:555
+#, c-format
+msgid "%s %d"
+msgstr "%s %d"
+
+#: src/pluma-document.c:537 src/pluma-document.c:555
+msgid "Untitled"
+msgstr "ללא שם"
+
+#: src/pluma-document.c:543 src/pluma-document.c:590
+msgid "Invalid file name"
+msgstr "שם קובץ לא תקני"
+
+#: src/pluma-document.c:702 src/pluma-document.c:786
+msgid "Invalid UTF-8 data"
+msgstr "מידע UTF-8 לא תקני"
+
+#: src/pluma-document.c:1016
+#, c-format
+msgid "Could not read symbolic link information for %s"
+msgstr ""
+
+#: src/pluma-document.c:1062
+msgid "The file has too many symbolic links."
+msgstr ""
+
+#: src/pluma-document.c:1118
+#, c-format
+msgid "pluma cannot handle %s: locations in write mode."
+msgstr ""
+
+#: src/pluma-document.c:1125
+msgid "pluma cannot handle this kind of location in write mode."
+msgstr ""
+
+#: src/pluma-document.c:1138
+msgid "Invalid filename."
+msgstr "שם קובץ לא תקני."
+
+#: src/pluma-document.c:1278
+msgid ""
+"There is not enough disk space to save the file.\n"
+"Please free some disk space and try again."
+msgstr ""
+"אין מספיק מקום פנוי על הדיסק כדי לשמור את הקובץ.\n"
+"אנא פנה מעט מקום על הדיסק ונסה שוב."
+
+#: src/pluma-document.c:1283
+msgid ""
+"The disk where you are trying to save the file has a limitation on file "
+"sizes.  Please try saving a smaller file or saving it to a disk that does "
+"not have this limitation."
+msgstr ""
+
+#: src/pluma-document.c:1327
+msgid "Could not create a backup file."
+msgstr "לא ניתן ליצור קובץ גיבוי."
+
+#: src/pluma-document.c:1447
+msgid "It is not possible to revert an Untitled document"
+msgstr "לא ניתן לשחזר מסמך ללא שם"
+
+#: src/pluma-file-selector-util.c:147
+#, c-format
+msgid ""
+"A file named \"%s\" already exists.\n"
+"Do you want to replace it with the one you are saving?"
+msgstr ""
+"קובץ בשם \"%s\" כבר קיים.\n"
+"האם אתה רוצה להחליפו עם זה שאתה שומר?"
+
+#: src/pluma-file-selector-util.c:158
+#, c-format
+msgid ""
+"The file \"%s\" is read-only.\n"
+"Do you want to try to replace it with the one you are saving?"
+msgstr ""
+"הקובץ \"%s\" הינו לקריאה בלבד.\n"
+"האם ברצונך להחליפו עם זה שאתה שומר?"
+
+#: src/pluma-file-selector-util.c:544
+msgid "Select a filename to save"
+msgstr "בחר שם קובץ לשמירה"
+
+#: src/pluma-file.c:151
+msgid "Open File..."
+msgstr "פתח קובץ..."
+
+#: src/pluma-file.c:177 src/pluma-file.c:887
+#, c-format
+msgid "Loaded file '%s'"
+msgstr "נטען הקובץ '%s'"
+
+#: src/pluma-file.c:309 src/pluma-file.c:455
+#, c-format
+msgid "Saving file '%s'..."
+msgstr "שומר את הקובץ '%s'..."
+
+#: src/pluma-file.c:337 src/pluma-file.c:470
+msgid "The document has not been saved."
+msgstr "המסמך אינו נשמר."
+
+#: src/pluma-file.c:351 src/pluma-file.c:467
+#, c-format
+msgid "File '%s' saved."
+msgstr "הקובץ '%s' נשמר."
+
+#: src/pluma-file.c:434
+msgid "Save as..."
+msgstr "שמירה בשם..."
+
+#: src/pluma-file.c:628
+#, c-format
+msgid ""
+"Do you want to revert to saved the document '%s'?\n"
+"\n"
+"You will not be able to undo this operation."
+msgstr ""
+"האם ברצונך לחזור למסמך השמור '%s'?\n"
+"\n"
+"לא תוכל לבטל פעולה זו."
+
+#: src/pluma-file.c:638 src/pluma-ui.xml.h:99
+msgid "_Revert"
+msgstr "_שחזר"
+
+#: src/pluma-file.c:672
+#, c-format
+msgid "Reverting file '%s'..."
+msgstr "משחזר קובץ '%s'..."
+
+#: src/pluma-file.c:685
+msgid "The document has not been reverted."
+msgstr "המסמך לא שוחזר."
+
+#: src/pluma-file.c:695
+#, c-format
+msgid "File '%s' reverted."
+msgstr "הקובץ '%s' שוחזר."
+
+#: src/pluma-file.c:721
+#, c-format
+msgid "Loading %d files..."
+msgstr "טוען %d קבצים..."
+
+#: src/pluma-file.c:757
+#, c-format
+msgid "The file \"%s\" does not exist. Would you like to create it?"
+msgstr "הקובץ \"%s\" איננו קיים. האם ברצונך ליצור אותו?"
+
+#: src/pluma-file.c:812
+#, c-format
+msgid "Loaded %i files"
+msgstr "נטענו %i קבצים"
+
+#: src/pluma-file.c:945
+msgid "Could not read data from stdin."
+msgstr ""
+
+#. Read only
+#: src/pluma-mdi-child.c:215
+msgid "RO"
+msgstr "ק\"ב"
+
+#. Add the detach tab button
+#: src/pluma-mdi-child.c:539 src/pluma-ui.xml.h:89
+msgid "_Move to New Window"
+msgstr "ה_זז לחלון חדש"
+
+#: src/pluma-mdi.c:446
+msgid "Open a file."
+msgstr "פתח קובץ."
+
+#: src/pluma-mdi.c:1032
+#, c-format
+msgid ""
+"Do you want to save the changes you made to the document \"%s\"? \n"
+"\n"
+"Your changes will be lost if you don't save them."
+msgstr ""
+"האם ברצונך לשמור את השינויים שערכת למסמך \"%s\"?\n"
+"\n"
+"השינויים שלך יאבדו אם לא תשמור אותם."
+
+#: src/pluma-mdi.c:1037
+msgid "Do_n't save"
+msgstr "_אל תשמור"
+
+#: src/pluma-mdi.c:1056
+msgid "_Don't quit"
+msgstr "_אל תצא"
+
+#: src/pluma-mdi.c:1060
+msgid "_Don't close"
+msgstr "_אל תסגור"
+
+#: src/pluma-mdi.c:1150
+msgid "(modified)"
+msgstr "(שונה)"
+
+#: src/pluma-mdi.c:1156
+msgid "(readonly)"
+msgstr "(קריאה בלבד)"
+
+#: src/pluma-plugins-engine.c:362
+#, c-format
+msgid "Error, unable to open module file '%s'\n"
+msgstr "שגיאה, לא ניתן לפתוח קובץ מודול '%s'\n"
+
+#: src/pluma-plugins-engine.c:372
+#, c-format
+msgid "Error, plugin '%s' does not contain init function."
+msgstr ""
+
+#: src/pluma-plugins-engine.c:382
+#, c-format
+msgid "Error, plugin '%s' does not contain activate function."
+msgstr ""
+
+#: src/pluma-plugins-engine.c:392
+#, c-format
+msgid "Error, plugin '%s' does not contain deactivate function."
+msgstr ""
+
+#: src/pluma-plugins-engine.c:417
+#, c-format
+msgid "Error, impossible to initialize plugin '%s'"
+msgstr ""
+
+#: src/pluma-plugins-engine.c:468
+#, c-format
+msgid "Error, impossible to destroy plugin '%s'"
+msgstr ""
+
+#: src/pluma-plugins-engine.c:551 src/pluma-plugins-engine.c:639
+#: src/pluma-plugins-engine.c:764
+#, c-format
+msgid "Error, impossible to activate plugin '%s'"
+msgstr ""
+
+#: src/pluma-plugins-engine.c:590 src/pluma-plugins-engine.c:782
+#, c-format
+msgid "Error, impossible to deactivate plugin '%s'"
+msgstr ""
+
+#: src/pluma-plugins-engine.c:683
+#, c-format
+msgid "Error, impossible to update ui of the plugin '%s'"
+msgstr ""
+
+#: src/pluma-prefs-manager.c:335
+msgid "Cannot initialize preferences manager."
+msgstr ""
+
+#: src/pluma-prefs-manager.c:1756
+#, c-format
+msgid "Expected `%s' got `%s' for key %s"
+msgstr ""
+
+#: src/pluma-print.c:254
+msgid ""
+"pluma is unable to print since it cannot find\n"
+"one of the required fonts."
+msgstr ""
+
+#: src/pluma-print.c:432
+#, c-format
+msgid "File: %s"
+msgstr "קובץ: %s"
+
+#. Print right text
+#: src/pluma-print.c:439
+#, c-format
+msgid "Page: %d"
+msgstr "עמוד: %d"
+
+#: src/pluma-print.c:580
+msgid "pluma - Print Preview"
+msgstr "pluma - תצוגה מקדימה"
+
+#: src/pluma-print.c:658
+#, c-format
+msgid ""
+"An error occurred while printing.\n"
+"\n"
+"%s,"
+msgstr ""
+"ארעה שגיאה בזמן ההדפסה.\n"
+"\n"
+"%s,"
+
+#: src/pluma-ui.xml.h:1
+msgid "About this application"
+msgstr "אודות היישום הזה"
+
+#: src/pluma-ui.xml.h:2
+msgid "C_ustomize Statusbar"
+msgstr "הת_אמה אישית של שורת המצב"
+
+#: src/pluma-ui.xml.h:3
+msgid "Change the visibility of the output window in the current window"
+msgstr ""
+
+#: src/pluma-ui.xml.h:4
+msgid "Change the visibility of the statusbar in the current window"
+msgstr ""
+
+#: src/pluma-ui.xml.h:5
+msgid "Change the visibility of the toolbar in the current window"
+msgstr ""
+
+#: src/pluma-ui.xml.h:6
+msgid "Close"
+msgstr "סגור"
+
+#: src/pluma-ui.xml.h:7
+msgid "Close all open files"
+msgstr "סגור את כל הקבצים הפתוחים"
+
+#: src/pluma-ui.xml.h:8
+msgid "Close the current file"
+msgstr "סגור את הקובץ הנוכחי"
+
+#: src/pluma-ui.xml.h:9
+msgid "Configure the application"
+msgstr "הגדר את היישום"
+
+#: src/pluma-ui.xml.h:10
+msgid "Copy"
+msgstr "העתק"
+
+#: src/pluma-ui.xml.h:11
+msgid "Copy the selection"
+msgstr "העתק את הבחירה"
+
+#: src/pluma-ui.xml.h:12
+msgid "Create a new document"
+msgstr "צור מסמך חדש"
+
+#: src/pluma-ui.xml.h:13
+msgid "Cu_t"
+msgstr "_גזור"
+
+#: src/pluma-ui.xml.h:14
+msgid "Customize"
+msgstr "התאם אישית"
+
+#: src/pluma-ui.xml.h:15
+msgid "Customize toolbars"
+msgstr "התאם אישית את סרגל הכלים"
+
+#: src/pluma-ui.xml.h:16
+msgid "Cut"
+msgstr "גזור"
+
+#: src/pluma-ui.xml.h:17
+msgid "Cut the selection"
+msgstr "גזור את הבחירה"
+
+#: src/pluma-ui.xml.h:18
+msgid "Delete"
+msgstr "מחק"
+
+#: src/pluma-ui.xml.h:19
+msgid "Delete the selected text"
+msgstr "מחק את המלל הנבחר"
+
+#: src/pluma-ui.xml.h:20
+msgid "Dump XML"
+msgstr ""
+
+#: src/pluma-ui.xml.h:21
+msgid "Dump the UI Xml description"
+msgstr ""
+
+#: src/pluma-ui.xml.h:23
+msgid "Find Again"
+msgstr "מצא שוב"
+
+#: src/pluma-ui.xml.h:24
+msgid "Find Ne_xt"
+msgstr "מצא _שוב"
+
+#: src/pluma-ui.xml.h:25
+msgid "Go to _Line..."
+msgstr "לך _לשורה..."
+
+#: src/pluma-ui.xml.h:26
+msgid "Go to a specific line number"
+msgstr "מעבר למספר שורה מצויין"
+
+#: src/pluma-ui.xml.h:27
+msgid "Icon and _Text"
+msgstr "סמל ו_מלל"
+
+#: src/pluma-ui.xml.h:28
+msgid "Main toolbar"
+msgstr "סרגל כלים ראשי"
+
+#: src/pluma-ui.xml.h:29
+msgid "Move the current document to a new window"
+msgstr "הזז את המסמך הנוכחי לחלון חדש"
+
+#: src/pluma-ui.xml.h:30
+msgid "New"
+msgstr "חדש"
+
+#: src/pluma-ui.xml.h:31
+msgid "Only show icons in the toolbar"
+msgstr "מציג רק סמלים בסרגל הכלים"
+
+#: src/pluma-ui.xml.h:33
+msgid "Open Location..."
+msgstr "פתח מיקום..."
+
+#: src/pluma-ui.xml.h:34
+msgid "Open _Location..."
+msgstr "פתח _מיקום..."
+
+#: src/pluma-ui.xml.h:35
+msgid "Open a file"
+msgstr "פתח קובץ"
+
+#: src/pluma-ui.xml.h:36
+msgid "Open a file from a specified location"
+msgstr "פתח קובץ ממיקום מסויים"
+
+#: src/pluma-ui.xml.h:37
+msgid "Open the pluma manual"
+msgstr "פתח את מדריך pluma"
+
+#: src/pluma-ui.xml.h:38
+msgid "Paste"
+msgstr "הדבק"
+
+#: src/pluma-ui.xml.h:39
+msgid "Paste the clipboard"
+msgstr "הדבק מהלוח"
+
+#: src/pluma-ui.xml.h:40
+msgid "Pr_eferences"
+msgstr "ה_עדפות"
+
+#: src/pluma-ui.xml.h:42
+msgid "Print Previe_w..."
+msgstr "_תצוגה מקדימה"
+
+#: src/pluma-ui.xml.h:43
+msgid "Print Preview"
+msgstr "תצוגה מקדימה"
+
+#: src/pluma-ui.xml.h:44
+msgid "Print Setup"
+msgstr "הגדרות הדפסה"
+
+#: src/pluma-ui.xml.h:45
+msgid "Print preview"
+msgstr "תצוגה מקדימה"
+
+#: src/pluma-ui.xml.h:46
+msgid "Print the current file"
+msgstr "הדפס את הקובץ הנוכחי"
+
+#: src/pluma-ui.xml.h:47
+msgid "Quit"
+msgstr "יציאה"
+
+#: src/pluma-ui.xml.h:48
+msgid "Quit the program"
+msgstr "יציאה מהתוכנית"
+
+#: src/pluma-ui.xml.h:49
+msgid "Redo"
+msgstr "בצע שוב"
+
+#: src/pluma-ui.xml.h:50
+msgid "Redo the undone action"
+msgstr ""
+
+#: src/pluma-ui.xml.h:52
+msgid "Replace a string"
+msgstr "החלף מחרוזת"
+
+#: src/pluma-ui.xml.h:53
+msgid "Revert"
+msgstr "שחזר"
+
+#: src/pluma-ui.xml.h:54
+msgid "Revert to a saved version of the file"
+msgstr "חזור לגירסה השמורה של הקובץ"
+
+#: src/pluma-ui.xml.h:56
+msgid "Save As"
+msgstr "שמירה בשם"
+
+#: src/pluma-ui.xml.h:57
+msgid "Save _As..."
+msgstr "שמירה _בשם..."
+
+#: src/pluma-ui.xml.h:58
+msgid "Save all open files"
+msgstr "שמור את כל הקבצים הפתוחים"
+
+#: src/pluma-ui.xml.h:59
+msgid "Save the current file"
+msgstr "שמור את הקובץ הנוכחי"
+
+#: src/pluma-ui.xml.h:60
+msgid "Save the current file with a different name"
+msgstr "שמור את הקובץ הנוכחי עם שם אחר"
+
+#: src/pluma-ui.xml.h:61
+msgid "Search again for the same string"
+msgstr "חפש שוב בעבור אותה המחרוזת"
+
+#: src/pluma-ui.xml.h:62
+msgid "Search for a string"
+msgstr "חפש בעבור מחרוזת"
+
+#: src/pluma-ui.xml.h:63
+msgid "Select All"
+msgstr "בחר הכל"
+
+#: src/pluma-ui.xml.h:64
+msgid "Select _All"
+msgstr "בחר _הכל"
+
+#: src/pluma-ui.xml.h:65
+msgid "Select the entire document"
+msgstr "בחר את כל המסמך"
+
+#: src/pluma-ui.xml.h:66
+msgid "Set toolbar button style according to desktop default"
+msgstr ""
+
+#: src/pluma-ui.xml.h:67
+msgid "Setup the page settings for your current printer"
+msgstr ""
+
+#: src/pluma-ui.xml.h:68
+msgid "Show _Cursor Position"
+msgstr "הצג מיקום _סמן"
+
+#: src/pluma-ui.xml.h:69
+msgid "Show _Overwrite Mode"
+msgstr "הצג מצב _כתיבת יתר"
+
+#: src/pluma-ui.xml.h:70
+msgid "Show cursor position in the statusbar"
+msgstr ""
+
+#: src/pluma-ui.xml.h:71
+msgid "Show overwrite mode in the statusbar"
+msgstr ""
+
+#: src/pluma-ui.xml.h:73
+msgid "Undo the last action"
+msgstr "בטל את הפעולה האחרונה"
+
+#: src/pluma-ui.xml.h:74
+msgid "_About"
+msgstr "_אודות"
+
+#: src/pluma-ui.xml.h:75
+msgid "_Close"
+msgstr "_סגור"
+
+#: src/pluma-ui.xml.h:76
+msgid "_Close All"
+msgstr "_סגור הכל"
+
+#: src/pluma-ui.xml.h:77
+msgid "_Contents"
+msgstr "_תכנים"
+
+#: src/pluma-ui.xml.h:78
+msgid "_Copy"
+msgstr "ה_עתק"
+
+#: src/pluma-ui.xml.h:79
+msgid "_Customize Toolbar"
+msgstr "_התאמה אישית של סרגל הכלים"
+
+#: src/pluma-ui.xml.h:80
+msgid "_Debug"
+msgstr "_ניפוי"
+
+#: src/pluma-ui.xml.h:81
+msgid "_Delete"
+msgstr "_מחק"
+
+#: src/pluma-ui.xml.h:82
+msgid "_Desktop Default"
+msgstr "ברירת מחדל של _שולחן העבודה"
+
+#: src/pluma-ui.xml.h:83
+msgid "_Documents"
+msgstr "_מסמכים"
+
+#: src/pluma-ui.xml.h:84
+msgid "_Edit"
+msgstr "_עריכה"
+
+#: src/pluma-ui.xml.h:85
+msgid "_File"
+msgstr "_קובץ"
+
+#: src/pluma-ui.xml.h:86
+msgid "_Find..."
+msgstr "_מצא..."
+
+#: src/pluma-ui.xml.h:87
+msgid "_Help"
+msgstr "_עזרה"
+
+#: src/pluma-ui.xml.h:88
+msgid "_Icon"
+msgstr "_סמל"
+
+#: src/pluma-ui.xml.h:90
+msgid "_New"
+msgstr "_חדש"
+
+#: src/pluma-ui.xml.h:91
+msgid "_Open..."
+msgstr "_פתיחה..."
+
+#: src/pluma-ui.xml.h:92
+msgid "_Output Window"
+msgstr "חלון _פלט"
+
+#: src/pluma-ui.xml.h:93
+msgid "_Paste"
+msgstr "ה_דבק"
+
+#: src/pluma-ui.xml.h:94
+msgid "_Print..."
+msgstr "_הדפס..."
+
+#: src/pluma-ui.xml.h:95
+msgid "_Priority Text beside Icons"
+msgstr "_עדיפות למלל לצד הסמלים"
+
+#: src/pluma-ui.xml.h:96
+msgid "_Quit"
+msgstr "_יציאה"
+
+#: src/pluma-ui.xml.h:97
+msgid "_Redo"
+msgstr "בצע _שוב"
+
+#: src/pluma-ui.xml.h:98
+msgid "_Replace..."
+msgstr "_החלף..."
+
+#: src/pluma-ui.xml.h:100
+msgid "_Save"
+msgstr "_שמירה"
+
+#: src/pluma-ui.xml.h:101
+msgid "_Save All"
+msgstr "_שמור הכל"
+
+#: src/pluma-ui.xml.h:102
+msgid "_Search"
+msgstr "_חיפוש"
+
+#: src/pluma-ui.xml.h:103
+msgid "_Statusbar"
+msgstr "_שורת מצב"
+
+#: src/pluma-ui.xml.h:104
+msgid "_Toolbar"
+msgstr "_סרגל כלים"
+
+#: src/pluma-ui.xml.h:105
+msgid "_Tools"
+msgstr "_כלים"
+
+#: src/pluma-ui.xml.h:106
+msgid "_Undo"
+msgstr "_בטל"
+
+#: src/pluma-ui.xml.h:107
+msgid "_View"
+msgstr "_תצוגה"
+
+#: src/pluma-utils.c:795
+#, c-format
+msgid ""
+"Could not find the file \"%s\".\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+
+#: src/pluma-utils.c:802
+#, c-format
+msgid "Could not open the file \"%s\" because it contains corrupted data."
+msgstr ""
+
+#: src/pluma-utils.c:813
+#, c-format
+msgid "Could not open the file \"%s\" because pluma cannot handle %s: locations."
+msgstr ""
+
+#: src/pluma-utils.c:819
+#, c-format
+msgid "Could not open the file \"%s\""
+msgstr ""
+
+#: src/pluma-utils.c:829
+#, c-format
+msgid "Could not open the file \"%s\" because it contains data in an invalid format."
+msgstr ""
+
+#: src/pluma-utils.c:836
+#, c-format
+msgid "Could not open the file \"%s\" because it is too big."
+msgstr ""
+
+#: src/pluma-utils.c:843
+#, c-format
+msgid ""
+"\"%s\" is not a valid location.\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+
+#: src/pluma-utils.c:850
+#, c-format
+msgid "Could not open the file \"%s\" because access was denied."
+msgstr ""
+
+#: src/pluma-utils.c:857
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because there are too many open files.\n"
+"\n"
+"Please, close some open file and try again."
+msgstr ""
+
+#: src/pluma-utils.c:865
+#, c-format
+msgid ""
+"\"%s\" is a directory.\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+
+#: src/pluma-utils.c:872
+#, c-format
+msgid ""
+"Not enough available memory to open the file \"%s\". Please, close some "
+"running application and try again."
+msgstr ""
+
+#: src/pluma-utils.c:898
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because no host \"%s\" could be found.\n"
+"\n"
+"Please, check that you typed the location correctly and that your proxy "
+"settings are correct and then try again."
+msgstr ""
+
+#: src/pluma-utils.c:913
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because the host name was invalid.\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+
+#: src/pluma-utils.c:920
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because the host name was empty.\n"
+"\n"
+"Please, check that your proxy settings are correct and try again."
+msgstr ""
+
+#: src/pluma-utils.c:927
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because the attempt to log in failed.\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+
+#: src/pluma-utils.c:935
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because it contains invalid UTF-8 data.\n"
+"\n"
+"Probably, you are trying to open a binary file."
+msgstr ""
+
+#: src/pluma-utils.c:973
+#, c-format
+msgid "Could not open the file \"%s\"."
+msgstr ""
+
+#: src/pluma-utils.c:1024
+#, c-format
+msgid "Could not save the file \"%s\"."
+msgstr ""
+
+#: src/pluma-utils.c:1028
+#, c-format
+msgid ""
+"Could not save the file \"%s\".\n"
+"\n"
+"%s"
+msgstr ""
+
+#: src/pluma-utils.c:1081
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because pluma cannot find it.\n"
+"\n"
+"Perhaps, it has recently been deleted."
+msgstr ""
+
+#: src/pluma-utils.c:1088
+#, c-format
+msgid "Could not revert the file \"%s\" because it contains corrupted data."
+msgstr ""
+
+#: src/pluma-utils.c:1099
+#, c-format
+msgid "Could not revert the file \"%s\" because pluma cannot handle %s: locations."
+msgstr ""
+
+#: src/pluma-utils.c:1105 src/pluma-utils.c:1245
+#, c-format
+msgid "Could not revert the file \"%s\"."
+msgstr ""
+
+#: src/pluma-utils.c:1115
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because it contains data in an invalid "
+"format."
+msgstr ""
+
+#: src/pluma-utils.c:1122
+#, c-format
+msgid "Could not revert the file \"%s\" because it is too big."
+msgstr ""
+
+#: src/pluma-utils.c:1129
+#, c-format
+msgid "Could not revert the file \"%s\" because access was denied."
+msgstr ""
+
+#: src/pluma-utils.c:1136
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because there are too many open files.\n"
+"\n"
+"Please, close some open file and try again."
+msgstr ""
+
+#: src/pluma-utils.c:1144
+#, c-format
+msgid ""
+"Not enough available memory to revert the file \"%s\". Please, close some "
+"running application and try again."
+msgstr ""
+
+#: src/pluma-utils.c:1170
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because no host \"%s\" could be found.\n"
+"\n"
+"Please, check that your proxy settings are correct and try again."
+msgstr ""
+
+#: src/pluma-utils.c:1184
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because the host name was empty.\n"
+"\n"
+"Please, check that your proxy settings are correct and try again."
+msgstr ""
+
+#: src/pluma-utils.c:1191
+#, c-format
+msgid "Could not revert the file \"%s\" because the attempt to log in failed."
+msgstr ""
+
+#: src/pluma-utils.c:1198
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because it contains invalid UTF-8 data.\n"
+"\n"
+"Probably, you are trying to revert a binary file."
+msgstr ""
+
+#: src/pluma-utils.c:1207
+msgid "It is not possible to revert an Untitled document."
+msgstr ""
+
+#: src/pluma-utils.c:1296
+#, c-format
+msgid "The file \"%s\" already exists."
+msgstr "הקובץ \"%s\" כבר קיים."
+
+#: src/pluma-utils.c:1302
+#, c-format
+msgid ""
+"\"%s\" is a directory.\n"
+"\n"
+"Please, check that you typed the location correctly."
+msgstr ""
+
+#: src/pluma-utils.c:1311
+#, c-format
+msgid ""
+"Cannot create the file \"%s\".\n"
+"\n"
+"Make sure you have the appropriate write permissions."
+msgstr ""
+
+#: src/pluma-utils.c:1318
+#, c-format
+msgid ""
+"Cannot create the file \"%s\".\n"
+"\n"
+"The file name is too long."
+msgstr ""
+
+#: src/pluma-utils.c:1325
+#, c-format
+msgid ""
+"Cannot create the file \"%s\".\n"
+"\n"
+"A directory component in the file name does not exist or is a dangling "
+"symbolic link."
+msgstr ""
+
+#: src/pluma-utils.c:1334
+#, c-format
+msgid ""
+"There is not enough disk space to create the file \"%s\".\n"
+"\n"
+"Please free some disk space and try again."
+msgstr ""
+
+#: src/pluma-utils.c:1340
+#, c-format
+msgid "Could not create the file \"%s\"."
+msgstr "לא ניתן ליצור את הקובץ \"%s\"."
+
+#.
+#. if (col == chars)
+#. msg = g_strdup_printf (_("  Ln %d, Col. %d"), row + 1, col + 1);
+#. else
+#. msg = g_strdup_printf (_("  Ln %d, Col. %d-%d"), row + 1, chars + 1, col + 1);
+#.
+#: src/pluma-view.c:1076
+#, c-format
+msgid "  Ln %d, Col. %d"
+msgstr "  שורה %d, עמודה %d"
+
+#: src/pluma-view.c:1114
+msgid "  OVR"
+msgstr "  OVR"
+
+#: src/pluma-view.c:1116
+msgid "  INS"
+msgstr "  INS"
+
+#: src/pluma2.c:77
+msgid "Show utility debugging messages."
+msgstr ""
+
+#: src/pluma2.c:80
+msgid "Show mdi debugging messages."
+msgstr ""
+
+#: src/pluma2.c:83
+msgid "Show commands debugging messages."
+msgstr ""
+
+#: src/pluma2.c:86
+msgid "Show document debugging messages."
+msgstr ""
+
+#: src/pluma2.c:89
+msgid "Show file debugging messages."
+msgstr ""
+
+#: src/pluma2.c:92
+msgid "Show plugin debugging messages."
+msgstr ""
+
+#: src/pluma2.c:95
+msgid "Show prefs debugging messages."
+msgstr ""
+
+#: src/pluma2.c:98
+msgid "Show printing debugging messages."
+msgstr ""
+
+#: src/pluma2.c:101
+msgid "Show search debugging messages."
+msgstr ""
+
+#: src/pluma2.c:104
+msgid "Show undo debugging messages."
+msgstr ""
+
+#: src/pluma2.c:107
+msgid "Show view debugging messages."
+msgstr ""
+
+#: src/pluma2.c:110
+msgid "Show recent debugging messages."
+msgstr ""
+
+#: src/pluma2.c:113
+msgid "Show session management debugging messages."
+msgstr ""
+
+#: src/pluma2.c:116
+msgid "Turn on all debugging messages."
+msgstr ""
+
+#: src/pluma2.c:119
+msgid "Quit an existing instance of pluma"
+msgstr ""
+
+#: src/pluma2.c:122
+msgid "Create a new toplevel window in an existing instance of pluma"
+msgstr ""
+
+#: src/pluma2.c:125
+msgid "Create a new document in an existing instance of pluma"
+msgstr ""
+
+#: src/pluma-output-window.c:333
+msgid "Close the output window"
+msgstr "סגור את חלון הפלט"
+
+#: src/pluma-output-window.c:371
+msgid "Copy selected lines"
+msgstr "העתק את השורות הנבחרות"
+
+#: src/pluma-output-window.c:391
+msgid "Clear the output window"
+msgstr "נקה את חלון הפלט"
+
+#: src/pluma-output-window.c:431
+msgid "Output Lines"
+msgstr "שורות פלט"
+
+#: src/dialogs/pluma-encodings-dialog.glade2.h:1
+msgid "Choose one or more e_ncodings:"
+msgstr "בחר ק_ידוד אחד או יותר:"
+
+#: src/pluma-encodings.c:143 src/pluma-encodings.c:169
+#: src/pluma-encodings.c:210 src/pluma-encodings.c:260
+#: src/pluma-encodings.c:285
+msgid "Western"
+msgstr "מערבי"
+
+#: src/pluma-encodings.c:145 src/pluma-encodings.c:212
+#: src/pluma-encodings.c:240 src/pluma-encodings.c:281
+msgid "Central European"
+msgstr "מרכז אירופה"
+
+#: src/pluma-encodings.c:147
+msgid "South European"
+msgstr "דרום אירופה"
+
+#: src/pluma-encodings.c:149 src/pluma-encodings.c:165
+#: src/pluma-encodings.c:295
+msgid "Baltic"
+msgstr "באלטית"
+
+#: src/pluma-encodings.c:151 src/pluma-encodings.c:214
+#: src/pluma-encodings.c:227 src/pluma-encodings.c:231
+#: src/pluma-encodings.c:244 src/pluma-encodings.c:283
+msgid "Cyrillic"
+msgstr "קירילית"
+
+#: src/pluma-encodings.c:153 src/pluma-encodings.c:220
+#: src/pluma-encodings.c:238 src/pluma-encodings.c:293
+msgid "Arabic"
+msgstr "ערבית"
+
+#: src/pluma-encodings.c:155 src/pluma-encodings.c:250
+#: src/pluma-encodings.c:287
+msgid "Greek"
+msgstr "יוונית"
+
+#: src/pluma-encodings.c:157
+msgid "Hebrew Visual"
+msgstr "עברית ויזואלית"
+
+#: src/pluma-encodings.c:159 src/pluma-encodings.c:218
+#: src/pluma-encodings.c:256 src/pluma-encodings.c:291
+msgid "Hebrew"
+msgstr "עברית"
+
+#: src/pluma-encodings.c:161 src/pluma-encodings.c:216
+#: src/pluma-encodings.c:264 src/pluma-encodings.c:289
+msgid "Turkish"
+msgstr "טורקית"
+
+#: src/pluma-encodings.c:163
+msgid "Nordic"
+msgstr "נורדית"
+
+#: src/pluma-encodings.c:167
+msgid "Celtic"
+msgstr "קלטית"
+
+#: src/pluma-encodings.c:171 src/pluma-encodings.c:262
+msgid "Romanian"
+msgstr "רומנית"
+
+#: src/pluma-encodings.c:174 src/pluma-encodings.c:176
+#: src/pluma-encodings.c:178 src/pluma-encodings.c:180
+msgid "Unicode"
+msgstr "יוניקוד"
+
+#: src/pluma-encodings.c:183
+msgid "Armenian"
+msgstr "ארמנית"
+
+#: src/pluma-encodings.c:185 src/pluma-encodings.c:187
+#: src/pluma-encodings.c:196
+msgid "Chinese Traditional"
+msgstr "סינית מסורתית"
+
+#: src/pluma-encodings.c:189
+msgid "Cyrillic/Russian"
+msgstr "קירילית/רוסית"
+
+#: src/pluma-encodings.c:192 src/pluma-encodings.c:223
+#: src/pluma-encodings.c:270
+msgid "Japanese"
+msgstr "יפנית"
+
+#: src/pluma-encodings.c:194 src/pluma-encodings.c:225
+#: src/pluma-encodings.c:229 src/pluma-encodings.c:276
+msgid "Korean"
+msgstr "קוריאנית"
+
+#: src/pluma-encodings.c:199 src/pluma-encodings.c:201
+#: src/pluma-encodings.c:203 src/pluma-encodings.c:207
+msgid "Chinese Simplified"
+msgstr "סינית פשוטה"
+
+#: src/pluma-encodings.c:205
+msgid "Georgian"
+msgstr "גרוזית"
+
+#: src/pluma-encodings.c:233 src/pluma-encodings.c:266
+msgid "Cyrillic/Ukrainian"
+msgstr "קירילית/אוקראיינית"
+
+#: src/pluma-encodings.c:242
+msgid "Croatian"
+msgstr "קרואטית"
+
+#: src/pluma-encodings.c:246
+msgid "Hindi"
+msgstr "הינדי"
+
+#: src/pluma-encodings.c:248
+msgid "Farsi"
+msgstr ""
+
+#: src/pluma-encodings.c:252
+msgid "Gujarati"
+msgstr ""
+
+#: src/pluma-encodings.c:254
+msgid "Gurmukhi"
+msgstr ""
+
+#: src/pluma-encodings.c:258
+msgid "Icelandic"
+msgstr "איסלנדית"
+
+#: src/pluma-encodings.c:272 src/pluma-encodings.c:278
+#: src/pluma-encodings.c:297
+msgid "Vietnamese"
+msgstr "ויאטנמית"
+
+#: src/pluma-encodings.c:274
+msgid "Thai"
+msgstr "תאי"
+
+#: src/recent-files/egg-recent-vfs-utils.c:90
+msgid " (invalid Unicode)"
+msgstr " (יוניקוד לא תקני)"
+
+#~ msgid "Copyright (C) 2001-2002 Paolo Maggi"
+#~ msgstr "כל הזכויות שמורות (C) 2001-2002 Paolo Maggi"
+
+#~ msgid "Paolo Maggi <maggi@athena.polito.it>"
+#~ msgstr "Paolo Maggi <maggi@athena.polito.it>"
+
+#~ msgid "Copyright (C) 2002 James Willcox"
+#~ msgstr "כל הזכויות שמורות (C) 2002 James Willcox"
+
+#~ msgid "James Willcox <jwillcox@cs.indiana.edu>"
+#~ msgstr "James Willcox <jwillcox@cs.indiana.edu>"
+
+#~ msgid ""
+#~ "Chema Celorio <chema@celorio.com> and Paolo Maggi <maggi@athena.polito.it>"
+#~ msgstr ""
+#~ "Chema Celorio <chema@celorio.com> ו-Paolo Maggi <maggi@athena.polito.it>"
+
+#~ msgid ""
+#~ "Copyright (C) 2000 - 2001 Chema Celorio\n"
+#~ "Copyright (C) 2002 Paolo Maggi"
+#~ msgstr ""
+#~ "כל הזכויות שמורות (C) 2000 - 2001 Chema Celorio\n"
+#~ "כל הזכויות שמורות (C) 2002 Paolo Maggi"
+
+#~ msgid "Copyright (C) 2002 Paolo Maggi"
+#~ msgstr "כל הזכויות שמורות (C) 2002 Paolo Maggi"
+
+#~ msgid "Paolo Maggi <paolo.maggi@polito.it>"
+#~ msgstr "Paolo Maggi <paolo.maggi@polito.it>"
+
+#~ msgid "Copyright (C) 2002 - Paolo Maggi"
+#~ msgstr "כל הזכויות שמורות (C) 2002 - Paolo Maggi"
+
+#~ msgid ""
+#~ "Paolo Maggi <maggi@athena.polito.it> and Lee Mallabone <gnome@fonicmonkey."
+#~ "net>"
+#~ msgstr ""
+#~ "Paolo Maggi <maggi@athena.polito.it> ו-Lee Mallabone <gnome@fonicmonkey."
+#~ "net>"
+
+#~ msgid ""
+#~ "Carlo Borreo <borreo@softhome.net>, Lee Mallabone <gnome@fonicmonkey.net> "
+#~ "and Paolo Maggi <maggi@athena.polito.it>"
+#~ msgstr ""
+#~ "Carlo Borreo <borreo@softhome.net>, Lee Mallabone <gnome@fonicmonkey.net> "
+#~ "ו- Paolo Maggi <maggi@athena.polito.it>"
+
+#~ msgid ""
+#~ "Copyright (C) 2001 Carlo Borreo\n"
+#~ "Copyright (C) 2002 Lee Mallabone and Paolo Maggi"
+#~ msgstr ""
+#~ "כל הזכויות שמורות (C) 2001 Carlo Borreo\n"
+#~ "כל הזכויות שמורות (C) 2002 Lee Mallabone and Paolo Maggi"
+

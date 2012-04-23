@@ -1,0 +1,9 @@
+[Pluma Plugin]
+Module=showtabbar
+IAge=2
+_Name=Show/Hide Tabbar
+_Description=Add a menu entry to show/hide the tabbar.
+Authors=Steve Frécinaux <steve@istique.net>
+Copyright=Copyright © 2006 Steve Frécinaux
+Website=http://www.mate-desktop.org
+Version=@VERSION@

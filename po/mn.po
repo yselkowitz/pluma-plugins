@@ -1,0 +1,3241 @@
+# translation of pluma.HEAD.mn.po to Mongolian
+# translation of pluma.HEAD.mn.po to mongolian
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Sanlig Badral <badral@chinggis.com>, 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma.HEAD.mn\n"
+"POT-Creation-Date: 2003-01-08 05:53+0100\n"
+"PO-Revision-Date: 2003-01-21 06:31+0100\n"
+"Last-Translator: Sanlig Badral <badral@chinggis.com>\n"
+"Language-Team: Mongolian <mn@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.1\n"
+
+#: data/GNOME_Pluma.server.in.h:1
+msgid "pluma application"
+msgstr "pluma-Х.программ"
+
+#: data/GNOME_Pluma.server.in.h:2
+msgid "pluma automation factory"
+msgstr "pluma-автоматжуулалтийн үйлдвэр"
+
+#: data/pluma.desktop.in.h:1
+msgid "Edit text files"
+msgstr "Текст файл боловсруулах"
+
+#: data/pluma.desktop.in.h:2 src/pluma2.c:340
+msgid "Text Editor"
+msgstr "Текст боловсруулагч"
+
+#: data/pluma.schemas.in.h:1
+msgid ""
+"A custom font that will be used for the editing area. This will only take "
+"effect if the \"Use Default Font\" option is turned off."
+msgstr ""
+"Боловсруулах мужид хэрэглэгдэх хэрэглэгчийн тодорхойлсон бичиг. Энэ нь"
+"зөвхөн »Стандарт бичиг хэрэглэх« сонголтыг хаасан үед л хэрэгжинэ."
+
+#: data/pluma.schemas.in.h:2
+msgid "Auto Save"
+msgstr "Автоматаар хадгалах"
+
+#: data/pluma.schemas.in.h:3
+msgid "Auto Save Interval"
+msgstr "Автоматаар хадгалах завсар"
+
+#: data/pluma.schemas.in.h:4
+msgid "Auto indent"
+msgstr "Авто-догол мөр"
+
+#: data/pluma.schemas.in.h:5
+msgid "Background Color"
+msgstr "Дэвсгар өнгө"
+
+#: data/pluma.schemas.in.h:6
+msgid ""
+"Background color for selected text in the editing area. This will only take "
+"effect if the \"Use Default Colors\" option is turned off."
+msgstr ""
+"Боловсруулах мужид тэмдэглэсэн текстэд хэрэглэх дэвсгэр өнгө."
+"Энэ нь зөвхөн »Стандарт өнгө хэрэглэх« сонголтыг хаасан үед л хэрэгжинэ."
+
+#: data/pluma.schemas.in.h:7
+msgid ""
+"Background color for unselected text in the editing area. This will only "
+"take effect if the \"Use Default Colors\" option is turned off."
+msgstr ""
+"Боловсруулах мужид тэмдэглээгүй текстэд хэрэглэх дэвсгэр өнгө."
+"Энэ нь зөвхөн »Стандарт өнгө хэрэглэх« сонголтыг хаасан үед л хэрэгжинэ."
+
+#: data/pluma.schemas.in.h:8
+msgid "Backup Copy Extension"
+msgstr "Хамгаалалтын хуулбарын өргөтгөл"
+
+#: data/pluma.schemas.in.h:9
+msgid "Body Font for Printing"
+msgstr "Хэвлэх бичиг"
+
+#: data/pluma.schemas.in.h:10
+msgid "Create Backup Copies"
+msgstr "Хамгаалалтын хуулбар хийх"
+
+#: data/pluma.schemas.in.h:11
+msgid "Display Line Numbers"
+msgstr "Мөрийн дугаарыг харуулах"
+
+#: data/pluma.schemas.in.h:12
+msgid "Editor Font"
+msgstr "Боловсруулах бичиг"
+
+#: data/pluma.schemas.in.h:13
+msgid "Encoding for Saving"
+msgstr "Хадгалах тэмдэгт кодчилол"
+
+#: data/pluma.schemas.in.h:14 src/dialogs/pluma-preferences-dialog.c:2290
+#: src/dialogs/pluma-encodings-dialog.c:257
+#: src/dialogs/pluma-encodings-dialog.glade2.h:2
+msgid "Encodings"
+msgstr "Тэмдэгт кодчилол"
+
+#: data/pluma.schemas.in.h:15
+msgid ""
+"Extension or suffix to use for backup file names. This will only take effect "
+"if the \"Create Backup Copies\" option is turned on."
+msgstr ""
+"Хамгаалалтын хуулбар файлын нэрийн өргөтгөл эсвэл дагавар. Энэ нь зөвхөн "
+"»Хамгаалалтын хуулбар хийх« үйлдэл идэвхижсэн үед хэрэгжинэ."
+
+#: data/pluma.schemas.in.h:16
+msgid ""
+"Foreground color for selected text in the editing area. This will only take "
+"effect if the \"Use Default Colors\" option is turned off."
+msgstr ""
+"Боловсруулах мужид тэмдэглэгдсэн текстэд хэрэглэх дэвсгэр өнгө."
+"Энэ нь зөвхөн »Стандарт өнгө хэрэглэх« сонголтыг хаасан үед л хэрэгжинэ."
+
+#: data/pluma.schemas.in.h:17
+msgid ""
+"Foreground color for the unselected text in the editing area. This will only "
+"take effect if the \"Use Default Colors\" option is turned off."
+msgstr ""
+"Боловсруулах мужид тэмдэглээгүй текстэд хэрэглэх дэвсгэр өнгө."
+"Энэ нь зөвхөн »Стандарт өнгө хэрэглэх« сонголтыг хаасан үед л хэрэгжинэ."
+
+#: data/pluma.schemas.in.h:18
+msgid "Header Font for Printing"
+msgstr "Толгойн хэвлэх бичиг"
+
+#: data/pluma.schemas.in.h:19
+msgid ""
+"If this value is 0, then no line numbers will be inserted when printing a "
+"document. Otherwise, pluma will print line numbers every such number of "
+"lines."
+msgstr ""
+"Хэрэв энэ утга 0 бол баримт хэвлэхэд мөрийн дугаар оруулахгүй. Үгүй бол "
+"pluma бүх мөрөнд мөрийн дугаарыг оруулна."
+
+#: data/pluma.schemas.in.h:20
+msgid "Insert spaces"
+msgstr "Хоосон тэмдэгт оруулах"
+
+#: data/pluma.schemas.in.h:21
+msgid "Line Number Font for Printing"
+msgstr "Мөрийн дугаар хэвлэх бичиг"
+
+#: data/pluma.schemas.in.h:22
+msgid "Line Wrapping Mode"
+msgstr "Мөр таслах горим"
+
+#: data/pluma.schemas.in.h:23
+msgid ""
+"List of encodings used by pluma for reading files not encoded in UTF-8 or in "
+"the current locale encoding."
+msgstr ""
+"pluma -р файл уншихад хэрэглэгдэж байгаа тэмдэгт кодчилолын жигсаалт "
+"UTF-8 кодлогч эсвэл идэвхитэй байрлалын кодчилолоор кодлогдоогүй."
+
+#: data/pluma.schemas.in.h:24
+msgid "Maximum Recent Files"
+msgstr "Сүүлд нээгдсэн файлуудыг харуулах максимум тоо"
+
+#: data/pluma.schemas.in.h:25
+msgid "Maximum number of actions that pluma will be able to undo or redo."
+msgstr "pluma цуцлаж эсвэл сэргээж чадах үйлдлүүдийг харуулах максимум тоо."
+
+#: data/pluma.schemas.in.h:26
+msgid ""
+"Number of minutes after which pluma will automatically save modified files. "
+"This will only take effect if the \"Auto Save\" option is turned on."
+msgstr ""
+"Өөрчилөгдсөн файлуудыг автоматаар хадгалах хугацаа (минутаар)."
+"Энэ нь зөвхөн »Автоматаар хадгалах«-сонголт идэвхижсэн үед хэрэгжинэ."
+
+#: data/pluma.schemas.in.h:27
+msgid "Print Header"
+msgstr "Толгой хэвлэх"
+
+#: data/pluma.schemas.in.h:28
+msgid "Print Line Numbers"
+msgstr "Мөрийн дугаар хэвлэх"
+
+#: data/pluma.schemas.in.h:29
+msgid "Printing Line Wrapping Mode"
+msgstr "Мөр таслах горимд хэвлэх"
+
+#: data/pluma.schemas.in.h:30
+msgid "Selected Text Color"
+msgstr "Сонгосон текстийн өнгө"
+
+#: data/pluma.schemas.in.h:31
+msgid "Selection Color"
+msgstr "Тэмдэглэх өнгө"
+
+#: data/pluma.schemas.in.h:32
+msgid "Show Cursor Position"
+msgstr "Курсорын байрлал харуулах"
+
+#: data/pluma.schemas.in.h:33
+msgid "Show Overwrite Mode"
+msgstr "Дарж бичих горим харуулах"
+
+#: data/pluma.schemas.in.h:34
+msgid ""
+"Specifies how to wrap long lines for printing. Use \"GTK_WRAP_NONE\" for no "
+"wrapping, \"GTK_WRAP_WORD\" for wrapping at word boundaries, and "
+"\"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. Note that "
+"the values are case-sensitive, so make sure they appear exactly as mentioned "
+"here."
+msgstr ""
+"Хэвлэхэд хэр урт мөрөөр таслахыг өгнө үү. Таслахгүй гэвэл та "
+"»GTK_WRAP_NONE«, үгийн хязгаараар таслана гэвэл »GTK_WRAP_WORD« эсвэл "
+"боломжит тэмдэгтээр таслана гэвэл »GTK_WRAP_CHAR« хэрэглэнэ үү. "
+"Зөвлөмж: Утгуудад том жижиг бичилт ялгаатай! Тиймээс та утгыг яг энд өгсөн "
+"шиг өгнө үү."
+
+#: data/pluma.schemas.in.h:35
+msgid ""
+"Specifies how to wrap long lines in the editing area. Use \"GTK_WRAP_NONE\" "
+"for no wrapping, \"GTK_WRAP_WORD\" for wrapping at word boundaries, and "
+"\"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. Note that "
+"the values are case-sensitive, so make sure they appear exactly as mentioned "
+"here."
+msgstr ""
+"Боловсруулах мужид ямар урттай мөрөөр таслахыг өгнө үү. Таслахгүй гэвэл та "
+"»GTK_WRAP_NONE«, үгийн хязгаараар таслана гэвэл »GTK_WRAP_WORD« эсвэл "
+"боломжит тэмдэгтээр таслана гэвэл »GTK_WRAP_CHAR« хэрэглэнэ үү. "
+"Зөвлөмж: Утгуудад том жижиг бичилт ялгаатай! Тиймээс та утгыг яг энд өгсөн "
+"шиг өгнө үү."
+
+#: data/pluma.schemas.in.h:36
+msgid "Specifies the font to use for a document's body when printing documents."
+msgstr "Баримтын эх биеийг хэвлэхэд хэрэглэгдэх бичгийг өгнө үү."
+
+#: data/pluma.schemas.in.h:37
+msgid ""
+"Specifies the font to use for line numbers when printing. This will only "
+"take effect if the \"Print Line Numbers\" option is non-zero."
+msgstr ""
+"Мөрийн дугаарыг хэвлэхэд хэрэглэх бичгийг өгнө үү. Энэ нь зөвхөн "
+"»Мөрийн дугаар хэвлэх«-сонголт тэг биш үед хэрэгжинэ."
+
+#: data/pluma.schemas.in.h:38
+msgid ""
+"Specifies the font to use for page headers when printing a document. This "
+"will only take effect if the \"Print Header\" option is turned on."
+msgstr ""
+"Хуудсын толгойг хэвлэхэд хэрэглэгдэх бичгийг өгнө үү. Энэ нь зөвхөн "
+"»Толгой хэвлэх«-идэвхижсэн үед хэрэгжинэ."
+
+#: data/pluma.schemas.in.h:39
+msgid ""
+"Specifies the maximum number of recently opened files that will be displayed "
+"in the \"Recent Files\" submenu."
+msgstr ""
+"»Сүүлд нээгдсэн файлууд« дэд цэсэнд харуулахад хэрэглэх сүүлд нээгдсэн "
+"файлуудыг харуулахад максимум тоог өгнө үү"
+
+#: data/pluma.schemas.in.h:40
+msgid ""
+"Specifies the number of spaces that should be displayed instead of Tab "
+"characters."
+msgstr "ТАВ тэмдэгтийн орон гаргах хоосон тэмдэгтийн тоог өгнө үү."
+
+#: data/pluma.schemas.in.h:41
+msgid "Status Bar is Visible"
+msgstr "Төлөв самбар харагдана"
+
+#: data/pluma.schemas.in.h:42
+msgid ""
+"Style for the toolbar buttons. Possible values are \"PLUMA_TOOLBAR_SYSTEM\" "
+"to use the system's default style, \"PLUMA_TOOLBAR_ICONS\" to display icons "
+"only, \"PLUMA_TOOLBAR_ICONS_AND_TEXT\" to display both icons and text, and "
+"\"PLUMA_TOOLBAR_ICONS_BOTH_HORIZ\" to display prioritized text beside icons. "
+"Note that the values are case-sensitive, so make sure they appear exactly as "
+"mentioned here."
+msgstr ""
+"Байгаж самбарыг товчины хэлбэр. Боломжит утгууд нь:"
+"»PLUMA_TOOLBAR_SYSTEM« системийн стандарт хэлбэр,"
+"»PLUMA_TOOLBAR_ICONS« дүрс харуулах, "
+"»PLUMA_TOOLBAR_ICONS_AND_TEXT« дүрс ба тэмдэгт харуулах, "
+"»PLUMA_TOOLBAR_ICONS_BOTH_HORIZ« чухал текстыг дүрсийн дэргэд харуулах."
+"Зөвлөмж: Утгуудад том жижиг бичилт ялгаатай! Тиймээс та утгыг яг энд өгсөн "
+"шиг өгнө үү."
+
+#: data/pluma.schemas.in.h:43
+msgid "Tab Size"
+msgstr "ТАВ -н хэмжээ"
+
+#: data/pluma.schemas.in.h:44
+msgid "Text Color"
+msgstr "Текстийн өнгө"
+
+#: data/pluma.schemas.in.h:45
+msgid ""
+"The encoding method to use for saving files. Possible values are "
+"\"PLUMA_SAVE_ALWAYS_UTF8\" for mandatory UTF-8 saving, "
+"\"PLUMA_SAVE_CURRENT_LOCALE_IF_POSSIBLE\" if you want pluma to try to "
+"convert the document it is saving to your current locale's encoding, "
+"\"PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE\" if you want pluma to try "
+"to use the original file encoding (new files in UTF8) and "
+"\"PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE_NCL\" if you want pluma to "
+"try to use the original file encoding (new files in current locale's "
+"encoding). If the conversion is successful, it will be used. Otherwise, UTF-"
+"8 will be used. Note that the values are case-sensitive, so make sure they "
+"appear exactly as mentioned here."
+msgstr ""
+"Файл хадгалахад хэрэглэгдэх кодчилолын арга. Боломжит утгууд нь : "
+"»PLUMA_SAVE_ALWAYS_UTF8« зайлшгүй UTF-8 р хадгалах, "
+"»PLUMA_SAVE_CURRENT_LOCALE_IF_POSSIBLE« pluma баримтын өөрийн байрлалын "
+"кодчилол руу хөрвүүлж хадгалахыг оролдох хэрэгтэй үед, "
+"»PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE«, pluma файлын жинхэнэ "
+"хуучин кодчилолоор нь хадгалахыг оролдох хэрэгтэй үед, "
+"жинхэнэ кодчилол шинэ файлуудын хувьд UTF-8 байх болно,"
+"»PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE_NCL«, pluma файлын "
+"жинхэнэ хуучин кодчилолоор нь хадгалахыг оролдох хэрэгтэй үед, "
+"жинхэнэ кодчилол шинэ файлуудын хувьд идэвхитэй байрлалын кодчилол байх "
+"болно. Хэрвээ тэр кодчилол руу хөрвүүлэлт амжилттай бол түүгээр амжилтгүй "
+"үгүй бол UTF-8 -р кодлоно."
+"Зөвлөмж: Утгуудад том жижиг бичилт ялгаатай! Тиймээс та утгыг яг энд өгсөн "
+"шиг өгнө үү."
+
+#: data/pluma.schemas.in.h:46
+msgid "Toolbar Buttons Style"
+msgstr "Багаж самбарын товчины хэлбэр"
+
+#: data/pluma.schemas.in.h:47
+msgid "Toolbar is Visible"
+msgstr "Багаж самбар харагдана"
+
+#: data/pluma.schemas.in.h:48
+msgid "Undo Actions Limit"
+msgstr "Цуцлах үйлдлийн хязгаар"
+
+#: data/pluma.schemas.in.h:49
+msgid "Use Default Colors"
+msgstr "Стандарт өнгө хэрэглэх"
+
+#: data/pluma.schemas.in.h:50
+msgid "Use Default Font"
+msgstr "Стандарт бичиг хэрэглэх"
+
+#: data/pluma.schemas.in.h:51
+msgid ""
+"Whether pluma should automatically save modified files after a time "
+"interval. You can set the time interval with the \"Auto Save Interval\" "
+"option."
+msgstr ""
+"pluma өөрчилөгдсөн файлуудыг тодорхой хугацааны дараа автоматаар хадгалах "
+"хэрэгтэй юу? Та энэ хугацааг »Автоматаар хадгалах завсар« сонголтод "
+"тохируулна."
+
+#: data/pluma.schemas.in.h:52
+msgid ""
+"Whether pluma should create backup copies for the files it saves. You can "
+"set the backup file extension with the \"Backup Copy Extension\" option."
+msgstr ""
+"pluma хадгалаж байгаа файлуудад хамгаалалтын хуулбар давхар хийх үү? "
+"Та энэ хуулбар файлын өргөтгөлийг »Хамгаалалтын хуулбарын өргөтгөл« "
+"сонголтод тохируулна."
+
+#: data/pluma.schemas.in.h:53
+msgid "Whether pluma should display line numbers in the editing area."
+msgstr "pluma боловсруулах мужид мөрийн дугаар харуулах хэрэгтэй юу?"
+
+#: data/pluma.schemas.in.h:54
+msgid "Whether pluma should enable auto indentation."
+msgstr "pluma автомат догол мөр хэрэглэх үү?"
+
+#: data/pluma.schemas.in.h:55
+msgid "Whether pluma should include a document header when printing documents."
+msgstr "pluma баримтыг хэвлэх үед толгойн хэсэг холбох эсэх?"
+
+#: data/pluma.schemas.in.h:56
+msgid "Whether pluma should insert spaces instead of tabs."
+msgstr "pluma хоосон тэмдэгт ТАВ-ын оронд хэрэглэх үү?"
+
+#: data/pluma.schemas.in.h:57
+msgid "Whether the status bar at the bottom of editing windows should be visible."
+msgstr "Боловсруулах мужийн цонхны доод хэсэг төлвийн самбарыг харуулах уу ?"
+
+#: data/pluma.schemas.in.h:58
+msgid ""
+"Whether the status bar should show the cursor position in editing windows. "
+"Make sure you turn on the \"Status Bar is Visible\" option for this to take "
+"effect."
+msgstr ""
+"Боловсруулах цонхны курсорын байрлалд төлвийн самбарыг харуулах уу?"
+"Зөвлөмж: »Төлөв самбар харагдана«-сонголт идэвхижсэн байх ёстой."
+
+#: data/pluma.schemas.in.h:59
+msgid ""
+"Whether the status bar should show the insert/overwrite mode in editing "
+"windows. Make sure you turn on the \"Status Bar is Visible\" option for this "
+"to take effect."
+msgstr ""
+"Боловсруулах цонхны оруулах/дарж бичих горим төлвийн самбарыг харуулах уу?"
+"»Төлөв самбар харагдана«-сонголт идэвхижсэн байх ёстой."
+
+#: data/pluma.schemas.in.h:60
+msgid "Whether the toolbar should be visible in editing windows."
+msgstr "Боловсруулах цонхонд багаж самбар харуулах уу?"
+
+#: data/pluma.schemas.in.h:61
+msgid ""
+"Whether to use the system's default colors for the editing area. If this "
+"option is turned off, then the colors of the editing area will be those "
+"specified in the \"Background Color\", \"Text Color\", \"Selected Text Color"
+"\", and \"Selection Color\" options."
+msgstr ""
+"Боловсруулах мужид системийн стандарт өнгийг хэрэглэх үү? Хэрвээ энэ "
+"сонголт хаагдсан бол боловсруулах мужийн »Дэвсгэр өнгө«, »Текстийн өнгө«, "
+"»Тэмдэглэгдсэн текстийн өнгө« ба »Тэмдэглэгээний өнгө« хэсэгт өгөгдсөнийг "
+"хэрэглэнэ."
+
+#: data/pluma.schemas.in.h:62
+msgid ""
+"Whether to use the system's default font for editing text instead of a font "
+"specific to pluma. If this option is turned off, then the font named in the "
+"\"Editor Font\" option will be used instead of the system font."
+msgstr ""
+"Боловсруулах мужид системийн стандарт бичгийг pluma -д өгөгдсөн бичгийн "
+"оронд хэрэглэх үү? Хэрвээ энэ сонголт хаагдсан бол »боловсруулагч-бичиг«"
+"ын доор өгөгдсөн бичгийг системийн стандарт бичгийн оронд хэрэглэнэ ."
+
+#: plugins/ASCII/ascii.c:43
+msgid "_ASCII Table"
+msgstr "_ASCII-Хүснэгт"
+
+#: plugins/ASCII/ascii.c:46
+msgid "Pop-up a dialog containing an ASCII Table"
+msgstr "ASCII хүснэгттэй диалог цонх харуулах"
+
+#: plugins/ASCII/ascii.c:303
+msgid "Char"
+msgstr "Тэмдэгт"
+
+#: plugins/ASCII/ascii.c:310
+msgid "Dec#"
+msgstr "Dec#"
+
+#: plugins/ASCII/ascii.c:317
+msgid "Hex#"
+msgstr "Hex#"
+
+#: plugins/ASCII/ascii.c:324
+msgid "Name"
+msgstr "Нэр"
+
+#: plugins/ASCII/ascii.c:369
+msgid "ASCII Table"
+msgstr "ASCII-хүснэгт"
+
+#: plugins/ASCII/ascii.c:382 plugins/ASCII/asciitable.glade2.h:2
+msgid "_Insert char"
+msgstr "Тэмдэгт _оруулах"
+
+#: plugins/ASCII/asciitable.glade2.h:1
+#: plugins/ASCII/ascii.pluma-plugin.desktop.in.h:1
+msgid "ASCII table"
+msgstr "ASCII-хүснэгт"
+
+#: plugins/ASCII/ascii.pluma-plugin.desktop.in.h:2
+msgid "Copyright (C) 2001-2002 Paolo Maggi"
+msgstr "© 2001-2002 Paolo Maggi"
+
+#: plugins/ASCII/ascii.pluma-plugin.desktop.in.h:3
+#: plugins/sample/sample.pluma-plugin.desktop.in.h:3
+#: plugins/shell_output/shell_output.pluma-plugin.desktop.in.h:3
+#: plugins/taglist/taglist.pluma-plugin.desktop.in.h:2
+#: plugins/indent/indent.pluma-plugin.desktop.in.h:4
+#: plugins/spell/spell.pluma-plugin.desktop.in.h:3
+msgid "Paolo Maggi <maggi@athena.polito.it>"
+msgstr "Paolo Maggi <maggi@athena.polito.it>"
+
+#: plugins/ASCII/ascii.pluma-plugin.desktop.in.h:4
+msgid "This plugin displays a pop-up dialog which contains an ASCII Table."
+msgstr "Энэ плугин (plugin) ASCII-хүснэгттэй диалог цонхонд харуулна."
+
+#. AFAIK, all cvs commit messages start with this
+#: plugins/cvschangelog/cvschangelog.c:49
+msgid "Open CVS Chan_geLogs"
+msgstr "_CVS-ChangeLogs нээх"
+
+#: plugins/cvschangelog/cvschangelog.c:52
+msgid "Searches for ChangeLogs in the current document and opens them"
+msgstr "Идэвхитэй баримт дотор ChangeLogs хайх ба түүнийг нээх"
+
+#: plugins/cvschangelog/cvschangelog.pluma-plugin.desktop.in.h:1
+msgid "A plugin that opens ChangeLogs found in CVS commit messages."
+msgstr "Энэ plugin CVS-Commit-мэдээнүүд дотроос олдсон ChangeLogs -г нээнэ."
+
+#: plugins/cvschangelog/cvschangelog.pluma-plugin.desktop.in.h:2
+msgid "CVS ChangeLog"
+msgstr "CVS-ChangeLog"
+
+#: plugins/cvschangelog/cvschangelog.pluma-plugin.desktop.in.h:3
+msgid "Copyright (C) 2002 James Willcox"
+msgstr "© 2002 James Willcox"
+
+#: plugins/cvschangelog/cvschangelog.pluma-plugin.desktop.in.h:4
+msgid "James Willcox <jwillcox@cs.indiana.edu>"
+msgstr "James Willcox <jwillcox@cs.indiana.edu>"
+
+#: plugins/diff/diff.c:65
+msgid "Co_mpare Files..."
+msgstr "Файлууд ха_рьцуулах..."
+
+#: plugins/diff/diff.c:68
+msgid "Makes a diff file from two documents or files"
+msgstr "Хоёр баримтаас эсвэл файлаас Diff-файл үүсгэх"
+
+#. Create the dialog
+#: plugins/diff/diff.c:271 plugins/diff/diff.pluma-plugin.desktop.in.h:2
+msgid "Compare Files"
+msgstr "Файлууд харьцуулах"
+
+#: plugins/diff/diff.c:285
+msgid "C_ompare"
+msgstr "Х_арьцуулах"
+
+#: plugins/diff/diff.c:513
+msgid "Executed command"
+msgstr "Биелүүлэх тушаал"
+
+#: plugins/diff/diff.c:652
+msgid "The two documents you selected are the same."
+msgstr "Сонгосон хоёр баримт яг адилхан."
+
+#: plugins/diff/diff.c:660
+msgid ""
+"The \"first\" file you selected does not exist.\n"
+"\n"
+"Please provide a valid file."
+msgstr ""
+"Таны сонгосон эхний файл алга.\n"
+"\n"
+"Та хүчинтэй файл сонгоно уу."
+
+#: plugins/diff/diff.c:669
+msgid ""
+"The \"second\" file you selected does not exist.\n"
+"\n"
+"Please provide a valid file."
+msgstr ""
+"Таны сонгосон хоёрдох файл алга.\n"
+"\n"
+"Та хүчинтэй файл сонгоно уу."
+
+#: plugins/diff/diff.c:677
+msgid "The two files you selected are the same."
+msgstr "Таны сонгосон хоёр файл яг адилхан."
+
+#: plugins/diff/diff.c:695
+msgid "The \"first\" document contains no text."
+msgstr "Эхний баримт текст агуулаагүй байна."
+
+#: plugins/diff/diff.c:730
+msgid "The \"second\" document contains no text."
+msgstr "Хоёрдох баримт текст агуулаагүй байна."
+
+#. FIXME: do better error reporting ... . Chema
+#: plugins/diff/diff.c:756
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"pluma could not create a temporary file."
+msgstr ""
+"Сонгосон баримтууд харьцуулах боломжгүй.\n"
+"\n"
+"pluma түр файл үүсгэж чадсангүй."
+
+#: plugins/diff/diff.c:776 plugins/diff/diff.c:789
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"Error executing the diff command."
+msgstr ""
+"Сонгосон баримтууд харьцуулах боломжгүй.\n"
+"\n"
+"diff тушаалыг гүйцэтгэж байхад алдаа."
+
+#: plugins/diff/diff.c:811
+msgid "No differences were found between the selected documents."
+msgstr "Сонгосон баримтуудын хооронд ялгаа олдсонгүй."
+
+#: plugins/diff/diff.c:852
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"The result contains invalid UTF-8 data."
+msgstr ""
+"Сонгосон баримтууд харьцуулах боломжгүй.\n"
+"\n"
+"Үр дүн хүчингүй UTF-8 өгөгдөл агуулж байна."
+
+#: plugins/diff/diff.glade2.h:1 plugins/shell_output/shell_output.glade2.h:1
+#: plugins/time/time.glade2.h:2 plugins/spell/spell-checker.glade2.h:1
+#: src/dialogs/replace.glade2.h:1 src/dialogs/uri.glade2.h:1
+msgid "*"
+msgstr "*"
+
+#: plugins/diff/diff.glade2.h:2
+msgid "Choose the files to compare."
+msgstr "Харьцуулах файлуудыг сонгоно уу."
+
+#: plugins/diff/diff.glade2.h:3
+msgid "Compare files..."
+msgstr "Файлуудыг харьцуулах..."
+
+#: plugins/diff/diff.glade2.h:4
+msgid "F_rom document"
+msgstr "_Баримтаас"
+
+#: plugins/diff/diff.glade2.h:5
+msgid "First"
+msgstr "Эхний"
+
+#: plugins/diff/diff.glade2.h:6
+msgid "First file from disk"
+msgstr "Эхний файл дискнээс"
+
+#: plugins/diff/diff.glade2.h:7
+msgid "First file from open document"
+msgstr "Эхний файл нээлттэй баримтаас"
+
+#: plugins/diff/diff.glade2.h:8
+msgid "From _document"
+msgstr "_Баримтаас"
+
+#: plugins/diff/diff.glade2.h:9
+msgid "From a _file on disk"
+msgstr "Дискэн дээрхи _файлаас"
+
+#: plugins/diff/diff.glade2.h:10
+msgid "From a file o_n disk"
+msgstr "Дискэн _дээрхи файлаас"
+
+#: plugins/diff/diff.glade2.h:11
+msgid "Ignore _blanks (-b option)"
+msgstr "Х_оосон тэмдэгт үл хэрэгсэх (-b сонголт)"
+
+#: plugins/diff/diff.glade2.h:12
+msgid "Note that this option is only supported by GNU diff"
+msgstr "Энэ сонголт зөвхөн GNU diff -р дэмжигдсэн"
+
+#: plugins/diff/diff.glade2.h:13
+msgid "Second"
+msgstr "Хоёрдох"
+
+#: plugins/diff/diff.glade2.h:14
+msgid "Second file from disk"
+msgstr "Хоёрдох файл дискнээс"
+
+#: plugins/diff/diff.glade2.h:15
+msgid "Second file from open document"
+msgstr "Хоёрдох файл нээлттэй баримтаас"
+
+#: plugins/diff/diff.glade2.h:16
+msgid "Select the \"first\" file..."
+msgstr "Эхний файлыг сонгоно уу..."
+
+#: plugins/diff/diff.glade2.h:17
+msgid "Select the \"second\" file..."
+msgstr "Хоёрдох файлыг сонгоно уу..."
+
+#: plugins/diff/diff.glade2.h:18
+msgid "Select the first file to compare"
+msgstr "Харьцуулах эхний файлыг сонгох"
+
+#: plugins/diff/diff.glade2.h:19
+msgid "Select the first open document to compare"
+msgstr "Харьцуулах нээлттэй байгаа эхний баримтыг сонгох"
+
+#: plugins/diff/diff.glade2.h:20
+msgid "Select the second file to compare"
+msgstr "Харьцуулах хоёрдох файлыг сонгох"
+
+#: plugins/diff/diff.glade2.h:21
+msgid "Select the second open document to compare"
+msgstr "Харьцуулах нээлттэй байгаа хоёрдох баримтыг сонгох"
+
+#: plugins/diff/diff.glade2.h:22
+msgid "Use the _unified output format (-u option)"
+msgstr "_Нэгтгэсэн гаралтын формат хэрэглэх (Сонголт: -u)"
+
+#: plugins/diff/diff.pluma-plugin.desktop.in.h:1
+msgid "Chema Celorio <chema@celorio.com> and Paolo Maggi <maggi@athena.polito.it>"
+msgstr "Chema Celorio <chema@celorio.com> & Paolo Maggi <maggi@athena.polito.it>"
+
+#: plugins/diff/diff.pluma-plugin.desktop.in.h:3
+msgid ""
+"Copyright (C) 2000 - 2001 Chema Celorio\n"
+"Copyright (C) 2002 Paolo Maggi"
+msgstr ""
+"© 2000-2001 Chema Celorio\n"
+"© 2002 Paolo Maggi"
+
+#: plugins/diff/diff.pluma-plugin.desktop.in.h:4
+msgid ""
+"The Compare Files plugin uses the <tt>diff</tt> program to compare two "
+"documents or files on disk.\n"
+"\n"
+"For more info on <tt>diff</tt> program, type <tt>man diff</tt> in a shell "
+"prompt."
+msgstr ""
+"Файл харьцуулах plugin дискэн дээрхи хоёр файл харьцуулахдаа <tt>diff</tt> "
+"программыг ашигладаг.\n"
+"\n"
+"Та тушаалын мөрөнд <tt>man diff</tt> гэж өгөөд <tt>diff</tt> программын "
+"тухай нэмэлт мэдээллийг авна."
+
+#: plugins/docinfo/docinfo.c:46
+msgid "_Document Statistics"
+msgstr "_Баримтын тоон үзүүлэлт"
+
+#: plugins/docinfo/docinfo.c:49
+msgid "Get statistic info on current document"
+msgstr "Идэвхитэй баримтын тоон үзүүлэлтийн мэдээллийг харуулах"
+
+#: plugins/docinfo/docinfo.c:142
+#: plugins/docinfo/docinfo.pluma-plugin.desktop.in.h:2
+msgid "Document Statistics"
+msgstr "Баримтын тоон үзүүлэлт"
+
+#: plugins/docinfo/docinfo.c:153
+msgid "_Update"
+msgstr "_Идэвхижүүлэх"
+
+#: plugins/docinfo/docinfo.glade2.h:1
+msgid "0"
+msgstr "0"
+
+#: plugins/docinfo/docinfo.glade2.h:2
+msgid "Bytes"
+msgstr "Байт"
+
+#: plugins/docinfo/docinfo.glade2.h:3
+msgid "Characters (no spaces)"
+msgstr "Тэмдэгт (хоосон бус)"
+
+#: plugins/docinfo/docinfo.glade2.h:4
+msgid "Characters (with spaces)"
+msgstr "Тэмдэгт (хоосонтой)"
+
+#: plugins/docinfo/docinfo.glade2.h:5
+msgid "File Name"
+msgstr "Файлын нэр"
+
+#: plugins/docinfo/docinfo.glade2.h:6 src/pluma-print.c:373
+msgid "Lines"
+msgstr "Мөрүүд"
+
+#: plugins/docinfo/docinfo.glade2.h:7
+msgid "Update"
+msgstr "Идэвхижүүлэх"
+
+#: plugins/docinfo/docinfo.glade2.h:8
+msgid "Words"
+msgstr "Үгс"
+
+#: plugins/docinfo/docinfo.glade2.h:9
+msgid "pluma: Document Info plugin"
+msgstr "pluma: Баримтийн Info-Plugin"
+
+#: plugins/docinfo/docinfo.pluma-plugin.desktop.in.h:1
+#: plugins/sample/sample.pluma-plugin.desktop.in.h:1
+#: plugins/shell_output/shell_output.pluma-plugin.desktop.in.h:1
+#: plugins/taglist/taglist.pluma-plugin.desktop.in.h:1
+#: plugins/indent/indent.pluma-plugin.desktop.in.h:1
+#: plugins/spell/spell.pluma-plugin.desktop.in.h:2
+msgid "Copyright (C) 2002 Paolo Maggi"
+msgstr "© 2002 Paolo Maggi"
+
+#: plugins/docinfo/docinfo.pluma-plugin.desktop.in.h:3
+msgid "Paolo Maggi <paolo.maggi@polito.it>"
+msgstr "Paolo Maggi <paolo.maggi@polito.it>"
+
+#: plugins/docinfo/docinfo.pluma-plugin.desktop.in.h:4
+msgid ""
+"The Document Statistics plugin analyzes the current document and determines "
+"the number of words, lines, characters and non-space characters in it and "
+"displays the result."
+msgstr ""
+"Баримтын тоон үзүүлэлтийн Plugin идэвхитэй баримтыг шинжилээд баримтад "
+"агуулагдаж буй үгсийн тоо, мөр, тэмдэгт түүгчлэн хоосон бус тэмдэгтийн "
+"олоод дэлгэцэнд үзүүлнэ."
+
+#: plugins/sample/sample.c:43
+msgid "Insert User Na_me"
+msgstr "Хэрэглэгчийн нэр оруулах"
+
+#: plugins/sample/sample.c:46
+msgid "Insert the user name at the cursor position"
+msgstr "Хэрэглэгчийн нэрийг курсорын байрлалд оруулах"
+
+#: plugins/sample/sample.c:172
+#: plugins/sample/sample.pluma-plugin.desktop.in.h:4
+msgid "User name"
+msgstr "Хэрэглэгчийн нэр"
+
+#: plugins/sample/sample.c:173
+#: plugins/sample/sample.pluma-plugin.desktop.in.h:2
+msgid "Inserts the user name at the cursor position."
+msgstr "Хэрэглэгчийн нэрийг курсорын байрлалд оруулах"
+
+#: plugins/shell_output/shell_output.c:56
+msgid "_Run Command..."
+msgstr "Тушаал а_жиллуулах..."
+
+#: plugins/shell_output/shell_output.c:59
+msgid "Run a command"
+msgstr "Тушаал ажиллуулах"
+
+#: plugins/shell_output/shell_output.c:161
+#: plugins/shell_output/shell_output.c:516
+msgid "Stopped"
+msgstr "Зогсоох"
+
+#: plugins/shell_output/shell_output.c:246
+msgid "An error occurs while running the selected command."
+msgstr "Хүссэн тушаалыг биелүүлж байхад алдаа гарлаа."
+
+#: plugins/shell_output/shell_output.c:302
+msgid "Run Command"
+msgstr "Тушаал биелүүлэх"
+
+#: plugins/shell_output/shell_output.c:318
+msgid "_Run"
+msgstr "А_жиллуулах"
+
+#: plugins/shell_output/shell_output.c:522
+msgid "Done"
+msgstr "Хийгдсэн"
+
+#: plugins/shell_output/shell_output.c:524
+msgid "Failed"
+msgstr "Нурсан"
+
+#: plugins/shell_output/shell_output.c:696
+msgid ""
+"The shell command entry is empty.\n"
+"\n"
+"Please, insert a valid shell command."
+msgstr ""
+"Shell-тушаалын бичлэг хоосон байна.\n"
+"\n"
+"Та нэгэн хүчинтэй Shell-тушаал өгнө үү."
+
+#: plugins/shell_output/shell_output.c:729
+msgid ""
+"Error parsing the shell command.\n"
+"\n"
+"Please, insert a valid shell command."
+msgstr ""
+"Shell-тушаалыг задлан ялгаж байхад алдаа.\n"
+"\n"
+"Та нэгэн хүчинтэй Shell-тушаал өгнө үү."
+
+#: plugins/shell_output/shell_output.c:815
+msgid "Executing command"
+msgstr "Тушаалыг биелүүлж байна"
+
+#: plugins/shell_output/shell_output.glade2.h:2
+msgid "Co_mmand:"
+msgstr "_Тушаал:"
+
+#: plugins/shell_output/shell_output.glade2.h:3
+msgid "Select the working directory..."
+msgstr "Та ажилын лавлахаа сонгоно уу..."
+
+#: plugins/shell_output/shell_output.glade2.h:4
+msgid "_Show results in Output Window"
+msgstr "Гаралтын цонхонд үр _дүнг харуулах"
+
+#: plugins/shell_output/shell_output.glade2.h:5
+msgid "_Working directory:"
+msgstr "_Ажилын лавлах:"
+
+#: plugins/shell_output/shell_output.glade2.h:6
+msgid "pluma: Shell Output plugin"
+msgstr "pluma: Shell-гаралтын plugin"
+
+#: plugins/shell_output/shell_output.pluma-plugin.desktop.in.h:2
+msgid ""
+"Execute an external program and eventually grabs its output in the output "
+"window."
+msgstr "Тусгай программ ажиллуулах болон боломжит гаралтыг гаралтын цонхонд харуулах."
+
+#: plugins/shell_output/shell_output.pluma-plugin.desktop.in.h:4
+msgid "Shell command"
+msgstr "Shell-тушаал"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:136
+msgid "Tag list plugin"
+msgstr "Таг жигсаалтын plugin"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:154
+msgid "Select the group of tags you want to use"
+msgstr "Та хэрэглэхийг хүссэн таг группээ сонгоно уу"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:176
+msgid "Tag Groups Combo"
+msgstr "Таг(tag) группын хослол"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:178
+msgid "Tags Name List"
+msgstr "Тагийн нэрийн жигсаалт"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:188
+msgid "Double-click on a tag to insert it in the current document"
+msgstr "Идэвхитэй баримтад таг оруулахдаа таган дээр давхар товшилт хийнэ үү."
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:199
+msgid "Tags"
+msgstr "Таг (tag)"
+
+#: plugins/taglist/pluma-taglist-plugin.c:46
+msgid "Tag _List"
+msgstr "Тагийн _жигсаалт"
+
+#.
+#. #define MENU_ITEM_NAME		"TagList"
+#.
+#: plugins/taglist/pluma-taglist-plugin.c:51
+msgid "Show the tag list window"
+msgstr "Тагийн жигсаалтын цонхыг харуулах"
+
+#: plugins/taglist/taglist.pluma-plugin.desktop.in.h:3
+msgid "Tag list"
+msgstr "Тагийн жигсаалт"
+
+#: plugins/taglist/taglist.pluma-plugin.desktop.in.h:4
+msgid ""
+"The tag list plugin provides a method to easily insert into a document "
+"commonly used tags/strings without having to type them."
+msgstr ""
+"»Тагийн жигсаалт« Plugin баримт дотор өргөн хэрэглэгддэг таг/стрингийг "
+"тэдгээрийг бүтэн бичихгүйгээр нэмэх боломж олгодог."
+
+#: plugins/time/time.c:48
+msgid "In_sert Date and Time..."
+msgstr "Огноо ба цаг _нэмэх..."
+
+#: plugins/time/time.c:51
+msgid "Insert current date and time at the cursor position"
+msgstr "Идэвхитэй огноо ба цагийг идэвхитэй курсорын байрлалд нэмэх"
+
+#: plugins/time/time.c:448
+msgid "Available formats"
+msgstr "Байгаа форматууд"
+
+#: plugins/time/time.c:552
+msgid "Configure insert date/time plugin..."
+msgstr "»Огноо/Цаг нэмэх« Plugin -г тохируулах..."
+
+#: plugins/time/time.glade2.h:1 src/dialogs/pluma-preferences.glade2.h:1
+msgid "    "
+msgstr "    "
+
+#: plugins/time/time.glade2.h:3
+msgid "<span size=\"small\">01/11/2002 17:52:00</span>"
+msgstr "<span size=\"small\">01.11.2002 17:52:00</span>"
+
+#: plugins/time/time.glade2.h:4
+msgid "<span weight=\"bold\"> When inserting date/time...</span>"
+msgstr "<span weight=\"bold\"> Огноо/Цаг оруулж байна...</span>"
+
+#: plugins/time/time.glade2.h:5
+msgid "Configure date/time plugin"
+msgstr "Огноо/Цаг Plugin -г тохируулах"
+
+#: plugins/time/time.glade2.h:6
+msgid "Insert Date and Time"
+msgstr "Огноо ба цаг оруулах"
+
+#: plugins/time/time.glade2.h:7
+msgid "Use the _selected format"
+msgstr "_Дараах форматыг хэрэглэх"
+
+#: plugins/time/time.glade2.h:8
+msgid "_Insert"
+msgstr "_Оруулах"
+
+#: plugins/time/time.glade2.h:9
+msgid "_Prompt for a format"
+msgstr "Форматыг _асуух"
+
+#: plugins/time/time.glade2.h:10
+msgid "_Use custom format"
+msgstr "_Хэвшмэл форматыг хэрэглэх"
+
+#: plugins/time/time.pluma-plugin.desktop.in.h:1
+msgid "Copyright (C) 2002 - Paolo Maggi"
+msgstr "© 2002 Paolo Maggi"
+
+#: plugins/time/time.pluma-plugin.desktop.in.h:2
+msgid "Insert Date/Time"
+msgstr "Огноо/Цаг оруулах"
+
+#: plugins/time/time.pluma-plugin.desktop.in.h:3
+msgid "Inserts current date and time at the cursor position."
+msgstr "Өнөөдрийн огноо ба идэвхитэй цагийг курсорын байрлалд оруулах."
+
+#: plugins/time/time.pluma-plugin.desktop.in.h:4
+msgid ""
+"Paolo Maggi <maggi@athena.polito.it> and Lee Mallabone <gnome@fonicmonkey."
+"net>"
+msgstr "Paolo Maggi <maggi@athena.polito.it> & Lee Mallabone <gnome@fonicmonkey.net>"
+
+#: plugins/indent/indent.c:45
+msgid "_Indent"
+msgstr "Догол _мөр"
+
+#: plugins/indent/indent.c:47
+msgid "Indent selected lines"
+msgstr "Тэмдэглэсэн мөрүүдийг доголтой болгох"
+
+#: plugins/indent/indent.c:49
+msgid "U_nindent"
+msgstr "Доголоос _зайлсхийх"
+
+#: plugins/indent/indent.c:51
+msgid "Unindent selected lines"
+msgstr "Тэмдэглэсэн мөрүүдээс доголыг авах"
+
+#: plugins/indent/indent.pluma-plugin.desktop.in.h:2
+msgid "Indent lines"
+msgstr "Мөр нэмэх"
+
+#: plugins/indent/indent.pluma-plugin.desktop.in.h:3
+msgid "Indent or un-indent selected lines."
+msgstr "Тэмдэглэсэн мөрүүдэд догол хийх эсвэл авах."
+
+#: plugins/sort/sort.glade2.h:1
+msgid "R_emove duplicates"
+msgstr "Давхарлыг зайл_уулах"
+
+#: plugins/sort/sort.glade2.h:2
+msgid "S_tart at column:"
+msgstr "Мөрийн _эхлэл:"
+
+#: plugins/sort/sort.glade2.h:3 plugins/sort/sort.pluma-plugin.desktop.in.h:3
+msgid "Sort"
+msgstr "Эрэмблэх"
+
+#: plugins/sort/sort.glade2.h:4
+msgid "You cannot undo a sort operation"
+msgstr "Та эрэмбэлэх үйлдлийг цуцалж чадахгүй"
+
+#: plugins/sort/sort.glade2.h:5
+msgid "_Ignore case"
+msgstr "Том-/Жижиг бичлэг ү_л хэрэгсэх"
+
+#: plugins/sort/sort.glade2.h:6
+msgid "_Reverse order"
+msgstr "Дарааллын _урвуулах"
+
+#: plugins/sort/sort.glade2.h:7
+msgid "_Sort"
+msgstr "_Эрэмблэх"
+
+#: plugins/sort/sort.pluma-plugin.desktop.in.h:1
+msgid ""
+"Carlo Borreo <borreo@softhome.net>, Lee Mallabone <gnome@fonicmonkey.net> "
+"and Paolo Maggi <maggi@athena.polito.it>"
+msgstr ""
+"Carlo Borreo <borreo@softhome.net>, Lee Mallabone <gnome@fonicmonkey.net> & "
+"Paolo Maggi <maggi@athena.polito.it>"
+
+#: plugins/sort/sort.pluma-plugin.desktop.in.h:2
+msgid ""
+"Copyright (C) 2001 Carlo Borreo\n"
+"Copyright (C) 2002 Lee Mallabone and Paolo Maggi"
+msgstr ""
+"© 2001 Carlo Borreo\n"
+"© 2002 Lee Mallabone & Paolo Maggi"
+
+#: plugins/sort/sort.pluma-plugin.desktop.in.h:4
+msgid "Sorts a document or selected text."
+msgstr "Баримт эсвэл тэмдэглэсэн текст эрэмбэлэх."
+
+#: plugins/spell/pluma-automatic-spell-checker.c:318
+#: plugins/spell/pluma-spell-checker-dialog.c:504
+msgid "(no suggested words)"
+msgstr "(зөвлөмж алга)"
+
+#: plugins/spell/pluma-automatic-spell-checker.c:342
+msgid "_More..."
+msgstr "_Илүү..."
+
+#. Ignore all
+#: plugins/spell/pluma-automatic-spell-checker.c:395
+msgid "_Ignore All"
+msgstr "Бүгдийг ү_л хэрэгсэх"
+
+#. + Add to Dictionary
+#: plugins/spell/pluma-automatic-spell-checker.c:408
+msgid "_Add"
+msgstr "_Нэмэх"
+
+#: plugins/spell/pluma-automatic-spell-checker.c:445
+msgid "_Spelling Suggestions..."
+msgstr "_Зөв бичгийн зөвлөмж..."
+
+#: plugins/spell/pluma-spell-checker-dialog.c:285
+msgid "Check Spelling"
+msgstr "Зөв бичлэг шалгалт"
+
+#: plugins/spell/pluma-spell-checker-dialog.c:296
+msgid "Suggestions"
+msgstr "Зөвлөмжүүд"
+
+#: plugins/spell/pluma-spell-checker-dialog.c:608
+msgid "(correct spelling)"
+msgstr "(Зөв бичлэгээр засах)"
+
+#: plugins/spell/pluma-spell-checker-dialog.c:785
+msgid "Completed spell checking"
+msgstr "Зөв бичлэг шалгалт дууссан"
+
+#: plugins/spell/pluma-spell-checker.c:73
+msgid "Breton"
+msgstr "Бретон хэл"
+
+#: plugins/spell/pluma-spell-checker.c:74
+msgid "Catalan"
+msgstr "Каталан хэл"
+
+#: plugins/spell/pluma-spell-checker.c:75
+msgid "Czech"
+msgstr "Чех хэл"
+
+#: plugins/spell/pluma-spell-checker.c:76
+msgid "Danish"
+msgstr "Дани хэл"
+
+#: plugins/spell/pluma-spell-checker.c:77
+msgid "German (Germany)"
+msgstr "Герман хэл (герман)"
+
+#: plugins/spell/pluma-spell-checker.c:78
+msgid "German (Swiss)"
+msgstr "Герман хэл (Швецарь)"
+
+#: plugins/spell/pluma-spell-checker.c:79
+msgid "English (American)"
+msgstr "Англи хэл (Америк)"
+
+#: plugins/spell/pluma-spell-checker.c:80
+msgid "English (British)"
+msgstr "Англи хэл (Их британи)"
+
+#: plugins/spell/pluma-spell-checker.c:81
+msgid "English (Canadian)"
+msgstr "Англи хэл (Канад)"
+
+#: plugins/spell/pluma-spell-checker.c:82
+msgid "Esperanto"
+msgstr "Аспирант"
+
+#: plugins/spell/pluma-spell-checker.c:83
+msgid "Spanish"
+msgstr "Испани"
+
+#: plugins/spell/pluma-spell-checker.c:84
+msgid "Faroese"
+msgstr "Фарус хэл"
+
+#: plugins/spell/pluma-spell-checker.c:85
+msgid "French (France)"
+msgstr "Франц хэл (Франц)"
+
+#: plugins/spell/pluma-spell-checker.c:86
+msgid "French (Swiss)"
+msgstr "Франц хэл (Швецарь)"
+
+#: plugins/spell/pluma-spell-checker.c:87
+msgid "Italian"
+msgstr "Итали хэл"
+
+#: plugins/spell/pluma-spell-checker.c:88
+msgid "Dutch"
+msgstr "Дуч хэл"
+
+#: plugins/spell/pluma-spell-checker.c:89
+msgid "Norwegian"
+msgstr "Норвеги хэл"
+
+#: plugins/spell/pluma-spell-checker.c:90
+msgid "Polish"
+msgstr "Польш"
+
+#: plugins/spell/pluma-spell-checker.c:91
+msgid "Portuguese (Portugal)"
+msgstr "Португали хэл (Португали)"
+
+#: plugins/spell/pluma-spell-checker.c:92
+msgid "Portuguese (Brazilian)"
+msgstr "Португали хэл (Бразил)"
+
+#: plugins/spell/pluma-spell-checker.c:93
+msgid "Russian"
+msgstr "Орос хэл"
+
+#: plugins/spell/pluma-spell-checker.c:94
+msgid "Swedish"
+msgstr "Швед хэл"
+
+#: plugins/spell/pluma-spell-checker.c:653
+msgid "Default"
+msgstr "Стандарт"
+
+#: plugins/spell/pluma-spell-language-dialog.c:229
+#: src/dialogs/pluma-dialog-goto-line.c:165
+#: src/dialogs/pluma-plugin-program-location-dialog.c:96
+#: src/dialogs/pluma-encodings-dialog.c:238
+#, c-format
+msgid "Could not find the required widgets inside %s."
+msgstr "Шаардлагатай үзэмжүүд (widgets) %s дотроос олдсонгүй."
+
+#: plugins/spell/pluma-spell-language-dialog.c:249
+msgid "Languages"
+msgstr "Хэлүүд"
+
+#: plugins/spell/spell.pluma-plugin.desktop.in.h:1
+msgid "Checks the spelling of the current document."
+msgstr "Идэвхитэй баримтын зөв бичлэгийг шалгах."
+
+#: plugins/spell/spell.pluma-plugin.desktop.in.h:4
+msgid "Spell checker"
+msgstr "Зөв бичлэгийг шалгах"
+
+#: plugins/spell/languages-dialog.glade2.h:1
+msgid "Select the _language of the current document."
+msgstr "Та идэвхитэй баримтын _хэлийг сонгоно уу."
+
+#: plugins/spell/languages-dialog.glade2.h:2
+msgid "Set language"
+msgstr "Хэл тогтоох"
+
+#: plugins/spell/spell-checker.glade2.h:2
+msgid "<b>Language</b>"
+msgstr "<b>Хэл</b>"
+
+#: plugins/spell/spell-checker.glade2.h:3
+msgid "<b>word</b>"
+msgstr "<b>Үг</b>"
+
+#: plugins/spell/spell-checker.glade2.h:4
+msgid "Add w_ord"
+msgstr "Ү_г нэмэх"
+
+#: plugins/spell/spell-checker.glade2.h:5
+msgid "Cha_nge"
+msgstr "Өө_рчилөх"
+
+#: plugins/spell/spell-checker.glade2.h:6
+msgid "Change A_ll"
+msgstr "_Бүгдийг өөрчилөх"
+
+#: plugins/spell/spell-checker.glade2.h:7
+msgid "Change _to:"
+msgstr "Өөрчилөх _руу:"
+
+#: plugins/spell/spell-checker.glade2.h:8
+msgid "Check _Word"
+msgstr "Ү_г шалгах"
+
+#: plugins/spell/spell-checker.glade2.h:9
+msgid "Check spelling"
+msgstr "Зөв бичлэг шалгах"
+
+#: plugins/spell/spell-checker.glade2.h:10
+msgid "Ignore _All"
+msgstr "_Бүгдийг үл хэрэгсэх"
+
+#: plugins/spell/spell-checker.glade2.h:11
+msgid "Language:"
+msgstr "Хэл:"
+
+#: plugins/spell/spell-checker.glade2.h:12
+msgid "Mispelled word:"
+msgstr "Тодорхойгүй эсвэл буруу бичигдсэн үг:"
+
+#: plugins/spell/spell-checker.glade2.h:13
+msgid "User dictionary:"
+msgstr "Хэрэгчийн толь бичиг:"
+
+#: plugins/spell/spell-checker.glade2.h:14
+msgid "_Ignore"
+msgstr "Ү_л хэрэгсэх"
+
+#: plugins/spell/spell-checker.glade2.h:15
+msgid "_Suggestions:"
+msgstr "_Зөвлөмжүүд:"
+
+#. Key in case the plugin ever needs any settings
+#: plugins/sort/sort.c:26
+msgid "S_ort..."
+msgstr "_Эрэмбэлэх..."
+
+#: plugins/sort/sort.c:29
+msgid "Sort the current document or selection."
+msgstr "Идэвхитэй баримт эсвэл тэмдэглэгээг эрэмбэлэх."
+
+#: plugins/spell/spell.c:51
+msgid "_Check Spelling"
+msgstr "Зөв бичлэг _шалгах"
+
+#: plugins/spell/spell.c:54
+msgid "Check the current document for incorrect spelling"
+msgstr "Идэвхитэй баримтын зөв бичгийн алдааг шалгах"
+
+#: plugins/spell/spell.c:56
+msgid "_Autocheck Spelling"
+msgstr "А_втомат зөв бичэлт шалгалт"
+
+#: plugins/spell/spell.c:59
+msgid "Automatically spell-check the current document"
+msgstr "Идэвхитэй баримтад автоматаар зөв бичилт шалгах"
+
+#: plugins/spell/spell.c:61
+msgid "Set _Language"
+msgstr "Хэл _тогтоох"
+
+#: plugins/spell/spell.c:64
+msgid "Set the language of the current document"
+msgstr "Идэвхитэй баримтын хэлийг тогтоох"
+
+#: plugins/spell/spell.c:549
+msgid "The document is empty."
+msgstr "Баримт текст агуулаагүй байна"
+
+#: plugins/spell/spell.c:567
+msgid "The selected text does not contain mispelled words."
+msgstr "Баримт алдаатай үг агуулаагүй байна."
+
+#: plugins/spell/spell.c:568
+msgid "The document does not contain mispelled words."
+msgstr "Баримт алдаатай үг агуулаагүй байна."
+
+#: src/bonobo-mdi.c:549 src/bonobo-mdi.c:1962
+#, c-format
+msgid "Activate %s"
+msgstr "%s идэвхижүүлэх"
+
+#: src/dialogs/pluma-dialog-goto-line.c:139
+msgid "Go to Line"
+msgstr "Мөр рүү очих"
+
+#. Add Goto Line button
+#: src/dialogs/pluma-dialog-goto-line.c:149
+msgid "_Go to Line"
+msgstr "Мөр рүү _оч"
+
+#: src/dialogs/pluma-dialog-replace.c:132
+#: src/dialogs/pluma-dialog-replace.c:1025 src/pluma-commands.c:362
+#, c-format
+msgid "The text \"%s\" was not found."
+msgstr "»%s« текст олдсонгүй."
+
+#: src/dialogs/pluma-dialog-replace.c:240 src/dialogs/replace.glade2.h:4
+#: src/pluma-ui.xml.h:51
+msgid "Replace"
+msgstr "Орлуулах"
+
+#: src/dialogs/pluma-dialog-replace.c:251
+msgid "Replace _All"
+msgstr "_Бүгдийг орлуулах"
+
+#. Add Replace button
+#: src/dialogs/pluma-dialog-replace.c:254 src/pluma-file-selector-util.c:129
+msgid "_Replace"
+msgstr "_Орлуулах"
+
+#: src/dialogs/pluma-dialog-replace.c:376 src/pluma-ui.xml.h:22
+msgid "Find"
+msgstr "Хайх"
+
+#: src/dialogs/pluma-dialog-replace.c:1034
+#, c-format
+msgid "Found and replaced %d occurences."
+msgstr "%d тохиолдлууд олдож орлуулагдлаа."
+
+#: src/dialogs/pluma-dialog-uri.c:83
+msgid "Open Location"
+msgstr "Байрлал нээх"
+
+#: src/dialogs/pluma-plugin-manager.c:53
+msgid "Plugin"
+msgstr "Plugin"
+
+#: src/dialogs/pluma-plugin-manager.c:54
+msgid "Load"
+msgstr "Ачаалах"
+
+#: src/dialogs/pluma-plugin-manager.c:320
+msgid "Module file name"
+msgstr "Модул -файлын нэр"
+
+#: src/dialogs/pluma-plugin-manager.c:321
+msgid "Author(s)"
+msgstr "Зохиогч(ид)"
+
+#: src/dialogs/pluma-plugin-manager.c:488
+msgid "Could not find plugin-manager.glade2, reinstall pluma.\n"
+msgstr "plugin-manager.glade2 олдсонгүй; Та pluma -г шинээр суулгана уу.\n"
+
+#: src/dialogs/pluma-plugin-manager.c:511
+msgid "Invalid glade file for plugin manager -- not all widgets found.\n"
+msgstr "Plugin менежерийн хүчингүй Glade-Файл  -- бүх үзэмж(widgets) олдсонгүй.\n"
+
+#: src/dialogs/pluma-plugin-program-location-dialog.c:74
+#: src/dialogs/program-location-dialog.glade2.h:1
+msgid "Set program location..."
+msgstr "Программын байрлалыг өгөх..."
+
+#: src/dialogs/pluma-plugin-program-location-dialog.c:102
+#, c-format
+msgid ""
+"The %s plugin uses an external program, called <tt>%s</tt>, to perform its "
+"task.\n"
+"\n"
+"Please, specify the location of the <tt>%s</tt> program."
+msgstr ""
+"%s plugin даалгавар биелүүлэхийн тулд <tt>%s</tt> нэртэй гадаад программ "
+"ашиглаж байна.\n"
+"\n"
+"Та <tt>%s</tt> программын байрлалыг өгнө үү."
+
+#: src/dialogs/pluma-plugin-program-location-dialog.c:148
+msgid "The selected file is not executable."
+msgstr "Сонгосон файл ажилын бус."
+
+#: src/dialogs/pluma-preferences-dialog.c:232
+msgid "Font & Colors"
+msgstr "Бичиг ба өнгө"
+
+#: src/dialogs/pluma-preferences-dialog.c:234
+#: src/dialogs/pluma-preferences.glade2.h:47
+msgid "Tabs"
+msgstr "ТАВ-ууд"
+
+#: src/dialogs/pluma-preferences-dialog.c:235
+msgid "Wrap Mode"
+msgstr "Мөр таслах"
+
+#: src/dialogs/pluma-preferences-dialog.c:236
+msgid "Auto Indent"
+msgstr "Авто-догол мөр"
+
+#: src/dialogs/pluma-preferences-dialog.c:237
+msgid "Line Numbers"
+msgstr "Мөрийн дугаар"
+
+#: src/dialogs/pluma-preferences-dialog.c:239 src/pluma-ui.xml.h:32
+msgid "Open"
+msgstr "Нээх"
+
+#: src/dialogs/pluma-preferences-dialog.c:240
+#: src/dialogs/pluma-preferences.glade2.h:42 src/pluma-ui.xml.h:55
+msgid "Save"
+msgstr "Хадгалах"
+
+#: src/dialogs/pluma-preferences-dialog.c:241
+#: src/dialogs/pluma-preferences.glade2.h:50 src/pluma-ui.xml.h:72
+msgid "Undo"
+msgstr "Цуцлах"
+
+#: src/dialogs/pluma-preferences-dialog.c:249
+msgid "Page"
+msgstr "Хуудас"
+
+#: src/dialogs/pluma-preferences-dialog.c:251
+msgid "Fonts"
+msgstr "Бичгүүд"
+
+#: src/dialogs/pluma-preferences-dialog.c:258
+msgid "Manager"
+msgstr "Менежер"
+
+#: src/dialogs/pluma-preferences-dialog.c:266
+msgid "Editor"
+msgstr "Боловсруулагч"
+
+#: src/dialogs/pluma-preferences-dialog.c:267
+#: src/dialogs/pluma-preferences.glade2.h:38 src/pluma-print.c:364
+#: src/pluma-ui.xml.h:41
+msgid "Print"
+msgstr "Хэвлэх"
+
+#: src/dialogs/pluma-preferences-dialog.c:268
+msgid "Plugins"
+msgstr "Plugins"
+
+#: src/dialogs/pluma-preferences-dialog.c:341
+msgid "Cat_egories:"
+msgstr "_Ангилалууд:"
+
+#: src/dialogs/pluma-preferences-dialog.c:363
+msgid "Preferences"
+msgstr "Тохируулга"
+
+#: src/dialogs/pluma-preferences-dialog.c:602
+msgid "Categories"
+msgstr "Ангилалууд"
+
+#: src/dialogs/pluma-preferences-dialog.c:835
+msgid "Push this button to select the font to be used by the editor"
+msgstr "Боловсруулагчийн хэрэглэх бичгийг сонгохдоо та энэ товчин дээр дарна уу"
+
+#: src/dialogs/pluma-preferences-dialog.c:838
+msgid "Push this button to configure text color"
+msgstr "Текстын өнгө тохируулахдаа энэ товчин дээр дарна уу"
+
+#: src/dialogs/pluma-preferences-dialog.c:840
+msgid "Push this button to configure background color"
+msgstr "Дэвсгэрийн өнгө тохируулахдаа энэ товчин дээр дарна уу"
+
+#: src/dialogs/pluma-preferences-dialog.c:842
+msgid ""
+"Push this button to configure the color in which the selected text should "
+"appear"
+msgstr ""
+"Сонгосон текстийн харагдах өнгийг тохируулахдаа энэ товчин дээр "
+"дарна уу"
+
+#: src/dialogs/pluma-preferences-dialog.c:845
+msgid ""
+"Push this button to configure the color in which the selected text should be "
+"marked"
+msgstr ""
+"Сонгосон текстийн тэмдэглэгдсэн өнгийг тохируулахдаа энэ товчин дээр "
+"дарна уу"
+
+#: src/dialogs/pluma-preferences-dialog.c:1850
+msgid "Push this button to select the font to be used to print the body"
+msgstr ""
+"Биеийг хэвлэхэд хэрэглэгдэх бичгийг тохируулахдаа та энэ товчин дээр "
+"дарна уу"
+
+#: src/dialogs/pluma-preferences-dialog.c:1852
+msgid "Push this button to select the font to be used to print the headers"
+msgstr ""
+"Толгойн хэсэгийг хэвлэхэд хэрэглэгдэх бичгийг тохируулахдаа та энэ "
+"товчин дээр дарна уу"
+
+#: src/dialogs/pluma-preferences-dialog.c:1854
+msgid "Push this button to select the font to be used to print line numbers"
+msgstr ""
+"Мөрийн дугаар хэвлэхэд хэрэглэгдэх бичгийг тохируулахдаа та энэ товчин "
+"дээр дарна уу"
+
+#: src/dialogs/pluma-preferences.glade2.h:2
+msgid "<b>Font</b>"
+msgstr "<b>Бичиг</b>"
+
+#: src/dialogs/pluma-preferences.glade2.h:3
+msgid "<span weight=\"bold\" size=\"x-large\">Auto Indent</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">Авто-догол мөр</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:4
+msgid "<span weight=\"bold\" size=\"x-large\">Font &amp; Colors</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">Бичиг &amp; Өнгө</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:5
+msgid "<span weight=\"bold\" size=\"x-large\">Fonts</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">Бичиг</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:6
+msgid "<span weight=\"bold\" size=\"x-large\">Line Numbers</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">Мөрийн дугаар</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:7
+msgid "<span weight=\"bold\" size=\"x-large\">Manager</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">Менежер</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:8
+msgid "<span weight=\"bold\" size=\"x-large\">Open</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">Нээх</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:9
+msgid "<span weight=\"bold\" size=\"x-large\">Page</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">Хуудас</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:10
+msgid "<span weight=\"bold\" size=\"x-large\">Save</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">Хадгалах</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:11
+msgid "<span weight=\"bold\" size=\"x-large\">Tabs</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">Tabs</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:12
+msgid "<span weight=\"bold\" size=\"x-large\">Undo</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">Цуцлах</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:13
+msgid "<span weight=\"bold\" size=\"x-large\">Wrap Mode</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">Мөр таслах</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:14
+msgid "<span weight=\"bold\">Colors</span>"
+msgstr "<span weight=\"bold\">Өнгө</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:15
+msgid "<span weight=\"bold\">When saving a new file...</span>"
+msgstr "<span weight=\"bold\">Шинэ файлыг хадгалаж байна...</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:16
+msgid "<span weight=\"bold\">When saving an existing file...</span>"
+msgstr "<span weight=\"bold\">Оршин буй файлыг хадгалаж байна...</span>"
+
+#: src/dialogs/pluma-preferences.glade2.h:17
+msgid "Add new encodings"
+msgstr "Шинэ тэмдэгт кодчилол нэмэх"
+
+#: src/dialogs/pluma-preferences.glade2.h:18
+msgid "Always use U_TF-8 encoding (faster)"
+msgstr "Үргэлж U_TF-8-кодчилол хэрэглэх (илүү хурдан)"
+
+#: src/dialogs/pluma-preferences.glade2.h:19
+msgid "Always use _UTF-8 encoding (faster)"
+msgstr "Үргэлж _UTF-8-кодчилол хэрэглэх (илүү хурдан)"
+
+#: src/dialogs/pluma-preferences.glade2.h:20
+msgid "Create a _backup copy of files before saving"
+msgstr "Файл хадгалахын өмнө хамгаалалтын _хуулбар үүсгэх"
+
+#: src/dialogs/pluma-preferences.glade2.h:21
+msgid "Do not _split words over two lines"
+msgstr "Зөвхөн үгийн _төгсгөлөөр таслана"
+
+#: src/dialogs/pluma-preferences.glade2.h:22
+msgid "Editor _font: "
+msgstr "Боловсруулагч _бичиг:"
+
+#: src/dialogs/pluma-preferences.glade2.h:23
+msgid "Enable _auto indentation"
+msgstr "_Авто догол мөр идэвхижүүлэх"
+
+#: src/dialogs/pluma-preferences.glade2.h:24
+msgid "Enable text _wrapping"
+msgstr "Мөр _таслалт идэвхижүүлэх"
+
+#: src/dialogs/pluma-preferences.glade2.h:25
+msgid "Fonts & Colors"
+msgstr "Бичиг ба өнгө"
+
+#: src/dialogs/pluma-preferences.glade2.h:26
+msgid "Insert _spaces instead of tabs"
+msgstr "_Хоосон тэмдэгт ТАВ-н оронд оруулах"
+
+#: src/dialogs/pluma-preferences.glade2.h:27
+msgid "LOGO"
+msgstr "LOGO"
+
+#: src/dialogs/pluma-preferences.glade2.h:28
+msgid "Line _numbers:"
+msgstr "Мөрийн _дугаар:"
+
+#: src/dialogs/pluma-preferences.glade2.h:29
+msgid "Line numbers"
+msgstr "Мөрийн дугаар"
+
+#: src/dialogs/pluma-preferences.glade2.h:30
+msgid "Move down"
+msgstr "Доош зөөх"
+
+#: src/dialogs/pluma-preferences.glade2.h:31
+msgid "Move up"
+msgstr "Дээш зөөх"
+
+#: src/dialogs/pluma-preferences.glade2.h:32
+msgid "Page he_aders:"
+msgstr "Хуудсын _толгой:"
+
+#: src/dialogs/pluma-preferences.glade2.h:33
+msgid "Pick the background color"
+msgstr "Та дэвсгэр өнгөө сонгоно уу"
+
+#: src/dialogs/pluma-preferences.glade2.h:34
+msgid "Pick the selected text color"
+msgstr "Тэмдэглэсэн текстийн өнгөө сонгоно уу"
+
+#: src/dialogs/pluma-preferences.glade2.h:35
+msgid "Pick the selection color"
+msgstr "Тэмдэглэгээний өнгөө сонгоно уу"
+
+#: src/dialogs/pluma-preferences.glade2.h:36
+msgid "Pick the text color"
+msgstr "Текстийн өнгөө сонгоно уу"
+
+#: src/dialogs/pluma-preferences.glade2.h:37
+msgid "Plugin manager"
+msgstr "Plugin-менежер"
+
+#: src/dialogs/pluma-preferences.glade2.h:39
+msgid "Print _line numbers every"
+msgstr "Бүх мөрийн _дугаар хэвлэх"
+
+#: src/dialogs/pluma-preferences.glade2.h:40
+msgid "Print fonts"
+msgstr "Хэвлэх бичиг"
+
+#: src/dialogs/pluma-preferences.glade2.h:41
+msgid "Remove an encoding"
+msgstr "Тэмдэгт кодчилолыг устгах"
+
+#: src/dialogs/pluma-preferences.glade2.h:43
+msgid "Se_lection color:"
+msgstr "_Тэмдэглэгээний өнгө:"
+
+#: src/dialogs/pluma-preferences.glade2.h:44
+msgid "Selecte_d text color:"
+msgstr "_Сонгосон текстийн өнгө:"
+
+#: src/dialogs/pluma-preferences.glade2.h:45
+msgid "Set _tabs width equivalent to"
+msgstr "_ТАВ -н өргөн тэнцүүлэн тогтоох"
+
+#: src/dialogs/pluma-preferences.glade2.h:46
+msgid "Set limit on _undo actions to"
+msgstr "_Цуцлах үйлдэлийн хязгаар тогтоох"
+
+#: src/dialogs/pluma-preferences.glade2.h:48
+msgid "U_se default theme colors"
+msgstr "_Стандарт хэлбэрийн өнгө хэрэглэх"
+
+#: src/dialogs/pluma-preferences.glade2.h:49
+msgid "U_se original file encoding if possible"
+msgstr "Боломжтой бол файлын жинхэнэ хуучин кодчилолыг х_эрэглэх"
+
+#: src/dialogs/pluma-preferences.glade2.h:51
+msgid "Use cu_rrent locale's encoding if possible"
+msgstr "Боломжтой бол _идэвхитэй байрлалын тохируулгын кодчилолыг хэрэглэх"
+
+#: src/dialogs/pluma-preferences.glade2.h:52
+msgid "Use current _locale's encoding if possible"
+msgstr "Боломжтой бол идэвхитэй _байрлалын тохируулгын кодчилолыг хэрэглэх"
+
+#: src/dialogs/pluma-preferences.glade2.h:53
+msgid "Wrap mode"
+msgstr "Мөр таслах"
+
+#: src/dialogs/pluma-preferences.glade2.h:54
+msgid "_Autosave current file every"
+msgstr "Идэвхитэй файлыг үргэлж _автоматаар хадгалах"
+
+#: src/dialogs/pluma-preferences.glade2.h:55
+msgid "_Background color:"
+msgstr "_Дэвсгэр өнгө:"
+
+#: src/dialogs/pluma-preferences.glade2.h:56
+msgid "_Body:"
+msgstr "_Бие:"
+
+#: src/dialogs/pluma-preferences.glade2.h:57
+msgid "_Display line numbers"
+msgstr "_Мөрийн дугаар харуулах"
+
+#: src/dialogs/pluma-preferences.glade2.h:58
+msgid "_Print page headers"
+msgstr "хуудсын _толгой хэвлэх"
+
+#: src/dialogs/pluma-preferences.glade2.h:59
+msgid "_Restore Default Fonts"
+msgstr "Стандарт бичгийг _сэргээх"
+
+#: src/dialogs/pluma-preferences.glade2.h:60
+msgid "_Supported encodings:"
+msgstr "Дэмжигдсэн тэмдэгт _кодчилолууд:"
+
+#: src/dialogs/pluma-preferences.glade2.h:61
+msgid "_Text color:"
+msgstr "_Текстийн өнгө:"
+
+#: src/dialogs/pluma-preferences.glade2.h:62
+msgid "_Use default theme font"
+msgstr "Стандарт хэлбэрийн бичиг х_эрэглэх"
+
+#: src/dialogs/pluma-preferences.glade2.h:63
+msgid "_action(s)"
+msgstr "_Үйлдэл(үүд) хязгаарлах"
+
+#: src/dialogs/pluma-preferences.glade2.h:64
+msgid "_minutes"
+msgstr "_Минутууд"
+
+#: src/dialogs/pluma-preferences.glade2.h:65
+msgid "character(s)"
+msgstr "Тэмдэгт(үүд)"
+
+#: src/dialogs/pluma-preferences.glade2.h:66
+msgid "li_ne(s)"
+msgstr "_Мөр(үүд) оруулах"
+
+#: src/dialogs/gnome-print-font-dialog.c:107
+msgid "_Insert a new preview phrase."
+msgstr "Шинэ урьд.харах Phrase _оруулах"
+
+#: src/dialogs/gnome-print-font-dialog.c:113
+msgid "Modify preview phrase..."
+msgstr "урьд.харах Phrase өөрчилөх..."
+
+#: src/dialogs/gnome-print-font-dialog.c:167
+msgid "Preview"
+msgstr "Урьд.харах"
+
+#: src/dialogs/gnome-print-font-dialog.c:180
+msgid "_Modify preview phrase..."
+msgstr "Урьд.харах текст өө_рчилөх..."
+
+#: src/dialogs/gnome-print-font-dialog.c:243
+msgid "Font Selection"
+msgstr "Бичиг сонголт"
+
+#: src/dialogs/gnome-print-font-picker.c:89
+msgid "Sans Regular 12"
+msgstr "Sans Regulär 12"
+
+#: src/dialogs/gnome-print-font-picker.c:90
+msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
+msgstr "АаБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоӨөПпРрСсТтУуҮүФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯя"
+
+#: src/dialogs/gnome-print-font-picker.c:91
+msgid "Pick a Font"
+msgstr "Та нэгэн бичиг сонгоно уу"
+
+#: src/dialogs/gnome-print-font-picker.c:176
+msgid "Title"
+msgstr "Гарчиг"
+
+#: src/dialogs/gnome-print-font-picker.c:177
+msgid "The title of the selection dialog box"
+msgstr "Сонголтийн диалогийн гарчиг"
+
+#: src/dialogs/gnome-print-font-picker.c:197
+msgid "Font name"
+msgstr "Бичгийн нэр"
+
+#: src/dialogs/gnome-print-font-picker.c:198
+msgid "Name of the selected font"
+msgstr "Тэмдэглэсэн бичгийн нэр"
+
+#: src/dialogs/gnome-print-font-picker.c:206
+msgid "Preview text"
+msgstr "Урьд.харах текст "
+
+#: src/dialogs/gnome-print-font-picker.c:207
+msgid "Preview text shown in the dialog"
+msgstr "Диалог доторхи текст урьдчилан харах"
+
+#: src/dialogs/gnome-print-font-picker.c:215
+msgid "Use font in label"
+msgstr "Бичээсийн бичиг хэрэглэх"
+
+#: src/dialogs/gnome-print-font-picker.c:216
+msgid "Use font in the label in font info mode"
+msgstr "Бичээс доторхи бичгийн-мэд-горимд хэрэглэх бичиг"
+
+#: src/dialogs/gnome-print-font-picker.c:224
+msgid "Font size for label"
+msgstr "Бичээсийн бичгийн хэмжээ"
+
+#: src/dialogs/gnome-print-font-picker.c:225
+msgid "Font size for label in font info mode"
+msgstr "Бичгийн-мэд-горим дахь бичээсийн бичгийн хэмжээ"
+
+#: src/dialogs/gnome-print-font-picker.c:235
+msgid "Show size"
+msgstr "Хэмжээ харуулах"
+
+#: src/dialogs/gnome-print-font-picker.c:236
+msgid "Show size in font info mode"
+msgstr "Бичгийн-Мэд-горимд хэмжээг харуулах"
+
+#: src/dialogs/gnome-print-font-picker.c:1015
+msgid "Font"
+msgstr "Бичиг"
+
+#. gnome_print_font_picker_update_font_info
+#: src/dialogs/goto-line.glade2.h:1
+msgid "Goto Line"
+msgstr "Мөр рүү оч"
+
+#: src/dialogs/goto-line.glade2.h:2
+msgid "_Line number:"
+msgstr "_Мөрийн дугаар:"
+
+#: src/dialogs/plugin-manager.glade2.h:1
+msgid "C_onfigure plugin"
+msgstr "Plugin тохируулах"
+
+#: src/dialogs/plugin-manager.glade2.h:2
+msgid "Configure the selected plugin"
+msgstr "Сонгосон Plugin -г тохируулах"
+
+#: src/dialogs/plugin-manager.glade2.h:3
+msgid "De_tails"
+msgstr "То_друулга"
+
+#: src/dialogs/plugin-manager.glade2.h:4
+msgid "_Description"
+msgstr "_Тодорхойлолт"
+
+#: src/dialogs/plugin-manager.glade2.h:5
+msgid "dialog1"
+msgstr "Диалог1"
+
+#: src/dialogs/program-location-dialog.glade2.h:2
+msgid "_Location to search for:"
+msgstr "Хайх _байрлал:"
+
+#: src/dialogs/program-location-dialog.glade2.h:3
+msgid "label"
+msgstr "Бичээс"
+
+#: src/dialogs/replace.glade2.h:2
+msgid "Find Next"
+msgstr "Цааш хайх"
+
+#: src/dialogs/replace.glade2.h:3
+msgid "Match _entire word only"
+msgstr "Зөвхөн _бүтэн үгсийг харгалзана"
+
+#: src/dialogs/replace.glade2.h:5
+msgid "Replace All"
+msgstr "Бүгдийг орлуулах"
+
+#: src/dialogs/replace.glade2.h:6
+msgid "Replace _with: "
+msgstr "_Аар орлуулах: "
+
+#: src/dialogs/replace.glade2.h:7
+msgid "_Match case"
+msgstr "_Том/Жижиг бичэлт харгалзана"
+
+#: src/dialogs/replace.glade2.h:8
+msgid "_Search for: "
+msgstr "_Ийг хайх: "
+
+#: src/dialogs/replace.glade2.h:9
+msgid "_Wrap around"
+msgstr "_Мөр таслах"
+
+#: src/dialogs/uri.glade2.h:2
+msgid "Enter the _location (URI) of the file you would like to open:"
+msgstr "Та нээхийг хүссэн файлын _байрлалыг (URI) өгнө үү:"
+
+#: src/dialogs/uri.glade2.h:3
+msgid "Open from URI"
+msgstr "URI -с нээх"
+
+#: src/pluma-commands.c:471
+msgid "translator_credits"
+msgstr "Санлигийн Бадрал <badral@chinggis.com>"
+
+#: src/pluma-commands.c:496
+msgid "pluma"
+msgstr "pluma"
+
+#: src/pluma-commands.c:499
+msgid "pluma is a small and lightweight text editor for Gnome"
+msgstr "pluma нь GNOME -н нэгэн жижиг гарын текст боловсруулагч"
+
+#: src/pluma-document.c:545 src/pluma-document.c:563
+#, c-format
+msgid "%s %d"
+msgstr "%s %d"
+
+#: src/pluma-document.c:545 src/pluma-document.c:563
+msgid "Untitled"
+msgstr "Нэргүй"
+
+#: src/pluma-document.c:551 src/pluma-document.c:598
+msgid "Invalid file name"
+msgstr "Хүчингүй файлын нэр"
+
+#: src/pluma-document.c:710 src/pluma-document.c:794
+msgid "Invalid UTF-8 data"
+msgstr "Хүчингүй UTF-8 өгөгдөл"
+
+#: src/pluma-document.c:1024
+#, c-format
+msgid "Could not read symbolic link information for %s"
+msgstr "%s символик холбоосын мэдээлэл уншигдсангүй"
+
+#: src/pluma-document.c:1070
+msgid "The file has too many symbolic links."
+msgstr "Энэ файл хэт олон символик холбоостой байна."
+
+#: src/pluma-document.c:1126
+#, c-format
+msgid "pluma cannot handle %s: locations in write mode."
+msgstr "pluma бичих горимд %s:-байрлалыг боловсруулж чадахгүй."
+
+#: src/pluma-document.c:1133
+msgid "pluma cannot handle this kind of location in write mode."
+msgstr "pluma бичих горимд ийм байрлалыг боловсруулж чадахгүй."
+
+#: src/pluma-document.c:1146
+msgid "Invalid filename."
+msgstr "Хүчингүй файлын нэр"
+
+#: src/pluma-document.c:1286
+msgid ""
+"There is not enough disk space to save the file.\n"
+"Please free some disk space and try again."
+msgstr ""
+"Дискэн дээр энэ файлыг хадгалах хангалттай зай алга.\n"
+"Дискэн дээрээ зай гаргаад ахин оролдоно уу."
+
+#: src/pluma-document.c:1291
+msgid ""
+"The disk where you are trying to save the file has a limitation on file "
+"sizes.  Please try saving a smaller file or saving it to a disk that does "
+"not have this limitation."
+msgstr ""
+"Таны энэ файлыг хадгалахыг оролдсон дискэн дээр файлын хэмжээний хязгаарлалт "
+"байна.  Та жижиг файл руу хадгалах эсвэл ийм хязгаарлалт байхгүй дискэн "
+"дээр хадгалахыг оролдоно уу."
+
+#: src/pluma-document.c:1330
+msgid "Could not create a backup file."
+msgstr "Хамгаалалтын хуулбар файл үүсгэгдсэнгүй."
+
+#: src/pluma-document.c:1448
+msgid "It is not possible to revert an Untitled document"
+msgstr "Нэргүй баримт буцаах боломжгүй"
+
+#: src/pluma-file-selector-util.c:147
+#, c-format
+msgid ""
+"A file named \"%s\" already exists.\n"
+"Do you want to replace it with the one you are saving?"
+msgstr ""
+"»%s« файлын нэр хэдийнэ байна.\n"
+"Та түүнийг үүгээр солиж хадгалахыг хүсэж байна уу?"
+
+#: src/pluma-file-selector-util.c:158
+#, c-format
+msgid ""
+"The file \"%s\" is read-only.\n"
+"Do you want to try to replace it with the one you are saving?"
+msgstr ""
+"»%s« файл зөвхөн уншигдах.\n"
+"Та түүнийг үүгээр солиж хадгалахыг хүсэж байна уу?"
+
+#: src/pluma-file-selector-util.c:544
+msgid "Select a filename to save"
+msgstr "Хадгалах файлын нэр сонгох"
+
+#: src/pluma-file.c:151
+msgid "Open File..."
+msgstr "Файл нээх..."
+
+#: src/pluma-file.c:177 src/pluma-file.c:887
+#, c-format
+msgid "Loaded file '%s'"
+msgstr "»%s« файл ачаалагдав"
+
+#: src/pluma-file.c:309 src/pluma-file.c:455
+#, c-format
+msgid "Saving file '%s'..."
+msgstr "»%s« файлыг хадгалаж байна..."
+
+#: src/pluma-file.c:337 src/pluma-file.c:470
+msgid "The document has not been saved."
+msgstr "Баримт хадгалагдсангүй."
+
+#: src/pluma-file.c:351 src/pluma-file.c:467
+#, c-format
+msgid "File '%s' saved."
+msgstr "»%s« файл хадгалагдав."
+
+#: src/pluma-file.c:434
+msgid "Save as..."
+msgstr "Доош хадгалах..."
+
+#: src/pluma-file.c:628
+#, c-format
+msgid ""
+"Do you want to revert to saved the document '%s'?\n"
+"\n"
+"You will not be able to undo this operation."
+msgstr ""
+"Та энэ хадгадагдсан баримт »%s« -г урвуулахыг хүсэж байна уу?\n"
+"\n"
+"Дараа нь та энэ үйлдлийг цуцлах боломжгүй болно."
+
+#: src/pluma-file.c:638 src/pluma-ui.xml.h:99
+msgid "_Revert"
+msgstr "_Урвуулах"
+
+#: src/pluma-file.c:672
+#, c-format
+msgid "Reverting file '%s'..."
+msgstr "»%s« файлыг урвуулж байна..."
+
+#: src/pluma-file.c:685
+msgid "The document has not been reverted."
+msgstr "Баримт урвуулагдсангүй."
+
+#: src/pluma-file.c:695
+#, c-format
+msgid "File '%s' reverted."
+msgstr "»%s« файл урвуулагдлаа."
+
+#: src/pluma-file.c:721
+#, c-format
+msgid "Loading %d files..."
+msgstr "%d файл ачаалж байна..."
+
+#: src/pluma-file.c:757
+#, c-format
+msgid "The file \"%s\" does not exist. Would you like to create it?"
+msgstr "»%s« файл оршин байхгүй байна. Та үүсгэхийг хүсэж байна уу?"
+
+#: src/pluma-file.c:812
+#, c-format
+msgid "Loaded %i files"
+msgstr "%i файл ачаалагдав"
+
+#: src/pluma-file.c:945
+msgid "Could not read data from stdin."
+msgstr "stdin ээс өгөгдөл уншигдсангүй."
+
+#. Read only
+#: src/pluma-mdi-child.c:215
+msgid "RO"
+msgstr "ЗӨВХӨН-УНШИХ"
+
+#. Add the detach tab button
+#: src/pluma-mdi-child.c:539 src/pluma-ui.xml.h:89
+msgid "_Move to New Window"
+msgstr "Шинэ цонх руу _шилжүүлэх"
+
+#: src/pluma-mdi.c:446
+msgid "Open a file."
+msgstr "Файл нээх."
+
+#: src/pluma-mdi.c:1032
+#, c-format
+msgid ""
+"Do you want to save the changes you made to the document \"%s\"? \n"
+"\n"
+"Your changes will be lost if you don't save them."
+msgstr ""
+"Та »%s« баримтад хийсэн өөрчилөлтүүдээ хадгалахыг хүсэж байна уу?\n"
+"\n"
+"Хэрвээ та өөрчилөлтөө хадгалахгүй бол тэд хаягдана."
+
+#: src/pluma-mdi.c:1037
+msgid "Do_n't save"
+msgstr "Хадгалах_гүй"
+
+#: src/pluma-mdi.c:1056
+msgid "_Don't quit"
+msgstr "_Дуусгахгүй"
+
+#: src/pluma-mdi.c:1060
+msgid "_Don't close"
+msgstr "_Хаахгүй"
+
+#: src/pluma-mdi.c:1150
+msgid "(modified)"
+msgstr "(өөрчилөгдсөн)"
+
+#: src/pluma-mdi.c:1156
+msgid "(readonly)"
+msgstr "(зөвхөн унших)"
+
+#: src/pluma-plugins-engine.c:362
+#, c-format
+msgid "Error, unable to open module file '%s'\n"
+msgstr "Алдаа: »%s« файлыг нээх боломжгүй\n"
+
+#: src/pluma-plugins-engine.c:372
+#, c-format
+msgid "Error, plugin '%s' does not contain init function."
+msgstr "Алдаа: »%s« Plugin инициаляци функцгүй байна."
+
+#: src/pluma-plugins-engine.c:382
+#, c-format
+msgid "Error, plugin '%s' does not contain activate function."
+msgstr "Алдаа: »%s« Plugin идэвхижүүлэгч функцгүй байна."
+
+#: src/pluma-plugins-engine.c:392
+#, c-format
+msgid "Error, plugin '%s' does not contain deactivate function."
+msgstr "Алдаа: »%s« Plugin хаагч (deactivate) функцгүй байна."
+
+#: src/pluma-plugins-engine.c:417
+#, c-format
+msgid "Error, impossible to initialize plugin '%s'"
+msgstr "Алдаа: »%s« Plugin инициацлагдах боломжгүй байна"
+
+#: src/pluma-plugins-engine.c:468
+#, c-format
+msgid "Error, impossible to destroy plugin '%s'"
+msgstr "Алдаа: »%s« Plugin устгагдах боломжгүй байна."
+
+#: src/pluma-plugins-engine.c:551 src/pluma-plugins-engine.c:639
+#: src/pluma-plugins-engine.c:764
+#, c-format
+msgid "Error, impossible to activate plugin '%s'"
+msgstr "Алдаа: »%s« Plugin идэвхижих боломжгүй байна."
+
+#: src/pluma-plugins-engine.c:590 src/pluma-plugins-engine.c:782
+#, c-format
+msgid "Error, impossible to deactivate plugin '%s'"
+msgstr "Алдаа: »%s« Plugin хаагдах боломжгүй байна."
+
+#: src/pluma-plugins-engine.c:683
+#, c-format
+msgid "Error, impossible to update ui of the plugin '%s'"
+msgstr "Алдаа: »%s« Plugin -ны хэрэглэгчийн гадаргуу сэргээх боломжгүй байна"
+
+#: src/pluma-prefs-manager.c:335
+msgid "Cannot initialize preferences manager."
+msgstr "Тохируулгын менежер инициацлагдсангүй."
+
+#: src/pluma-prefs-manager.c:1756
+#, c-format
+msgid "Expected `%s' got `%s' for key %s"
+msgstr "»%s« -г хүлээж байна харин »%s« -г түлхүүр %s -н хувьд авсан"
+
+#: src/pluma-print.c:254
+msgid ""
+"pluma is unable to print since it cannot find\n"
+"one of the required fonts."
+msgstr ""
+"pluma үүнийг хэвлэж чадахгүй байна, учир нь:\n"
+"шаардлагатай бичгүүд олдсонгүй."
+
+#: src/pluma-print.c:432
+#, c-format
+msgid "File: %s"
+msgstr "Файл: %s"
+
+#. Print right text
+#: src/pluma-print.c:439
+#, c-format
+msgid "Page: %d"
+msgstr "Хуудас: %d"
+
+#: src/pluma-print.c:580
+msgid "pluma - Print Preview"
+msgstr "pluma - Хэвлэхээр харах"
+
+#: src/pluma-print.c:658
+#, c-format
+msgid ""
+"An error occurred while printing.\n"
+"\n"
+"%s,"
+msgstr ""
+"Хэвлэж байхад алдаа гарлаа. \n"
+"\n"
+"%s,"
+
+#: src/pluma-ui.xml.h:1
+msgid "About this application"
+msgstr "Энэ программын тухай"
+
+#: src/pluma-ui.xml.h:2
+msgid "C_ustomize Statusbar"
+msgstr "Төлвийн самбар _тохируулах"
+
+#: src/pluma-ui.xml.h:3
+msgid "Change the visibility of the output window in the current window"
+msgstr "Идэвхитэй цонхон доторхи гаралтын цонхны харагдалтыг өөрчилөх"
+
+#: src/pluma-ui.xml.h:4
+msgid "Change the visibility of the statusbar in the current window"
+msgstr "Идэвхитэй цонхон доторхи төлвийн самбарын харагдалтыг өөрчилөх"
+
+#: src/pluma-ui.xml.h:5
+msgid "Change the visibility of the toolbar in the current window"
+msgstr "Идэвхитэй цонхон доторхи багаж самбарын харагдалтыг өөрчилөх"
+
+#: src/pluma-ui.xml.h:6
+msgid "Close"
+msgstr "Хаах"
+
+#: src/pluma-ui.xml.h:7
+msgid "Close all open files"
+msgstr "Бүх нээлттэй файлуудыг хаах"
+
+#: src/pluma-ui.xml.h:8
+msgid "Close the current file"
+msgstr "Идэвхитэй файлыг хаах"
+
+#: src/pluma-ui.xml.h:9
+msgid "Configure the application"
+msgstr "Программыг тохируулах"
+
+#: src/pluma-ui.xml.h:10
+msgid "Copy"
+msgstr "Хуулах"
+
+#: src/pluma-ui.xml.h:11
+msgid "Copy the selection"
+msgstr "Тэмдэглэсэн текстийг хуулах"
+
+#: src/pluma-ui.xml.h:12
+msgid "Create a new document"
+msgstr "Шинэ баримт үүсгэх"
+
+#: src/pluma-ui.xml.h:13
+msgid "Cu_t"
+msgstr "_Тасдах"
+
+#: src/pluma-ui.xml.h:14
+msgid "Customize"
+msgstr "Тохируулах"
+
+#: src/pluma-ui.xml.h:15
+msgid "Customize toolbars"
+msgstr "Багаж самбарыг тохируулах"
+
+#: src/pluma-ui.xml.h:16
+msgid "Cut"
+msgstr "Тасдах"
+
+#: src/pluma-ui.xml.h:17
+msgid "Cut the selection"
+msgstr "Тэмдэглэсэн текст тасдан авах"
+
+#: src/pluma-ui.xml.h:18
+msgid "Delete"
+msgstr "Устгах"
+
+#: src/pluma-ui.xml.h:19
+msgid "Delete the selected text"
+msgstr "Тэмдэглэсэн текст устгах"
+
+#: src/pluma-ui.xml.h:20
+msgid "Dump XML"
+msgstr "XML гаргах"
+
+#: src/pluma-ui.xml.h:21
+msgid "Dump the UI Xml description"
+msgstr "XML-UI-тодорхойлолт гаргах"
+
+#: src/pluma-ui.xml.h:23
+msgid "Find Again"
+msgstr "Цааш хайх"
+
+#: src/pluma-ui.xml.h:24
+msgid "Find Ne_xt"
+msgstr "_Цааш хайх"
+
+#: src/pluma-ui.xml.h:25
+msgid "Go to _Line..."
+msgstr "_Мөр рүү очих..."
+
+#: src/pluma-ui.xml.h:26
+msgid "Go to a specific line number"
+msgstr "Тодорхой мөрийн дугаарт очих"
+
+#: src/pluma-ui.xml.h:27
+msgid "Icon and _Text"
+msgstr "Дүрс ба _текст "
+
+#: src/pluma-ui.xml.h:28
+msgid "Main toolbar"
+msgstr "Үндсэн багаж цэс"
+
+#: src/pluma-ui.xml.h:29
+msgid "Move the current document to a new window"
+msgstr "Идэвхитэй баримтыг шинэ цонх руу шилжүүлэх"
+
+#: src/pluma-ui.xml.h:30
+msgid "New"
+msgstr "Шинэ"
+
+#: src/pluma-ui.xml.h:31
+msgid "Only show icons in the toolbar"
+msgstr "Зөвхөн дүрсүүдийг багаж самбарт харуулах"
+
+#: src/pluma-ui.xml.h:33
+msgid "Open Location..."
+msgstr "Байрлал нээх..."
+
+#: src/pluma-ui.xml.h:34
+msgid "Open _Location..."
+msgstr "_Байрлал нээх..."
+
+#: src/pluma-ui.xml.h:35
+msgid "Open a file"
+msgstr "Файл нээх"
+
+#: src/pluma-ui.xml.h:36
+msgid "Open a file from a specified location"
+msgstr "Тодорхой байрлалаас файл нээх"
+
+#: src/pluma-ui.xml.h:37
+msgid "Open the pluma manual"
+msgstr "pluma-гарын авлага нээх"
+
+#: src/pluma-ui.xml.h:38
+msgid "Paste"
+msgstr "Буулгах"
+
+#: src/pluma-ui.xml.h:39
+msgid "Paste the clipboard"
+msgstr "Клипбордыг буулгах"
+
+#: src/pluma-ui.xml.h:40
+msgid "Pr_eferences"
+msgstr "_Тохируулгууд"
+
+#: src/pluma-ui.xml.h:42
+msgid "Print Previe_w..."
+msgstr "Хэвлэхээр _харах..."
+
+#: src/pluma-ui.xml.h:43
+msgid "Print Preview"
+msgstr "Хэвлэхээр харах"
+
+#: src/pluma-ui.xml.h:44
+msgid "Print Setup"
+msgstr "Хэвлэх тохируулга"
+
+#: src/pluma-ui.xml.h:45
+msgid "Print preview"
+msgstr "Хэвлэхээр харах"
+
+#: src/pluma-ui.xml.h:46
+msgid "Print the current file"
+msgstr "Идэвхитэй файлыг хэвлэх"
+
+#: src/pluma-ui.xml.h:47
+msgid "Quit"
+msgstr "Дуусгах"
+
+#: src/pluma-ui.xml.h:48
+msgid "Quit the program"
+msgstr "Програмаас гарах"
+
+#: src/pluma-ui.xml.h:49
+msgid "Redo"
+msgstr "Сэргээх"
+
+#: src/pluma-ui.xml.h:50
+msgid "Redo the undone action"
+msgstr "Цуцлагдсан үйл явцийг сэргээх"
+
+#: src/pluma-ui.xml.h:52
+msgid "Replace a string"
+msgstr "Орлуулах үг"
+
+#: src/pluma-ui.xml.h:53
+msgid "Revert"
+msgstr "Урвуулах"
+
+#: src/pluma-ui.xml.h:54
+msgid "Revert to a saved version of the file"
+msgstr "Файлын хадгалагдан хувилбар урвуулагдлаа"
+
+#: src/pluma-ui.xml.h:56
+msgid "Save As"
+msgstr "Доош хадгалах"
+
+#: src/pluma-ui.xml.h:57
+msgid "Save _As..."
+msgstr "_Доош хадгалах..."
+
+#: src/pluma-ui.xml.h:58
+msgid "Save all open files"
+msgstr "Бүх нээлттэй файлуудыг хадгалах"
+
+#: src/pluma-ui.xml.h:59
+msgid "Save the current file"
+msgstr "Идэвхитэй файлыг хадгалах"
+
+#: src/pluma-ui.xml.h:60
+msgid "Save the current file with a different name"
+msgstr "Идэвхитэй файлыг өөр нэрээр хадгалах"
+
+#: src/pluma-ui.xml.h:61
+msgid "Search again for the same string"
+msgstr "Ижил үгийг дахин хайх"
+
+#: src/pluma-ui.xml.h:62
+msgid "Search for a string"
+msgstr "Үг хайх"
+
+#: src/pluma-ui.xml.h:63
+msgid "Select All"
+msgstr "Бүгдийг тэмдэглэх"
+
+#: src/pluma-ui.xml.h:64
+msgid "Select _All"
+msgstr "_Бүгдийг тэмдэглэх"
+
+#: src/pluma-ui.xml.h:65
+msgid "Select the entire document"
+msgstr "Бүхийл баримтыг тэмдэглэх"
+
+#: src/pluma-ui.xml.h:66
+msgid "Set toolbar button style according to desktop default"
+msgstr "Багаж самбарын товчины хэлбэрийг _системийн стандартаар тохируулах"
+
+#: src/pluma-ui.xml.h:67
+msgid "Setup the page settings for your current printer"
+msgstr "Таны идэвхитэй хэвлэгчийн хувьд хуудсын тохируулга хийх"
+
+#: src/pluma-ui.xml.h:68
+msgid "Show _Cursor Position"
+msgstr "_Курсорын байрлалыг харуулах"
+
+#: src/pluma-ui.xml.h:69
+msgid "Show _Overwrite Mode"
+msgstr "_Дарж бичих горим харуулах"
+
+#: src/pluma-ui.xml.h:70
+msgid "Show cursor position in the statusbar"
+msgstr "Курсорын байрлалыг төлвийн хүснэгтэд харуулах"
+
+#: src/pluma-ui.xml.h:71
+msgid "Show overwrite mode in the statusbar"
+msgstr "Дарж бичих горимыг төлвийн хүснэгтэд харуулах"
+
+#: src/pluma-ui.xml.h:73
+msgid "Undo the last action"
+msgstr "Сүүлийн үйлдлийг цуцлах"
+
+#: src/pluma-ui.xml.h:74
+msgid "_About"
+msgstr "_Тухай"
+
+#: src/pluma-ui.xml.h:75
+msgid "_Close"
+msgstr "_Хаах"
+
+#: src/pluma-ui.xml.h:76
+msgid "_Close All"
+msgstr "Бүгдийг хаах"
+
+#: src/pluma-ui.xml.h:77
+msgid "_Contents"
+msgstr "_Агуулга"
+
+#: src/pluma-ui.xml.h:78
+msgid "_Copy"
+msgstr "Х_уулах"
+
+#: src/pluma-ui.xml.h:79
+msgid "_Customize Toolbar"
+msgstr "Багаж самбар _тохируулах"
+
+#: src/pluma-ui.xml.h:80
+msgid "_Debug"
+msgstr "_Оношилгоо"
+
+#: src/pluma-ui.xml.h:81
+msgid "_Delete"
+msgstr "_Устгах"
+
+#: src/pluma-ui.xml.h:82
+msgid "_Desktop Default"
+msgstr "_Системийн стандарт"
+
+#: src/pluma-ui.xml.h:83
+msgid "_Documents"
+msgstr "_Баримтууд"
+
+#: src/pluma-ui.xml.h:84
+msgid "_Edit"
+msgstr "_Боловсруулах"
+
+#: src/pluma-ui.xml.h:85
+msgid "_File"
+msgstr "_Файл"
+
+#: src/pluma-ui.xml.h:86
+msgid "_Find..."
+msgstr "_Хайх..."
+
+#: src/pluma-ui.xml.h:87
+msgid "_Help"
+msgstr "_Тусламж"
+
+#: src/pluma-ui.xml.h:88
+msgid "_Icon"
+msgstr "_Дүрс"
+
+#: src/pluma-ui.xml.h:90
+msgid "_New"
+msgstr "_Шинэ"
+
+#: src/pluma-ui.xml.h:91
+msgid "_Open..."
+msgstr "_Нээх..."
+
+#: src/pluma-ui.xml.h:92
+msgid "_Output Window"
+msgstr "_Гаралт цонх"
+
+#: src/pluma-ui.xml.h:93
+msgid "_Paste"
+msgstr "_Буулгах"
+
+#: src/pluma-ui.xml.h:94
+msgid "_Print..."
+msgstr "_Хэвлэх..."
+
+#: src/pluma-ui.xml.h:95
+msgid "_Priority Text beside Icons"
+msgstr "_Чухал текстийг дүрсийн дэргэд"
+
+#: src/pluma-ui.xml.h:96
+msgid "_Quit"
+msgstr "_Гарах"
+
+#: src/pluma-ui.xml.h:97
+msgid "_Redo"
+msgstr "_Сэргээх"
+
+#: src/pluma-ui.xml.h:98
+msgid "_Replace..."
+msgstr "_Орлуулах..."
+
+#: src/pluma-ui.xml.h:100
+msgid "_Save"
+msgstr "_Хадгалах"
+
+#: src/pluma-ui.xml.h:101
+msgid "_Save All"
+msgstr "Бүгдийг _хадгалах"
+
+#: src/pluma-ui.xml.h:102
+msgid "_Search"
+msgstr "_Хайх"
+
+#: src/pluma-ui.xml.h:103
+msgid "_Statusbar"
+msgstr "_Төлөв самбар"
+
+#: src/pluma-ui.xml.h:104
+msgid "_Toolbar"
+msgstr "_Багаж самбар"
+
+#: src/pluma-ui.xml.h:105
+msgid "_Tools"
+msgstr "_Хэрэгслүүд"
+
+#: src/pluma-ui.xml.h:106
+msgid "_Undo"
+msgstr "_Цуцлах"
+
+#: src/pluma-ui.xml.h:107
+msgid "_View"
+msgstr "_Харах"
+
+#: src/pluma-utils.c:795
+#, c-format
+msgid ""
+"Could not find the file \"%s\".\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+"»%s« файл олдсонгүй.\n"
+"\n"
+"Та түүнийг зөв байрлалд байгаа эсэхийг нь нягтлаад дахин оролдоно уу."
+
+#: src/pluma-utils.c:802
+#, c-format
+msgid "Could not open the file \"%s\" because it contains corrupted data."
+msgstr "»%s« файл нээгдсэнгүй, учир нь тэр гэмтсэн өгөгдөл агуулж байна."
+
+#: src/pluma-utils.c:813
+#, c-format
+msgid "Could not open the file \"%s\" because pluma cannot handle %s: locations."
+msgstr "»%s« файл нээгдсэнгүй , учир нь pluma %s:-байрлалыг боловсруулж чадахгүй."
+
+#: src/pluma-utils.c:819
+#, c-format
+msgid "Could not open the file \"%s\""
+msgstr "»%s« файл нээгдсэнгүй"
+
+#: src/pluma-utils.c:829
+#, c-format
+msgid "Could not open the file \"%s\" because it contains data in an invalid format."
+msgstr "»%s« файл нээгдсэнгүй, учир нь тэр хүчингүй форматтай өгөгдөл агуулж байна."
+
+#: src/pluma-utils.c:836
+#, c-format
+msgid "Could not open the file \"%s\" because it is too big."
+msgstr "»%s« файл нээгдсэнгүй, учир нь тэр хэтэрхий том байна."
+
+#: src/pluma-utils.c:843
+#, c-format
+msgid ""
+"\"%s\" is not a valid location.\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+"»%s« нь хүчингүй байрлал.\n"
+"\n"
+"Та өгсөн байрлалаа зөв эсэхийг нягтлаад дахин оролдоно уу."
+
+#: src/pluma-utils.c:850
+#, c-format
+msgid "Could not open the file \"%s\" because access was denied."
+msgstr "»%s« файл нээгдсэнгүй, учир нь хандалт бүтэлгүйтэв."
+
+#: src/pluma-utils.c:857
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because there are too many open files.\n"
+"\n"
+"Please, close some open file and try again."
+msgstr ""
+"»%s« файл нээгдсэнгүй, учир нь хэт олон файл нээгдсэн байна.\n"
+"\n"
+"Та файлуудаасаа заримыг нь хаагаад дахин оролдоно уу."
+
+#: src/pluma-utils.c:865
+#, c-format
+msgid ""
+"\"%s\" is a directory.\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+"»%s« бол лавлах.\n"
+"\n"
+"Та өгсөн байрлалаа зөв эсэхийг нягтлаад дахин оролдоно уу."
+
+#: src/pluma-utils.c:872
+#, c-format
+msgid ""
+"Not enough available memory to open the file \"%s\". Please, close some "
+"running application and try again."
+msgstr ""
+"»%s« файлыг нээх хангалттай сул зай санах ойд алга."
+"Та зарим х.программуудаа хааж байгаад дахин оролдоно уу."
+
+#: src/pluma-utils.c:898
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because no host \"%s\" could be found.\n"
+"\n"
+"Please, check that you typed the location correctly and that your proxy "
+"settings are correct and then try again."
+msgstr ""
+"»%s« файл нээгдсэнгүй, учир нь хост »%s« олдсонгүй.\n"
+"\n"
+"Та өгсөн байрлалаа зөв эсэхийг нягтлаад мөн итгэмжилэгчийн тохируулгаа "
+"зөв эсэхийг шалгаад дахин оролдоно уу."
+
+#: src/pluma-utils.c:913
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because the host name was invalid.\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+"»%s« файл нээгдсэнгүй, учир нь хостын нэр хүчингүй байв.\n"
+"\n"
+"Та өгсөн байрлалаа зөв эсэхийг нягтлаад дахин оролдоно уу."
+
+#: src/pluma-utils.c:920
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because the host name was empty.\n"
+"\n"
+"Please, check that your proxy settings are correct and try again."
+msgstr ""
+"»%s« файл нээгдсэнгүй, учир нь хостын нэр хоосон байв.\n"
+"\n"
+"Та итгэмжилэгчийн тохируулгаа зөв эсэхийг шалгаад дахин оролдоно уу."
+
+#: src/pluma-utils.c:927
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because the attempt to log in failed.\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+"»%s« файл нээгдсэнгүй, учир нь бүртгүүлэх оролдлого нурлаа.\n"
+"Та байрлалаа зөв өгсөн эсэхийг нягтлаад дахин оролдоно уу."
+
+#: src/pluma-utils.c:935
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because it contains invalid UTF-8 data.\n"
+"\n"
+"Probably, you are trying to open a binary file."
+msgstr ""
+"»%s« файл нээгдсэнгүй, учир нь тэр хүчингүй UTF-8 өгөгдөл агуулж байна\n"
+"\n"
+"Та магад бинар файл нээхийг оролдсон байх."
+
+#: src/pluma-utils.c:973
+#, c-format
+msgid "Could not open the file \"%s\"."
+msgstr "»%s« файл нээгдсэнгүй."
+
+#: src/pluma-utils.c:1024
+#, c-format
+msgid "Could not save the file \"%s\"."
+msgstr "»%s« файлыг хадгалаж чадсангүй."
+
+#: src/pluma-utils.c:1028
+#, c-format
+msgid ""
+"Could not save the file \"%s\".\n"
+"\n"
+"%s"
+msgstr ""
+"»%s« файлыг хадгалаж чадсангүй.\n"
+"\n"
+"%s"
+
+#: src/pluma-utils.c:1081
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because pluma cannot find it.\n"
+"\n"
+"Perhaps, it has recently been deleted."
+msgstr ""
+"»%s« файлыг урвуулж чадсангүй учир нь pluma түүнийг олсонгүй.\n"
+"\n"
+"Магадгүй тэр саяхан устгагдсан байх."
+
+#: src/pluma-utils.c:1088
+#, c-format
+msgid "Could not revert the file \"%s\" because it contains corrupted data."
+msgstr "»%s« файлыг урвуулж чадсангүй учир нь тэр гэмтэлтэй өгөгдөл агуулж байна."
+
+#: src/pluma-utils.c:1099
+#, c-format
+msgid "Could not revert the file \"%s\" because pluma cannot handle %s: locations."
+msgstr "»%s« файлыг урвуулж чадсангүй учир нь pluma %s:-байрлалыг боловсруулж чадахгүй."
+
+#: src/pluma-utils.c:1105 src/pluma-utils.c:1245
+#, c-format
+msgid "Could not revert the file \"%s\"."
+msgstr "»%s« файлыг урвуулж чадсангүй."
+
+#: src/pluma-utils.c:1115
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because it contains data in an invalid "
+"format."
+msgstr "»%s« файлыг урвуулж чадсангүй учир нь тэр хүчингүй формат агуулсан байна."
+
+#: src/pluma-utils.c:1122
+#, c-format
+msgid "Could not revert the file \"%s\" because it is too big."
+msgstr "»%s« файлыг урвуулж чадсангүй, учир нь тэр хэтэрхий том байна."
+
+#: src/pluma-utils.c:1129
+#, c-format
+msgid "Could not revert the file \"%s\" because access was denied."
+msgstr "»%s« файлыг урвуулж чадсангүй, учир нь хандалт бүтэлгүйтэв."
+
+#: src/pluma-utils.c:1136
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because there are too many open files.\n"
+"\n"
+"Please, close some open file and try again."
+msgstr ""
+"»%s« файлыг урвуулж чадсангүй, учир нь хэт олон файл нээгдсэн байна.\n"
+"\n"
+"Та файлуудаасаа заримыг нь хаагаад дахин оролдоно уу."
+
+#: src/pluma-utils.c:1144
+#, c-format
+msgid ""
+"Not enough available memory to revert the file \"%s\". Please, close some "
+"running application and try again."
+msgstr ""
+"»%s« файлыг урвуулахад хангалттай сул зай санах ойд алга."
+"Та зарим х.программуудаа хааж байгаад дахин оролдоно уу."
+
+#: src/pluma-utils.c:1170
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because no host \"%s\" could be found.\n"
+"\n"
+"Please, check that your proxy settings are correct and try again."
+msgstr ""
+"»%s« файлыг урвуулж чадсангүй, учир нь хост »%s« олдсонгүй.\n"
+"\n"
+"Та итгэмжилэгчийн тохируулгаа зөв эсэхийг шалгаад дахин оролдоно уу."
+
+#: src/pluma-utils.c:1184
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because the host name was empty.\n"
+"\n"
+"Please, check that your proxy settings are correct and try again."
+msgstr ""
+"»%s« файлыг урвуулж чадсангүй, учир нь хостын хоосон байв.\n"
+"\n"
+"Та итгэмжилэгчийн тохируулгаа зөв эсэхийг шалгаад дахин оролдоно уу."
+
+#: src/pluma-utils.c:1191
+#, c-format
+msgid "Could not revert the file \"%s\" because the attempt to log in failed."
+msgstr "»%s« файлыг урвуулж чадсангүй, учир нь бүртгүүлэх оролдлого нурлаа."
+
+#: src/pluma-utils.c:1198
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because it contains invalid UTF-8 data.\n"
+"\n"
+"Probably, you are trying to revert a binary file."
+msgstr ""
+"»%s« файлыг урвуулж чадсангүй, учир нь тэр хүчингүй UTF-8 өгөгдөл агуулж "
+"байна\n"
+"\n"
+"Та магад бинар файл урвуулахыг оролдсон байх."
+
+#: src/pluma-utils.c:1207
+msgid "It is not possible to revert an Untitled document."
+msgstr "Та нэргүй баримт урвуулж чадахгүй."
+
+#: src/pluma-utils.c:1296
+#, c-format
+msgid "The file \"%s\" already exists."
+msgstr "»%s« файл хэдийнэ оршин байна."
+
+#: src/pluma-utils.c:1302
+#, c-format
+msgid ""
+"\"%s\" is a directory.\n"
+"\n"
+"Please, check that you typed the location correctly."
+msgstr ""
+"»%s« нь лавлах.\n"
+"\n"
+"Та байрлалаа зөв өгсөн эсэхийг нягтлаад дахин оролдоно уу."
+
+#: src/pluma-utils.c:1311
+#, c-format
+msgid ""
+"Cannot create the file \"%s\".\n"
+"\n"
+"Make sure you have the appropriate write permissions."
+msgstr ""
+"»%s« файлыг үүсгэж чадсангүй.\n"
+"\n"
+"Та өөртөө шаардлагатай хандах эрх байгаа эсэхээ нягтлана уу."
+
+#: src/pluma-utils.c:1318
+#, c-format
+msgid ""
+"Cannot create the file \"%s\".\n"
+"\n"
+"The file name is too long."
+msgstr ""
+"»%s« файлыг үүсгэж чадсангүй.\n"
+"\n"
+"Файлын нэр хэтэрхий урт байна."
+
+#: src/pluma-utils.c:1325
+#, c-format
+msgid ""
+"Cannot create the file \"%s\".\n"
+"\n"
+"A directory component in the file name does not exist or is a dangling "
+"symbolic link."
+msgstr ""
+"»%s« файлыг үүсгэж чадсангүй.\n"
+"\n"
+"Лавлах бүрэлдхүүн файлын нэрэнд алга эсвэл өнчирсөн символик холбоос байна."
+
+#: src/pluma-utils.c:1334
+#, c-format
+msgid ""
+"There is not enough disk space to create the file \"%s\".\n"
+"\n"
+"Please free some disk space and try again."
+msgstr ""
+"»%s« файлыг хадгалах хангалттай зай дискэн дээр алга.\n"
+"\n"
+"Дискэн дээрээ зай гаргаад дахин оролдоно уу."
+
+#: src/pluma-utils.c:1340
+#, c-format
+msgid "Could not create the file \"%s\"."
+msgstr "»%s« файл үүсгэгдсэнгүй."
+
+#.
+#. if (col == chars)
+#. msg = g_strdup_printf (_("  Ln %d, Col. %d"), row + 1, col + 1);
+#. else
+#. msg = g_strdup_printf (_("  Ln %d, Col. %d-%d"), row + 1, chars + 1, col + 1);
+#.
+#: src/pluma-view.c:1076
+#, c-format
+msgid "  Ln %d, Col. %d"
+msgstr "   Мөр. %d, Баг. %d"
+
+#: src/pluma-view.c:1114
+msgid "  OVR"
+msgstr "  ДАР"
+
+#: src/pluma-view.c:1116
+msgid "  INS"
+msgstr "  ОРХ"
+
+#: src/pluma2.c:77
+msgid "Show utility debugging messages."
+msgstr "Хэрэгсэл оношилгооны мэдээг харуулах."
+
+#: src/pluma2.c:80
+msgid "Show mdi debugging messages."
+msgstr "MDI-оношилгооны мэдээг харуулах."
+
+#: src/pluma2.c:83
+msgid "Show commands debugging messages."
+msgstr "Тушаал оношилгооны мэдээг харуулах."
+
+#: src/pluma2.c:86
+msgid "Show document debugging messages."
+msgstr "Баримт оношилгооны мэдээг харуулах."
+
+#: src/pluma2.c:89
+msgid "Show file debugging messages."
+msgstr "Файл оношилгооны мэдээг харуулах."
+
+#: src/pluma2.c:92
+msgid "Show plugin debugging messages."
+msgstr "Plugin оношилгооны мэдээг харуулах."
+
+#: src/pluma2.c:95
+msgid "Show prefs debugging messages."
+msgstr "Тохируулга оношилгооны мэдээг харуулах."
+
+#: src/pluma2.c:98
+msgid "Show printing debugging messages."
+msgstr "Хэвлэлт оношилгооны мэдээг харуулах."
+
+#: src/pluma2.c:101
+msgid "Show search debugging messages."
+msgstr "Хайлт оношилгооны мэдээг харуулах."
+
+#: src/pluma2.c:104
+msgid "Show undo debugging messages."
+msgstr "Оношилгооны мэдээг цуцалж харуулах."
+
+#: src/pluma2.c:107
+msgid "Show view debugging messages."
+msgstr "Оношилгооны мэдээний тоймыг харуулах."
+
+#: src/pluma2.c:110
+msgid "Show recent debugging messages."
+msgstr "Сүүлд нээгдсэн жигсаалт оношилгооны мэдээг харуулах."
+
+#: src/pluma2.c:113
+msgid "Show session management debugging messages."
+msgstr "Суулт зохион байгуулалтын оношилгооны мэдээг харуулах."
+
+#: src/pluma2.c:116
+msgid "Turn on all debugging messages."
+msgstr "Бүх оношилгооны мэдээг харуулах."
+
+#: src/pluma2.c:119
+msgid "Quit an existing instance of pluma"
+msgstr "pluma -н оршин буй хуулбараас гарах"
+
+#: src/pluma2.c:122
+msgid "Create a new toplevel window in an existing instance of pluma"
+msgstr "pluma -н оршин буй хуулбарт үндсэн цонх үүсгэх"
+
+#: src/pluma2.c:125
+msgid "Create a new document in an existing instance of pluma"
+msgstr "pluma -н оршин буй хуулбарт шинэ баримт үүсгэх"
+
+#: src/pluma-output-window.c:329
+msgid "Close the output window"
+msgstr "Гаралтын цонх хаах"
+
+#: src/pluma-output-window.c:367
+msgid "Copy selected lines"
+msgstr "Тэмдэглэгдсэн мөрүүдийг хуулах"
+
+#: src/pluma-output-window.c:387
+msgid "Clear the output window"
+msgstr "Гаралтын цонхыг цэвэрлэх"
+
+#: src/pluma-output-window.c:427
+msgid "Output Lines"
+msgstr "Гаралтын мөр"
+
+#: src/dialogs/pluma-encodings-dialog.glade2.h:1
+msgid "Choose one or more e_ncodings:"
+msgstr "Та нэг эсвэл хэдэн _тэмдэгт кодчилол сонгоно уу:"
+
+#: src/pluma-encodings.c:143 src/pluma-encodings.c:169
+#: src/pluma-encodings.c:210 src/pluma-encodings.c:260
+#: src/pluma-encodings.c:285
+msgid "Western"
+msgstr "Баруун европ"
+
+#: src/pluma-encodings.c:145 src/pluma-encodings.c:212
+#: src/pluma-encodings.c:240 src/pluma-encodings.c:281
+msgid "Central European"
+msgstr "Дундад европ"
+
+#: src/pluma-encodings.c:147
+msgid "South European"
+msgstr "Өмнөд европ"
+
+#: src/pluma-encodings.c:149 src/pluma-encodings.c:165
+#: src/pluma-encodings.c:295
+msgid "Baltic"
+msgstr "Балт"
+
+#: src/pluma-encodings.c:151 src/pluma-encodings.c:214
+#: src/pluma-encodings.c:227 src/pluma-encodings.c:231
+#: src/pluma-encodings.c:244 src/pluma-encodings.c:283
+msgid "Cyrillic"
+msgstr "Крилл"
+
+#: src/pluma-encodings.c:153 src/pluma-encodings.c:220
+#: src/pluma-encodings.c:238 src/pluma-encodings.c:293
+msgid "Arabic"
+msgstr "Араб"
+
+#: src/pluma-encodings.c:155 src/pluma-encodings.c:250
+#: src/pluma-encodings.c:287
+msgid "Greek"
+msgstr "Грек"
+
+#: src/pluma-encodings.c:157
+msgid "Hebrew Visual"
+msgstr "Еврей (visual)"
+
+#: src/pluma-encodings.c:159 src/pluma-encodings.c:218
+#: src/pluma-encodings.c:256 src/pluma-encodings.c:291
+msgid "Hebrew"
+msgstr "Еврей"
+
+#: src/pluma-encodings.c:161 src/pluma-encodings.c:216
+#: src/pluma-encodings.c:264 src/pluma-encodings.c:289
+msgid "Turkish"
+msgstr "Турк"
+
+#: src/pluma-encodings.c:163
+msgid "Nordic"
+msgstr "Хойд"
+
+#: src/pluma-encodings.c:167
+msgid "Celtic"
+msgstr "Келт"
+
+#: src/pluma-encodings.c:171 src/pluma-encodings.c:262
+msgid "Romanian"
+msgstr "Роман"
+
+#: src/pluma-encodings.c:174 src/pluma-encodings.c:176
+#: src/pluma-encodings.c:178 src/pluma-encodings.c:180
+msgid "Unicode"
+msgstr "Юникод"
+
+#: src/pluma-encodings.c:183
+msgid "Armenian"
+msgstr "Армен"
+
+#: src/pluma-encodings.c:185 src/pluma-encodings.c:187
+#: src/pluma-encodings.c:196
+msgid "Chinese Traditional"
+msgstr "Хятад (үндэсний)"
+
+#: src/pluma-encodings.c:189
+msgid "Cyrillic/Russian"
+msgstr "Крилл / Орос"
+
+#: src/pluma-encodings.c:192 src/pluma-encodings.c:223
+#: src/pluma-encodings.c:270
+msgid "Japanese"
+msgstr "Япон"
+
+#: src/pluma-encodings.c:194 src/pluma-encodings.c:225
+#: src/pluma-encodings.c:229 src/pluma-encodings.c:276
+msgid "Korean"
+msgstr "Солонгос"
+
+#: src/pluma-encodings.c:199 src/pluma-encodings.c:201
+#: src/pluma-encodings.c:203 src/pluma-encodings.c:207
+msgid "Chinese Simplified"
+msgstr "Хятад (энгийн)"
+
+#: src/pluma-encodings.c:205
+msgid "Georgian"
+msgstr "Георг"
+
+#: src/pluma-encodings.c:233 src/pluma-encodings.c:266
+msgid "Cyrillic/Ukrainian"
+msgstr "Крилл / Украйн"
+
+#: src/pluma-encodings.c:242
+msgid "Croatian"
+msgstr "Кроат"
+
+#: src/pluma-encodings.c:246
+msgid "Hindi"
+msgstr "Хинди"
+
+#: src/pluma-encodings.c:248
+msgid "Farsi"
+msgstr "Иран"
+
+#: src/pluma-encodings.c:252
+msgid "Gujarati"
+msgstr "Гуярати"
+
+#: src/pluma-encodings.c:254
+msgid "Gurmukhi"
+msgstr "Гурмуки"
+
+#: src/pluma-encodings.c:258
+msgid "Icelandic"
+msgstr "Исланд"
+
+#: src/pluma-encodings.c:272 src/pluma-encodings.c:278
+#: src/pluma-encodings.c:297
+msgid "Vietnamese"
+msgstr "Ветьнам"
+
+#: src/pluma-encodings.c:274
+msgid "Thai"
+msgstr "Тайланд"
+
+#: src/recent-files/egg-recent-vfs-utils.c:90
+msgid " (invalid Unicode)"
+msgstr " (хүчингүй юникод)"
+

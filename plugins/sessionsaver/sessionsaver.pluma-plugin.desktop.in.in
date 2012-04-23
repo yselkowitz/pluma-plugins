@@ -1,0 +1,10 @@
+[Pluma Plugin]
+Loader=python
+Module=sessionsaver
+IAge=2
+_Name=Session Saver
+_Description=Save and restore your working sessions
+Authors=Steve Frécinaux
+Copyright=Copyright © 2006 Steve Frécinaux
+Website=http://www.mate-desktop.org
+Version=@VERSION@

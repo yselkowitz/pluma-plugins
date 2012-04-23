@@ -1,0 +1,11 @@
+[Pluma Plugin]
+Loader=python
+Module=colorpicker
+IAge=2
+_Name=Color Picker
+_Description=Pick a color from a dialog and insert its hexadecimal representation.
+Icon=gtk-select-color
+Authors=Jesse van den Kieboom <jesse@icecrew.nl>
+Copyright=Copyright @ 2006 Jesse van den Kieboom
+Website=http://www.mate-desktop.org
+Version=@VERSION@

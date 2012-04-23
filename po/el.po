@@ -1,0 +1,468 @@
+# translation of el.po to el
+# GNOME pluma Greek translation.
+# Copyright (C) 2000, 2001, 2002, 2007 Free Software Foundation, Inc.
+#
+# spyros:
+#   initial translation
+# simos:
+#
+# Spiros Papadimitriou <spapadim+@cs.cmu.edu>, 2000.
+# Kostas Papadimas <pkst@gmx.net>, 2002.
+#   updated: 37 translated messages, 52 fuzzy translations, 116 untranslated messages.
+# simos: 248 messages, 02Mar2001.
+# kostas: 523 messages, 30Oct2002, completed translation.
+# kostas: updated and finished translation for Gnome 2.1x, 02Dec2002.
+# kostas: 666 (uh?..) messages, 06Jan2003, one more update.
+# Dimitris Glezos <dimitris@glezos.com>, 2007.
+# Simos Xenitellis <simos@gnome.org>, 2000, 2001, 2002, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: el\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-01 22:22+0300\n"
+"PO-Revision-Date: 2010-10-01 23:07+0300\n"
+"Last-Translator: Simos Xenitellis <simos@gnome.org>\n"
+"Language-Team: Greek <team@gnome.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:1
+msgid "Bookmarks"
+msgstr "Σελιδοδείκτες"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "Εύκολη πλοήγηση εγγράφου με σελιδοδείκτες"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:137
+msgid "Toggle Bookmark"
+msgstr "Εναλλαγή σελιδοδείκτη"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:138
+msgid "Toggle bookmark status of the current line"
+msgstr "Εναλλαγή κατάστασης σελιδοδείκτη της τρέχουσας γραμμής"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:140
+msgid "Goto Next Bookmark"
+msgstr "Πήγαινε στον επόμενο σελιδοδείκτη"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:141
+msgid "Goto the next bookmark"
+msgstr "Πήγαινε στον επόμενο σελιδοδείκτη"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:143
+msgid "Goto Previous Bookmark"
+msgstr "Πήγαινε στον προηγούμενο σελιδοδείκτη"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:144
+msgid "Goto the previous bookmark"
+msgstr "Πήγαινε στον προηγούμενο σελιδοδείκτη"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "Εισάγει αυτόματα παρενθέσεις που κλείνουν."
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Bracket Completion"
+msgstr "Συμπλήρωση παρενθέσεων"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:258
+msgid "Character Map"
+msgstr "Πίνακας χαρακτήρων"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "Εισαγωγή ειδικών χαρακτήρων κάνοντας απλά κλικ πάνω τους."
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:1
+msgid "Code comment"
+msgstr "Σχολιασμός κώδικα"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "Σχολιάστε και αποσχολιάστε ένα επιλεγμένο τμήμα κώδικα."
+
+#: ../plugins/codecomment/codecomment.py:230
+msgid "Co_mment Code"
+msgstr "Σ_χολιάστε κώδικα"
+
+#: ../plugins/codecomment/codecomment.py:232
+msgid "Comment the selected code"
+msgstr "Σχολιάστε τον επιλεγμένο κώδικα"
+
+#: ../plugins/codecomment/codecomment.py:236
+msgid "U_ncomment Code"
+msgstr "Α_ποσχολιάστε κώδικα"
+
+#: ../plugins/codecomment/codecomment.py:238
+msgid "Uncomment the selected code"
+msgstr "Αποσχολιάστε τον επιλεγμένο κώδικα"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "Επιλογή χρωμάτων"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr ""
+"Επιλέξτε ένα χρώμα από ένα διάλογο και εισάγετε τη δεκαεξαδική του "
+"αναπαράσταση."
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "Pick _Color..."
+msgstr "Επιλογή _Χρώματος…"
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "Επιλογή χρωμάτων από ένα διάλογο"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Pick Color"
+msgstr "Επιλογή χρώματος"
+
+#: ../plugins/colorpicker/colorpicker.py:226
+msgid "_Insert"
+msgstr "_Εισαγωγή"
+
+#. ex:ts=4:et:
+#: ../plugins/commander/commander.pluma-plugin.desktop.in.in.h:1
+msgid "Command line interface for advanced editing"
+msgstr "Διεπαφή γραμμής εντολών για προχωρημένη επεξεργασία"
+
+#: ../plugins/commander/commander.pluma-plugin.desktop.in.in.h:2
+msgid "Commander"
+msgstr "Εντολέας (Commander)"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:4
+msgid "Draw Spaces"
+msgstr "Σχεδίαση διαστημάτων"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "Σχεδίαση διαστημάτων και καρτελών"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:1
+msgid "Draw leading spaces"
+msgstr "Σχεδίαση διαστημάτων στην αρχή"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:2
+msgid "Draw new lines"
+msgstr "Σχεδίαση νέων γραμμών"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:3
+msgid "Draw non-breaking spaces"
+msgstr "Σχεδίαση αόρατων διαστημάτων"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:4
+msgid "Draw spaces"
+msgstr "Σχεδίαση διαστημάτων"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:5
+msgid "Draw spaces in text"
+msgstr "Σχεδίαση διαστημάτων στο κείμενο"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:6
+msgid "Draw tabs"
+msgstr "Σχεδίαση στηλοθετών"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:7
+msgid "Draw trailing spaces"
+msgstr "Σχεδίαση διαστημάτων στο τέλος"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:1
+msgid "Draw Leading Spaces"
+msgstr "Σχεδίαση διαστημάτων στην αρχή"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:2
+msgid "Draw New lines"
+msgstr "Σχεδίαση νέων γραμμών"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:3
+msgid "Draw Non-Breaking Spaces"
+msgstr "Σχεδίαση αόρατων διαστημάτων"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:5
+msgid "Draw Spaces in Text"
+msgstr "Σχεδίαση διαστημάτων στο κείμενο"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:6
+msgid "Draw Tabs"
+msgstr "Σχεδίαση στηλοθετών"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:7
+msgid "Draw Trailing Spaces"
+msgstr "Σχεδίαση διαστημάτων στο τέλος"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:8
+msgid "Show White Spaces"
+msgstr "Εμφάνιση κενού χώρου"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:167
+msgid "Show _White Space"
+msgstr "Εμφάνιση _κενού χώρου"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:168
+msgid "Show spaces and tabs"
+msgstr "Εμφάνιση διαστημάτων και στηλοθετών"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:612
+msgid "Error dialog"
+msgstr "Διάλογος σφάλματος"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "Ένωση πολλών γραμμών ή διάσπαση των μεγάλων"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:2
+msgid "Join/Split Lines"
+msgstr "Ένωση/διάσπαση γραμμών"
+
+#: ../plugins/joinlines/joinlines.py:56
+msgid "_Join Lines"
+msgstr "Ένωση γραμμών"
+
+#: ../plugins/joinlines/joinlines.py:57
+msgid "Join the selected lines"
+msgstr "Ένωση των επιλεγμένων γραμμών"
+
+#: ../plugins/joinlines/joinlines.py:59
+msgid "_Split Lines"
+msgstr "_Διάσπαση γραμμών"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "Split the selected lines"
+msgstr "Διάσπαση των επιλεγμένων γραμμών"
+
+#. ex:ts=4:et:
+#: ../plugins/multiedit/multiedit.pluma-plugin.desktop.in.in.h:1
+msgid "Edit document in multiple places at once"
+msgstr "Επεξεργασία εγγράφου σε πολλαπλά σημεία ταυτόχρονα"
+
+#: ../plugins/multiedit/multiedit.pluma-plugin.desktop.in.in.h:2
+msgid "Multi Edit"
+msgstr "Πολλαπλή επεξεργασία"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:315
+msgid "Added edit point..."
+msgstr "Προσθήκη σημείου επεξεργασίας…"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:651
+msgid "Column Mode..."
+msgstr "Λειτουργία στηλών…"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:773
+msgid "Removed edit point..."
+msgstr "Αφαίρεση σημείου επεξεργασίας…"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:936
+msgid "Cancelled column mode..."
+msgstr "Η λειτουργία στηλών ακυρώθηκε…"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1274
+msgid "Enter column edit mode using selection"
+msgstr "Εισαγωγή επεξεργασίας λειτουργίας στηλών χρησιμοποιώντας την επιλογή"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1275
+msgid "Enter <b>smart</b> column edit mode using selection"
+msgstr ""
+"Εισαγωγή <b>έξυπνης</b> επεξεργασίας λειτουργίας στηλών χρησιμοποιώντας την "
+"επιλογή"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1276
+msgid "<b>Smart</b> column align mode using selection"
+msgstr "Λειτουργία <b>έξυπνης</b> στοίχισης στηλών χρησιμοποιώντας την επιλογή"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1277
+msgid "<b>Smart</b> column align mode with additional space using selection"
+msgstr ""
+"Λειτουργία <b>έξυπνης</b> στοίχισης στηλών με επιπρόσθετο διάστημα "
+"χρησιμοποιώντας την επιλογή"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1279
+msgid "Toggle edit point"
+msgstr "Εναλλαγή σημείου επεξεργασίας"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1280
+msgid "Add edit point at beginning of line/selection"
+msgstr "Προσθήκη σημείου επεξεργασίας στην αρχή της γραμμής/επιλογής"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1281
+msgid "Add edit point at end of line/selection"
+msgstr "Προσθήκη σημείου επεξεργασίας στο τέλος της γραμμής/επιλογής"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1282
+msgid "Align edit points"
+msgstr "Στοίχιση σημείων επεξεργασίας"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1283
+msgid "Align edit points with additional space"
+msgstr "Στοίχιση σημείων επεξεργασίας με επιπρόσθετο διάστημα"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1319
+#: ../plugins/multiedit/multiedit/windowhelper.py:70
+msgid "Multi Edit Mode"
+msgstr "Λειτουργία πολλαπλής επεξεργασίας"
+
+#: ../plugins/multiedit/multiedit/windowhelper.py:70
+msgid "Start multi edit mode"
+msgstr "Έναρξη λειτουργίας πολλαπλής επεξεργασίας"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "Γραμ_μή _καρτελών"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "Αλλαγή της ορατότητας της γραμμής καρτελών στο τρέχον παράθυρο"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "Η γραμμή καρτελών είναι ορατή"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr "Αν η γραμμή καρτελών θα είναι ορατή στα παράθυρα επεξεργασίας."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr "Προσθήκη καταχώρησης μενού για εμφάνιση/απόκρυψη της γραμμής καρτελών."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "Εμφάνιση/απόκρυψη της γραμμής καρτελών"
+
+#: ../plugins/sessionsaver/__init__.py:64
+msgid "Sa_ved sessions"
+msgstr "Απο_θηκευμένες συνεδρίες"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "_Save current session"
+msgstr "_Αποθήκευση τρέχουσας συνεδρίας"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "Save the current document list as a new session"
+msgstr "Αποθήκευση της τρέχουσας λίστας εγγράφων σαν νέα συνεδρία"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "_Manage saved sessions..."
+msgstr "_Διαχείριση αποθηκευμένων συνεδριών…"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "Open the saved session manager"
+msgstr "Άνοιγμα διαχειριστή αποθηκευμένων συνεδριών"
+
+#: ../plugins/sessionsaver/__init__.py:106
+#, python-format
+msgid "Recover '%s' session"
+msgstr "Ανάκτηση της συνεδρίας «%s»"
+
+#: ../plugins/sessionsaver/dialogs.py:167
+msgid "Session Name"
+msgstr "Όνομα συνεδρίας"
+
+#. ex:ts=4:et:
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:1
+msgid "Save and restore your working sessions"
+msgstr "Αποθήκευση και ανάκτηση των ενεργών συνεδριών"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:2
+msgid "Session Saver"
+msgstr "Σύστημα αποθήκευσης συνεδριών"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:1
+msgid "Save session"
+msgstr "Αποθήκευση συνεδρίας"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:2
+msgid "Saved Sessions"
+msgstr "Αποθηκευμένες συνεδρίες"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:3
+msgid "Session name:"
+msgstr "Όνομα συνεδρίας:"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "Αδιαφορία μη-χρήσης στηλοθετών."
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Smart Spaces"
+msgstr "Έξυπνα διαστήματα"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "Ενσωμάτωση ενός τερματικού στο κάτω ταμπλώ."
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:2
+msgid "Embedded Terminal"
+msgstr "Ενσωματωμένο τερματικό"
+
+#: ../plugins/terminal/terminal.py:286
+msgid "Terminal"
+msgstr "Τερματικό"
+
+#: ../plugins/terminal/terminal.py:308
+msgid "C_hange Directory"
+msgstr "Α_λλαγή καταλόγου"
+
+#: ../plugins/wordcompletion/pluma-word-completion-plugin.c:144
+msgid "Document Words"
+msgstr "Λέξεις εγγράφου"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Word Completion"
+msgstr "Συμπλήρωση λέξεων"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Word completion using the completion framework"
+msgstr "Συμπλήρωση λέξεων με χρήση του υποσυστήματος συμπλήρωσης"
+
+#: ../plugins/synctex/synctex.pluma-plugin.desktop.in.in.h:1
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: ../plugins/synctex/synctex.pluma-plugin.desktop.in.in.h:2
+msgid "Synchronize between LaTeX and PDF with pluma and atril."
+msgstr "Συγχρονισμός μεταξύ LaTeX και PDF με τα pluma και atril."
+
+#: ../plugins/synctex/synctex/synctex.py:280
+#: ../plugins/synctex/synctex/synctex.py:281
+msgid "Forward Search"
+msgstr "Αναζήτηση μπροστά"
+
+#. ex:ts=4:et:
+#: ../plugins/textsize/textsize.pluma-plugin.desktop.in.in.h:1
+msgid "Easily increase and decrease the text size"
+msgstr "Εύκολη αύξηση και μείωση του μεγέθους του κειμένου"
+
+#: ../plugins/textsize/textsize.pluma-plugin.desktop.in.in.h:2
+msgid "Text Size"
+msgstr "Μέγεθος κειμένου"
+
+#~ msgid "_Color picker"
+#~ msgstr "Επιλογή _χρωμάτων"
+
+#~ msgid "Color picker"
+#~ msgstr "Επιλογή χρωμάτων"
+
+#~ msgid "gtk-cancel"
+#~ msgstr "gtk-cancel"
+
+#~ msgid "gtk-close"
+#~ msgstr "gtk-close"
+
+#~ msgid "gtk-delete"
+#~ msgstr "gtk-delete"
+
+#~ msgid "gtk-open"
+#~ msgstr "gtk-open"
+
+#~ msgid "gtk-save"
+#~ msgstr "gtk-save"

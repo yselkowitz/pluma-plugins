@@ -1,0 +1,36 @@
+General Information
+===================
+
+This is version 1.2.0 of pluma-plugins. pluma-plugins are a set of plugins
+for pluma.
+
+Installation
+============
+
+For the moment, you have to ./configure with --prefix=same prefix as you
+configured pluma with.
+
+How to choose which plugins to build:
+
+./configure --with-plugins=pl1,pl2,...
+
+where pl1, pl2 ... are one of the following:
+
+bookmarks		Easy document navigation with bookmarks
+bracketcompletion	Automatically adds closing brackets.
+charmap			Insert special characters just by clicking on them.
+codecomment		Comment and uncomment blocks of code.
+colorpicker		Pick a color from a dialog and insert its hexadecimal 
+			representation.
+commander		Command pluma from a command line like interface
+drawspaces		Draw spaces and tabs.
+joinlines		Join several lines or split long ones.
+multiedit		Edit document in multiple places at once
+sessionsaver		Save and restore your working sessions.
+showtabbar		Add a menu entry to show/hide the tabbar.
+smartspaces		Forget you're not using tabulations.
+terminal		Embed a terminal in the bottom pane.
+wordcompletion		Word completion using the completion framework.
+synctex			SyncTeX synchronization of TeX files and PDF output.
+
+all			All of the above plugins

@@ -1,0 +1,264 @@
+# Lithuanian translation of pluma
+# Copyright (C) 2000-2005 Free Software Foundation, Inc.
+# Gediminas Paulauskas <menesis@chatsubo.lt>, 2000
+# Vaidotas Zemlys <Vaidotas.Zemlys@maf.vu.lt>, 2003
+# Žygimantas Beručka <uid0@akl.lt>, 2004-2005.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-04-05 03:43+0300\n"
+"PO-Revision-Date: 2005-04-05 03:50+0300\n"
+"Last-Translator: Žygimantas Beručka <uid0@akl.lt>\n"
+"Language-Team: Lithuanian <komp_lt@konf.lt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../plugins/ASCII/ascii.c:43
+msgid "_ASCII Table"
+msgstr "_ASCII lentelė"
+
+#: ../plugins/ASCII/ascii.c:46
+msgid "Pop-up a dialog containing an ASCII Table"
+msgstr "Parodyti dialogą su ASCII simbolių lentele"
+
+#: ../plugins/ASCII/ascii.c:303
+msgid "Char"
+msgstr "Simbolis"
+
+#: ../plugins/ASCII/ascii.c:310
+msgid "Dec#"
+msgstr "Deš#"
+
+#: ../plugins/ASCII/ascii.c:317
+msgid "Hex#"
+msgstr "Šeš#"
+
+#: ../plugins/ASCII/ascii.c:324
+msgid "Name"
+msgstr "Pavadinimas"
+
+#: ../plugins/ASCII/ascii.c:369
+msgid "ASCII Table"
+msgstr "ASCII lentelė"
+
+#: ../plugins/ASCII/ascii.c:382 ../plugins/ASCII/asciitable.glade2.h:2
+msgid "_Insert char"
+msgstr "Įterpt_i simbolį"
+
+#: ../plugins/ASCII/asciitable.glade2.h:1
+#: ../plugins/ASCII/ascii.pluma-plugin.desktop.in.h:1
+msgid "ASCII table"
+msgstr "ASCII lentelė"
+
+#: ../plugins/ASCII/ascii.pluma-plugin.desktop.in.h:2
+msgid "This plugin displays a pop-up dialog which contains an ASCII Table."
+msgstr "Šis priedas parodo dialogą su ASCII simbolių lentele."
+
+#: ../plugins/cvschangelog/cvschangelog.c:49
+msgid "Open CVS Chan_geLogs"
+msgstr "Atverti CVS pa_keitimų žurnalus"
+
+#: ../plugins/cvschangelog/cvschangelog.c:52
+msgid "Searches for ChangeLogs in the current document and opens them"
+msgstr "Esamame dokumente ieško pakeitimų žurnalų ir juos atveria"
+
+#: ../plugins/cvschangelog/cvschangelog.pluma-plugin.desktop.in.h:1
+msgid "A plugin that opens ChangeLogs found in CVS commit messages."
+msgstr ""
+"Įskiepis, kuris atveria pakeitimų žurnalus rastus CVS perdavimo žinutėse."
+
+#: ../plugins/cvschangelog/cvschangelog.pluma-plugin.desktop.in.h:2
+msgid "CVS ChangeLog"
+msgstr "CVS pakeitimų žurnalas"
+
+#: ../plugins/diff/diff.c:64
+msgid "Co_mpare Files..."
+msgstr "Pa_lyginti bylas..."
+
+#: ../plugins/diff/diff.c:67
+msgid "Makes a diff file from two documents or files"
+msgstr "Pagamina skirtumų bylą, palygindamas du dokumentus ar bylas"
+
+#. Create the dialog
+#: ../plugins/diff/diff.c:270 ../plugins/diff/diff.pluma-plugin.desktop.in.h:1
+msgid "Compare Files"
+msgstr "Palyginti bylas"
+
+#: ../plugins/diff/diff.c:284
+msgid "C_ompare"
+msgstr "_Lyginti"
+
+#: ../plugins/diff/diff.c:511
+msgid "Executed command"
+msgstr "Įvykdyta komanda"
+
+#: ../plugins/diff/diff.c:652
+msgid "The two documents you selected are the same."
+msgstr "Abu pasirinkti dokumentai yra vienodi."
+
+#: ../plugins/diff/diff.c:660
+msgid ""
+"The \"first\" file you selected does not exist.\n"
+"\n"
+"Please provide a valid file."
+msgstr ""
+"„Pirmoji“ pasirinkta byla neegzistuoja.\n"
+"\n"
+"Patikrinkite bylos vardą."
+
+#: ../plugins/diff/diff.c:669
+msgid ""
+"The \"second\" file you selected does not exist.\n"
+"\n"
+"Please provide a valid file."
+msgstr ""
+"„Antroji“ pasirinkta byla neegzistuoja.\n"
+"\n"
+"Patikrinkite bylos vardą."
+
+#: ../plugins/diff/diff.c:677
+msgid "The two files you selected are the same."
+msgstr "Abi pasirinktos bylos yra vienodos."
+
+#: ../plugins/diff/diff.c:694
+msgid "The \"first\" document contains no text."
+msgstr "„Pirmame“ dokumente nėra jokio teksto."
+
+#: ../plugins/diff/diff.c:728
+msgid "The \"second\" document contains no text."
+msgstr "„Antrame“ dokumente nėra jokio teksto."
+
+#. FIXME: do better error reporting ... . Chema
+#: ../plugins/diff/diff.c:754
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"pluma could not create a temporary file."
+msgstr ""
+"Neįmanoma palyginti pasirinktų dokumentų.\n"
+"\n"
+"Nepavyko sukurti laikinos bylos."
+
+#: ../plugins/diff/diff.c:778 ../plugins/diff/diff.c:791
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"Error executing the diff command."
+msgstr ""
+"Neįmanoma palyginti pasirinktų dokumentų.\n"
+"\n"
+"Klaida vykdant diff komandą."
+
+#: ../plugins/diff/diff.c:813
+msgid "No differences were found between the selected documents."
+msgstr "Tarp dviejų pasirinktų dokumentų nėra jokių skirtumų."
+
+#: ../plugins/diff/diff.c:854
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"The result contains invalid UTF-8 data."
+msgstr ""
+"Neįmanoma palyginti pasirinktų dokumentų.\n"
+"\n"
+"Rezultate yra neteisingų UTF-8 simbolių."
+
+#: ../plugins/diff/diff.glade2.h:1
+msgid "*"
+msgstr "*"
+
+#: ../plugins/diff/diff.glade2.h:2
+msgid "Choose the files to compare."
+msgstr "Pasirinkite lyginamas bylas."
+
+#: ../plugins/diff/diff.glade2.h:3
+msgid "Compare files..."
+msgstr "Palyginti bylas..."
+
+#: ../plugins/diff/diff.glade2.h:4
+msgid "F_rom document"
+msgstr "Iš _dokumento"
+
+#: ../plugins/diff/diff.glade2.h:5
+msgid "First"
+msgstr "Pirmas"
+
+#: ../plugins/diff/diff.glade2.h:6
+msgid "First file from disk"
+msgstr "Pirma byla iš disko"
+
+#: ../plugins/diff/diff.glade2.h:7
+msgid "First file from open document"
+msgstr "Pirma byla iš atidaryto dokumento"
+
+#: ../plugins/diff/diff.glade2.h:8
+msgid "From _document"
+msgstr "Iš _dokumento"
+
+#: ../plugins/diff/diff.glade2.h:9
+msgid "From a _file on disk"
+msgstr "Iš _bylos, esančios diske"
+
+#: ../plugins/diff/diff.glade2.h:10
+msgid "From a file o_n disk"
+msgstr "Iš b_ylos, esančios diske"
+
+#: ../plugins/diff/diff.glade2.h:11
+msgid "Ignore _blanks (-b option)"
+msgstr "Ignoruoti _tarpus (raktas -b)"
+
+#: ../plugins/diff/diff.glade2.h:12
+msgid "Note that this option is only supported by GNU diff"
+msgstr "Šią parinktį priima tik GNU diff"
+
+#: ../plugins/diff/diff.glade2.h:13
+msgid "Second"
+msgstr "Antra"
+
+#: ../plugins/diff/diff.glade2.h:14
+msgid "Second file from disk"
+msgstr "Antra byla iš disko"
+
+#: ../plugins/diff/diff.glade2.h:15
+msgid "Second file from open document"
+msgstr "Antra byla iš atidaryto dokumento"
+
+#: ../plugins/diff/diff.glade2.h:16
+msgid "Select the \"first\" file..."
+msgstr "Pasirinkite „pirmą“ bylą..."
+
+#: ../plugins/diff/diff.glade2.h:17
+msgid "Select the \"second\" file..."
+msgstr "Pasirinkite „antrą“ bylą..."
+
+#: ../plugins/diff/diff.glade2.h:18
+msgid "Select the first file to compare"
+msgstr "Pasirinkite palyginimui pirmą bylą"
+
+#: ../plugins/diff/diff.glade2.h:19
+msgid "Select the first open document to compare"
+msgstr "Pasirinkite palyginimui pirmą atidarytą dokumentą"
+
+#: ../plugins/diff/diff.glade2.h:20
+msgid "Select the second file to compare"
+msgstr "Pasirinkite palyginimui antrą bylą"
+
+#: ../plugins/diff/diff.glade2.h:21
+msgid "Select the second open document to compare"
+msgstr "Pasirinkite palyginimui antrą atidarytą dokumentą"
+
+#: ../plugins/diff/diff.glade2.h:22
+msgid "Use the _unified output format (-u option)"
+msgstr "Naudoti _vieningą rezultatų formatą (raktas -u)"
+
+#: ../plugins/diff/diff.pluma-plugin.desktop.in.h:2
+msgid ""
+"The Compare Files plugin uses the \"diff\" program to compare two documents "
+"or files on disk."
+msgstr ""
+"Bylų palyginimo įskiepis dviejų dokumentų arba bylų diske lyginimui naudoja "
+"programą „diff“. "

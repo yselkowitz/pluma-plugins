@@ -1,0 +1,275 @@
+# translation of pluma-plugins.HEAD.po to Latvian
+# Copyright (C) 2009 Free Software Foundation, Inc.
+#
+# Raivis Dejus <orvils@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins.HEAD\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pluma-plugins&component=general\n"
+"POT-Creation-Date: 2009-01-07 22:05+0000\n"
+"PO-Revision-Date: 2009-01-23 19:14+0200\n"
+"Last-Translator: Raivis Dejus <orvils@gmail.com>\n"
+"Language-Team: Latvian <locale@laka.lv>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:1
+msgid "Bookmarks"
+msgstr "Grāmatzīmes"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "Vienkārša pārvietošanās pa dokumentiem izmantojot grāmatzīmes"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:123
+msgid "Toggle Bookmark"
+msgstr "Pārslēgt grāmatzīmi"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:124
+msgid "Toggle bookmark status of the current line"
+msgstr "Pārslēgt tekošās rindiņas grāmatzīmes statusu"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:126
+msgid "Goto Next Bookmark"
+msgstr "Pāriet uz nākamo grāmatzīmi"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:127
+msgid "Goto the next bookmark"
+msgstr "Pāriet uz nākamo grāmatzīmi"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:129
+msgid "Goto Previous Bookmark"
+msgstr "Pāriet uz iepriekšējo grāmatzīmi"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:130
+msgid "Goto the previous bookmark"
+msgstr "Pāriet uz iepriekšējo grāmatzīmi"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "Automātiski pievieno aizverošās iekavas."
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Bracket Completion"
+msgstr "Aizverošās iekavas"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:258
+msgid "Character Map"
+msgstr "Rakstzīmju tabula"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "Ar klikšķu palīdzību ļauj ievietot speciālās rakstu zīmes."
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:1
+msgid "Code comment"
+msgstr "Koda komentēšana"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "Aizkomentē vai atkomentē iezīmēto koda daļu."
+
+#: ../plugins/codecomment/codecomment.py:230
+msgid "Co_mment Code"
+msgstr "Aizko_mentē kodu"
+
+#: ../plugins/codecomment/codecomment.py:232
+msgid "Comment the selected code"
+msgstr "Aizkomentē iezīmēto koda daļu"
+
+#: ../plugins/codecomment/codecomment.py:236
+msgid "U_ncomment Code"
+msgstr "Atnome_ntē kodu"
+
+#: ../plugins/codecomment/codecomment.py:238
+msgid "Uncomment the selected code"
+msgstr "Atkomentē iezīmēto koda daļu"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "Krāsu izvēlētājs"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "Ļauj grafiski izvēlēties krāsu un ievieto kodā to hexadecimālo kodu."
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "Pick _Color..."
+msgstr "Izvēlēties _krāsu..."
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "Izvēlieties krāsu"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Pick Color"
+msgstr "Izvēlies krāsu"
+
+#: ../plugins/colorpicker/colorpicker.py:226
+msgid "_Insert"
+msgstr "_Ievietot"
+
+#. ex:ts=4:et:
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Draw Spaces"
+msgstr "Rādīt atstarpes"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "Rādīt atstarpes un tabulatorus"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:1
+msgid "Draw new lines"
+msgstr "Rādīt jaunās rindiņas"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:2
+msgid "Draw non-breaking spaces"
+msgstr "Rādīt nedalāmās atstarpes"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:3
+msgid "Draw spaces"
+msgstr "Rādīt atstarpes"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:4
+msgid "Draw tabs"
+msgstr "Rādīt tabulatorus"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:149
+msgid "Show _White Space"
+msgstr "Rādīt tukšās rakstzīmes"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:150
+msgid "Show spaces and tabs"
+msgstr "Rādīt atstarpes un tabulatorus"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:526
+msgid "Error dialog"
+msgstr "Kļūdas logs"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "Savieno vairākas rindiņas vai sadala garās"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:2
+msgid "Join/Split Lines"
+msgstr "Sadala/savieno rindiņas"
+
+#: ../plugins/joinlines/joinlines.py:56
+msgid "_Join Lines"
+msgstr "_Savienot rindiņas"
+
+#: ../plugins/joinlines/joinlines.py:57
+msgid "Join the selected lines"
+msgstr "Savienot iezīmētās rindiņas"
+
+#: ../plugins/joinlines/joinlines.py:59
+msgid "_Split Lines"
+msgstr "_Sadalīt rindiņas"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "Split the selected lines"
+msgstr "Sadalīt iezīmētās rindiņas"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "Cilņu josla"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "Izmainīt cilņu redzamību pašreizējā logā"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "Cilņu josla ir redzama"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr "Vai cilņu joslai būtu jābūt redzamai rediģēšanas logos."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr "Pievieno izvēlnes ierakstu cilņu joslas parādīšanai/paslēpšanai."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "Parādīt/Paslēpt cilņu joslu"
+
+#: ../plugins/sessionsaver/__init__.py:64
+msgid "Sa_ved sessions"
+msgstr "Sa_glabātās sesijas"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "_Save current session"
+msgstr "_Saglabāt pašreizējo sesiju"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "Save the current document list as a new session"
+msgstr "Saglabāt pašreizējo dokumentu sarakstu kā jaunu sesiju"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "_Manage saved sessions..."
+msgstr "_Pārvaldīt saglabātās sesijas..."
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "Open the saved session manager"
+msgstr "Atvērt saglabāto sesiju pārvaldnieku"
+
+#: ../plugins/sessionsaver/__init__.py:106
+#, python-format
+msgid "Recover '%s' session"
+msgstr "Atgūt sesiju '%s'"
+
+#: ../plugins/sessionsaver/dialogs.py:167
+msgid "Session Name"
+msgstr "Sesijas nosaukums"
+
+#. ex:ts=4:et:
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:1
+msgid "Save and restore your working sessions"
+msgstr "Saglabā un atjauno jūsu darba sesijas"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:2
+msgid "Session Saver"
+msgstr "Sesiju saglabātājs"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:1
+msgid "Save session"
+msgstr "Saglabāt sesiju"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:2
+msgid "Saved Sessions"
+msgstr "Saglabātās sesijas"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:3
+msgid "Session name:"
+msgstr "Sesijas nosaukums:"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "Aizmirstiet, ka neizmantojat tabulatorus."
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Smart Spaces"
+msgstr "Gudrās atstarpes"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "Ievietot termināli loga apakšpusē."
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:2
+msgid "Embedded Terminal"
+msgstr "Iekļautais terminālis"
+
+#: ../plugins/terminal/terminal.py:238
+msgid "Terminal"
+msgstr "Terminālis"
+
+#: ../plugins/terminal/terminal.py:261
+msgid "C_hange Directory"
+msgstr "N_omainīt direktoriju"
+

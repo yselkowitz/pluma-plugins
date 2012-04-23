@@ -1,0 +1,399 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Imam Musthaqim <userindesign@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pluma&component=Plugins\n"
+"POT-Creation-Date: 2010-01-17 00:07+0000\n"
+"PO-Revision-Date: 2010-04-14 16:13+0700\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"Language-Team: INDONESIA <userindesign@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Indonesian\n"
+"X-Poedit-Country: INDONESIA\n"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:1
+msgid "Bookmarks"
+msgstr "Bookmark"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "Navigasi dokumen yang mudah dengan bookmark"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:137
+msgid "Toggle Bookmark"
+msgstr "Aktifkan/Nonaktifkan Bookmark"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:138
+msgid "Toggle bookmark status of the current line"
+msgstr "Aktifkan/nonaktifkan status bookmark dari baris saat ini"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:140
+msgid "Goto Next Bookmark"
+msgstr "Ke Bookmark Berikutnya"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:141
+msgid "Goto the next bookmark"
+msgstr "Ke bookmark berikutnya"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:143
+msgid "Goto Previous Bookmark"
+msgstr "Ke Bookmark Sebelumnya"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:144
+msgid "Goto the previous bookmark"
+msgstr "Ke bookmark sebelumnya"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "Menambahkan tanda kurung tutup secara otomatis."
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Bracket Completion"
+msgstr "Penyelesaian Tanda Kurung"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:258
+msgid "Character Map"
+msgstr "Peta Karakter"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "Sisipkan karakter khusus hanya dengan mengkliknya."
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:1
+msgid "Code comment"
+msgstr "Komentar kode"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "Beri komentar atau jangan beri komentar pada blok kode yang dipilih."
+
+#: ../plugins/codecomment/codecomment.py:230
+msgid "Co_mment Code"
+msgstr "Kode Ko_mentar"
+
+#: ../plugins/codecomment/codecomment.py:232
+msgid "Comment the selected code"
+msgstr "Beri komentar pada kode yang dipilih"
+
+#: ../plugins/codecomment/codecomment.py:236
+msgid "U_ncomment Code"
+msgstr "Kode Jangan_beri Komentar"
+
+#: ../plugins/codecomment/codecomment.py:238
+msgid "Uncomment the selected code"
+msgstr "Jangan beri komentar pada kode yang dipilih"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "Pemilih Warna"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "Memilih warna dari dialog dan menyisipkan representasi heksadesimalnya."
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "Pick _Color..."
+msgstr "Pilih _Warna..."
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "Pilih warna dari dialog"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Pick Color"
+msgstr "Pilih Warna"
+
+#: ../plugins/colorpicker/colorpicker.py:226
+msgid "_Insert"
+msgstr "_Sisipkan"
+
+#. ex:ts=4:et:
+#: ../plugins/commander/commander.pluma-plugin.desktop.in.in.h:1
+msgid "Command line interface for advanced editing"
+msgstr "Antar muka baris perintah bagi penyuntingan tingkat lanjut"
+
+#: ../plugins/commander/commander.pluma-plugin.desktop.in.in.h:2
+#| msgid "Co_mment Code"
+msgid "Commander"
+msgstr "Commander"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:4
+msgid "Draw Spaces"
+msgstr "Gambar Spasi"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "Gambar Spasi dan Tab"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:1
+#| msgid "Draw non-breaking spaces"
+msgid "Draw leading spaces"
+msgstr "Menggambar spasi di awal"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:2
+msgid "Draw new lines"
+msgstr "Menggambar garis baru"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:3
+msgid "Draw non-breaking spaces"
+msgstr "Menggambar spasi yang tidak terpisah"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:4
+msgid "Draw spaces"
+msgstr "Menggambar spasi"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:5
+#| msgid "Draw spaces"
+msgid "Draw spaces in text"
+msgstr "Menggambar spasi dalam teks"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:6
+msgid "Draw tabs"
+msgstr "Menggambar tab"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:7
+#| msgid "Draw non-breaking spaces"
+msgid "Draw trailing spaces"
+msgstr "Menggambar spasi di akhir"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:1
+#| msgid "Draw non-breaking spaces"
+msgid "Draw Leading Spaces"
+msgstr "Gambar Spasi Awal"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:2
+#| msgid "Draw new lines"
+msgid "Draw New lines"
+msgstr "Gambar Garis Baru"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:3
+#| msgid "Draw non-breaking spaces"
+msgid "Draw Non-Breaking Spaces"
+msgstr "Gambar Spasi Tak Terpisah"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:5
+#| msgid "Draw Spaces and Tabs"
+msgid "Draw Spaces in Text"
+msgstr "Gambar Spasi dalam Teks"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:6
+#| msgid "Draw tabs"
+msgid "Draw Tabs"
+msgstr "Gambar Tab"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:7
+#| msgid "Draw non-breaking spaces"
+msgid "Draw Trailing Spaces"
+msgstr "Gambar Spasi Akhir"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:8
+#| msgid "Show _White Space"
+msgid "Show White Spaces"
+msgstr "Tampilkan Spasi Kosong"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:167
+msgid "Show _White Space"
+msgstr "Tampilkan _Spasi Kosong"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:168
+msgid "Show spaces and tabs"
+msgstr "Menampilkan spasi dan tab"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:612
+msgid "Error dialog"
+msgstr "Dialog kesalahan"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "Menggabungkan beberapa garis atau memutuskan garis yang panjang"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:2
+msgid "Join/Split Lines"
+msgstr "Gabungkan/Putuskan Garis"
+
+#: ../plugins/joinlines/joinlines.py:56
+msgid "_Join Lines"
+msgstr "_Gabungkan Garis"
+
+#: ../plugins/joinlines/joinlines.py:57
+msgid "Join the selected lines"
+msgstr "Menggabungkan garis yang dipilih"
+
+#: ../plugins/joinlines/joinlines.py:59
+msgid "_Split Lines"
+msgstr "_Putuskan Garis"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "Split the selected lines"
+msgstr "Memutus garis yang dipilih"
+
+#. ex:ts=4:et:
+#: ../plugins/multiedit/multiedit.pluma-plugin.desktop.in.in.h:1
+msgid "Edit document in multiple places at once"
+msgstr "Sunting dokumen di beberapa tempat sekaligus"
+
+#: ../plugins/multiedit/multiedit.pluma-plugin.desktop.in.in.h:2
+msgid "Multi Edit"
+msgstr "Sunting Ganda"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:279
+msgid "Added edit point..."
+msgstr "Titik sunting ditambahkan..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:417
+msgid "Column Mode..."
+msgstr "Moda Kolom..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:535
+msgid "Removed edit point..."
+msgstr "Titik sunting dihapus..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:685
+msgid "Cancelled column mode..."
+msgstr "Membatalkan moda kolom..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:804
+msgid "Enter column edit mode using selection"
+msgstr "Masuk moda sunting kolom memakai piliah"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:805
+msgid "Toggle edit point"
+msgstr "Jungkit titik sunting"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:806
+msgid "Add edit point at beginning of line/selection"
+msgstr "Tambah titik sunting di awal baris/pilihan"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:807
+msgid "Add edit point at end of line/selection"
+msgstr "Tambah titik sunting di akhir baris/pilihan"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:843
+#: ../plugins/multiedit/multiedit/windowhelper.py:69
+msgid "Multi Edit Mode"
+msgstr "Moda Sunting Ganda"
+
+#: ../plugins/multiedit/multiedit/windowhelper.py:69
+msgid "Start multi edit mode"
+msgstr "Mulai moda sunting ganda"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "Tab_bar"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "Menampilkan atau menyembunyikan tabbar dalam jendela saat ini"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "Tabbar Tampak"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr "Apakah tabbar harus tampak saat menpluma jendela."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr "Tambahkan entri menu untuk menampilkan/menyembunyikan tabbar."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "Tampilkan/Sembunyikan Tabbar"
+
+#: ../plugins/sessionsaver/__init__.py:64
+msgid "Sa_ved sessions"
+msgstr "Sesi ter_simpan"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "_Save current session"
+msgstr "_Simpan sesi saat ini"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "Save the current document list as a new session"
+msgstr "Simpan daftar dokumen saat ini sebagai sesi baru"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "_Manage saved sessions..."
+msgstr "_Kelola sesi tersimpan..."
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "Open the saved session manager"
+msgstr "Buka manajer sesi tersimpan"
+
+#: ../plugins/sessionsaver/__init__.py:106
+#, python-format
+msgid "Recover '%s' session"
+msgstr "Pulihkan sesi '%s'"
+
+#: ../plugins/sessionsaver/dialogs.py:167
+msgid "Session Name"
+msgstr "Nama Sesi"
+
+#. ex:ts=4:et:
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:1
+msgid "Save and restore your working sessions"
+msgstr "Simpan dan pulihkan sesi kerja Anda"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:2
+msgid "Session Saver"
+msgstr "Penyimpan Sesi"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:1
+msgid "Save session"
+msgstr "Simpan sesi"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:2
+msgid "Saved Sessions"
+msgstr "Sesi Tersimpan"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:3
+msgid "Session name:"
+msgstr "Nama sesi:"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "Lupa bahwa Anda tidak menggunakan tabulasi."
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Smart Spaces"
+msgstr "Spasi Pintar"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "Tanamkan terminal di panel bawah."
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:2
+msgid "Embedded Terminal"
+msgstr "Terminal Tertanam"
+
+#: ../plugins/terminal/terminal.py:262
+msgid "Terminal"
+msgstr "Terminal"
+
+#: ../plugins/terminal/terminal.py:285
+msgid "C_hange Directory"
+msgstr "U_bah Direktori"
+
+#: ../plugins/wordcompletion/pluma-word-completion-plugin.c:144
+msgid "Document Words"
+msgstr "Kata Dokumen"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:1
+#| msgid "Bracket Completion"
+msgid "Word Completion"
+msgstr "Penyelesaian Kata"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Word completion using the completion framework"
+msgstr "Penyelesaian kata memakai kerangka kerja penyelesaian"
+

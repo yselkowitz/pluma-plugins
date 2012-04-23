@@ -1,0 +1,2581 @@
+# German pluma-plugins translation
+# Copyright (C) 1999-2003 Free Software Foundation, Inc.
+# Manuel Borchers <webmaster@matronix.de>, 2002.
+# Christian Neumair <chris@gnome-de.org>, 2002-2003.
+# Matthias Warkus <mawarkus@gnome.org>, 1999-2001.
+# Christian Neumair <chris@gnome-de.org>, 2005.
+# Hendrik Richter <hendrikr@gnome.org>, 2005.
+# Andre Klapper <ak-47@gmx.net>, 2008.
+# Mario Blättermann <mariobl@gnome.org>, 2008, 2009.
+# Christian Kirbach <Christian.Kirbach@googlemail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins 1.2\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=pluma&component=Plugins\n"
+"POT-Creation-Date: 2010-09-18 04:52+0000\n"
+"PO-Revision-Date: 2010-09-18 13:34+0100\n"
+"Last-Translator: Mario Blättermann <mariobl@gnome.org>\n"
+"Language-Team: Deutsch <gnome-de@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:1
+msgid "Bookmarks"
+msgstr "Lesezeichen"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "Einfache Navigation im Dokument mittels Lesezeichen"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:137
+msgid "Toggle Bookmark"
+msgstr "Lesezeichen ein-/ausschalten"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:138
+msgid "Toggle bookmark status of the current line"
+msgstr "Lesezeichenstatus der aktuellen Zeile ändern"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:140
+msgid "Goto Next Bookmark"
+msgstr "Nächstes Lesezeichen"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:141
+msgid "Goto the next bookmark"
+msgstr "Zum nächsten Lesezeichen gehen"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:143
+msgid "Goto Previous Bookmark"
+msgstr "Vorheriges Lesezeichen"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:144
+msgid "Goto the previous bookmark"
+msgstr "Zum vorherigen Lesezeichen gehen"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "Fügt automatisch schließende Klammern hinzu."
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Bracket Completion"
+msgstr "Klammern schließen"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:258
+msgid "Character Map"
+msgstr "Zeichentabelle"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "Sonderzeichen durch Anklicken einfügen."
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:1
+msgid "Code comment"
+msgstr "Quelltextkommentar"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr ""
+"Einen markierten Quelltextabsatz auskommentieren oder wieder unkommentieren"
+
+#: ../plugins/codecomment/codecomment.py:230
+msgid "Co_mment Code"
+msgstr "Quelltext ausko_mmentieren"
+
+#: ../plugins/codecomment/codecomment.py:232
+msgid "Comment the selected code"
+msgstr "Den markierten Quelltext auskommentieren"
+
+#: ../plugins/codecomment/codecomment.py:236
+msgid "U_ncomment Code"
+msgstr "Quelltext u_nkommentieren"
+
+#: ../plugins/codecomment/codecomment.py:238
+msgid "Uncomment the selected code"
+msgstr "Den markierten Quelltext unkommentieren"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "Farbwähler"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr ""
+"Wählen Sie eine Farbe aus einem Dialog und fügen Sie deren Hexadezimal-"
+"Darstellung ein."
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "Pick _Color..."
+msgstr "_Farbe auswählen …"
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "Eine Farbe aus einem Dialog auswählen"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Pick Color"
+msgstr "Farbe auswählen"
+
+#: ../plugins/colorpicker/colorpicker.py:226
+msgid "_Insert"
+msgstr "E_infügen"
+
+#. ex:ts=4:et:
+#: ../plugins/commander/commander.pluma-plugin.desktop.in.in.h:1
+msgid "Command line interface for advanced editing"
+msgstr "Befehlszeilenschnittstelle für erweiterte Bearbeitung"
+
+#: ../plugins/commander/commander.pluma-plugin.desktop.in.in.h:2
+msgid "Commander"
+msgstr "Commander"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:4
+msgid "Draw Spaces"
+msgstr "Leerzeichen anzeigen"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "Leerzeichen und Einzüge anzeigen"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:1
+msgid "Draw leading spaces"
+msgstr "Vorangestellte Leerzeichen anzeigen"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:2
+msgid "Draw new lines"
+msgstr "Zeilen einfügen"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:3
+msgid "Draw non-breaking spaces"
+msgstr "Geschützte Leerzeichen anzeigen"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:4
+msgid "Draw spaces"
+msgstr "Leerzeichen anzeigen"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:5
+msgid "Draw spaces in text"
+msgstr "Leerzeichen im Text anzeigen"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:6
+msgid "Draw tabs"
+msgstr "Einzüge anzeigen"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:7
+msgid "Draw trailing spaces"
+msgstr "Angehängte Leerzeichen anzeigen"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:1
+msgid "Draw Leading Spaces"
+msgstr "Vorangestellte Leerzeichen anzeigen"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:2
+msgid "Draw New lines"
+msgstr "Zeilenumbrüche anzeigen"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:3
+msgid "Draw Non-Breaking Spaces"
+msgstr "Geschützte Leerzeichen anzeigen"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:5
+msgid "Draw Spaces in Text"
+msgstr "Leerzeichen im Text anzeigen"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:6
+msgid "Draw Tabs"
+msgstr "Einzüge anzeigen"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:7
+msgid "Draw Trailing Spaces"
+msgstr "Angehängte Leerzeichen anzeigen"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:8
+msgid "Show White Spaces"
+msgstr "Leerzeichen anzeigen"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:167
+msgid "Show _White Space"
+msgstr "Leerzei_chen anzeigen"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:168
+msgid "Show spaces and tabs"
+msgstr "Leerzeichen und Einzüge anzeigen"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:612
+msgid "Error dialog"
+msgstr "Fehlerdialog"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "Mehrere Zeilen zusammenfügen oder lange Zeilen umbrechen"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:2
+msgid "Join/Split Lines"
+msgstr "Zeilen zusammenfügen/umbrechen"
+
+#: ../plugins/joinlines/joinlines.py:56
+msgid "_Join Lines"
+msgstr "_Zeilen zusammenfügen"
+
+#: ../plugins/joinlines/joinlines.py:57
+msgid "Join the selected lines"
+msgstr "Die markierten Zeilen zusammenfügen"
+
+#: ../plugins/joinlines/joinlines.py:59
+msgid "_Split Lines"
+msgstr "Zeilen umbrechen"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "Split the selected lines"
+msgstr "Die markierten Zeilen umbrechen"
+
+#. ex:ts=4:et:
+#: ../plugins/multiedit/multiedit.pluma-plugin.desktop.in.in.h:1
+msgid "Edit document in multiple places at once"
+msgstr "Dokument an mehreren Stellen gleichzeitig bearbeiten"
+
+#: ../plugins/multiedit/multiedit.pluma-plugin.desktop.in.in.h:2
+msgid "Multi Edit"
+msgstr "Mehrfachbearbeitung"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:315
+msgid "Added edit point..."
+msgstr "Hinzugefügter Bearbeitungspunkt …"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:651
+msgid "Column Mode..."
+msgstr "Spaltenmodus …"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:773
+msgid "Removed edit point..."
+msgstr "Gelöschter Bearbeitungspunkt …"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:936
+msgid "Cancelled column mode..."
+msgstr "Abgebrochener Spaltenmodus …"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1274
+msgid "Enter column edit mode using selection"
+msgstr "Mit dieser Auswahl in den Spalten-Bearbeitungsmodus wechseln"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1275
+msgid "Enter <b>smart</b> column edit mode using selection"
+msgstr ""
+"Mit dieser Auswahl in den <b>intelligenten</b> Spalten-Bearbeitungsmodus "
+"wechseln"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1276
+msgid "<b>Smart</b> column align mode using selection"
+msgstr "<b>Intelligenter</b> Spalten-Bearbeitungsmodus mit dieser Auswahl"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1277
+msgid "<b>Smart</b> column align mode with additional space using selection"
+msgstr ""
+"<b>Intelligenter</b> Spalten-Bearbeitungsmodus mit zusätzlichem mit dieser "
+"Auswahl"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1279
+msgid "Toggle edit point"
+msgstr "Bearbeitungspunkt umschalten"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1280
+msgid "Add edit point at beginning of line/selection"
+msgstr "Bearbeitungspunkt am Beginn der Zeile/Auswahl hinzufügen"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1281
+msgid "Add edit point at end of line/selection"
+msgstr "Bearbeitungspunkt am Ende der Zeile/Auswahl hinzufügen"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1282
+msgid "Align edit points"
+msgstr "Bearbeitungspunkte ausrichten"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1283
+msgid "Align edit points with additional space"
+msgstr "Bearbeitungspunkte mit zusätzlichem Abstand ausrichten"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1319
+#: ../plugins/multiedit/multiedit/windowhelper.py:70
+msgid "Multi Edit Mode"
+msgstr "Mehrfachbearbeitungsmodus"
+
+#: ../plugins/multiedit/multiedit/windowhelper.py:70
+msgid "Start multi edit mode"
+msgstr "In den Mehrfachbearbeitungsmodus wechseln"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "Reiterleiste"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "Die Reiterleiste im aktuellen Fenster anzeigen/verbergen"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "Reiterleiste ist sichtbar"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr ""
+"Legt fest, ob die Reiterleiste in Bearbeitungsfenstern sichtbar sein soll."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr ""
+"Fügt einen Menüeintrag hinzu, um die Reiterleiste anzuzeigen/zu verbergen."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "Reiterleiste anzeigen/verbergen"
+
+#: ../plugins/sessionsaver/__init__.py:64
+msgid "Sa_ved sessions"
+msgstr "_Gespeicherte Sitzungen"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "_Save current session"
+msgstr "Die aktuelle Sitzung _speichern"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "Save the current document list as a new session"
+msgstr "Die aktuelle Dokumentenliste als neue Sitzung speichern"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "_Manage saved sessions..."
+msgstr "Gespeicherte Sitzungen _verwalten …"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "Open the saved session manager"
+msgstr "Gespeicherte Sitzungen verwalten"
+
+#: ../plugins/sessionsaver/__init__.py:106
+#, python-format
+msgid "Recover '%s' session"
+msgstr "Sitzung »%s« wiederherstellen"
+
+#: ../plugins/sessionsaver/dialogs.py:167
+msgid "Session Name"
+msgstr "Sitzungsname"
+
+#. ex:ts=4:et:
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:1
+msgid "Save and restore your working sessions"
+msgstr "Sitzung speichern und wiederherstellen"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:2
+msgid "Session Saver"
+msgstr "Sitzungsspeicherung"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:1
+msgid "Save session"
+msgstr "Sitzung speichern"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:2
+msgid "Saved Sessions"
+msgstr "Gespeicherte Sitzungen"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:3
+msgid "Session name:"
+msgstr "Sitzungsname:"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "Vergessen Sie, dass Sie keine Einzüge benutzen"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Smart Spaces"
+msgstr "Intelligente Leertasten"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "Terminal in die untere Leiste einbetten"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:2
+msgid "Embedded Terminal"
+msgstr "Eingebettetes Terminal"
+
+#: ../plugins/terminal/terminal.py:286
+msgid "Terminal"
+msgstr "Terminal"
+
+#: ../plugins/terminal/terminal.py:308
+msgid "C_hange Directory"
+msgstr "_Ordner wechseln"
+
+#: ../plugins/wordcompletion/pluma-word-completion-plugin.c:144
+msgid "Document Words"
+msgstr "Wörter im Dokument"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Word Completion"
+msgstr "Wortvervollständigung"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Word completion using the completion framework"
+msgstr "Wortvervollständigung mit Hilfe des Vervollständigungs-Frameworks"
+
+#: ../plugins/synctex/synctex.pluma-plugin.desktop.in.in.h:1
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: ../plugins/synctex/synctex.pluma-plugin.desktop.in.in.h:2
+msgid "Synchronize between LaTeX and PDF with pluma and atril."
+msgstr "Abgleich zwischen LaTeX and PDF mit pluma und Atril."
+
+#: ../plugins/synctex/synctex/synctex.py:280
+#: ../plugins/synctex/synctex/synctex.py:281
+msgid "Forward Search"
+msgstr "Vorwärtssuche"
+
+#. ex:ts=4:et:
+#: ../plugins/textsize/textsize.pluma-plugin.desktop.in.in.h:1
+msgid "Easily increase and decrease the text size"
+msgstr "Die Textgröße leicht anpassen"
+
+#: ../plugins/textsize/textsize.pluma-plugin.desktop.in.in.h:2
+msgid "Text Size"
+msgstr "Textgröße"
+
+#~ msgid "Drawing color:"
+#~ msgstr "Zeichenfarbe:"
+
+#~ msgid "_ASCII Table"
+#~ msgstr "_ASCII-Tabelle"
+
+#~ msgid "Pop-up a dialog containing an ASCII Table"
+#~ msgstr "Ein Dialogfenster mit einer ASCII-Tabelle anzeigen"
+
+#~ msgid "ASCII Table"
+#~ msgstr "ASCII-Tabelle"
+
+#~ msgid "_Insert char"
+#~ msgstr "Zeichen e_infügen"
+
+#~ msgid "ASCII table"
+#~ msgstr "ASCII-Tabelle"
+
+#~ msgid "This plugin displays a pop-up dialog which contains an ASCII Table."
+#~ msgstr "Dieses Plugin zeigt ein Dialogfenster mit einer ASCII-Tabelle an."
+
+#~ msgid "Open CVS Chan_geLogs"
+#~ msgstr "_CVS-ChangeLogs öffnen"
+
+#~ msgid "Searches for ChangeLogs in the current document and opens them"
+#~ msgstr "Nach ChangeLogs im aktuellen Dokument suchen und sie öffnen"
+
+#~ msgid "A plugin that opens ChangeLogs found in CVS commit messages."
+#~ msgstr "Dieses Plugin öffnet in CVS-Commit-Meldungen gefundene ChangeLogs"
+
+#~ msgid "CVS ChangeLog"
+#~ msgstr "CVS-ChangeLog"
+
+#~ msgid "Co_mpare Files..."
+#~ msgstr "Dateien _vergleichen …"
+
+#~ msgid "Makes a diff file from two documents or files"
+#~ msgstr "Erzeugt eine Diff-Datei aus zwei Dokumenten oder Dateien"
+
+#~ msgid "Compare Files"
+#~ msgstr "Dateien vergleichen"
+
+#~ msgid "C_ompare"
+#~ msgstr "_Vergleichen"
+
+#~ msgid "Executed command"
+#~ msgstr "Ausgeführter Befehl"
+
+#~ msgid "The two documents you selected are the same."
+#~ msgstr "Die zwei von Ihnen ausgewählten Dokumente sind gleich."
+
+#~ msgid ""
+#~ "The \"first\" file you selected does not exist.\n"
+#~ "\n"
+#~ "Please provide a valid file."
+#~ msgstr ""
+#~ "Die erste von Ihnen ausgewählte Datei gibt es nicht.\n"
+#~ "\n"
+#~ "Bitte geben Sie eine gültige Datei an."
+
+#~ msgid ""
+#~ "The \"second\" file you selected does not exist.\n"
+#~ "\n"
+#~ "Please provide a valid file."
+#~ msgstr ""
+#~ "Die zweite von Ihnen ausgewählte Datei gibt es nicht.\n"
+#~ "\n"
+#~ "Bitte geben Sie eine gültige Datei an."
+
+#~ msgid "The two files you selected are the same."
+#~ msgstr "Die zwei von Ihnen ausgewählten Dateien sind gleich."
+
+#~ msgid "The \"first\" document contains no text."
+#~ msgstr "Das erste Dokument enthält keinen Text."
+
+#~ msgid "The \"second\" document contains no text."
+#~ msgstr "Das zweite Dokument enthält keinen Text."
+
+#~ msgid ""
+#~ "Impossible to compare the selected documents.\n"
+#~ "\n"
+#~ "pluma could not create a temporary file."
+#~ msgstr ""
+#~ "Ausgewählte Dokumente können nicht verglichen werden.\n"
+#~ "\n"
+#~ "pluma konnte keine temporäre Datei anlegen."
+
+#~ msgid ""
+#~ "Impossible to compare the selected documents.\n"
+#~ "\n"
+#~ "Error executing the diff command."
+#~ msgstr ""
+#~ "Ausgewählte Dokumente können nicht verglichen werden.\n"
+#~ "\n"
+#~ "Fehler beim Ausführen des Befehls diff."
+
+#~ msgid "No differences were found between the selected documents."
+#~ msgstr ""
+#~ "Zwischen den ausgewählten Dokumenten wurden keine Unterschiede gefunden."
+
+#~ msgid ""
+#~ "Impossible to compare the selected documents.\n"
+#~ "\n"
+#~ "The result contains invalid UTF-8 data."
+#~ msgstr ""
+#~ "Ausgewählte Dokumente können nicht verglichen werden.\n"
+#~ "\n"
+#~ "Das Ergebnis enthält ungültige UTF-8-Daten."
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "Choose the files to compare."
+#~ msgstr "Die zu vergleichenden Dateien auswählen."
+
+#~ msgid "Compare files..."
+#~ msgstr "Dateien vergleichen …"
+
+#~ msgid "F_rom document"
+#~ msgstr "_Aus Dokument"
+
+#~ msgid "First"
+#~ msgstr "Erste"
+
+#~ msgid "First file from disk"
+#~ msgstr "Erste Datei von der Platte"
+
+#~ msgid "First file from open document"
+#~ msgstr "Erste Datei aus offenem Dokument"
+
+#~ msgid "From _document"
+#~ msgstr "Aus _Dokument"
+
+#~ msgid "From a _file on disk"
+#~ msgstr "Aus einer _Datei auf der Platte"
+
+#~ msgid "From a file o_n disk"
+#~ msgstr "Aus einer Datei _auf der Platte"
+
+#~ msgid "Ignore _blanks (-b option)"
+#~ msgstr "_Leerzeichen übergehen (Option -b)"
+
+#~ msgid "Note that this option is only supported by GNU diff"
+#~ msgstr "Diese Option wird nur von GNU diff unterstützt"
+
+#~ msgid "Second"
+#~ msgstr "Zweite"
+
+#~ msgid "Second file from disk"
+#~ msgstr "Zweite Datei von der Platte"
+
+#~ msgid "Second file from open document"
+#~ msgstr "Zweite Datei aus offenem Dokument"
+
+#~ msgid "Select the \"first\" file..."
+#~ msgstr "Die erste Datei auswählen …"
+
+#~ msgid "Select the \"second\" file..."
+#~ msgstr "Die zweite Datei auswählen …"
+
+#~ msgid "Select the first file to compare"
+#~ msgstr "Die erste zu vergleichende Datei auswählen"
+
+#~ msgid "Select the first open document to compare"
+#~ msgstr "Das erste zu vergleichende Dokument, das geöffnet ist, auswählen"
+
+#~ msgid "Select the second file to compare"
+#~ msgstr "Die zweite zu vergleichende Datei auswählen"
+
+#~ msgid "Select the second open document to compare"
+#~ msgstr "Das zweite zu vergleichende Dokument, das geöffnet ist, auswählen"
+
+#~ msgid "Use the _unified output format (-u option)"
+#~ msgstr "Das ver_einheitlichte Ausgabeformat verwenden (Option: -u)"
+
+#~ msgid ""
+#~ "The Compare Files plugin uses the \"diff\" program to compare two "
+#~ "documents or files on disk."
+#~ msgstr ""
+#~ "Das Dateivergleichs-Plugin verwendet das Programm »diff«, um zwei "
+#~ "Dokumente oder Dateien auf der Platte zu vergleichen."
+
+#~ msgid "pluma application"
+#~ msgstr "pluma-Anwendung"
+
+#~ msgid "pluma automation factory"
+#~ msgstr "pluma-Automatisierungsfabrik"
+
+#~ msgid "Edit text files"
+#~ msgstr "Textdateien bearbeiten"
+
+#~ msgid "Text Editor"
+#~ msgstr "Texteditor"
+
+#~ msgid ""
+#~ "A custom font that will be used for the editing area. This will only take "
+#~ "effect if the \"Use Default Font\" option is turned off."
+#~ msgstr ""
+#~ "Die für den Editor-Bereich zu verwendende, benutzerdefinierte Schrift. "
+#~ "Diese wird nur verwendet werden, wenn die »Voreingestellte Schrift "
+#~ "verwenden«-Option deaktiviert ist."
+
+#~ msgid "Auto Save"
+#~ msgstr "Auto-Speichern"
+
+#~ msgid "Auto Save Interval"
+#~ msgstr "Intervall für das automatische Speichern"
+
+#~ msgid "Auto indent"
+#~ msgstr "Auto-Einzug"
+
+#~ msgid "Background Color"
+#~ msgstr "Hintergrundfarbe"
+
+#~ msgid ""
+#~ "Background color for selected text in the editing area. This will only "
+#~ "take effect if the \"Use Default Colors\" option is turned off."
+#~ msgstr ""
+#~ "Die für markierten Text im Editor-Bereich verwendete Hintergrundfarbe. "
+#~ "Diese wird nur verwendet werden, wenn die »Voreingestellte Farben "
+#~ "verwenden«-Option deaktiviert ist."
+
+#~ msgid ""
+#~ "Background color for unselected text in the editing area. This will only "
+#~ "take effect if the \"Use Default Colors\" option is turned off."
+#~ msgstr ""
+#~ "Die für nicht markierten Text im Editor-Bereich verwendete "
+#~ "Hintergrundfarbe. Diese wird nur verwendet werden, wenn die "
+#~ "»Voreingestellte Farben verwenden«-Option deaktiviert ist."
+
+#~ msgid "Body Font for Printing"
+#~ msgstr "Druck-Schrift für den Fließtext"
+
+#~ msgid "Create Backup Copies"
+#~ msgstr "SIcherungskopien erstellen"
+
+#~ msgid "Display Line Numbers"
+#~ msgstr "Zeilennummern anzeigen"
+
+#~ msgid "Editor Font"
+#~ msgstr "Editor-Schrift"
+
+#~ msgid "Encoding for Saving"
+#~ msgstr "Zeichenkodierung beim Speichern"
+
+#~ msgid "Encodings"
+#~ msgstr "Zeichenkodierungen"
+
+#~ msgid ""
+#~ "Extension or suffix to use for backup file names. This will only take "
+#~ "effect if the \"Create Backup Copies\" option is turned on."
+#~ msgstr ""
+#~ "Erweiterung oder Suffix für Dateinamen von Sicherungskopien. Wird nur "
+#~ "verwendet, wenn die »Sicherungskopien erstellen«-Option aktiviert ist."
+
+#~ msgid ""
+#~ "Foreground color for selected text in the editing area. This will only "
+#~ "take effect if the \"Use Default Colors\" option is turned off."
+#~ msgstr ""
+#~ "Die für markierten Text im Editor-Bereich verwendete Vordergrundfarbe. "
+#~ "Diese wird nur verwendet werden, wenn die »Voreingestellte Farben "
+#~ "verwenden«-Option deaktiviert ist."
+
+#~ msgid ""
+#~ "Foreground color for the unselected text in the editing area. This will "
+#~ "only take effect if the \"Use Default Colors\" option is turned off."
+#~ msgstr ""
+#~ "Die für nicht markierten Text im Editor-Bereich verwendete "
+#~ "Vordergrundfarbe. Diese wird nur verwendet werden, wenn die "
+#~ "»Voreingestellte Farben verwenden«-Option deaktiviert ist."
+
+#~ msgid "Header Font for Printing"
+#~ msgstr "Druck-Schrift für die Kopfzeilen"
+
+#~ msgid ""
+#~ "If this value is 0, then no line numbers will be inserted when printing a "
+#~ "document. Otherwise, pluma will print line numbers every such number of "
+#~ "lines."
+#~ msgstr ""
+#~ "Wenn dieser Wert 0 ist, werden keine Zeilennummern im Ausdruck eines "
+#~ "Dokuments eingefügt. Andernfalls wird pluma alle oben angegeben Zeilen "
+#~ "Nummern einfügen."
+
+#~ msgid "Line Number Font for Printing"
+#~ msgstr "Druck-Schrift für Zeilennummern"
+
+#~ msgid "Line Wrapping Mode"
+#~ msgstr "Zeilenumbruchs-Modus"
+
+#~ msgid ""
+#~ "List of encodings used by pluma for reading files not encoded in UTF-8 or "
+#~ "in the current locale encoding."
+#~ msgstr ""
+#~ "Eine Liste mit den von pluma verwendeten Zeichenkodierungen, mit denen "
+#~ "Dateien gelesen werden, die weder in UTF-8, noch den aktuellen "
+#~ "Standorteinstellungen entsprechend kodiert wurden."
+
+#~ msgid "Maximum Recent Files"
+#~ msgstr "Maximal anzuzeigende zuletzt geöffnete Dateien"
+
+#~ msgid "Maximum number of actions that pluma will be able to undo or redo."
+#~ msgstr ""
+#~ "Maximal anzuzeigende Anzahl der Aktionen, die pluma rückgängig machen und "
+#~ "wiederherstellen kann."
+
+#~ msgid ""
+#~ "Number of minutes after which pluma will automatically save modified "
+#~ "files. This will only take effect if the \"Auto Save\" option is turned on."
+#~ msgstr ""
+#~ "Minuten, nach denen pluma automatisch veränderte Dateien speichert. Dies "
+#~ "wird nur passieren, wenn die »Automatisch speichern«-Option aktiviert ist."
+
+#~ msgid "Print Header"
+#~ msgstr "Kopfzeilen drucken"
+
+#~ msgid "Print Line Numbers"
+#~ msgstr "Zeilennummern drucken"
+
+#~ msgid "Printing Line Wrapping Mode"
+#~ msgstr "Zeilenumbruchs-Modus im Ausdruck"
+
+#~ msgid "Selected Text Color"
+#~ msgstr "Farbe für ausgewählten Text"
+
+#~ msgid "Selection Color"
+#~ msgstr "Markierungsfarbe"
+
+#~ msgid "Show Cursor Position"
+#~ msgstr "Cursorposition anzeigen"
+
+#~ msgid "Show Overwrite Mode"
+#~ msgstr "Überschreibmodus anzeigen"
+
+#~ msgid ""
+#~ "Specifies how to wrap long lines for printing. Use \"GTK_WRAP_NONE\" for "
+#~ "no wrapping, \"GTK_WRAP_WORD\" for wrapping at word boundaries, and "
+#~ "\"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. Note "
+#~ "that the values are case-sensitive, so make sure they appear exactly as "
+#~ "mentioned here."
+#~ msgstr ""
+#~ "Gibt an, wie lange Zeilen im Ausdruck umgebrochen werden. Verwenden Sie "
+#~ "»GTK_WRAP_NONE« für keinen Umbruch, »GTK_WRAP_WORD« für Umbruch an "
+#~ "Wortgrenzen oder »GTK_WRAP_CHAR« für Umbruch bei individuellen "
+#~ "Zeichengrenzen. Hinweis: Bei den Werten wird zwischen Groß- und "
+#~ "Kleinschreibung unterschieden. Verwenden Sie daher die Werte genau wie "
+#~ "hier angegeben."
+
+#~ msgid ""
+#~ "Specifies how to wrap long lines in the editing area. Use \"GTK_WRAP_NONE"
+#~ "\" for no wrapping, \"GTK_WRAP_WORD\" for wrapping at word boundaries, and "
+#~ "\"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. Note "
+#~ "that the values are case-sensitive, so make sure they appear exactly as "
+#~ "mentioned here."
+#~ msgstr ""
+#~ "Gibt an, ab welcher Länge Zeilen im Editor-Bereich umgebrochen werden. "
+#~ "Verwenden Sie »GTK_WRAP_NONE« für keinen Umbruch, »GTK_WRAP_WORD«, um den "
+#~ "Zeilenumbruch an Wortgrenzen durchzufügen oder »GTK_WRAP_CHAR« für den "
+#~ "Umbruch an einzelnen Zeichengrenzen. Hinweis: Bei den Werten wird zwischen "
+#~ "Groß- und Kleinschreibung unterschieden. Verwenden Sie daher die Werte "
+#~ "genau wie hier angegeben."
+
+#~ msgid ""
+#~ "Specifies the font to use for a document's body when printing documents."
+#~ msgstr ""
+#~ "Gibt die Schrift an, die zum Drucken des Fließtextes verwendet werden soll."
+
+#~ msgid ""
+#~ "Specifies the font to use for line numbers when printing. This will only "
+#~ "take effect if the \"Print Line Numbers\" option is non-zero."
+#~ msgstr ""
+#~ "Gibt die Schrift an, die zum Drucken der Zeilennummern verwendet werden "
+#~ "soll. Diese wird nur verwendet, wenn die »Zeilennummern drucken«-Option "
+#~ "nicht Null ist."
+
+#~ msgid ""
+#~ "Specifies the font to use for page headers when printing a document. This "
+#~ "will only take effect if the \"Print Header\" option is turned on."
+#~ msgstr ""
+#~ "Gibt die Schrift an, die zum Drucken der Seiten-Kopfzeilen verwendet "
+#~ "werden soll. Diese wird nur verwendet, wenn die »Kopfzeilen drucken«-"
+#~ "Option aktiviert ist."
+
+#~ msgid ""
+#~ "Specifies the maximum number of recently opened files that will be "
+#~ "displayed in the \"Recent Files\" submenu."
+#~ msgstr ""
+#~ "Gibt die maximale Anzahl der zuletzt geöffneten Dateien an, die im "
+#~ "»Zuletzt geöffnete Dateien«-Untermenü angezeigt werden."
+
+#~ msgid ""
+#~ "Specifies the number of spaces that should be displayed instead of Tab "
+#~ "characters."
+#~ msgstr ""
+#~ "Gibt die Anzahl der Leerzeichen an, die anstelle von Tabulator-Zeichen "
+#~ "angezeigt werden."
+
+#~ msgid "Status Bar is Visible"
+#~ msgstr "Statusleiste ist sichtbar"
+
+#~ msgid ""
+#~ "Style for the toolbar buttons. Possible values are \"PLUMA_TOOLBAR_SYSTEM"
+#~ "\" to use the system's default style, \"PLUMA_TOOLBAR_ICONS\" to display "
+#~ "icons only, \"PLUMA_TOOLBAR_ICONS_AND_TEXT\" to display both icons and "
+#~ "text, and \"PLUMA_TOOLBAR_ICONS_BOTH_HORIZ\" to display prioritized text "
+#~ "beside icons. Note that the values are case-sensitive, so make sure they "
+#~ "appear exactly as mentioned here."
+#~ msgstr ""
+#~ "Stil der Knöpfe in der Werkzeugleiste. Mögliche Werte sind "
+#~ "»PLUMA_TOOLBAR_SYSTEM« für den vom System vorgegebenen Stil, "
+#~ "»PLUMA_TOOLBAR_ICONS«, um nur Symbole anzuzeigen, "
+#~ "»PLUMA_TOOLBAR_ICONS_AND_TEXT«, um Symbole und Text anzuzeigen sowie "
+#~ "»PLUMA_TOOLBAR_ICONS_BOTH_HORIZ«, um wichtigen Text neben Icons "
+#~ "anzuzeigen. Hinweis: Bei den Werten wird zwischen Groß- und "
+#~ "Kleinschreibung unterschieden. Verwenden Sie daher die Werte genau wie "
+#~ "hier angegeben."
+
+#~ msgid "Text Color"
+#~ msgstr "Textfarbe"
+
+#~ msgid ""
+#~ "The encoding method to use for saving files. Possible values are "
+#~ "\"PLUMA_SAVE_ALWAYS_UTF8\" for mandatory UTF-8 saving, "
+#~ "\"PLUMA_SAVE_CURRENT_LOCALE_IF_POSSIBLE\" if you want pluma to try to "
+#~ "convert the document it is saving to your current locale's encoding, "
+#~ "\"PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE\" if you want pluma to try "
+#~ "to use the original file encoding (new files in UTF8) and "
+#~ "\"PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE_NCL\" if you want pluma to "
+#~ "try to use the original file encoding (new files in current locale's "
+#~ "encoding). If the conversion is successful, it will be used. Otherwise, "
+#~ "UTF-8 will be used. Note that the values are case-sensitive, so make sure "
+#~ "they appear exactly as mentioned here."
+#~ msgstr ""
+#~ "Die beim Speichern von Dateien verwendete Methode zur Zeichenkodierung. "
+#~ "Mögliche Werte sind »PLUMA_SAVE_ALWAYS_UTF8« für ein erzwungenes Speichern "
+#~ "in UTF-8, »PLUMA_SAVE_CURRENT_LOCALE_IF_POSSIBLE«, wenn pluma versuchen "
+#~ "soll, das Dokument beim Speichern in die Kodierung ihrer aktuellen "
+#~ "Standorteinstellungen zu konvertieren, "
+#~ "»PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE«, wenn pluma versuchen "
+#~ "soll, die ursprüngliche Datei-Kodierung (bei neuen Dateien UTF-8) zu "
+#~ "verwenden sowie »PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE_NCL«, wenn "
+#~ "pluma versuchen soll, die ursprüngliche Datei-Kodierung (bei neuen Dateien "
+#~ "die Kodierung Ihrer aktuellen Standorteinstellungen) zu verwenden. Wenn "
+#~ "die Konvertierung in die Kodierung erfolgreich war, wird sie verwendet - "
+#~ "ansonsten wird die Datei in UTF-8 kodiert. Hinweis: Bei den Werten wird "
+#~ "zwischen Groß- und Kleinschreibung unterschieden. Verwenden Sie daher die "
+#~ "Werte genau wie hier angegeben."
+
+#~ msgid "Toolbar Buttons Style"
+#~ msgstr "Knopfstil der Werkzeugleiste"
+
+#~ msgid "Undo Actions Limit"
+#~ msgstr "Limit der Rückgängig-Aktionen"
+
+#~ msgid "Use Default Colors"
+#~ msgstr "Vorgabe-Farben verwenden"
+
+#~ msgid "Use Default Font"
+#~ msgstr "Vorgabe-Schrift verwenden"
+
+#~ msgid ""
+#~ "Whether pluma should automatically save modified files after a time "
+#~ "interval. You can set the time interval with the \"Auto Save Interval\" "
+#~ "option."
+#~ msgstr ""
+#~ "Soll pluma veränderte Dateien automatisch nach einer bestimmten Zeit "
+#~ "speichern soll? Sie können diese Zeit mit der »Intervall für automatisches "
+#~ "Speichern«-Option einstellen."
+
+#~ msgid ""
+#~ "Whether pluma should create backup copies for the files it saves. You can "
+#~ "set the backup file extension with the \"Backup Copy Extension\" option."
+#~ msgstr ""
+#~ "Soll pluma Sicherungskopien der Dateien, die gespeichert werden, "
+#~ "erstellen? Sie können die Erweiterung für diese Dateien mit der "
+#~ "»Erweiterung für Sicherungskopien«-Option einstellen."
+
+#~ msgid "Whether pluma should display line numbers in the editing area."
+#~ msgstr "Soll pluma Zeilennummern im Editor-Bereich anzeigen?"
+
+#~ msgid "Whether pluma should enable auto indentation."
+#~ msgstr "Soll pluma den Auto-Einzug verwenden?"
+
+#~ msgid ""
+#~ "Whether pluma should include a document header when printing documents."
+#~ msgstr "Soll pluma Dokumenten-Kopfzeilen im Ausdruck verwenden?"
+
+#~ msgid "Whether pluma should insert spaces instead of tabs."
+#~ msgstr "Soll pluma Leerzeichen an Stelle von Tabulatoren verwenden?"
+
+#~ msgid ""
+#~ "Whether the status bar at the bottom of editing windows should be visible."
+#~ msgstr ""
+#~ "Soll die Statusleiste am unteren Rand des Bearbeitungsfensters sichtbar "
+#~ "sein?"
+
+#~ msgid ""
+#~ "Whether the status bar should show the cursor position in editing windows. "
+#~ "Make sure you turn on the \"Status Bar is Visible\" option for this to "
+#~ "take effect."
+#~ msgstr ""
+#~ "Soll in der Statusleiste die Cursor-Position in Bearbeitunsgfenstern "
+#~ "anzeigt werden? Hinweis: Die »Statusleiste ist sichtbar«-Option muss dazu "
+#~ "aktiviert sein."
+
+#~ msgid ""
+#~ "Whether the status bar should show the insert/overwrite mode in editing "
+#~ "windows. Make sure you turn on the \"Status Bar is Visible\" option for "
+#~ "this to take effect."
+#~ msgstr ""
+#~ "Soll in der Statusleiste der Einfügen-/Überschreiben-Modus in "
+#~ "Bearbeitungsfenstern angezeigt werden? Die »Statusleiste ist sichtbar«-"
+#~ "Option muss dazu aktiviert sein."
+
+#~ msgid ""
+#~ "Whether to use the system's default colors for the editing area. If this "
+#~ "option is turned off, then the colors of the editing area will be those "
+#~ "specified in the \"Background Color\", \"Text Color\", \"Selected Text "
+#~ "Color\", and \"Selection Color\" options."
+#~ msgstr ""
+#~ "Sollen die Vorgabe-Farben des Systems für den Editor-Bereich verwendet "
+#~ "werden? Falls diese Option deaktiviert ist, werden die Farben für den "
+#~ "Bearbeitungsbereich wie in »Hintergrundfarbe«, »Textfarbe«, »Farbe für "
+#~ "markierten Text« und »Markierungsfarbe« angegeben, verwendet."
+
+#~ msgid ""
+#~ "Whether to use the system's default font for editing text instead of a "
+#~ "font specific to pluma. If this option is turned off, then the font named "
+#~ "in the \"Editor Font\" option will be used instead of the system font."
+#~ msgstr ""
+#~ "Soll die Vorgabe-Schrift des Systems zum Bearbeiten von Text anstelle der "
+#~ "in pluma angegeben Schrift verwendet werden? Falls diese Option "
+#~ "deaktiviert ist, wird die unter »Editor-Schrift« angegeben Schrift "
+#~ "anstelle der System-Schrift verwendet."
+
+#~ msgid "_Document Statistics"
+#~ msgstr "Statistik zum _Dokument"
+
+#~ msgid "Get statistic info on current document"
+#~ msgstr "Statistische Informationen zum aktuellen Dokument anzeigen"
+
+#~ msgid "Document Statistics"
+#~ msgstr "Statistik zum Dokument"
+
+#~ msgid "_Update"
+#~ msgstr "_Aktualisieren"
+
+#~ msgid "Characters (no spaces)"
+#~ msgstr "Zeichen (keine Leerzeichen)"
+
+#~ msgid "Characters (with spaces)"
+#~ msgstr "Zeichen (mit Leerzeichen)"
+
+#~ msgid "File Name"
+#~ msgstr "Dateiname"
+
+#~ msgid "Lines"
+#~ msgstr "Zeilen"
+
+#~ msgid "Update"
+#~ msgstr "Aktualisieren"
+
+#~ msgid "Words"
+#~ msgstr "Wörter"
+
+#~ msgid "pluma: Document Info plugin"
+#~ msgstr "pluma: Dokument-Info-Plugin"
+
+#~ msgid ""
+#~ "The Document Statistics plugin analyzes the current document and "
+#~ "determines the number of words, lines, characters and non-space characters "
+#~ "in it and displays the result."
+#~ msgstr ""
+#~ "Das Dokumentstatistik-Plugin analysiert das aktuelle Dokument und "
+#~ "ermittelt die Anzahl der darin enthaltenen Wörter, Zeilen, Zeichen sowie "
+#~ "Nicht-Leerzeichen und zeigt das Ergebnis an."
+
+#~ msgid "Insert User Na_me"
+#~ msgstr "_Benutzername einfügen"
+
+#~ msgid "Insert the user name at the cursor position"
+#~ msgstr "Den Benutzernamen an der Cursorposition einfügen"
+
+#~ msgid "Inserts the user name at the cursor position."
+#~ msgstr "Den Benutzernamen an der Cursorposition einfügen"
+
+#~ msgid "User name"
+#~ msgstr "Benutzername"
+
+#~ msgid "_Run Command..."
+#~ msgstr "Befehl _ausführen …"
+
+#~ msgid "Run a command"
+#~ msgstr "Einen Befehl ausführen"
+
+#~ msgid "Stopped"
+#~ msgstr "Angehalten"
+
+#~ msgid "An error occurs while running the selected command."
+#~ msgstr "Beim Ausführen des gewünschten Befehls ist ein Fehler aufgetreten."
+
+#~ msgid "_Run"
+#~ msgstr "_Ausführen"
+
+#~ msgid "Done"
+#~ msgstr "Abgeschlossen"
+
+#~ msgid "Failed"
+#~ msgstr "Fehlgeschlagen"
+
+#~ msgid ""
+#~ "The shell command entry is empty.\n"
+#~ "\n"
+#~ "Please, insert a valid shell command."
+#~ msgstr ""
+#~ "Der Shell-Befehlseintrag ist leer.\n"
+#~ "\n"
+#~ "Bitte geben Sie einen gültigen Shell-Befehl ein."
+
+#~ msgid ""
+#~ "Error parsing the shell command.\n"
+#~ "\n"
+#~ "Please, insert a valid shell command."
+#~ msgstr ""
+#~ "Fehler beim Auseinanderklamüsern des Shell-Befehls.\n"
+#~ "\n"
+#~ "Bitte geben Sie einen gültigen Shell-Befehl ein."
+
+#~ msgid "Executing command"
+#~ msgstr "Befehl wird ausgeführt"
+
+#~ msgid "Select the working directory..."
+#~ msgstr "Wählen Sie das Arbeitsverzeichnis …"
+
+#~ msgid "_Show results in Output Window"
+#~ msgstr "_Ergebnisse im Ausgabefenster anzeigen"
+
+#~ msgid "pluma: Shell Output plugin"
+#~ msgstr "pluma: Shell-Ausgabe-Plugin"
+
+#~ msgid ""
+#~ "Execute an external program and eventually grabs its output in the output "
+#~ "window."
+#~ msgstr ""
+#~ "Ein externes Programm ausführen und die mögliche Ausgabe im Ausgabefenster "
+#~ "anzeigen."
+
+#~ msgid "Shell command"
+#~ msgstr "Shell-Befehl"
+
+#~ msgid "Tag list plugin"
+#~ msgstr "Floskellisten-Plugin"
+
+#~ msgid "Select the group of tags you want to use"
+#~ msgstr "Wählen Sie die Floskelgruppe, die Sie verwenden wollen"
+
+#~ msgid "Tag Groups Combo"
+#~ msgstr "Floskelgruppenkombination"
+
+#~ msgid "Tags Name List"
+#~ msgstr "Floskelnamen-Liste"
+
+#~ msgid "Double-click on a tag to insert it in the current document"
+#~ msgstr ""
+#~ "Doppelklick auf eine Floskel, um sie im aktuellen Dokument einzufügen."
+
+#~ msgid "Tags"
+#~ msgstr "Floskeln"
+
+#~ msgid "Tag _List"
+#~ msgstr "Floskel_liste"
+
+#~ msgid "Show the tag list window"
+#~ msgstr "Das Fenster mit der Floskelliste anzeigen"
+
+#~ msgid "Tag list"
+#~ msgstr "Floskelliste"
+
+#~ msgid ""
+#~ "The tag list plugin provides a method to easily insert into a document "
+#~ "commonly used tags/strings without having to type them."
+#~ msgstr ""
+#~ "Das Plugin »Floskelliste« bietet die Möglichkeit, häufig verwendete "
+#~ "Floskeln/Zeichenketten in ein Dokument einzufügen, ohne sie eingeben zu "
+#~ "müssen."
+
+#~ msgid "In_sert Date and Time..."
+#~ msgstr "Datum und Zeit ein_fügen …"
+
+#~ msgid "Insert current date and time at the cursor position"
+#~ msgstr "Das aktuelle Datum und die Uhrzeit an der Cursorposition einfügen"
+
+#~ msgid "Available formats"
+#~ msgstr "Verfügbare Formate"
+
+#~ msgid "Configure insert date/time plugin..."
+#~ msgstr "Das Plugin »Datum/Zeit einfügen« konfigurieren …"
+
+#~ msgid "<span weight=\"bold\"> When inserting date/time...</span>"
+#~ msgstr "<span weight=\"bold\"> Beim Einfügen von Datum/Zeit...</span>"
+
+#~ msgid "Configure date/time plugin"
+#~ msgstr "Das Datums-/Zeit-Plugin konfigurieren"
+
+#~ msgid "Insert Date and Time"
+#~ msgstr "Das Datum und die Uhrzeit einfügen"
+
+#~ msgid "_Prompt for a format"
+#~ msgstr "Nach dem Format _fragen"
+
+#~ msgid "_Use custom format"
+#~ msgstr "_Benutzerdefiniertes Format verwenden"
+
+#~ msgid "Insert Date/Time"
+#~ msgstr "Datum/Uhrzeit einfügen"
+
+#~ msgid "Inserts current date and time at the cursor position."
+#~ msgstr ""
+#~ "Das heutige Datum und die aktuelle Uhrzeit an der Cursorposition einfügen."
+
+#~ msgid "_Indent"
+#~ msgstr "Einzug _erhöhen"
+
+#~ msgid "Indent selected lines"
+#~ msgstr "Den Einzug der markierten Zeilen erhöhen"
+
+#~ msgid "U_nindent"
+#~ msgstr "Einzug _vermindern"
+
+#~ msgid "Indent or un-indent selected lines."
+#~ msgstr "Den Einzug der markierten Zeilen erhöhen oder vermindern."
+
+#~ msgid "R_emove duplicates"
+#~ msgstr "_Duplikate entfernen"
+
+#~ msgid "S_tart at column:"
+#~ msgstr "_Beginnen bei Zeile:"
+
+#~ msgid "Sort"
+#~ msgstr "Sortieren"
+
+#~ msgid "You cannot undo a sort operation"
+#~ msgstr "Sie können den Sortiervorgang nicht rückgängig machen"
+
+#~ msgid "_Ignore case"
+#~ msgstr "Groß-/Kleinschreibung _nicht berücksichtigen"
+
+#~ msgid "_Reverse order"
+#~ msgstr "Reihenfolge _umkehren"
+
+#~ msgid "_Sort"
+#~ msgstr "_Sortieren"
+
+#~ msgid "Sorts a document or selected text."
+#~ msgstr "Ein Dokument oder den markierten Text sortieren."
+
+#~ msgid "(no suggested words)"
+#~ msgstr "(keine Vorschläge)"
+
+#~ msgid "_More..."
+#~ msgstr "_Weitere …"
+
+#~ msgid "_Ignore All"
+#~ msgstr "Alle _ignorieren"
+
+#~ msgid "_Add"
+#~ msgstr "_Hinzufügen"
+
+#~ msgid "_Spelling Suggestions..."
+#~ msgstr "_Rechtschreibvorschläge …"
+
+#~ msgid "Check Spelling"
+#~ msgstr "Rechtschreibprüfung"
+
+#~ msgid "Suggestions"
+#~ msgstr "Vorschläge"
+
+#~ msgid "(correct spelling)"
+#~ msgstr "(Rechtschreibung korrigieren)"
+
+#~ msgid "Completed spell checking"
+#~ msgstr "Rechtschreibprüfung abgeschlossen"
+
+#~ msgid "Could not find the required widgets inside %s."
+#~ msgstr "Die erforderlichen Widgets konnten nicht in %s gefunden werden."
+
+#~ msgid "Checks the spelling of the current document."
+#~ msgstr "Eine Rechtschreibprüfung im aktuellen Dokument durchführen."
+
+#~ msgid "Spell checker"
+#~ msgstr "Rechtschreibprüfung"
+
+#~ msgid "Select the _language of the current document."
+#~ msgstr "Wählen Sie die _Sprache des aktuellen Dokuments."
+
+#~ msgid "Set language"
+#~ msgstr "Sprache festlegen"
+
+#~ msgid "<b>Language</b>"
+#~ msgstr "<b>Sprache</b>"
+
+#~ msgid "<b>word</b>"
+#~ msgstr "<b>Wort</b>"
+
+#~ msgid "Add w_ord"
+#~ msgstr "Wort _hinzufügen"
+
+#~ msgid "Cha_nge"
+#~ msgstr "Ä_ndern"
+
+#~ msgid "Change A_ll"
+#~ msgstr "Alle än_dern"
+
+#~ msgid "Change _to:"
+#~ msgstr "Ändern _in:"
+
+#~ msgid "Check _Word"
+#~ msgstr "_Wort prüfen"
+
+#~ msgid "Check spelling"
+#~ msgstr "Rechtschreibprüfung"
+
+#~ msgid "Ignore _All"
+#~ msgstr "_Alle ignorieren"
+
+#~ msgid "Language:"
+#~ msgstr "Sprache:"
+
+#~ msgid "Mispelled word:"
+#~ msgstr "Unbekanntes oder falsch geschriebenes Wort:"
+
+#~ msgid "User dictionary:"
+#~ msgstr "Wörterbuch des Benutzers:"
+
+#~ msgid "_Ignore"
+#~ msgstr "_Ignorieren"
+
+#~ msgid "_Suggestions:"
+#~ msgstr "_Vorschläge:"
+
+#~ msgid "S_ort..."
+#~ msgstr "_Sortieren …"
+
+#~ msgid "Sort the current document or selection."
+#~ msgstr "Das aktuelle Dokument oder die Markierung sortieren."
+
+#~ msgid "_Check Spelling"
+#~ msgstr "_Rechtschreibprüfung"
+
+#~ msgid "Check the current document for incorrect spelling"
+#~ msgstr "Das aktuelle Dokument auf eine fehlerhafte Rechtschreibung prüfen"
+
+#~ msgid "_Autocheck Spelling"
+#~ msgstr "A_utomatische Rechtschreibprüfung"
+
+#~ msgid "Automatically spell-check the current document"
+#~ msgstr "Das aktuelle Dokument automatisch auf Rechtschreibfehler prüfen"
+
+#~ msgid "Set _Language"
+#~ msgstr "Sprache _festlegen"
+
+#~ msgid "Set the language of the current document"
+#~ msgstr "Die Sprache des aktuellen Dokuments festlegen"
+
+#~ msgid "The document is empty."
+#~ msgstr "Das Dokument enthält keinen Text."
+
+#~ msgid "The selected text does not contain mispelled words."
+#~ msgstr "Das Dokument enthält keine Rechtschreibfehler."
+
+#~ msgid "The document does not contain mispelled words."
+#~ msgstr "Das Dokument enthält keine Rechtschreibfehler."
+
+#~ msgid "Activate %s"
+#~ msgstr "%s aktivieren"
+
+#~ msgid "Go to Line"
+#~ msgstr "Gehe zu Zeile"
+
+#~ msgid "The text \"%s\" was not found."
+#~ msgstr "Der Text »%s« konnte nicht gefunden werden."
+
+#~ msgid "Replace"
+#~ msgstr "Ersetzen"
+
+#~ msgid "Replace _All"
+#~ msgstr "_Alle ersetzen"
+
+#~ msgid "_Replace"
+#~ msgstr "_Ersetzen"
+
+#~ msgid "Find"
+#~ msgstr "Suchen"
+
+#~ msgid "Found and replaced %d occurences."
+#~ msgstr "%d Mal gefunden und ersetzt."
+
+#~ msgid "Open Location"
+#~ msgstr "Ort öffnen"
+
+#~ msgid "Plugin"
+#~ msgstr "Plugin"
+
+#~ msgid "Load"
+#~ msgstr "Laden"
+
+#~ msgid "Module file name"
+#~ msgstr "Modul-Dateiname"
+
+#~ msgid "Author(s)"
+#~ msgstr "Autor(en)"
+
+#~ msgid "%s plugin"
+#~ msgstr "%s-Plugin"
+
+#~ msgid "Could not find plugin-manager.glade2, reinstall pluma.\n"
+#~ msgstr ""
+#~ "plugin-manager.glade2 konnte nicht gefunden werden; installieren Sie pluma "
+#~ "neu.\n"
+
+#~ msgid "Invalid glade file for plugin manager -- not all widgets found.\n"
+#~ msgstr ""
+#~ "Ungültige Glade-Datei für Pluginverwaltung -- nicht alle Widgets wurden "
+#~ "gefunden.\n"
+
+#~ msgid "Set program location..."
+#~ msgstr "Programmort angeben …"
+
+#~ msgid ""
+#~ "The %s plugin uses an external program, called <tt>%s</tt>, to perform its "
+#~ "task.\n"
+#~ "\n"
+#~ "Please, specify the location of the <tt>%s</tt> program."
+#~ msgstr ""
+#~ "Das Plugin %s benutzt ein externes Programm namens <tt>%s</tt> um seine "
+#~ "Aufgabe zu erfüllen.\n"
+#~ "\n"
+#~ "Bitte geben Sie den Ort des Programms <tt>%s</tt> an."
+
+#~ msgid "The selected file is not executable."
+#~ msgstr "Die gewählte Datei ist nicht ausführbar."
+
+#~ msgid "Font & Colors"
+#~ msgstr "Schrift und Farben"
+
+#~ msgid "Tabs"
+#~ msgstr "Tabulatoren"
+
+#~ msgid "Wrap Mode"
+#~ msgstr "Zeilenumbruch"
+
+#~ msgid "Auto Indent"
+#~ msgstr "Auto-Einzug"
+
+#~ msgid "Line Numbers"
+#~ msgstr "Zeilennummern"
+
+#~ msgid "Open"
+#~ msgstr "Öffnen"
+
+#~ msgid "Save"
+#~ msgstr "Speichern"
+
+#~ msgid "Undo"
+#~ msgstr "Rückgängig"
+
+#~ msgid "Page"
+#~ msgstr "Seite"
+
+#~ msgid "Fonts"
+#~ msgstr "Schriften"
+
+#~ msgid "Manager"
+#~ msgstr "Verwalten"
+
+#~ msgid "Editor"
+#~ msgstr "Editor"
+
+#~ msgid "Print"
+#~ msgstr "Drucken"
+
+#~ msgid "Plugins"
+#~ msgstr "Plugins"
+
+#~ msgid "Cat_egories:"
+#~ msgstr "_Kategorien:"
+
+#~ msgid "Preferences"
+#~ msgstr "Einstellungen"
+
+#~ msgid "Categories"
+#~ msgstr "Kategorien"
+
+#~ msgid "Push this button to select the font to be used by the editor"
+#~ msgstr ""
+#~ "Drücken Sie diesen Knopf, um die vom Editor zu verwendende Schrift "
+#~ "auszuwählen"
+
+#~ msgid "Push this button to configure text color"
+#~ msgstr "Drücken Sie diesen Knopf, um die Textfarbe einzustellen"
+
+#~ msgid "Push this button to configure background color"
+#~ msgstr "Drücken Sie diesen Knopf, um die Hintergrundfarbe einzustellen"
+
+#~ msgid ""
+#~ "Push this button to configure the color in which the selected text should "
+#~ "appear"
+#~ msgstr ""
+#~ "Drücken Sie diesen Knopf, um die Farbe, in der markierter Text dargestellt "
+#~ "wird, einzustellen"
+
+#~ msgid ""
+#~ "Push this button to configure the color in which the selected text should "
+#~ "be marked"
+#~ msgstr ""
+#~ "Drücken Sie diesen Knopf, um die Farbe, in der ausgewählter Text markiert "
+#~ "wird, einzustellen"
+
+#~ msgid "Push this button to select the font to be used to print the body"
+#~ msgstr ""
+#~ "Drücken Sie diesen Knopf, um die Schrift auszuwählen, in der der Rumpf "
+#~ "dargestellt wird"
+
+#~ msgid "Push this button to select the font to be used to print the headers"
+#~ msgstr ""
+#~ "Drücken Sie diesen Knopf, um die Schrift auszuwählen, in der die "
+#~ "Kopfzeilen dargestellt werden"
+
+#~ msgid "Push this button to select the font to be used to print line numbers"
+#~ msgstr ""
+#~ "Drücken Sie diesen Knopf, um die Schrift auszuwählen, in der Zeilennummern "
+#~ "dargestellt werden"
+
+#~ msgid "<span weight=\"bold\">When saving an existing file...</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\">Beim Speichern einer vorhandenen Datei...</span>"
+
+#~ msgid "Add new encodings"
+#~ msgstr "Neue Zeichenkodierungen hinzufügen"
+
+#~ msgid "Always use U_TF-8 encoding (faster)"
+#~ msgstr "Immer U_TF-8-Kodierung verwenden (schneller)"
+
+#~ msgid "Always use _UTF-8 encoding (faster)"
+#~ msgstr "Immer _UTF-8-Kodierung verwenden (schneller)"
+
+#~ msgid "Create a _backup copy of files before saving"
+#~ msgstr ""
+#~ "Vor dem Speichern eine _Sicherheitskopie der geöffneten Dateien anlegen"
+
+#~ msgid "Do not _split words over two lines"
+#~ msgstr "Nur am _Wortende umbrechen"
+
+#~ msgid "Editor _font: "
+#~ msgstr "Editor-_Schrift:"
+
+#~ msgid "Enable _auto indentation"
+#~ msgstr "_Auto-Einzug aktivieren"
+
+#~ msgid "Enable text _wrapping"
+#~ msgstr "Zeilen_umbruch aktivieren"
+
+#~ msgid "Fonts & Colors"
+#~ msgstr "Schrift und Farben"
+
+#~ msgid "LOGO"
+#~ msgstr "LOGO"
+
+#~ msgid "Line _numbers:"
+#~ msgstr "Zeilen_nummern:"
+
+#~ msgid "Line numbers"
+#~ msgstr "Zeilennummern"
+
+#~ msgid "Move down"
+#~ msgstr "Nach unten verschieben"
+
+#~ msgid "Move up"
+#~ msgstr "Nach oben verschieben"
+
+#~ msgid "Page he_aders:"
+#~ msgstr "_Kopfzeilen:"
+
+#~ msgid "Pick the background color"
+#~ msgstr "Wählen Sie die Hintergrundfarbe"
+
+#~ msgid "Pick the selected text color"
+#~ msgstr "Wählen Sie die Farbe für markierten Text"
+
+#~ msgid "Pick the selection color"
+#~ msgstr "Wählen Sie die Markierungsfarbe"
+
+#~ msgid "Plugin manager"
+#~ msgstr "Plugin-Verwaltung"
+
+#~ msgid "Print _line numbers every"
+#~ msgstr "Zeilen_nummern alle"
+
+#~ msgid "Print fonts"
+#~ msgstr "Druckerschrift"
+
+#~ msgid "Remove an encoding"
+#~ msgstr "Eine Zeichenkodierung entfernen"
+
+#~ msgid "Se_lection color:"
+#~ msgstr "_Markierungsfarbe:"
+
+#~ msgid "Selecte_d text color:"
+#~ msgstr "Farbe für _ausgewählten Text:"
+
+#~ msgid "Set _tabs width equivalent to"
+#~ msgstr "_Breite der Tabulatoren auf"
+
+#~ msgid "Set limit on _undo actions to"
+#~ msgstr "_Rückgängig machbare Aktionen auf"
+
+#~ msgid "U_se default theme colors"
+#~ msgstr "_Vorgegebene Themenfarben verwenden"
+
+#~ msgid "U_se original file encoding if possible"
+#~ msgstr "Falls möglich, Zeichenkodierung der ursprünglichen _Datei verwenden"
+
+#~ msgid "Use cu_rrent locale's encoding if possible"
+#~ msgstr ""
+#~ "Falls möglich, die den aktue_llen Standorteinstellungen entsprechende "
+#~ "Zeichenkodierung verwenden"
+
+#~ msgid "Use current _locale's encoding if possible"
+#~ msgstr ""
+#~ "Falls möglich, die den a_ktuellen Standorteinstellungen entsprechende "
+#~ "Zeichenkodierung verwenden"
+
+#~ msgid "Wrap mode"
+#~ msgstr "Zeilenumbruch"
+
+#~ msgid "_Autosave current file every"
+#~ msgstr "Aktuelle Datei _automatisch alle"
+
+#~ msgid "_Background color:"
+#~ msgstr "_Hintergrundfarbe:"
+
+#~ msgid "_Body:"
+#~ msgstr "_Rumpf:"
+
+#~ msgid "_Display line numbers"
+#~ msgstr "_Zeilennummern anzeigen"
+
+#~ msgid "_Print page headers"
+#~ msgstr "_Kopfzeilen drucken"
+
+#~ msgid "_Restore Default Fonts"
+#~ msgstr "Auf Vorgabeschriften _zurücksetzen"
+
+#~ msgid "_Supported encodings:"
+#~ msgstr "Unterstützte Zeichen_kodierungen:"
+
+#~ msgid "_Text color:"
+#~ msgstr "_Textfarbe:"
+
+#~ msgid "_Use default theme font"
+#~ msgstr "Vom _Thema vorgegebene Schrift verwenden"
+
+#~ msgid "_action(s)"
+#~ msgstr "_Aktion(en) begrenzen"
+
+#~ msgid "_minutes"
+#~ msgstr "_Minuten speichern"
+
+#~ msgid "li_ne(s)"
+#~ msgstr "_Zeile(n) einfügen"
+
+#~ msgid "_Insert a new preview phrase."
+#~ msgstr "Eine neue Vorschau-Phrase e_infügen"
+
+#~ msgid "Modify preview phrase..."
+#~ msgstr "Vorschau-Phrase verändern …"
+
+#~ msgid "Preview"
+#~ msgstr "Vorschau"
+
+#~ msgid "_Modify preview phrase..."
+#~ msgstr "Vorschautext _verändern …"
+
+#~ msgid "Font Selection"
+#~ msgstr "Schriftwahl"
+
+#~ msgid "Sans Regular 12"
+#~ msgstr "Sans Regulär 12"
+
+#~ msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
+#~ msgstr "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
+
+#~ msgid "Pick a Font"
+#~ msgstr "Wählen Sie eine Schrift"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "The title of the selection dialog box"
+#~ msgstr "Der Titel der Auswahl-Dialogbox"
+
+#~ msgid "Name of the selected font"
+#~ msgstr "Name der markierten Schrift"
+
+#~ msgid "Preview text"
+#~ msgstr "Vorschautext"
+
+#~ msgid "Preview text shown in the dialog"
+#~ msgstr "Vorschautext, der im Dialog angezeigt wird"
+
+#~ msgid "Use font in label"
+#~ msgstr "Schrift im Label verwenden"
+
+#~ msgid "Use font in the label in font info mode"
+#~ msgstr "Schrift im Label im Dateiinfo-Modus verwenden"
+
+#~ msgid "Font size for label"
+#~ msgstr "Schriftgröße für Label"
+
+#~ msgid "Font size for label in font info mode"
+#~ msgstr "Schriftgröße für Label im Schrift-Info-Modus"
+
+#~ msgid "Show size"
+#~ msgstr "Größe anzeigen"
+
+#~ msgid "Show size in font info mode"
+#~ msgstr "Größe im Schrift-Info-Modus anzeigen"
+
+#~ msgid "Font"
+#~ msgstr "Schrift"
+
+#~ msgid "Goto Line"
+#~ msgstr "Gehe zu Zeile"
+
+#~ msgid "_Line number:"
+#~ msgstr "_Zeilennummer:"
+
+#~ msgid "C_onfigure plugin"
+#~ msgstr "Plugin konfigurieren"
+
+#~ msgid "Configure the selected plugin"
+#~ msgstr "Das ausgewählte Plugin konfigurieren"
+
+#~ msgid "De_tails"
+#~ msgstr "_Details"
+
+#~ msgid "_Description"
+#~ msgstr "_Beschreibung"
+
+#~ msgid "_Location to search for:"
+#~ msgstr "_Ort, an dem gesucht werden soll:"
+
+#~ msgid "label"
+#~ msgstr "Label"
+
+#~ msgid "Find Next"
+#~ msgstr "Weitersuchen"
+
+#~ msgid "Match _entire word only"
+#~ msgstr "Nur _vollständige Wörter berücksichtigen"
+
+#~ msgid "Replace All"
+#~ msgstr "Alle ersetzen"
+
+#~ msgid "Replace _with: "
+#~ msgstr "Ersetzen _durch: "
+
+#~ msgid "_Match case"
+#~ msgstr "_Groß-/Kleinschreibung berücksichtigen"
+
+#~ msgid "_Search for: "
+#~ msgstr "Suchen _nach: "
+
+#~ msgid "_Wrap around"
+#~ msgstr "_Zeilenumbruch"
+
+#~ msgid "Enter the _location (URI) of the file you would like to open:"
+#~ msgstr "Geben Sie den _Ort (URI) der Datei ein, die Sie öffnen wollen:"
+
+#~ msgid "Open from URI"
+#~ msgstr "Einen URI öffnen"
+
+#~ msgid "translator_credits"
+#~ msgstr ""
+#~ "Manuel Borchers <webmaster@matronix.de>\n"
+#~ "Matthias Warkus <mawarkus@gnome.org>"
+
+#~ msgid "pluma"
+#~ msgstr "pluma"
+
+#~ msgid "pluma is a small and lightweight text editor for Gnome"
+#~ msgstr "pluma ist ein kleiner und handlicher Texteditor für GNOME"
+
+#~ msgid "%s %d"
+#~ msgstr "%s %d"
+
+#~ msgid "Untitled"
+#~ msgstr "Namenlos"
+
+#~ msgid "Invalid file name"
+#~ msgstr "Ungültiger Dateiname"
+
+#~ msgid "Invalid UTF-8 data"
+#~ msgstr "Ungültige UTF-8-Daten"
+
+#~ msgid "Could not read symbolic link information for %s"
+#~ msgstr "Informationen des symbolische Links %s konnten nicht gelesen werden"
+
+#~ msgid "The file has too many symbolic links."
+#~ msgstr "Die Datei hat zu viele symbolische Links."
+
+#~ msgid "pluma cannot handle %s: locations in write mode."
+#~ msgstr "pluma kann mit %s:-Orten im Schreibmodus nicht umgehen."
+
+#~ msgid "pluma cannot handle this kind of location in write mode."
+#~ msgstr "pluma kann mit dieser Art Ort im Schreibmodus nicht umgehen."
+
+#~ msgid "Invalid filename."
+#~ msgstr "Ungültiger Dateiname"
+
+#~ msgid ""
+#~ "There is not enough disk space to save the file.\n"
+#~ "Please free some disk space and try again."
+#~ msgstr ""
+#~ "Auf der Platte ist nicht genügend Platz, um die\n"
+#~ "Datei zu speichern. Machen Sie bitte Platz und\n"
+#~ "versuchen Sie es noch einmal."
+
+#~ msgid ""
+#~ "The disk where you are trying to save the file has a limitation on file "
+#~ "sizes.  Please try saving a smaller file or saving it to a disk that does "
+#~ "not have this limitation."
+#~ msgstr ""
+#~ "Die Platte auf die Sie versuchen zu speichern hat eine Einschränkung für "
+#~ "Dateigrößen.  Bitte versuchen Sie eine kleiner Datei zu speichern oder auf "
+#~ "eine Platte zu speichern, die diese Einschränkung nicht hat."
+
+#~ msgid "Could not create a backup file."
+#~ msgstr "Sicherheitskopie der Datei konnte nicht erstellt werden."
+
+#~ msgid "It is not possible to revert an Untitled document"
+#~ msgstr "Sie können kein unbenanntes Dokument zurücksetzen"
+
+#~ msgid ""
+#~ "A file named \"%s\" already exists.\n"
+#~ "Do you want to replace it with the one you are saving?"
+#~ msgstr ""
+#~ "Eine Datei namens »%s« existiert bereits.\n"
+#~ "Soll sie durch diejenige ersetzt werden, die Sie gerade speichern?"
+
+#~ msgid ""
+#~ "The file \"%s\" is read-only.\n"
+#~ "Do you want to try to replace it with the one you are saving?"
+#~ msgstr ""
+#~ "Eine Datei namens »%s« existiert bereits.\n"
+#~ "Soll versucht werden, sie durch diejenige zu ersetzen, die Sie gerade "
+#~ "speichern?"
+
+#~ msgid "Select a filename to save"
+#~ msgstr "Einen Dateinamen zum Speichern wählen"
+
+#~ msgid "Open File..."
+#~ msgstr "Datei öffnen …"
+
+#~ msgid "Loaded file '%s'"
+#~ msgstr "Datei »%s« geladen"
+
+#~ msgid "Saving file '%s'..."
+#~ msgstr "Datei »%s« wird gespeichert …"
+
+#~ msgid "The document has not been saved."
+#~ msgstr "Das Dokument wurde nicht gespeichert."
+
+#~ msgid "File '%s' saved."
+#~ msgstr "Datei »%s« gespeichert."
+
+#~ msgid "Save as..."
+#~ msgstr "Speichern unter …"
+
+#~ msgid ""
+#~ "Do you want to revert to saved the document '%s'?\n"
+#~ "\n"
+#~ "You will not be able to undo this operation."
+#~ msgstr ""
+#~ "Soll das Dokument »%s« auf die gespeicherte Fassung zurückgesetzt werden?\n"
+#~ "\n"
+#~ "Diese Aktion kann nicht rückgängig gemacht werden."
+
+#~ msgid "_Revert"
+#~ msgstr "_Zurücksetzen"
+
+#~ msgid "Reverting file '%s'..."
+#~ msgstr "Datei »%s« wird zurückgesetzt …"
+
+#~ msgid "The document has not been reverted."
+#~ msgstr "Das Dokument wurde nicht zurückgesetzt."
+
+#~ msgid "File '%s' reverted."
+#~ msgstr "Datei »%s« zurückgesetzt."
+
+#~ msgid "Loading %d files..."
+#~ msgstr "%d Dateien werden geladen …"
+
+#~ msgid "The file \"%s\" does not exist. Would you like to create it?"
+#~ msgstr "Die Datei »%s« existiert nicht. Wollen Sie sie erstellen?"
+
+#~ msgid "Loaded %i files"
+#~ msgstr "%i Dateien geladen"
+
+#~ msgid "Could not read data from stdin."
+#~ msgstr "Von stdin konnten keine Daten gelesen werden."
+
+#~ msgid "RO"
+#~ msgstr "NUR-LESEN"
+
+#~ msgid "_Move to New Window"
+#~ msgstr "In neues Fenster _verschieben"
+
+#~ msgid "Open a file."
+#~ msgstr "Eine Datei öffnen."
+
+#~ msgid ""
+#~ "Do you want to save the changes you made to the document \"%s\"? \n"
+#~ "\n"
+#~ "Your changes will be lost if you don't save them."
+#~ msgstr ""
+#~ "Sollen die Änderungen am Dokument »%s« gespeichert werden?\n"
+#~ "\n"
+#~ "Nicht gespeicherte Änderungen gehen verloren."
+
+#~ msgid "Do_n't save"
+#~ msgstr "_Nicht speichern"
+
+#~ msgid "_Don't quit"
+#~ msgstr "_Nicht beenden"
+
+#~ msgid "_Don't close"
+#~ msgstr "_Nicht schließen"
+
+#~ msgid "(modified)"
+#~ msgstr "(geändert)"
+
+#~ msgid "(readonly)"
+#~ msgstr "(schreibgeschützt)"
+
+#~ msgid "Error, unable to open module file '%s'\n"
+#~ msgstr "Fehler: Moduldatei »%s« konnte nicht geöffnet werden\n"
+
+#~ msgid "Error, plugin '%s' does not contain init function."
+#~ msgstr "Fehler: Plugin »%s« enthält keine Initialisierungsfunktion."
+
+#~ msgid "Error, plugin '%s' does not contain activate function."
+#~ msgstr "Fehler: Plugin »%s« enthält keine Aktivierungsfunktion."
+
+#~ msgid "Error, plugin '%s' does not contain deactivate function."
+#~ msgstr "Fehler: Plugin »%s« enthält keine Deaktivierungsfunktion."
+
+#~ msgid "Error, impossible to initialize plugin '%s'"
+#~ msgstr "Fehler: Plugin »%s« konnte nicht initialisiert werden"
+
+#~ msgid "Error, impossible to destroy plugin '%s'"
+#~ msgstr "Fehler, Plugin »%s« konnte nicht zerstört werden"
+
+#~ msgid "Error, impossible to activate plugin '%s'"
+#~ msgstr "Fehler: Plugin »%s« konnte nicht aktiviert werden"
+
+#~ msgid "Error, impossible to deactivate plugin '%s'"
+#~ msgstr "Fehler: Plugin »%s« konnte nicht deaktiviert werden"
+
+#~ msgid "Error, impossible to update ui of the plugin '%s'"
+#~ msgstr ""
+#~ "Fehler: Benutzeroberfläche des Plugins »%s« konnte nicht aktualisiert "
+#~ "werden"
+
+#~ msgid "Cannot initialize preferences manager."
+#~ msgstr "Einstellungensverwalter konnte nicht initialisiert werden."
+
+#~ msgid "Expected `%s' got `%s' for key %s"
+#~ msgstr "»%s« erwartet, aber »%s« für Schlüssel %s bekommen"
+
+#~ msgid ""
+#~ "pluma is unable to print since it cannot find\n"
+#~ "one of the required fonts."
+#~ msgstr ""
+#~ "pluma kann es nicht ausdrucken, da es eine\n"
+#~ "der benötigten Schriftarten nicht finden kann."
+
+#~ msgid "File: %s"
+#~ msgstr "Datei: %s"
+
+#~ msgid "Page: %d"
+#~ msgstr "Seite: %d"
+
+#~ msgid "pluma - Print Preview"
+#~ msgstr "pluma - Druckvorschau"
+
+#~ msgid ""
+#~ "An error occurred while printing.\n"
+#~ "\n"
+#~ "%s,"
+#~ msgstr ""
+#~ "Ein Fehler ist beim Drucken aufgetreten. \n"
+#~ "\n"
+#~ "%s,"
+
+#~ msgid "About this application"
+#~ msgstr "Info zu dieser Anwendung"
+
+#~ msgid "C_ustomize Statusbar"
+#~ msgstr "Statuszeile an_passen"
+
+#~ msgid "Change the visibility of the output window in the current window"
+#~ msgstr "Das Ausgabefensters im aktuellen Fenster anzeigen/verbergen"
+
+#~ msgid "Change the visibility of the toolbar in the current window"
+#~ msgstr "Die Werkzeugleiste im aktuellen Fenster anzeigen/verbergen"
+
+#~ msgid "Close"
+#~ msgstr "Schließen"
+
+#~ msgid "Close all open files"
+#~ msgstr "Alle offenen Dateien schließen"
+
+#~ msgid "Close the current file"
+#~ msgstr "Die aktuelle Datei schließen"
+
+#~ msgid "Configure the application"
+#~ msgstr "Die Anwendung konfigurieren"
+
+#~ msgid "Copy"
+#~ msgstr "Kopieren"
+
+#~ msgid "Copy the selection"
+#~ msgstr "Den markierten Text kopieren"
+
+#~ msgid "Create a new document"
+#~ msgstr "Ein neues Dokument anlegen"
+
+#~ msgid "Cu_t"
+#~ msgstr "_Ausschneiden"
+
+#~ msgid "Customize"
+#~ msgstr "Anpassen"
+
+#~ msgid "Customize toolbars"
+#~ msgstr "Werkzeugleisten anpassen"
+
+#~ msgid "Cut"
+#~ msgstr "Ausschneiden"
+
+#~ msgid "Cut the selection"
+#~ msgstr "Den markierten Text ausschneiden"
+
+#~ msgid "Delete"
+#~ msgstr "Löschen"
+
+#~ msgid "Dump XML"
+#~ msgstr "XML ausspucken"
+
+#~ msgid "Dump the UI Xml description"
+#~ msgstr "Die XML-UI-Beschreibung ausspucken"
+
+#~ msgid "Find Again"
+#~ msgstr "Weitersuchen"
+
+#~ msgid "Find Ne_xt"
+#~ msgstr "_Weitersuchen"
+
+#~ msgid "Go to _Line..."
+#~ msgstr "Gehe zu Zeile …"
+
+#~ msgid "Go to a specific line number"
+#~ msgstr "Zu einer bestimmten Zeilennummer gehen"
+
+#~ msgid "Icon and _Text"
+#~ msgstr "Icons und _Text"
+
+#~ msgid "Main toolbar"
+#~ msgstr "Hauptwerkzeugleiste"
+
+#~ msgid "New"
+#~ msgstr "Neu"
+
+#~ msgid "Only show icons in the toolbar"
+#~ msgstr "Nur Icons in der Werkzeugleiste anzeigen"
+
+#~ msgid "Open Location..."
+#~ msgstr "Ort öffnen …"
+
+#~ msgid "Open _Location..."
+#~ msgstr "_Ort öffnen …"
+
+#~ msgid "Open a file"
+#~ msgstr "Eine Datei öffnen"
+
+#~ msgid "Open a file from a specified location"
+#~ msgstr "Eine Datei an einem bestimmten Ort öffnen"
+
+#~ msgid "Paste"
+#~ msgstr "Einfügen"
+
+#~ msgid "Paste the clipboard"
+#~ msgstr "Den Inhalt der Zwischenablage einfügen"
+
+#~ msgid "Pr_eferences"
+#~ msgstr "_Einstellungen"
+
+#~ msgid "Print Previe_w..."
+#~ msgstr "Druck_vorschau …"
+
+#~ msgid "Print Preview"
+#~ msgstr "Druckvorschau"
+
+#~ msgid "Print Setup"
+#~ msgstr "Druckeinstellungen"
+
+#~ msgid "Print preview"
+#~ msgstr "Druckvorschau"
+
+#~ msgid "Print the current file"
+#~ msgstr "Aktuelle Datei drucken"
+
+#~ msgid "Quit"
+#~ msgstr "Beenden"
+
+#~ msgid "Quit the program"
+#~ msgstr "Das Programm beenden"
+
+#~ msgid "Redo"
+#~ msgstr "Wiederholen"
+
+#~ msgid "Redo the undone action"
+#~ msgstr "Den rückgängig gemachten Vorgang wiederholen"
+
+#~ msgid "Replace a string"
+#~ msgstr "Eine Zeichenkette ersetzen"
+
+#~ msgid "Revert"
+#~ msgstr "Zurücksetzen"
+
+#~ msgid "Revert to a saved version of the file"
+#~ msgstr "Auf eine gespeicherte Version der Datei zurücksetzen"
+
+#~ msgid "Save _As..."
+#~ msgstr "Speichern _unter …"
+
+#~ msgid "Save all open files"
+#~ msgstr "Alle offenen Dateien speichern"
+
+#~ msgid "Save the current file with a different name"
+#~ msgstr "Die aktuelle Datei unter einem anderen Namen speichern"
+
+#~ msgid "Search again for the same string"
+#~ msgstr "Noch einmal nach derselben Zeichenkette suchen"
+
+#~ msgid "Search for a string"
+#~ msgstr "Eine Zeichenkette suchen"
+
+#~ msgid "Select All"
+#~ msgstr "Alles markieren"
+
+#~ msgid "Select _All"
+#~ msgstr "Alles _markieren"
+
+#~ msgid "Select the entire document"
+#~ msgstr "Das gesamte Dokument markieren"
+
+#~ msgid "Set toolbar button style according to desktop default"
+#~ msgstr ""
+#~ "Den Knopfstil in Werkzeugleisten der Systemvorgabe entsprechend anpassen"
+
+#~ msgid "Setup the page settings for your current printer"
+#~ msgstr "Die Seiteneinstellungen für Ihren aktuellen Drucker einrichten"
+
+#~ msgid "Show _Cursor Position"
+#~ msgstr "_Cursorposition anzeigen"
+
+#~ msgid "Show _Overwrite Mode"
+#~ msgstr "_Überschreibmodus anzeigen"
+
+#~ msgid "Show cursor position in the statusbar"
+#~ msgstr "Cursorposition in der Statusleiste anzeigen"
+
+#~ msgid "Show overwrite mode in the statusbar"
+#~ msgstr "Überschreibmodus in der Statusleiste anzeigen"
+
+#~ msgid "Undo the last action"
+#~ msgstr "Den letzten Vorgang rückgängig machen"
+
+#~ msgid "_About"
+#~ msgstr "_Info"
+
+#~ msgid "_Close"
+#~ msgstr "S_chließen"
+
+#~ msgid "_Close All"
+#~ msgstr "Alle s_chließen"
+
+#~ msgid "_Contents"
+#~ msgstr "I_nhalt"
+
+#~ msgid "_Copy"
+#~ msgstr "_Kopieren"
+
+#~ msgid "_Customize Toolbar"
+#~ msgstr "Werkzeugleiste a_npassen"
+
+#~ msgid "_Debug"
+#~ msgstr "_Diagnose"
+
+#~ msgid "_Delete"
+#~ msgstr "_Löschen"
+
+#~ msgid "_Desktop Default"
+#~ msgstr "_Systemvorgabe"
+
+#~ msgid "_Edit"
+#~ msgstr "_Bearbeiten"
+
+#~ msgid "_File"
+#~ msgstr "_Datei"
+
+#~ msgid "_Find..."
+#~ msgstr "_Suchen …"
+
+#~ msgid "_Help"
+#~ msgstr "_Hilfe"
+
+#~ msgid "_Icon"
+#~ msgstr "_Icons"
+
+#~ msgid "_New"
+#~ msgstr "_Neu"
+
+#~ msgid "_Open..."
+#~ msgstr "Ö_ffnen …"
+
+#~ msgid "_Output Window"
+#~ msgstr "_Ausgabefenster"
+
+#~ msgid "_Paste"
+#~ msgstr "E_infügen"
+
+#~ msgid "_Print..."
+#~ msgstr "_Drucken …"
+
+#~ msgid "_Priority Text beside Icons"
+#~ msgstr "_Wichtiger Text neben Icons"
+
+#~ msgid "_Quit"
+#~ msgstr "_Beenden"
+
+#~ msgid "_Redo"
+#~ msgstr "_Wiederholen"
+
+#~ msgid "_Replace..."
+#~ msgstr "_Ersetzen …"
+
+#~ msgid "_Save"
+#~ msgstr "_Speichern"
+
+#~ msgid "_Save All"
+#~ msgstr "Alle _speichern"
+
+#~ msgid "_Search"
+#~ msgstr "_Suchen"
+
+#~ msgid "_Statusbar"
+#~ msgstr "_Statusleiste"
+
+#~ msgid "_Toolbar"
+#~ msgstr "_Werkzeugleiste"
+
+#~ msgid "_Tools"
+#~ msgstr "_Werkzeuge"
+
+#~ msgid "_Undo"
+#~ msgstr "_Rückgängig"
+
+#~ msgid "_View"
+#~ msgstr "_Ansicht"
+
+#~ msgid ""
+#~ "Could not find the file \"%s\".\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly and try again."
+#~ msgstr ""
+#~ "Datei »%s« konnte nicht gefunden werden.\n"
+#~ "\n"
+#~ "Bitte überprüfen Sie, ob Sie den Ort richtig eingegeben haben, und "
+#~ "versuchen Sie es noch einmal."
+
+#~ msgid "Could not open the file \"%s\" because it contains corrupted data."
+#~ msgstr ""
+#~ "Datei »%s« konnte nicht geöffnet werden, da sie defekte Daten enthält."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because pluma cannot handle %s: locations."
+#~ msgstr ""
+#~ "Datei »%s« konnte nicht geöffnet werden, da pluma nicht mit %s:-Orten "
+#~ "umgehen kann."
+
+#~ msgid "Could not open the file \"%s\""
+#~ msgstr "Datei »%s« konnte nicht geöffnet werden"
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because it contains data in an invalid "
+#~ "format."
+#~ msgstr ""
+#~ "Datei »%s« konnte nicht geöffnet werden, da sie Daten in einem ungültigen "
+#~ "Format enthält."
+
+#~ msgid "Could not open the file \"%s\" because it is too big."
+#~ msgstr "Datei »%s« konnte nicht geöffnet werden, weil sie zu groß ist."
+
+#~ msgid ""
+#~ "\"%s\" is not a valid location.\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly and try again."
+#~ msgstr ""
+#~ "»%s« ist kein gültiger Ort.\n"
+#~ "\n"
+#~ "Bitte überprüfen Sie, ob Sie den Ort richtig eingegeben haben, und "
+#~ "versuchen Sie es noch einmal."
+
+#~ msgid "Could not open the file \"%s\" because access was denied."
+#~ msgstr ""
+#~ "Datei »%s« konnte nicht geöffnet werden, da der Zugriff verweigert wurde."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because there are too many open files.\n"
+#~ "\n"
+#~ "Please, close some open file and try again."
+#~ msgstr ""
+#~ "Datei »%s« konnte nicht geöffnet werden, da zu viele Dateien geöffnet "
+#~ "sind.\n"
+#~ "\n"
+#~ "Bitte schließen Sie einige offene Dateien und versuchen Sie es noch einmal."
+
+#~ msgid ""
+#~ "\"%s\" is a directory.\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly and try again."
+#~ msgstr ""
+#~ "»%s« ist ein Verzeichnis.\n"
+#~ "\n"
+#~ "Bitte überprüfen Sie, ob Sie den Ort richtig eingegeben haben, und "
+#~ "versuchen Sie es noch einmal."
+
+#~ msgid ""
+#~ "Not enough available memory to open the file \"%s\". Please, close some "
+#~ "running application and try again."
+#~ msgstr ""
+#~ "Nicht genügend freier Speicher, um die Datei »%s« zu öffnen. Bitte "
+#~ "schließen Sie einige offene Anwendungen und versuchen Sie es noch einmal."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because no host \"%s\" could be found.\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly and that your proxy "
+#~ "settings are correct and then try again."
+#~ msgstr ""
+#~ "Die Datei »%s« konnte nicht geöffnet werden, da der Rechner »%s« nicht "
+#~ "gefunden werden konnte.\n"
+#~ "\n"
+#~ "Bitte überprüfen Sie, ob Sie den Ort richtig eingegeben haben und Ihr "
+#~ "Proxy-Einstellungen richtig sind. Versuchen Sie es dann noch einmal."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because the host name was invalid.\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly and try again."
+#~ msgstr ""
+#~ "Datei »%s« konnte nicht geöffnet werden, da der Rechnername ungültig war.\n"
+#~ "\n"
+#~ "Bitte überprüfen Sie, ob Sie den Ort richtig eingegeben haben, und "
+#~ "versuchen Sie es noch einmal."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because the host name was empty.\n"
+#~ "\n"
+#~ "Please, check that your proxy settings are correct and try again."
+#~ msgstr ""
+#~ "Datei »%s« konnte nicht geöffnet werden, da der Rechnername leer war.\n"
+#~ "\n"
+#~ "Bitte überprüfen Sie, ob Ihre Proxy-Einstellungen richtig sind, und "
+#~ "versuchen Sie es noch einmal"
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because the attempt to log in failed.\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly and try again."
+#~ msgstr ""
+#~ "Datei »%s« konnte nicht geöffnet werden, da ein Anmeldeversuch "
+#~ "fehlschlug.\n"
+#~ "\n"
+#~ "Bitte überprüfen Sie, ob Sie den Ort richtig eingegeben haben, und "
+#~ "versuchen Sie es noch einmal."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because it contains invalid UTF-8 data.\n"
+#~ "\n"
+#~ "Probably, you are trying to open a binary file."
+#~ msgstr ""
+#~ "Datei »%s« konnte nicht geöffnet werden, da sie ungültige UTF-8-Daten "
+#~ "enthält.\n"
+#~ "\n"
+#~ "Wahrscheinlich versuchen Sie, eine Binärdatei zu öffnen."
+
+#~ msgid "Could not open the file \"%s\"."
+#~ msgstr "Datei »%s« konnte nicht geöffnet werden."
+
+#~ msgid "Could not save the file \"%s\"."
+#~ msgstr "Datei »%s« konnte nicht gespeichert werden."
+
+#~ msgid ""
+#~ "Could not save the file \"%s\".\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Datei »%s« konnte nicht gespeichert werden.\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because pluma cannot find it.\n"
+#~ "\n"
+#~ "Perhaps, it has recently been deleted."
+#~ msgstr ""
+#~ "Datei »%s« konnte nicht zurückgesetzt werden, da pluma sie nicht finden "
+#~ "kann.\n"
+#~ "\n"
+#~ "Vielleicht wurde sie kürzlich gelöscht."
+
+#~ msgid "Could not revert the file \"%s\" because it contains corrupted data."
+#~ msgstr ""
+#~ "Datei »%s« konnte nicht zurückgesetzt werden, da sie defekte Daten enthält."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because pluma cannot handle %s: locations."
+#~ msgstr ""
+#~ "Datei »%s« konnte nicht zurückgesetzt werden, da pluma nicht mit %s:-Orten "
+#~ "umgehen kann."
+
+#~ msgid "Could not revert the file \"%s\"."
+#~ msgstr "Die Datei »%s« konnte nicht zurückgesetzt werden."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because it contains data in an invalid "
+#~ "format."
+#~ msgstr ""
+#~ "Datei »%s« konnte nicht zurückgesetzt werden, da sie Daten in einem "
+#~ "ungültigen Format enthält."
+
+#~ msgid "Could not revert the file \"%s\" because it is too big."
+#~ msgstr "Datei »%s« konnte nicht zurückgesetzt werden, weil sie zu groß ist."
+
+#~ msgid "Could not revert the file \"%s\" because access was denied."
+#~ msgstr ""
+#~ "Datei »%s« konnte nicht zurückgesetzt werden, da der Zugriff verweigert "
+#~ "wurde."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because there are too many open files.\n"
+#~ "\n"
+#~ "Please, close some open file and try again."
+#~ msgstr ""
+#~ "Datei »%s« konnte nicht zurückgesetzt werden, da zu viele Dateien geöffnet "
+#~ "sind.\n"
+#~ "\n"
+#~ "Bitte schließen Sie einige offene Dateien und versuchen Sie es noch einmal."
+
+#~ msgid ""
+#~ "Not enough available memory to revert the file \"%s\". Please, close some "
+#~ "running application and try again."
+#~ msgstr ""
+#~ "Nicht genügend freier Speicher, um die Datei »%s« zurückzusetzen. Bitte "
+#~ "schließen Sie einige offene Anwendungen und versuchen Sie es noch einmal."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because no host \"%s\" could be found.\n"
+#~ "\n"
+#~ "Please, check that your proxy settings are correct and try again."
+#~ msgstr ""
+#~ "Datei »%s« konnte nicht zurückgesetzt werden, da der Rechner »%s« nicht "
+#~ "gefunden werden konnte.\n"
+#~ "\n"
+#~ "Bitte überprüfen Sie, ob Ihre Proxy-Einstellungen richtig sind und "
+#~ "versuchen Sie es noch einmal."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because the host name was empty.\n"
+#~ "\n"
+#~ "Please, check that your proxy settings are correct and try again."
+#~ msgstr ""
+#~ "Datei »%s« konnte nicht zurückgesetzt werden, da der Rechnername leer "
+#~ "war.\n"
+#~ "\n"
+#~ "Bitte überprüfen Sie, ob Ihre Proxy-Einstellungen richtig sind und "
+#~ "versuchen Sie es noch einmal."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because the attempt to log in failed."
+#~ msgstr ""
+#~ "Datei »%s« konnte nicht zurückgesetzt werden, da ein Anmeldeversuch "
+#~ "fehlschlug."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because it contains invalid UTF-8 data.\n"
+#~ "\n"
+#~ "Probably, you are trying to revert a binary file."
+#~ msgstr ""
+#~ "Datei »%s« konnte nicht zurückgesetzt werden, da sie ungültige UTF-8-Daten "
+#~ "enthält.\n"
+#~ "\n"
+#~ "Vermutlich versuchen Sie, eine Binärdatei zurückzusetzen."
+
+#~ msgid "It is not possible to revert an Untitled document."
+#~ msgstr "Sie können kein unbenanntes Dokument zurücksetzen."
+
+#~ msgid "The file \"%s\" already exists."
+#~ msgstr "Die Datei »%s« existiert bereits."
+
+#~ msgid ""
+#~ "\"%s\" is a directory.\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly."
+#~ msgstr ""
+#~ "»%s« ist ein Verzeichnis.\n"
+#~ "\n"
+#~ "Bitte überprüfen Sie, ob Sie den Ort richtig eingegeben haben, und "
+#~ "versuchen Sie es noch einmal."
+
+#~ msgid ""
+#~ "Cannot create the file \"%s\".\n"
+#~ "\n"
+#~ "Make sure you have the appropriate write permissions."
+#~ msgstr ""
+#~ "Die Datei »%s« konnte nicht erstellt werden.\n"
+#~ "\n"
+#~ "Stellen Sie sicher, dass Sie die erforderlichen Rechte haben."
+
+#~ msgid ""
+#~ "Cannot create the file \"%s\".\n"
+#~ "\n"
+#~ "The file name is too long."
+#~ msgstr ""
+#~ "Die Datei »%s« konnte nicht erstellt werden.\n"
+#~ "\n"
+#~ "Der Dateiname ist zu lang."
+
+#~ msgid ""
+#~ "Cannot create the file \"%s\".\n"
+#~ "\n"
+#~ "A directory component in the file name does not exist or is a dangling "
+#~ "symbolic link."
+#~ msgstr ""
+#~ "Die Datei »%s« konnte nicht erstellt werden.\n"
+#~ "\n"
+#~ "Eine Verzeichnis-Komponente im Dateinamen existiert nicht oder ist ein "
+#~ "verwaister symbolischer Link."
+
+#~ msgid ""
+#~ "There is not enough disk space to create the file \"%s\".\n"
+#~ "\n"
+#~ "Please free some disk space and try again."
+#~ msgstr ""
+#~ "Auf der Platte ist nicht genügend Platz, um die Datei »%s«\n"
+#~ "zu speichern.\n"
+#~ "\n"
+#~ "Machen Sie bitte Platz und versuchen Sie es noch einmal."
+
+#~ msgid "Could not create the file \"%s\"."
+#~ msgstr "Die Datei »%s« konnte nicht erstellt werden."
+
+#~ msgid "Show utility debugging messages."
+#~ msgstr "Werkzeug-Diagnosemeldungen anzeigen."
+
+#~ msgid "Show mdi debugging messages."
+#~ msgstr "MDI-Diagnosemeldungen anzeigen."
+
+#~ msgid "Show commands debugging messages."
+#~ msgstr "Befehlsdiagnosemeldungen anzeigen."
+
+#~ msgid "Show document debugging messages."
+#~ msgstr "Dokument-Diagnosemeldungen anzeigen."
+
+#~ msgid "Show file debugging messages."
+#~ msgstr "Datei-Diagnosemeldungen anzeigen."
+
+#~ msgid "Show plugin debugging messages."
+#~ msgstr "Plugin-Diagnosemeldungen anzeigen."
+
+#~ msgid "Show prefs debugging messages."
+#~ msgstr "Einstellungsdiagnosemeldungen anzeigen."
+
+#~ msgid "Show printing debugging messages."
+#~ msgstr "Druck-Diagnosemeldungen anzeigen."
+
+#~ msgid "Show search debugging messages."
+#~ msgstr "Such-Diagnosemeldungen anzeigen."
+
+#~ msgid "Show undo debugging messages."
+#~ msgstr "Diagnosemeldungen zu rückgängig anzeigen."
+
+#~ msgid "Show view debugging messages."
+#~ msgstr "Ansichtsdiagnosemeldungen anzeigen."
+
+#~ msgid "Show recent debugging messages."
+#~ msgstr "Diagnosemeldungen zur Zuletzt-geöffnet-Liste anzeigen."
+
+#~ msgid "Show session management debugging messages."
+#~ msgstr "Sitzungsverwaltung-Diagnosemeldungen anzeigen."
+
+#~ msgid "Turn on all debugging messages."
+#~ msgstr "Alle Diagnosemeldungen anzeigen."
+
+#~ msgid "Quit an existing instance of pluma"
+#~ msgstr "Eine existierende Instanz von pluma beenden"
+
+#~ msgid "Create a new toplevel window in an existing instance of pluma"
+#~ msgstr ""
+#~ "Ein neues Hauptfenster in einer existierenden Instanz von pluma erstellen"
+
+#~ msgid "Create a new document in an existing instance of pluma"
+#~ msgstr ""
+#~ "Ein neues Dokument in einer existierenden Instanz von pluma erstellen"
+
+#~ msgid "Close the output window"
+#~ msgstr "Das Ausgabefenster schließen"
+
+#~ msgid "Clear the output window"
+#~ msgstr "Das Ausgabefenster leeren"
+
+#~ msgid "Choose one or more e_ncodings:"
+#~ msgstr "Wählen Sie eine oder mehrere _Zeichenkodierungen:"

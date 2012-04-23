@@ -1,0 +1,415 @@
+# Serbian translation of pluma-plugins
+# Courtesy of Prevod.org team (http://www.prevod.org/) -- 2003.
+# 
+# This file is distributed under the same license as the pluma-plugins package.
+# 
+# Maintainer: Branko Ivanović <popeye@one.ekof.bg.ac.yu>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins 2.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-02 17:58+0100\n"
+"PO-Revision-Date: 2004-01-02 17:59+0100\n"
+"Last-Translator: Branko Ivanović <popeye@one.ekof.bg.ac.yu>\n"
+"Language-Team: Serbian (sr) <serbiangnome-lista@nongnu.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3;    plural=n%10==1 && n%100!=11 ? 0 :    n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: plugins/ASCII/ascii.c:43
+msgid "_ASCII Table"
+msgstr "_ASCII Tabela"
+
+#: plugins/ASCII/ascii.c:46
+msgid "Pop-up a dialog containing an ASCII Table"
+msgstr "Iskačući dijalog sa ASCII tabelom"
+
+#: plugins/ASCII/ascii.c:303
+msgid "Char"
+msgstr "Slovo"
+
+#: plugins/ASCII/ascii.c:310
+msgid "Dec#"
+msgstr "Dec#"
+
+#: plugins/ASCII/ascii.c:317
+msgid "Hex#"
+msgstr "Heks#"
+
+#: plugins/ASCII/ascii.c:324
+msgid "Name"
+msgstr "Naziv"
+
+#: plugins/ASCII/ascii.c:369
+msgid "ASCII Table"
+msgstr "ASCII Tabela"
+
+#: plugins/ASCII/ascii.c:382 plugins/ASCII/asciitable.glade2.h:2
+msgid "_Insert char"
+msgstr "_Ubaci slovo"
+
+#: plugins/ASCII/asciitable.glade2.h:1
+#: plugins/ASCII/ascii.pluma-plugin.desktop.in.h:1
+msgid "ASCII table"
+msgstr "ASCII tabela"
+
+#: plugins/ASCII/ascii.pluma-plugin.desktop.in.h:2
+msgid "This plugin displays a pop-up dialog which contains an ASCII Table."
+msgstr "Ovaj dodatak prikazuje iskačući dijalog koji sadrži ASCII tabelu."
+
+#. AFAIK, all cvs commit messages start with this
+#: plugins/cvschangelog/cvschangelog.c:49
+msgid "Open CVS Chan_geLogs"
+msgstr "Otvori CVS Dnevn_k Promena"
+
+#: plugins/cvschangelog/cvschangelog.c:52
+msgid "Searches for ChangeLogs in the current document and opens them"
+msgstr "Traži dnevnik promena u trenutnom dokumentu i otvara ih"
+
+#: plugins/cvschangelog/cvschangelog.pluma-plugin.desktop.in.h:1
+msgid "A plugin that opens ChangeLogs found in CVS commit messages."
+msgstr ""
+"Dodatak koji otvara dnevnike promena (ChangeLogs)  koje pronađe na CVS-u"
+
+#: plugins/cvschangelog/cvschangelog.pluma-plugin.desktop.in.h:2
+msgid "CVS ChangeLog"
+msgstr "CVS Dnevnik Promena"
+
+#: plugins/diff/diff.c:64
+msgid "Co_mpare Files..."
+msgstr "Upo_redi datoteke..."
+
+#: plugins/diff/diff.c:67
+msgid "Makes a diff file from two documents or files"
+msgstr "Pravi diff datoteku od dva dokumenta ili datoteke."
+
+#. Create the dialog
+#: plugins/diff/diff.c:270 plugins/diff/diff.pluma-plugin.desktop.in.h:1
+msgid "Compare Files"
+msgstr "Uporedi Datoteke"
+
+#: plugins/diff/diff.c:284
+msgid "C_ompare"
+msgstr "U_poredi"
+
+#: plugins/diff/diff.c:511
+msgid "Executed command"
+msgstr "Izvrši komandu"
+
+#: plugins/diff/diff.c:652
+msgid "The two documents you selected are the same."
+msgstr "Dva selektovana dokumenta su isti"
+
+#: plugins/diff/diff.c:660
+msgid ""
+"The \"first\" file you selected does not exist.\n"
+"\n"
+"Please provide a valid file."
+msgstr ""
+"„Prva“ selektovana datoteka ne postoji.\n"
+"\n"
+"Molim Vas, unesite ispravnu datoteku."
+
+#: plugins/diff/diff.c:669
+msgid ""
+"The \"second\" file you selected does not exist.\n"
+"\n"
+"Please provide a valid file."
+msgstr ""
+"„Druga“ selektovana datoteka ne postoji.\n"
+"\n"
+"Molim Vas, unesite ispravnu datoteku."
+
+#: plugins/diff/diff.c:677
+msgid "The two files you selected are the same."
+msgstr "Dve selektovane datoteke su iste."
+
+#: plugins/diff/diff.c:694
+msgid "The \"first\" document contains no text."
+msgstr "„Prvi“ selektovani dokument ne sadrži nikakav tekst."
+
+#: plugins/diff/diff.c:728
+msgid "The \"second\" document contains no text."
+msgstr "„Drugi“ selektovani dokument ne sadrži nikakav tekst."
+
+#. FIXME: do better error reporting ... . Chema
+#: plugins/diff/diff.c:754
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"pluma could not create a temporary file."
+msgstr ""
+"Nemoguće je uporediti izabrana dokumenta.\n"
+"\n"
+"Pluma nije mogao da napravi privremenu datoteku."
+
+#: plugins/diff/diff.c:778 plugins/diff/diff.c:791
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"Error executing the diff command."
+msgstr ""
+"Nemoguće je uporediti izabrana dokumenta.\n"
+"\n"
+"Greška kod izvršavanja komande diff."
+
+#: plugins/diff/diff.c:813
+msgid "No differences were found between the selected documents."
+msgstr "Nije nađena razlika između izabranih dokumenata."
+
+#: plugins/diff/diff.c:854
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"The result contains invalid UTF-8 data."
+msgstr ""
+"Nemoguće je uporediti izabrana dokumenta.\n"
+"\n"
+"Rezultat sadrži neispravne UTF-8 podatke."
+
+#: plugins/diff/diff.glade2.h:1
+msgid "*"
+msgstr "*"
+
+#: plugins/diff/diff.glade2.h:2
+msgid "Choose the files to compare."
+msgstr "Izaberite datoteke za poređenje."
+
+#: plugins/diff/diff.glade2.h:3
+msgid "Compare files..."
+msgstr "Uporedi datoteke..."
+
+#: plugins/diff/diff.glade2.h:4
+msgid "F_rom document"
+msgstr "P_olazni dokument"
+
+#: plugins/diff/diff.glade2.h:5
+msgid "First"
+msgstr "Prvi"
+
+#: plugins/diff/diff.glade2.h:6
+msgid "First file from disk"
+msgstr "Prva datoteka sa diska"
+
+#: plugins/diff/diff.glade2.h:7
+msgid "First file from open document"
+msgstr "Prva datoteka iz otvorenog dokumenta"
+
+#: plugins/diff/diff.glade2.h:8
+msgid "From _document"
+msgstr "Polazni _dokument"
+
+#: plugins/diff/diff.glade2.h:9
+msgid "From a _file on disk"
+msgstr "Polazna da_toteka na disku"
+
+#: plugins/diff/diff.glade2.h:10
+msgid "From a file o_n disk"
+msgstr "Polaz_na datoteka na disku"
+
+#: plugins/diff/diff.glade2.h:11
+msgid "Ignore _blanks (-b option)"
+msgstr "Ignoriši praznine (-_b opcija)"
+
+#: plugins/diff/diff.glade2.h:12
+msgid "Note that this option is only supported by GNU diff"
+msgstr "Znajte da ovu opciju podržava samo Gnu diff"
+
+#: plugins/diff/diff.glade2.h:13
+msgid "Second"
+msgstr "Drugi"
+
+#: plugins/diff/diff.glade2.h:14
+msgid "Second file from disk"
+msgstr "Druga datoteka sa diska"
+
+#: plugins/diff/diff.glade2.h:15
+msgid "Second file from open document"
+msgstr "Druga datoteka iz otvorenog dokumenta"
+
+#: plugins/diff/diff.glade2.h:16
+msgid "Select the \"first\" file..."
+msgstr "Izaberi „Prvu“ datoteku..."
+
+#: plugins/diff/diff.glade2.h:17
+msgid "Select the \"second\" file..."
+msgstr "Izaberi „Drugu“ datoteku..."
+
+#: plugins/diff/diff.glade2.h:18
+msgid "Select the first file to compare"
+msgstr "Izaberi prvu datoteku za poređenje"
+
+#: plugins/diff/diff.glade2.h:19
+msgid "Select the first open document to compare"
+msgstr "Izaberi prvi otvoreni dokument za poređenje"
+
+#: plugins/diff/diff.glade2.h:20
+msgid "Select the second file to compare"
+msgstr "Izaberi drugu datoteku za poređenje "
+
+#: plugins/diff/diff.glade2.h:21
+msgid "Select the second open document to compare"
+msgstr "Izaberi drugi otvoreni dokument za poređenje"
+
+#: plugins/diff/diff.glade2.h:22
+msgid "Use the _unified output format (-u option)"
+msgstr "Koristi jedinstven izlazni format (-u opcija)"
+
+#: plugins/diff/diff.pluma-plugin.desktop.in.h:2
+msgid ""
+"The Compare Files plugin uses the \"diff\" program to compare two documents "
+"or files on disk."
+msgstr "Dodatak za poređenje datoteka koristi program <tt>diff</tt> za poređenje dva dokumenta ili datoteke na disku."
+
+#~ msgid "_Run Command..."
+#~ msgstr "Izv_rši komandu..."
+
+#~ msgid "Run a command"
+#~ msgstr "Izvrši komandu"
+
+#~ msgid "Stopped"
+#~ msgstr "Zaustavljeno"
+
+#~ msgid "An error occurs while running the selected command."
+#~ msgstr "Greška se pojavila prilikom izvršenja izabrane komande"
+
+#~ msgid "Run Command"
+#~ msgstr "Izvrši komandu"
+
+#~ msgid "_Run"
+#~ msgstr "Izv_rši"
+
+#~ msgid "Done"
+#~ msgstr "Urađeno"
+
+#~ msgid "Failed"
+#~ msgstr "Neuspelo"
+
+#~ msgid ""
+#~ "The shell command entry is empty.\n"
+#~ "\n"
+#~ "Please, insert a valid shell command."
+#~ msgstr ""
+#~ "Polje za unos komande je prazno.\n"
+#~ "\n"
+#~ "Unesite ispravnu komandu."
+
+#~ msgid ""
+#~ "Error parsing the shell command.\n"
+#~ "\n"
+#~ "Please, insert a valid shell command."
+#~ msgstr ""
+#~ "Greška pri određivanju komande.\n"
+#~ "\n"
+#~ "Unesite ispravnu komandu."
+
+#~ msgid "Executing command"
+#~ msgstr "Izvršavam komandu"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "Ko_manda:"
+
+#~ msgid "Select the working directory..."
+#~ msgstr "Izaberi radni direktorijum..."
+
+#~ msgid "_Show results in Output Window"
+#~ msgstr "I_spiši rezultate u izlaznom prozoru"
+
+#~ msgid "_Working directory:"
+#~ msgstr "Radni direktorijum:"
+
+#~ msgid "pluma: Shell Output plugin"
+#~ msgstr "pluma: dodatak za ispis shell izlaza"
+
+#~ msgid ""
+#~ "Execute an external program and eventually grabs its output in the output "
+#~ "window."
+#~ msgstr "Izvrši eksterni program i uhvati izlaz u izlaznom prozoru."
+
+#~ msgid "Shell command"
+#~ msgstr "Shell naredba"
+
+#~ msgid "Tag list plugin"
+#~ msgstr "Dodatak za liste oznaka"
+
+#~ msgid "Select the group of tags you want to use"
+#~ msgstr "Izaberite grupu oznaka koju želite da koristite"
+
+#~ msgid "Tag Groups Combo"
+#~ msgstr "Kombinacija grupa oznaka"
+
+#~ msgid "Tags Name List"
+#~ msgstr "Spisak naziva oznaka"
+
+#~ msgid "Double-click on a tag to insert it in the current document"
+#~ msgstr "Kliknite dvaputa na oznaku koju želite da ubacite u tekući dokument"
+
+#~ msgid "Tags"
+#~ msgstr "Oznake"
+
+#~ msgid "Tag _List"
+#~ msgstr "Spisak _Oznaka"
+
+#~ msgid "Show the tag list window"
+#~ msgstr "Prikaži prozor sa spiskom oznaka"
+
+#~ msgid "Tag list"
+#~ msgstr "Spisak oznaka"
+
+#~ msgid ""
+#~ "The tag list plugin provides a method to easily insert into a document "
+#~ "commonly used tags/strings without having to type them."
+#~ msgstr ""
+#~ "Dodatak za spisak oznaka obezbeđuje način za lako ubacivanje u dokument "
+#~ "često korišćene oznake/reči bez potrebe da ih ukucavate."
+
+#~ msgid "_Indent"
+#~ msgstr "_Uvuci"
+
+#~ msgid "Indent selected lines"
+#~ msgstr "Uvuci izabrane linije"
+
+#~ msgid "U_nindent"
+#~ msgstr "_Izvuci"
+
+#~ msgid "Unindent selected lines"
+#~ msgstr "Izvuci izabrane linije"
+
+#~ msgid "Indent lines"
+#~ msgstr "Uvuci linije"
+
+#~ msgid "Indent or un-indent selected lines."
+#~ msgstr "Uvuci ili izvuci izabrane linije."
+
+#~ msgid "R_emove duplicates"
+#~ msgstr "_Obriši duplikate"
+
+#~ msgid "S_tart at column:"
+#~ msgstr "_Počni od kolone:"
+
+#~ msgid "Sort"
+#~ msgstr "Razvrstaj"
+
+#~ msgid "You cannot undo a sort operation"
+#~ msgstr "Ne možete poništiti operaciju razvrstavanja"
+
+#~ msgid "_Ignore case"
+#~ msgstr "_Ignoriši slučaj"
+
+#~ msgid "_Reverse order"
+#~ msgstr "_Obrnuti redosled"
+
+#~ msgid "_Sort"
+#~ msgstr "_Razvrstaj"
+
+#~ msgid "Sorts a document or selected text."
+#~ msgstr "Razvrstava dokument ili izabran tekst."
+
+#~ msgid "S_ort..."
+#~ msgstr "_Razvrstaj..."
+
+#~ msgid "Sort the current document or selection."
+#~ msgstr "Razvrstava trenutni dokument ili selekciju."

@@ -1,0 +1,444 @@
+# Slovenian translations for pluma-plugins.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the pluma-plugins package.
+#
+# Andraž Tori <andraz.tori1@guest.arnes.si>, 2000.
+# Matej Urbančič <mateju@svn.gnome.org>, 2009 - 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pluma&component=Plugins\n"
+"POT-Creation-Date: 2010-08-16 19:37+0000\n"
+"PO-Revision-Date: 2010-08-21 08:23+0100\n"
+"Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
+"Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
+"X-Poedit-Country: SLOVENIA\n"
+"X-Poedit-Language: Slovenian\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:1
+msgid "Bookmarks"
+msgstr "Zaznamki"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "Enostavno upravljanje dokumentov z zaznamki"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:137
+msgid "Toggle Bookmark"
+msgstr "Preklopi zaznamek"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:138
+msgid "Toggle bookmark status of the current line"
+msgstr "Preklopi stanje zaznamka trenutne vrstice"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:140
+msgid "Goto Next Bookmark"
+msgstr "Pojdi na naslednji zaznamek"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:141
+msgid "Goto the next bookmark"
+msgstr "Pojdi na naslednji zaznamek"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:143
+msgid "Goto Previous Bookmark"
+msgstr "Pojdi na predhodni zaznamek"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:144
+msgid "Goto the previous bookmark"
+msgstr "Pojdi na predhodni zaznamek"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "Samodejno doda zaklepaje."
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Bracket Completion"
+msgstr "Zaključevanje oklepajev"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:258
+msgid "Character Map"
+msgstr "Preglednica znakov"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "Vstavljanje posebnih znakov le s klikom nanje."
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:1
+msgid "Code comment"
+msgstr "Opomba kode"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "Dodaj ali odstrani opombo k izbrani kodi."
+
+#: ../plugins/codecomment/codecomment.py:230
+msgid "Co_mment Code"
+msgstr "Dodaj opombo _kode"
+
+#: ../plugins/codecomment/codecomment.py:232
+msgid "Comment the selected code"
+msgstr "Dodaj opombo k izbrani kodi"
+
+#: ../plugins/codecomment/codecomment.py:236
+msgid "U_ncomment Code"
+msgstr "_Odstrani opombo kode"
+
+#: ../plugins/codecomment/codecomment.py:238
+msgid "Uncomment the selected code"
+msgstr "Odstrani opombo izbrane kode"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "Izbirnik barv"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "Izbor barve iz pogovornega okna in jo vstavi v šestnajstiškem zapisu."
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "Pick _Color..."
+msgstr "Izbor _barve ..."
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "Izbor barve v pogovornem oknu"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Pick Color"
+msgstr "Izbor barve"
+
+#: ../plugins/colorpicker/colorpicker.py:226
+msgid "_Insert"
+msgstr "_Vstavi"
+
+#. ex:ts=4:et:
+#: ../plugins/commander/commander.pluma-plugin.desktop.in.in.h:1
+msgid "Command line interface for advanced editing"
+msgstr "Vmesnik ukaznega okna za napredno urejanje"
+
+#: ../plugins/commander/commander.pluma-plugin.desktop.in.in.h:2
+msgid "Commander"
+msgstr "Ukaznik"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:4
+msgid "Draw Spaces"
+msgstr "Izriši presledke"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "Izris presledkov in tabulatorjev"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:1
+msgid "Draw leading spaces"
+msgstr "Izris začetnih presledkov"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:2
+msgid "Draw new lines"
+msgstr "Izris znakov za nove vrstice"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:3
+msgid "Draw non-breaking spaces"
+msgstr "Izris nedeljivih presledkov"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:4
+msgid "Draw spaces"
+msgstr "Izris presledkov"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:5
+msgid "Draw spaces in text"
+msgstr "Izris presledkov v besedilu"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:6
+msgid "Draw tabs"
+msgstr "Izris tabulatorjev"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:7
+msgid "Draw trailing spaces"
+msgstr "Izris presledkov na koncu vrstic"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:1
+msgid "Draw Leading Spaces"
+msgstr "Izriši začetne presledke"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:2
+msgid "Draw New lines"
+msgstr "Izriši znake za nove vrstice"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:3
+msgid "Draw Non-Breaking Spaces"
+msgstr "Izriši nedeljive presledke"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:5
+msgid "Draw Spaces in Text"
+msgstr "Izriši presledke v besedilu"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:6
+msgid "Draw Tabs"
+msgstr "Izriši tabulatorje"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:7
+msgid "Draw Trailing Spaces"
+msgstr "Izriši presledke na koncu vrstic"
+
+#: ../plugins/drawspaces/pluma-drawspaces.schemas.in.h:8
+msgid "Show White Spaces"
+msgstr "Pokaži presledne znake"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:167
+msgid "Show _White Space"
+msgstr "Pokaži _presledne znake"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:168
+msgid "Show spaces and tabs"
+msgstr "Pokaži presledke znake in tabulatorje"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:612
+msgid "Error dialog"
+msgstr "Pogovorno okno napake"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "Združi več vrstic ali razdeli predolge vrstice"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:2
+msgid "Join/Split Lines"
+msgstr "Združi/razdeli vrstice"
+
+#: ../plugins/joinlines/joinlines.py:56
+msgid "_Join Lines"
+msgstr "_Združi vrstice"
+
+#: ../plugins/joinlines/joinlines.py:57
+msgid "Join the selected lines"
+msgstr "Združi izbrane vrstice"
+
+#: ../plugins/joinlines/joinlines.py:59
+msgid "_Split Lines"
+msgstr "_Razdeli vrstice"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "Split the selected lines"
+msgstr "Razdeli izbrane vrstice"
+
+#. ex:ts=4:et:
+#: ../plugins/multiedit/multiedit.pluma-plugin.desktop.in.in.h:1
+msgid "Edit document in multiple places at once"
+msgstr "Uredi dokument na več mestih hkrati"
+
+#: ../plugins/multiedit/multiedit.pluma-plugin.desktop.in.in.h:2
+msgid "Multi Edit"
+msgstr "Hkratno urejanje"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:300
+msgid "Added edit point..."
+msgstr "Dodana točka urejanja ..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:438
+msgid "Column Mode..."
+msgstr "Stolpični način ..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:556
+msgid "Removed edit point..."
+msgstr "Odstranjena točka urejanja ..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:706
+msgid "Cancelled column mode..."
+msgstr "Preklican stolpični način ..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:825
+msgid "Enter column edit mode using selection"
+msgstr "Način urejanja stolpcev z izbiro"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:826
+msgid "Toggle edit point"
+msgstr "Preklopi točko urejanja"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:827
+msgid "Add edit point at beginning of line/selection"
+msgstr "Dodaj točko urejanja na začetek vrstice oziroma izbire"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:828
+msgid "Add edit point at end of line/selection"
+msgstr "Dodaj točko urejanja na konec vrstice oziroma izbire"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:864
+#: ../plugins/multiedit/multiedit/windowhelper.py:70
+msgid "Multi Edit Mode"
+msgstr "Način hkratnega urejanja"
+
+#: ../plugins/multiedit/multiedit/windowhelper.py:70
+msgid "Start multi edit mode"
+msgstr "Začni način hkratnega urejanja"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "Vrstica _zavihkov"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "Pokaži ali skrij vrstico zavihkov v trenutnem oknu"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "Vrstica zavihkov je vidna"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr "Ali naj bo vrstica zavihkov vidna v urejevalnih oknih."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr "Dodaj vnos menija za skrivanje/prikaz vrstice zavihkov."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "Skrij/pokaži vrstico zavihkov"
+
+#: ../plugins/sessionsaver/__init__.py:64
+msgid "Sa_ved sessions"
+msgstr "_Shranjene seje"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "_Save current session"
+msgstr "_Shrani trenutno sejo"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "Save the current document list as a new session"
+msgstr "Shrani trenutni seznam dokumentov v novo sejo"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "_Manage saved sessions..."
+msgstr "_Upravljanje s shranjenimi sejami"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "Open the saved session manager"
+msgstr "Odpri shranjen upravljalnik seje"
+
+#: ../plugins/sessionsaver/__init__.py:106
+#, python-format
+msgid "Recover '%s' session"
+msgstr "Obnovi '%s' sejo"
+
+#: ../plugins/sessionsaver/dialogs.py:167
+msgid "Session Name"
+msgstr "Ime seje"
+
+#. ex:ts=4:et:
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:1
+msgid "Save and restore your working sessions"
+msgstr "Shranjevanje in obnavljanje delovne seje"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:2
+msgid "Session Saver"
+msgstr "Shranjevalnik seje"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:1
+msgid "Save session"
+msgstr "Shrani sejo"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:2
+msgid "Saved Sessions"
+msgstr "Shranjene seje"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:3
+msgid "Session name:"
+msgstr "Ime seje:"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "Pozabi, da tabulatorji niso v uporabi."
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Smart Spaces"
+msgstr "Pametni presledki"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "Vstavi terminalsko okno v spodnji pladenj."
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:2
+msgid "Embedded Terminal"
+msgstr "Vstavljen terminal"
+
+#: ../plugins/terminal/terminal.py:286
+msgid "Terminal"
+msgstr "Terminal"
+
+#: ../plugins/terminal/terminal.py:309
+msgid "C_hange Directory"
+msgstr "_Spremeni mapo"
+
+#: ../plugins/wordcompletion/pluma-word-completion-plugin.c:144
+msgid "Document Words"
+msgstr "Besede dokumenta"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Word Completion"
+msgstr "Dopolnjevanje besed"
+
+#: ../plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Word completion using the completion framework"
+msgstr "Dopolnjevanje besed z uporabo ogrodja dopolnjevanja"
+
+#: ../plugins/synctex/synctex.pluma-plugin.desktop.in.in.h:1
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: ../plugins/synctex/synctex.pluma-plugin.desktop.in.in.h:2
+msgid "Synchronize between LaTeX and PDF with pluma and atril."
+msgstr "Usklajevanje med LaTeX in PDF datotekami s programoma pluma in atril."
+
+#: ../plugins/synctex/synctex/synctex.py:280
+#: ../plugins/synctex/synctex/synctex.py:281
+msgid "Forward Search"
+msgstr "Nadaljuj iskanje"
+
+#~ msgid "Enabled"
+#~ msgstr "Omogočeno"
+#~ msgid "If TRUE drawing will be enabled."
+#~ msgstr "Izbrana možnost omogoča izrisovanje znakov."
+#~ msgid "The type of spaces to be drawn."
+#~ msgstr "Vrsta izrisanih preslednih znakov."
+#~ msgid "Enter <b>smart</b> column edit mode using selection"
+#~ msgstr "Uporabi <b>pametni</b> način urejanja stolpcev z izbiro"
+#~ msgid "<b>Smart</b> column align mode using selection"
+#~ msgstr "<b>Pametni</b> način poravnave stolpcev z uporabo izbire"
+#~ msgid "<b>Smart</b> column align mode with additional space using selection"
+#~ msgstr ""
+#~ "<b>Pametni</b> način poravnave stolpcev z dodatnimi presledki z uporabo "
+#~ "izbire"
+#~ msgid "Align edit points"
+#~ msgstr "Poravnaj točke povezav"
+#~ msgid "Align edit points with additional space"
+#~ msgstr "Poravnaj točke urejanja z dodatnim presledkom"
+#~ msgid "Easily increase and decrease the text size"
+#~ msgstr "Enostavno prilagajanje velikosti besedila"
+#~ msgid "Text Size"
+#~ msgstr "Velikost besedila"
+#~ msgid "Draw Newline"
+#~ msgstr "Izriši oznake novih vrstic"
+#~ msgid "Draw Text Space"
+#~ msgstr "Izriši znake presledkov v besedilu"
+#~ msgid "IF TRUE spaces in text will be drawn."
+#~ msgstr "Izbrana možnost omogoča izrisovanje znakov presledkov v besedilu."
+#~ msgid "If TRUE leading space will be drawn."
+#~ msgstr "Izbrana možnost omogoča izrisovanje znakov začetnih presledkov."
+#~ msgid "If TRUE newlines will be drawn."
+#~ msgstr "Izbrana možnost omogoča izrisovanje znakov za nove vrstice."
+#~ msgid "If TRUE non-breaking spaces will be drawn."
+#~ msgstr "Izbrana možnost omogoča izrisovanje znakov za nedeljive presledke."
+#~ msgid "If TRUE tabs will be drawn."
+#~ msgstr "Izbrana možnost omogoča izrisovanje znakov za tabulatorje."
+#~ msgid "If TRUE trailing spaces will be drawn."
+#~ msgstr ""
+#~ "Izbrana možnost omogoča izrisovanje znakov presledkov na koncu vrstic."
+

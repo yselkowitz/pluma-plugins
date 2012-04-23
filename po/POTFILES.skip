@@ -1,0 +1,16 @@
+plugins/bookmarks/bookmarks.pluma-plugin.desktop.in
+plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in
+plugins/charmap/charmap.pluma-plugin.desktop.in
+plugins/codecomment/codecomment.pluma-plugin.desktop.in
+plugins/colorpicker/colorpicker.pluma-plugin.desktop.in
+plugins/commander/commander.pluma-plugin.desktop.in
+plugins/drawspaces/drawspaces.pluma-plugin.desktop.in
+plugins/joinlines/joinlines.pluma-plugin.desktop.in
+plugins/multiedit/multiedit.pluma-plugin.desktop.in
+plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in
+plugins/showtabbar/showtabbar.pluma-plugin.desktop.in
+plugins/smartspaces/smartspaces.pluma-plugin.desktop.in
+plugins/terminal/terminal.pluma-plugin.desktop.in
+plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in
+plugins/synctex/synctex.pluma-plugin.desktop.in
+plugins/textsize/textsize.pluma-plugin.desktop.in

@@ -1,0 +1,10 @@
+[Pluma Plugin]
+Loader=python
+Module=codecomment
+IAge=2
+_Name=Code comment
+_Description=Comment out or uncomment a selected block of code.
+Authors=Alejandro Garcia <alex@igalia.com>\nMatthew Dugan <matthew.dugan@gmail.com>
+Copyright=Copyright @ 2005-2006 Igalia, S.L.\nCopyright @ 2006 Matthew Dugan
+Website=http://www.mate-desktop.org
+Version=@VERSION@

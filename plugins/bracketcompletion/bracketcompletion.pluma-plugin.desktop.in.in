@@ -1,0 +1,11 @@
+[Pluma Plugin]
+Loader=python
+Module=bracketcompletion
+IAge=2
+_Name=Bracket Completion
+_Description=Automatically adds closing brackets.
+Icon=pluma-plugin
+Authors=Steve Frécinaux <steve@istique.net>
+Copyright=Copyright @ 2006 Steve Frécinaux
+Website=http://www.mate-desktop.org
+Version=@VERSION@

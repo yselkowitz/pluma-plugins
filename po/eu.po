@@ -1,0 +1,26 @@
+# translation of eu.po to Basque
+# Copyright (C) 2001, 2006 Free Software Foundation, Inc.
+# Iñaki Larrañaga <dooteo@euskalgnu.org>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: eu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-27 19:09+0100\n"
+"PO-Revision-Date: 2006-02-27 19:10+0100\n"
+"Last-Translator: Iñaki Larrañaga <dooteo@euskalgnu.org>\n"
+"Language-Team: Basque <itzulpena@euskalgnu.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n\n"
+
+#: ../quickies/quickies.glade.h:1
+msgid "Execute"
+msgstr "Exekutatu"
+
+#: ../quickies/quickies.glade.h:2
+msgid "Quick Script:"
+msgstr "Script azkarra:"
+

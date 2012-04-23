@@ -1,0 +1,275 @@
+# translation of pluma-plugins.HEAD.ml.po to
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FSF-India <locale@gnu.org.in>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins.HEAD.ml\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pluma-plugins&component=general\n"
+"POT-Creation-Date: 2009-01-07 22:05+0000\n"
+"PO-Revision-Date: 2009-03-23 11:42+0530\n"
+"Last-Translator: \n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:1
+msgid "Bookmarks"
+msgstr "അടയാളക്കുറിപ്പുകള്‍"
+
+#: ../plugins/bookmarks/bookmarks.pluma-plugin.desktop.in.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "രേഖകളിലൂടെ അടയാളക്കുറിപ്പുകള്‍ ഉപയോഗിച്ചുള്ള അനായാസ യാത്ര"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:123
+msgid "Toggle Bookmark"
+msgstr "അടയാളക്കുറിപ്പു് ‍ടൊഗിള്‍ ചെയ്യുക"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:124
+msgid "Toggle bookmark status of the current line"
+msgstr "നിലവിലുള്ള വരിയുടെ അടയാളക്കുറിപ്പിന്റെ അവസ്ഥ ‍ടൊഗിള്‍ ചെയ്യുക"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:126
+msgid "Goto Next Bookmark"
+msgstr "അടുത്ത അടയാളക്കുറിപ്പിലേക്കു് പോകുക"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:127
+msgid "Goto the next bookmark"
+msgstr "അടുത്ത അടയാളക്കുറിപ്പിലേക്കു് പോകുക"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:129
+msgid "Goto Previous Bookmark"
+msgstr "മുമ്പുള്ള അടയാളക്കുറിപ്പിലേക്കു് പോകുക"
+
+#: ../plugins/bookmarks/pluma-bookmarks-plugin.c:130
+msgid "Goto the previous bookmark"
+msgstr "മുമ്പുള്ള അടയാളക്കുറിപ്പിലേക്കു് പോകുക"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "അടയ്ക്കുന്നതിനുള്ള ബ്രാക്കറ്റുകള്‍ സ്വയമായി ചേര്‍ക്കുന്നു"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.in.h:2
+msgid "Bracket Completion"
+msgstr "ബ്രാക്കറ്റുകളുടെ പൂര്‍ത്തിയാക്കല്‍ സംവിധാനം"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:258
+msgid "Character Map"
+msgstr "ക്യാരക്ടര്‍ മാപ്പ്"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "പ്രത്യേക അക്ഷരങ്ങളില്‍ ക്ലിക്ക് ചെയ്തു് അവ ചേര്‍ക്കുക."
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:1
+msgid "Code comment"
+msgstr "കോഡിനെപ്പറ്റിയുള്ള വാചകം"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "തെരഞ്ഞടുത്തിരിക്കുന്ന കോഡുകളുടെ ബ്ലോക്ക് കമന്റ് അല്ലെങ്കില്‍ അണ്‍കമന്റ് ചെയ്യുക."
+
+#: ../plugins/codecomment/codecomment.py:230
+msgid "Co_mment Code"
+msgstr "കോഡു് _കമന്റ് ചെയ്യുക"
+
+#: ../plugins/codecomment/codecomment.py:232
+msgid "Comment the selected code"
+msgstr "തെരഞ്ഞടുത്തിരിക്കുന്ന കോഡു് കമന്റ് ചെയ്യുക."
+
+#: ../plugins/codecomment/codecomment.py:236
+msgid "U_ncomment Code"
+msgstr "കോഡു് അണ്‍കമന്റ് ചെയ്യുക"
+
+#: ../plugins/codecomment/codecomment.py:238
+msgid "Uncomment the selected code"
+msgstr "തെരഞ്ഞടുത്തിരിക്കുന്ന കോഡു് അണ്‍കമന്റ് ചെയ്യുക"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "നിറം തെരഞ്ഞെടുക്കുന്നതിനുള്ള സംവിധാനം"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "ഡയലോഗില്‍ നിന്നും ഒരു നിറം തെരഞ്ഞെടുത്തു് അതിനുചിതമായ ഹെക്സാ ഡെസിമല്‍ നല്‍കുക."
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "Pick _Color..."
+msgstr "_നിറം തെരഞ്ഞെടുക്കുക..."
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "ഒരു ഡയലോഗില്‍ നിന്നും നിറം തെരഞ്ഞെടുക്കുക"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Pick Color"
+msgstr "നിറം തെരഞ്ഞെടുക്കുക"
+
+#: ../plugins/colorpicker/colorpicker.py:226
+msgid "_Insert"
+msgstr "_ഇടയ്ക്കു് ചേര്‍ക്കുക"
+
+#. ex:ts=4:et:
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Draw Spaces"
+msgstr "സ്പെയിസുകള്‍ നല്‍കുക"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "സ്പെയിസുകളും റ്റാബുകളും നല്‍കുക"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:1
+msgid "Draw new lines"
+msgstr "പുതിയ വരകള്‍ വരയ്ക്കുക"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:2
+msgid "Draw non-breaking spaces"
+msgstr "നോണ്‍-ബ്രെയിക്കിങ് സ്പെയിസുകള്‍ നല്‍കുക"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:3
+msgid "Draw spaces"
+msgstr "സ്പെയിസുകള്‍ നല്‍കുക"
+
+#: ../plugins/drawspaces/drawspaces.ui.h:4
+msgid "Draw tabs"
+msgstr "റ്റാബുകള്‍ നല്‍കുക"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:149
+msgid "Show _White Space"
+msgstr "_വെറ്റ് സ്പെയിസ് കാണിക്കുക"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:150
+msgid "Show spaces and tabs"
+msgstr "സ്പെയിസുകളും റ്റാബുകളും കാണിക്കുക"
+
+#: ../plugins/drawspaces/pluma-drawspaces-plugin.c:526
+msgid "Error dialog"
+msgstr "പിശക് കാണിക്കുന്ന ഡയലോഗ്"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "അനവധി വരകള്‍ കൂട്ടിചേര്‍ക്കുക അല്ലെങ്കില്‍ വലിയ വരകള്‍ വേര്‍തിരിക്കുക"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.in.h:2
+msgid "Join/Split Lines"
+msgstr "വരകള്‍ കൂട്ടിചേര്‍ക്കുക/വേര്‍തിരിക്കുക"
+
+#: ../plugins/joinlines/joinlines.py:56
+msgid "_Join Lines"
+msgstr "വരകള്‍ _കൂട്ടിചേര്‍ക്കുക"
+
+#: ../plugins/joinlines/joinlines.py:57
+msgid "Join the selected lines"
+msgstr "തെരഞ്ഞെടുത്ത വരകള്‍ കൂട്ടിചേര്‍ക്കുക"
+
+#: ../plugins/joinlines/joinlines.py:59
+msgid "_Split Lines"
+msgstr "വരകള്‍ _വേര്‍തിരിക്കുക"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "Split the selected lines"
+msgstr "തെരഞ്ഞെടുത്ത വരകള്‍ വേര്‍തിരിക്കുക"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "റ്റാബ്_ബാര്‍"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "നിലവിലുള്ള ജാലകത്തിലുള്ള റ്റാബ് ബാര്‍ കാണിക്കുക അല്ലെങ്കില്‍ അദൃശ്യമാക്കുക"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "റ്റാബ് ബാര്‍ ദൃശ്യമാണു്"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr "ചിട്ടപ്പെടുത്തുന്നതിനുള്ള ജാലകങ്ങളില്‍ റ്റാബ് ബാര്‍ കാണിക്കണമോ എന്നു്."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr "റ്റാബ് ബാര്‍ കാണിക്കുക/അദൃശ്യമാക്കുന്നതിനായി ഒരു മെനു എന്‍ട്രി ചേര്‍ക്കുക."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "റ്റാബ് ബാര്‍ കാണിക്കുക/അദൃശ്യമാക്കുക"
+
+#: ../plugins/sessionsaver/__init__.py:64
+msgid "Sa_ved sessions"
+msgstr "_സൂക്ഷിച്ചിട്ടുള്ള സെഷനുകള്‍"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "_Save current session"
+msgstr "നിലവിലുള്ള സെഷന്‍ _സൂക്ഷിക്കുക"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "Save the current document list as a new session"
+msgstr "നിലവിലുള്ള രേഖകളുടെ പട്ടിക ഒരു പുതിയ സെഷനായി സൂക്ഷിക്കുക"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "_Manage saved sessions..."
+msgstr "സൂക്ഷിച്ചിട്ടുള്ള സെഷനുകള്‍ _കൈകാര്യം ചെയ്യുക..."
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "Open the saved session manager"
+msgstr "സൂക്ഷിച്ചിട്ടുള്ള സെഷന്‍ മാനേജര്‍ തുറക്കുക"
+
+#: ../plugins/sessionsaver/__init__.py:106
+#, python-format
+msgid "Recover '%s' session"
+msgstr "'%s' സെഷന്‍ വീണ്ടെടുക്കുക"
+
+#: ../plugins/sessionsaver/dialogs.py:167
+msgid "Session Name"
+msgstr "സെഷന്റെ പേരു്"
+
+#. ex:ts=4:et:
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:1
+msgid "Save and restore your working sessions"
+msgstr "നിങ്ങള്‍ പ്രവര്‍ത്തിക്കുന്ന സെഷനുകള്‍ സൂക്ഷിച്ചു് അവ വീണ്ടെടുക്കുക"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in.h:2
+msgid "Session Saver"
+msgstr "സെഷന്‍ സൂക്ഷിക്കുന്നതിനുള്ള സംവിധാനം"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:1
+msgid "Save session"
+msgstr "സെഷന്‍ സൂക്ഷിക്കുക"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:2
+msgid "Saved Sessions"
+msgstr "സൂക്ഷിച്ചിട്ടുള്ള സെഷനുകള്‍"
+
+#: ../plugins/sessionsaver/sessionsaver.ui.h:3
+msgid "Session name:"
+msgstr "സെഷന്റെ പേരു്:"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "നിങ്ങള്‍ റ്റാബുകള്‍ ഉപയോഗിക്കുന്നില്ല എന്നതു് മറന്നുകളയുക."
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.in.h:2
+msgid "Smart Spaces"
+msgstr "സ്മാര്‍ട്ട് സ്പെയിസ്"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "താഴെയുള്ള പെയിനില്‍ ഒരു ടെര്‍മിനല്‍ ചേര്‍ക്കുക (എംബഡ് ചെയ്യുക)."
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.in.h:2
+msgid "Embedded Terminal"
+msgstr "എംബഡഡ് ടെര്‍മിനല്‍"
+
+#: ../plugins/terminal/terminal.py:238
+msgid "Terminal"
+msgstr "ടെര്‍മിനല്‍"
+
+#: ../plugins/terminal/terminal.py:261
+msgid "C_hange Directory"
+msgstr "ഡയറക്ടറി _മാറ്റുക"
+

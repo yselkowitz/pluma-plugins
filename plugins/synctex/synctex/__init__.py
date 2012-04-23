@@ -1,0 +1,1 @@
+from synctex import SynctexPlugin

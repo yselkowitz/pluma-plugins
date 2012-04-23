@@ -1,0 +1,2543 @@
+# Norwegian (nynorsk) translation of pluma
+# Copyright (C) 2000 Gaute Hvoslef Kvalnes.
+# Gaute Hvoslef Kvalnes <ai98ghk@stud.hib.no>, 2000
+# Kjartan Maraas  <kmaraas@gnome.org>, 2001.
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma 1.0\n"
+"POT-Creation-Date: 2002-03-04 16:09+0100\n"
+"PO-Revision-Date: 2001-06-25 18:55+02:00\n"
+"Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
+"Language-Team: Norwegian (Nynorsk)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: pluma.desktop.in.h:1
+msgid "Edit text files"
+msgstr ""
+
+#: pluma.desktop.in.h:2
+#, fuzzy
+msgid "Text Editor"
+msgstr "Avslutt"
+
+#: plugins/ASCII/ascii.c:42
+msgid "_ASCII Table"
+msgstr ""
+
+#: plugins/ASCII/ascii.c:45
+msgid "Pop-up a dialog containing an ASCII Table"
+msgstr ""
+
+#: plugins/ASCII/ascii.c:325
+#, fuzzy
+msgid "Char"
+msgstr "Lukk"
+
+#: plugins/ASCII/ascii.c:332
+msgid "Dec#"
+msgstr ""
+
+#: plugins/ASCII/ascii.c:339
+msgid "Hex#"
+msgstr ""
+
+#: plugins/ASCII/ascii.c:346
+#, fuzzy
+msgid "Name"
+msgstr "Filnamn:"
+
+#: plugins/ASCII/ascii.c:391 plugins/ASCII/ascii.c:512
+msgid "ASCII table"
+msgstr ""
+
+#: plugins/ASCII/ascii.c:404
+#, fuzzy
+msgid "_Insert char"
+msgstr "Set inn fil"
+
+#: plugins/ASCII/ascii.c:513
+msgid "This plugin displays a pop-up dialog which contains an ASCII Table."
+msgstr ""
+
+#: plugins/ASCII/ascii.c:515
+msgid "Copyright (C) 2001-2002 Paolo Maggi"
+msgstr ""
+
+#: plugins/ASCII/asciitable.glade2.h:1
+msgid ""
+"If you wish to insert any of the characters in to the active \n"
+"document, select the character and click the \"Insert Char\" \n"
+"button or double click the character in the table."
+msgstr ""
+
+#: plugins/ASCII/asciitable.glade2.h:4
+#, fuzzy
+msgid "Insert char"
+msgstr "Set inn fil"
+
+#: plugins/ASCII/asciitable.glade2.h:5
+msgid "pluma: ASCII table"
+msgstr ""
+
+#: plugins/cvschangelog/cvschangelog.c:44
+msgid "Open CVS Chan_geLogs"
+msgstr ""
+
+#: plugins/cvschangelog/cvschangelog.c:47
+msgid "Searches for ChangeLogs in the current document and opens them"
+msgstr ""
+
+#: plugins/cvschangelog/cvschangelog.c:235
+msgid "CVS ChangeLog"
+msgstr ""
+
+#: plugins/cvschangelog/cvschangelog.c:236
+msgid "A plugin that opens ChangeLogs found in CVS commit messages."
+msgstr ""
+
+#: plugins/cvschangelog/cvschangelog.c:238
+msgid "Copyright (C) 2002 - James Willcox"
+msgstr ""
+
+#: plugins/diff/diff.c:61
+#, fuzzy
+msgid "Co_mpare Files..."
+msgstr "Opna fil ..."
+
+#: plugins/diff/diff.c:64
+msgid "Makes a diff file from two documents or files"
+msgstr ""
+
+#: plugins/diff/diff.c:66
+#, fuzzy
+msgid "Compare files"
+msgstr "lastar fil"
+
+#. Create the dialog
+#: plugins/diff/diff.c:267
+msgid "Compare two files..."
+msgstr ""
+
+#: plugins/diff/diff.c:281
+msgid "C_ompare"
+msgstr ""
+
+#: plugins/diff/diff.c:491
+#, fuzzy
+msgid "The two documents you selected are the same."
+msgstr "Opna dokument."
+
+#: plugins/diff/diff.c:499
+msgid ""
+"The \"first\" file you selected does not exist.\n"
+"\n"
+"Please provide a valid file."
+msgstr ""
+
+#: plugins/diff/diff.c:508
+msgid ""
+"The \"second\" file you selected does not exist.\n"
+"\n"
+"Please provide a valid file."
+msgstr ""
+
+#: plugins/diff/diff.c:516
+#, fuzzy
+msgid "The two files you selected are the same."
+msgstr "Opna dokument."
+
+#: plugins/diff/diff.c:533
+#, fuzzy
+msgid "The \"first\" document contains no text."
+msgstr "innlegget inneheld ingen data"
+
+#: plugins/diff/diff.c:562
+#, fuzzy
+msgid "The \"second\" document contains no text."
+msgstr "Kommandoen inneheld ikkje '%1'-symbolet."
+
+#. FIXME: do better error reporting ... . Chema
+#: plugins/diff/diff.c:583
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"pluma could not create a temporary file."
+msgstr ""
+
+#: plugins/diff/diff.c:601 plugins/diff/diff.c:614
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"Error executing the diff command."
+msgstr ""
+
+#: plugins/diff/diff.c:636
+msgid "No differences were found between the selected documents."
+msgstr ""
+
+#: plugins/diff/diff.c:677
+msgid ""
+"Impossible to compare the selected documents.\n"
+"\n"
+"The result contains invalid UTF-8 data."
+msgstr ""
+
+#: plugins/diff/diff.c:901
+msgid ""
+"Makes a diff file from two documents or files on disk.\n"
+"\n"
+"For more info on \"diff\" program, type \"man diff\" in a shell prompt.\n"
+msgstr ""
+
+#: plugins/diff/diff.c:904
+msgid ""
+"Copyright (C) 2000 - 2001 Chema Celorio \n"
+"Copyright (C) 2002 Paolo Maggi"
+msgstr ""
+
+#: plugins/diff/diff.glade2.h:1
+#, fuzzy
+msgid "Choose the files to compare."
+msgstr "Fila som skal opnast"
+
+#: plugins/diff/diff.glade2.h:2
+#, fuzzy
+msgid "Compare files..."
+msgstr "Opna fil ..."
+
+#: plugins/diff/diff.glade2.h:3
+#, fuzzy
+msgid "F_rom document"
+msgstr "Dra dokument"
+
+#: plugins/diff/diff.glade2.h:4
+msgid "First"
+msgstr "Førenamn"
+
+#: plugins/diff/diff.glade2.h:5
+#, fuzzy
+msgid "From _document"
+msgstr "Dra dokument"
+
+#: plugins/diff/diff.glade2.h:6
+#, fuzzy
+msgid "From a _file on disk"
+msgstr "lastar fil"
+
+#: plugins/diff/diff.glade2.h:7
+#, fuzzy
+msgid "From a file o_n disk"
+msgstr "lastar fil"
+
+#: plugins/diff/diff.glade2.h:8
+msgid "Ignore _blanks (-b option)"
+msgstr ""
+
+#: plugins/diff/diff.glade2.h:9
+msgid "Note that this option is only supported by GNU diff"
+msgstr ""
+
+#: plugins/diff/diff.glade2.h:10
+#, fuzzy
+msgid "Second"
+msgstr "Sekund"
+
+#: plugins/diff/diff.glade2.h:11
+msgid "Use the _unified output format (-u option)"
+msgstr ""
+
+#: plugins/diff/diff.glade2.h:12 plugins/time/time.glade2.h:3
+#: src/dialogs/pluma-preferences.glade2.h:70 src/dialogs/goto-line.glade2.h:3
+#: src/dialogs/program-location-dialog.glade2.h:3 src/dialogs/uri.glade2.h:3
+msgid "gtk-cancel"
+msgstr ""
+
+#: plugins/diff/diff.glade2.h:13 plugins/shell_output/shell_output.glade2.h:6
+#: plugins/time/time.glade2.h:4 src/dialogs/pluma-preferences.glade2.h:71
+#: src/dialogs/uri.glade2.h:4
+msgid "gtk-help"
+msgstr ""
+
+#: plugins/diff/diff.glade2.h:14 plugins/shell_output/shell_output.glade2.h:7
+#: plugins/time/time.glade2.h:5 src/dialogs/pluma-preferences.glade2.h:72
+#: src/dialogs/goto-line.glade2.h:4
+#: src/dialogs/program-location-dialog.glade2.h:4
+msgid "gtk-ok"
+msgstr ""
+
+#: plugins/docinfo/docinfo.c:46
+msgid "_Word Count"
+msgstr ""
+
+#: plugins/docinfo/docinfo.c:49
+#, fuzzy
+msgid "Get info on current document"
+msgstr "Skriv ut dokumentet"
+
+#: plugins/docinfo/docinfo.c:145 plugins/docinfo/docinfo.c:365
+msgid "Word count"
+msgstr ""
+
+#: plugins/docinfo/docinfo.c:156
+#, fuzzy
+msgid "_Update"
+msgstr "Lim inn"
+
+#: plugins/docinfo/docinfo.c:366
+msgid ""
+"The word count plugin analyzes the current document and determines the "
+"number of words, lines, characters and non-space characters in it and "
+"display the result."
+msgstr ""
+
+#: plugins/docinfo/docinfo.c:370 plugins/sample/sample.c:151
+#: plugins/shell_output/shell_output.c:424
+#: plugins/taglist/pluma-taglist-plugin.c:144 plugins/time/time.c:540
+msgid "Copyright (C) 2002 - Paolo Maggi"
+msgstr ""
+
+#: plugins/docinfo/docinfo.glade2.h:1
+msgid "0"
+msgstr ""
+
+#: plugins/docinfo/docinfo.glade2.h:2
+msgid "Bytes"
+msgstr ""
+
+#: plugins/docinfo/docinfo.glade2.h:3
+msgid "Characters (no spaces)"
+msgstr ""
+
+#: plugins/docinfo/docinfo.glade2.h:4
+msgid "Characters (with spaces)"
+msgstr ""
+
+#: plugins/docinfo/docinfo.glade2.h:5
+#, fuzzy
+msgid "File Name"
+msgstr "Filnamn:"
+
+#: plugins/docinfo/docinfo.glade2.h:6 src/pluma-print.c:282
+#, fuzzy
+msgid "Lines"
+msgstr "minutt"
+
+#: plugins/docinfo/docinfo.glade2.h:7
+#, fuzzy
+msgid "Update"
+msgstr "Lim inn"
+
+#: plugins/docinfo/docinfo.glade2.h:8
+msgid "Words"
+msgstr ""
+
+#: plugins/docinfo/docinfo.glade2.h:9
+#, fuzzy
+msgid "pluma: Document Info plugin"
+msgstr "KDVI-tilleggsmodulen"
+
+#: plugins/docinfo/docinfo.glade2.h:10
+#: plugins/shell_output/shell_output.glade2.h:5 src/dialogs/replace.glade2.h:9
+msgid "gtk-close"
+msgstr ""
+
+#: plugins/sample/sample.c:41
+#, fuzzy
+msgid "Insert User _Name"
+msgstr "Set inn fil"
+
+#: plugins/sample/sample.c:44
+#, fuzzy
+msgid "Insert the user name at the cursor position"
+msgstr "Snur om på merkinga"
+
+#: plugins/sample/sample.c:148
+#, fuzzy
+msgid "User name"
+msgstr "Filnamn:"
+
+#: plugins/sample/sample.c:149
+#, fuzzy
+msgid "Inserts the user name at the cursor position."
+msgstr "Snur om på merkinga"
+
+#: plugins/shell_output/shell_output.c:44
+#, fuzzy
+msgid "Insert Shell _Output"
+msgstr "Søker etter valt tekst i hjelpetekstane"
+
+#: plugins/shell_output/shell_output.c:47
+#, fuzzy
+msgid "Insert the shell output in the current document"
+msgstr "Søker etter valt tekst i hjelpetekstane"
+
+#: plugins/shell_output/shell_output.c:151
+#: plugins/shell_output/shell_output.c:420
+#, fuzzy
+msgid "Shell output"
+msgstr "Meldingar frå skalet"
+
+#: plugins/shell_output/shell_output.c:164
+msgid "_Run"
+msgstr ""
+
+#: plugins/shell_output/shell_output.c:252
+msgid ""
+"The shell command entry is empty.\n"
+"\n"
+"Please, insert a valid shell command."
+msgstr ""
+
+#: plugins/shell_output/shell_output.c:281
+msgid ""
+"Error parsing the shell command.\n"
+"\n"
+"Please, insert a valid shell command."
+msgstr ""
+
+#: plugins/shell_output/shell_output.c:334
+#, fuzzy
+msgid "An error occurs while running the selected command."
+msgstr "Feil ved opning av fil."
+
+#: plugins/shell_output/shell_output.c:421
+#, fuzzy
+msgid ""
+"Execute a program and insert its output in the current document at the "
+"current cursor position"
+msgstr "Snur om på merkinga"
+
+#: plugins/shell_output/shell_output.glade2.h:1
+#, fuzzy
+msgid "Specify the working directory and the command you want to run."
+msgstr "Endra arbeidskatalogen til konsole til 'kat'"
+
+#: plugins/shell_output/shell_output.glade2.h:2
+#, fuzzy
+msgid "_Shell command:"
+msgstr "Skal-kommando"
+
+#: plugins/shell_output/shell_output.glade2.h:3
+#, fuzzy
+msgid "_Working directory:"
+msgstr "Arbeidskatalog:"
+
+#: plugins/shell_output/shell_output.glade2.h:4
+#, fuzzy
+msgid "pluma: Shell Output plugin"
+msgstr "Meldingar frå skalet"
+
+#: plugins/taglist/pluma-taglist-plugin.c:44
+msgid "Tag _List"
+msgstr ""
+
+#: plugins/taglist/pluma-taglist-plugin.c:47
+msgid "Show the tag list window"
+msgstr ""
+
+#: plugins/taglist/pluma-taglist-plugin.c:140
+msgid "Tag list"
+msgstr ""
+
+#: plugins/taglist/pluma-taglist-plugin.c:141
+msgid ""
+"The tag list plugin provides a method to easily insert into a document "
+"commonly used tabs/strings without having to type them."
+msgstr ""
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:116
+#, fuzzy
+msgid "Tag list plugin"
+msgstr "KDVI-tilleggsmodulen"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:134
+msgid "Select the group of tab you want to use."
+msgstr ""
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:158
+#, fuzzy
+msgid "Double-click on a tag to insert it in the current document."
+msgstr "Søker etter valt tekst i hjelpetekstane"
+
+#: plugins/taglist/pluma-taglist-plugin-window.c:169
+msgid "Tags"
+msgstr ""
+
+#: plugins/time/time.c:44
+#, fuzzy
+msgid "_Insert Date/Time"
+msgstr "Set inn fil"
+
+#: plugins/time/time.c:47
+#, fuzzy
+msgid "Insert current date and time at the cursor position"
+msgstr "Snur om på merkinga"
+
+#: plugins/time/time.c:256
+msgid "Available formats"
+msgstr ""
+
+#: plugins/time/time.c:297 plugins/time/time.glade2.h:1
+msgid "Configure insert date/time plugin"
+msgstr ""
+
+#: plugins/time/time.c:537
+#, fuzzy
+msgid "Insert Date/Time"
+msgstr "Set inn fil"
+
+#: plugins/time/time.c:538
+#, fuzzy
+msgid "Inserts current date and time at the cursor position."
+msgstr "Snur om på merkinga"
+
+#: plugins/time/time.glade2.h:2
+msgid "Select the format to use when inserting date/time."
+msgstr ""
+
+#: src/bonobo-mdi.c:525 src/bonobo-mdi.c:601 src/bonobo-mdi.c:1997
+#, fuzzy, c-format
+msgid "Activate %s"
+msgstr "Aktiver"
+
+#: src/dialogs/pluma-dialog-goto-line.c:114
+#, fuzzy
+msgid "Goto line..."
+msgstr "&Gå til linje ..."
+
+#. Add Goto Line button
+#: src/dialogs/pluma-dialog-goto-line.c:124
+#, fuzzy
+msgid "_Goto line"
+msgstr "Gå til linje"
+
+#: src/dialogs/pluma-dialog-goto-line.c:140
+msgid "Could not find the required widgets inside goto-line.glade2.\n"
+msgstr ""
+
+#: src/dialogs/pluma-dialog-plugin-manager.c:47
+#, fuzzy
+msgid "Plugin"
+msgstr "Tilleggsmodular"
+
+#: src/dialogs/pluma-dialog-plugin-manager.c:48
+msgid "Load"
+msgstr ""
+
+#: src/dialogs/pluma-dialog-plugin-manager.c:314
+#, fuzzy
+msgid "Module file name"
+msgstr "filnamn"
+
+#: src/dialogs/pluma-dialog-plugin-manager.c:315
+#, fuzzy
+msgid "Author(s)"
+msgstr "Forfattarar:"
+
+#: src/dialogs/pluma-dialog-plugin-manager.c:446
+msgid "Could not find plugin-manager.glade2, reinstall pluma.\n"
+msgstr ""
+
+#: src/dialogs/pluma-dialog-plugin-manager.c:454
+#, fuzzy
+msgid "Plugin Manager"
+msgstr "&Plugin-handsamar ..."
+
+#: src/dialogs/pluma-dialog-plugin-manager.c:481
+msgid "Invalid glade file for plugin manager -- not all widgets found.\n"
+msgstr ""
+
+#: src/dialogs/pluma-dialog-plugin-manager.c:571
+msgid "Could not create the Plugin Manager dialog"
+msgstr ""
+
+#: src/dialogs/pluma-dialog-replace.c:167 src/dialogs/replace.glade2.h:3
+#: src/pluma-ui.xml.h:56
+#, fuzzy
+msgid "Replace"
+msgstr "Byt ut"
+
+#: src/dialogs/pluma-dialog-replace.c:178
+#, fuzzy
+msgid "Replace _All"
+msgstr "E&rstatt alle"
+
+#. Add Replace button
+#: src/dialogs/pluma-dialog-replace.c:181 src/pluma-file-selector-util.c:109
+#: src/pluma-ui.xml.h:105
+#, fuzzy
+msgid "_Replace"
+msgstr "Byt ut"
+
+#: src/dialogs/pluma-dialog-replace.c:270 src/pluma-ui.xml.h:26
+msgid "Find"
+msgstr "Finn"
+
+#: src/dialogs/pluma-dialog-replace.c:469
+#: src/dialogs/pluma-dialog-replace.c:540
+#: src/dialogs/pluma-dialog-replace.c:695
+#, fuzzy, c-format
+msgid "The text \"%s\" was not found."
+msgstr "Fann ikkje stilen %1\n"
+
+#: src/dialogs/pluma-dialog-replace.c:704
+#, fuzzy, c-format
+msgid "Found and replaced %d occurences."
+msgstr "Byt ut denne førekomsten?"
+
+#: src/dialogs/pluma-plugin-program-location-dialog.c:73
+#, fuzzy
+msgid "Set program location ..."
+msgstr "Programplasseringar"
+
+#: src/dialogs/pluma-plugin-program-location-dialog.c:95
+msgid ""
+"Could not find the required widgets inside program-location-dialog.glade2.\n"
+msgstr ""
+
+#: src/dialogs/pluma-plugin-program-location-dialog.c:101
+#, c-format
+msgid ""
+"The %s plugin uses an external program, called <tt>%s</tt>, to perform its "
+"task.\n"
+"\n"
+"Please, specify the location of the <tt>%s</tt> program."
+msgstr ""
+
+#: src/dialogs/pluma-plugin-program-location-dialog.c:145
+msgid "The selected file is not executable."
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:202
+msgid "Toolbar"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:203
+#: src/dialogs/pluma-preferences.glade2.h:34
+#, fuzzy
+msgid "Status bar"
+msgstr "Vis tabell"
+
+#: src/dialogs/pluma-preferences-dialog.c:206
+#: src/dialogs/pluma-preferences.glade2.h:14
+msgid "MDI"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:215
+#, fuzzy
+msgid "Font & Colors"
+msgstr "Fargar"
+
+#: src/dialogs/pluma-preferences-dialog.c:217
+#: src/dialogs/pluma-preferences.glade2.h:35
+msgid "Tabs"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:218
+#: src/dialogs/pluma-preferences.glade2.h:57
+msgid "Wrap mode"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:219
+#: src/dialogs/pluma-preferences.glade2.h:13
+#, fuzzy
+msgid "Line numbers"
+msgstr "Lenkjenummer :"
+
+#: src/dialogs/pluma-preferences-dialog.c:221
+#: src/dialogs/pluma-preferences.glade2.h:27 src/pluma-ui.xml.h:61
+msgid "Save"
+msgstr "Lagra"
+
+#: src/dialogs/pluma-preferences-dialog.c:222
+#: src/dialogs/pluma-preferences.glade2.h:52 src/pluma-ui.xml.h:81
+msgid "Undo"
+msgstr "Angra"
+
+#: src/dialogs/pluma-preferences-dialog.c:230
+#, fuzzy
+msgid "Page"
+msgstr "Sider"
+
+#: src/dialogs/pluma-preferences-dialog.c:237
+#, fuzzy
+msgid "Editor"
+msgstr "Avslutt"
+
+#: src/dialogs/pluma-preferences-dialog.c:238
+#: src/dialogs/pluma-preferences.glade2.h:22 src/pluma-ui.xml.h:45
+msgid "Print"
+msgstr "Skriv ut"
+
+#: src/dialogs/pluma-preferences-dialog.c:240
+msgid "User interface"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:307
+msgid "Cat_egories:"
+msgstr ""
+
+#: src/dialogs/pluma-preferences-dialog.c:331 src/pluma-ui.xml.h:44
+msgid "Preferences"
+msgstr "Oppsett"
+
+#: src/dialogs/pluma-preferences-dialog.c:498
+msgid "Categories"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:1
+msgid " _Wrap lines (at character boundaries)"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:2
+msgid " character(s)"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:3
+msgid "Always use _UTF-8 encoding (faster)"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:4
+msgid "Bottom"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:5
+msgid "Button style"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:6
+msgid "Colors"
+msgstr "Fargar"
+
+#: src/dialogs/pluma-preferences.glade2.h:7
+#, fuzzy
+msgid "Create a _backup copy of files before saving"
+msgstr "kunne ikkje laga aktiv fil"
+
+#: src/dialogs/pluma-preferences.glade2.h:8
+#, fuzzy
+msgid "Font"
+msgstr "Skrifttypar"
+
+#: src/dialogs/pluma-preferences.glade2.h:9
+#, fuzzy
+msgid "Fonts & Colors"
+msgstr "Fargar"
+
+#: src/dialogs/pluma-preferences.glade2.h:10
+msgid "Icon and _text"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:11
+msgid "LOGO"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:12
+msgid "Left"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:15
+msgid "Modal"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:16
+msgid "Notebook"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:17
+#, fuzzy
+msgid "Notebook _tab position:"
+msgstr "Posisjon for verktøy&linje:"
+
+#: src/dialogs/pluma-preferences.glade2.h:18
+#, fuzzy
+msgid "Pick the background color"
+msgstr "Pikkolofløyte"
+
+#: src/dialogs/pluma-preferences.glade2.h:19
+#, fuzzy
+msgid "Pick the selected text color"
+msgstr "Klipper ut utval ..."
+
+#: src/dialogs/pluma-preferences.glade2.h:20
+#, fuzzy
+msgid "Pick the selection color"
+msgstr "Klipper ut utval ..."
+
+#: src/dialogs/pluma-preferences.glade2.h:21
+#, fuzzy
+msgid "Pick the text color"
+msgstr "Pikkolofløyte"
+
+#: src/dialogs/pluma-preferences.glade2.h:23
+#, fuzzy
+msgid "Print _line numbers every"
+msgstr "Sorteringstal:"
+
+#: src/dialogs/pluma-preferences.glade2.h:24
+msgid "Print _page headers"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:25
+msgid "Right"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:26
+msgid "S_elected text color:"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:28
+msgid "Se_lection color:"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:29
+msgid "Set _tabs width equivalent to  "
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:30
+msgid "Set limit on _undo levels to"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:31
+#, fuzzy
+msgid "Sho_w tooltips"
+msgstr "Til:"
+
+#: src/dialogs/pluma-preferences.glade2.h:32
+#, fuzzy
+msgid "Show cursor _position"
+msgstr "Frå &skrivemerket"
+
+#: src/dialogs/pluma-preferences.glade2.h:33
+msgid "Show overwrite _mode"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:36
+msgid ""
+"The Font & Colors settings let you choose the font and the colors to be used "
+"in the editor windows."
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:37
+msgid ""
+"The MDI (Multiple Document Interface) mode refers to the way more than one "
+"text document is displayed in pluma. \n"
+"If you choose the Notebook mode, you may then decide where you want the tabs "
+"to appear in the pluma window."
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:39
+msgid ""
+"The line numbers setting lets you choose to display the line numbers on the "
+"left hand side of the window."
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:40
+msgid "The print settings let you customize how pluma prints documents."
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:41
+msgid "The save settings let you customize how pluma saves files."
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:42
+msgid ""
+"The status bar settings let you show or hide status bar and customize its "
+"appearance."
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:43
+msgid "The tabs settings let you customize the tabs width."
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:44
+msgid ""
+"The toolbar settings let you show or hide toolbar and customize its "
+"appearance."
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:45
+msgid ""
+"The undo settings let you set the maximum number of actions that pluma can "
+"undo."
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:46
+msgid "The wrap mode settings let you customize how lines have to be wrapped."
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:47
+#, fuzzy
+msgid "Toolbars"
+msgstr "Til:"
+
+#: src/dialogs/pluma-preferences.glade2.h:48
+#, fuzzy
+msgid "Top"
+msgstr "Til:"
+
+#: src/dialogs/pluma-preferences.glade2.h:49
+msgid "Toplevel"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:50
+msgid "U_se current locale only if the file already use it"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:51
+msgid "U_se default theme colors"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:53
+msgid "Use current _locale when possible"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:54
+#, fuzzy
+msgid "When saving..."
+msgstr "Endra ..."
+
+#: src/dialogs/pluma-preferences.glade2.h:55
+msgid "Wrap lines at _word boundaries"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:56
+msgid "Wrap lines at ch_aracter boundaries"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:58
+msgid "_According to system settings"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:59
+#, fuzzy
+msgid "_Auto save current file every"
+msgstr "Døyp om denne profilen"
+
+#: src/dialogs/pluma-preferences.glade2.h:60
+#, fuzzy
+msgid "_Background color:"
+msgstr "Bakgrunn:"
+
+#: src/dialogs/pluma-preferences.glade2.h:61
+#, fuzzy
+msgid "_Display line numbers"
+msgstr "Lenkjenummer :"
+
+#: src/dialogs/pluma-preferences.glade2.h:62
+msgid "_Font used by the editor: "
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:63 src/pluma-ui.xml.h:96
+msgid "_Icon"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:64
+#, fuzzy
+msgid "_MDI Mode:"
+msgstr "Modus:"
+
+#: src/dialogs/pluma-preferences.glade2.h:65
+msgid "_Never wrap lines"
+msgstr ""
+
+#: src/dialogs/pluma-preferences.glade2.h:66
+#, fuzzy
+msgid "_Show status bar"
+msgstr "Vis tabell"
+
+#: src/dialogs/pluma-preferences.glade2.h:67
+#, fuzzy
+msgid "_Show toolbar"
+msgstr "Til:"
+
+#: src/dialogs/pluma-preferences.glade2.h:68
+#, fuzzy
+msgid "_Text color:"
+msgstr "Avslutt"
+
+#: src/dialogs/pluma-preferences.glade2.h:69
+#, fuzzy
+msgid "_Use default theme font"
+msgstr "Standard skrifttype"
+
+#: src/dialogs/pluma-preferences.glade2.h:73
+#, fuzzy
+msgid "level(s)"
+msgstr "Nivå"
+
+#: src/dialogs/pluma-preferences.glade2.h:74
+#, fuzzy
+msgid "line(s)"
+msgstr "minutt"
+
+#: src/dialogs/pluma-preferences.glade2.h:75
+#, fuzzy
+msgid "minutes"
+msgstr "minutt"
+
+#: src/dialogs/goto-line.glade2.h:1
+#, fuzzy
+msgid "Goto Line"
+msgstr "Gå til linje"
+
+#: src/dialogs/goto-line.glade2.h:2
+#, fuzzy
+msgid "_Line number:"
+msgstr "Lenkjenummer :"
+
+#: src/dialogs/plugin-manager.glade2.h:1
+#, fuzzy
+msgid "C_onfigure plugin"
+msgstr "Klipper ut utval ..."
+
+#: src/dialogs/plugin-manager.glade2.h:2
+#, fuzzy
+msgid "Configure the selected plugin"
+msgstr "Klipper ut utval ..."
+
+#: src/dialogs/plugin-manager.glade2.h:3
+#, fuzzy
+msgid "D_etails"
+msgstr "Detaljar"
+
+#: src/dialogs/plugin-manager.glade2.h:4
+msgid ""
+"This is the Plugin Manager. Plugins are extra pieces of software that extend "
+"pluma capabilities. From here, you can choose which plugins you want to have "
+"loaded."
+msgstr ""
+
+#: src/dialogs/plugin-manager.glade2.h:5
+#, fuzzy
+msgid "_Description"
+msgstr "Skildring"
+
+#: src/dialogs/plugin-manager.glade2.h:6
+msgid "dialog1"
+msgstr ""
+
+#: src/dialogs/program-location-dialog.glade2.h:1
+#, fuzzy
+msgid "Set program location..."
+msgstr "Programplasseringar"
+
+#: src/dialogs/program-location-dialog.glade2.h:2
+#, fuzzy
+msgid "_Location to search for:"
+msgstr "Opna adresse."
+
+#: src/dialogs/program-location-dialog.glade2.h:5
+#, fuzzy
+msgid "label"
+msgstr "Tittel"
+
+#: src/dialogs/replace.glade2.h:1
+#, fuzzy
+msgid "Case sensi_tive"
+msgstr "Skil mellom små og store bokstavar"
+
+#: src/dialogs/replace.glade2.h:2
+#, fuzzy
+msgid "Find Next"
+msgstr "Finn neste"
+
+#: src/dialogs/replace.glade2.h:4
+#, fuzzy
+msgid "Replace All"
+msgstr "E&rstatt alle"
+
+#: src/dialogs/replace.glade2.h:5
+#, fuzzy
+msgid "Replace _with: "
+msgstr "Byt ut med:"
+
+#: src/dialogs/replace.glade2.h:6
+#, fuzzy
+msgid "Search fro_m the beginning of the document"
+msgstr "Søker etter valt tekst i hjelpetekstane"
+
+#: src/dialogs/replace.glade2.h:7
+#, fuzzy
+msgid "Search from the c_ursor position"
+msgstr "Snur om på merkinga"
+
+#: src/dialogs/replace.glade2.h:8
+#, fuzzy
+msgid "_Search for: "
+msgstr "Søk etter: "
+
+#: src/dialogs/uri.glade2.h:1
+msgid "Enter the location (URI) of the file you would like to open:"
+msgstr ""
+
+#: src/dialogs/uri.glade2.h:2
+#, fuzzy
+msgid "Open from URI"
+msgstr "Opna URL"
+
+#: src/dialogs/uri.glade2.h:5
+msgid "gtk-open"
+msgstr ""
+
+#: src/pluma2.c:68
+#, fuzzy
+msgid "Show mdi debugging messages."
+msgstr "Signer melding"
+
+#: src/pluma2.c:71
+#, fuzzy
+msgid "Show commands debugging messages."
+msgstr "Sen&d ventande meldingar"
+
+#: src/pluma2.c:74
+#, fuzzy
+msgid "Show document debugging messages."
+msgstr "Signer melding"
+
+#: src/pluma2.c:77
+#, fuzzy
+msgid "Show file debugging messages."
+msgstr "Signer melding"
+
+#: src/pluma2.c:80
+#, fuzzy
+msgid "Show plugin debugging messages."
+msgstr "Sen&d ventande meldingar"
+
+#: src/pluma2.c:83
+#, fuzzy
+msgid "Show prefs debugging messages."
+msgstr "Sen&d ventande meldingar"
+
+#: src/pluma2.c:86
+#, fuzzy
+msgid "Show printing debugging messages."
+msgstr "Sen&d ventande meldingar"
+
+#: src/pluma2.c:89
+#, fuzzy
+msgid "Show search debugging messages."
+msgstr "Søk i &meldingar ..."
+
+#: src/pluma2.c:92
+#, fuzzy
+msgid "Show undo debugging messages."
+msgstr "Sen&d ventande meldingar"
+
+#: src/pluma2.c:95
+#, fuzzy
+msgid "Show view debugging messages."
+msgstr "Signer melding"
+
+#: src/pluma2.c:98
+#, fuzzy
+msgid "Show recent debugging messages."
+msgstr "Lag ny adresse"
+
+#: src/pluma2.c:101
+#, fuzzy
+msgid "Turn on all debugging messages."
+msgstr "Signer melding"
+
+#: src/pluma2.c:159
+msgid "The GNOME text editor"
+msgstr ""
+
+#: src/pluma-commands.c:56
+msgid "Not yet implemented."
+msgstr ""
+
+#: src/pluma-commands.c:339
+#, fuzzy, c-format
+msgid "The string \"%s\" has not been found."
+msgstr "Fann ikkje søketekst."
+
+#: src/pluma-commands.c:419
+msgid "Impossible to update pluma settings."
+msgstr ""
+
+#: src/pluma-commands.c:508
+msgid "pluma"
+msgstr ""
+
+#: src/pluma-commands.c:511
+msgid "pluma is a small and lightweight text editor for Gnome"
+msgstr ""
+
+#: src/pluma-document.c:521 src/pluma-document.c:532
+#, fuzzy, c-format
+msgid "%s %d"
+msgstr "%1 %2"
+
+#: src/pluma-document.c:521 src/pluma-document.c:532
+msgid "Untitled"
+msgstr "Utan tittel"
+
+#: src/pluma-document.c:648 src/pluma-document.c:754
+msgid "Invalid UTF-8 data"
+msgstr ""
+
+#: src/pluma-document.c:948
+#, c-format
+msgid "pluma cannot handle %s: locations in write mode."
+msgstr ""
+
+#: src/pluma-document.c:955
+msgid "pluma cannot handle this kind of location in write mode."
+msgstr ""
+
+#: src/pluma-document.c:972
+#, fuzzy
+msgid "Could not create the backup copy of the file."
+msgstr "kunne ikkje laga aktiv fil"
+
+#: src/pluma-document.c:991
+#, fuzzy
+msgid ""
+"Make sure that the path you provided exists, and that you have the "
+"appropriate write permissions."
+msgstr ""
+"Får ikkje tilgang til %1.\n"
+"Sjekk at eininga finst og at du har\n"
+"skrivetilgang til ho."
+
+#: src/pluma-document.c:1029
+msgid ""
+"There is no enough disk space to save the file.\n"
+"Please, free some space on the disk and try again."
+msgstr ""
+
+#: src/pluma-document.c:1034
+msgid "The file is too big."
+msgstr ""
+
+#: src/pluma-document.c:1184
+#, fuzzy
+msgid "It is not possible to revert an Untitled document"
+msgstr "Kunne ikkje laga nytt dokument"
+
+#: src/pluma-file.c:121
+#, fuzzy
+msgid "Open File ..."
+msgstr "Opna fil ..."
+
+#: src/pluma-file.c:131 src/pluma-file.c:638
+#, fuzzy, c-format
+msgid "Loaded file '%s'"
+msgstr "lastar fil"
+
+#: src/pluma-file.c:241 src/pluma-file.c:315
+#, fuzzy, c-format
+msgid "Saving file '%s' ..."
+msgstr "Lagra &som ..."
+
+#: src/pluma-file.c:262 src/pluma-file.c:322
+#, fuzzy
+msgid "The document has not been saved."
+msgstr "Opna dokument."
+
+#: src/pluma-file.c:275 src/pluma-file.c:320
+#, c-format
+msgid "File '%s' saved."
+msgstr ""
+
+#: src/pluma-file.c:307
+#, fuzzy
+msgid "Save as ..."
+msgstr "Lagra &som ..."
+
+#: src/pluma-file.c:473
+#, c-format
+msgid "Reverting file '%s' ..."
+msgstr ""
+
+#: src/pluma-file.c:486
+#, fuzzy
+msgid "The document has not been reverted."
+msgstr "Opna dokument."
+
+#: src/pluma-file.c:496
+#, c-format
+msgid "File '%s' reverted."
+msgstr ""
+
+#: src/pluma-file.c:539
+#, fuzzy, c-format
+msgid "Loading %d file..."
+msgstr "lastar fil"
+
+#: src/pluma-file.c:575
+#, fuzzy, c-format
+msgid "Loaded %i files"
+msgstr "lastar fil"
+
+#: src/pluma-file.c:692
+#, fuzzy
+msgid "Could not read data from stdin."
+msgstr "Feil ved opning av fil."
+
+#: src/pluma-file-selector-util.c:97
+#, c-format
+msgid ""
+"A file named ''%s'' already exists.\n"
+"Do you want to replace it with the one you are saving?"
+msgstr ""
+
+#: src/pluma-file-selector-util.c:105
+#, fuzzy
+msgid "Do_n't replace"
+msgstr "Byt ut"
+
+#: src/pluma-file-selector-util.c:459
+#, fuzzy
+msgid "Select a filename to save"
+msgstr "Vel det ikontemaet du vil bruka:"
+
+#: src/pluma-mdi.c:766
+#, c-format
+msgid ""
+"Do you want to save the changes you made to the document \"%s\"? \n"
+"\n"
+"Your changes will be lost if you don't save them."
+msgstr ""
+
+#: src/pluma-mdi.c:771
+msgid "Do_n't save"
+msgstr ""
+
+#: src/pluma-mdi.c:790
+msgid "_Don't quit"
+msgstr ""
+
+#: src/pluma-mdi.c:794
+msgid "_Don't close"
+msgstr ""
+
+#: src/pluma-mdi.c:881
+#, fuzzy
+msgid "(modified)"
+msgstr "endra"
+
+#: src/pluma-mdi.c:887
+#, fuzzy
+msgid "(readonly)"
+msgstr "berre lesing"
+
+#: src/pluma-plugins-engine.c:159
+#, fuzzy, c-format
+msgid "Error, unable to open module file '%s'\n"
+msgstr "Feil: Kan ikkje opna oppsett-fila 'smb.conf'"
+
+#: src/pluma-plugins-engine.c:174
+#, c-format
+msgid "Error, plugin '%s' does not contain init function."
+msgstr ""
+
+#: src/pluma-plugins-engine.c:184
+#, c-format
+msgid "Error, plugin '%s' does not contain activate function."
+msgstr ""
+
+#: src/pluma-plugins-engine.c:194
+#, c-format
+msgid "Error, plugin '%s' does not contain deactivate function."
+msgstr ""
+
+#: src/pluma-plugins-engine.c:224
+#, c-format
+msgid "Error, impossible to initialize plugin '%s'"
+msgstr ""
+
+#: src/pluma-plugins-engine.c:232
+#, c-format
+msgid "Error, the plugin '%s' did not specified a name"
+msgstr ""
+
+#: src/pluma-plugins-engine.c:312
+#, c-format
+msgid "Error, impossible to save settings of the plugin '%s'"
+msgstr ""
+
+#: src/pluma-plugins-engine.c:384 src/pluma-plugins-engine.c:442
+#, c-format
+msgid "Error, impossible to activate plugin '%s'"
+msgstr ""
+
+#: src/pluma-plugins-engine.c:411
+#, c-format
+msgid "Error, impossible to deactivate plugin '%s'"
+msgstr ""
+
+#: src/pluma-plugins-engine.c:483
+#, c-format
+msgid "Error, impossible to update ui of the plugin '%s'"
+msgstr ""
+
+#: src/pluma-print.c:166
+msgid ""
+"pluma is unable to print since it cannot find\n"
+"one of the required fonts."
+msgstr ""
+
+#: src/pluma-print.c:273
+#, fuzzy
+msgid "pluma - Print Document"
+msgstr "Skriv ut dokument"
+
+#: src/pluma-print.c:338
+#, fuzzy, c-format
+msgid "File: %s"
+msgstr "Fil"
+
+#. Print right text
+#: src/pluma-print.c:343
+#, fuzzy, c-format
+msgid "Page: %d"
+msgstr "Side %1"
+
+#: src/pluma-print.c:476
+#, fuzzy
+msgid "pluma - Print Preview"
+msgstr "Førehandsvising av utskrift"
+
+#: src/pluma-print.c:552
+#, fuzzy, c-format
+msgid ""
+"An error occurred while printing.\n"
+"\n"
+"%s,"
+msgstr "Feil ved opning av fil."
+
+#: src/pluma-recent.c:486
+#, fuzzy, c-format
+msgid "Open %s"
+msgstr "Opna ei fil"
+
+#: src/pluma-ui.xml.h:1
+#, fuzzy
+msgid "About this application"
+msgstr "Klipper ut utval ..."
+
+#: src/pluma-ui.xml.h:2
+msgid "About..."
+msgstr ""
+
+#: src/pluma-ui.xml.h:3
+msgid "Add/Remove plugins"
+msgstr ""
+
+#: src/pluma-ui.xml.h:4
+msgid "C_ustomize Status Bar"
+msgstr ""
+
+#: src/pluma-ui.xml.h:5
+msgid "Change the visibility of the status bar in the current window"
+msgstr ""
+
+#: src/pluma-ui.xml.h:6
+msgid "Change the visibility of the toolbar in the current window"
+msgstr ""
+
+#: src/pluma-ui.xml.h:7
+#, fuzzy
+msgid "Clos_e All"
+msgstr "Lukk alle"
+
+#: src/pluma-ui.xml.h:8
+msgid "Close"
+msgstr "Lukk"
+
+#: src/pluma-ui.xml.h:9
+#, fuzzy
+msgid "Close All"
+msgstr "Lukk alle"
+
+#: src/pluma-ui.xml.h:10
+#, fuzzy
+msgid "Close all open files"
+msgstr "Lukkar alle filer"
+
+#: src/pluma-ui.xml.h:11
+#, fuzzy
+msgid "Close the current file"
+msgstr "Lukkar prosjektet"
+
+#: src/pluma-ui.xml.h:12
+#, fuzzy
+msgid "Configure the application"
+msgstr "Klipper ut utval ..."
+
+#: src/pluma-ui.xml.h:13
+#, fuzzy
+msgid "Contents"
+msgstr "Konverterar"
+
+#: src/pluma-ui.xml.h:14
+msgid "Copy"
+msgstr "Kopier"
+
+#: src/pluma-ui.xml.h:15
+#, fuzzy
+msgid "Copy the selection"
+msgstr "Kopier utval"
+
+#: src/pluma-ui.xml.h:16
+#, fuzzy
+msgid "Create a new document"
+msgstr "Lagar eit nytt dokument"
+
+#: src/pluma-ui.xml.h:17
+#, fuzzy
+msgid "Cu_t"
+msgstr "Klipp ut"
+
+#: src/pluma-ui.xml.h:18
+msgid "Customize"
+msgstr ""
+
+#: src/pluma-ui.xml.h:19
+msgid "Customize toolbars"
+msgstr ""
+
+#: src/pluma-ui.xml.h:20
+msgid "Cut"
+msgstr "Klipp ut"
+
+#: src/pluma-ui.xml.h:21
+#, fuzzy
+msgid "Cut the selection"
+msgstr "Klipper ut utval ..."
+
+#: src/pluma-ui.xml.h:22
+#, fuzzy
+msgid "Delete the selected text"
+msgstr "Klipper ut utval ..."
+
+#: src/pluma-ui.xml.h:23
+msgid "Deleted"
+msgstr ""
+
+#: src/pluma-ui.xml.h:24
+msgid "Dump XML"
+msgstr ""
+
+#: src/pluma-ui.xml.h:25
+msgid "Dump the UI Xml description"
+msgstr ""
+
+#: src/pluma-ui.xml.h:27
+msgid "Find Again"
+msgstr ""
+
+#: src/pluma-ui.xml.h:28
+#, fuzzy
+msgid "Find Ne_xt"
+msgstr "Finn neste"
+
+#: src/pluma-ui.xml.h:29
+#, fuzzy
+msgid "Go to a specific line number"
+msgstr "Du må oppgi eit telefonnummer!"
+
+#: src/pluma-ui.xml.h:30
+#, fuzzy
+msgid "Goto _Line"
+msgstr "Gå til linje"
+
+#: src/pluma-ui.xml.h:31
+msgid "Icon and _Text"
+msgstr ""
+
+#: src/pluma-ui.xml.h:32
+msgid "Main toolbar"
+msgstr ""
+
+#: src/pluma-ui.xml.h:33
+msgid "New"
+msgstr "Ny"
+
+#: src/pluma-ui.xml.h:34
+msgid "Only show icons in the toolbar"
+msgstr ""
+
+#: src/pluma-ui.xml.h:35
+msgid "Open"
+msgstr "Opna"
+
+#: src/pluma-ui.xml.h:36
+#, fuzzy
+msgid "Open Location..."
+msgstr "Opna fil ..."
+
+#: src/pluma-ui.xml.h:37
+#, fuzzy
+msgid "Open _Location..."
+msgstr "Opna fil ..."
+
+#: src/pluma-ui.xml.h:38
+#, fuzzy
+msgid "Open a file"
+msgstr "Opna ei fil"
+
+#: src/pluma-ui.xml.h:39
+#, fuzzy
+msgid "Open a file from a specified location"
+msgstr "Inga fil oppgitt."
+
+#: src/pluma-ui.xml.h:40
+msgid "Open the pluma manual"
+msgstr ""
+
+#: src/pluma-ui.xml.h:41
+msgid "Paste"
+msgstr "Lim inn"
+
+#: src/pluma-ui.xml.h:42
+#, fuzzy
+msgid "Paste the clipboard"
+msgstr "Limer inn frå utklippstavla"
+
+#: src/pluma-ui.xml.h:43
+#, fuzzy
+msgid "Pr_eferences..."
+msgstr "Oppsett"
+
+#: src/pluma-ui.xml.h:46
+#, fuzzy
+msgid "Print Previe_w"
+msgstr "Førehandsvising av utskrift"
+
+#: src/pluma-ui.xml.h:47
+#, fuzzy
+msgid "Print Preview"
+msgstr "Førehandsvising av utskrift"
+
+#: src/pluma-ui.xml.h:48
+#, fuzzy
+msgid "Print Setup"
+msgstr "Skriv ut dokument"
+
+#: src/pluma-ui.xml.h:49
+msgid "Print preview"
+msgstr "Førehandsvising av utskrift"
+
+#: src/pluma-ui.xml.h:50
+#, fuzzy
+msgid "Print the current file"
+msgstr "Skriv ut prosjektet"
+
+#: src/pluma-ui.xml.h:51
+msgid "Quit"
+msgstr ""
+
+#: src/pluma-ui.xml.h:52
+#, fuzzy
+msgid "Quit the program"
+msgstr "Avsluttar programmet"
+
+#: src/pluma-ui.xml.h:53
+msgid "Recent _Files"
+msgstr ""
+
+#: src/pluma-ui.xml.h:54
+msgid "Redo"
+msgstr "Gjer om"
+
+#: src/pluma-ui.xml.h:55
+#, fuzzy
+msgid "Redo the undone action"
+msgstr "Repeter siste handling"
+
+#: src/pluma-ui.xml.h:57
+#, fuzzy
+msgid "Replace a string"
+msgstr "Søketekst"
+
+#: src/pluma-ui.xml.h:58
+#, fuzzy
+msgid "Revert"
+msgstr "Gå tilbake"
+
+#: src/pluma-ui.xml.h:59
+msgid "Revert to a saved version of the file"
+msgstr ""
+
+#: src/pluma-ui.xml.h:60
+#, fuzzy
+msgid "Sa_ve All"
+msgstr "Lagra alle"
+
+#: src/pluma-ui.xml.h:62
+#, fuzzy
+msgid "Save All"
+msgstr "Lagra alle"
+
+#: src/pluma-ui.xml.h:63
+#, fuzzy
+msgid "Save As"
+msgstr "Lagra &som ..."
+
+#: src/pluma-ui.xml.h:64
+#, fuzzy
+msgid "Save _As..."
+msgstr "Lagra &som ..."
+
+#: src/pluma-ui.xml.h:65
+#, fuzzy
+msgid "Save all open files"
+msgstr "Opne filer"
+
+#: src/pluma-ui.xml.h:66
+#, fuzzy
+msgid "Save the current file"
+msgstr "Døyp om denne profilen"
+
+#: src/pluma-ui.xml.h:67
+#, fuzzy
+msgid "Save the current file with a different name"
+msgstr "Døyp om denne profilen"
+
+#: src/pluma-ui.xml.h:68
+#, fuzzy
+msgid "Search again for the same string"
+msgstr "Søketekst"
+
+#: src/pluma-ui.xml.h:69
+#, fuzzy
+msgid "Search for a string"
+msgstr "Søketekst"
+
+#: src/pluma-ui.xml.h:70
+#, fuzzy
+msgid "Select All"
+msgstr "E&rstatt alle"
+
+#: src/pluma-ui.xml.h:71
+#, fuzzy
+msgid "Select _All"
+msgstr "E&rstatt alle"
+
+#: src/pluma-ui.xml.h:72
+#, fuzzy
+msgid "Select the entire document"
+msgstr "Skriv ut dokumentet"
+
+#: src/pluma-ui.xml.h:73
+msgid "Set toolbar button style according to desktop default"
+msgstr ""
+
+#: src/pluma-ui.xml.h:74
+msgid "Setup the page settings for your current printer"
+msgstr ""
+
+#: src/pluma-ui.xml.h:75
+#, fuzzy
+msgid "Show _Cursor Position"
+msgstr "Frå &skrivemerket"
+
+#: src/pluma-ui.xml.h:76
+msgid "Show _Overwrite Mode"
+msgstr ""
+
+#: src/pluma-ui.xml.h:77
+#, fuzzy
+msgid "Show _Tooltips"
+msgstr "Til:"
+
+#: src/pluma-ui.xml.h:78
+msgid "Show cursor position in the statusbar"
+msgstr ""
+
+#: src/pluma-ui.xml.h:79
+msgid "Show overwrite mode in the statusbar"
+msgstr ""
+
+#: src/pluma-ui.xml.h:80
+msgid "Show tooltips in the toolbar"
+msgstr ""
+
+#: src/pluma-ui.xml.h:82
+#, fuzzy
+msgid "Undo the last action"
+msgstr "Stille operasjon"
+
+#: src/pluma-ui.xml.h:83
+msgid "_About..."
+msgstr ""
+
+#: src/pluma-ui.xml.h:84
+#, fuzzy
+msgid "_Close"
+msgstr "Lukk"
+
+#: src/pluma-ui.xml.h:85
+#, fuzzy
+msgid "_Contents"
+msgstr "Dokument"
+
+#: src/pluma-ui.xml.h:86
+#, fuzzy
+msgid "_Copy"
+msgstr "Kopier"
+
+#: src/pluma-ui.xml.h:87
+msgid "_Customize Toolbar"
+msgstr ""
+
+#: src/pluma-ui.xml.h:88
+msgid "_Debug"
+msgstr ""
+
+#: src/pluma-ui.xml.h:89
+msgid "_Delete"
+msgstr ""
+
+#: src/pluma-ui.xml.h:90
+#, fuzzy
+msgid "_Desktop Default"
+msgstr "Standard skrifttype"
+
+#: src/pluma-ui.xml.h:91
+#, fuzzy
+msgid "_Documents"
+msgstr "Dokument"
+
+#: src/pluma-ui.xml.h:92
+#, fuzzy
+msgid "_Edit"
+msgstr "Avslutt"
+
+#: src/pluma-ui.xml.h:93
+#, fuzzy
+msgid "_File"
+msgstr "Fil"
+
+#: src/pluma-ui.xml.h:94
+#, fuzzy
+msgid "_Find"
+msgstr "Finn"
+
+#: src/pluma-ui.xml.h:95
+msgid "_Help"
+msgstr ""
+
+#: src/pluma-ui.xml.h:97
+#, fuzzy
+msgid "_New"
+msgstr "Ny"
+
+#: src/pluma-ui.xml.h:98
+#, fuzzy
+msgid "_Open..."
+msgstr "Opna"
+
+#: src/pluma-ui.xml.h:99
+#, fuzzy
+msgid "_Paste"
+msgstr "Lim inn"
+
+#: src/pluma-ui.xml.h:100
+#, fuzzy
+msgid "_Plugin Manager"
+msgstr "&Plugin-handsamar ..."
+
+#: src/pluma-ui.xml.h:101
+#, fuzzy
+msgid "_Plugin Manager..."
+msgstr "&Plugin-handsamar ..."
+
+#: src/pluma-ui.xml.h:102
+#, fuzzy
+msgid "_Print..."
+msgstr "Skriv ut"
+
+#: src/pluma-ui.xml.h:103
+#, fuzzy
+msgid "_Quit"
+msgstr "Klipp ut"
+
+#: src/pluma-ui.xml.h:104
+#, fuzzy
+msgid "_Redo"
+msgstr "Gjer om"
+
+#: src/pluma-ui.xml.h:106
+#, fuzzy
+msgid "_Revert"
+msgstr "Gå tilbake"
+
+#: src/pluma-ui.xml.h:107
+#, fuzzy
+msgid "_Save"
+msgstr "Lagra"
+
+#: src/pluma-ui.xml.h:108
+#, fuzzy
+msgid "_Search"
+msgstr "Søk"
+
+#: src/pluma-ui.xml.h:109
+#, fuzzy
+msgid "_Status Bar"
+msgstr "Vis tabell"
+
+#: src/pluma-ui.xml.h:110
+#, fuzzy
+msgid "_Toolbar"
+msgstr "Til:"
+
+#: src/pluma-ui.xml.h:111
+#, fuzzy
+msgid "_Tools"
+msgstr "Til:"
+
+#: src/pluma-ui.xml.h:112
+#, fuzzy
+msgid "_Undo"
+msgstr "Angra"
+
+#: src/pluma-ui.xml.h:113
+#, fuzzy
+msgid "_View"
+msgstr "Legg til &ny"
+
+#: src/pluma-utils.c:840
+#, c-format
+msgid ""
+"Could not find the file \"%s\".\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+
+#: src/pluma-utils.c:847
+#, c-format
+msgid "Could not open the file \"%s\" because it contains corrupted data."
+msgstr ""
+
+#: src/pluma-utils.c:858
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because pluma cannot handle %s: locations."
+msgstr ""
+
+#: src/pluma-utils.c:866
+#, fuzzy, c-format
+msgid "Could not open the file \"%s\""
+msgstr "Kan ikkje opna fila."
+
+#: src/pluma-utils.c:873
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because it contains data in an invalid format."
+msgstr ""
+
+#: src/pluma-utils.c:880
+#, c-format
+msgid "Could not open the file \"%s\" because it is too big."
+msgstr ""
+
+#: src/pluma-utils.c:887
+#, c-format
+msgid ""
+"\"%s\" is not a valid location.\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+
+#: src/pluma-utils.c:894
+#, c-format
+msgid "Could not open the file \"%s\" because access was denied."
+msgstr ""
+
+#: src/pluma-utils.c:901
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because there are too many open files\n"
+"\n"
+".Please, close some open file and try again."
+msgstr ""
+
+#: src/pluma-utils.c:909
+#, c-format
+msgid ""
+"\"%s\" is a directory.\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+
+#: src/pluma-utils.c:916
+#, c-format
+msgid ""
+"Not enough available memory to open the file \"%s\".Please, close some "
+"running application and try again."
+msgstr ""
+
+#: src/pluma-utils.c:929
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because no host \"%s\" could be found. \n"
+"\n"
+"Please, check that you typed the location correctly and that your proxy "
+"settings are correct and then try again"
+msgstr ""
+
+#: src/pluma-utils.c:942
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because the host name was invalid.\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+
+#: src/pluma-utils.c:949
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because the host name was empty.\n"
+"\n"
+"Please, check that your proxy settings are correct and try again."
+msgstr ""
+
+#: src/pluma-utils.c:956
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because the attempt to log in failed.\n"
+"\n"
+"Please, check that you typed the location correctly and try again."
+msgstr ""
+
+#: src/pluma-utils.c:964
+#, c-format
+msgid ""
+"Could not open the file \"%s\" because it contains invalid UTF-8 data.\n"
+"\n"
+"Probably, you are trying to open a binary file."
+msgstr ""
+
+#: src/pluma-utils.c:1002
+#, fuzzy, c-format
+msgid "Could not open the file \"%s\"."
+msgstr ""
+"\n"
+"Kunne ikkje laga påkravd røyr %1."
+
+#: src/pluma-utils.c:1053
+#, fuzzy, c-format
+msgid "Could not save the file \"%s\"."
+msgstr ""
+"\n"
+"Kunne ikkje laga påkravd røyr %1."
+
+#: src/pluma-utils.c:1057
+#, fuzzy, c-format
+msgid ""
+"Could not save the file \"%s\".\n"
+"\n"
+"%s"
+msgstr "Ein feil oppsto ved lasting av brikkesett-fila\n"
+
+#: src/pluma-utils.c:1110
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because pluma cannot find it.\n"
+"\n"
+"Perhaps, it has recently been deleted."
+msgstr ""
+
+#: src/pluma-utils.c:1117
+#, c-format
+msgid "Could not revert the file \"%s\" because it contains corrupted data."
+msgstr ""
+
+#: src/pluma-utils.c:1128
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because pluma cannot handle %s: locations."
+msgstr ""
+
+#: src/pluma-utils.c:1136
+#, fuzzy, c-format
+msgid "Could not revert the file \"%s\""
+msgstr "Feil ved opning av fil."
+
+#: src/pluma-utils.c:1143
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because it contains data in an invalid "
+"format."
+msgstr ""
+
+#: src/pluma-utils.c:1150
+#, c-format
+msgid "Could not revert the file \"%s\" because it is too big."
+msgstr ""
+
+#: src/pluma-utils.c:1157
+#, c-format
+msgid "Could not revert the file \"%s\" because access was denied."
+msgstr ""
+
+#: src/pluma-utils.c:1164
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because there are too many open files\n"
+"\n"
+".Please, close some open file and try again."
+msgstr ""
+
+#: src/pluma-utils.c:1172
+#, c-format
+msgid ""
+"Not enough available memory to revert the file \"%s\".Please, close some "
+"running application and try again."
+msgstr ""
+
+#: src/pluma-utils.c:1185
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because no host \"%s\" could be found. \n"
+"\n"
+"Please, check that your proxy settings are correct and try again"
+msgstr ""
+
+#: src/pluma-utils.c:1197
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because the host name was empty.\n"
+"\n"
+"Please, check that your proxy settings are correct and try again."
+msgstr ""
+
+#: src/pluma-utils.c:1204
+#, c-format
+msgid "Could not revert the file \"%s\" because the attempt to log in failed."
+msgstr ""
+
+#: src/pluma-utils.c:1211
+#, c-format
+msgid ""
+"Could not revert the file \"%s\" because it contains invalid UTF-8 data.\n"
+"\n"
+"Probably, you are trying to revert a binary file."
+msgstr ""
+
+#: src/pluma-utils.c:1220
+#, fuzzy
+msgid "It is not possible to revert an Untitled document."
+msgstr "Kunne ikkje laga nytt dokument"
+
+#: src/pluma-utils.c:1258
+#, fuzzy, c-format
+msgid "Could not revert the file \"%s\"."
+msgstr "Feil ved opning av fil."
+
+#: src/pluma-view.c:878
+#, c-format
+msgid "  Ln %d, Col. %d"
+msgstr ""
+
+#: src/pluma-view.c:916
+msgid "  OVR"
+msgstr ""
+
+#: src/pluma-view.c:918
+msgid "  INS"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Loaded file %s"
+#~ msgstr "lastar fil"
+
+#, fuzzy
+#~ msgid "Unable to open recent file: %s"
+#~ msgstr "Kan ikkje opna fila."
+
+#, fuzzy
+#~ msgid "Sample 'hello world' plugin."
+#~ msgstr "Bruk den valde tilleggsmodulen."
+
+#, fuzzy
+#~ msgid "Invalid UTF-8 data encountered reading file"
+#~ msgstr "Feil ved opning av fil."
+
+#, fuzzy
+#~ msgid ""
+#~ "An error occurred while opening the file \"%s\".\n"
+#~ "\n"
+#~ "%s."
+#~ msgstr "Feil ved opning av fil."
+
+#, fuzzy
+#~ msgid "C_lose All"
+#~ msgstr "Lukk alle"
+
+#, fuzzy
+#~ msgid "Clear"
+#~ msgstr "Lukk"
+
+#, fuzzy
+#~ msgid "E_xit"
+#~ msgstr "Avslutt"
+
+#~ msgid "Exit"
+#~ msgstr "Avslutt"
+
+#, fuzzy
+#~ msgid "Open from _URI..."
+#~ msgstr "Opna URL ..."
+
+#, fuzzy
+#~ msgid "Print Pre_view"
+#~ msgstr "Førehandsvising av utskrift"
+
+#, fuzzy
+#~ msgid "Revert to saved"
+#~ msgstr "Omvendt"
+
+#, fuzzy
+#~ msgid "Sav_e All"
+#~ msgstr "Lagra alle"
+
+#, fuzzy
+#~ msgid "_Plugins manager"
+#~ msgstr "&Plugin-handsamar ..."
+
+#, fuzzy
+#~ msgid "_Preferences"
+#~ msgstr "Oppsett"
+
+#, fuzzy
+#~ msgid "_Select all"
+#~ msgstr "Slett alt"
+
+#, fuzzy
+#~ msgid "Save As..."
+#~ msgstr "Lagra &som ..."
+
+#, fuzzy
+#~ msgid "Manager"
+#~ msgstr "Behandlar"
+
+#, fuzzy
+#~ msgid "_Manager"
+#~ msgstr "Behandlar"
+
+#~ msgid "Browse"
+#~ msgstr "Bla gjennom"
+
+#, fuzzy
+#~ msgid "Web browse plugin"
+#~ msgstr "Vevstil-tilleggsmodul"
+
+#, fuzzy
+#~ msgid "Number Converter"
+#~ msgstr "Konverterar"
+
+#, fuzzy
+#~ msgid "diff"
+#~ msgstr "Diff"
+
+#, fuzzy
+#~ msgid "Untitled %i"
+#~ msgstr "Utan tittel %1"
+
+#~ msgid "Diff"
+#~ msgstr "Diff"
+
+#, fuzzy
+#~ msgid "Document info"
+#~ msgstr "Dokument"
+
+#, fuzzy
+#~ msgid "email"
+#~ msgstr "e-post: "
+
+#, fuzzy
+#~ msgid "Executing command: %s"
+#~ msgstr "Kunne ikkje køyra førkommando: %1"
+
+#, fuzzy
+#~ msgid "Email"
+#~ msgstr "E-post"
+
+#, fuzzy
+#~ msgid "Email the current document"
+#~ msgstr "Skriv ut dokumentet"
+
+#~ msgid "Reverse"
+#~ msgstr "Omvendt"
+
+#, fuzzy
+#~ msgid "Reverse text"
+#~ msgstr "Omvendt"
+
+#, fuzzy
+#~ msgid "Sort a document."
+#~ msgstr "Lagar eit nytt dokument"
+
+#, fuzzy
+#~ msgid "Sort a document or selected text."
+#~ msgstr "Lagar eit nytt dokument"
+
+#, fuzzy
+#~ msgid " _Change... "
+#~ msgstr "Endra ..."
+
+#, fuzzy
+#~ msgid "pluma: Web Browse plugin"
+#~ msgstr "Vevstil-tilleggsmodul"
+
+#, fuzzy
+#~ msgid "location"
+#~ msgstr "Plassering"
+
+#, fuzzy
+#~ msgid " Decimal to _Hex "
+#~ msgstr "Desimal-modus"
+
+#, fuzzy
+#~ msgid " Decimal to _Octal "
+#~ msgstr " Desimal: "
+
+#, fuzzy
+#~ msgid " Hex to Decima_l "
+#~ msgstr " Desimal: "
+
+#, fuzzy
+#~ msgid "_Converted value:"
+#~ msgstr "Tilkopla ved:"
+
+#, fuzzy
+#~ msgid "_Value to be converted:"
+#~ msgstr "Verdien som skal konverterast"
+
+#, fuzzy
+#~ msgid "Select the \"first\" file..."
+#~ msgstr "Vel filteret som skal leggjast til"
+
+#, fuzzy
+#~ msgid "Select the \"second\" file..."
+#~ msgstr "Slettar den valte fila"
+
+#, fuzzy
+#~ msgid "F_rom:"
+#~ msgstr "Frå:"
+
+#, fuzzy
+#~ msgid "File to use as body of message: "
+#~ msgstr "Kunne ikkje leggja til melding:\n"
+
+#~ msgid "From:"
+#~ msgstr "Frå:"
+
+#, fuzzy
+#~ msgid "Sendmail found at:"
+#~ msgstr "Sendmail-kommando:"
+
+#~ msgid "Subject:"
+#~ msgstr "Emne:"
+
+#~ msgid "To:"
+#~ msgstr "Til:"
+
+#, fuzzy
+#~ msgid "_Subject:"
+#~ msgstr "Emne:"
+
+#, fuzzy
+#~ msgid "Select the working directory..."
+#~ msgstr "Vel katalog ..."
+
+#, fuzzy
+#~ msgid "Case Sensitive"
+#~ msgstr "Skil mellom små og store bokstavar"
+
+#, fuzzy
+#~ msgid "Sort starting at column:"
+#~ msgstr "Fann ikkje søketekst."
+
+#, fuzzy
+#~ msgid "pluma: Sort plugin"
+#~ msgstr "KDVI-tilleggsmodulen"
+
+#, fuzzy
+#~ msgid "pluma: Preferences"
+#~ msgstr "Innstillingar for KMedia"
+
+#, fuzzy
+#~ msgid "Search string not found"
+#~ msgstr "Fann ikkje søketekst."
+
+#, fuzzy
+#~ msgid "Add _header"
+#~ msgstr "<vilkårleg meldingshovud>"
+
+#~ msgid "Appearance"
+#~ msgstr "Utsjånad"
+
+#~ msgid "Documents"
+#~ msgstr "Dokument"
+
+#, fuzzy
+#~ msgid "Editor Behavior"
+#~ msgstr "Åtferd"
+
+#, fuzzy
+#~ msgid "Enable _Auto-indent"
+#~ msgstr "&Bruk automatisk innlogging"
+
+#, fuzzy
+#~ msgid "Enable word _wrapping"
+#~ msgstr "Skru av tekstbryting"
+
+#~ msgid "General"
+#~ msgstr "Generelt"
+
+#~ msgid "Orientation"
+#~ msgstr "Retning"
+
+#~ msgid "Paper"
+#~ msgstr "Papir"
+
+#, fuzzy
+#~ msgid "Pick a Font"
+#~ msgstr "Gjeldande skrifttype"
+
+#~ msgid "Printing"
+#~ msgstr "Utskrift"
+
+#, fuzzy
+#~ msgid "Tab _width: "
+#~ msgstr "Tab-breidd:"
+
+#, fuzzy
+#~ msgid "_Foreground: "
+#~ msgstr "Framgrunn:"
+
+#, fuzzy
+#~ msgid "_Landscape"
+#~ msgstr "Liggjande"
+
+#, fuzzy
+#~ msgid "_Portrait"
+#~ msgstr "Ståande"
+
+#, fuzzy
+#~ msgid "RO - "
+#~ msgstr " B/L "
+
+#, fuzzy
+#~ msgid "%s %d*"
+#~ msgstr "%1 %2"
+
+#, fuzzy
+#~ msgid "``%s'' has been modified.  Do you want to save the changes?"
+#~ msgstr ""
+#~ " er endra.\n"
+#~ "Vil du lagra den?"
+
+#, fuzzy
+#~ msgid "This file does not end with a valid extension\n"
+#~ msgstr "Fila %1 inneheld ikkje gyldig XML"
+
+#, fuzzy
+#~ msgid "The document contains no data."
+#~ msgstr "innlegget inneheld ingen data"
+
+#, fuzzy
+#~ msgid "Error in the pipe."
+#~ msgstr "Feil ved endring av oppføring."
+
+#, fuzzy
+#~ msgid "``%s'' is about to be overwritten. Do you want to continue ?"
+#~ msgstr ""
+#~ "Cella er ikkje tom.\n"
+#~ "Vil du fortsetja?"
+
+#, fuzzy
+#~ msgid "Error saving file!"
+#~ msgstr "Feil ved skriving av fil!"
+
+#, fuzzy
+#~ msgid ""
+#~ "Are you sure you want to revert all changes?\n"
+#~ "(%s)"
+#~ msgstr "Er du sikker på at du vil sletta denne profilen?\n"
+
+#, fuzzy
+#~ msgid "The file ``%s'' does not exist.  Would you like to create it?"
+#~ msgstr ""
+#~ "Den katalogen finst ikkje.\n"
+#~ "Vil du laga den?"
+
+#, fuzzy
+#~ msgid "Show window debugging messages."
+#~ msgstr "Sen&d ventande meldingar"
+
+#, fuzzy
+#~ msgid "Cannot initialize gnome-vfs."
+#~ msgstr "Kan ikkje initialisera lokale variablar"
+
+#, fuzzy
+#~ msgid "Open (swap) .c/.h file"
+#~ msgstr "Opna ei fil"
+
+#, fuzzy
+#~ msgid "Print pre_view..."
+#~ msgstr "&Førehandsvising ..."
+
+#, fuzzy
+#~ msgid "Preview data to be printed"
+#~ msgstr "Utskrift til skrivar:"
+
+#, fuzzy
+#~ msgid "Add a new view of the document"
+#~ msgstr "Legg til bokmerke for dette dokumentet"
+
+#, fuzzy
+#~ msgid "_Remove View"
+#~ msgstr "Fjern rute"
+
+#, fuzzy
+#~ msgid "Remove view of the document"
+#~ msgstr "Fjernar ei fil frå prosjektet"
+
+#, fuzzy
+#~ msgid "Manage available plugin modules"
+#~ msgstr "Tilgjengelege tilleggsmodular"
+
+#, fuzzy
+#~ msgid ""
+#~ "The program %s could not be found.\n"
+#~ "\n"
+#~ msgstr "Fann ikkje klassen '%1'."
+
+#, fuzzy
+#~ msgid "Error, init_plugin returned an error"
+#~ msgstr "Su returnerte med ein feil.\n"
+
+#, fuzzy
+#~ msgid "Printing .."
+#~ msgstr "Skriv ut ..."
+
+#, fuzzy
+#~ msgid "Printing ..."
+#~ msgstr "Skriv ut ..."
+
+#, fuzzy
+#~ msgid "_File/"
+#~ msgstr "Fil"
+
+#, fuzzy
+#~ msgid "You can't remove the last view of a document."
+#~ msgstr "Du kan ikkje sletta den einaste sida på kartet."
+
+#, fuzzy
+#~ msgid "label12"
+#~ msgstr "Tittel"
+
+#, fuzzy
+#~ msgid "label13"
+#~ msgstr "Tittel"

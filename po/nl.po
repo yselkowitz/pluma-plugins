@@ -1,0 +1,2898 @@
+# This translation is made by
+# Dennis Smit <synap@area101.penguin.nl>, 2000.
+# Ludootje <ludootje@linux.be>, 2001.
+# Jan-Willem Harmanny <jwharmanny@hotmail.com>, 2002.
+# Ronald Hummelink <ronald@hummelink.xs4all.nl>, 2002.
+# Sander Knopper <sander@knopper.dhs.org>, 2002.
+# Reinout van Schouwen <reinouts@gnome.org>, 2002-2006.
+# Taco Witte <T.C.Witte@phys.uu.nl>, 2002.
+# Wouter Bolsterlee <wbolster@gnome.org>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-03-19 22:24+0100\n"
+"PO-Revision-Date: 2007-03-19 22:24+0100 \n"
+"Last-Translator: Wouter Bolsterlee <wbolster@gnome.org>\n"
+"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "Voegt automatisch haakjes sluiten toe."
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.h:2
+msgid "Bracket Completion"
+msgstr "Haakjes completeren"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:255
+msgid "Character Map"
+msgstr "Speciale tekens"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "Speciale tekens invoegen door erop te klikken."
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.h:1
+msgid "Code comment"
+msgstr "Code-commentaar"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "Een blok code van commentaar voorzien of uit commentaar halen."
+
+#: ../plugins/codecomment/codecomment.py:249
+msgid "Co_mment Code"
+msgstr "_Code-commentaar"
+
+#: ../plugins/codecomment/codecomment.py:251
+msgid "Comment the selected code"
+msgstr "De geselecteerde code in commentaar zetten"
+
+#: ../plugins/codecomment/codecomment.py:255
+msgid "U_ncomment Code"
+msgstr "Code ui_t commentaar halen"
+
+#: ../plugins/codecomment/codecomment.py:257
+msgid "Uncomment the selected code"
+msgstr "De geselecteerde code uit commentaar halen"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.h:1
+msgid "Color Picker"
+msgstr "Kleurkiezer"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr ""
+"Een kleur uit een dialoogvenster kiezen en de hexadecimale representatie "
+"ervan invoegen. "
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "_Color picker"
+msgstr "_Kleurkiezer"
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "Kleur uit dialoogvenster kiezen"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Color picker"
+msgstr "Kleurkiezer"
+
+#: ../plugins/colorpicker/colorpicker.py:228
+msgid "_Insert"
+msgstr "_Invoegen"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.h:1
+msgid "Draw Spaces"
+msgstr "Spaties tonen"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "Spaties en tabs tonen"
+
+#: ../plugins/drawspaces/drawspaces.glade.h:1
+msgid "Draw spaces"
+msgstr "Spaties tonen"
+
+#: ../plugins/drawspaces/drawspaces.glade.h:2
+msgid "Draw tabs"
+msgstr "Tabs tonen"
+
+# vrij vertaald (Wouter Bolsterlee)
+#: ../plugins/drawspaces/drawspaces.glade.h:3
+msgid "Drawing color:"
+msgstr "Kleur:"
+
+#. ex:ts=4:et:
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "Meerdere lange regels aaneenvoegen of lange regels splitsen"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.h:2
+msgid "Join/Split Lines"
+msgstr "Regels aaneenvoegen/splitsen"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "_Join Lines"
+msgstr "_Regels aaneenvoegen"
+
+#: ../plugins/joinlines/joinlines.py:61
+msgid "Join the selected lines"
+msgstr "De geselecteerde regels aaneenvoegen"
+
+#: ../plugins/joinlines/joinlines.py:63
+msgid "_Split Lines"
+msgstr "Regels _splitsen"
+
+#: ../plugins/joinlines/joinlines.py:64
+msgid "Split the selected lines"
+msgstr "Geselecteerde regels splitsen"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "Tab_balk"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "Verander zichtbaarheid van de tabbalk in het huidige venster"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "Tabbalk zichtbaar"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr "Weergeven tabbalk in bewerkingsvensters."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr ""
+"Een menu-item toevoegen om de zichtbaarheid van de tabbalk om te zetten."
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "Tabbalk tonen/verbergen"
+
+#: ../plugins/sessionsaver/dialogs.py:165
+msgid "Session Name"
+msgstr "Sessienaam"
+
+#. ex:ts=4:et:
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.h:1
+msgid "Save and restore your working sessions"
+msgstr "Werksessies opslaan en weer openen"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.h:2
+msgid "Session Saver"
+msgstr "Sessies Opslaan"
+
+#: ../plugins/sessionsaver/sessionsaver.glade.h:1
+msgid "Session name:"
+msgstr "Sessienaam:"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "Vergeet dat u geen tabs gebruikt."
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.h:2
+msgid "Smart Spaces"
+msgstr "Slimme spaties"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "Een terminalvenster in het onderpaneel inbedden."
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.h:2
+msgid "Embedded Terminal"
+msgstr "Ingebedde terminal"
+
+#: ../plugins/terminal/terminal.py:206
+msgid "Terminal"
+msgstr "Terminal"
+
+#: ../plugins/terminal/terminal.py:227
+msgid "C_hange Directory"
+msgstr "_Map wijzigen"
+
+#~ msgid "_ASCII Table"
+#~ msgstr "_ASCII-tabel"
+
+#~ msgid "Pop-up a dialog containing an ASCII Table"
+#~ msgstr "Nieuw venster met een ASCII-tabel tonen"
+
+#~ msgid "Char"
+#~ msgstr "Teken"
+
+#~ msgid "Dec#"
+#~ msgstr "Dec#"
+
+#~ msgid "Hex#"
+#~ msgstr "Hex#"
+
+#~ msgid "Name"
+#~ msgstr "Naam"
+
+#~ msgid "ASCII Table"
+#~ msgstr "ASCII-tabel"
+
+#~ msgid "_Insert char"
+#~ msgstr "Speciaal teken _invoegen"
+
+#~ msgid "ASCII table"
+#~ msgstr "ASCII-tabel"
+
+#~ msgid "This plugin displays a pop-up dialog which contains an ASCII Table."
+#~ msgstr "Deze plugin laat een venster met een ASCII tabel zien."
+
+#~ msgid "Open CVS Chan_geLogs"
+#~ msgstr "CVS Chan_geLogs openen"
+
+#~ msgid "Searches for ChangeLogs in the current document and opens them"
+#~ msgstr "Zoekt naar ChangeLogs in het huidige document en opent ze."
+
+#~ msgid "A plugin that opens ChangeLogs found in CVS commit messages."
+#~ msgstr ""
+#~ "Een plugin die ChangeLogs opent die gevonden zijn in CVS commit berichten."
+
+#~ msgid "CVS ChangeLog"
+#~ msgstr "CVS ChangeLog"
+
+#~ msgid "Co_mpare Files..."
+#~ msgstr "Besta_nden vergelijken..."
+
+#~ msgid "Makes a diff file from two documents or files"
+#~ msgstr "Maakt een diff bestand van twee documenten of bestanden"
+
+#~ msgid "Compare Files"
+#~ msgstr "Bestanden vergelijken"
+
+#~ msgid "C_ompare"
+#~ msgstr "V_ergelijken"
+
+#~ msgid "Executed command"
+#~ msgstr "Uitgevoerde opdracht"
+
+#~ msgid "The two documents you selected are the same."
+#~ msgstr "De twee geselecteerde bestanden zijn hetzelfde."
+
+#~ msgid ""
+#~ "The \"first\" file you selected does not exist.\n"
+#~ "\n"
+#~ "Please provide a valid file."
+#~ msgstr ""
+#~ "Het \"eerste\" geselecteerde bestand bestaat niet.\n"
+#~ "\n"
+#~ "Geef een juiste bestandsnaam op."
+
+#~ msgid ""
+#~ "The \"second\" file you selected does not exist.\n"
+#~ "\n"
+#~ "Please provide a valid file."
+#~ msgstr ""
+#~ "Het \"tweede\" geselecteerde bestand bestaat niet.\n"
+#~ "\n"
+#~ "Geef een juiste bestandsnaam op."
+
+#~ msgid "The two files you selected are the same."
+#~ msgstr "De twee geselecteerde bestanden zijn hetzelfde."
+
+#~ msgid "The \"first\" document contains no text."
+#~ msgstr "Het \"eerste\" document bevat geen tekst."
+
+#~ msgid "The \"second\" document contains no text."
+#~ msgstr "Het \"tweede\" document bevat geen tekst."
+
+#~ msgid ""
+#~ "Impossible to compare the selected documents.\n"
+#~ "\n"
+#~ "pluma could not create a temporary file."
+#~ msgstr ""
+#~ "De twee documenten konden niet worden vergeleken.\n"
+#~ "\n"
+#~ "pluma kon geen tijdelijk bestand aanmaken."
+
+#~ msgid ""
+#~ "Impossible to compare the selected documents.\n"
+#~ "\n"
+#~ "Error executing the diff command."
+#~ msgstr ""
+#~ "De twee documenten konden niet worden vergeleken.\n"
+#~ "\n"
+#~ "Het programma diff kon niet worden uitgevoerd."
+
+#~ msgid "No differences were found between the selected documents."
+#~ msgstr "Er werden geen verschillen gevonden tussen de twee documenten."
+
+#~ msgid ""
+#~ "Impossible to compare the selected documents.\n"
+#~ "\n"
+#~ "The result contains invalid UTF-8 data."
+#~ msgstr ""
+#~ "De twee documenten konden niet worden vergeleken.\n"
+#~ "\n"
+#~ "Het resultaat bevat ongeldige UTF-8-gegevens."
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "Choose the files to compare."
+#~ msgstr "Selecteer de te vergelijken bestanden."
+
+#~ msgid "Compare files..."
+#~ msgstr "Bestanden vergelijken..."
+
+#~ msgid "F_rom document"
+#~ msgstr "Van do_cument"
+
+#~ msgid "First"
+#~ msgstr "Eerste"
+
+#~ msgid "First file from disk"
+#~ msgstr "Eerste bestand van schijf"
+
+#~ msgid "First file from open document"
+#~ msgstr "Eerste bestand vanuit geopend document"
+
+#~ msgid "From _document"
+#~ msgstr "Van _document"
+
+#~ msgid "From a _file on disk"
+#~ msgstr "Bestand op de schij_f"
+
+#~ msgid "From a file o_n disk"
+#~ msgstr "Besta_nd op de schijf"
+
+#~ msgid "Ignore _blanks (-b option)"
+#~ msgstr "Spaties n_egeren (-b optie)"
+
+#~ msgid "Note that this option is only supported by GNU diff"
+#~ msgstr "Deze optie is alleen aanwezig in GNU diff"
+
+#~ msgid "Second"
+#~ msgstr "Tweede"
+
+#~ msgid "Second file from disk"
+#~ msgstr "Tweede bestand van schijf"
+
+#~ msgid "Second file from open document"
+#~ msgstr "Tweede bestand vanuit geopend document"
+
+#~ msgid "Select the \"first\" file..."
+#~ msgstr "Selecteer het \"eerste\" bestand..."
+
+#~ msgid "Select the \"second\" file..."
+#~ msgstr "Selecteer het \"tweede\" bestand..."
+
+#~ msgid "Select the first file to compare"
+#~ msgstr "Selecteer het eerste te vergelijken bestand"
+
+#~ msgid "Select the first open document to compare"
+#~ msgstr "Selecteer het eerste te vergelijken geopende document"
+
+#~ msgid "Select the second file to compare"
+#~ msgstr "Selecteer het tweede te vergelijken bestand"
+
+#~ msgid "Select the second open document to compare"
+#~ msgstr "Selecteer het tweede te vergelijken geopende document"
+
+#~ msgid "Use the _unified output format (-u option)"
+#~ msgstr "Gebruik het _unified uitvoerformaat (-u optie)"
+
+#~ msgid ""
+#~ "The Compare Files plugin uses the \"diff\" program to compare two "
+#~ "documents or files on disk."
+#~ msgstr ""
+#~ "De 'Bestanden vergelijken'-plugin gebruikt het \"diff\"-programma om twee "
+#~ "documenten of bestanden op de schijf te vergelijken."
+
+#~ msgid "pluma application"
+#~ msgstr "pluma-toepassing"
+
+#~ msgid "pluma automation factory"
+#~ msgstr "pluma automatiseringsfabriek"
+
+#~ msgid "Edit text files"
+#~ msgstr "Tekstbestanden bewerken"
+
+#~ msgid "Text Editor"
+#~ msgstr "Tekst-editor"
+
+#~ msgid ""
+#~ "A custom font that will be used for the editing area. This will only take "
+#~ "effect if the \"Use Default Font\" option is turned off."
+#~ msgstr ""
+#~ "Een eigen lettertype om te gebruiken in het bewerkingsgedeelte. Dit heeft "
+#~ "alleen effect indien de optie \"Standaardlettertype gebruiken\" is "
+#~ "uitgeschakeld."
+
+#~ msgid "Auto Save"
+#~ msgstr "Automatisch opslaan"
+
+#~ msgid "Auto Save Interval"
+#~ msgstr "Automatisch opslaan-interval"
+
+#~ msgid "Auto indent"
+#~ msgstr "Automatisch inspringen"
+
+#~ msgid "Background Color"
+#~ msgstr "Achtergrondkleur"
+
+#~ msgid ""
+#~ "Background color for selected text in the editing area. This will only "
+#~ "take effect if the \"Use Default Colors\" option is turned off."
+#~ msgstr ""
+#~ "Achtergrondkleur voor geselecteerde tekst in het bewerkingsgedeelte. Dit "
+#~ "heeft alleen effect indien de optie \"Standaardkleuren gebruiken\" is "
+#~ "uitgeschakeld."
+
+#~ msgid ""
+#~ "Background color for unselected text in the editing area. This will only "
+#~ "take effect if the \"Use Default Colors\" option is turned off."
+#~ msgstr ""
+#~ "Achtergrondkleur voor niet geselecteerde tekst in het bewerkingsgedeelte. "
+#~ "Dit heeft alleen effect indien de optie \"Standaardkleuren gebruiken\" is "
+#~ "uitgeschakeld."
+
+#~ msgid "Body Font for Printing"
+#~ msgstr "Afdruklettertype voor inhoud"
+
+#~ msgid "Create Backup Copies"
+#~ msgstr "Reservekopieën maken"
+
+#~ msgid "Display Line Numbers"
+#~ msgstr "Regelnummers weergeven"
+
+#~ msgid "Editor Font"
+#~ msgstr "Editorlettertype"
+
+#~ msgid "Encoding for Saving"
+#~ msgstr "Opslagcodering"
+
+#~ msgid "Encodings"
+#~ msgstr "Coderingen"
+
+#~ msgid ""
+#~ "Extension or suffix to use for backup file names. This will only take "
+#~ "effect if the \"Create Backup Copies\" option is turned on."
+#~ msgstr ""
+#~ "Achtervoegsel voor reservekopieën. Dit heeft alleen effect bij gebruik "
+#~ "van de optie \"Reservekopieën maken\"."
+
+#~ msgid ""
+#~ "Foreground color for selected text in the editing area. This will only "
+#~ "take effect if the \"Use Default Colors\" option is turned off."
+#~ msgstr ""
+#~ "Voorgrondkleur voor geselecteerde tekst in het bewerkingsgedeelte. Dit "
+#~ "heeft alleen effect indien de optie \"Standaardkleuren gebruiken\" is "
+#~ "uitgeschakeld."
+
+#~ msgid ""
+#~ "Foreground color for the unselected text in the editing area. This will "
+#~ "only take effect if the \"Use Default Colors\" option is turned off."
+#~ msgstr ""
+#~ "Achtergrondkleur voor niet geselecteerde tekst in het bewerkingsgedeelte. "
+#~ "Dit heeft alleen effect indien de optie \"Standaardkleuren gebruiken\" is "
+#~ "uitgeschakeld."
+
+#~ msgid "Header Font for Printing"
+#~ msgstr "Afdruklettertype voor kop"
+
+#~ msgid ""
+#~ "If this value is 0, then no line numbers will be inserted when printing a "
+#~ "document. Otherwise, pluma will print line numbers every such number of "
+#~ "lines."
+#~ msgstr ""
+#~ "Als deze waarde 0 is dan zullen er geen regelnummers worden afgedrukt. "
+#~ "Anders zal pluma iedere zoveel regels het regelnummer afdrukken."
+
+#~ msgid "Line Number Font for Printing"
+#~ msgstr "Lettertype voor regelnummers bij afdrukken"
+
+#~ msgid "Line Wrapping Mode"
+#~ msgstr "Regelafbrekings-modus"
+
+#~ msgid ""
+#~ "List of encodings used by pluma for reading files not encoded in UTF-8 or "
+#~ "in the current locale encoding."
+#~ msgstr ""
+#~ "Lijst van door pluma gebruikte coderingen voor het lezen van niet in UTF-"
+#~ "8- of in de huidige locale-codering gecodeerde bestanden."
+
+#~ msgid "Maximum Recent Files"
+#~ msgstr "Maximaal aantal recente bestanden"
+
+#~ msgid "Maximum number of actions that pluma will be able to undo or redo."
+#~ msgstr ""
+#~ "Maximaal aantal acties dat pluma ongedaan kan maken of opnieuw kan doen."
+
+#~ msgid ""
+#~ "Number of minutes after which pluma will automatically save modified "
+#~ "files. This will only take effect if the \"Auto Save\" option is turned "
+#~ "on."
+#~ msgstr ""
+#~ "Aantal minuten waarna pluma bewerkte bestanden automatisch opslaat. Dit "
+#~ "heeft alleen effect wanneer de optie \"Automatisch opslaan\" actief is."
+
+#~ msgid "Print Header"
+#~ msgstr "Paginakoppen afdrukken"
+
+#~ msgid "Print Line Numbers"
+#~ msgstr "Regelnummers afdrukken"
+
+#~ msgid "Printing Line Wrapping Mode"
+#~ msgstr "Regels afbreken bij afdrukken"
+
+#~ msgid "Selected Text Color"
+#~ msgstr "Kleur van geselecteerde tekst"
+
+#~ msgid "Selection Color"
+#~ msgstr "Selectiekleur"
+
+#~ msgid "Show Cursor Position"
+#~ msgstr "Cursorpositie tonen"
+
+#~ msgid "Show Overwrite Mode"
+#~ msgstr "Overschrijfmodus tonen"
+
+#~ msgid ""
+#~ "Specifies how to wrap long lines for printing. Use \"GTK_WRAP_NONE\" for "
+#~ "no wrapping, \"GTK_WRAP_WORD\" for wrapping at word boundaries, and "
+#~ "\"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. Note "
+#~ "that the values are case-sensitive, so make sure they appear exactly as "
+#~ "mentioned here."
+#~ msgstr ""
+#~ "Geeft aan hoe lange regels worden afgebroken. Gebruik \"GTK_WRAP_NONE\" "
+#~ "om niet af te breken, \"GTK_WRAP_WORD\" om op woorden af te breken, en "
+#~ "\"GTK_WRAP_CHAR\" om op letters af te breken. Let op dat de waarden "
+#~ "Hoofdlettergevoelig zijn. Zorg er dus voor dat ze exact zo zijn als hier "
+#~ "weergegeven."
+
+#~ msgid ""
+#~ "Specifies how to wrap long lines in the editing area. Use \"GTK_WRAP_NONE"
+#~ "\" for no wrapping, \"GTK_WRAP_WORD\" for wrapping at word boundaries, "
+#~ "and \"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. "
+#~ "Note that the values are case-sensitive, so make sure they appear exactly "
+#~ "as mentioned here."
+#~ msgstr ""
+#~ "Geeft aan hoe lange regels worden afgebroken bij bewerken. Gebruik "
+#~ "\"GTK_WRAP_NONE\" om niet af te breken, \"GTK_WRAP_WORD\" om op woorden "
+#~ "af te breken, en \"GTK_WRAP_CHAR\" om op letters af te breken. Let op dat "
+#~ "de waarden Hoofdlettergevoelig zijn. Zorg er dus voor dat ze exact zo "
+#~ "zijn als hier weergegeven."
+
+#~ msgid ""
+#~ "Specifies the font to use for a document's body when printing documents."
+#~ msgstr ""
+#~ "Het lettertype om te gebruiken voor de inhoud van documenten bij "
+#~ "afdrukken."
+
+#~ msgid ""
+#~ "Specifies the font to use for line numbers when printing. This will only "
+#~ "take effect if the \"Print Line Numbers\" option is non-zero."
+#~ msgstr ""
+#~ "Het lettertype om te gebruiken voor de regelnummers van documenten bij "
+#~ "afdrukken. Dit heeft alleen effect indien de optie \"Regelnummers "
+#~ "afdrukken\" is ingeschakeld."
+
+#~ msgid ""
+#~ "Specifies the font to use for page headers when printing a document. This "
+#~ "will only take effect if the \"Print Header\" option is turned on."
+#~ msgstr ""
+#~ "Het lettertype om te gebruiken voor de koptekst van documenten bij "
+#~ "afdrukken. Dit heeft alleen effect indien de optie \"Koptekst afdrukken\" "
+#~ "is ingeschakeld."
+
+#~ msgid ""
+#~ "Specifies the maximum number of recently opened files that will be "
+#~ "displayed in the \"Recent Files\" submenu."
+#~ msgstr ""
+#~ "Het maximum aantal van recent geopende bestanden dat wordt weergegeven in "
+#~ "het deelmenu \"Recente bestanden\"."
+
+#~ msgid ""
+#~ "Specifies the number of spaces that should be displayed instead of Tab "
+#~ "characters."
+#~ msgstr ""
+#~ "Het aantal spaties dat moet weergegeven op de plaats van Tab karakters. "
+
+#~ msgid "Status Bar is Visible"
+#~ msgstr "Statusbalk is zichtbaar"
+
+#~ msgid ""
+#~ "Style for the toolbar buttons. Possible values are \"PLUMA_TOOLBAR_SYSTEM"
+#~ "\" to use the system's default style, \"PLUMA_TOOLBAR_ICONS\" to display "
+#~ "icons only, \"PLUMA_TOOLBAR_ICONS_AND_TEXT\" to display both icons and "
+#~ "text, and \"PLUMA_TOOLBAR_ICONS_BOTH_HORIZ\" to display prioritized text "
+#~ "beside icons. Note that the values are case-sensitive, so make sure they "
+#~ "appear exactly as mentioned here."
+#~ msgstr ""
+#~ "Stijl voor de werkbalkknoppen. Mogelijke waarden zijn "
+#~ "\"PLUMA_TOOLBAR_SYSTEM\" om de standaardstijl te gebruiken van het "
+#~ "systeem, \"PLUMA_TOOLBAR_ICONS\" om alleen pictogrammen weer te geven, "
+#~ "\"PLUMA_TOOLBAR_ICONS_AND_TEXT\" om zowel pictogrammen als tekst weer te "
+#~ "geven, en \"PLUMA_TOOLBAR_ICONS_BOTH_HORIZ\" om prioriteitstekst naast "
+#~ "pictogrammen weer te geven. Let op dat de waarden hoofdlettergevoelig "
+#~ "zijn. Zorg er dus voor dat ze precies zo verschijnen zoals ze hier worden "
+#~ "genoemd. "
+
+#~ msgid "Tab Size"
+#~ msgstr "Tabgrootte"
+
+#~ msgid "Text Color"
+#~ msgstr "Tekstkleur"
+
+#~ msgid ""
+#~ "The encoding method to use for saving files. Possible values are "
+#~ "\"PLUMA_SAVE_ALWAYS_UTF8\" for mandatory UTF-8 saving, "
+#~ "\"PLUMA_SAVE_CURRENT_LOCALE_IF_POSSIBLE\" if you want pluma to try to "
+#~ "convert the document it is saving to your current locale's encoding, "
+#~ "\"PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE\" if you want pluma to "
+#~ "try to use the original file encoding (new files in UTF8) and "
+#~ "\"PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE_NCL\" if you want pluma "
+#~ "to try to use the original file encoding (new files in current locale's "
+#~ "encoding). If the conversion is successful, it will be used. Otherwise, "
+#~ "UTF-8 will be used. Note that the values are case-sensitive, so make sure "
+#~ "they appear exactly as mentioned here."
+#~ msgstr ""
+#~ "De coderingsmethode die wordt gebruikt bij het opslaan van bestanden. "
+#~ "Mogelijke waarden zijn \"PLUMA_SAVE_ALWAYS_UTF8\" om altijd als UTF-8 op "
+#~ "te slaan, \"PLUMA_SAVE_CURRENT_LOCALE_IF_POSSIBLE\" als U wilt dat pluma "
+#~ "probeert om een document dat het opslaat te converteren naar de codering "
+#~ "van uw huidige taalinstelling, "
+#~ "\"PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE\" als U wilt dat pluma "
+#~ "probeert om de huidige codering van het bestand te gebruiken (bij nieuwe "
+#~ "bestanden is dat UTF8) en "
+#~ "\"PLUMA_SAVE_ORIGINAL_FILE_ENCODING_IF_POSSIBLE_NCL\" als U wilt dat "
+#~ "pluma probeert om de huidige codering van het bestand te gebruiken "
+#~ "(nieuwe bestanden in codering van huidige taalinstelling). Als de "
+#~ "conversie succesvol is, zal die worden gebruikt. Anders wordt UTF-8 "
+#~ "gebruikt. Let op dat de waarden hoofdlettergevoelig zijn. Zorg er dus "
+#~ "voor dat ze precies zo verschijnen zoals ze hier worden genoemd. "
+
+#~ msgid "Toolbar Buttons Style"
+#~ msgstr "Werkbalk-knoppenstijl"
+
+#~ msgid "Undo Actions Limit"
+#~ msgstr "Aantal ongedaan te maken acties"
+
+#~ msgid "Use Default Colors"
+#~ msgstr "Standaardkleuren gebruiken"
+
+#~ msgid "Use Default Font"
+#~ msgstr "Standaardlettertype gebruiken"
+
+#~ msgid ""
+#~ "Whether pluma should automatically save modified files after a time "
+#~ "interval. You can set the time interval with the \"Auto Save Interval\" "
+#~ "option."
+#~ msgstr ""
+#~ "Automatisch opslaan van veranderde bestanden na een bepaalde tijd. U kunt "
+#~ "het interval instellen met de optie \"Auto Opslaan Interval\"."
+
+#~ msgid ""
+#~ "Whether pluma should create backup copies for the files it saves. You can "
+#~ "set the backup file extension with the \"Backup Copy Extension\" option."
+#~ msgstr ""
+#~ "Reservekopieen maken bij het opslaan van bestanden. Het achtervoegsel van "
+#~ "reservekopieen kunt U instellen met de optie \"Achtervoegsel voor "
+#~ "reservekopie\"."
+
+#~ msgid "Whether pluma should display line numbers in the editing area."
+#~ msgstr "Weergeven regelnummers in het bewerkingsgedeelte."
+
+#~ msgid "Whether pluma should enable auto indentation."
+#~ msgstr "Automatisch inspringen inschakelen"
+
+#~ msgid ""
+#~ "Whether pluma should include a document header when printing documents."
+#~ msgstr "Documentkoppen invoegen bij het afdrukken van documenten."
+
+#~ msgid "Whether pluma should insert spaces instead of tabs."
+#~ msgstr "Spaties in plaats van tabs invoegen."
+
+#~ msgid ""
+#~ "Whether the status bar at the bottom of editing windows should be visible."
+#~ msgstr "Weergeven statusbalk aan de onderkant van bewerkingsvensters."
+
+#~ msgid ""
+#~ "Whether the status bar should show the cursor position in editing "
+#~ "windows. Make sure you turn on the \"Status Bar is Visible\" option for "
+#~ "this to take effect."
+#~ msgstr ""
+#~ "De cursorpositie weergeven in de statusbalk van bewerkingsvensters. Zorg "
+#~ "ervoor dat de optie \"Statusbalk is zichtbaar\" aangeschakeld is om dit "
+#~ "te laten werken."
+
+#~ msgid ""
+#~ "Whether the status bar should show the insert/overwrite mode in editing "
+#~ "windows. Make sure you turn on the \"Status Bar is Visible\" option for "
+#~ "this to take effect."
+#~ msgstr ""
+#~ "Invoegen/overschrijven modus weergeven in statusbalk van "
+#~ "bewerkingsvensters. Zorg ervoor dat de optie \"Statusbalk is zichtbaar\" "
+#~ "aangeschakeld is om dit te laten werken."
+
+#~ msgid ""
+#~ "Whether to use the system's default colors for the editing area. If this "
+#~ "option is turned off, then the colors of the editing area will be those "
+#~ "specified in the \"Background Color\", \"Text Color\", \"Selected Text "
+#~ "Color\", and \"Selection Color\" options."
+#~ msgstr ""
+#~ "Standaard systeemkleuren gebruiken in bewerkingsgedeelte. Als deze optie "
+#~ "aangeschakeld is, zullen de kleuren in het bewerkingsgedeelte de kleuren "
+#~ "zijn die aangegeven zijn in de opties \"Achtergrondkleur\", \"Tekstkleur"
+#~ "\", \"Geselecteerde tekstkleur\", en \"Selectiekleur\"."
+
+#~ msgid ""
+#~ "Whether to use the system's default font for editing text instead of a "
+#~ "font specific to pluma. If this option is turned off, then the font named "
+#~ "in the \"Editor Font\" option will be used instead of the system font."
+#~ msgstr ""
+#~ "Standaard systeemlettertype gebruiken bij het bewerken van tekst in "
+#~ "plaats van een lettertype specifiek voor pluma. Als deze optie "
+#~ "uitgeschakeld is, zal het lettertype worden gebruikt dat wordt aangegeven "
+#~ "in de optie \"Editor lettertype\", in plaats van het systeemlettertype."
+
+#~ msgid "Copyright (C) 2001-2002 Paolo Maggi"
+#~ msgstr "Copyright © 2001-2002 Paolo Maggi"
+
+#~ msgid "Paolo Maggi <maggi@athena.polito.it>"
+#~ msgstr "Paolo Maggi <maggi@athena.polito.it>"
+
+#~ msgid "Copyright (C) 2002 James Willcox"
+#~ msgstr "Copyright © 2002 James Willcox"
+
+#~ msgid "James Willcox <jwillcox@cs.indiana.edu>"
+#~ msgstr "James Willcox <jwillcox@cs.indiana.edu>"
+
+#~ msgid ""
+#~ "Chema Celorio <chema@celorio.com> and Paolo Maggi <maggi@athena.polito.it>"
+#~ msgstr ""
+#~ "Chema Celorio <chema@celorio.com> en Paolo Maggi <maggi@athena.polito.it>"
+
+#~ msgid ""
+#~ "Copyright (C) 2000 - 2001 Chema Celorio\n"
+#~ "Copyright (C) 2002 Paolo Maggi"
+#~ msgstr ""
+#~ "Copyright © 2000 - 2001 Chema Celorio \n"
+#~ "Copyright © 2002 Paolo Maggi"
+
+#~ msgid "_Document Statistics"
+#~ msgstr "_Documentstatistieken"
+
+#~ msgid "Get statistic info on current document"
+#~ msgstr "Statistische informatie over huidige document"
+
+#~ msgid "Document Statistics"
+#~ msgstr "Documentstatistieken"
+
+#~ msgid "_Update"
+#~ msgstr "_Update"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "Bytes"
+#~ msgstr "Bytes"
+
+#~ msgid "Characters (no spaces)"
+#~ msgstr "Karakters (zonder spaties)"
+
+#~ msgid "Characters (with spaces)"
+#~ msgstr "Karakters (met spaties)"
+
+#~ msgid "File Name"
+#~ msgstr "Bestandsnaam"
+
+#~ msgid "Lines"
+#~ msgstr "Regels"
+
+#~ msgid "Update"
+#~ msgstr "Verversen"
+
+#~ msgid "Words"
+#~ msgstr "Woorden"
+
+#~ msgid "pluma: Document Info plugin"
+#~ msgstr "pluma: Documentinformatie-plugin"
+
+#~ msgid "Copyright (C) 2002 Paolo Maggi"
+#~ msgstr "Copyright © 2002 - Paolo Maggi"
+
+#~ msgid "Paolo Maggi <paolo.maggi@polito.it>"
+#~ msgstr "Paolo Maggi <paolo.maggi@polito.it>"
+
+#~ msgid ""
+#~ "The Document Statistics plugin analyzes the current document and "
+#~ "determines the number of words, lines, characters and non-space "
+#~ "characters in it and displays the result."
+#~ msgstr ""
+#~ "De 'Documentstatistieken'-plugin analyseert het huidige document, telt "
+#~ "het aantal woorden, regels, karakters en niet-spatie-karakters, en laat "
+#~ "het resultaat op het scherm zien."
+
+#~ msgid "Insert User Na_me"
+#~ msgstr "Gebruikersnaa_m invoegen"
+
+#~ msgid "Insert the user name at the cursor position"
+#~ msgstr "Voegt de gebruikersnaam in op de cursor positie."
+
+#~ msgid "User name"
+#~ msgstr "Gebruikersnaam"
+
+#~ msgid "Inserts the user name at the cursor position."
+#~ msgstr "Voegt de gebruikersnaam in op de cursor positie."
+
+#~ msgid "_Run Command..."
+#~ msgstr "Opd_racht uitvoeren..."
+
+#~ msgid "Run a command"
+#~ msgstr "Een opdracht uitvoeren"
+
+#~ msgid "Stopped"
+#~ msgstr "Gestopt"
+
+#~ msgid "An error occurs while running the selected command."
+#~ msgstr ""
+#~ "Er is een fout opgetreden tijdens het uitvoeren van de opgegeven opdracht."
+
+#~ msgid "Run Command"
+#~ msgstr "Opdracht uitvoeren"
+
+#~ msgid "_Run"
+#~ msgstr "_Uitvoeren"
+
+#~ msgid "Done"
+#~ msgstr "Klaar"
+
+#~ msgid "Failed"
+#~ msgstr "Mislukt"
+
+#~ msgid ""
+#~ "The shell command entry is empty.\n"
+#~ "\n"
+#~ "Please, insert a valid shell command."
+#~ msgstr ""
+#~ "De shell commandoregel is leeg.\n"
+#~ "\n"
+#~ "Gelieve een geldige shell-opdracht in te voeren."
+
+#~ msgid ""
+#~ "Error parsing the shell command.\n"
+#~ "\n"
+#~ "Please, insert a valid shell command."
+#~ msgstr ""
+#~ "Er trad een fout op bij het ontleden van de shell-opdracht.\n"
+#~ "\n"
+#~ "Gelieve een geldige shell-opdracht in te geven."
+
+#~ msgid "Executing command"
+#~ msgstr "Bezig met uitvoeren opdracht"
+
+#~ msgid "Select the working directory..."
+#~ msgstr "Selecteer de werkmap..."
+
+#~ msgid "_Show results in Output Window"
+#~ msgstr "Re_sultaten in uitvoervenster tonen"
+
+#~ msgid "pluma: Shell Output plugin"
+#~ msgstr "pluma: Shelluitvoer-plugin"
+
+#~ msgid ""
+#~ "Execute an external program and eventually grabs its output in the output "
+#~ "window."
+#~ msgstr ""
+#~ "Een extern programma uitvoeren en zijn eventuele uitvoer in het "
+#~ "uitvoervensterweergeven."
+
+#~ msgid "Shell command"
+#~ msgstr "Shell-opdracht:"
+
+#~ msgid "Tag list plugin"
+#~ msgstr "Tag-lijst plugin"
+
+#~ msgid "Select the group of tags you want to use"
+#~ msgstr "Selecteer de tag-groep die u wilt gebruiken."
+
+#~ msgid "Tag Groups Combo"
+#~ msgstr "Combinatie van tag-groepen"
+
+#~ msgid "Tags Name List"
+#~ msgstr "Tag-namenlijst"
+
+#~ msgid "Double-click on a tag to insert it in the current document"
+#~ msgstr "Dubbelklik op een tag om hem in het huidige document in te voegen."
+
+#~ msgid "Tags"
+#~ msgstr "Tags"
+
+#~ msgid "Tag _List"
+#~ msgstr "Tag-_lijst"
+
+#~ msgid "Show the tag list window"
+#~ msgstr "Toon het tag-lijst venster."
+
+#~ msgid "Tag list"
+#~ msgstr "Tag-lijst"
+
+#~ msgid ""
+#~ "The tag list plugin provides a method to easily insert into a document "
+#~ "commonly used tags/strings without having to type them."
+#~ msgstr ""
+#~ "Met de 'tag-lijst'-plugin kunt u op een gemakkelijke manier veelgebruikte "
+#~ "woorden en teksten invoegen in een document, zonder ze te hoeven typen."
+
+#~ msgid "In_sert Date and Time..."
+#~ msgstr "Da_tum en tijd invoegen..."
+
+#~ msgid "Insert current date and time at the cursor position"
+#~ msgstr "Voegt de huidige datum en tijd in op de cursor positie."
+
+#~ msgid "Available formats"
+#~ msgstr "Beschikbare formaten"
+
+#~ msgid "Configure insert date/time plugin..."
+#~ msgstr "'Datum/tijd invoegen'-plugin configureren..."
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "<span size=\"small\">01/11/2002 17:52:00</span>"
+#~ msgstr "<span size=\"small\">01/11/2002 17:52:00</span>"
+
+#~ msgid "<span weight=\"bold\"> When inserting date/time...</span>"
+#~ msgstr "<span weight=\"bold\"> Bij het invoegen van datum/tijd...</span>"
+
+#~ msgid "Configure date/time plugin"
+#~ msgstr "'Datum/tijd invoegen'-plugin configureren"
+
+#~ msgid "Insert Date and Time"
+#~ msgstr "Datum en tijd invoegen"
+
+#~ msgid "Use the _selected format"
+#~ msgstr "Ge_selecteerd formaat gebruiken"
+
+#~ msgid "_Prompt for a format"
+#~ msgstr "_Vragen om een formaat"
+
+#~ msgid "_Use custom format"
+#~ msgstr "Aangepast formaat gebr_uiken"
+
+#~ msgid "Copyright (C) 2002 - Paolo Maggi"
+#~ msgstr "Copyright © 2002 - Paolo Maggi"
+
+#~ msgid "Insert Date/Time"
+#~ msgstr "Datum/tijd invoegen"
+
+#~ msgid "Inserts current date and time at the cursor position."
+#~ msgstr "Voegt de huidige datum en tijd in op de cursor positie."
+
+#~ msgid ""
+#~ "Paolo Maggi <maggi@athena.polito.it> and Lee Mallabone <gnome@fonicmonkey."
+#~ "net>"
+#~ msgstr ""
+#~ "Paolo Maggi <maggi@athena.polito.it> en Lee Mallabone <gnome@fonicmonkey."
+#~ "net>"
+
+#~ msgid "_Indent"
+#~ msgstr "_Inspringen"
+
+#~ msgid "Indent selected lines"
+#~ msgstr "De geselecteerde regels inspringen"
+
+#~ msgid "U_nindent"
+#~ msgstr "Uitspri_ngen"
+
+#~ msgid "Indent lines"
+#~ msgstr "Regels inspringen"
+
+#~ msgid "Indent or un-indent selected lines."
+#~ msgstr "De geselecteerde regels in- of uitspringen"
+
+#~ msgid "R_emove duplicates"
+#~ msgstr "Duplicaten v_erwijderen"
+
+#~ msgid "S_tart at column:"
+#~ msgstr "_Beginnen in kolom:"
+
+#~ msgid "Sort"
+#~ msgstr "Sorteren"
+
+#~ msgid "You cannot undo a sort operation"
+#~ msgstr "U kunt een sorteeroperatie niet ongedaan te maken"
+
+#~ msgid "_Ignore case"
+#~ msgstr "Hoofdletterongevoel_ig"
+
+#~ msgid "_Reverse order"
+#~ msgstr "Omgekee_rde volgorde"
+
+#~ msgid "_Sort"
+#~ msgstr "_Sorteren"
+
+#~ msgid ""
+#~ "Carlo Borreo <borreo@softhome.net>, Lee Mallabone <gnome@fonicmonkey.net> "
+#~ "and Paolo Maggi <maggi@athena.polito.it>"
+#~ msgstr ""
+#~ "Carlo Borreo <borreo@softhome.net>, Lee Mallabone <gnome@fonicmonkey.net> "
+#~ "en Paolo Maggi <maggi@athena.polito.it>"
+
+#~ msgid ""
+#~ "Copyright (C) 2001 Carlo Borreo\n"
+#~ "Copyright (C) 2002 Lee Mallabone and Paolo Maggi"
+#~ msgstr ""
+#~ "Copyright © 2000 - 2001 Chema Celorio \n"
+#~ "Copyright © 2002 Paolo Maggi"
+
+#~ msgid "Sorts a document or selected text."
+#~ msgstr "Sorteert een document of de geselecteerde tekst."
+
+#~ msgid "(no suggested words)"
+#~ msgstr "(geen woorden voorgesteld)"
+
+#~ msgid "_More..."
+#~ msgstr "_Meer..."
+
+#~ msgid "_Ignore All"
+#~ msgstr "Alles _negeren"
+
+#~ msgid "_Add"
+#~ msgstr "_Toevoegen"
+
+#~ msgid "_Spelling Suggestions..."
+#~ msgstr "_Spelling-suggesties..."
+
+#~ msgid "Check Spelling"
+#~ msgstr "Spelling controleren"
+
+#~ msgid "Suggestions"
+#~ msgstr "Suggesties"
+
+#~ msgid "(correct spelling)"
+#~ msgstr "(correcte spelling)"
+
+#~ msgid "Completed spell checking"
+#~ msgstr "Spellingscontrole voltooid"
+
+#~ msgid "Breton"
+#~ msgstr "Bretons"
+
+#~ msgid "Catalan"
+#~ msgstr "Catalaans"
+
+#~ msgid "Czech"
+#~ msgstr "Tsjechisch"
+
+#~ msgid "Danish"
+#~ msgstr "Deens"
+
+#~ msgid "German (Germany)"
+#~ msgstr "Duits (Duitsland)"
+
+#~ msgid "German (Swiss)"
+#~ msgstr "Duits (Zwitserland)"
+
+#~ msgid "English (American)"
+#~ msgstr "Engels (Amerikaans)"
+
+#~ msgid "English (British)"
+#~ msgstr "Engels (Brits)"
+
+#~ msgid "English (Canadian)"
+#~ msgstr "Engels (Canadees)"
+
+#~ msgid "Esperanto"
+#~ msgstr "Esperanto"
+
+#~ msgid "Spanish"
+#~ msgstr "Spaans"
+
+#~ msgid "Faroese"
+#~ msgstr "Faroers"
+
+#~ msgid "French (France)"
+#~ msgstr "Frans (Frankrijk)"
+
+#~ msgid "French (Swiss)"
+#~ msgstr "Frans (Zwitserland)"
+
+#~ msgid "Italian"
+#~ msgstr "Italiaans"
+
+#~ msgid "Dutch"
+#~ msgstr "Nederlands"
+
+#~ msgid "Norwegian"
+#~ msgstr "Noors"
+
+#~ msgid "Polish"
+#~ msgstr "Pools"
+
+#~ msgid "Portuguese (Portugal)"
+#~ msgstr "Portugees (Portugal)"
+
+#~ msgid "Portuguese (Brazilian)"
+#~ msgstr "Portugees (Brazilië)"
+
+#~ msgid "Russian"
+#~ msgstr "Russisch"
+
+#~ msgid "Swedish"
+#~ msgstr "Zweeds"
+
+#~ msgid "Default"
+#~ msgstr "Standaard"
+
+#~ msgid "Could not find the required widgets inside %s."
+#~ msgstr "Kan de vereiste widgets niet vinden binnen %s."
+
+#~ msgid "Languages"
+#~ msgstr "Talen"
+
+#~ msgid "Checks the spelling of the current document."
+#~ msgstr "De spelling van het huidige document controleren"
+
+#~ msgid "Spell checker"
+#~ msgstr "Spellingscontrole"
+
+#~ msgid "Select the _language of the current document."
+#~ msgstr "De taa_l van het huidige document selecteren"
+
+#~ msgid "Set language"
+#~ msgstr "Taal instellen"
+
+#~ msgid "<b>Language</b>"
+#~ msgstr "<b>Taal</b>"
+
+#~ msgid "<b>word</b>"
+#~ msgstr "<b>woord</b>"
+
+#~ msgid "Add w_ord"
+#~ msgstr "W_oord toevoegen"
+
+#~ msgid "Cha_nge"
+#~ msgstr "_Wijzigen"
+
+#~ msgid "Change A_ll"
+#~ msgstr "A_lles veranderen"
+
+#~ msgid "Change _to:"
+#~ msgstr "Ve_randeren naar:"
+
+#~ msgid "Check _Word"
+#~ msgstr "_Woord controleren"
+
+#~ msgid "Check spelling"
+#~ msgstr "Spelling controleren"
+
+#~ msgid "Ignore _All"
+#~ msgstr "_Alles negeren"
+
+#~ msgid "Language:"
+#~ msgstr "Taal:"
+
+#~ msgid "Mispelled word:"
+#~ msgstr "Incorrect gespeld woord:"
+
+#~ msgid "User dictionary:"
+#~ msgstr "Gebruikerswoordenboek:"
+
+#~ msgid "_Ignore"
+#~ msgstr "Ne_geren"
+
+#~ msgid "_Suggestions:"
+#~ msgstr "_Voorstellen:"
+
+#~ msgid "S_ort..."
+#~ msgstr "S_orteren..."
+
+#~ msgid "Sort the current document or selection."
+#~ msgstr "Sorteren van het huidige document of de selectie."
+
+#~ msgid "_Check Spelling"
+#~ msgstr "Spelling _controleren"
+
+#~ msgid "Check the current document for incorrect spelling"
+#~ msgstr "Het huidige document controleren op incorrecte spelling"
+
+#~ msgid "_Autocheck Spelling"
+#~ msgstr "Spelling-_autocontrole"
+
+#~ msgid "Automatically spell-check the current document"
+#~ msgstr "Het huidige document automatisch op spelling controleren"
+
+#~ msgid "Set _Language"
+#~ msgstr "Taa_l instellen"
+
+#~ msgid "Set the language of the current document"
+#~ msgstr "De taal van het huidige document instellen"
+
+#~ msgid "The document is empty."
+#~ msgstr "Het document bevat geen tekst."
+
+#~ msgid "The selected text does not contain mispelled words."
+#~ msgstr "De geselecteerde tekst bevat geen incorrect gespelde woorden."
+
+#~ msgid "The document does not contain mispelled words."
+#~ msgstr "Het document bevat geen incorrect gespelde woorden."
+
+#~ msgid "Activate %s"
+#~ msgstr "%s activeren"
+
+#~ msgid "Go to Line"
+#~ msgstr "Ga naar regel"
+
+#~ msgid "The text \"%s\" was not found."
+#~ msgstr "De zoekterm \"%s\" werd niet gevonden."
+
+#~ msgid "Replace"
+#~ msgstr "Vervangen"
+
+#~ msgid "Replace _All"
+#~ msgstr "_Alles vervangen"
+
+#~ msgid "_Replace"
+#~ msgstr "_Vervangen"
+
+#~ msgid "Find"
+#~ msgstr "Zoeken"
+
+#~ msgid "Found and replaced %d occurences."
+#~ msgstr "%d zoektermen gevonden en vervangen."
+
+#~ msgid "Open Location"
+#~ msgstr "Locatie openen"
+
+#~ msgid "Plugin"
+#~ msgstr "Plugin"
+
+#~ msgid "Load"
+#~ msgstr "Laden"
+
+#~ msgid "Module file name"
+#~ msgstr "Module-bestandsnaam"
+
+#~ msgid "Author(s)"
+#~ msgstr "Auteur(s)"
+
+#~ msgid "Could not find plugin-manager.glade2, reinstall pluma.\n"
+#~ msgstr "Kan plugin-manager.glade2 niet vinden, installeer pluma opnieuw.\n"
+
+#~ msgid "Invalid glade file for plugin manager -- not all widgets found.\n"
+#~ msgstr ""
+#~ "Ongeldig glade-bestand voor pluginbeheer -- niet alle widgets gevonden.\n"
+
+#~ msgid "Set program location..."
+#~ msgstr "Programmalocatie instellen..."
+
+#~ msgid ""
+#~ "The %s plugin uses an external program, called <tt>%s</tt>, to perform "
+#~ "its task.\n"
+#~ "\n"
+#~ "Please, specify the location of the <tt>%s</tt> program."
+#~ msgstr ""
+#~ "De %s plugin gebruikt een extern programma, genaamd <tt>%s</tt>, om zijn "
+#~ "taak uit te voeren.\n"
+#~ "\n"
+#~ "Gelieve de locatie van het <tt>%s</tt> programma in te voeren."
+
+#~ msgid "The selected file is not executable."
+#~ msgstr "Het geselecteerde bestand is niet uitvoerbaar."
+
+#~ msgid "Font & Colors"
+#~ msgstr "Lettertype & kleuren"
+
+#~ msgid "Tabs"
+#~ msgstr "Tabs"
+
+#~ msgid "Wrap Mode"
+#~ msgstr "Regelafbrekingsmodus"
+
+#~ msgid "Auto Indent"
+#~ msgstr "Automatisch inspringen"
+
+#~ msgid "Line Numbers"
+#~ msgstr "Regelnummers"
+
+#~ msgid "Open"
+#~ msgstr "Openen"
+
+#~ msgid "Save"
+#~ msgstr "Opslaan"
+
+#~ msgid "Undo"
+#~ msgstr "Ongedaan maken"
+
+#~ msgid "Page"
+#~ msgstr "Pagina"
+
+#~ msgid "Fonts"
+#~ msgstr "Lettertypes"
+
+#~ msgid "Manager"
+#~ msgstr "Beheer"
+
+#~ msgid "Editor"
+#~ msgstr "Editor"
+
+#~ msgid "Print"
+#~ msgstr "Afdrukken"
+
+#~ msgid "Plugins"
+#~ msgstr "Plugins"
+
+#~ msgid "Cat_egories:"
+#~ msgstr "Cat_egorieën:"
+
+#~ msgid "Preferences"
+#~ msgstr "Voorkeuren"
+
+#~ msgid "Categories"
+#~ msgstr "Categorieën"
+
+#~ msgid "Push this button to select the font to be used by the editor"
+#~ msgstr ""
+#~ "Druk op deze knop om het lettertype te selecteren dat de editor gebruikt"
+
+#~ msgid "Push this button to configure text color"
+#~ msgstr "Druk op deze knop om de kleur van de text te kiezen"
+
+#~ msgid "Push this button to configure background color"
+#~ msgstr "Druk op deze knop om de achtergrondkleur te configureren"
+
+#~ msgid ""
+#~ "Push this button to configure the color in which the selected text should "
+#~ "appear"
+#~ msgstr ""
+#~ "Druk op deze knop om de kleur te kiezen waarin geselecteerde tekst "
+#~ "weergegeven zal worden"
+
+#~ msgid ""
+#~ "Push this button to configure the color in which the selected text should "
+#~ "be marked"
+#~ msgstr ""
+#~ "Druk op deze knop om de kleur te kiezen waarin geselecteerde tekst "
+#~ "gemarkeerd zal worden"
+
+#~ msgid "Push this button to select the font to be used to print the body"
+#~ msgstr ""
+#~ "Druk op deze knop om het lettertype te selecteren voor het afdrukken van "
+#~ "de tekstinhoud"
+
+#~ msgid "Push this button to select the font to be used to print the headers"
+#~ msgstr ""
+#~ "Druk op deze knop om het lettertype te selecteren voor het afdrukken van "
+#~ "koppen"
+
+#~ msgid "Push this button to select the font to be used to print line numbers"
+#~ msgstr ""
+#~ "Druk op deze knop om het lettertype te selecteren voor het afdrukken van "
+#~ "regelnummers"
+
+#~ msgid "<b>Font</b>"
+#~ msgstr "<b>Lettertype</b>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Auto Indent</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"x-large\">Automatisch inspringen</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Font &amp; Colors</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"x-large\">Lettertype &amp; kleuren</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Fonts</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Lettertypen</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Line Numbers</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Regelnummers</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Manager</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Beheer</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Open</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Openen</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Page</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Pagina</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Save</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Opslaan</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Tabs</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Tabs</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Undo</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Ongedaan maken</span>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Wrap Mode</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Regelafbrekingsmodus</span>"
+
+#~ msgid "<span weight=\"bold\">Colors</span>"
+#~ msgstr "<span weight=\"bold\">Kleuren</span>"
+
+#~ msgid "<span weight=\"bold\">When saving a new file...</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\">Bij het opslaan van een nieuw bestand...</span>"
+
+#~ msgid "<span weight=\"bold\">When saving an existing file...</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\">Bij het opslaan van een bestaand bestand...</span>"
+
+#~ msgid "Add new encodings"
+#~ msgstr "Coderingen toevoegen"
+
+#~ msgid "Always use U_TF-8 encoding (faster)"
+#~ msgstr "Altijd _UTF-8 codering gebruiken (sneller)"
+
+#~ msgid "Always use _UTF-8 encoding (faster)"
+#~ msgstr "Altijd _UTF-8 codering gebruiken (sneller)"
+
+#~ msgid "Create a _backup copy of files before saving"
+#~ msgstr "_Reservekopie maken van bestanden voor het opslaan"
+
+#~ msgid "Do not _split words over two lines"
+#~ msgstr "Woorden niet over twee regels _splitsen"
+
+#~ msgid "Editor _font: "
+#~ msgstr "Editor_lettertype:"
+
+#~ msgid "Enable _auto indentation"
+#~ msgstr "_Automatisch inspringen inschakelen"
+
+#~ msgid "Enable text _wrapping"
+#~ msgstr "Regela_fbreking inschakelen"
+
+#~ msgid "Fonts & Colors"
+#~ msgstr "Lettertype & kleuren"
+
+#~ msgid "Insert _spaces instead of tabs"
+#~ msgstr "_Spaties invoegen in plaats van tabs"
+
+#~ msgid "LOGO"
+#~ msgstr "LOGO"
+
+#~ msgid "Line _numbers:"
+#~ msgstr "Regel_nummers:"
+
+#~ msgid "Line numbers"
+#~ msgstr "Regelnummers"
+
+#~ msgid "Move down"
+#~ msgstr "Omlaag bewegen"
+
+#~ msgid "Move up"
+#~ msgstr "Omhoog bewegen"
+
+#~ msgid "Page he_aders:"
+#~ msgstr "P_aginakoppen:"
+
+#~ msgid "Pick the background color"
+#~ msgstr "Kies de achtergrondkleur"
+
+#~ msgid "Pick the selected text color"
+#~ msgstr "Kies de geselecteerde-tekstkleur"
+
+#~ msgid "Pick the selection color"
+#~ msgstr "Kies de selectie kleur"
+
+#~ msgid "Pick the text color"
+#~ msgstr "Kies de tekst kleur"
+
+#~ msgid "Plugin manager"
+#~ msgstr "Pluginbeheer"
+
+#~ msgid "Print _line numbers every"
+#~ msgstr "Rege_lnummers elke"
+
+#~ msgid "Print fonts"
+#~ msgstr "Afdruklettertypes"
+
+#~ msgid "Remove an encoding"
+#~ msgstr "Een codering verwijderen"
+
+#~ msgid "Se_lection color:"
+#~ msgstr "Se_lectiekleur:"
+
+#~ msgid "Selecte_d text color:"
+#~ msgstr "_Tekstselectie kleur:"
+
+#~ msgid "Set _tabs width equivalent to"
+#~ msgstr "_Tabbreedte instellen gelijk aan  "
+
+#~ msgid "Set limit on _undo actions to"
+#~ msgstr "Het maximale aantal \"_ongedaan maken\" acties instellen op"
+
+#~ msgid "U_se default theme colors"
+#~ msgstr "_Standaard themakleuren gebruiken"
+
+#~ msgid "U_se original file encoding if possible"
+#~ msgstr "Waar mogelijk de _originele codering gebruiken"
+
+#~ msgid "Use cu_rrent locale's encoding if possible"
+#~ msgstr "Waar mogelijk h_uidige localisering gebruiken"
+
+#~ msgid "Use current _locale's encoding if possible"
+#~ msgstr "Waar mogelijk huidige _localisering gebruiken"
+
+#~ msgid "Wrap mode"
+#~ msgstr "Regelafbrekingsmodus"
+
+#~ msgid "_Autosave current file every"
+#~ msgstr "_Automatisch huidige bestand opslaan na"
+
+#~ msgid "_Background color:"
+#~ msgstr "A_chtergrondkleur:"
+
+#~ msgid "_Body:"
+#~ msgstr "I_nhoud:"
+
+#~ msgid "_Display line numbers"
+#~ msgstr "Regelnummers _weergeven"
+
+#~ msgid "_Print page headers"
+#~ msgstr "_Paginakoppen afdrukken"
+
+#~ msgid "_Restore Default Fonts"
+#~ msgstr "Standaa_rdlettertypes terugzetten"
+
+#~ msgid "_Supported encodings:"
+#~ msgstr "Onder_steunde coderingen:"
+
+#~ msgid "_Text color:"
+#~ msgstr "_Tekst kleur:"
+
+#~ msgid "_Use default theme font"
+#~ msgstr "Gebr_uik standaard thema lettertype"
+
+#~ msgid "_action(s)"
+#~ msgstr "_actie(s)"
+
+#~ msgid "_minutes"
+#~ msgstr "_minuten"
+
+#~ msgid "li_ne(s)"
+#~ msgstr "re_gel(s)"
+
+#~ msgid "_Insert a new preview phrase."
+#~ msgstr "Nieuwe voorbeeldzin _invoegen"
+
+#~ msgid "Modify preview phrase..."
+#~ msgstr "Voorbeeldzin wijzigen..."
+
+#~ msgid "Preview"
+#~ msgstr "Voorbeeld"
+
+#~ msgid "_Modify preview phrase..."
+#~ msgstr "Voorbeeldzin _wijzigen..."
+
+#~ msgid "Font Selection"
+#~ msgstr "Lettertypeselectie"
+
+#~ msgid "Sans Regular 12"
+#~ msgstr "Sans Regular 12"
+
+#~ msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
+#~ msgstr "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
+
+#~ msgid "Pick a Font"
+#~ msgstr "Kies een lettertype"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "The title of the selection dialog box"
+#~ msgstr "De titel van het selectie dialoogvenster"
+
+#~ msgid "Name of the selected font"
+#~ msgstr "Naam van het geselecteerde lettertype"
+
+#~ msgid "Preview text"
+#~ msgstr "Voorbeeldtekst"
+
+#~ msgid "Preview text shown in the dialog"
+#~ msgstr "Voorbeeldtekst weergegeven in het venster"
+
+#~ msgid "Use font in label"
+#~ msgstr "Gebruik lettertype in label"
+
+#~ msgid "Use font in the label in font info mode"
+#~ msgstr "Gebruik lettertype in het label in de lettertype info modus"
+
+#~ msgid "Font size for label"
+#~ msgstr "Lettertype-grootte voor label"
+
+#~ msgid "Font size for label in font info mode"
+#~ msgstr "Lettertype-grootte voor label in lettertype-info modus"
+
+#~ msgid "Show size"
+#~ msgstr "Afgebeelde grootte"
+
+#~ msgid "Show size in font info mode"
+#~ msgstr "Afgebeelde grootte in lettertype info modus"
+
+#~ msgid "Font"
+#~ msgstr "Lettertype"
+
+#~ msgid "Goto Line"
+#~ msgstr "Ga naar regel"
+
+#~ msgid "_Line number:"
+#~ msgstr "Rege_lnummer:"
+
+#~ msgid "C_onfigure plugin"
+#~ msgstr "Plugin c_onfigureren"
+
+#~ msgid "Configure the selected plugin"
+#~ msgstr "De geselecteerde plugin configureren"
+
+#~ msgid "De_tails"
+#~ msgstr "De_tails"
+
+#~ msgid "_Description"
+#~ msgstr "_Beschrijving"
+
+#~ msgid "dialog1"
+#~ msgstr "dialoog1"
+
+#~ msgid "_Location to search for:"
+#~ msgstr "_Locatie om te zoeken:"
+
+#~ msgid "label"
+#~ msgstr "label"
+
+#~ msgid "Find Next"
+#~ msgstr "Volgende zoeken"
+
+#~ msgid "Match _entire word only"
+#~ msgstr "_Enkel complete woorden"
+
+#~ msgid "Replace All"
+#~ msgstr "_Alles vervangen"
+
+#~ msgid "Replace _with: "
+#~ msgstr "Vervangen _door: "
+
+#~ msgid "_Match case"
+#~ msgstr "Hoo_fdlettergevoelig"
+
+#~ msgid "_Search for: "
+#~ msgstr "_Zoeken naar: "
+
+#~ msgid "_Wrap around"
+#~ msgstr "Doo_rgaan na documenteinde"
+
+#~ msgid "Enter the _location (URI) of the file you would like to open:"
+#~ msgstr "Geef de locatie (URI) van het bestand dat u wilt openen:"
+
+#~ msgid "Open from URI"
+#~ msgstr "Openen van URI"
+
+#~ msgid "translator_credits"
+#~ msgstr ""
+#~ "Dennis Smit \n"
+#~ "Ludootje \n"
+#~ "Jan-Willem Harmanny \n"
+#~ "Ronald Hummelink \n"
+#~ "Sander Knopper \n"
+#~ "Reinout van Schouwen \n"
+#~ "Taco Witte"
+
+#~ msgid "pluma"
+#~ msgstr "pluma"
+
+#~ msgid "pluma is a small and lightweight text editor for Gnome"
+#~ msgstr "pluma is een kleine en lichte tekst-editor voor Gnome"
+
+#~ msgid "%s %d"
+#~ msgstr "%s %d"
+
+#~ msgid "Untitled"
+#~ msgstr "Naamloos"
+
+#~ msgid "Invalid file name"
+#~ msgstr "Ongeldige bestandsnaam"
+
+#~ msgid "Invalid UTF-8 data"
+#~ msgstr "Ongeldige UTF-8 data"
+
+#~ msgid "Could not read symbolic link information for %s"
+#~ msgstr "Kon de symbolische verwijzing niet lezen voor %s"
+
+#~ msgid "The file has too many symbolic links."
+#~ msgstr "Het bestand heeft te veel sybolische verwijzingen."
+
+#~ msgid "pluma cannot handle %s: locations in write mode."
+#~ msgstr "pluma kan geen %s: gebruiken in schrijfmodus."
+
+#~ msgid "pluma cannot handle this kind of location in write mode."
+#~ msgstr "pluma kan deze locatie niet gebruiken in schrijfmodus."
+
+#~ msgid "Invalid filename."
+#~ msgstr "Ongeldige bestandsnaam"
+
+#~ msgid ""
+#~ "There is not enough disk space to save the file.\n"
+#~ "Please free some disk space and try again."
+#~ msgstr "Er is niet genoeg vrije schijfruimte om het bestand op te slaan."
+
+#~ msgid ""
+#~ "The disk where you are trying to save the file has a limitation on file "
+#~ "sizes.  Please try saving a smaller file or saving it to a disk that does "
+#~ "not have this limitation."
+#~ msgstr ""
+#~ "De schjif waarop u probeert op te slaan heeft limitaties op de grootte "
+#~ "van bestanden. Probeer het bestand kleiner te maken of sla het op een "
+#~ "andere schijf op."
+
+#~ msgid "Could not create a backup file."
+#~ msgstr "Kan geen reservekopie van het bestand maken."
+
+#~ msgid "It is not possible to revert an Untitled document"
+#~ msgstr "Naamloze bestanden kunnen niet teruggezet worden"
+
+#~ msgid ""
+#~ "A file named \"%s\" already exists.\n"
+#~ "Do you want to replace it with the one you are saving?"
+#~ msgstr ""
+#~ "Een bestand met de naam \"%s\" bestaat reeds.\n"
+#~ "Wilt u het vervangen door het bestand dat u nu opslaat?"
+
+#~ msgid ""
+#~ "The file \"%s\" is read-only.\n"
+#~ "Do you want to try to replace it with the one you are saving?"
+#~ msgstr ""
+#~ "Het bestand met de naam \"%s\" is alleen-lezen.\n"
+#~ "Wilt u het vervangen door het bestand dat u nu opslaat?"
+
+#~ msgid "Select a filename to save"
+#~ msgstr "Selecteer een bestandsnaam om op te slaan"
+
+#~ msgid "Open File..."
+#~ msgstr "Bestand openen..."
+
+#~ msgid "Loaded file '%s'"
+#~ msgstr "Bestand '%s' geladen"
+
+#~ msgid "Saving file '%s'..."
+#~ msgstr "Bezig met opslaan van '%s'..."
+
+#~ msgid "The document has not been saved."
+#~ msgstr "Het bestand is niet opgeslagen."
+
+#~ msgid "File '%s' saved."
+#~ msgstr "Bestand '%s' opgeslagen."
+
+#~ msgid "Save as..."
+#~ msgstr "Opslaan als..."
+
+#~ msgid ""
+#~ "Do you want to revert to saved the document '%s'?\n"
+#~ "\n"
+#~ "You will not be able to undo this operation."
+#~ msgstr ""
+#~ "Wilt u het opgeslagen bestand \"%s\" terugzetten?\n"
+#~ "\n"
+#~ "Het is niet mogelijk deze operatie ongedaan te maken."
+
+#~ msgid "_Revert"
+#~ msgstr "_Terugdraaien"
+
+#~ msgid "Reverting file '%s'..."
+#~ msgstr "Bezig met het terugzetten van bestand '%s'..."
+
+#~ msgid "The document has not been reverted."
+#~ msgstr "Het bestand is niet teruggezet."
+
+#~ msgid "File '%s' reverted."
+#~ msgstr "Bestand '%s' is teruggezet."
+
+#~ msgid "Loading %d files..."
+#~ msgstr "%d bestanden worden geladen..."
+
+#~ msgid "The file \"%s\" does not exist. Would you like to create it?"
+#~ msgstr "Het bestand \"%s\" bestaat niet. Wilt u het aanmaken?"
+
+#~ msgid "Loaded %i files"
+#~ msgstr "%i bestanden geladen"
+
+#~ msgid "Could not read data from stdin."
+#~ msgstr "Er is een fout opgetreden tijdens het lezen van data van stdin."
+
+#~ msgid "RO"
+#~ msgstr "AL"
+
+#~ msgid "_Move to New Window"
+#~ msgstr "Ver_plaatsen naar nieuw venster"
+
+#~ msgid "Open a file."
+#~ msgstr "Een bestand openen."
+
+#~ msgid ""
+#~ "Do you want to save the changes you made to the document \"%s\"? \n"
+#~ "\n"
+#~ "Your changes will be lost if you don't save them."
+#~ msgstr ""
+#~ "Wilt u de veranderingen opslaan die u maakte in het bestand \"%s\"?\n"
+#~ "\n"
+#~ "Uw veranderingen zullen verloren gaan als u deze niet opslaat."
+
+#~ msgid "Do_n't save"
+#~ msgstr "Nie_t opslaan"
+
+#~ msgid "_Don't quit"
+#~ msgstr "_Niet afsluiten"
+
+#~ msgid "_Don't close"
+#~ msgstr "_Niet sluiten"
+
+#~ msgid "(modified)"
+#~ msgstr "(veranderd)"
+
+#~ msgid "(readonly)"
+#~ msgstr "(alleen lezen)"
+
+#~ msgid "Error, unable to open module file '%s'\n"
+#~ msgstr "Fout: kan module bestand '%s' niet openen\n"
+
+#~ msgid "Error, plugin '%s' does not contain init function."
+#~ msgstr "Fout: plugin '%s' bevat geen init functie."
+
+#~ msgid "Error, plugin '%s' does not contain activate function."
+#~ msgstr "Fout: plugin '%s' bevat geen activate functie."
+
+#~ msgid "Error, plugin '%s' does not contain deactivate function."
+#~ msgstr "Fout: plugin '%s' bevat geen deactivate functie."
+
+#~ msgid "Error, impossible to initialize plugin '%s'"
+#~ msgstr "Fout: kan plugin '%s' niet initialiseren"
+
+#~ msgid "Error, impossible to destroy plugin '%s'"
+#~ msgstr "Fout: kan plugin '%s' niet deactiveren"
+
+#~ msgid "Error, impossible to activate plugin '%s'"
+#~ msgstr "Fout: kan plugin '%s' niet activeren"
+
+#~ msgid "Error, impossible to deactivate plugin '%s'"
+#~ msgstr "Fout: kan plugin '%s' niet deactiveren"
+
+#~ msgid "Error, impossible to update ui of the plugin '%s'"
+#~ msgstr "Fout: kan de grafische interface van plugin '%s' niet vernieuwen"
+
+#~ msgid "Cannot initialize preferences manager."
+#~ msgstr "Kan voorkeuren-beheer niet initialiseren."
+
+#~ msgid "Expected `%s' got `%s' for key %s"
+#~ msgstr "Verwacht: `%s' Ontvangen: `%s', voor sleutel %s"
+
+#~ msgid ""
+#~ "pluma is unable to print since it cannot find\n"
+#~ "one of the required fonts."
+#~ msgstr ""
+#~ "pluma kan niet afdrukken, omdat het een van de\n"
+#~ "vereiste lettertypen niet kan vinden."
+
+#~ msgid "File: %s"
+#~ msgstr "Bestand: %s"
+
+#~ msgid "Page: %d"
+#~ msgstr "Pagina: %d"
+
+#~ msgid "pluma - Print Preview"
+#~ msgstr "pluma - Afdrukvoorbeeld"
+
+#~ msgid ""
+#~ "An error occurred while printing.\n"
+#~ "\n"
+#~ "%s,"
+#~ msgstr ""
+#~ "Er is een fout opgetreden tijdens het afdrukken.\n"
+#~ "\n"
+#~ "%s,"
+
+#~ msgid "About this application"
+#~ msgstr "Info over deze toepassing"
+
+#~ msgid "C_ustomize Statusbar"
+#~ msgstr "Statusbalk aanpassen"
+
+#~ msgid "Change the visibility of the output window in the current window"
+#~ msgstr ""
+#~ "Verander zichtbaarheid van het uitvoervenster in het huidige venster"
+
+#~ msgid "Change the visibility of the toolbar in the current window"
+#~ msgstr "Verander zichtbaarheid van de werkbalk in het huidige venster"
+
+#~ msgid "Close"
+#~ msgstr "Sluiten"
+
+#~ msgid "Close all open files"
+#~ msgstr "Alle geopende bestanden sluiten"
+
+#~ msgid "Close the current file"
+#~ msgstr "Huidig bestand sluiten"
+
+#~ msgid "Configure the application"
+#~ msgstr "Toepassing configureren"
+
+#~ msgid "Copy"
+#~ msgstr "Kopiëren"
+
+#~ msgid "Copy the selection"
+#~ msgstr "Selectie kopiëren"
+
+#~ msgid "Create a new document"
+#~ msgstr "Nieuw document creëren"
+
+#~ msgid "Cu_t"
+#~ msgstr "K_nippen"
+
+#~ msgid "Customize"
+#~ msgstr "Aanpassen"
+
+#~ msgid "Customize toolbars"
+#~ msgstr "Werkbalken aanpassen"
+
+#~ msgid "Cut"
+#~ msgstr "Knippen"
+
+#~ msgid "Cut the selection"
+#~ msgstr "Selectie knippen"
+
+#~ msgid "Delete"
+#~ msgstr "Verwijderen"
+
+#~ msgid "Dump XML"
+#~ msgstr "XML verwijderen"
+
+#~ msgid "Dump the UI Xml description"
+#~ msgstr "UI XML-omschrijving weggooien"
+
+#~ msgid "Find Again"
+#~ msgstr "Opnieuw zoeken"
+
+#~ msgid "Find Ne_xt"
+#~ msgstr "V_olgende zoeken"
+
+#~ msgid "Go to _Line..."
+#~ msgstr "Ga naar rege_l..."
+
+#~ msgid "Go to a specific line number"
+#~ msgstr "Ga naar een bepaald regelnummer"
+
+#~ msgid "Icon and _Text"
+#~ msgstr "Pictogram en _tekst"
+
+#~ msgid "Main toolbar"
+#~ msgstr "Hoofdwerkbalk"
+
+#~ msgid "Move the current document to a new window"
+#~ msgstr "Huidige document naar nieuw venster verplaatsen"
+
+#~ msgid "New"
+#~ msgstr "Nieuw"
+
+#~ msgid "Only show icons in the toolbar"
+#~ msgstr "Alleen pictogrammen tonen in de werkbalk"
+
+#~ msgid "Open Location..."
+#~ msgstr "Locatie openen..."
+
+#~ msgid "Open _Location..."
+#~ msgstr "_Locatie openen..."
+
+#~ msgid "Open a file"
+#~ msgstr "Bestand openen"
+
+#~ msgid "Open a file from a specified location"
+#~ msgstr "Open een bestand van een aangegeven locatie"
+
+#~ msgid "Open the pluma manual"
+#~ msgstr "Open de pluma-handleiding"
+
+#~ msgid "Paste"
+#~ msgstr "Plakken"
+
+#~ msgid "Paste the clipboard"
+#~ msgstr "Klembord plakken"
+
+#~ msgid "Pr_eferences"
+#~ msgstr "_Voorkeuren"
+
+#~ msgid "Print Previe_w..."
+#~ msgstr "Afdruk_voorbeeld..."
+
+#~ msgid "Print Preview"
+#~ msgstr "Afdrukvoorbeeld"
+
+#~ msgid "Print Setup"
+#~ msgstr "Printerinstellingen"
+
+#~ msgid "Print preview"
+#~ msgstr "Afdrukvoorbeeld"
+
+#~ msgid "Print the current file"
+#~ msgstr "Het huidige bestand afdrukken"
+
+#~ msgid "Quit"
+#~ msgstr "Afsluiten"
+
+#~ msgid "Quit the program"
+#~ msgstr "Het programma afsluiten"
+
+#~ msgid "Redo"
+#~ msgstr "Opnieuw"
+
+#~ msgid "Redo the undone action"
+#~ msgstr "De ongedaan gemaakte actie opnieuw uitvoeren"
+
+#~ msgid "Replace a string"
+#~ msgstr "Tekstdeel vervangen"
+
+#~ msgid "Revert"
+#~ msgstr "Terugdraaien"
+
+#~ msgid "Revert to a saved version of the file"
+#~ msgstr "Terugkeren naar een opgeslagen versie van het bestand"
+
+#~ msgid "Save As"
+#~ msgstr "Opslaan als"
+
+#~ msgid "Save _As..."
+#~ msgstr "O_pslaan Als..."
+
+#~ msgid "Save all open files"
+#~ msgstr "Alle geopende bestanden opslaan"
+
+#~ msgid "Save the current file"
+#~ msgstr "Huidig bestand opslaan"
+
+#~ msgid "Save the current file with a different name"
+#~ msgstr "Huidig bestand onder een andere naam opslaan"
+
+#~ msgid "Search again for the same string"
+#~ msgstr "Zoek nogmaals naar dezelfde tekst"
+
+#~ msgid "Search for a string"
+#~ msgstr "Zoek naar een tekst"
+
+#~ msgid "Select All"
+#~ msgstr "Alles selecteren"
+
+#~ msgid "Select _All"
+#~ msgstr "_Alles selecteren"
+
+#~ msgid "Select the entire document"
+#~ msgstr "Het gehele document selecteren"
+
+#~ msgid "Set toolbar button style according to desktop default"
+#~ msgstr "Zet de werkbalk knop stijl naar de bureaublad-standaard"
+
+#~ msgid "Setup the page settings for your current printer"
+#~ msgstr "De pagina-instellingen van de huidig printer configureren"
+
+#~ msgid "Show _Cursor Position"
+#~ msgstr "_Cursorpositie tonen"
+
+#~ msgid "Show _Overwrite Mode"
+#~ msgstr "_Overschrijfmodus tonen"
+
+#~ msgid "Show cursor position in the statusbar"
+#~ msgstr "Cursorpositie in de statusbalk tonen"
+
+#~ msgid "Show overwrite mode in the statusbar"
+#~ msgstr "Overschrijfmodus in de statusbalk tonen"
+
+#~ msgid "Undo the last action"
+#~ msgstr "De laatste actie ongedaan maken"
+
+#~ msgid "_About"
+#~ msgstr "_Info"
+
+#~ msgid "_Close"
+#~ msgstr "Sl_uiten"
+
+#~ msgid "_Close All"
+#~ msgstr "A_lles sluiten"
+
+#~ msgid "_Contents"
+#~ msgstr "_Inhoud"
+
+#~ msgid "_Copy"
+#~ msgstr "_Kopiëren"
+
+#~ msgid "_Customize Toolbar"
+#~ msgstr "Werkbalken _aanpassen"
+
+#~ msgid "_Debug"
+#~ msgstr "_Debug"
+
+#~ msgid "_Delete"
+#~ msgstr "_Verwijderen"
+
+#~ msgid "_Desktop Default"
+#~ msgstr "_Bureaublad-standaard"
+
+#~ msgid "_Documents"
+#~ msgstr "_Documenten"
+
+#~ msgid "_Edit"
+#~ msgstr "Be_werken"
+
+#~ msgid "_File"
+#~ msgstr "_Bestand"
+
+#~ msgid "_Find..."
+#~ msgstr "_Zoeken..."
+
+#~ msgid "_Help"
+#~ msgstr "_Hulp"
+
+#~ msgid "_Icon"
+#~ msgstr "_Pictogram"
+
+#~ msgid "_New"
+#~ msgstr "_Nieuw"
+
+#~ msgid "_Open..."
+#~ msgstr "_Openen..."
+
+#~ msgid "_Output Window"
+#~ msgstr "_Uitvoervenster"
+
+#~ msgid "_Paste"
+#~ msgstr "_Plakken"
+
+#~ msgid "_Print..."
+#~ msgstr "A_fdrukken"
+
+#~ msgid "_Priority Text beside Icons"
+#~ msgstr "_Prioriteitstekst naast pictogrammen"
+
+#~ msgid "_Quit"
+#~ msgstr "A_fsluiten"
+
+#~ msgid "_Redo"
+#~ msgstr "O_pnieuw"
+
+#~ msgid "_Replace..."
+#~ msgstr "Ve_rvangen..."
+
+#~ msgid "_Save"
+#~ msgstr "Op_slaan"
+
+#~ msgid "_Save All"
+#~ msgstr "Alles Op_slaan"
+
+#~ msgid "_Search"
+#~ msgstr "_Zoeken"
+
+#~ msgid "_Statusbar"
+#~ msgstr "_Statusbalk"
+
+#~ msgid "_Toolbar"
+#~ msgstr "_Werkbalk"
+
+#~ msgid "_Tools"
+#~ msgstr "E_xtra"
+
+#~ msgid "_Undo"
+#~ msgstr "_Ongedaan maken"
+
+#~ msgid "_View"
+#~ msgstr "B_eeld"
+
+#~ msgid ""
+#~ "Could not find the file \"%s\".\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly and try again."
+#~ msgstr ""
+#~ "Kan het bestand \"%s\" niet vinden\n"
+#~ "\n"
+#~ "Kijk of de juiste bestandslocatie werd ingevoerd en probeer opnieuw."
+
+#~ msgid "Could not open the file \"%s\" because it contains corrupted data."
+#~ msgstr "Kan het bestand \"%s\" niet openen, want het bevat foute data."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because pluma cannot handle %s: locations."
+#~ msgstr ""
+#~ "Kan het bestand \"%s\" niet openen omdat pluma geen %s: locaties kan "
+#~ "gebruiken."
+
+#~ msgid "Could not open the file \"%s\""
+#~ msgstr "Kan het bestand \"%s\" niet openen."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because it contains data in an invalid "
+#~ "format."
+#~ msgstr ""
+#~ "Kan het bestand \"%s\" niet openen omdat het data in een onjuist formaat "
+#~ "bevat."
+
+#~ msgid "Could not open the file \"%s\" because it is too big."
+#~ msgstr "Kan het bestand \"%s\" niet openen omdat het te groot is."
+
+#~ msgid ""
+#~ "\"%s\" is not a valid location.\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly and try again."
+#~ msgstr ""
+#~ "\"%s\" is geen geldige locatie.\n"
+#~ "\n"
+#~ "Ga na of u de locatie correct heeft ingetypt en probeer het opnieuw."
+
+#~ msgid "Could not open the file \"%s\" because access was denied."
+#~ msgstr ""
+#~ "Kan het bestand \"%s\" niet openen omdat toegang tot het bestand werd "
+#~ "ontzegd."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because there are too many open files.\n"
+#~ "\n"
+#~ "Please, close some open file and try again."
+#~ msgstr ""
+#~ "Kan het bestand \"%s\" niet openen omdat er teveel bestanden geopend "
+#~ "zijn.\n"
+#~ "\n"
+#~ "Sluit enkele bestanden en probeer opnieuw."
+
+#~ msgid ""
+#~ "\"%s\" is a directory.\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly and try again."
+#~ msgstr ""
+#~ "\"%s\" is een map.\n"
+#~ "\n"
+#~ "Ga na of u een juiste bestandslocatie heeft ingevoerd en probeer het "
+#~ "opnieuw."
+
+#~ msgid ""
+#~ "Not enough available memory to open the file \"%s\". Please, close some "
+#~ "running application and try again."
+#~ msgstr ""
+#~ "Er is niet genoeg geheugen om \"%s\" te openen. Sluit enkele programma's "
+#~ "en probeer opnieuw."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because no host \"%s\" could be found.\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly and that your proxy "
+#~ "settings are correct and then try again."
+#~ msgstr ""
+#~ "Kan het bestand \"%s\" niet openen omdat de host \"%s\" niet kon worden "
+#~ "gevonden.\n"
+#~ "\n"
+#~ "Kijk of de bestandslocatie juist werd ingevoerd en of de proxy-"
+#~ "instellingen juist zijn en probeer opnieuw."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because the host name was invalid.\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly and try again."
+#~ msgstr ""
+#~ "Kan het bestand \"%s\" niet openen omdat de hostnaam onjuist is.\n"
+#~ "\n"
+#~ "Kijk of u een juiste bestandslocatie heeft ingevoerd en probeer opnieuw."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because the host name was empty.\n"
+#~ "\n"
+#~ "Please, check that your proxy settings are correct and try again."
+#~ msgstr ""
+#~ "Kan het bestand \"%s\" niet openen omdat de hostnaam leeg is.\n"
+#~ "\n"
+#~ "Kijk of de proxy-instellingen juist zijn en probeer opnieuw."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because the attempt to log in failed.\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly and try again."
+#~ msgstr ""
+#~ "Kan het bestand \"%s\" niet openen omdat er niet konder worden ingelogd.\n"
+#~ "\n"
+#~ "Kijk of u een juiste bestandslocatie heeft ingevoerd en probeer opnieuw."
+
+#~ msgid ""
+#~ "Could not open the file \"%s\" because it contains invalid UTF-8 data.\n"
+#~ "\n"
+#~ "Probably, you are trying to open a binary file."
+#~ msgstr ""
+#~ "Kan het bestand \"%s\" niet openen omdat het onjuiste UTF-8 data bevat.\n"
+#~ "\n"
+#~ "U heeft waarschijnlijk geprobeerd een binair bestand te openen."
+
+#~ msgid "Could not open the file \"%s\"."
+#~ msgstr "Kan het bestand \"%s\" niet openen."
+
+#~ msgid "Could not save the file \"%s\"."
+#~ msgstr "Kan het bestand \"%s\" niet opslaan."
+
+#~ msgid ""
+#~ "Could not save the file \"%s\".\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr "Kan het bestand \"%s\" niet opslaan./n%s"
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because pluma cannot find it.\n"
+#~ "\n"
+#~ "Perhaps, it has recently been deleted."
+#~ msgstr ""
+#~ "Kan het bestand \"%s\" niet terugzetten omdat pluma het niet kon vinden.\n"
+#~ "\n"
+#~ "Misschien is het onlangs verwijderd."
+
+#~ msgid "Could not revert the file \"%s\" because it contains corrupted data."
+#~ msgstr ""
+#~ "Kon het bestand \"%s\" niet terugzetten omdat het onjuiste data bevat."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because pluma cannot handle %s: "
+#~ "locations."
+#~ msgstr ""
+#~ "Kan het bestand \"%s\" niet terugzetten omdat pluma geen %s: locaties kan "
+#~ "gebruiken."
+
+#~ msgid "Could not revert the file \"%s\"."
+#~ msgstr "Kon het bestand \"%s\" niet terugzetten."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because it contains data in an invalid "
+#~ "format."
+#~ msgstr ""
+#~ "Kan het bestand \"%s\" niet terugzetten omdat het data in een onjuist "
+#~ "formaat bevat."
+
+#~ msgid "Could not revert the file \"%s\" because it is too big."
+#~ msgstr "Kan het bestand \"%s\" niet terugzetten omdat het te groot is."
+
+#~ msgid "Could not revert the file \"%s\" because access was denied."
+#~ msgstr "Kan het bestand \"%s\" niet terugzetten omdat toegang werd ontzegd."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because there are too many open files.\n"
+#~ "\n"
+#~ "Please, close some open file and try again."
+#~ msgstr ""
+#~ "Kan het bestand \"%s\" niet terugzetten omdat er teveel bestanden geopend "
+#~ "zijn.\n"
+#~ "\n"
+#~ "Sluit enkele bestanden en probeer opnieuw."
+
+#~ msgid ""
+#~ "Not enough available memory to revert the file \"%s\". Please, close some "
+#~ "running application and try again."
+#~ msgstr ""
+#~ "Er is niet genoeg geheugen beschikbaar om het bestand \"%s\" terug te "
+#~ "zetten. Sluit enkele applicaties en probeer opnieuw."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because no host \"%s\" could be found.\n"
+#~ "\n"
+#~ "Please, check that your proxy settings are correct and try again."
+#~ msgstr ""
+#~ "Kan het bestand \"%s\" niet terugzetten omdat de host \"%s\" niet kon "
+#~ "worden gevonden.\n"
+#~ "\n"
+#~ "Kijk of de proxysettings juist zijn en probeer opnieuw."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because the host name was empty.\n"
+#~ "\n"
+#~ "Please, check that your proxy settings are correct and try again."
+#~ msgstr ""
+#~ "Kan het bestand \"%s\" niet terugzetten omdat de hostnaam leeg is.\n"
+#~ "\n"
+#~ "Kijk of de proxysettings juist zijn en probeer opnieuw."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because the attempt to log in failed."
+#~ msgstr ""
+#~ "Kan het bestand \"%s\" niet terugzetten omdat er niet kon worden ingelogd."
+
+#~ msgid ""
+#~ "Could not revert the file \"%s\" because it contains invalid UTF-8 data.\n"
+#~ "\n"
+#~ "Probably, you are trying to revert a binary file."
+#~ msgstr ""
+#~ "Kan het bestand \"%s\" niet terugzetten omdat het onjuiste UTF-8 data "
+#~ "bevat.\n"
+#~ "\n"
+#~ "U probeert waarschijnlijk een binair bestand te openen."
+
+#~ msgid "It is not possible to revert an Untitled document."
+#~ msgstr "Het is niet mogelijk om Naamlose documenten terugzetten."
+
+#~ msgid "The file \"%s\" already exists."
+#~ msgstr "Het bestand \"%s\" bestaat al."
+
+#~ msgid ""
+#~ "\"%s\" is a directory.\n"
+#~ "\n"
+#~ "Please, check that you typed the location correctly."
+#~ msgstr ""
+#~ "\"%s\" is een map.\n"
+#~ "\n"
+#~ "Controleer of u een juiste bestandslocatie heeft ingevoerd."
+
+#~ msgid ""
+#~ "Cannot create the file \"%s\".\n"
+#~ "\n"
+#~ "Make sure you have the appropriate write permissions."
+#~ msgstr ""
+#~ "Kan het bestand \"%s\" niet maken.\n"
+#~ "\n"
+#~ "Zorg ervoor dat U de benodigde schrijfrechten heeft."
+
+#~ msgid ""
+#~ "Cannot create the file \"%s\".\n"
+#~ "\n"
+#~ "The file name is too long."
+#~ msgstr ""
+#~ "Kan het bestand \"%s\" niet aanmaken.\n"
+#~ "\n"
+#~ "De bestandsnaam is te lang."
+
+#~ msgid ""
+#~ "Cannot create the file \"%s\".\n"
+#~ "\n"
+#~ "A directory component in the file name does not exist or is a dangling "
+#~ "symbolic link."
+#~ msgstr ""
+#~ "Kan het bestand \"%s\" niet maken.\n"
+#~ "\n"
+#~ "Een map in de bestandsnaam bestaat niet, of is een losse symbolische "
+#~ "verwijzing."
+
+#~ msgid ""
+#~ "There is not enough disk space to create the file \"%s\".\n"
+#~ "\n"
+#~ "Please free some disk space and try again."
+#~ msgstr ""
+#~ "Er is niet genoeg vrije schijfruimte om het bestand \"%s\" op te slaan.\n"
+#~ "\n"
+#~ "Maak eerst wat ruimte vrij en probeer dan opnieuw."
+
+#~ msgid "Could not create the file \"%s\"."
+#~ msgstr "Kon het bestand \"%s\" niet aanmaken."
+
+#~ msgid "  Ln %d, Col. %d"
+#~ msgstr "  Rg %d, Kol. %d"
+
+#~ msgid "  OVR"
+#~ msgstr "  OVR"
+
+#~ msgid "  INS"
+#~ msgstr "  INS"
+
+#~ msgid "Show utility debugging messages."
+#~ msgstr "Hulpprogramma-debugberichten tonen."
+
+#~ msgid "Show mdi debugging messages."
+#~ msgstr "MDI-debugberichten tonen."
+
+#~ msgid "Show commands debugging messages."
+#~ msgstr "Opdracht-debugberichten tonen."
+
+#~ msgid "Show document debugging messages."
+#~ msgstr "Document-debugberichten tonen."
+
+#~ msgid "Show file debugging messages."
+#~ msgstr "Bestand-debugberichten tonen."
+
+#~ msgid "Show plugin debugging messages."
+#~ msgstr "Plugin-debugberichten tonen."
+
+#~ msgid "Show prefs debugging messages."
+#~ msgstr "Voorkeuren-debugberichten tonen."
+
+#~ msgid "Show printing debugging messages."
+#~ msgstr "Afdruk-debugberichten tonen."
+
+#~ msgid "Show search debugging messages."
+#~ msgstr "Zoek-debugberichten tonen."
+
+#~ msgid "Show undo debugging messages."
+#~ msgstr "Laat undo debug berichten zien."
+
+#~ msgid "Show view debugging messages."
+#~ msgstr "Laat debug-berichten zien."
+
+#~ msgid "Show recent debugging messages."
+#~ msgstr "Recente debugberichten tonen."
+
+#~ msgid "Show session management debugging messages."
+#~ msgstr "Debugberichten tonen van sessiebeheer"
+
+#~ msgid "Turn on all debugging messages."
+#~ msgstr "Zet alle debugberichten aan."
+
+#~ msgid "Quit an existing instance of pluma"
+#~ msgstr "Een bestaande instantie van pluma afsluiten"
+
+#~ msgid "Create a new toplevel window in an existing instance of pluma"
+#~ msgstr "Een nieuw venster maken van een bestaande instantie van pluma"
+
+#~ msgid "Create a new document in an existing instance of pluma"
+#~ msgstr "Een nieuw document maken in een bestaande instantie van pluma"
+
+#~ msgid "Close the output window"
+#~ msgstr "Uitvoervenster sluiten"
+
+#~ msgid "Clear the output window"
+#~ msgstr "Uitvoervenster wissen"
+
+#~ msgid "Choose one or more e_ncodings:"
+#~ msgstr "Kies één of meer coderi_ngen:"
+
+#~ msgid "Western"
+#~ msgstr "Westers"
+
+#~ msgid "Central European"
+#~ msgstr "Centraal-Europees"
+
+#~ msgid "South European"
+#~ msgstr "Zuid-Europees"
+
+#~ msgid "Baltic"
+#~ msgstr "Baltisch"
+
+#~ msgid "Cyrillic"
+#~ msgstr "Cyrillisch"
+
+#~ msgid "Arabic"
+#~ msgstr "Arabisch"
+
+#~ msgid "Greek"
+#~ msgstr "Grieks"
+
+#~ msgid "Hebrew Visual"
+#~ msgstr "Hebreeuws visueel"
+
+#~ msgid "Hebrew"
+#~ msgstr "Hebreeuws"
+
+#~ msgid "Turkish"
+#~ msgstr "Turks"
+
+#~ msgid "Nordic"
+#~ msgstr "Noors"
+
+#~ msgid "Celtic"
+#~ msgstr "Keltisch"
+
+#~ msgid "Romanian"
+#~ msgstr "Roemeens"
+
+#~ msgid "Unicode"
+#~ msgstr "Unicode"
+
+#~ msgid "Armenian"
+#~ msgstr "Armeens"
+
+#~ msgid "Chinese Traditional"
+#~ msgstr "Chinees-traditioneel"
+
+#~ msgid "Cyrillic/Russian"
+#~ msgstr "Cyrillisch/Russisch"
+
+#~ msgid "Japanese"
+#~ msgstr "Japans"
+
+#~ msgid "Korean"
+#~ msgstr "Koreaans"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Chinees-vereenvoudigd"
+
+#~ msgid "Georgian"
+#~ msgstr "Georgisch"
+
+#~ msgid "Cyrillic/Ukrainian"
+#~ msgstr "Cyrillisch/Oekraïens"
+
+#~ msgid "Croatian"
+#~ msgstr "Kroatisch"
+
+#~ msgid "Hindi"
+#~ msgstr "Hindi"
+
+#~ msgid "Farsi"
+#~ msgstr "Farsi"
+
+#~ msgid "Gujarati"
+#~ msgstr "Gujarati"
+
+#~ msgid "Gurmukhi"
+#~ msgstr "Gurmukhi"
+
+#~ msgid "Icelandic"
+#~ msgstr "IJslands"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Vietnamees"
+
+#~ msgid "Thai"
+#~ msgstr "Thais"
+
+#~ msgid " (invalid Unicode)"
+#~ msgstr " (ongeldige Unicode)"
+
+#~ msgid "sans 12"
+#~ msgstr "sans 12"
+
+#~ msgid "Compare two files..."
+#~ msgstr "Twee bestanden vergelijken..."
+
+#~ msgid "_Word Count"
+#~ msgstr "_Woorden Tellen"
+
+#~ msgid "Execute a shell command"
+#~ msgstr "Een shell-opdracht uitvoeren"
+
+#~ msgid "Shell output"
+#~ msgstr "Shell-uitvoer"
+
+#~ msgid "Capture the command _output"
+#~ msgstr "Uitvoer van commando _opvangen"
+
+#~ msgid "Specify the working directory and the command you want to run."
+#~ msgstr "Geef de werkmap en de opdracht op die u wilt uitvoeren."
+
+#~ msgid "Select a format"
+#~ msgstr "Selecteer een formaat"
+
+#~ msgid "<span weight=\"bold\">Sort Order</span>"
+#~ msgstr "<span weight=\"bold\">Sorteervolgorde</span>"
+
+#~ msgid "Cas_e sensitive"
+#~ msgstr "Hoofdlett_ergevoelig"
+
+#~ msgid "_Ascending"
+#~ msgstr "_Oplopend"
+
+#~ msgid "_Descending"
+#~ msgstr "_Aflopend"
+
+#~ msgid ""
+#~ "Could not find the required widgets inside languages-dialog.glade2.\n"
+#~ msgstr ""
+#~ "Kon de vereiste widgets niet vinden binnen languages-dialog.glade2.\n"
+
+#~ msgid "_Spelling..."
+#~ msgstr "_Spelling..."
+
+#~ msgid "_Check Spelling..."
+#~ msgstr "Spelling _controleren..."
+
+#~ msgid "_Goto line"
+#~ msgstr "_Ga naar regel"
+
+#~ msgid ""
+#~ "Could not find the required widgets inside program-location-dialog."
+#~ "glade2.\n"
+#~ msgstr ""
+#~ "Kan de vereiste widgets niet vinden binnen program-location-dialog."
+#~ "glade2.\n"
+
+#~ msgid " _Wrap lines (at character boundaries)"
+#~ msgstr " Regels _afbreken (op karakterbegrenzingen)"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Load</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Laden</span>"
+
+#~ msgid "<span weight=\"bold\">When saving...</span>"
+#~ msgstr "<span weight=\"bold\">Bij het opslaan...</span>"
+
+#~ msgid "Font used to print line _numbers:"
+#~ msgstr "Lettertype voor afdrukken regel_nummers:"
+
+#~ msgid "Font used to print the _body:"
+#~ msgstr "Lettertype voor afdrukken _tekstinhoud:"
+
+#~ msgid "_Font used by the editor: "
+#~ msgstr "Lettertype in de editor:"
+
+#~ msgid "_Font used to print headers:"
+#~ msgstr "_Lettertype om koppen af te drukken:"
+
+#~ msgid "<span weight=\"bold\">Search from</span>"
+#~ msgstr "<span weight=\"bold\">Zoeken vanaf</span>"
+
+#~ msgid "C_ursor position"
+#~ msgstr "C_ursorpositie"
+
+#~ msgid "Case sensi_tive"
+#~ msgstr "Hoofdlet_tergevoelig"
+
+#~ msgid "_Beginning of the document"
+#~ msgstr "_Begin van het document"
+
+#~ msgid "Not yet implemented."
+#~ msgstr "Nog niet geïmplementeerd."
+
+#~ msgid "The string \"%s\" has not been found."
+#~ msgstr "De zoekterm \"%s\" is niet gevonden."
+
+#~ msgid ""
+#~ "(C) 1998-2000 Evan Lawrence and Alex Robert\n"
+#~ "(C) 2000-2002 Chema Celorio and Paolo Maggi"
+#~ msgstr ""
+#~ "© 1998-2000 Evan Lawrence and Alex Robert\n"
+#~ "© 2000-2002 Chema Celorio and Paolo Maggi"
+
+#~ msgid "Close All"
+#~ msgstr "Alles sluiten"
+
+#~ msgid "Goto _Line"
+#~ msgstr "Ga naar _regel"
+
+#~ msgid "Pr_eferences..."
+#~ msgstr "Inst_ellingen"
+
+#~ msgid "Save All"
+#~ msgstr "Alles Opslaan"
+
+#~ msgid ""
+#~ "Could not find the required widgets inside pluma-encodings-dialog."
+#~ "glade2.\n"
+#~ msgstr ""
+#~ "Kan de vereiste widgets niet vinden binnen pluma-encodings-dialog."
+#~ "glade2.\n"
+
+#~ msgid "%d/%m/%Y %H:%M:%S"
+#~ msgstr "%d/%m/%Y %H:%M:%S"
+
+#~ msgid "Set program location ..."
+#~ msgstr "Programmalocatie instellen..."
+
+#~ msgid ""
+#~ "If you wish to insert any of the characters in to the active \n"
+#~ "document, select the character and click the \"Insert Char\" \n"
+#~ "button or double click the character in the table."
+#~ msgstr ""
+#~ "Als u speciale tekens in een document wilt invoegen, selecteer het "
+#~ "speciale teken en klik op de \"Speciaal teken invoegen\" knop of "
+#~ "dubbelklik op het speciale teken in de tabel."
+
+#~ msgid "Insert char"
+#~ msgstr "Speciaal teken invoegen"
+
+#~ msgid "pluma: ASCII table"
+#~ msgstr "pluma: ASCII tabel"
+
+#~ msgid "Insert Shell _Output"
+#~ msgstr "Shell _uitvoer invoegen"
+
+#~ msgid "Select the format to use when inserting date/time."
+#~ msgstr ""
+#~ "Selecteer het te gebruiken formaat voor het invoegen van datum/tijd."
+
+#~ msgid "Courier 9"
+#~ msgstr "Courier 9"
+
+#~ msgid "Helvetica 11"
+#~ msgstr "Helvetica 11"
+
+#~ msgid "Helvetica 8"
+#~ msgstr "Helvetica 8"
+
+#~ msgid ""
+#~ "Always use UTF-8 encoding (faster) when creating a new file\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Altijd UTF-8 codering gebruiken (sneller) bij het aanmaken van een nieuw "
+#~ "bestand\n"
+
+#~ msgid ""
+#~ "Always use UTF-8 encoding (faster) when saving\n"
+#~ "\n"
+#~ msgstr "Altijd UTF-8 codering gebruiken (sneller) bij opslaan\n"
+
+#~ msgid "Colors"
+#~ msgstr "Kleuren"
+
+#~ msgid ""
+#~ "The font & colors settings let you choose the font and the colors to be "
+#~ "used in the editor windows."
+#~ msgstr ""
+#~ "Met de Lettertype & kleuren-instellingen kunnen de lettertypes en kleuren "
+#~ "in het tekstvenster worden gekozen."
+
+#~ msgid ""
+#~ "The line numbers setting lets you choose to display the line numbers on "
+#~ "the left hand side of the window."
+#~ msgstr ""
+#~ "Met de regelnummer-instellingen kunnen regelnummers aan de linkerkant van "
+#~ "het tekstvenster geplaatst worden."
+
+#~ msgid ""
+#~ "The plugin manager settings let you choose which plugins you want to have "
+#~ "loaded."
+#~ msgstr "Met pluginbeheer kunt u kiezen welke plugins u geladen wilt hebben."
+
+#~ msgid ""
+#~ "The print fonts settings let you choose the fonts to be used to print "
+#~ "documents."
+#~ msgstr ""
+#~ "Met de lettertype-afdrukinstellingen kunt u aangeven welke lettertypen "
+#~ "gebruikt moetne worden voor het afdrukken."
+
+#~ msgid ""
+#~ "The print page settings let you customize how pluma prints documents."
+#~ msgstr ""
+#~ "Met de pagina-afdrukinstellingen kunt u aangeven hoe pluma documenten "
+#~ "moet afdrukken."
+
+#~ msgid "The save settings let you customize how pluma saves files."
+#~ msgstr ""
+#~ "Met de opslag-instellingen kan worden aangegeven hoe pluma bestanden moet "
+#~ "opslaan."
+
+#~ msgid "The tabs settings let you customize the tabs width."
+#~ msgstr "Met de tabs instellingen kan de tabbreedte worden gewijzigd."
+
+#~ msgid ""
+#~ "The undo settings let you set the maximum number of actions that pluma "
+#~ "can undo."
+#~ msgstr ""
+#~ "Met de \"ongedaan maken\"-instellingen kan het maximale aantal ongedaan "
+#~ "maken-acties worden ingesteld."
+
+#~ msgid ""
+#~ "The wrap mode settings let you customize how lines have to be wrapped."
+#~ msgstr ""
+#~ "Met de regelafbreek-instellingen kan worden aangegeven hoe regels moeten "
+#~ "worden afgebroken."
+
+#~ msgid ""
+#~ "Use current locale's encoding if possible when creating a new file\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Codering van huidige locale gebruiken bij aanmaken van een nieuw bestand "
+#~ "(indien mogelijk)\n"
+
+#~ msgid ""
+#~ "Use current locale's encoding if possible when saving\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Codering van huidige locale gebruiken bij opslaan (indien mogelijk)\n"
+
+#~ msgid "When saving..."
+#~ msgstr "Bij opslaan..."
+
+#~ msgid "Wrap lines at _word boundaries"
+#~ msgstr "Regels afbreken bij _woordgrenzen"
+
+#~ msgid "Wrap lines at ch_aracter boundaries"
+#~ msgstr "Regels afbreken bij k_araktergrenzen"
+
+#~ msgid "_Never wrap lines"
+#~ msgstr "_Nooit regels afbreken"
+
+#~ msgid "Search from the c_ursor position"
+#~ msgstr "Zoek vanaf de huidige c_ursor positie"
+
+#~ msgid "Do_n't replace"
+#~ msgstr "_Niet vervangen"
+
+#~ msgid "Error, the plugin '%s' did not specified a name"
+#~ msgstr "Fout: de plugin '%s' heeft geen naam opgegeven"
+
+#~ msgid "Error, impossible to save settings of the plugin '%s'"
+#~ msgstr "Fout: kan de instellingen van de plugin '%s' niet opslaan"
+
+#~ msgid "Clos_e All"
+#~ msgstr "All_es sluiten"
+
+#~ msgid "Recent _Files"
+#~ msgstr "_Recente bestanden"
+
+#~ msgid "Open %s"
+#~ msgstr "%s openen"

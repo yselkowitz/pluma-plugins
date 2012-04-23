@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-03-28 09:31+0100\n"
+"PO-Revision-Date: 2007-06-19 11:24+0530\n"
+"Last-Translator: yumkee lhamo <yumkeyl08@hotmail.com>\n"
+"Language-Team: dzongkha <pgeyleg@dit .gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "ཁ་བསྡམ་གུག་ཤད་ཚུ་ རང་བཞིན་གྱིས་ཁ་སྐོང་རྐྱབ་ཨིན།"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.h:2
+msgid "Bracket Completion"
+msgstr "གུག་ཤད་མཇུག་བསྡུ་བ་"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:255
+msgid "Character Map"
+msgstr "ཡིག་འབྲུའི་ས་ཁྲ་"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "དེ་གུ་ཨེབ་གཏང་འབད་ཐོག་ལས་ དམིགས་བསལ་ཡིག་འབྲུ་ཚུ་བཙུགས།"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.h:1
+msgid "Code comment"
+msgstr "ཨང་རྟགས་བསམ་བཀོད་"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "ཨང་རྟ་གས་ཀྱི་སེལ་འཐུ་འབད་ཡོད་པའི་སྡེབ་ཚན་ཅིག་ བསམ་བཀོད་འབད་ ཡང་ན་ བསམ་བཀོད་འབད་བཤོལ།"
+
+#: ../plugins/codecomment/codecomment.py:249
+msgid "Co_mment Code"
+msgstr "བསམ་བཀོད་ཨང་རྟགས་(_m)"
+
+#: ../plugins/codecomment/codecomment.py:251
+msgid "Comment the selected code"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ཨང་རྟགས་ བསམ་བཀོད་འབད་"
+
+#: ../plugins/codecomment/codecomment.py:255
+msgid "U_ncomment Code"
+msgstr "ཨང་རྟགས་བསམ་བཀོད་འབད་བཤོལ་(_n)"
+
+#: ../plugins/codecomment/codecomment.py:257
+msgid "Uncomment the selected code"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ཨང་རྟགས་ བསམ་བཀོད་འབད་བཤོལ་"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.h:1
+msgid "Color Picker"
+msgstr "ཚོས་གཞི་འཐུ་མི་"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "ཌའི་ལོག་ཅིག་ནང་ལས་ ཚོས་གཞི་ཅིག་འཐུ་་ཞིནམ་ལས་ དེ་གི་ཧེག་ཟ་ཌེ་སི་མཱལ་ཁྱད་ཚབ་བཙུགས།"
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "_Color picker"
+msgstr "ཚོས་གཞི་འཐུ་མི་(_C)"
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "ཌའི་ལོག་ཅིག་ནང་ལས་ཚོས་གཞི་ཅིག་འཐུ་"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Color picker"
+msgstr "ཚོས་གཞི་འཐུ་མི་"
+
+#: ../plugins/colorpicker/colorpicker.py:228
+msgid "_Insert"
+msgstr "བཙུགས་(_I)"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.h:1
+msgid "Draw Spaces"
+msgstr "བར་སྟོང་ཚུ་འཐེན་"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "བར་སྟོང་ཚུ་དང་མཆོང་ལྡེ་ཚུ་འཐེན་"
+
+#: ../plugins/drawspaces/drawspaces.glade.h:1
+msgid "Draw spaces"
+msgstr "བར་སྟོང་ཚུ་འཐེན་"
+
+#: ../plugins/drawspaces/drawspaces.glade.h:2
+msgid "Draw tabs"
+msgstr "མཆོང་ལྡེ་ཚུ་འཐེན་"
+
+#: ../plugins/drawspaces/drawspaces.glade.h:3
+msgid "Drawing color:"
+msgstr "པར་རིས་འབྲི་ནིའི་ཚོས་གཞི་:"
+
+#. ex:ts=4:et:
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "གྲལ་ཐིག་མང་ཤོས་ཅིག་མཐུད་ ཡང་ན་ རིངམོ་ཚུ་གཤག་"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.h:2
+msgid "Join/Split Lines"
+msgstr "གྲལ་ཐིག་མཐུད་/གཤག་"
+
+#: ../plugins/joinlines/joinlines.py:68
+msgid "_Join Lines"
+msgstr "གྲལ་ཐིག་མཐུད་(_J)"
+
+#: ../plugins/joinlines/joinlines.py:69
+msgid "Join the selected lines"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་གྲལ་ཐིག་ཚུ་མཐུད་"
+
+#: ../plugins/joinlines/joinlines.py:71
+msgid "_Split Lines"
+msgstr "གྲལ་ཐིག་ཚུ་གཤག་(_S)"
+
+#: ../plugins/joinlines/joinlines.py:72
+msgid "Split the selected lines"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་གྲལ་ཐིག་ཚུ་གཤག་"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "མཆོང་ལྡེ་ཕྲ་རིང་(_b)"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "ད་ལྟོའི་སྒོ་སྒྲིག་ནང་ལུ་ མཆོང་ལྡེ་ཕྲ་རིང་སྟོན་ ཡང་ན་ སྦ་"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "མཆོང་ལྡེ་ཕྲ་རིང་འདི་མཐོང་ཚུགས་"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr "མཆོང་ལྡེ་འདི་ཞུན་དག་སྒོ་སྒྲིག་ནང་ལུ་མཐོང་དགོཔ་ཨིན་རུང་མེན་རུང་།"
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr "མཆོང་ལྡེ་ཕྲ་རིང་འདི་སྟོན་/སྦ་ནིའི་དོན་ལས་ དཀར་ཆག་ཐོ་བཀོད་ཅིག་ཁ་སྐོང་རྐྱབས།"
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "མཆོང་ལྡེ་ཕྲ་རིང་སྟོན་/སྦ་"
+
+#: ../plugins/sessionsaver/dialogs.py:165
+msgid "Session Name"
+msgstr "ལཱ་ཡུན་གྱི་མིང་"
+
+#. ex:ts=4:et:
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.h:1
+msgid "Save and restore your working sessions"
+msgstr "ཁྱོད་རའི་ལཱ་འབད་བའི་ལཱ་ཡུན་ཚུ་ སོར་ཆུད་དང་སྲུང་བཞག་འབད་"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.h:2
+msgid "Session Saver"
+msgstr "ལཱ་ཡུན་ སྲུང་བ་པོ་"
+
+#: ../plugins/sessionsaver/sessionsaver.glade.h:1
+msgid "Session name:"
+msgstr "ལཱ་ཡུན་གྱི་མིང་:"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "ཁྱོད་ཀྱིས་ རེའུ་མིག་ལག་ལེན་འཐབ་དོ་མེདཔ་ལས་ བཀོག་བཞག"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.h:2
+msgid "Smart Spaces"
+msgstr "སྤུར་བསྒྱིར་དྲགས་ཀྱི་་བར་སྟོང་"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "གཤམ་གྱི་པཱན་ནང་ ཊར་མི་ནཱལ་ཅིག་གནས་འདྲེན་འབད།"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.h:2
+msgid "Embedded Terminal"
+msgstr "གནས་འདྲེན་འབད་ཡོད་པའི་ཊར་མི་ནཱལ་"
+
+#: ../plugins/terminal/terminal.py:206
+msgid "Terminal"
+msgstr "ཊར་མི་ནཱལ་"
+
+#: ../plugins/terminal/terminal.py:227
+msgid "C_hange Directory"
+msgstr "སྣོད་ཐོ་སོར་(_h)"
+

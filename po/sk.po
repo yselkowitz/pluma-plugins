@@ -1,0 +1,30 @@
+# translation of pluma-plugins.HEAD.po to Slovak
+# translation of sk.po to Slovak
+# Slovak translation of sk.po
+# pluma sk.po
+# Copyright (C) 2000-2002, 2003, 2004, 2005 Free Software Foundation, Inc.
+# Stanislav Visnovsky <visnovsky@nenya.ms.mff.cuni.cz>, 2000-2002,2003, 2004.
+# Stanislav Višňovský <visnovsky@nenya.ms.mff.cuni.cz>, 2002.
+# Marcel Telka <marcel@telka.sk>, 2005.
+#
+# $Id$
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-11-06 17:22+0100\n"
+"PO-Revision-Date: 2005-11-06 17:23+0100\n"
+"Last-Translator: Marcel Telka <marcel@telka.sk>\n"
+"Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../quickies/quickies.glade.h:1
+msgid "Execute"
+msgstr "Vykonať"
+
+#: ../quickies/quickies.glade.h:2
+msgid "Quick Script:"
+msgstr "Rýchly skript:"

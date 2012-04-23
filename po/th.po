@@ -1,0 +1,239 @@
+# Thai translation of pluma-plugins.
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the pluma-plugins package.
+# Visal Srivisal <srivisal@yahoo.com>, 2008.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-09-16 10:13+0700\n"
+"PO-Revision-Date: 2008-09-16 11:29+0700\n"
+"Last-Translator:  Visal Srivisal <srivisal@yahoo.com>\n"
+"Language-Team: Thai <thai-l10n@googlegroups.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.h:1
+msgid "Automatically adds closing brackets."
+msgstr "เติมวงเล็บปิดโดยอัตโนมัติ"
+
+#: ../plugins/bracketcompletion/bracketcompletion.pluma-plugin.desktop.in.h:2
+msgid "Bracket Completion"
+msgstr "การเติมวงเล็บ"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.h:1
+#: ../plugins/charmap/pluma-charmap-plugin.c:320
+msgid "Character Map"
+msgstr "ตารางอักขระ"
+
+#: ../plugins/charmap/charmap.pluma-plugin.desktop.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "แทรกอักขระพิเศษโดยการคลิกบนตัวอักษร"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.h:1
+msgid "Code comment"
+msgstr "หมายเหตุโค้ด"
+
+#: ../plugins/codecomment/codecomment.pluma-plugin.desktop.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "ทำหมายเหตุหรือเลิกทำหมายเหตุชุดโค้ดที่เลือก"
+
+#: ../plugins/codecomment/codecomment.py:230
+msgid "Co_mment Code"
+msgstr "ทำห_มายเหตุโค้ด"
+
+#: ../plugins/codecomment/codecomment.py:232
+msgid "Comment the selected code"
+msgstr "ทำหมายเหตุโค้ดที่เลือก"
+
+#: ../plugins/codecomment/codecomment.py:236
+msgid "U_ncomment Code"
+msgstr "เ_ลิกทำหมายเหตุโค้ด"
+
+#: ../plugins/codecomment/codecomment.py:238
+msgid "Uncomment the selected code"
+msgstr "เลิกทำหมายเหตุโค้ดที่เลือก"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.h:1
+msgid "Color Picker"
+msgstr "เครื่องมือเลือกสี"
+
+#: ../plugins/colorpicker/colorpicker.pluma-plugin.desktop.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "เลือกสีจากกล่องโต้ตอบและแทรกรหัสสีในรูปของเลขฐานสิบหก"
+
+#: ../plugins/colorpicker/colorpicker.py:73
+msgid "Pick _Color..."
+msgstr "เลือก_สี..."
+
+#: ../plugins/colorpicker/colorpicker.py:74
+msgid "Pick a color from a dialog"
+msgstr "เลือกสีจากกล่องโต้ตอบ"
+
+#: ../plugins/colorpicker/colorpicker.py:220
+msgid "Pick Color"
+msgstr "เลือกสี"
+
+#: ../plugins/colorpicker/colorpicker.py:226
+msgid "_Insert"
+msgstr "แ_ทรก"
+
+#. ex:ts=4:et:
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.h:1
+msgid "Draw Spaces"
+msgstr "แสดงช่องว่าง"
+
+#: ../plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "แสดงช่องว่างและแท็บ"
+
+#: ../plugins/drawspaces/drawspaces.glade.h:1
+msgid "Draw non-breaking spaces"
+msgstr "แสดงช่องว่างที่ไม่แบ่งบรรทัด"
+
+#: ../plugins/drawspaces/drawspaces.glade.h:2
+msgid "Draw spaces"
+msgstr "แสดงช่องว่าง"
+
+#: ../plugins/drawspaces/drawspaces.glade.h:3
+msgid "Draw tabs"
+msgstr "แสดงแท็บ"
+
+#: ../plugins/drawspaces/drawspaces.glade.h:4
+msgid "Drawing color:"
+msgstr "สีที่แสดง:"
+
+#: ../plugins/drawspaces/drawspaces.py:174
+msgid "Show White Space"
+msgstr "แสดงช่องว่างวรรคตอน"
+
+#: ../plugins/drawspaces/drawspaces.py:175
+msgid "Show spaces and tabs"
+msgstr "แสดงช่องว่างและแท็บ"
+
+#. ex:ts=4:et:
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.h:1
+msgid "Join several lines or split long ones"
+msgstr "เชื่อมหลายบรรทัดหรือแบ่งบรรทัดยาวๆ"
+
+#: ../plugins/joinlines/joinlines.pluma-plugin.desktop.in.h:2
+msgid "Join/Split Lines"
+msgstr "เชื่อม/แยกบรรทัด"
+
+#: ../plugins/joinlines/joinlines.py:56
+msgid "_Join Lines"
+msgstr "เ_ชื่อมบรรทัด"
+
+#: ../plugins/joinlines/joinlines.py:57
+msgid "Join the selected lines"
+msgstr "เชื่อมบรรทัดที่เลือก"
+
+#: ../plugins/joinlines/joinlines.py:59
+msgid "_Split Lines"
+msgstr "แ_ยกบรรทัด"
+
+#: ../plugins/joinlines/joinlines.py:60
+msgid "Split the selected lines"
+msgstr "แยกบรรทัดที่เลือก"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:208
+msgid "Tab_bar"
+msgstr "แ_ถบแท็บ"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.c:209
+msgid "Show or hide the tabbar in the current window"
+msgstr "ซ่อนหรือแสดงแถบแท็บในหน้าต่างปัจจุบัน"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:1
+msgid "Tabbar is Visible"
+msgstr "แสดงแถบแท็บ"
+
+#: ../plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in.h:2
+msgid "Whether the tabbar should be visible in editing windows."
+msgstr "แสดงแถบแท็บในหน้าต่างแก้ไข"
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.h:1
+msgid "Add a menu entry to show/hide the tabbar."
+msgstr "เพิ่มรายการเมนูเพื่อซ่อน/แสดงแถบแท็บ"
+
+#: ../plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.h:2
+msgid "Show/Hide Tabbar"
+msgstr "ซ่อน/แสดงแถบแท็บ"
+
+#: ../plugins/sessionsaver/__init__.py:65
+msgid "Sa_ved sessions"
+msgstr "_วาระที่บันทึกไว้"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "_Save current session"
+msgstr "_บันทึกวาระปัจจุบัน"
+
+#: ../plugins/sessionsaver/__init__.py:66
+msgid "Save the current document list as a new session"
+msgstr "บันทึกรายการเอกสารปัจจุบันเป็นวาระใหม่"
+
+#: ../plugins/sessionsaver/__init__.py:67
+msgid "_Manage saved sessions..."
+msgstr "_จัดการวาระที่บันทึกไว้..."
+
+#: ../plugins/sessionsaver/__init__.py:67
+msgid "Open the saved session manager"
+msgstr "เปิดเครื่องมือจัดการวาระที่บันทึกไว้"
+
+#: ../plugins/sessionsaver/__init__.py:107
+#, python-format
+msgid "Recover '%s' session"
+msgstr "กู้คืนวาระ '%s'"
+
+#: ../plugins/sessionsaver/dialogs.py:165
+msgid "Session Name"
+msgstr "ชื่อวาระ"
+
+#. ex:ts=4:et:
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.h:1
+msgid "Save and restore your working sessions"
+msgstr "บันทึกและกู้คืนวาระการทำงานของคุณ"
+
+#: ../plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.h:2
+msgid "Session Saver"
+msgstr "เครื่องมือบันทึกวาระ"
+
+#: ../plugins/sessionsaver/sessionsaver.glade.h:1
+msgid "Save session"
+msgstr "บันทึกวาระ"
+
+#: ../plugins/sessionsaver/sessionsaver.glade.h:2
+msgid "Saved Sessions"
+msgstr "วาระที่บันทึกไว้"
+
+#: ../plugins/sessionsaver/sessionsaver.glade.h:3
+msgid "Session name:"
+msgstr "ชื่อวาระ:"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.h:1
+msgid "Forget you're not using tabulations."
+msgstr "จำลองการใช้แท็บด้วยช่องว่าง"
+
+#: ../plugins/smartspaces/smartspaces.pluma-plugin.desktop.in.h:2
+msgid "Smart Spaces"
+msgstr "ช่องว่างแบบฉลาด"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.h:1
+msgid "Embed a terminal in the bottom pane."
+msgstr "ฝังเทอร์มินัลในช่องด้านล่าง"
+
+#: ../plugins/terminal/terminal.pluma-plugin.desktop.in.h:2
+msgid "Embedded Terminal"
+msgstr "เทอร์มินัลฝังตัว"
+
+#: ../plugins/terminal/terminal.py:220
+msgid "Terminal"
+msgstr "เทอร์มินัล"
+
+#: ../plugins/terminal/terminal.py:241
+msgid "C_hange Directory"
+msgstr "เป_ลี่ยนไดเรกทอรี"
