@@ -313,27 +313,26 @@ then
 fi
 
 # ================================================================
-# gucharmap
+# mucharmap
 # ================================================================
 plugin_defined charmap
 if test "$?" = 1
 then
-	GUCHARMAP2_REQUIRED=2.23.0
-	PKG_CHECK_MODULES([GUCHARMAP],
-		[gucharmap-2 >= $GUCHARMAP2_REQUIRED],
-		[have_gucharmap=yes],[have_gucharmap=no])
+	PKG_CHECK_MODULES([MUCHARMAP],
+		[mucharmap-2],
+		[have_mucharmap=yes],[have_mucharmap=no])
 
-	AC_SUBST([GUCHARMAP_CFLAGS])
-	AC_SUBST([GUCHARMAP_LIBS])
+	AC_SUBST([MUCHARMAP_CFLAGS])
+	AC_SUBST([MUCHARMAP_LIBS])
 
-	if test "$have_gucharmap" = "no"; then
+	if test "$have_mucharmap" = "no"; then
 		plugin_defined_explicit charmap
 		if test "$?" = 1
 		then
-			AC_MSG_ERROR([gucharmap could not be found, needed to built charmap plugin])
+			AC_MSG_ERROR([mucharmap could not be found, needed to built charmap plugin])
 		else
-			AC_MSG_WARN([gucharmap could not be found, charmap plugin will be disabled])
-			undef_plugin charmap "libgucharmap not found"
+			AC_MSG_WARN([mucharmap could not be found, charmap plugin will be disabled])
+			undef_plugin charmap "libmucharmap not found"
 		fi
 	fi
 fi
