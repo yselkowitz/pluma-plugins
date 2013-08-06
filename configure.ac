@@ -3,7 +3,7 @@ dnl Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.59)
  
 m4_define(pluma_plugins_major_version,  1)
-m4_define(pluma_plugins_minor_version,  2)
+m4_define(pluma_plugins_minor_version,  4)
 m4_define(pluma_plugins_micro_version,  0)
 m4_define(pluma_plugins_version, pluma_plugins_major_version.pluma_plugins_minor_version.pluma_plugins_micro_version)
 
