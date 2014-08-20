@@ -24,27 +24,16 @@ plugin_in_files = showtabbar.pluma-plugin.desktop.in
 
 plugin_DATA = $(plugin_in_files:.pluma-plugin.desktop.in=.pluma-plugin)
 
-# MateConf Schemas
+gsettings_SCHEMAS = org.mate.pluma.plugins.showtabbar.gschema.xml
+@INTLTOOL_XML_NOMERGE_RULE@
+@GSETTINGS_RULES@
 
-schemasdir	 = $(MATECONF_SCHEMA_FILE_DIR)
-schemas_in_files = pluma-show-tabbar-plugin.schemas.in
-schemas_DATA 	 = $(schemas_in_files:.schemas.in=.schemas)
-@INTLTOOL_SCHEMAS_RULE@
+convertdir = $(datadir)/MateConf/gsettings
+convert_DATA = pluma-plugins-showtabbar.convert
 
-if MATECONF_SCHEMAS_INSTALL
-install-data-local:
-	        if test -z "$(DESTDIR)" ; then \
-	                for p in $(schemas_DATA) ; do \
-	                        MATECONF_CONFIG_SOURCE=$(MATECONF_SCHEMA_CONFIG_SOURCE) $(MATECONFTOOL) --makefile-install-rule $$p ; \
-	                done \
-	        fi
-else
-install-data-local:
-endif
+EXTRA_DIST = $(convert_DATA)
 
-EXTRA_DIST = $(schemas_in_files)
-
-CLEANFILES = $(plugin_DATA) $(schemas_DATA)
-DISTCLEANFILES = $(plugin_DATA) $(schemas_DATA)
+CLEANFILES = $(plugin_DATA)
+DISTCLEANFILES = $(plugin_DATA)
 
 -include $(top_srcdir)/git.mk

@@ -1,0 +1,9 @@
+<schemalist>
+  <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.mate.pluma.plugins.showtabbar" path="/org/mate/pluma/plugins/showtabbar/">
+    <key name="tabbar-visible" type="b">
+      <default>true</default>
+      <_summary>Tabbar is Visible</_summary>
+      <_description>Whether the tabbar should be visible in editing windows.</_description>
+    </key>
+  </schema>
+</schemalist>

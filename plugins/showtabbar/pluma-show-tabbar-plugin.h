@@ -50,6 +50,9 @@ typedef struct _PlumaShowTabbarPlugin		PlumaShowTabbarPlugin;
 struct _PlumaShowTabbarPlugin
 {
 	PlumaPlugin parent_instance;
+
+	/* private */
+	PlumaShowTabbarPluginPrivate *priv;
 };
 
 /*

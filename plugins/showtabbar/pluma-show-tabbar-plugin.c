@@ -28,19 +28,25 @@
 
 #include <glib/gi18n-lib.h>
 #include <pluma/pluma-debug.h>
-#include <mateconf/mateconf-client.h>
 
 
 #define WINDOW_DATA_KEY	"PlumaShowTabbarWindowData"
 #define MENU_PATH 	"/MenuBar/ViewMenu"
-#define MATECONF_BASE_KEY	"/apps/pluma/plugins/showtabbar"
+#define SETTINGS_BASE		"org.mate.pluma.plugins.showtabbar"
+#define SETTINGS_KEY_TABBAR	"tabbar-visible"
 
 #define PLUMA_SHOW_TABBAR_PLUGIN_GET_PRIVATE(object)	(G_TYPE_INSTANCE_GET_PRIVATE ((object), PLUMA_TYPE_SHOW_TABBAR_PLUGIN, PlumaShowTabbarPluginPrivate))
 
 PLUMA_PLUGIN_REGISTER_TYPE (PlumaShowTabbarPlugin, pluma_show_tabbar_plugin)
 
+struct _PlumaShowTabbarPluginPrivate
+{
+	GSettings	*settings;
+};
+
 typedef struct
 {
+	PlumaShowTabbarPlugin *plugin;
 	GtkActionGroup *action_group;
 	guint           ui_id;
 	gulong		signal_handler_id;
@@ -51,61 +57,27 @@ pluma_show_tabbar_plugin_init (PlumaShowTabbarPlugin *plugin)
 {
 	pluma_debug_message (DEBUG_PLUGINS,
 			     "PlumaShowTabbarPlugin initializing");
+
+	plugin->priv = PLUMA_SHOW_TABBAR_PLUGIN_GET_PRIVATE (plugin);
+
+	plugin->priv->settings = g_settings_new (SETTINGS_BASE);
 }
 
 static void
-pluma_show_tabbar_plugin_finalize (GObject *object)
+pluma_show_tabbar_plugin_dispose (GObject *object)
 {
+	PlumaShowTabbarPlugin *plugin = PLUMA_SHOW_TABBAR_PLUGIN (object);
+
 	pluma_debug_message (DEBUG_PLUGINS,
-			     "PlumaShowTabbarPlugin finalizing");
+			     "PlumaShowTabbar plugin disposing");
 
-	G_OBJECT_CLASS (pluma_show_tabbar_plugin_parent_class)->finalize (object);
-}
-
-static gboolean
-mateconf_load_tabbar_visible (void)
-{
-	MateConfClient *client;
-	MateConfValue *value;
-
-	client = mateconf_client_get_default ();
-
-	value = mateconf_client_get (client,
-				  MATECONF_BASE_KEY "/tabbar_visible",
-				  NULL);
-
-	g_object_unref (client);
-
-	if (value != NULL)
+	if (plugin->priv->settings != NULL)
 	{
-        	gboolean visible;
-
-        	visible = (value->type == MATECONF_VALUE_BOOL)
-        			? mateconf_value_get_bool (value)
-        			: TRUE;
-		mateconf_value_free (value);
-
-		return visible;
+		g_object_unref (plugin->priv->settings);
+		plugin->priv->settings = NULL;
 	}
-	else
-	{
-		return TRUE; /* default value */
-	}
-}
 
-static void
-mateconf_store_tabbar_visible (gboolean visible)
-{
-	MateConfClient *client;
-
-	client = mateconf_client_get_default ();
-
-	mateconf_client_set_bool (client,
-			       MATECONF_BASE_KEY "/tabbar_visible",
-			       visible,
-			       NULL);
-
-	g_object_unref (client);
+	G_OBJECT_CLASS (pluma_show_tabbar_plugin_parent_class)->dispose (object);
 }
 
 static GtkNotebook *
@@ -138,8 +110,9 @@ get_notebook (PlumaWindow *window)
 static void
 on_notebook_show_tabs_changed (GtkNotebook	*notebook,
 			       GParamSpec	*pspec,
-			       GtkToggleAction	*action)
+			       WindowData	*data)
 {
+	GtkAction *action;
 	gboolean visible;
 
 #if 0
@@ -151,14 +124,16 @@ on_notebook_show_tabs_changed (GtkNotebook	*notebook,
 		gtk_toggle_action_set_active (action, visible);
 #endif
 
-	visible = gtk_toggle_action_get_active (action);
+	action = gtk_action_group_get_action (data->action_group, "ShowTabbar");
+	visible = gtk_toggle_action_get_active (GTK_TOGGLE_ACTION (action));
 
 	/* this is intendend to avoid the PlumaNotebook to show the tabs again
 	   (it does so everytime a new tab is added) */
 	if (visible != gtk_notebook_get_show_tabs (notebook))
 		gtk_notebook_set_show_tabs (notebook, visible);
 
-	mateconf_store_tabbar_visible (visible);
+	g_settings_set_boolean (data->plugin->priv->settings,
+				SETTINGS_KEY_TABBAR, visible);
 }
 
 static void
@@ -175,7 +150,7 @@ free_window_data (WindowData *data)
 	g_return_if_fail (data != NULL);
 
 	g_object_unref (data->action_group);
-	g_free (data);
+	g_slice_free (WindowData, data);
 }
 
 static void
@@ -190,13 +165,15 @@ impl_activate (PlumaPlugin *plugin,
 
 	pluma_debug (DEBUG_PLUGINS);
 
-	visible = mateconf_load_tabbar_visible ();
+	data = g_slice_new (WindowData);
+	data->plugin = PLUMA_SHOW_TABBAR_PLUGIN (plugin);
+
+	visible = g_settings_get_boolean (data->plugin->priv->settings,
+					  SETTINGS_KEY_TABBAR);
 
 	notebook = get_notebook (window);
 
 	gtk_notebook_set_show_tabs (notebook, visible);
-
-	data = g_new (WindowData, 1);
 
 	manager = pluma_window_get_ui_manager (window);
 
@@ -234,7 +211,7 @@ impl_activate (PlumaPlugin *plugin,
 		g_signal_connect (notebook,
 				  "notify::show-tabs",
 				  G_CALLBACK (on_notebook_show_tabs_changed),
-				  action);
+				  data);
 
 	g_object_set_data_full (G_OBJECT (window),
 				WINDOW_DATA_KEY,
@@ -272,7 +249,9 @@ pluma_show_tabbar_plugin_class_init (PlumaShowTabbarPluginClass *klass)
 	GObjectClass *object_class = G_OBJECT_CLASS (klass);
 	PlumaPluginClass *plugin_class = PLUMA_PLUGIN_CLASS (klass);
 
-	object_class->finalize = pluma_show_tabbar_plugin_finalize;
+	g_type_class_add_private (object_class, sizeof (PlumaShowTabbarPluginPrivate));
+
+	object_class->dispose = pluma_show_tabbar_plugin_dispose;
 
 	plugin_class->activate = impl_activate;
 	plugin_class->deactivate = impl_deactivate;

@@ -20,7 +20,6 @@ AM_MAINTAINER_MODE
 AM_SILENT_RULES([yes])
 AC_CONFIG_HEADERS([config.h])
 
-AC_PATH_PROG(MATECONFTOOL, mateconftool-2)
 IT_PROG_INTLTOOL([0.35.0])
 
 AC_DISABLE_STATIC
@@ -468,6 +467,7 @@ plugins/sessionsaver/Makefile
 plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in
 plugins/showtabbar/Makefile
 plugins/showtabbar/showtabbar.pluma-plugin.desktop.in
+plugins/showtabbar/org.mate.pluma.plugins.showtabbar.gschema.xml.in
 plugins/smartspaces/Makefile
 plugins/smartspaces/smartspaces.pluma-plugin.desktop.in
 plugins/terminal/Makefile

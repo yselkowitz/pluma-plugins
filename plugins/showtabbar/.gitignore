@@ -19,7 +19,7 @@
 /TAGS
 /_libs
 /libshowtabbar.la
-/pluma-show-tabbar-plugin.schemas
+/org.mate.pluma.plugins.showtabbar.gschema.xml.in
 /showtabbar.pluma-plugin
 /showtabbar.pluma-plugin.desktop.in
 /so_locations
