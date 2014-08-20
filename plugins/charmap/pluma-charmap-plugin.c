@@ -32,7 +32,7 @@
 #include <pluma/pluma-document.h>
 #include <pluma/pluma-prefs-manager.h>
 
-#include <mucharmap/mucharmap.h>
+#include <gucharmap/gucharmap.h>
 
 #define WINDOW_DATA_KEY	"PlumaCharmapPluginWindowData"
 
@@ -72,7 +72,7 @@ free_window_data (WindowData *data)
 }
 
 static void
-on_table_status_message (MucharmapChartable *chartable,
+on_table_status_message (GucharmapChartable *chartable,
 			 const gchar    *message,
 			 PlumaWindow    *window)
 {
@@ -91,7 +91,7 @@ on_table_status_message (MucharmapChartable *chartable,
 }
 
 static void
-on_table_sync_active_char (MucharmapChartable *chartable,
+on_table_sync_active_char (GucharmapChartable *chartable,
 			   GParamSpec         *psepc,
 			   PlumaWindow        *window)
 {
@@ -100,13 +100,13 @@ on_table_sync_active_char (MucharmapChartable *chartable,
 	gint i;
 	gunichar wc;
 
-	wc = mucharmap_chartable_get_active_character (chartable);
+	wc = gucharmap_chartable_get_active_character (chartable);
 
 	gs = g_string_new (NULL);
 	g_string_append_printf (gs, "U+%4.4X %s", wc,
-				mucharmap_get_unicode_name (wc));
+				gucharmap_get_unicode_name (wc));
 
-	temps = mucharmap_get_nameslist_equals (wc);
+	temps = gucharmap_get_nameslist_equals (wc);
 	if (temps)
 	{
 		g_string_append_printf (gs, "   = %s", temps[0]);
@@ -115,7 +115,7 @@ on_table_sync_active_char (MucharmapChartable *chartable,
 		g_free (temps);
 	}
 
-	temps = mucharmap_get_nameslist_stars (wc);
+	temps = gucharmap_get_nameslist_stars (wc);
 	if (temps)
 	{
 		g_string_append_printf (gs, "   \342\200\242 %s", temps[0]);
@@ -133,7 +133,7 @@ on_table_focus_out_event (GtkWidget      *drawing_area,
 			  GdkEventFocus  *event,
 			  PlumaWindow    *window)
 {
-	MucharmapChartable *chartable;
+	GucharmapChartable *chartable;
 	WindowData *data;
 
 	data = (WindowData *) g_object_get_data (G_OBJECT (window),
@@ -148,7 +148,7 @@ on_table_focus_out_event (GtkWidget      *drawing_area,
 }
 
 static void
-on_table_activate (MucharmapChartable *chartable,
+on_table_activate (GucharmapChartable *chartable,
 		   PlumaWindow *window)
 {
 	GtkTextView   *view;
@@ -158,9 +158,9 @@ on_table_activate (MucharmapChartable *chartable,
 	gchar length;
         gunichar wc;
 
-        wc = mucharmap_chartable_get_active_character (chartable);
+        wc = gucharmap_chartable_get_active_character (chartable);
 
-	g_return_if_fail (mucharmap_unichar_validate (wc));
+	g_return_if_fail (gucharmap_unichar_validate (wc));
 
 	view = GTK_TEXT_VIEW (pluma_window_get_active_view (window));
 
@@ -188,7 +188,7 @@ static GtkWidget *
 create_charmap_panel (PlumaWindow *window)
 {
 	GtkWidget      *panel;
-	MucharmapChartable *chartable;
+	GucharmapChartable *chartable;
 	PangoFontDescription *font_desc;
 	gchar *font;
 
@@ -199,7 +199,7 @@ create_charmap_panel (PlumaWindow *window)
 
 	chartable = pluma_charmap_panel_get_chartable (PLUMA_CHARMAP_PANEL (panel));
 	font_desc = pango_font_description_from_string (font);
-	mucharmap_chartable_set_font_desc (chartable, font_desc);
+	gucharmap_chartable_set_font_desc (chartable, font_desc);
 	pango_font_description_free (font_desc);
 
 	g_free (font);
@@ -248,7 +248,7 @@ impl_activate (PlumaPlugin *plugin,
 		image = gtk_image_new_from_icon_name ("accessories-character-map",
 						      GTK_ICON_SIZE_MENU);
 	else
-		image = gtk_image_new_from_icon_name ("mucharmap",
+		image = gtk_image_new_from_icon_name ("gucharmap",
 						      GTK_ICON_SIZE_MENU);
 
 	data->panel = create_charmap_panel (window);
@@ -276,7 +276,7 @@ impl_deactivate	(PlumaPlugin *plugin,
 {
 	PlumaPanel *panel;
 	WindowData *data;
-	MucharmapChartable *chartable;
+	GucharmapChartable *chartable;
 
 	pluma_debug (DEBUG_PLUGINS);
 

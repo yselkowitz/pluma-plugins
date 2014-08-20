@@ -4,7 +4,7 @@ plugindir = $(PLUMA_PLUGINS_LIBS_DIR)
 INCLUDES = \
 	-I$(top_srcdir) 				\
 	$(PLUMA_CFLAGS) 				\
-	$(MUCHARMAP_CFLAGS)				\
+	$(GUCHARMAP_CFLAGS)				\
 	$(WARN_CFLAGS)					\
 	$(DISABLE_DEPRECATED_CFLAGS)
 
@@ -17,7 +17,7 @@ libcharmap_la_SOURCES = \
 	pluma-charmap-panel.c
 
 libcharmap_la_LDFLAGS = $(PLUGIN_LIBTOOL_FLAGS)
-libcharmap_la_LIBADD = $(PLUMA_LIBS) $(MUCHARMAP_LIBS)
+libcharmap_la_LIBADD = $(PLUMA_LIBS) $(GUCHARMAP_LIBS)
 
 # Plugin Info
 

@@ -27,7 +27,7 @@
 #include <glib-object.h>
 #include <gtk/gtk.h>
 
-#include <mucharmap/mucharmap.h>
+#include <gucharmap/gucharmap.h>
 
 G_BEGIN_DECLS
 
@@ -74,7 +74,7 @@ GType		 pluma_charmap_panel_get_type	   (void) G_GNUC_CONST;
 GType		 pluma_charmap_panel_register_type (GTypeModule * module);
 GtkWidget	*pluma_charmap_panel_new	   (void);
 
-MucharmapChartable *pluma_charmap_panel_get_chartable (PlumaCharmapPanel *panel);
+GucharmapChartable *pluma_charmap_panel_get_chartable (PlumaCharmapPanel *panel);
 
 G_END_DECLS
 
