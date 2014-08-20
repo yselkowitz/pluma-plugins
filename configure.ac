@@ -89,8 +89,8 @@ USEFUL_PLUGINS="bookmarks showtabbar charmap drawspaces wordcompletion"
 DEFAULT_PLUGINS="bookmarks showtabbar charmap drawspaces wordcompletion"
 
 PYTHON_ALL_PLUGINS="bracketcompletion codecomment colorpicker commander joinlines multiedit textsize sessionsaver smartspaces terminal synctex"
-PYTHON_USEFUL_PLUGINS="bracketcompletion codecomment colorpicker commander joinlines multiedit textsize sessionsaver smartspaces terminal synctex"
-PYTHON_DEFAULT_PLUGINS="bracketcompletion codecomment colorpicker commander joinlines multiedit textsize sessionsaver smartspaces terminal synctex"
+PYTHON_USEFUL_PLUGINS="bracketcompletion codecomment colorpicker commander joinlines multiedit textsize sessionsaver smartspaces synctex"
+PYTHON_DEFAULT_PLUGINS="bracketcompletion codecomment colorpicker commander joinlines multiedit textsize sessionsaver smartspaces synctex"
 
 DIST_PLUGINS="$ALL_PLUGINS $PYTHON_ALL_PLUGINS"
 
