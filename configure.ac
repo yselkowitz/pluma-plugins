@@ -3,13 +3,13 @@ dnl Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.59)
  
 m4_define(pluma_plugins_major_version,  1)
-m4_define(pluma_plugins_minor_version,  4)
+m4_define(pluma_plugins_minor_version,  8)
 m4_define(pluma_plugins_micro_version,  0)
 m4_define(pluma_plugins_version, pluma_plugins_major_version.pluma_plugins_minor_version.pluma_plugins_micro_version)
 
 AC_INIT(pluma-plugins, pluma_plugins_version,
-        http://github.com/cygwinports/mate-text-editor-plugins/issues,
-        mate-text-editor-plugins)
+        http://github.com/cygwinports/pluma-plugins/issues,
+        pluma-plugins)
 
 AC_CONFIG_SRCDIR([plugins])
 AC_CONFIG_MACRO_DIR([m4])

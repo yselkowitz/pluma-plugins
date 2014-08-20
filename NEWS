@@ -1,4 +1,12 @@
 ===================
+pluma-plugins 1.8.0
+===================
+
+Port to gsettings.
+Port back to libgucharmap.
+Disable terminal plugin until Pluma is ported to gobject-introspection.
+
+===================
 pluma-plugins 1.4.0
 ===================
 
