@@ -33,7 +33,7 @@ convert_DATA = pluma-plugins-showtabbar.convert
 
 EXTRA_DIST = $(convert_DATA)
 
-CLEANFILES = $(plugin_DATA)
-DISTCLEANFILES = $(plugin_DATA)
+CLEANFILES = $(plugin_DATA) $(gsettings_SCHEMAS)
+DISTCLEANFILES = $(plugin_DATA) $(gsettings_SCHEMAS)
 
 -include $(top_srcdir)/git.mk

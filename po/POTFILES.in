@@ -11,17 +11,16 @@ plugins/commander/commander.pluma-plugin.desktop.in.in
 plugins/commander/commander/windowhelper.py
 plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in
 [type: gettext/glade]plugins/drawspaces/drawspaces.ui
-plugins/drawspaces/pluma-drawspaces.schemas.in
 plugins/drawspaces/pluma-drawspaces-plugin.c
-plugins/drawspaces/org.gnome.gedit.drawspaces.gschema.xml.in.in
+plugins/drawspaces/org.mate.pluma.plugins.drawspaces.gschema.xml.in.in
 plugins/joinlines/joinlines.pluma-plugin.desktop.in.in
 plugins/joinlines/joinlines.py
 plugins/multiedit/multiedit.pluma-plugin.desktop.in.in
 plugins/multiedit/multiedit/documenthelper.py
 plugins/multiedit/multiedit/windowhelper.py
 plugins/showtabbar/pluma-show-tabbar-plugin.c
-plugins/showtabbar/pluma-show-tabbar-plugin.schemas.in
 plugins/showtabbar/showtabbar.pluma-plugin.desktop.in.in
+plugins/showtabbar/org.mate.pluma.plugins.showtabbar.gschema.xml.in.in
 plugins/sessionsaver/__init__.py
 plugins/sessionsaver/dialogs.py
 plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in.in

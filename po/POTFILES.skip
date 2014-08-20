@@ -5,10 +5,12 @@ plugins/codecomment/codecomment.pluma-plugin.desktop.in
 plugins/colorpicker/colorpicker.pluma-plugin.desktop.in
 plugins/commander/commander.pluma-plugin.desktop.in
 plugins/drawspaces/drawspaces.pluma-plugin.desktop.in
+plugins/drawspaces/org.mate.pluma.plugins.drawspaces.gschema.xml.in
 plugins/joinlines/joinlines.pluma-plugin.desktop.in
 plugins/multiedit/multiedit.pluma-plugin.desktop.in
 plugins/sessionsaver/sessionsaver.pluma-plugin.desktop.in
 plugins/showtabbar/showtabbar.pluma-plugin.desktop.in
+plugins/showtabbar/org.mate.pluma.plugins.showtabbar.gschema.xml.in
 plugins/smartspaces/smartspaces.pluma-plugin.desktop.in
 plugins/terminal/terminal.pluma-plugin.desktop.in
 plugins/wordcompletion/wordcompletion.pluma-plugin.desktop.in
