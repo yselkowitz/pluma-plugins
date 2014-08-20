@@ -61,19 +61,18 @@ AM_GLIB_GNU_GETTEXT
 # ================================================================
 
 PKG_CHECK_MODULES(PLUMA, [
-	glib-2.0 >= 2.13.0
-	gio-2.0 >= 2.16.0
+	glib-2.0 >= 2.26.0
+	gio-2.0 >= 2.26.0
 	gtk+-2.0 >= 2.13.0
-	mateconf-2.0 >= 1.1.0
 	gtksourceview-2.0 >= 2.9.1
 	pluma >= 1.2.0
 ])
 
 # ================================================================
-# MateConf related settings
+# GSettings
 # ================================================================
 
-AM_MATECONF_SOURCE_2
+GLIB_GSETTINGS
 
 # ================================================================
 # Plugins
@@ -456,6 +455,7 @@ plugins/commander/modules/Makefile
 plugins/commander/modules/find/Makefile
 plugins/drawspaces/Makefile
 plugins/drawspaces/drawspaces.pluma-plugin.desktop.in
+plugins/drawspaces/org.mate.pluma.plugins.drawspaces.gschema.xml.in
 plugins/joinlines/Makefile
 plugins/joinlines/joinlines.pluma-plugin.desktop.in
 plugins/multiedit/Makefile

@@ -30,17 +30,15 @@
 #include <pluma/pluma-tab.h>
 #include <pluma/pluma-utils.h>
 
-#include <mateconf/mateconf-client.h>
-
-#define MATECONF_KEY_BASE "/apps/pluma/plugins/drawspaces"
-#define MATECONF_KEY_ENABLE        MATECONF_KEY_BASE "/enable"
-#define MATECONF_KEY_DRAW_TABS     MATECONF_KEY_BASE "/draw_tabs"
-#define MATECONF_KEY_DRAW_SPACES   MATECONF_KEY_BASE "/draw_spaces"
-#define MATECONF_KEY_DRAW_NEWLINE  MATECONF_KEY_BASE "/draw_newline"
-#define MATECONF_KEY_DRAW_NBSP     MATECONF_KEY_BASE "/draw_nbsp"
-#define MATECONF_KEY_DRAW_LEADING  MATECONF_KEY_BASE "/draw_leading"
-#define MATECONF_KEY_DRAW_TEXT     MATECONF_KEY_BASE "/draw_text"
-#define MATECONF_KEY_DRAW_TRAILING MATECONF_KEY_BASE "/draw_trailing"
+#define DRAWSPACES_SETTINGS_BASE   "org.mate.pluma.plugins.drawspaces"
+#define SETTINGS_KEY_ENABLE        "enable"
+#define SETTINGS_KEY_DRAW_TABS     "draw-tabs"
+#define SETTINGS_KEY_DRAW_SPACES   "draw-spaces"
+#define SETTINGS_KEY_DRAW_NEWLINE  "draw-newline"
+#define SETTINGS_KEY_DRAW_NBSP     "draw-nbsp"
+#define SETTINGS_KEY_DRAW_LEADING  "draw-leading"
+#define SETTINGS_KEY_DRAW_TEXT     "draw-text"
+#define SETTINGS_KEY_DRAW_TRAILING "draw-trailing"
 
 #define UI_FILE "drawspaces.ui"
 
@@ -56,8 +54,7 @@ PLUMA_PLUGIN_REGISTER_TYPE (PlumaDrawspacesPlugin, pluma_drawspaces_plugin)
 
 struct _PlumaDrawspacesPluginPrivate
 {
-	MateConfClient *mateconf_client;
-	guint connection_id;
+	GSettings *settings;
 
 	GtkSourceDrawSpacesFlags flags;
 };
@@ -125,25 +122,6 @@ free_action_data (gpointer data)
 }
 
 static void
-set_draw_mateconf (PlumaDrawspacesPlugin *plugin,
-                const gchar           *key,
-                gboolean               value)
-{
-	GError *error = NULL;
-
-	mateconf_client_set_bool (plugin->priv->mateconf_client,
-			       key,
-			       value,
-			       &error);
-
-	if (error != NULL)
-	{
-		g_warning ("%s", error->message);
-		g_error_free (error);
-	}
-}
-
-static void
 on_active_toggled (GtkToggleAction *action,
 		   ActionData *action_data)
 {
@@ -157,7 +135,8 @@ on_active_toggled (GtkToggleAction *action,
 	value = gtk_toggle_action_get_active (action);
 	data->enable = value;
 
-	set_draw_mateconf (action_data->plugin, MATECONF_KEY_ENABLE, value);
+	g_settings_set_boolean (action_data->plugin->priv->settings,
+				SETTINGS_KEY_ENABLE, value);
 
 	draw_spaces_in_window (action_data->window, action_data->plugin);
 }
@@ -169,10 +148,78 @@ static const GtkToggleActionEntry action_entries[] =
 	 G_CALLBACK (on_active_toggled)},
 };
 
-static void on_mateconf_notify (MateConfClient *client,
-			     guint cnxn_id,
-			     MateConfEntry *entry,
-			     gpointer user_data);
+static void
+draw_spaces (PlumaDrawspacesPlugin *plugin)
+{
+	const GList *windows, *l;
+
+	windows = pluma_app_get_windows (pluma_app_get_default ());
+
+	for (l = windows; l != NULL; l = g_list_next (l))
+		draw_spaces_in_window (l->data, plugin);
+}
+
+static void
+on_settings_changed (GSettings *settings,
+		     const gchar *key,
+		     PlumaDrawspacesPlugin *plugin)
+{
+	gboolean value;
+
+	value = g_settings_get_boolean (settings, key);
+
+	if (strcmp (key, SETTINGS_KEY_DRAW_TABS) == 0)
+	{
+		if (value)
+			plugin->priv->flags |= GTK_SOURCE_DRAW_SPACES_TAB;
+		else
+			plugin->priv->flags &= ~GTK_SOURCE_DRAW_SPACES_TAB;
+	 }
+	else if (strcmp (key, SETTINGS_KEY_DRAW_SPACES) == 0)
+	{
+		if (value)
+			plugin->priv->flags |= GTK_SOURCE_DRAW_SPACES_SPACE;
+		else
+			plugin->priv->flags &= ~GTK_SOURCE_DRAW_SPACES_SPACE;
+	}
+	else if (strcmp (key, SETTINGS_KEY_DRAW_NEWLINE) == 0)
+	{
+		if (value)
+			plugin->priv->flags |= GTK_SOURCE_DRAW_SPACES_NEWLINE;
+		else
+			plugin->priv->flags &= ~GTK_SOURCE_DRAW_SPACES_NEWLINE;
+	}
+	else if (strcmp (key, SETTINGS_KEY_DRAW_NBSP) == 0)
+	{
+		if (value)
+			 plugin->priv->flags |= GTK_SOURCE_DRAW_SPACES_NBSP;
+		else
+			plugin->priv->flags &= ~GTK_SOURCE_DRAW_SPACES_NBSP;
+	}
+	else if (strcmp (key, SETTINGS_KEY_DRAW_LEADING) == 0)
+	{
+		if (value)
+			plugin->priv->flags |= GTK_SOURCE_DRAW_SPACES_LEADING;
+		else
+			plugin->priv->flags &= ~GTK_SOURCE_DRAW_SPACES_LEADING;
+	}
+	else if (strcmp (key, SETTINGS_KEY_DRAW_TEXT) == 0)
+	{
+		if (value)
+			plugin->priv->flags |= GTK_SOURCE_DRAW_SPACES_TEXT;
+		else
+			plugin->priv->flags &= ~GTK_SOURCE_DRAW_SPACES_TEXT;
+	}
+	else if (strcmp (key, SETTINGS_KEY_DRAW_TRAILING) == 0)
+	{
+		if (value)
+			plugin->priv->flags |= GTK_SOURCE_DRAW_SPACES_TRAILING;
+		else
+			plugin->priv->flags &= ~GTK_SOURCE_DRAW_SPACES_TRAILING;
+	}
+
+	draw_spaces (plugin);
+}
 
 static void
 pluma_drawspaces_plugin_init (PlumaDrawspacesPlugin *plugin)
@@ -181,17 +228,12 @@ pluma_drawspaces_plugin_init (PlumaDrawspacesPlugin *plugin)
 
 	plugin->priv = PLUMA_DRAWSPACES_PLUGIN_GET_PRIVATE (plugin);
 
-	plugin->priv->mateconf_client = mateconf_client_get_default ();
+	plugin->priv->settings = g_settings_new (DRAWSPACES_SETTINGS_BASE);
 
-	mateconf_client_add_dir (plugin->priv->mateconf_client,
-			      MATECONF_KEY_BASE,
-			      MATECONF_CLIENT_PRELOAD_ONELEVEL,
-			      NULL);
-
-	plugin->priv->connection_id = mateconf_client_notify_add (plugin->priv->mateconf_client,
-							       MATECONF_KEY_BASE,
-							       on_mateconf_notify,
-							       plugin, NULL, NULL);
+	g_signal_connect (plugin->priv->settings,
+			  "changed",
+			  G_CALLBACK (on_settings_changed),
+			  plugin);
 }
 
 static void
@@ -201,21 +243,10 @@ pluma_drawspaces_plugin_dispose (GObject *object)
 
 	pluma_debug_message (DEBUG_PLUGINS, "PlumaDrawspacesPlugin disposing");
 
-	if (plugin->priv->connection_id != 0)
+	if (plugin->priv->settings != NULL)
 	{
-		mateconf_client_notify_remove (plugin->priv->mateconf_client,
-					    plugin->priv->connection_id);
-
-		plugin->priv->connection_id = 0;
-	}
-
-	if (plugin->priv->mateconf_client != NULL)
-	{
-		mateconf_client_suggest_sync (plugin->priv->mateconf_client, NULL);
-
-		g_object_unref (G_OBJECT (plugin->priv->mateconf_client));
-
-		plugin->priv->mateconf_client = NULL;
+		g_object_unref (G_OBJECT (plugin->priv->settings));
+		plugin->priv->settings = NULL;
 	}
 
 	G_OBJECT_CLASS (pluma_drawspaces_plugin_parent_class)->dispose (object);
@@ -243,19 +274,6 @@ draw_spaces_in_window (PlumaWindow *window,
 }
 
 static void
-draw_spaces (PlumaDrawspacesPlugin *plugin)
-{
-	const GList *windows, *l;
-
-	windows = pluma_app_get_windows (pluma_app_get_default ());
-
-	for (l = windows; l != NULL; l = g_list_next (l))
-	{
-		draw_spaces_in_window (l->data, plugin);
-	}
-}
-
-static void
 tab_added_cb (PlumaWindow *window,
 	      PlumaTab *tab,
 	      PlumaDrawspacesPlugin *plugin)
@@ -276,94 +294,35 @@ tab_added_cb (PlumaWindow *window,
 	}
 }
 
-static gint
-get_mateconf_value_with_default_int (PlumaDrawspacesPlugin *plugin,
-			          const gchar           *key,
-			          gint                   def)
-{
-	MateConfValue *value;
-	gint ret;
-
-	value = mateconf_client_get (plugin->priv->mateconf_client,
-				  key, NULL);
-
-	if (value != NULL && value->type == MATECONF_VALUE_INT)
-	{
-		ret = mateconf_value_get_int (value);
-	}
-	else
-	{
-		ret = def;
-	}
-
-	if (value != NULL)
-	{
-		mateconf_value_free (value);
-	}
-
-	return ret;
-}
-
-static gboolean
-get_mateconf_value_with_default (PlumaDrawspacesPlugin *plugin,
-			      const gchar           *key,
-			      gboolean               def)
-{
-	MateConfValue *value;
-	gboolean ret;
-
-	value = mateconf_client_get (plugin->priv->mateconf_client,
-				  key, NULL);
-
-	if (value != NULL && value->type == MATECONF_VALUE_BOOL)
-	{
-		ret = mateconf_value_get_bool (value);
-	}
-	else
-	{
-		ret = def;
-	}
-
-	if (value != NULL)
-	{
-		mateconf_value_free (value);
-	}
-
-	return ret;
-}
-
 static void
 get_config_options (WindowData *data,
 		    PlumaDrawspacesPlugin *plugin)
 {
 	gboolean tabs, spaces, newline, nbsp, leading, text, trailing;
 
-	data->enable = get_mateconf_value_with_default (plugin, MATECONF_KEY_ENABLE,
-						     TRUE);
+	data->enable = g_settings_get_boolean (plugin->priv->settings,
+					       SETTINGS_KEY_ENABLE);
 
-	tabs = get_mateconf_value_with_default (plugin, MATECONF_KEY_DRAW_TABS,
-					     TRUE);
+	tabs = g_settings_get_boolean (plugin->priv->settings,
+				       SETTINGS_KEY_DRAW_TABS);
 
-	spaces = get_mateconf_value_with_default (plugin, MATECONF_KEY_DRAW_SPACES,
-					       TRUE);
+	spaces = g_settings_get_boolean (plugin->priv->settings,
+					 SETTINGS_KEY_DRAW_SPACES);
 
-	newline = get_mateconf_value_with_default (plugin, MATECONF_KEY_DRAW_NEWLINE,
-					        FALSE);
+	newline = g_settings_get_boolean (plugin->priv->settings,
+					  SETTINGS_KEY_DRAW_NEWLINE);
 
-	nbsp = get_mateconf_value_with_default (plugin, MATECONF_KEY_DRAW_NBSP,
-					     FALSE);
+	nbsp = g_settings_get_boolean (plugin->priv->settings,
+				       SETTINGS_KEY_DRAW_NBSP);
 
-	leading = get_mateconf_value_with_default (plugin,
-	                                        MATECONF_KEY_DRAW_LEADING,
-	                                        TRUE);
+	leading = g_settings_get_boolean (plugin->priv->settings,
+					  SETTINGS_KEY_DRAW_LEADING);
 
-	text = get_mateconf_value_with_default (plugin,
-	                                     MATECONF_KEY_DRAW_TEXT,
-	                                     TRUE);
+	text = g_settings_get_boolean (plugin->priv->settings,
+				       SETTINGS_KEY_DRAW_TEXT);
 
-	trailing = get_mateconf_value_with_default (plugin,
-	                                         MATECONF_KEY_DRAW_TRAILING,
-	                                         TRUE);
+	trailing = g_settings_get_boolean (plugin->priv->settings,
+					   SETTINGS_KEY_DRAW_TRAILING);
 
 	if (tabs)
 	{
@@ -497,69 +456,6 @@ impl_deactivate	(PlumaPlugin *plugin,
 }
 
 static void
-on_draw_tabs_toggled (GtkToggleButton       *button,
-                      PlumaDrawspacesPlugin *plugin)
-{
-	set_draw_mateconf (plugin,
-	                MATECONF_KEY_DRAW_TABS,
-	                gtk_toggle_button_get_active (button));
-}
-
-static void
-on_draw_spaces_toggled (GtkToggleButton       *button,
-                        PlumaDrawspacesPlugin *plugin)
-{
-	set_draw_mateconf (plugin,
-	                MATECONF_KEY_DRAW_SPACES,
-	                gtk_toggle_button_get_active (button));
-}
-
-static void
-on_draw_newline_toggled (GtkToggleButton       *button,
-                         PlumaDrawspacesPlugin *plugin)
-{
-	set_draw_mateconf (plugin,
-	                MATECONF_KEY_DRAW_NEWLINE,
-	                gtk_toggle_button_get_active (button));
-}
-
-static void
-on_draw_nbsp_toggled (GtkToggleButton       *button,
-                      PlumaDrawspacesPlugin *plugin)
-{
-	set_draw_mateconf (plugin,
-	                MATECONF_KEY_DRAW_NBSP,
-	                gtk_toggle_button_get_active (button));
-}
-
-static void
-on_draw_leading_toggled (GtkToggleButton       *button,
-                         PlumaDrawspacesPlugin *plugin)
-{
-	set_draw_mateconf (plugin,
-	                MATECONF_KEY_DRAW_LEADING,
-	                gtk_toggle_button_get_active (button));
-}
-
-static void
-on_draw_text_toggled (GtkToggleButton       *button,
-                      PlumaDrawspacesPlugin *plugin)
-{
-	set_draw_mateconf (plugin,
-	                MATECONF_KEY_DRAW_TEXT,
-	                gtk_toggle_button_get_active (button));
-}
-
-static void
-on_draw_trailing_toggled (GtkToggleButton       *button,
-                          PlumaDrawspacesPlugin *plugin)
-{
-	set_draw_mateconf (plugin,
-	                MATECONF_KEY_DRAW_TRAILING,
-	                gtk_toggle_button_get_active (button));
-}
-
-static void
 dialog_destroyed (GtkObject *obj, gpointer dialog_pointer)
 {
 	pluma_debug (DEBUG_PLUGINS);
@@ -641,20 +537,41 @@ get_configuration_dialog (PlumaDrawspacesPlugin *plugin)
 	gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (dialog->draw_trailing),
 				      plugin->priv->flags & GTK_SOURCE_DRAW_SPACES_TRAILING);
 
-	g_signal_connect (dialog->draw_tabs, "toggled",
-			  G_CALLBACK (on_draw_tabs_toggled), plugin);
-	g_signal_connect (dialog->draw_spaces, "toggled",
-			  G_CALLBACK (on_draw_spaces_toggled), plugin);
-	g_signal_connect (dialog->draw_newline, "toggled",
-			  G_CALLBACK (on_draw_newline_toggled), plugin);
-	g_signal_connect (dialog->draw_nbsp, "toggled",
-			  G_CALLBACK (on_draw_nbsp_toggled), plugin);
-	g_signal_connect (dialog->draw_leading, "toggled",
-			  G_CALLBACK (on_draw_leading_toggled), plugin);
-	g_signal_connect (dialog->draw_text, "toggled",
-			  G_CALLBACK (on_draw_text_toggled), plugin);
-	g_signal_connect (dialog->draw_trailing, "toggled",
-			  G_CALLBACK (on_draw_trailing_toggled), plugin);
+	g_settings_bind (plugin->priv->settings,
+			 SETTINGS_KEY_DRAW_TABS,
+			 dialog->draw_tabs,
+			 "active",
+			 (G_SETTINGS_BIND_GET | G_SETTINGS_BIND_SET));
+	g_settings_bind (plugin->priv->settings,
+			SETTINGS_KEY_DRAW_SPACES,
+			dialog->draw_spaces,
+			"active",
+			(G_SETTINGS_BIND_GET | G_SETTINGS_BIND_SET));
+	g_settings_bind (plugin->priv->settings,
+			SETTINGS_KEY_DRAW_NEWLINE,
+			dialog->draw_newline,
+			"active",
+			(G_SETTINGS_BIND_GET | G_SETTINGS_BIND_SET));
+	g_settings_bind (plugin->priv->settings,
+			SETTINGS_KEY_DRAW_NBSP,
+			dialog->draw_nbsp,
+			"active",
+			(G_SETTINGS_BIND_GET | G_SETTINGS_BIND_SET));
+	g_settings_bind (plugin->priv->settings,
+			SETTINGS_KEY_DRAW_LEADING,
+			dialog->draw_leading,
+			"active",
+			(G_SETTINGS_BIND_GET | G_SETTINGS_BIND_SET));
+	g_settings_bind (plugin->priv->settings,
+			SETTINGS_KEY_DRAW_TEXT,
+			dialog->draw_text,
+			"active",
+			(G_SETTINGS_BIND_GET | G_SETTINGS_BIND_SET));
+	g_settings_bind (plugin->priv->settings,
+			SETTINGS_KEY_DRAW_TRAILING,
+			dialog->draw_trailing,
+			"active",
+			(G_SETTINGS_BIND_GET | G_SETTINGS_BIND_SET));
 
 	g_signal_connect (dialog->dialog, "destroy",
 			  G_CALLBACK (dialog_destroyed), dialog);
@@ -675,110 +592,6 @@ impl_create_configure_dialog (PlumaPlugin *plugin)
 			  dialog->dialog);
 
 	return dialog->dialog;
-}
-
-static void
-on_mateconf_notify (MateConfClient *client,
-		 guint cnxn_id,
-		 MateConfEntry *entry,
-		 gpointer user_data)
-{
-	PlumaDrawspacesPlugin *plugin = PLUMA_DRAWSPACES_PLUGIN (user_data);
-	gboolean value;
-
-	if (strcmp (entry->key, MATECONF_KEY_DRAW_TABS) == 0)
-	{
-		value = mateconf_value_get_bool (entry->value);
-
-		if (value)
-		{
-			plugin->priv->flags |= GTK_SOURCE_DRAW_SPACES_TAB;
-		}
-		else
-		{
-			plugin->priv->flags &= ~GTK_SOURCE_DRAW_SPACES_TAB;
-		}
-	}
-	else if (strcmp (entry->key, MATECONF_KEY_DRAW_SPACES) == 0)
-	{
-		value = mateconf_value_get_bool (entry->value);
-
-		if (value)
-		{
-			plugin->priv->flags |= GTK_SOURCE_DRAW_SPACES_SPACE;
-		}
-		else
-		{
-			plugin->priv->flags &= ~GTK_SOURCE_DRAW_SPACES_SPACE;
-		}
-	}
-	else if (strcmp (entry->key, MATECONF_KEY_DRAW_NEWLINE) == 0)
-	{
-		value = mateconf_value_get_bool (entry->value);
-
-		if (value)
-		{
-			plugin->priv->flags |= GTK_SOURCE_DRAW_SPACES_NEWLINE;
-		}
-		else
-		{
-			plugin->priv->flags &= ~GTK_SOURCE_DRAW_SPACES_NEWLINE;
-		}
-	}
-	else if (strcmp (entry->key, MATECONF_KEY_DRAW_NBSP) == 0)
-	{
-		value = mateconf_value_get_bool (entry->value);
-
-		if (value)
-		{
-			plugin->priv->flags |= GTK_SOURCE_DRAW_SPACES_NBSP;
-		}
-		else
-		{
-			plugin->priv->flags &= ~GTK_SOURCE_DRAW_SPACES_NBSP;
-		}
-	}
-	else if (strcmp (entry->key, MATECONF_KEY_DRAW_LEADING) == 0)
-	{
-		value = mateconf_value_get_bool (entry->value);
-
-		if (value)
-		{
-			plugin->priv->flags |= GTK_SOURCE_DRAW_SPACES_LEADING;
-		}
-		else
-		{
-			plugin->priv->flags &= ~GTK_SOURCE_DRAW_SPACES_LEADING;
-		}
-	}
-	else if (strcmp (entry->key, MATECONF_KEY_DRAW_TEXT) == 0)
-	{
-		value = mateconf_value_get_bool (entry->value);
-
-		if (value)
-		{
-			plugin->priv->flags |= GTK_SOURCE_DRAW_SPACES_TEXT;
-		}
-		else
-		{
-			plugin->priv->flags &= ~GTK_SOURCE_DRAW_SPACES_TEXT;
-		}
-	}
-	else if (strcmp (entry->key, MATECONF_KEY_DRAW_TRAILING) == 0)
-	{
-		value = mateconf_value_get_bool (entry->value);
-
-		if (value)
-		{
-			plugin->priv->flags |= GTK_SOURCE_DRAW_SPACES_TRAILING;
-		}
-		else
-		{
-			plugin->priv->flags &= ~GTK_SOURCE_DRAW_SPACES_TRAILING;
-		}
-	}
-
-	draw_spaces (plugin);
 }
 
 static void

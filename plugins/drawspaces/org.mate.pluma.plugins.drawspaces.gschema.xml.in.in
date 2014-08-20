@@ -1,0 +1,44 @@
+<schemalist>
+  <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.mate.pluma.plugins.drawspaces" path="/org/mate/pluma/plugins/drawspaces/">
+    <key name="enable" type="b">
+      <default>true</default>
+      <_summary>Enabled</_summary>
+      <_description>If TRUE drawing will be enabled.</_description>
+    </key>
+    <key name="draw-tabs" type="b">
+      <default>true</default>
+      <_summary>Draw Tabs</_summary>
+      <_description>If TRUE tabs will be drawn.</_description>
+    </key>
+    <key name="draw-spaces" type="b">
+      <default>true</default>
+      <_summary>Draw Spaces</_summary>
+      <_description>If TRUE spaces will be drawn.</_description>
+    </key>
+    <key name="draw-newline" type="b">
+      <default>false</default>
+      <_summary>Draw Newline</_summary>
+      <_description>If TRUE newlines will be drawn.</_description>
+    </key>
+    <key name="draw-nbsp" type="b">
+      <default>false</default>
+      <_summary>Draw Non-Breaking Spaces</_summary>
+      <_description>If TRUE non-breaking spaces will be drawn.</_description>
+    </key>
+    <key name="draw-leading" type="b">
+      <default>true</default>
+      <_summary>Draw Leading Space</_summary>
+      <_description>If TRUE leading space will be drawn.</_description>
+    </key>
+    <key name="draw-text" type="b">
+      <default>true</default>
+      <_summary>Draw Text Space</_summary>
+      <_description>IF TRUE spaces in text will be drawn.</_description>
+    </key>
+    <key name="draw-trailing" type="b">
+      <default>true</default>
+      <_summary>Draw Trailing Space</_summary>
+      <_description>If TRUE trailing spaces will be drawn.</_description>
+    </key>
+  </schema>
+</schemalist>

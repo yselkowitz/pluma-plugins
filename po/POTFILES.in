@@ -13,6 +13,7 @@ plugins/drawspaces/drawspaces.pluma-plugin.desktop.in.in
 [type: gettext/glade]plugins/drawspaces/drawspaces.ui
 plugins/drawspaces/pluma-drawspaces.schemas.in
 plugins/drawspaces/pluma-drawspaces-plugin.c
+plugins/drawspaces/org.gnome.gedit.drawspaces.gschema.xml.in.in
 plugins/joinlines/joinlines.pluma-plugin.desktop.in.in
 plugins/joinlines/joinlines.py
 plugins/multiedit/multiedit.pluma-plugin.desktop.in.in

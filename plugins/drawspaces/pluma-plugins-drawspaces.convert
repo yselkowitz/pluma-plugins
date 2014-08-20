@@ -1,0 +1,9 @@
+[org.mate.pluma.plugins.drawspaces]
+enable = /apps/pluma/plugins/drawspaces/enable
+draw-tabs = /apps/pluma/plugins/drawspaces/draw_tabs
+draw-spaces = /apps/pluma/plugins/drawspaces/draw_spaces
+draw-newline = /apps/pluma/plugins/drawspaces/draw_newline
+draw-nbsp = /apps/pluma/plugins/drawspaces/draw_nbsp
+draw-leading = /apps/pluma/plugins/drawspaces/draw_leading
+draw-text = /apps/pluma/plugins/drawspaces/draw_text
+draw-trailing = /apps/pluma/plugins/drawspaces/draw_trailing

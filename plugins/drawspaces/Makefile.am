@@ -27,25 +27,16 @@ plugin_in_files = drawspaces.pluma-plugin.desktop.in
 
 plugin_DATA = $(plugin_in_files:.pluma-plugin.desktop.in=.pluma-plugin)
 
-schemasdir	 = $(MATECONF_SCHEMA_FILE_DIR)
-schemas_in_files = pluma-drawspaces.schemas.in
-schemas_DATA 	 = $(schemas_in_files:.schemas.in=.schemas)
-@INTLTOOL_SCHEMAS_RULE@
+gsettings_SCHEMAS = org.mate.pluma.plugins.drawspaces.gschema.xml
+@INTLTOOL_XML_NOMERGE_RULE@
+@GSETTINGS_RULES@
 
-if MATECONF_SCHEMAS_INSTALL
-install-data-local:
-	        if test -z "$(DESTDIR)" ; then \
-	                for p in $(schemas_DATA) ; do \
-	                        MATECONF_CONFIG_SOURCE=$(MATECONF_SCHEMA_CONFIG_SOURCE) $(MATECONFTOOL) --makefile-install-rule $(top_builddir)/plugins/drawspaces/$$p ; \
-	                done \
-	        fi
-else
-install-data-local:
-endif
+convertdir = $(datadir)/MateConf/gsettings
+convert_DATA = pluma-plugins-drawspaces.convert
 
-EXTRA_DIST = $(ui_DATA) $(schemas_in_files)
+EXTRA_DIST = $(ui_DATA) $(convert_DATA)
 
-CLEANFILES = $(plugin_DATA) $(schemas_DATA)
-DISTCLEANFILES = $(plugin_DATA) $(schemas_DATA)
+CLEANFILES = $(plugin_DATA)
+DISTCLEANFILES = $(plugin_DATA)
 
 -include $(top_srcdir)/git.mk
