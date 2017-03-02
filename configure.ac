@@ -78,7 +78,7 @@ GLIB_GSETTINGS
 # ================================================================
 
 #FIXME
-PLUMA_HAS_PYTHON=1
+#PLUMA_HAS_PYTHON=1
 #/FIXME
 
 AC_MSG_CHECKING([which plugins to build])
