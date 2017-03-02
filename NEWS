@@ -1,3 +1,11 @@
+====================
+pluma-plugins 1.16.0
+====================
+
+Port to GTK+3.
+Fix trivial deprecations; GtkAction and GtkUIManager still remain.
+Disable python plugins until libpeas-based Pluma 1.18.
+
 ===================
 pluma-plugins 1.8.0
 ===================
