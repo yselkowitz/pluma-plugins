@@ -1,10 +1,12 @@
 Makefile
 Makefile.in
 aclocal.m4
+compile
 config.cache
 config.guess
 config.h
 config.h.in
+config.h.in~
 config.log
 config.status
 config.sub
@@ -36,3 +38,4 @@ MATE_*
 stamp-h1
 autom4te.cache
 autom4te-2.53.cache
+*.gschema.valid
