@@ -51,7 +51,7 @@ typedef struct _PlumaCharmapPanel		PlumaCharmapPanel;
 
 struct _PlumaCharmapPanel
 {
-	GtkVBox parent_instance;
+	GtkBox parent_instance;
 
 	/*< private > */
 	PlumaCharmapPanelPrivate *priv;
@@ -64,7 +64,7 @@ typedef struct _PlumaCharmapPanelClass	PlumaCharmapPanelClass;
 
 struct _PlumaCharmapPanelClass
 {
-	GtkVBoxClass parent_class;
+	GtkBoxClass parent_class;
 };
 
 /*

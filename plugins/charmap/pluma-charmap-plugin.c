@@ -258,7 +258,7 @@ impl_activate (PlumaPlugin *plugin,
 			      _("Character Map"),
 			      image);
 
-	gtk_object_sink (GTK_OBJECT (image));
+	g_object_ref_sink (G_OBJECT (image));
 
 	statusbar = GTK_STATUSBAR (pluma_window_get_statusbar (window));
 	data->context_id = gtk_statusbar_get_context_id (statusbar,

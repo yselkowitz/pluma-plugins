@@ -38,7 +38,7 @@ struct _PlumaCharmapPanelPrivate
 	GucharmapChartable *chartable;
 };
 
-PLUMA_PLUGIN_DEFINE_TYPE(PlumaCharmapPanel, pluma_charmap_panel, GTK_TYPE_VBOX)
+PLUMA_PLUGIN_DEFINE_TYPE(PlumaCharmapPanel, pluma_charmap_panel, GTK_TYPE_BOX)
 
 static void
 on_chapter_view_selection_changed (GtkTreeSelection *selection,
@@ -67,7 +67,7 @@ pluma_charmap_panel_init (PlumaCharmapPanel *panel)
 
 	priv = panel->priv = PLUMA_CHARMAP_PANEL_GET_PRIVATE (panel);
 
-	paned = GTK_PANED (gtk_vpaned_new ());
+	paned = GTK_PANED (gtk_paned_new (GTK_ORIENTATION_VERTICAL));
 
 	scrolled_window = gtk_scrolled_window_new (NULL, NULL);
 	gtk_scrolled_window_set_policy (GTK_SCROLLED_WINDOW (scrolled_window),
