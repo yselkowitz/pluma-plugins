@@ -28,7 +28,7 @@
 #include <pluma/pluma-window.h>
 #include <pluma/pluma-view.h>
 #include <pluma/pluma-tab.h>
-#include <gtksourceview/gtksourcecompletionprovider.h>
+#include <gtksourceview/gtksourcecompletion.h>
 #include <gtksourceview/completion-providers/words/gtksourcecompletionwords.h>
 
 #define WINDOW_DATA_KEY "PlumaWordCompletionPluginWindowData"
