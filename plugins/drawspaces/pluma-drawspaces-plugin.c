@@ -456,7 +456,7 @@ impl_deactivate	(PlumaPlugin *plugin,
 }
 
 static void
-dialog_destroyed (GtkObject *obj, gpointer dialog_pointer)
+dialog_destroyed (GObject *obj, gpointer dialog_pointer)
 {
 	pluma_debug (DEBUG_PLUGINS);
 
@@ -508,14 +508,13 @@ get_configuration_dialog (PlumaDrawspacesPlugin *plugin)
 		dialog_error = gtk_dialog_new_with_buttons (_("Error dialog"),
 							    NULL,
 							    GTK_DIALOG_DESTROY_WITH_PARENT,
-							    GTK_STOCK_CLOSE,
+							    "_Close",
 							    GTK_RESPONSE_CLOSE,
 							    NULL);
 		content = gtk_dialog_get_content_area (GTK_DIALOG (dialog_error));
 		gtk_widget_show (error_widget);
 
-		gtk_box_pack_start_defaults (GTK_BOX (content),
-					     error_widget);
+		gtk_box_pack_start (GTK_BOX (content), error_widget, TRUE, TRUE, 0);
 		gtk_widget_show (dialog_error);
 		gtk_dialog_run (GTK_DIALOG (dialog_error));
 		gtk_widget_destroy (dialog_error);
