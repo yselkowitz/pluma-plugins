@@ -62,9 +62,9 @@ AM_GLIB_GNU_GETTEXT
 PKG_CHECK_MODULES(PLUMA, [
 	glib-2.0 >= 2.26.0
 	gio-2.0 >= 2.26.0
-	gtk+-2.0 >= 2.13.0
-	gtksourceview-2.0 >= 2.9.1
-	pluma >= 1.2.0
+	gtk+-3.0
+	gtksourceview-3.0
+	pluma >= 1.16.0
 ])
 
 # ================================================================
@@ -317,7 +317,7 @@ plugin_defined charmap
 if test "$?" = 1
 then
 	PKG_CHECK_MODULES([GUCHARMAP],
-		[gucharmap-2],
+		[gucharmap-2.90],
 		[have_gucharmap=yes],[have_gucharmap=no])
 
 	AC_SUBST([GUCHARMAP_CFLAGS])
