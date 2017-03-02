@@ -24,8 +24,10 @@
 
 #include "pluma-bookmarks-plugin.h"
 
-#include <gtk/gtk.h>
+#include <stdlib.h>	/* atoi */
 #include <glib/gi18n-lib.h>
+#include <gtk/gtk.h>
+#include <gtksourceview/gtksource.h>
 #include <pluma/pluma-debug.h>
 #include <pluma/pluma-window.h>
 #include <pluma/pluma-panel.h>
@@ -42,6 +44,8 @@
 #define BOOKMARKS_DATA(window) ((WindowData *)(g_object_get_data (G_OBJECT (window), WINDOW_DATA_KEY)))
 
 #define BOOKMARK_CATEGORY "PlumaBookmarksPluginBookmark"
+#define BOOKMARK_PRIORITY 1
+
 #define INSERT_DATA_KEY "PlumaBookmarksInsertData"
 #define METADATA_ATTR "metadata::pluma-bookmarks"
 
@@ -60,7 +64,6 @@ typedef struct
 	guint user_action;
 } InsertData;
 
-static void update_background_color		(PlumaView   *view);
 static void on_style_scheme_notify		(GObject     *object,
 						 GParamSpec  *pspec,
 						 PlumaView   *view);
@@ -246,6 +249,36 @@ get_bookmark_pixbuf (PlumaPlugin *plugin)
 }
 
 static void
+update_background_color (GtkSourceMarkAttributes *attrs, GtkSourceBuffer *buffer)
+{
+	GtkSourceStyleScheme *scheme;
+	GtkSourceStyle *style;
+
+	scheme = gtk_source_buffer_get_style_scheme (buffer);
+	style = gtk_source_style_scheme_get_style (scheme, "search-match");
+
+	if (style)
+	{
+		gboolean bgset;
+		gchar *bg;
+
+		g_object_get (style, "background-set", &bgset, "background", &bg, NULL);
+
+		if (bgset)
+		{
+			GdkRGBA color;
+			gdk_rgba_parse (&color, bg);
+			gtk_source_mark_attributes_set_background (attrs, &color);
+			g_free (bg);
+
+			return;
+		}
+	}
+
+	gtk_source_mark_attributes_set_background (attrs, NULL);
+}
+
+static void
 enable_bookmarks (PlumaView   *view,
 		  PlumaPlugin *plugin)
 {
@@ -256,14 +289,21 @@ enable_bookmarks (PlumaView   *view,
 	/* Make sure the category pixbuf is set */
 	if (pixbuf)
 	{
+		GtkSourceMarkAttributes *attrs;
+		GtkTextBuffer *buffer;
 		InsertData *data;
-		GtkTextBuffer *buffer = gtk_text_view_get_buffer (GTK_TEXT_VIEW (view));
 
-		update_background_color (view);
-		gtk_source_view_set_mark_category_icon_from_pixbuf (GTK_SOURCE_VIEW (view),
-								    BOOKMARK_CATEGORY,
-								    pixbuf);
+		attrs = gtk_source_mark_attributes_new ();
+		buffer = gtk_text_view_get_buffer (GTK_TEXT_VIEW (view));
+
+		update_background_color (attrs, GTK_SOURCE_BUFFER(buffer));
+		gtk_source_mark_attributes_set_pixbuf (attrs, pixbuf);
 		g_object_unref (pixbuf);
+
+		gtk_source_view_set_mark_attributes (GTK_SOURCE_VIEW (view),
+						     BOOKMARK_CATEGORY,
+						     attrs,
+						     BOOKMARK_PRIORITY);
 
 		gtk_source_view_set_show_line_marks (GTK_SOURCE_VIEW (view), TRUE);
 
@@ -594,7 +634,7 @@ install_messages (PlumaWindow *window)
 	                            MESSAGE_OBJECT_PATH,
 	                           "toggle",
 	                            2,
-	                            "view", GTK_TYPE_SOURCE_VIEW,
+	                            "view", GTK_SOURCE_TYPE_VIEW,
 	                            "iter", GTK_TYPE_TEXT_ITER,
 				    NULL);
 
@@ -602,7 +642,7 @@ install_messages (PlumaWindow *window)
 	                            MESSAGE_OBJECT_PATH,
 	                            "add",
 	                            2,
-	                            "view", GTK_TYPE_SOURCE_VIEW,
+	                            "view", GTK_SOURCE_TYPE_VIEW,
 	                            "iter", GTK_TYPE_TEXT_ITER,
 				    NULL);
 
@@ -610,7 +650,7 @@ install_messages (PlumaWindow *window)
 	                            MESSAGE_OBJECT_PATH,
 	                            "remove",
 	                            2,
-	                            "view", GTK_TYPE_SOURCE_VIEW,
+	                            "view", GTK_SOURCE_TYPE_VIEW,
 	                            "iter", GTK_TYPE_TEXT_ITER,
 				    NULL);
 
@@ -618,7 +658,7 @@ install_messages (PlumaWindow *window)
 	                            MESSAGE_OBJECT_PATH,
 	                            "goto_next",
 	                            2,
-	                            "view", GTK_TYPE_SOURCE_VIEW,
+	                            "view", GTK_SOURCE_TYPE_VIEW,
 	                            "iter", GTK_TYPE_TEXT_ITER,
 				    NULL);
 
@@ -626,7 +666,7 @@ install_messages (PlumaWindow *window)
 	                            MESSAGE_OBJECT_PATH,
 	                            "goto_previous",
 	                            2,
-	                            "view", GTK_TYPE_SOURCE_VIEW,
+	                            "view", GTK_SOURCE_TYPE_VIEW,
 	                            "iter", GTK_TYPE_TEXT_ITER,
 				    NULL);
 
@@ -771,49 +811,15 @@ pluma_bookmarks_plugin_class_init (PlumaBookmarksPluginClass *klass)
 }
 
 static void
-update_background_color (PlumaView *view)
-{
-	GtkSourceView *source_view = GTK_SOURCE_VIEW (view);
-	GtkSourceStyle *style;
-	GtkSourceStyleScheme *scheme;
-	GtkTextBuffer *buffer;
-
-	buffer = gtk_text_view_get_buffer (GTK_TEXT_VIEW (view));
-
-	scheme = gtk_source_buffer_get_style_scheme (GTK_SOURCE_BUFFER (buffer));
-	style = gtk_source_style_scheme_get_style (scheme, "search-match");
-
-	if (style)
-	{
-		gboolean bgset;
-		gchar *bg;
-
-		g_object_get (style, "background-set", &bgset, "background", &bg, NULL);
-
-		if (bgset)
-		{
-			GdkColor color;
-			gdk_color_parse (bg, &color);
-			gtk_source_view_set_mark_category_background (source_view,
-								      BOOKMARK_CATEGORY,
-								      &color);
-			g_free (bg);
-
-			return;
-		}
-	}
-
-	gtk_source_view_set_mark_category_background (source_view,
-						      BOOKMARK_CATEGORY,
-						      NULL);
-}
-
-static void
 on_style_scheme_notify (GObject     *object,
 			GParamSpec  *pspec,
 			PlumaView   *view)
 {
-	update_background_color (view);
+	GtkSourceMarkAttributes *attrs;
+	attrs = gtk_source_view_get_mark_attributes (GTK_SOURCE_VIEW (view),
+						     BOOKMARK_CATEGORY,
+						     NULL);
+	update_background_color (attrs, GTK_SOURCE_BUFFER(object));
 }
 
 static void
